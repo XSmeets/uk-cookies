@@ -1,0 +1,79 @@
+{
+    "cas.sk": {
+        "/": {
+            "cf_clearance": {
+                "name": "cf_clearance",
+                "domain": ".cas.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060631709,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596631.708916,
+                        "expiry": 31536000.70891595,
+                        "value": "HCzsBTuZ.5bd19fjOP_5qqxQG17yjnjS4G6H40u7ZUM-1726060631-1.2.1.1-elf6KlPbSKSQIuvEAx9CHaKvdEIN0ZvhftNDcPvW5qKV_ot7uUWhAFcEgACLyDURKlQ3LKV4KPLibq8mfvXr1aS2v1Ilox1jdufcsF6_EjhhgsXtpfFh6Lg2qiyIf6XqVgcc.CKCF8b7wpLt6oOF4GNXYxzxk_jRUCs253ayxjFXcCXX9UKlNJjrU1QrC0OHcEqko4U18Kr0p3sWmvQNjt7QT_RnyclKb4bgy7w06Hq_oEwuP15CaRgQmbafPvUuIFuneS2_3GZXhD9CviGuFbIF.ECgj8wKBI13Z65GAdr3yLQp_ld0dTtavht1bjrq5gvqwMcJ3MXVoUAUQRN9QFitnMBrwrCgeIkdPWYPNdCAHvra7x8ZrmnNCq5ArW19IR2Nnr7KEt7n135njpCwnA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060631709
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".cas.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060631808,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757683031,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTEzYjEtNmZiYS02ZTM5LWJkZTctMTVhYWQ0YjNiZmQ2IiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTM6MTc6MTEuODAzWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDEzOjE3OjExLjgwM1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726060631804
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTEzYjEtNmZiYS02ZTM5LWJkZTctMTVhYWQ0YjNiZmQ2IiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTM6MTc6MTEuODAzWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDEzOjE3OjI1LjA2N1oiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsInR3aXR0ZXIiLCJjOnpvem5hbSIsImM6cjJiMiIsImM6amFnYS1wb2hvZG8iLCJjOm5vdnljYXMiLCJjOnlvdXR1YmUiLCJjOmhvdGphciIsImM6cmVkZGl0LWJ1dHRvbnMiLCJjOnJlZGRpdCIsImM6cHJlZHByZWRhaiIsImM6dGlrdG9rLUtaQVVRTFo5IiwiYzpmbG91cmlzaCIsImM6d2luZHkiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6aW5zdGFncmFtIiwiYzpwbGF5d2lyZWwtWXpyVTRkTmIiLCJjOnNwb3R4aW5jLXdpQ0VmTHluIl19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImdlb19hZHMiLCJnZW9fbWFya2V0aW5nX3N0dWRpZXMiXX0sInZlcnNpb24iOjIsImFjIjoiQUFBQS5BQUFBIn0=",
+                        "same_site": "lax",
+                        "timestamp": 1726060645081
+                    }
+                ]
+            },
+            "euconsent-v2-didomi": {
+                "name": "euconsent-v2-didomi",
+                "domain": ".cas.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060645088,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757683045,
+                        "expiry": 31622400,
+                        "value": "CQEyKcAQEyKcAAHABBENBGFgAAAAAAAAACRQAAAAAACkoAMAAQU1KQAYAAgpqOgAwABBTUhABgACCmoSADAAEFNQ.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726060645082
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060388999,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061288.992838,
+                        "expiry": 900.9928379058838,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060388993
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 901.9929819107056,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060388999
+                    }
+                ]
+            }
+        }
+    },
+    "topky.sk": {
+        "/": {
+            "cf_clearance": {
+                "name": "cf_clearance",
+                "domain": ".topky.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060388623,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596388.622736,
+                        "expiry": 31536000.622735977,
+                        "value": "P9ELlv1Y56SQn4dU7FJBC7mjyb7thP_MLnHLih4Q1tg-1726060388-1.2.1.1-iUtClg_kRFIinbxks.EQJm.LZEXo9ZBlBhv5jNWdfzimOz9JNz1_cpqg_akZgg8xPk0KeREFjz6Z6noBQnVPul6tdKFXDitl0GWshEs2hh6Qb2B4s0MYtqUtPJ4Gv1DXe.rJ9c004lmDYeU_hBi3FnTCoNUWsdkAIkvpZWMxZ61CdUgUCPJSOeZ990Jth1h0XSDM3WZM8rbvyEJt9_UVxD.Qg5nUkX05EjP8AwrBKucbMzYSYlptK3fkAsLasuYF06G8bjL7dkw.XKl56fCVaQCTTYyhEjN_quC7pefw.nDKy7awQW8jaYeVsHnyt8VqddAHP6GMbeuWHAheVRefEU.9D7eOuYp9JIw5vSOsp5uPLSs332cMgMFfHmExSy4T3Zp7yEk4Gcor6q4QhCGl7w",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060388623
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".topky.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060388686,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757682788,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTEzNzYtMTQ4NS02MDZlLWEzNDQtMzQ0MTMxOTQ5YzAxIiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTM6MTM6MDguNjgwWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDEzOjEzOjA4LjY4MFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726060388681
+                    }
+                ]
+            }
+        }
+    }
+}

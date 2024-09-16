@@ -1,0 +1,100 @@
+{
+    "amazon.se": {
+        "/": {
+            "i18n-prefs": {
+                "name": "i18n-prefs",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726149930042,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757685928.981559,
+                        "expiry": 31535998.98155904,
+                        "value": "SEK",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149930038
+                    }
+                ]
+            },
+            "session-id-time": {
+                "name": "session-id-time",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149930038,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685928.981541,
+                        "expiry": 31535998.98154092,
+                        "value": "2082787201l",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149930037
+                    }
+                ]
+            },
+            "session-id": {
+                "name": "session-id",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149930036,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685928.981443,
+                        "expiry": 31535998.98144293,
+                        "value": "260-1612363-3046635",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149930036
+                    }
+                ]
+            },
+            "csm-hit": {
+                "name": "csm-hit",
+                "domain": "www.amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149929256,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1756389929,
+                        "expiry": 30240000,
+                        "value": "tb:s-RTVC3A7EKDBS6NF4036P|1726149929253&t:1726149929253",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149929255
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:s-RTVC3A7EKDBS6NF4036P|1726149929253&t:1726149929884&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149929885
+                    }
+                ]
+            }
+        }
+    }
+}

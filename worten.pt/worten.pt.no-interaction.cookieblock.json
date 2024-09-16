@@ -1,0 +1,384 @@
+{
+    "worten.pt": {
+        "/": {
+            "cf_clearance": {
+                "name": "cf_clearance",
+                "domain": ".worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145274630,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681274.629562,
+                        "expiry": 31536000.6295619,
+                        "value": "ExNem__CyeGTRCDxTM4Avof5AM.yPoDwmRWcxUjlBQE-1726145272-1.2.1.1-JGg3jB2FSJAnRVb8Y1ELxYDXCapyPZwEz.HkSJSWPM1jWGLsnbWRMGuSesOfUurkAZwfoZN8i.4AWQ0X8iiXUEheZVCf6cDTEgY1rHxIuBQbzUID_n_ow6Ra_SkqGpNsC5W87RAzXBho2qLXIUzxstTiyzRlLXF39AjssdrYuKQMbVkBcy1yj0J64IcamXJNV3toERN9hqaYcdin.NOFK8.9GNqLdgR6exr9ESqbteqCHJz8kNTRrbPIQImKdzzzs2vFlhiP7FaJ4jyLhAZoE2_EM3L3rHUhTIGGCKcjuSmjsSLCjC_FivNJPuVD71HpnhdRxZuNR234zPL8flMHManLhF3nmLQbDd8esOoT6OmQQgX1WEpvwNQOOTqodUDDLndcuy5DH_zoEqlYexUm15cr4uG7QVHBF0nZdpUjcAXVae3xAlZ85h9bdUI_4WdM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145274630
+                    }
+                ]
+            },
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145274988,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760705274.987801,
+                        "expiry": 34560000.987801075,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145274988
+                    }
+                ]
+            },
+            "WDT-filter-old-client-area-routes": {
+                "name": "WDT-filter-old-client-area-routes",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275951,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "/myDashboard,/myCredits,/myOrders,/myCoupons",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275950
+                    }
+                ]
+            },
+            "feature-search-default-category-breadcrumbs": {
+                "name": "feature-search-default-category-breadcrumbs",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275949,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009575,
+                        "expiry": 864300,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275949
+                    }
+                ]
+            },
+            "feature_allow_services_for_marketplace": {
+                "name": "feature_allow_services_for_marketplace",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275950,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275950
+                    }
+                ]
+            },
+            "feature_client_area_resolve_repair_form": {
+                "name": "feature_client_area_resolve_repair_form",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275945,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009575,
+                        "expiry": 864300,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275944
+                    }
+                ]
+            },
+            "feature_client_area_resolve_services": {
+                "name": "feature_client_area_resolve_services",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275955,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145275954
+                    }
+                ]
+            },
+            "feature_mandrake_consents": {
+                "name": "feature_mandrake_consents",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275952,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275951
+                    }
+                ]
+            },
+            "feature_new_sced_on": {
+                "name": "feature_new_sced_on",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275954,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275954
+                    }
+                ]
+            },
+            "feature_use_mandrake_fetch_resolve": {
+                "name": "feature_use_mandrake_fetch_resolve",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275950,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275949
+                    }
+                ]
+            },
+            "feature_use_mandrake_newsletters": {
+                "name": "feature_use_mandrake_newsletters",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275954,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275953
+                    }
+                ]
+            },
+            "is_long_tail_items_active": {
+                "name": "is_long_tail_items_active",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275947,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275947
+                    }
+                ]
+            },
+            "is_sced_feature_active": {
+                "name": "is_sced_feature_active",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275947,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275946
+                    }
+                ]
+            },
+            "sales_features": {
+                "name": "sales_features",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275946,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "air_conditioning",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275945
+                    }
+                ]
+            },
+            "sts": {
+                "name": "sts",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275022,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681275.016147,
+                        "expiry": 31536000.0161469,
+                        "value": "0f15369601a0323433fd65c20b346978c6d9cb112f1e97a9173fb0984e390635",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145275017
+                    }
+                ]
+            },
+            "suggestions_behavior": {
+                "name": "suggestions_behavior",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275949,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009575,
+                        "expiry": 864300,
+                        "value": "with_categories,ignore_analytics,cms_categories",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275948
+                    }
+                ]
+            },
+            "with_categories": {
+                "name": "with_categories",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145275951,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727009275,
+                        "expiry": 864000,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145275951
+                    }
+                ]
+            },
+            "wrand": {
+                "name": "wrand",
+                "domain": "www.worten.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145274760,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681274.75529,
+                        "expiry": 31536000.75529003,
+                        "value": "31",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145274755
+                    }
+                ]
+            }
+        }
+    }
+}

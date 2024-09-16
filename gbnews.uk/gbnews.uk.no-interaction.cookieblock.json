@@ -1,0 +1,900 @@
+{
+    "cxense.com": {
+        "/": {
+            "gckp": {
+                "name": "gckp",
+                "domain": ".cxense.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726221833978,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757757833.976519,
+                        "expiry": 31536000.976519108,
+                        "value": "evhkuxllb7e53qh2aj8s6d9wb",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726221833976
+                    }
+                ]
+            }
+        }
+    },
+    "gbnews.com": {
+        "/": {
+            "__pat": {
+                "name": "__pat",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726221834242,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728813834,
+                        "expiry": 2592000,
+                        "value": "0",
+                        "same_site": "lax",
+                        "timestamp": 1726221834242
+                    }
+                ]
+            },
+            "__pid": {
+                "name": "__pid",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726221834157,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728813834,
+                        "expiry": 2592000,
+                        "value": ".gbnews.com",
+                        "same_site": "lax",
+                        "timestamp": 1726221834157
+                    }
+                ]
+            },
+            "__pvi": {
+                "name": "__pvi",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834243,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726308234,
+                        "expiry": 86400,
+                        "value": "eyJpZCI6InYtbTEwandybmpyNnd0YjA2YSIsImRvbWFpbiI6Ii5nYm5ld3MuY29tIiwidGltZSI6MTcyNjIyMTgzNDIzOX0%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726221834242
+                    }
+                ]
+            },
+            "__tbc": {
+                "name": "__tbc",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834241,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760781834.239168,
+                        "expiry": 34560000.23916793,
+                        "value": "%7Bkpex%7DawAuMD5TeOW5md_DKu694PTqIyjZ7BxslnLdv79UFZape9fEf9mE2oziwurmzgxk",
+                        "same_site": "lax",
+                        "timestamp": 1726221834240
+                    }
+                ]
+            },
+            "_cb": {
+                "name": "_cb",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726221833814,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": "BfJ4NtDOB-rWDyMXDw",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833813
+                    }
+                ]
+            },
+            "_cb_svref": {
+                "name": "_cb_svref",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833816,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726223633,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833816
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833817
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726221833811,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833810
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833812
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833817
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833861
+                    }
+                ]
+            },
+            "_chartbeat2": {
+                "name": "_chartbeat2",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726221833815,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": ".1726221833812.1726221833812.1.8lxO1C6K3iyDyysVgByqqpLBU2vkm.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833814
+                    }
+                ]
+            },
+            "_chartbeat4": {
+                "name": "_chartbeat4",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726221834294,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726221894,
+                        "expiry": 60,
+                        "value": "t=BDg0ZotIP5NClrtX4Bk4NMGDduUn_&E=0&x=0&c=0.01&y=18645&w=890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834292
+                    }
+                ]
+            },
+            "_cookie_test": {
+                "name": "_cookie_test",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833831,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrjvi1o61j",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833852
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrk9vboync",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833865
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrmu7pb9t8",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833959
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrnaomt0b2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833975
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrnbtjhb3s",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833976
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrnhcjc22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833981
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwroy5j04rx",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834035
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrun7214w5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834242
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrv2q38o8l",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834255
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m10jwrw4kr9zbe",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834294
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726221833885,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733997833,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726221833884.4819714710918564",
+                        "same_site": "lax",
+                        "timestamp": 1726221833884
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726221833791,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760781833.782419,
+                        "expiry": 34560000.78241897,
+                        "value": "GA1.1.1883869641.1726221834",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833791
+                    }
+                ]
+            },
+            "_ga_DW1ND0FD0L": {
+                "name": "_ga_DW1ND0FD0L",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726221833790,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760781833.78222,
+                        "expiry": 34560000.78221989,
+                        "value": "GS1.1.1726221833.1.0.1726221833.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833786
+                    }
+                ]
+            },
+            "_pctx": {
+                "name": "_pctx",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833838,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXQF8g",
+                        "same_site": "lax",
+                        "timestamp": 1726221833837
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAOaUAnmAAcANwBeAH34BGAAwArAO4wV0kAF8gA",
+                        "same_site": "lax",
+                        "timestamp": 1726221833855
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAOaUAnmAAcANwBeAH34BGAAwArAO4wV0kAF8gA",
+                        "same_site": "lax",
+                        "timestamp": 1726221833856
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIFYAObgFl65cAnLwDMABl5DRXUSNogA%2BvjIBbAOaUAnmC4A3AF4AfVQEZxAKwDuMCwZABfIA",
+                        "same_site": "lax",
+                        "timestamp": 1726221833981
+                    }
+                ]
+            },
+            "_vf_rd_test_1726221834233": {
+                "name": "_vf_rd_test_1726221834233",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834235,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_test_1726221834233",
+                        "same_site": "lax",
+                        "timestamp": 1726221834233
+                    }
+                ]
+            },
+            "_vfa": {
+                "name": "_vfa",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834237,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757757834.233935,
+                        "expiry": 31536000.233935118,
+                        "value": "www%2Egbnews%2Ecom.00000000-0000-4000-8000-d9187a288918.6d65065e-649a-4492-a8ff-cacf7a589d15.1726221834.1726221834.1726221834.1",
+                        "same_site": "lax",
+                        "timestamp": 1726221834236
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.23713398,
+                        "value": "www%2Egbnews%2Ecom.00000000-0000-4000-8000-d9187a288918.6d65065e-649a-4492-a8ff-cacf7a589d15.1726221834.1726221834.1726221834.1",
+                        "same_site": "lax",
+                        "timestamp": 1726221834239
+                    }
+                ]
+            },
+            "_vfb": {
+                "name": "_vfb",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834236,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726223634.233428,
+                        "expiry": 1800.2334280014038,
+                        "value": "www%2Egbnews%2Ecom.00000000-0000-4000-8000-d9187a288918.1.10.1726221834....",
+                        "same_site": "lax",
+                        "timestamp": 1726221834235
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.2369229793549,
+                        "value": "www%2Egbnews%2Ecom.00000000-0000-4000-8000-d9187a288918.2.10.1726221834....",
+                        "same_site": "lax",
+                        "timestamp": 1726221834239
+                    }
+                ]
+            },
+            "_vfz": {
+                "name": "_vfz",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834237,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726222194.234375,
+                        "expiry": 360.234375,
+                        "value": "www%2Egbnews%2Ecom.00000000-0000-4000-8000-d9187a288918.1726221834.1.medium=direct|source=|sharer_uuid=|terms=",
+                        "same_site": "lax",
+                        "timestamp": 1726221834237
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 360.23735189437866,
+                        "value": "www%2Egbnews%2Ecom.00000000-0000-4000-8000-d9187a288918.1726221834.1.medium=direct|source=|sharer_uuid=|terms=",
+                        "same_site": "lax",
+                        "timestamp": 1726221834239
+                    }
+                ]
+            },
+            "cX_P": {
+                "name": "cX_P",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833866,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": "m10jwrjfxbjy5beg",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221833866
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "m10jwrjfxbjy5beg",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834255
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "m10jwrjfxbjy5beg",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834294
+                    }
+                ]
+            },
+            "xbc": {
+                "name": "xbc",
+                "domain": ".gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834243,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760781834.240918,
+                        "expiry": 34560000.24091792,
+                        "value": "%7Bkpex%7D-B363-JJKP2wxTidYZOBCLzIH_pPs8sUrQLEjXeg-pUkvDVX-Ai090txHZmcWWihP7eNtoaXTljwb93dRQafZc1HYCNnrMeBctsfrer0BFI",
+                        "same_site": "lax",
+                        "timestamp": 1726221834243
+                    }
+                ]
+            },
+            "__adblocker": {
+                "name": "__adblocker",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834153,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726222134,
+                        "expiry": 300,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834152
+                    }
+                ]
+            },
+            "__pnahc": {
+                "name": "__pnahc",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834158,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734001434,
+                        "expiry": 7779600,
+                        "value": "0",
+                        "same_site": "lax",
+                        "timestamp": 1726221834158
+                    }
+                ]
+            },
+            "_pcid": {
+                "name": "_pcid",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833860,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m10jwrjfxbjy5beg%22%2C%22_t%22%3A%22mgoyu8w2%7Cm10jwrk2%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726221833859
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834203,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757757834.20315,
+                        "expiry": 31536000.203150034,
+                        "value": "d56a33d8-765b-4123-9915-2c40e578e447",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726221834203
+                    }
+                ]
+            },
+            "pa_privacy": {
+                "name": "pa_privacy",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833857,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": "%22optin%22",
+                        "same_site": "lax",
+                        "timestamp": 1726221833856
+                    }
+                ]
+            },
+            "pa_user": {
+                "name": "pa_user",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833858,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760349833,
+                        "expiry": 34128000,
+                        "value": "%7B%22category%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726221833857
+                    }
+                ]
+            },
+            "pnespsdk_ssn": {
+                "name": "pnespsdk_ssn",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221834276,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%7B%22%24s%22%3A1726221834275%2C%22visitNumber%22%3A1%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834276
+                    }
+                ]
+            },
+            "pnespsdk_visitor": {
+                "name": "pnespsdk_visitor",
+                "domain": "www.gbnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726221834278,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757757834,
+                        "expiry": 31536000,
+                        "value": "ila913p5kqvuw1qs",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834277
+                    }
+                ]
+            }
+        }
+    },
+    "gbnews.uk": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".gbnews.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833414,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726223633.413439,
+                        "expiry": 1800.4134390354156,
+                        "value": "m8XlJ5B6H708NZiFuqtKj6k5ZGvb9oV1HCW3F54BVY8-1726221833-1.0.1.1-ZPo4lKvPmIofV2h4kX1Q1nWF91DCMr3pKzStPHM0P1a7hfPFvBeNfV0x6vcSvSERZifczGF8G0jbKM4hfHePLg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726221833414
+                    }
+                ]
+            }
+        }
+    },
+    "piano.io": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".piano.io",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221833838,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726223633.83787,
+                        "expiry": 1800.8378698825836,
+                        "value": "1nNPFTSsGgcJIA8PECjv1Zm58pJGSM6aOhH5mG0wPf4-1726221833-1.0.1.1-R4MWBu7VKrZs26GqKr.H.unGjVKuZO0XV165zNR.YE1emUWM2abQg.1Pr7FMSVPFAAHtIXVdlRZLuX_6yKnvuQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726221833838
+                    }
+                ]
+            }
+        }
+    },
+    "auth.gbnews.com": {
+        "/id/": {
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "auth.gbnews.com",
+                "path": "/id/",
+                "current_label": 0,
+                "label_ts": 1726221834148,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726394634.147612,
+                        "expiry": 172800.14761209488,
+                        "value": "1726221835.186.28.459847|60c366e42809c04f4b7f6d8149adc60b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221834148
+                    }
+                ]
+            }
+        }
+    }
+}

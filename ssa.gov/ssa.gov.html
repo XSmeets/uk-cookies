@@ -1,0 +1,1823 @@
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class=" js"><head>
+  <meta charset="utf-8"><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-VSSTFV3FKR&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TL5XBDT&amp;l=dataLayer"></script><script type="text/javascript" async="" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js"></script><script src="https://www.googletagmanager.com/gtm.js?id=GTM-5GQXH7Q" async=""></script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-469e5c3a62582fe4b9d",applicationID:"1222707131"};;/*! For license information please see nr-loader-rum-1.265.1.min.js.LICENSE.txt */
+(()=>{var e,t,r={8122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{if(null===e[a]){r[a]=null;continue}Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555:(e,t,r)=>{"use strict";r.d(t,{Vp:()=>c,fn:()=>s,x1:()=>u});var n=r(384),i=r(8122);const o={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){try{const t=c(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}function c(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function u(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.a)(t,o);const r=(0,n.nY)(e);r&&(r.info=a[e])}},9417:(e,t,r)=>{"use strict";r.d(t,{D0:()=>g,gD:()=>h,xN:()=>p});var n=r(993);const i=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var o=r(2614),a=r(944),s=r(384),c=r(8122);const u="[data-nr-mask]",d=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},feature_flags:[],generic_events:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},harvest:{tooManyRequestsDelay:60},jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},logging:{enabled:!0,harvestTimeSeconds:10,autoStart:!0,level:n.p_.INFO},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:o.wk,inactiveMs:o.BB},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){i(t)?e.mask_selector="".concat(t,",").concat(u):""===t||null===t?e.mask_selector=u:(0,a.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){i(t)?e.block_selector+=",".concat(t):""!==t&&(0,a.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,a.R)(7,t)}},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},ssl:void 0}},l={},f="All configuration objects require an agent identifier!";function g(e){if(!e)throw new Error(f);if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function p(e,t){if(!e)throw new Error(f);l[e]=(0,c.a)(t,d());const r=(0,s.nY)(e);r&&(r.init=l[e])}function h(e,t){if(!e)throw new Error(f);var r=g(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}},3371:(e,t,r)=>{"use strict";r.d(t,{V:()=>f,f:()=>l});var n=r(8122),i=r(384),o=r(6154),a=r(9324);let s=0;const c={buildEnv:a.F3,distMethod:a.Xs,version:a.xv,originTime:o.WN},u={customTransaction:void 0,disabled:!1,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,onerror:void 0,origin:""+o.gm.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,denyList:void 0,timeKeeper:void 0,obfuscator:void 0},d={};function l(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!d[e])throw new Error("Runtime for ".concat(e," was never set"));return d[e]}function f(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");d[e]={...(0,n.a)(t,u),...c},Object.hasOwnProperty.call(d[e],"harvestCount")||Object.defineProperty(d[e],"harvestCount",{get:()=>++s});const r=(0,i.nY)(e);r&&(r.runtime=d[e])}},9324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>o,xv:()=>n});const n="1.265.1",i="PROD",o="CDN"},6154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,Vr:()=>d,WN:()=>l,bv:()=>o,gm:()=>a,mw:()=>s,sb:()=>u});var n=r(1863);const i="undefined"!=typeof window&&!!window.document,o="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===a?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(a.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),!!a.navigator?.sendBeacon),l=Date.now()-(0,n.t)()},4777:(e,t,r)=>{"use strict";r.d(t,{J:()=>o});var n=r(944);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.R)(8);this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((([e,t])=>{Object.keys(i).includes(e)&&(this.sharedContext[e]=t)}))}catch(e){(0,n.R)(9,e)}}}},1687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>c,Ze:()=>l,x3:()=>u});var n=r(7836),i=r(3606),o=r(860),a=r(2646);const s={};function c(e,t){const r={staged:!1,priority:o.P[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){e&&s[e]&&(s[e].get(t)&&s[e].delete(t),g(e,t,!1),s[e].size&&f(e))}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(e="",t="feature",r=!1){if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=Array.from(s[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{s[e].delete(t),g(e,t)})))}function g(e,t,r=!0){const o=e?n.ee.get(e):n.ee,s=i.i.handlers;if(!o.aborted&&o.backlog&&s){if(r){const e=o.backlog[t],r=s[t];if(r){for(let t=0;e&&t<e.length;++t)p(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof a.y&&t[0].on(e,t[1])}))}))}}o.isolatedBacklog||delete s[t],o.backlog[t]=null,o.emit("drain-"+t,[])}}function p(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],o=e[2];n.apply(i,o)}}))}},7836:(e,t,r)=>{"use strict";r.d(t,{P:()=>c,ee:()=>u});var n=r(384),i=r(8990),o=r(3371),a=r(2646),s=r(5607);const c="nr@context:".concat(s.W),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.f)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=v()[s[e]];p&&p.push([f,e,r,a]);return a},get:m,listeners:h,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{s[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,c,(()=>new a.y(c))):new a.y(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.Zm)();d.ee||(d.ee=u)},2646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606:(e,t,r)=>{"use strict";r.d(t,{i:()=>o});var n=r(9908);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.d,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.d);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3878:(e,t,r)=>{"use strict";r.d(t,{DD:()=>c,jT:()=>a,sp:()=>s});var n=r(6154);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n.gm.addEventListener("test",null,e),n.gm.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t,r=!1,n){window.addEventListener(e,t,a(r,n))}function c(e,t,r=!1,n){document.addEventListener(e,t,a(r,n))}},5607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(9566).bz)()},9566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},2614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>a,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>o});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},1863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.debug&&console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t)}r.d(t,{R:()=>n})},5284:(e,t,r)=>{"use strict";r.d(t,{t:()=>c,B:()=>s});var n=r(7836),i=r(6154);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(e={}){try{i.gm.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},8990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},5289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>o,sB:()=>a});var n=r(3878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.sp)("load",e,t)}function a(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>o,US:()=>d,Zm:()=>a,bQ:()=>c,dV:()=>s,nY:()=>u,pV:()=>l});var n=r(6154),i=r(1863);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function s(){let e=a();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},2843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3434:(e,t,r)=>{"use strict";r.d(t,{YM:()=>c});var n=r(7836),i=r(5607);const o="nr@original:".concat(i.W);var a=Object.prototype.hasOwnProperty,s=!1;function c(e,t){return e||(e=n.ee),r.inPlace=function(e,t,n,i,o){n||(n="");const a="-"===n.charAt(0);for(let s=0;s<t.length;s++){const c=t[s],u=e[c];d(u)||(e[c]=r(u,a?c+n:n,i,c,o))}},r.flag=o,r;function r(t,r,n,s,c){return d(t)?t:(r||(r=""),nrWrapper[o]=t,function(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){u([e],r)}for(var n in e)a.call(e,n)&&(t[n]=e[n])}(t,nrWrapper,e),nrWrapper);function nrWrapper(){var o,a,d,l;try{a=this,o=[...arguments],d="function"==typeof n?n(o,a):n||{}}catch(t){u([t,"",[o,a,s],d],e)}i(r+"start",[o,a,s],d,c);try{return l=t.apply(a,o)}catch(e){throw i(r+"err",[o,a,e],d,c),e}finally{i(r+"end",[o,a,l],d,c)}}}function i(r,n,i,o){if(!s||t){var a=s;s=!0;try{e.emit(r,n,i,t,o)}catch(t){u([t,r,n,i],e)}s=a}}}function u(e,t){t||(t=n.ee);try{t.emit("internal-error",e)}catch(e){}}function d(e){return!(e&&"function"==typeof e&&e.apply&&!e[o])}},993:(e,t,r)=>{"use strict";r.d(t,{ET:()=>o,p_:()=>i});var n=r(860);const i={ERROR:"ERROR",WARN:"WARN",INFO:"INFO",DEBUG:"DEBUG",TRACE:"TRACE"},o="log";n.K.logging},3969:(e,t,r)=>{"use strict";r.d(t,{TZ:()=>n,XG:()=>s,rs:()=>i,xV:()=>a,z_:()=>o});const n=r(860).K.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},6630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K.pageViewTiming},6344:(e,t,r)=>{"use strict";r.d(t,{G4:()=>i});var n=r(2614);r(860).K.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay",REPLAY_RUNNING:"replayRunning",ERROR_DURING_REPLAY:"errorDuringReplay"};n.g.ERROR,n.g.FULL,n.g.OFF},4234:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(7836);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},7603:(e,t,r)=>{"use strict";r.d(t,{j:()=>P});var n=r(860),i=r(2555),o=r(3371),a=r(9908),s=r(7836),c=r(1687),u=r(5289),d=r(6154),l=r(944),f=r(3969),g=r(384),p=r(6344);const h=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start",p.G4.RECORD,p.G4.PAUSE,"log","wrapLogger"],m=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(1863),b=r(2614),y=r(993);var w=r(2646),R=r(3434);function A(e,t,r,n){if("object"!=typeof t||!t||"string"!=typeof r||!r||"function"!=typeof t[r])return(0,l.R)(29);const i=function(e){return(e||s.ee).get("logger")}(e),o=(0,R.YM)(i),a=new w.y(s.P);return a.level=n.level,a.customAttributes=n.customAttributes,o.inPlace(t,[r],"wrap-logger-",a),i}function x(){const e=(0,g.pV)();h.forEach((t=>{e[t]=(...r)=>function(t,...r){let n=[];return Object.values(e.initializedAgents).forEach((e=>{e&&e.api?e.exposed&&e.api[t]&&n.push(e.api[t](...r)):(0,l.R)(38,t)})),n.length>1?n:n[0]}(t,...r)}))}const E={};function _(e,t,g=!1){t||(0,c.Ak)(e,"api");const h={};var w=s.ee.get(e),R=w.get("tracer");E[e]=b.g.OFF,w.on(p.G4.REPLAY_RUNNING,(t=>{E[e]=t}));var x="api-",_=x+"ixn-";function N(t,r,n,o){const a=(0,i.Vp)(e);return null===r?delete a.jsAttributes[t]:(0,i.x1)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),S(x,n,!0,o||null===r?"session":void 0)(t,r)}function k(){}h.log=function(e,{customAttributes:t={},level:r=y.p_.INFO}={}){(0,a.p)(f.xV,["API/log/called"],void 0,n.K.metrics,w),function(e,t,r={},i=y.p_.INFO){(0,a.p)(f.xV,["API/logging/".concat(i.toLowerCase(),"/called")],void 0,n.K.metrics,e),(0,a.p)(y.ET,[(0,v.t)(),t,r,i],void 0,n.K.logging,e)}(w,e,t,r)},h.wrapLogger=(e,t,{customAttributes:r={},level:i=y.p_.INFO}={})=>{(0,a.p)(f.xV,["API/wrapLogger/called"],void 0,n.K.metrics,w),A(w,e,t,{customAttributes:r,level:i})},m.forEach((e=>{h[e]=S(x,e,!0,"api")})),h.addPageAction=S(x,"addPageAction",!0,n.K.genericEvents),h.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,o.f)(e).customTransaction=(r||"http://custom.transaction")+t,S(x,"setPageViewName",!0)()},h.setCustomAttribute=function(e,t,r=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return N(e,t,"setCustomAttribute",r);(0,l.R)(40,typeof t)}else(0,l.R)(39,typeof e)},h.setUserId=function(e){if("string"==typeof e||null===e)return N("enduser.id",e,"setUserId",!0);(0,l.R)(41,typeof e)},h.setApplicationVersion=function(e){if("string"==typeof e||null===e)return N("application.version",e,"setApplicationVersion",!1);(0,l.R)(42,typeof e)},h.start=()=>{try{(0,a.p)(f.xV,["API/start/called"],void 0,n.K.metrics,w),w.emit("manual-start-all")}catch(e){(0,l.R)(23,e)}},h[p.G4.RECORD]=function(){(0,a.p)(f.xV,["API/recordReplay/called"],void 0,n.K.metrics,w),(0,a.p)(p.G4.RECORD,[],void 0,n.K.sessionReplay,w)},h[p.G4.PAUSE]=function(){(0,a.p)(f.xV,["API/pauseReplay/called"],void 0,n.K.metrics,w),(0,a.p)(p.G4.PAUSE,[],void 0,n.K.sessionReplay,w)},h.interaction=function(e){return(new k).get("object"==typeof e?e:{})};const T=k.prototype={createTracer:function(e,t){var r={},i=this,o="function"==typeof t;return(0,a.p)(f.xV,["API/createTracer/called"],void 0,n.K.metrics,w),g||(0,a.p)(_+"tracer",[(0,v.t)(),e,r],i,n.K.spa,w),function(){if(R.emit((o?"":"no-")+"fn-start",[(0,v.t)(),i,o],r),o)try{return t.apply(this,arguments)}catch(e){const t="string"==typeof e?new Error(e):e;throw R.emit("fn-err",[arguments,this,t],r),t}finally{R.emit("fn-end",[(0,v.t)()],r)}}}};function S(e,t,r,i){return function(){return(0,a.p)(f.xV,["API/"+t+"/called"],void 0,n.K.metrics,w),i&&(0,a.p)(e+t,[(0,v.t)(),...arguments],r?null:this,i,w),r?void 0:this}}function j(){r.e(296).then(r.bind(r,8778)).then((({setAPI:t})=>{t(e),(0,c.Ze)(e,"api")})).catch((e=>{(0,l.R)(27,e),w.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{T[e]=S(_,e,void 0,g?n.K.softNav:n.K.spa)})),h.setCurrentRouteName=g?S(_,"routeName",void 0,n.K.softNav):S(x,"routeName",!0,n.K.spa),h.noticeError=function(t,r){"string"==typeof t&&(t=new Error(t)),(0,a.p)(f.xV,["API/noticeError/called"],void 0,n.K.metrics,w),(0,a.p)("err",[t,(0,v.t)(),!1,r,!!E[e]],void 0,n.K.jserrors,w)},d.RI?(0,u.GG)((()=>j()),!0):j(),h}var N=r(9417),k=r(8122);const T={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},S={};var j=r(5284);const I=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let O=!1;function P(e,t={},r,n){let{init:a,info:c,loader_config:u,runtime:l={},exposed:f=!0}=t;l.loaderType=r;const p=(0,g.pV)();c||(a=p.init,c=p.info,u=p.loader_config),(0,N.xN)(e.agentIdentifier,a||{}),function(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");S[e]=(0,k.a)(t,T);const r=(0,g.nY)(e);r&&(r.loader_config=S[e])}(e.agentIdentifier,u||{}),c.jsAttributes??={},d.bv&&(c.jsAttributes.isWorker=!0),(0,i.x1)(e.agentIdentifier,c);const h=(0,N.D0)(e.agentIdentifier),m=[c.beacon,c.errorBeacon];O||(h.proxy.assets&&(I(h.proxy.assets),m.push(h.proxy.assets)),h.proxy.beacon&&m.push(h.proxy.beacon),x(),(0,g.US)("activatedFeatures",j.B),e.runSoftNavOverSpa&&=!0===h.soft_navigations.enabled&&h.feature_flags.includes("soft_nav")),l.denyList=[...h.ajax.deny_list||[],...h.ajax.block_internal?m:[]],l.ptid=e.agentIdentifier,(0,o.V)(e.agentIdentifier,l),e.ee=s.ee.get(e.agentIdentifier),void 0===e.api&&(e.api=_(e.agentIdentifier,n,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=f),O=!0}},8374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{K:()=>n,P:()=>i});const n={ajax:"ajax",genericEvents:"generic_events",jserrors:"jserrors",logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.spa]:5,[n.ajax]:6,[n.sessionTrace]:7,[n.softNav]:8,[n.sessionReplay]:9,[n.logging]:10,[n.genericEvents]:11}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.265.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.265.1.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={296:"sha512-vt+BZWsdXcoLX3kiIR8YTVqaStlglvsHrpf/P0jHb88EjA+3xnQ4msnN1cpgcgAHWpHZbqKJar81M6kH8mi8wA=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={840:0,374:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.265.1.PROD"]=self["webpackChunk:NRBA-1.265.1.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8374);var e=i(944),t=i(6344),r=i(9566);class n{agentIdentifier;constructor(e=(0,r.LA)(16)){this.agentIdentifier=e}#e(t,...r){if("function"==typeof this.api?.[t])return this.api[t](...r);(0,e.R)(35,t)}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.G4.RECORD)}pauseReplay(){return this.#e(t.G4.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}log(e,t){return this.#e("log",e,t)}wrapLogger(e,t,r){return this.#e("wrapLogger",e,t,r)}}var o=i(860),a=i(9417);const s=Object.values(o.K);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.gD)(t,"".concat(e,".enabled"))}(r,e)})),t}var u=i(7603);var d=i(1687),l=i(4234),f=i(5289),g=i(6154),p=i(384);const h=e=>g.RI&&!0===(0,a.gD)(e,"privacy.cookies_enabled");function m(e){return!!(0,p.dV)().o.MO&&h(e)&&!0===(0,a.gD)(e,"session_trace.enabled")}var v=i(6389);class b extends l.W{constructor(e,t,r,n=!0){super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,a.gD)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto?(0,d.Ak)(e,r):this.ee.on("manual-start-all",(0,v.J)((()=>{(0,d.Ak)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()})))}importAggregator(t={}){if(this.featAggregate||!this.auto)return;let r;this.onAggregateImported=new Promise((e=>{r=e}));const n=async()=>{let n;try{if(h(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(296).then(i.bind(i,3861));n=e(this.agentIdentifier)}}catch(t){(0,e.R)(20,t),this.ee.emit("internal-error",[t]),this.featureName===o.K.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.Ze)(this.agentIdentifier,this.featureName),void r(!1);const{lazyFeatureLoader:e}=await i.e(296).then(i.bind(i,6103)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,t),r(!0)}catch(t){(0,e.R)(34,t),this.abortHandler?.(),(0,d.Ze)(this.agentIdentifier,this.featureName,!0),r(!1),this.ee&&this.ee.abort()}};g.RI?(0,f.GG)((()=>n()),!0):n()}#t(e,t){switch(e){case o.K.sessionReplay:return m(this.agentIdentifier)&&!!t;case o.K.sessionTrace:return!!t;default:return!0}}}var y=i(6630);class w extends b{static featureName=y.T;constructor(e,t,r=!0){super(e,t,y.T,r),this.importAggregator()}}var R=i(4777);class A extends R.J{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,Object.entries(e||{}).forEach((([e,r])=>{t[e]=x(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,Object.keys(r||{}).forEach((e=>{if("count"!==e){var t=a[e],n=r[e];n&&!n.c?a[e]=x(n.t,t):a[e]=function(e,t){if(!t)return e;t.c||(t=E(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(n,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=x(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=E(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function E(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var _=i(9908),N=i(2843),k=i(3878),T=i(782),S=i(1863);class j extends b{static featureName=T.T;constructor(e,t,r=!0){super(e,t,T.T,r),g.RI&&((0,N.u)((()=>(0,_.p)("docHidden",[(0,S.t)()],void 0,T.T,this.ee)),!0),(0,k.sp)("pagehide",(()=>(0,_.p)("winPagehide",[(0,S.t)()],void 0,T.T,this.ee))),this.importAggregator())}}var I=i(3969);class O extends b{static featureName=I.TZ;constructor(e,t,r=!0){super(e,t,I.TZ,r),this.importAggregator()}}new class extends n{constructor(t,r){super(r),g.gm?(this.sharedAggregator=new A({agentIdentifier:this.agentIdentifier}),this.features={},(0,p.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(w),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.K.softNav)),(0,u.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.P[e.featureName]-o.P[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.K.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.K.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.K.softNav)return;const n=function(e){switch(e){case o.K.ajax:return[o.K.jserrors];case o.K.sessionTrace:return[o.K.ajax,o.K.pageViewEvent];case o.K.sessionReplay:return[o.K.sessionTrace];case o.K.pageViewTiming:return[o.K.pageViewEvent];default:return[]}}(r.featureName).filter((e=>!(e in this.features)));n.length>0&&(0,e.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.R)(22,t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,p.Zm)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[w,j,O],loaderType:"lite"})})()})();</script>
+<meta name="description" content="Official website of the U.S. Social Security Administration.">
+<link rel="canonical" href="https://www.ssa.gov/">
+<meta name="robots" content="index, follow">
+<link rel="shortlink" href="https://www.ssa.gov/">
+<link rel="apple-touch-icon" href="/themes/custom/ssa_core/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/themes/custom/ssa_core/apple-touch-icon.png">
+<meta property="og:site_name" content="Social Security">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ssa.gov/">
+<meta property="og:title" content="The United States Social Security Administration | SSA">
+<meta property="og:description" content="Official website of the U.S. Social Security Administration.">
+<meta property="og:image:url" content="https://www.ssa.gov/themes/custom/ssa_core/logo.svg">
+<meta property="og:image:secure_url" content="https://www.ssa.gov/themes/custom/ssa_core/logo.svg">
+<meta property="og:image:alt" content="U.S. Social Security Administration">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="article:published_time" content="Fri, 08/20/2021 - 08:56">
+<meta property="article:modified_time" content="Fri, 08/30/2024 - 07:30">
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/themes/custom/ssa_core/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="alternate" hreflang="en" href="https://www.ssa.gov/">
+<link rel="alternate" hreflang="es" href="https://www.ssa.gov/es">
+<script src="/sites/g/files/npxnvu131/files/google_tag/default/google_tag.script.js?sje6q8" defer=""></script>
+
+  <title>The United States Social Security Administration | SSA</title>
+  <link rel="stylesheet" media="all" href="/sites/g/files/npxnvu131/files/css/css_FQKX9JHPTUx2s62csUCtqdytd8kmpBuiSusoD8HtJ_o.css?delta=0&amp;language=en&amp;theme=ssa_core&amp;include=eJx1UVtuxCAMvBAKZ6jUeyADTmKtCRSbTdPTl6SJslXVH2s8gx-MIygwbFitxxmelKsYoVQYXbwkp5WmqT_5TzCSAwG7hJHAMS0PsX-pQWdMaETACYZW0d7QyCaKyXoQNE3WKG6HdqyQcM31cZSF3ItABFUMfure1cbaCvBwpqZAhalCmeVSbmZoS2meSWaMxjN8bfaIJ-YMF10ybyMxn2ngPrTX6SXXnKgv-pNVGE-0oi-mPwwPe8QhiPzKTwdemAS0DBFHaKwvf6y7aeCR5SYp5MXtWzj8aN3aGWmaVU5DoYbZ3vAu2ye4pZ92AqXeAYLSE50oKJon4Sr2iEPKsTG-LLEAb0pB3Hs_uHvTfm3_DWNa23c">
+<link rel="stylesheet" media="all" href="/sites/g/files/npxnvu131/files/css/css_h3Ibt-bCx_13amTHWByD764D3JcKHkvplgYdJu2Wg4U.css?delta=1&amp;language=en&amp;theme=ssa_core&amp;include=eJx1UVtuxCAMvBAKZ6jUeyADTmKtCRSbTdPTl6SJslXVH2s8gx-MIygwbFitxxmelKsYoVQYXbwkp5WmqT_5TzCSAwG7hJHAMS0PsX-pQWdMaETACYZW0d7QyCaKyXoQNE3WKG6HdqyQcM31cZSF3ItABFUMfure1cbaCvBwpqZAhalCmeVSbmZoS2meSWaMxjN8bfaIJ-YMF10ybyMxn2ngPrTX6SXXnKgv-pNVGE-0oi-mPwwPe8QhiPzKTwdemAS0DBFHaKwvf6y7aeCR5SYp5MXtWzj8aN3aGWmaVU5DoYbZ3vAu2ye4pZ92AqXeAYLSE50oKJon4Sr2iEPKsTG-LLEAb0pB3Hs_uHvTfm3_DWNa23c">
+
+  
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
+                              <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="LERZW-HECFS-R8H4E-23UQ7-ERMQB",function(){function e(){if(!o){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,i.parentNode.appendChild(e),o=!0}}function t(e){o=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(i.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",i.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"LERZW-HECFS-R8H4E-23UQ7-ERMQB";var i=document.currentScript||document.getElementsByTagName("script")[0],o=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!o)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),i.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="2rtd6hqccp4fozxhattq-f-641193d52-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"37","ak.cp":"1367776","ak.ai":parseInt("728289",10),"ak.ol":"0","ak.cr":1,"ak.ipv":4,"ak.proto":"h2","ak.rid":"64a503ab","ak.r":49153,"ak.a2":n,"ak.m":"","ak.n":"essl","ak.bpcip":"212.102.63.0","ak.cport":63971,"ak.gh":"2.18.30.74","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"","ak.t":"1726416103","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==dFwhHiQA1w3Hq9fAQTUFC3/8rgU4vEYu4j7HnunzQumByIEF6lHEETaSh8wL6ra8pnZHpV7I1F14/zS8q5v4Ae/dJ/YsP8Nl34VodQ6MJ/TU/TPnl+r6uQICIyuLHTCQOav5bhSfgkfLpvyJ80P5hsjLGwYfoBqxXQlZHDmg9ydZw/tshksDq7GYxvB9O6QMW0vx2f9bpkltmVgUmH7DttqBDoY/W0kEG9Yf5kx3zuuJKSDtTd4E3eV2Kosrfle2XwPYigm6q+RdGuxmbFqEFbK9xrvWmg6X4dDA0Y20EfRvkQ9v+4wd1NEFSw7LOmHNs1QUVHL1BQm440QlQcXELsKSZgo470mMC2mnrJmMv401f1MVGaTK+XS8li4TGPq67oZomz8+mXNo0wzCHGlc6tr3bb24vQ4rsV8dB5Vaf20=","ak.pv":"83","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><link href="https://s.go-mpulse.net/boomerang/LERZW-HECFS-R8H4E-23UQ7-ERMQB" rel="preload" as="script"><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=G-CSLL4ZEK4L"></script><script charset="utf-8" data-webpack="NRBA-1.265.1.PROD:chunk-296" src="https://js-agent.newrelic.com/nr-rum-1.265.1.min.js" crossorigin="anonymous" integrity="sha512-vt+BZWsdXcoLX3kiIR8YTVqaStlglvsHrpf/P0jHb88EjA+3xnQ4msnN1cpgcgAHWpHZbqKJar81M6kH8mi8wA=="></script></head>
+<body data-once="b-root ssa-secure-signin-check">
+<a href="#main-content" class="usa-sr-only focusable">
+  Skip to main content
+</a>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GQXH7Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    
+  <section class="usa-banner">
+    <div class="usa-banner">
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img class="usa-banner__header-flag" src="/themes/custom/ssa_core/assets/img/us_flag_small.png" alt="U.S. flag">
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto">
+          <p class="usa-banner__header-text">An official website of the United States government</p>
+          <p class="usa-banner__header-action" aria-hidden="true">Here's how you know</p>
+        </div>
+        <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner-default">
+          <span class="usa-banner__button-text">Here's how you know</span>
+        </button>
+      </div>
+    </header>
+    <div class="usa-banner__content usa-accordion__content" id="gov-banner-default" hidden="">
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/ssa_core/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true">
+          <div class="usa-media-block__body">
+            <p>
+              <strong> Official websites use .gov </strong>
+              <br>
+              A <strong>.gov</strong> website belongs to an official government organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img class="usa-banner__icon usa-media-block__img" src="/themes/custom/ssa_core/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true">
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS </strong>
+              <br>A <strong>lock</strong> ( <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title-default banner-lock-description-default" focusable="false">
+    <title id="banner-lock-title-default">Lock</title>
+    <desc id="banner-lock-description-default">A locked padlock</desc>
+    <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"></path>
+</svg></span>
+ ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+
+<header class="usa-header usa-header--basic" id="header" role="banner" tabindex="-1">
+  <div class="usa-overlay"></div>
+      <div class="usa-banner-inner">
+        <div>
+    <div class="views-element-container block block-views block-views-blocksite-alerts-all" id="block-views-block-site-alerts-all" data-block-plugin-id="views_block:site_alerts-all">
+  
+    
+      <div><div class="js-view-dom-id-ea44243b961c68422eb02d41db51e271c5d4e195464b9deee3f70f6e150d6808">
+  
+  
+  
+
+  
+  
+  
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+  </div>
+
+  </div>
+
+    </div>
+  
+    <div class="usa-nav-container">
+    
+    <div class="region region-header usa-navbar">
+    <div class="usa-logo site-logo" id="logo">
+
+  <a class="usa-logo__text ssa-logo__text" href="/" accesskey="1" title="Home" aria-label="Home">
+      <span class="ssa-logo__image">
+      <img src="/themes/custom/ssa_core/logo.svg" alt="Home">
+    </span>
+  
+        <span class="ssa-logo__link">
+        Social Security
+      </span>
+    </a>
+  
+</div>
+
+<div class="usa-nav__sign-in">
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-content" data-block-plugin-id="language_block:language_content" tabindex="-1">
+  
+    
+      <ul class="links usa-nav__primary usa-accordion"><li hreflang="en" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" class="usa-nav__primary-item"><a href="/?%2F=" class="language-link" hreflang="en" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" data-cta="button" data-location="header">English</a></li><li hreflang="es" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" class="usa-nav__primary-item"><a href="/es?%2F=" class="language-link" hreflang="es" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" data-cta="button" data-location="header">Español</a></li></ul>
+  </div>
+
+  <ul class="usa-nav__primary usa-nav_primary--account">
+    <noscript>
+      <li class="users-block">
+        <a href="https://secure.ssa.gov/myssa/myhub" class="usa-mobile-header-button" data-cta="button" data-location="header" target="_blank">
+          Account
+        </a>
+      </li>
+    </noscript>
+    <li class="js-sign-in users-block">
+      <a href="https://secure.ssa.gov/RIL/SiView.action" class="usa-mobile-header-button js-sign-in datalayer-event-click" data-cta="button" data-location="header" data-attribute-datalayer-event-category="click" data-attribute-datalayer-event-action="begin_login_header" data-attribute-datalayer-event-label="Sign in" data-attribute-datalayer-event-value="https://secure.ssa.gov/RIL/SiView.action" data-once="datalayer-trigger ssa-click-signin" target="_blank" rel="noopener">Sign in</a>
+    </li>
+    <li class="js-task-link--auth users-block hidden">
+      <a href="https://secure.ssa.gov/myssa/myhub" class="js-task-link--auth usa-mobile-header-button datalayer-event-click hidden" data-attribute-datalayer-event-category="click" data-attribute-datalayer-event-action="goto_account_home" data-attribute-datalayer-event-label="account_home" data-attribute-datalayer-event-value="https://secure.ssa.gov/myssa/myhub" data-cta="button" data-location="header" target="_blank" data-once="datalayer-trigger" rel="noopener">
+        <span>Account</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<button class="usa-menu-btn">Menu</button>
+<noscript>
+  <style>.usa-menu-btn:not(.no-script) {display:none}</style>
+  <a href="/menu" class="usa-menu-btn no-script">Menu</a>
+</noscript>
+
+</div>
+
+    <nav class="usa-nav">
+      
+        <button class="usa-nav__close">
+          <img src="/themes/custom/ssa_core/assets/img/close.svg" alt="close">
+        </button>
+
+        
+        
+                      
+  
+        
+            <noscript>
+        <style type="text/css">
+          ul.usa-nav__primary.usa-accordion:not(.links) {
+            display: none;
+          }
+        </style>
+        <ul class="links usa-nav__primary usa-accordion">
+                  <li class="usa-nav__primary-item">
+            <a href="/menu#benefits" class="usa-nav__link">Benefits</a>
+          </li>
+                  <li class="usa-nav__primary-item">
+            <a href="/menu#medicare" class="usa-nav__link">Medicare</a>
+          </li>
+                  <li class="usa-nav__primary-item">
+            <a href="/menu#card-record" class="usa-nav__link">Card &amp; record</a>
+          </li>
+                </ul>
+      </noscript>
+      <ul class="usa-nav__primary usa-accordion">
+    
+                        
+                      <li class="usa-nav__primary-item">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-nav-section-1">
+          <span>Benefits</span>
+        </button>
+      
+                
+        
+            <ul id="basic-nav-section-1" class="usa-nav__submenu" hidden="">
+
+      
+              <div class="grid-row grid-gap-2">
+          
+                        
+                        <div class="usa-col desktop:grid-col-6">
+                <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <h5 class="usa-nav__submenu-header"><span>By Phase</span></h5>
+            
+        
+            <ul id="basic-nav-section-column-1" class="usa-nav__submenu-list">
+
+      
+          
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/prepare" data-once="ssa-active-state-processed">
+            <span>Prepare</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/apply" data-once="ssa-active-state-processed">
+            <span>Apply</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/manage-benefits" data-once="ssa-active-state-processed">
+            <span>Manage benefits</span>
+          </a>
+                        
+              </li>
+              
+    
+          </ul>
+      
+
+              
+              </li>
+                  </div>
+              
+                        
+                        <div class="usa-col desktop:grid-col-6">
+                <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <h5 class="usa-nav__submenu-header"><span>By Type</span></h5>
+            
+        
+            <ul id="basic-nav-section-column-2" class="usa-nav__submenu-list">
+
+      
+          
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/retirement" data-once="ssa-active-state-processed">
+            <span>Retirement</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/disability" data-once="ssa-active-state-processed">
+            <span>Disability</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/survivor" data-once="ssa-active-state-processed">
+            <span>Survivor</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/family" data-once="ssa-active-state-processed">
+            <span>Family</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/ssi" data-once="ssa-active-state-processed">
+            <span>Supplemental Security Income (SSI)</span>
+          </a>
+                        
+              </li>
+              
+    
+          </ul>
+      
+
+              
+              </li>
+                  </div>
+              
+                        
+                        <div class="usa-col grid-col-12 padding-top-1 desktop:padding-top-2 desktop:margin-top-2 border-primary-dark desktop:border-top">
+                <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/benefits" data-once="ssa-active-state-processed">
+            <span>Benefits overview</span>
+          </a>
+                        
+              </li>
+                  </div>
+              
+    
+          </div></ul>
+      
+
+      
+              </li>
+              
+                        
+                      <li class="usa-nav__primary-item">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-nav-section-2">
+          <span>Medicare</span>
+        </button>
+      
+                
+        
+            <ul id="basic-nav-section-2" class="usa-nav__submenu" hidden="">
+
+      
+          
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/medicare" data-once="ssa-active-state-processed">
+            <span>Plan for Medicare</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/medicare/sign-up" data-once="ssa-active-state-processed">
+            <span>Sign up for Medicare</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/medicare/lower-irmaa" data-once="ssa-active-state-processed">
+            <span>Request to lower IRMAA</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/medicare/part-d-extra-help" data-once="ssa-active-state-processed">
+            <span>Apply for Part D Extra Help</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/medicare/manage" data-once="ssa-active-state-processed">
+            <span>Manage Medicare benefits</span>
+          </a>
+                        
+              </li>
+              
+    
+          </ul>
+      
+
+      
+              </li>
+              
+                        
+                      <li class="usa-nav__primary-item">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="basic-nav-section-3">
+          <span>Card &amp; record</span>
+        </button>
+      
+                
+        
+            <ul id="basic-nav-section-3" class="usa-nav__submenu" hidden="">
+
+      
+          
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/number-card" data-once="ssa-active-state-processed">
+            <span>Number &amp; card</span>
+          </a>
+                        
+              </li>
+              
+                        
+                      <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="/personal-record" data-once="ssa-active-state-processed">
+            <span>Personal record</span>
+          </a>
+                        
+              </li>
+              
+    
+          </ul>
+      
+
+      
+              </li>
+              
+    
+          </ul>
+      
+
+
+
+<div class="ssa-search-block-form usa-search block block-ssa-search block-search-block" role="search" data-drupal-selector="ssa-search-block-form" id="block-ssasearchblock" data-block-plugin-id="search_block" tabindex="-1">
+  
+    
+      <form action="/?%2F=" method="post" id="ssa-search-block-form" accept-charset="UTF-8" target="_blank" class="usa-form">
+  <div class="form-item js-form-item form-type-search js-form-type-search form-item-query js-form-item-query form-no-label">
+      <label for="edit-query" class="usa-label control-label usa-sr-only">Search</label>
+          
+
+  <input autocomplete="off" data-drupal-selector="edit-query" type="search" id="edit-query" name="query" value="" size="128" maxlength="128" class="form-search usa-input">
+
+
+
+
+
+        
+  
+  </div>
+
+
+  <input autocomplete="off" data-drupal-selector="form-h0ggt-3jborlug9p4uxscbzvlt7toa0mffvbnsxvgao" type="hidden" name="form_build_id" value="form-H0gGt_3JBoRlug9p4uXsCbZVlT7tOA0mffvBnsxVGAo" class="usa-input">
+
+
+
+
+
+
+  <input data-drupal-selector="edit-ssa-search-block-form" type="hidden" name="form_id" value="ssa_search_block_form" class="usa-input">
+
+
+
+
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit usa-button" data-cta="button" data-location="header"></div>
+
+</form>
+
+  </div>
+<div class="language-switcher-language-url block block-language block-language-blocklanguage-content" id="block-languageswitchercontent" data-block-plugin-id="language_block:language_content" tabindex="-1">
+  
+    
+      <ul class="links usa-nav__primary usa-accordion"><li hreflang="en" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" class="usa-nav__primary-item"><a href="/?%2F=" class="language-link" hreflang="en" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" data-cta="button" data-location="header">English</a></li><li hreflang="es" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" class="usa-nav__primary-item"><a href="/es?%2F=" class="language-link" hreflang="es" data-drupal-link-query="{&quot;\/&quot;:&quot;&quot;}" data-drupal-link-system-path="<front>" data-cta="button" data-location="header">Español</a></li></ul>
+  </div>
+
+
+          
+          
+                    
+        
+            <noscript>
+      <ul class="usa-nav__primary usa-nav__primary--account usa-accordion links">
+        <li class="usa-nav__primary-item">
+        <a href="https://secure.ssa.gov/myssa/myhub" class="usa-mobile-header-button usa-nav__link datalayer-event-click" data-attribute-datalayer-event-category="click" data-attribute-datalayer-event-action="begin_login" data-attribute-datalayer-event-label="sign_in" data-attribute-datalayer-event-value="https://secure.ssa.gov/myssa/myhub" target="_blank">
+            <span></span>
+          </a>
+        </li>
+      </noscript>
+      <ul class="usa-nav__primary usa-nav__primary--account usa-accordion">
+    
+                        
+                              <li class="js-sign-in usa-nav__primary-item">
+      
+      
+              
+                          <a href="https://secure.ssa.gov/RIL/SiView.action" class="usa-mobile-header-button js-sign-in usa-nav__link datalayer-event-click" data-attribute-datalayer-event-category="click" data-attribute-datalayer-event-action="begin_login_header" data-attribute-datalayer-event-label="Sign in" data-attribute-datalayer-event-value="https://secure.ssa.gov/RIL/SiView.action" data-once="datalayer-trigger ssa-click-signin" target="_blank" rel="noopener" data-cta="button" data-location="header">
+            <span>Sign in</span>
+          </a>
+                        
+              </li>
+              
+                        
+                              <li class="js-my-account disabled usa-nav__primary-item hidden">
+      
+              <button class="usa-accordion__button usa-nav__link " aria-expanded="false" aria-controls="user-nav-section-2">
+          <span>My account</span>
+        </button>
+      
+                
+        
+            <ul id="user-nav-section-2" class="usa-nav__submenu" hidden="">
+
+      
+          
+                        
+                              <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="https://secure.ssa.gov/myssa/myhub" class="js-account-home datalayer-event-click" data-attribute-datalayer-event-category="click" data-attribute-datalayer-event-action="goto_account_home" data-attribute-datalayer-event-label="Account home" data-attribute-datalayer-event-value="https://secure.ssa.gov/myssa/myhub" data-once="datalayer-trigger ssa-active-state-processed" target="_blank" rel="noopener">
+            <span>Account home</span>
+          </a>
+                        
+              </li>
+              
+                        
+                              <li class="usa-nav__submenu-item">
+      
+      
+              
+                          <a href="https://secure.ssa.gov/RIL/logout" class="js-sign-out datalayer-event-click" data-attribute-datalayer-event-category="click" data-attribute-datalayer-event-action="logout" data-attribute-datalayer-event-label="Sign out" data-attribute-datalayer-event-value="https://secure.ssa.gov/RIL/logout" data-once="datalayer-trigger ssa-click-signout ssa-active-state-processed" target="_blank" rel="noopener">
+            <span>Sign out</span>
+          </a>
+                        
+              </li>
+              
+    
+          </ul>
+      
+
+      
+              </li>
+              
+    
+          </ul>
+      
+
+
+
+            </nav>
+
+      </div>
+  
+</header>
+
+
+<main class="main-content usa-layout-docs " id="main-content" role="main" tabindex="-1">
+
+  <div class="grid-container">
+
+          <div class="grid-row">
+        
+      </div>
+
+      <div class="">
+        <div data-drupal-messages-fallback="" class="hidden"></div>
+
+
+      </div>
+
+                  </div>
+
+          <div id="block-ssa-core-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
+  
+    
+      <article>
+
+  
+    
+
+  
+  <div>
+    <section class="usa-hero ssa-hero" aria-label="Introduction">
+      <div class="grid-container ssa-hero__container">
+        <div class="grid-row desktop-lg:grid-gap-6">
+          <div class="ssa-hero__inner">
+                          <h1 class="usa-hero__intro">
+                Securing your <strong>today</strong> and <strong>tomorrow</strong>
+              </h1>
+                        
+
+            <div class="field field--name-field-hero field--type-entity-reference-revisions field--label-hidden field__item">
+  <div class="paragraph paragraph--type--hero-card paragraph--view-mode--hero usa-hero__callout usa-card--hero">
+          <div class="grid-row grid-gap-6">
+                <div class="grid-col-12 tablet:grid-col-5 desktop:grid-col-4 ssa-column-separator">
+                    <div class="paragraph paragraph--type--link-list-item paragraph--view-mode--hero">
+          <h2 class="usa-card__heading">
+        <img loading="lazy" src="/sites/g/files/npxnvu131/files/icons/iconography_prepare-laptop.svg" alt="Prepare - laptop">
+
+
+      Prepare
+    </h2>
+        <p><a href="/prepare/check-eligibility-for-benefits">Check eligibility for benefits</a></p>
+      <p><a href="/prepare/get-benefits-estimate">Get a benefits estimate</a></p>
+      <p><a href="/prepare/plan-retirement">Plan for retirement</a></p>
+    </div>
+
+        </div>
+                <div class="grid-col-12 tablet:grid-col-7 desktop:grid-col-8">
+                  <div class="grid-row grid-gap-4">
+                        <div class="grid-col-12 desktop:grid-col-5">
+                            <div class="paragraph paragraph--type--link-list-item paragraph--view-mode--hero">
+          <h2 class="usa-card__heading">
+        <img loading="lazy" src="/sites/g/files/npxnvu131/files/icons/iconography_apply-cursor.svg" alt="Apply - cursor">
+
+
+      Apply
+    </h2>
+        <p><a href="/apply">Apply for benefits</a></p>
+      <p><a href="/medicare/sign-up">Sign up for Medicare</a></p>
+      <p><a href="/apply/ssi">Apply for SSI</a></p>
+    </div>
+
+            </div>
+                        <div class="grid-col-12 desktop:grid-col-7">
+                            <div class="paragraph paragraph--type--link-list-item paragraph--view-mode--hero">
+          <h3 class="usa-card__heading usa-card__heading--small">
+      After you apply
+    </h3>
+        <p><a href="/apply/check-application-or-appeal-status">Check application or appeal status</a></p>
+      <p><a href="/apply/appeal-decision-we-made">Appeal a decision we made</a></p>
+    </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+      <div class="homepage ssa-page-components">
+              <div class="ssa-page-components__item">  <section class="paragraph paragraph--type--two-column paragraph--view-mode--default usa-icon-list--equal-height grid-container grid-container--small usa-section ssa-section--small">
+          <div class="grid-row">
+                  <div class="grid-col-12 tablet:grid-col-12">
+            <h2 class="ssa-column-heading two-col-heading">
+
+            <div class="field field--name-field-heading field--type-string field--label-hidden field__item">Manage benefits &amp; information</div>
+      </h2>
+          </div>
+                        <div class="grid-col-12 tablet:grid-col-6">
+                    
+
+      <div class="field field--name-field-left-column field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <ul class="paragraph paragraph--type--link-list paragraph--view-mode--default usa-icon-list ssa-icon-list">
+                    <li class="usa-icon-list__item ssa-icon-list__item" style="height: 176.922px;">
+          <div class="usa-icon-list__icon ssa-icon-list__icon">
+        <div>
+  
+  
+
+            <div class="field field--name-field-media-image-1 field--type-image field--label-hidden field__item"><svg xmlns="http://www.w3.org/2000/svg" id="icons" viewBox="0 0 100 100">
+  <defs>
+    <style>.cls-1{fill:#112f4e;}.cls-2{fill:#2491ff;}</style>
+  </defs>
+  <path class="cls-1" d="M78.96,28.98L61.31,10.81c-.95-.96-2.21-1.5-3.56-1.51H26.51c-1.35,.01-2.61,.55-3.56,1.53-.95,.97-1.46,2.26-1.46,3.63V84.92c0,1.37,.51,2.66,1.46,3.63,.95,.97,2.21,1.52,3.56,1.53h48.88c1.34,0,2.61-.55,3.55-1.52,.94-.97,1.46-2.26,1.46-3.62l.02-52.3c0-1.38-.51-2.67-1.47-3.65Zm-20.16,2.52c.95,.97,2.21,1.52,3.56,1.53h14.56l-.02,51.89c0,.41-.15,.8-.44,1.09-.28,.29-.67,.46-1.07,.46H26.51c-.4,0-.78-.17-1.07-.46-.28-.29-.44-.68-.44-1.09V14.45c0-.41,.15-.8,.44-1.09,.28-.29,.66-.46,1.07-.46h30.83v14.97c0,1.37,.51,2.66,1.46,3.63Zm2.05-3.63V15.43l13.59,13.99h-12.08c-.4,0-.78-.17-1.07-.46s-.44-.68-.44-1.09Z"></path>
+  <g>
+    <path class="cls-2" d="M39.42,53.03c-.43,0-.85-.18-1.16-.5-.31-.31-.48-.74-.47-1.18v-1.68h-3.27c-.43-.02-.83-.2-1.12-.52-.29-.31-.46-.73-.46-1.16s.16-.85,.46-1.16c.29-.31,.7-.5,1.12-.52h6.63c.64,0,1.26-.23,1.75-.65,.49-.42,.82-1,.94-1.64,.12-.64,.02-1.31-.28-1.88-.31-.58-.8-1.03-1.39-1.27l-6.72-2.77c-1.3-.55-2.38-1.53-3.04-2.79-.67-1.26-.88-2.71-.62-4.12,.25-1.4,.98-2.67,2.06-3.58,1.08-.91,2.43-1.42,3.83-1.43h.11v-1.68c0-.44,.17-.86,.48-1.17,.31-.31,.72-.48,1.15-.48s.85,.17,1.15,.48c.31,.31,.48,.73,.48,1.17v1.68h3.25c.29,0,.58,.06,.84,.21,.26,.15,.47,.36,.62,.62,.15,.26,.22,.55,.22,.85s-.08,.59-.22,.85c-.15,.26-.36,.47-.62,.62-.26,.15-.55,.22-.84,.21h-6.62c-.64,0-1.26,.24-1.75,.65-.49,.42-.82,1-.94,1.64-.12,.64-.02,1.31,.28,1.88,.31,.58,.8,1.03,1.39,1.27l6.73,2.77c1.3,.54,2.38,1.53,3.05,2.79,.67,1.26,.89,2.72,.62,4.12-.26,1.41-.99,2.68-2.07,3.59-1.08,.91-2.44,1.42-3.85,1.42h-.1v1.68c0,.44-.17,.86-.47,1.18-.31,.31-.72,.49-1.15,.49h0Z"></path>
+    <path class="cls-2" d="M33.17,66.45c-.43-.01-.84-.2-1.14-.51-.3-.31-.47-.73-.47-1.17s.17-.86,.47-1.17c.3-.31,.71-.5,1.14-.51h35.58c.43,.01,.84,.2,1.14,.51,.3,.31,.47,.73,.47,1.17s-.17,.86-.47,1.17-.71,.5-1.14,.51H33.17Z"></path>
+    <path class="cls-2" d="M52.5,56.39c-.43-.01-.84-.2-1.14-.51-.3-.31-.47-.73-.47-1.17s.17-.86,.47-1.17c.3-.31,.71-.5,1.14-.51h16.24c.43,.01,.84,.2,1.14,.51,.3,.31,.47,.73,.47,1.17s-.17,.86-.47,1.17c-.3,.31-.71,.5-1.14,.51h-16.24Z"></path>
+    <path class="cls-2" d="M58.97,46.32c-.43-.01-.84-.2-1.14-.51-.3-.31-.47-.73-.47-1.17s.17-.86,.47-1.17c.3-.31,.71-.5,1.14-.51h9.78c.43,.01,.84,.2,1.14,.51,.3,.31,.47,.73,.47,1.17s-.17,.86-.47,1.17c-.3,.31-.71,.5-1.14,.51h-9.78Z"></path>
+    <path class="cls-2" d="M33.17,76.52c-.43-.01-.84-.2-1.14-.51-.3-.31-.47-.73-.47-1.17s.17-.86,.47-1.17c.3-.31,.71-.5,1.14-.51h35.58c.43,.01,.84,.2,1.14,.51,.3,.31,.47,.73,.47,1.17s-.17,.86-.47,1.17-.71,.5-1.14,.51H33.17Z"></path>
+  </g>
+</svg></div>
+      
+</div>
+
+      </div>
+        <div class="usa-icon-list__content">
+      <h4 class="usa-icon-list__title ssa-icon-list__title">     
+        Documents
+      </h4>
+              <p><a href="/manage-benefits/get-benefit-letter">Get benefit verification letter</a></p>
+              <p><a href="/manage-benefits/get-tax-form-10991042s">Get tax form (1099/1042S)</a></p>
+          </div>
+  </li>
+
+                <li class="usa-icon-list__item ssa-icon-list__item" style="height: 278.766px;">
+          <div class="usa-icon-list__icon ssa-icon-list__icon">
+        <div>
+  
+  
+
+            <div class="field field--name-field-media-image-1 field--type-image field--label-hidden field__item"><svg xmlns="http://www.w3.org/2000/svg" id="icons" viewBox="0 0 100 100">
+  <defs>
+    <style>.cls-1{fill:#112f4e;}.cls-2{fill:#2491ff;}</style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M15.23,65.03c-.66,0-1.31-.13-1.91-.39-.61-.26-1.16-.63-1.62-1.1-.46-.47-.83-1.03-1.08-1.65-.25-.62-.38-1.28-.38-1.95V26.03c0-.67,.13-1.33,.38-1.95,.25-.62,.62-1.18,1.08-1.65,.46-.47,1.02-.85,1.62-1.1,.61-.26,1.26-.39,1.91-.39h56.67c.66,0,1.31,.13,1.91,.39,.61,.26,1.16,.63,1.62,1.1,.46,.47,.83,1.03,1.08,1.65,.25,.62,.38,1.28,.38,1.95V59.95c0,.67-.13,1.33-.38,1.95-.25,.62-.62,1.18-1.08,1.65-.46,.47-1.02,.85-1.62,1.1-.61,.26-1.26,.39-1.91,.39H15.23Zm0-40.7c-.22,0-.44,.04-.64,.13s-.39,.21-.54,.37c-.15,.16-.28,.34-.36,.55-.08,.21-.13,.43-.13,.65V59.95c0,.22,.04,.44,.13,.65,.08,.21,.21,.39,.36,.55,.15,.16,.34,.28,.54,.37,.2,.09,.42,.13,.64,.13h56.67c.22,0,.44-.04,.64-.13,.2-.09,.39-.21,.54-.37,.15-.16,.28-.34,.36-.55,.08-.21,.13-.43,.13-.65V26.03c0-.22-.04-.44-.13-.65-.08-.21-.21-.39-.36-.55-.15-.16-.34-.28-.54-.37-.2-.09-.42-.13-.64-.13H15.23Z"></path>
+    <path class="cls-1" d="M18.55,71.82c-.44,0-.87-.18-1.18-.5-.31-.32-.49-.75-.49-1.2s.18-.88,.49-1.2c.31-.32,.74-.5,1.18-.5h60.01c.22,0,.44-.04,.64-.13,.2-.09,.39-.21,.54-.37,.15-.16,.28-.34,.36-.55,.08-.21,.13-.43,.13-.65V29.42c0-.45,.18-.88,.49-1.2,.31-.32,.74-.5,1.18-.5s.87,.18,1.18,.5c.31,.32,.49,.75,.49,1.2v37.31c0,.67-.13,1.33-.38,1.95s-.62,1.18-1.08,1.65c-.46,.47-1.02,.85-1.62,1.1-.61,.26-1.26,.39-1.91,.39H18.55Z"></path>
+    <path class="cls-1" d="M25.22,78.6c-.44,0-.87-.18-1.18-.5-.31-.32-.49-.75-.49-1.2s.18-.88,.49-1.2c.31-.32,.74-.5,1.18-.5h60.01c.22,0,.44-.04,.64-.13,.2-.09,.39-.21,.54-.37,.15-.16,.28-.34,.36-.55,.08-.21,.13-.43,.13-.65V36.21c0-.45,.18-.88,.49-1.2,.31-.32,.74-.5,1.18-.5s.87,.18,1.18,.5c.31,.32,.49,.75,.49,1.2v37.31c0,.67-.13,1.33-.38,1.95-.25,.62-.62,1.18-1.08,1.65-.46,.47-1.02,.85-1.62,1.1-.61,.26-1.26,.39-1.91,.39H25.22Z"></path>
+  </g>
+  <g>
+    <path class="cls-2" d="M43.57,54.86c-2.31,0-4.57-.69-6.49-1.99-1.92-1.3-3.42-3.16-4.31-5.32s-1.12-4.56-.67-6.86,1.56-4.42,3.19-6.08c1.63-1.66,3.71-2.79,5.98-3.25,2.27-.46,4.62-.22,6.75,.67,2.14,.9,3.96,2.42,5.24,4.37,1.28,1.95,1.97,4.25,1.97,6.6,0,1.56-.3,3.1-.89,4.54-.59,1.44-1.45,2.75-2.53,3.85-1.08,1.1-2.37,1.98-3.79,2.57-1.42,.6-2.93,.9-4.47,.91Zm0-20.35c-1.65,0-3.26,.49-4.64,1.42-1.37,.93-2.44,2.25-3.08,3.8-.63,1.55-.8,3.25-.48,4.9,.32,1.65,1.11,3.16,2.28,4.34,1.17,1.19,2.65,1.99,4.27,2.32,1.62,.33,3.3,.16,4.82-.48,1.53-.64,2.83-1.73,3.75-3.12,.92-1.39,1.41-3.03,1.41-4.71,0-1.11-.21-2.21-.63-3.24-.42-1.03-1.03-1.96-1.81-2.75-.77-.79-1.69-1.41-2.7-1.84-1.01-.43-2.1-.65-3.19-.65h0Z"></path>
+    <path class="cls-2" d="M18.56,58.25c-.44,0-.87-.18-1.18-.5-.31-.32-.49-.75-.49-1.2s.18-.88,.49-1.2c.31-.32,.74-.5,1.18-.5h6.67c.44,0,.87,.18,1.18,.5,.31,.32,.49,.75,.49,1.2s-.18,.88-.49,1.2c-.31,.32-.74,.5-1.18,.5h-6.67Z"></path>
+    <path class="cls-2" d="M61.9,31.12c-.44,0-.87-.18-1.18-.5-.31-.32-.49-.75-.49-1.2s.18-.88,.49-1.2c.31-.32,.74-.5,1.18-.5h6.67c.44,0,.87,.18,1.18,.5,.31,.32,.49,.75,.49,1.2s-.18,.88-.49,1.2c-.31,.32-.74,.5-1.18,.5h-6.67Z"></path>
+  </g>
+</svg></div>
+      
+</div>
+
+      </div>
+        <div class="usa-icon-list__content">
+      <h4 class="usa-icon-list__title ssa-icon-list__title">     
+        Payment
+      </h4>
+              <p><a href="/manage-benefits/update-direct-deposit">Update direct deposit</a></p>
+              <p><a href="/manage-benefits/repay-overpaid-benefits">Repay overpaid benefits</a></p>
+              <p><a href="/manage-benefits/request-withhold-taxes">Request to withhold taxes</a></p>
+              <p><a href="/manage-benefits/view-benefit-payment-schedule">View benefit payment schedule</a></p>
+          </div>
+  </li>
+
+            </ul>
+</div>
+          </div>
+  
+        </div>
+        <div class="grid-col-12 tablet:grid-col-6">
+                    
+
+      <div class="field field--name-field-right-column field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <ul class="paragraph paragraph--type--link-list paragraph--view-mode--default usa-icon-list ssa-icon-list">
+                    <li class="usa-icon-list__item ssa-icon-list__item" style="height: 176.922px;">
+          <div class="usa-icon-list__icon ssa-icon-list__icon">
+        <div>
+  
+  
+
+            <div class="field field--name-field-media-image-1 field--type-image field--label-hidden field__item"><svg xmlns="http://www.w3.org/2000/svg" id="icons" viewBox="0 0 100 100">
+  <defs>
+    <style>.cls-1{fill:#112f4e;}.cls-2,.cls-3{fill:#2491ff;}.cls-3{fill-rule:evenodd;}</style>
+  </defs>
+  <path class="cls-3" d="M14.96,23.46l-.71-1.61-.71-1.61h.01l.03-.02,.11-.05c.09-.04,.22-.09,.39-.17,.34-.13,.84-.32,1.51-.53,2.02-.64,4.07-1.16,6.15-1.57,8.85-1.63,17.83-2.39,26.83-2.25,8.99-.13,17.97,.62,26.82,2.25,2.08,.4,4.13,.93,6.15,1.57,.67,.22,1.17,.4,1.51,.53,.16,.06,.3,.12,.39,.17l.11,.05,.03,.02h.01l-.71,1.61-.71,1.61-.06-.02c-.06-.03-.16-.07-.29-.12-.28-.11-.71-.27-1.31-.47-1.9-.6-3.83-1.09-5.78-1.47-8.63-1.59-17.39-2.32-26.16-2.18-8.77-.13-17.53,.59-26.16,2.18-1.95,.38-3.88,.87-5.78,1.47-.61,.2-1.04,.35-1.31,.47-.14,.05-.24,.09-.29,.12l-.06,.03h0Z"></path>
+  <path class="cls-1" d="M76.03,92.15c-.23,0-.45-.05-.66-.14-.21-.09-.4-.22-.56-.38-.16-.16-.29-.36-.37-.57-.09-.21-.13-.44-.13-.67v-15.92c0-.11,.01-.21,.03-.32l3.06-17.37h-15.1c-.23,0-.45-.05-.66-.14-.21-.09-.4-.22-.56-.38-.16-.16-.29-.36-.37-.57-.09-.21-.13-.44-.13-.67v-12.23c0-4.86-1.69-7.22-5.15-7.22s-5.15,2.36-5.15,7.22v15.77c0,.14-.02,.29-.05,.42l-1.72,7.07c-.82,3.11-.84,6.39-.06,9.51,1.3,2.37,2.91,4.56,4.77,6.51,.32,.33,.49,.78,.49,1.25v7.07c0,.46-.18,.91-.5,1.24-.32,.33-.76,.51-1.22,.51s-.89-.18-1.22-.51c-.32-.33-.5-.77-.5-1.24v-6.37c-1.92-2.09-3.57-4.42-4.93-6.93-.07-.13-.13-.26-.16-.4-.49-1.88-.74-3.81-.74-5.75-.56,.52-1.16,1.01-1.79,1.45-.06,.04-.13,.08-.2,.12-.94,.45-1.98,.68-3.02,.67-1.34,.01-2.65-.35-3.79-1.05-.79-.49-1.44-1.19-1.89-2.02-.44-.83-.67-1.76-.64-2.71v-10.61h-15.43c-.68,0-1.35-.15-1.98-.42-.63-.27-1.2-.66-1.67-1.15-.48-.49-.86-1.08-1.11-1.72-.26-.64-.39-1.33-.38-2.02V12.56c0-.69,.12-1.38,.38-2.02,.26-.64,.63-1.22,1.11-1.72,.48-.49,1.05-.89,1.67-1.15,.63-.27,1.3-.41,1.98-.42h61.78c.68,0,1.35,.15,1.98,.42,.63,.27,1.2,.66,1.67,1.15,.48,.49,.86,1.08,1.11,1.72,.26,.64,.39,1.33,.38,2.02V51.47c0,1.13-.35,2.24-1.01,3.15-.66,.91-1.6,1.59-2.66,1.92l-3.19,18.08v15.76c0,.23-.04,.46-.13,.67s-.21,.41-.37,.57c-.16,.16-.35,.29-.56,.38-.21,.09-.43,.14-.66,.14h0Zm-39.48-24.76c-.02,.34,.05,.69,.21,.99,.16,.3,.4,.56,.69,.73,.61,.36,1.3,.54,2,.53,.47,0,.94-.08,1.38-.25,2.14-1.53,3.81-3.66,4.8-6.12l1.2-4.94v-1.56h-10.29v10.61Zm42.89-14.15c.23,0,.45-.05,.66-.14,.21-.09,.4-.22,.56-.38,.16-.16,.29-.36,.37-.57,.09-.21,.13-.44,.13-.67V12.56c0-.23-.04-.46-.13-.67s-.21-.41-.37-.57c-.16-.16-.35-.29-.56-.38-.21-.09-.43-.14-.66-.14H17.69c-.46,0-.89,.19-1.21,.53-.32,.33-.5,.78-.5,1.24V51.47c0,.23,.04,.46,.13,.67,.09,.21,.21,.41,.37,.57,.16,.16,.35,.3,.56,.38,.21,.09,.43,.14,.66,.14h29.17v-10.46c0-9.71,6.01-10.76,8.58-10.76s8.58,1.05,8.58,10.76v10.46h15.43Z"></path>
+  <path class="cls-2" d="M31.42,29.93c-1.56,0-1.72-.79-1.72-1.77s.16-1.77,1.72-1.77h32.6c1.56,0,1.72,.79,1.72,1.77s-.16,1.77-1.72,1.77H31.42Z"></path>
+</svg></div>
+      
+</div>
+
+      </div>
+        <div class="usa-icon-list__content">
+      <h4 class="usa-icon-list__title ssa-icon-list__title">     
+        Number &amp; card
+      </h4>
+              <p><a href="/number-card/replace-card">Replace card</a></p>
+              <p><a href="/number-card/request-number-first-time">Request number for the first time</a></p>
+              <p><a href="/number-card/report-stolen-number">Report stolen number</a></p>
+          </div>
+  </li>
+
+                <li class="usa-icon-list__item ssa-icon-list__item" style="height: 278.766px;">
+          <div class="usa-icon-list__icon ssa-icon-list__icon">
+        <div>
+  
+  
+
+            <div class="field field--name-field-media-image-1 field--type-image field--label-hidden field__item"><svg xmlns="http://www.w3.org/2000/svg" id="icons" viewBox="0 0 100 100">
+  <defs>
+    <style>.cls-1{fill:#112f4e;}.cls-2{fill:#2491ff;}</style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M71.64,64.82h-3.26v-11.99c-.03-1.68-.69-3.25-1.87-4.44-1.18-1.18-2.74-1.83-4.4-1.83s-3.22,.65-4.4,1.83c-1.18,1.18-1.84,2.76-1.87,4.44v17.6l-.88-.74c-.93-1.08-2.23-1.75-3.64-1.88-.18-.02-.35-.03-.53-.03-1.05,0-2.07,.31-2.96,.88-.88,.57-1.58,1.39-2.03,2.35-.44,.97-.6,2.03-.47,3.09,.14,1.06,.56,2.05,1.23,2.86l7.46,9.12c.16,.2,.37,.36,.61,.47,.23,.11,.49,.17,.74,.17h0c.41,0,.81-.15,1.13-.41,.18-.15,.32-.33,.43-.54,.11-.21,.17-.43,.19-.67,.02-.23,0-.46-.07-.69-.07-.22-.18-.43-.33-.61l-7.46-9.13c-.17-.21-.3-.44-.38-.7-.08-.26-.11-.53-.08-.79,.02-.27,.1-.53,.22-.77,.12-.24,.29-.45,.5-.62,.36-.31,.82-.49,1.28-.47h.09s.09,.01,.1,0c.26,.02,.52,.1,.75,.22,.24,.12,.44,.29,.61,.5,.07,.08,.14,.16,.22,.23l3.88,3.31c.51,.43,1.28,.53,1.87,.25,.3-.14,.56-.37,.74-.66,.18-.29,.27-.62,.27-.95v-21.41c0-.74,.29-1.46,.81-1.99,.52-.53,1.21-.82,1.95-.82s1.43,.29,1.95,.82c.52,.53,.81,1.24,.81,1.99v13.77c0,.47,.19,.93,.51,1.26,.33,.33,.78,.52,1.24,.52h5.02c2.21,0,4.29,.88,5.85,2.47,1.56,1.59,2.43,3.7,2.43,5.95v8.15c0,.47,.19,.93,.51,1.26,.66,.67,1.82,.67,2.48,0,.33-.34,.51-.78,.51-1.25v-8.16c0-3.2-1.23-6.2-3.45-8.47-2.23-2.26-5.19-3.51-8.34-3.51Z"></path>
+    <path class="cls-1" d="M84.16,15.14c-1.47-1.49-3.42-2.32-5.5-2.32H21.48c-2.08,0-4.03,.82-5.5,2.32-1.47,1.49-2.28,3.48-2.28,5.59v58.1c0,2.11,.81,4.09,2.28,5.59,1.47,1.49,3.42,2.32,5.5,2.32h24.13c.47,0,.91-.19,1.24-.52,.33-.34,.51-.78,.51-1.26s-.19-.93-.51-1.26c-.33-.34-.77-.52-1.24-.52H21.47c-.56,0-1.11-.11-1.63-.33-.52-.22-.99-.54-1.39-.94-.4-.41-.71-.88-.93-1.41-.22-.53-.33-1.09-.32-1.67V31.68H82.93v33.42c0,.47,.18,.92,.51,1.26,.66,.67,1.82,.67,2.49,0,.33-.34,.51-.78,.51-1.26V20.73c0-2.11-.81-4.09-2.28-5.59Zm-1.23,5.59v7.39H17.21v-7.39c0-.57,.11-1.13,.32-1.67,.21-.53,.53-1,.93-1.41,.4-.41,.87-.72,1.39-.94,.52-.22,1.07-.33,1.63-.33h57.19c.56,0,1.11,.11,1.63,.33,.52,.22,.99,.54,1.39,.94,.4,.41,.71,.88,.93,1.41,.22,.53,.33,1.09,.32,1.67Z"></path>
+  </g>
+  <g>
+    <path class="cls-2" d="M27.49,63.54s-.04,0-.06,0h-1.44c-.8,0-1.56-.32-2.13-.9-.56-.57-.88-1.35-.88-2.16v-21.41c0-.81,.32-1.59,.88-2.16,.56-.57,1.33-.9,2.13-.9h18.06c.8,0,1.56,.32,2.13,.9,.56,.57,.88,1.35,.88,2.16v21.41c0,.81-.32,1.59-.88,2.16-.56,.57-1.33,.9-2.13,.9h-1.44s-.04,0-.06,0h-15.05Zm16.56-3.06v-21.41H25.99v21.41h.01c.14-1.6,.65-3.15,1.49-4.51,.84-1.36,2-2.5,3.36-3.31-.87-.84-1.47-1.93-1.72-3.13-.25-1.19-.15-2.44,.3-3.57,.45-1.13,1.22-2.1,2.22-2.79,1-.68,2.17-1.05,3.37-1.05s2.38,.37,3.37,1.05c1,.68,1.77,1.65,2.22,2.79,.45,1.13,.55,2.38,.3,3.57-.25,1.19-.85,2.28-1.72,3.13,1.37,.82,2.52,1.95,3.36,3.31,.84,1.36,1.36,2.91,1.49,4.51h0Zm-3.03,0c0-1.62-.63-3.17-1.76-4.31-1.12-1.14-2.65-1.79-4.24-1.79s-3.12,.64-4.24,1.79c-1.12,1.14-1.76,2.69-1.76,4.31h12Zm-5.99-15.29c-.6,0-1.18,.18-1.67,.51-.5,.34-.88,.81-1.11,1.37-.23,.56-.29,1.17-.17,1.77,.12,.59,.4,1.14,.82,1.57s.96,.72,1.54,.84c.58,.12,1.19,.06,1.74-.17,.55-.23,1.02-.62,1.35-1.13,.33-.5,.51-1.09,.51-1.7,0-.4-.08-.8-.23-1.17-.15-.37-.37-.71-.65-.99-.28-.28-.61-.51-.98-.66-.37-.15-.76-.23-1.15-.23h0Z"></path>
+    <path class="cls-2" d="M25.99,71.19c-.4,0-.78-.16-1.06-.45-.28-.29-.44-.68-.44-1.08s.16-.79,.44-1.08c.28-.29,.66-.45,1.06-.45h12.04c.4,0,.78,.16,1.06,.45,.28,.29,.44,.68,.44,1.08s-.16,.79-.44,1.08c-.28,.29-.66,.45-1.06,.45h-12.04Z"></path>
+    <path class="cls-2" d="M25.99,77.31c-.4,0-.78-.16-1.06-.45-.28-.29-.44-.68-.44-1.08s.16-.79,.44-1.08c.28-.29,.66-.45,1.06-.45h12.04c.4,0,.78,.16,1.06,.45,.28,.29,.44,.68,.44,1.08s-.16,.79-.44,1.08c-.28,.29-.66,.45-1.06,.45h-12.04Z"></path>
+    <path class="cls-2" d="M25.99,24.55c-.45,0-.88-.13-1.26-.39-.37-.25-.66-.61-.83-1.03-.17-.42-.22-.88-.13-1.33,.09-.45,.3-.85,.62-1.18s.72-.54,1.16-.63c.44-.09,.89-.04,1.31,.13,.41,.17,.77,.47,1.01,.85,.25,.38,.38,.82,.38,1.28,0,.61-.24,1.19-.66,1.62-.42,.43-1,.67-1.59,.67h0Z"></path>
+    <path class="cls-2" d="M35.02,24.55c-.45,0-.88-.13-1.25-.39-.37-.25-.66-.61-.83-1.03-.17-.42-.22-.88-.13-1.33,.09-.45,.3-.85,.62-1.17,.32-.32,.72-.54,1.16-.63,.44-.09,.89-.04,1.3,.13,.41,.17,.77,.47,1.01,.85,.25,.38,.38,.82,.38,1.27,0,.3-.06,.6-.17,.88s-.28,.53-.49,.74c-.21,.21-.46,.38-.73,.5-.27,.12-.57,.17-.86,.17Z"></path>
+    <path class="cls-2" d="M44.05,24.55c-.6,.02-1.18-.2-1.62-.62-.44-.42-.69-.99-.71-1.6-.02-.61,.2-1.2,.61-1.64,.41-.44,.98-.7,1.58-.72,.05,0,.09,0,.14,0,.6,0,1.17,.24,1.6,.67,.42,.43,.66,1.01,.66,1.62s-.24,1.19-.66,1.62c-.42,.43-1,.67-1.6,.67h0Z"></path>
+    <path class="cls-2" d="M56.09,39.07c-.4,0-.78-.16-1.06-.45-.28-.29-.44-.68-.44-1.08s.16-.79,.44-1.08c.28-.29,.66-.45,1.06-.45h19.57c.4,0,.78,.16,1.06,.45,.28,.29,.44,.68,.44,1.08s-.16,.79-.44,1.08c-.28,.29-.66,.45-1.06,.45h-19.57Z"></path>
+  </g>
+</svg></div>
+      
+</div>
+
+      </div>
+        <div class="usa-icon-list__content">
+      <h4 class="usa-icon-list__title ssa-icon-list__title">     
+        Record
+      </h4>
+              <p><a href="/personal-record/change-name">Change name</a></p>
+              <p><a href="/personal-record/update-contact-information">Update contact information</a></p>
+              <p><a href="/personal-record/update-citizenship-or-immigration-status">Update citizenship or immigration status</a></p>
+              <p><a href="/personal-record/change-sex-identification">Change sex identification</a></p>
+              <p><a href="/personal-record/when-someone-dies">Report a death</a></p>
+          </div>
+  </li>
+
+            </ul>
+</div>
+          </div>
+  
+        </div>
+      </div>
+      </section>
+      
+  </div>
+              <div class="ssa-page-components__item">   <div class="paragraph paragraph--type--promo-banner paragraph--view-mode--default">
+            <div class="grid-container grid-row promo-banner-wrap">
+         <div class="promo-icon grid-col-2 tablet:grid-col-1">
+            
+
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="field field--name-field-media-image-1 field--type-image field--label-hidden field__item"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="computer_x5F_icon_x5F_final" x="0px" y="0px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0-a{fill:#FFFFFF;}
+	.st1-a{fill:#112F4E;}
+	.st2-a{fill:#2491FF;}
+</style>
+<g id="computer-group-icon">
+	<rect id="computer-white-background" x="3.8" y="7.5" class="st0-a" width="41.2" height="26.3"></rect>
+	<path id="computer-frame" class="st1-a" d="M43.3,6H4.8C3.3,6,2,7.3,2,8.8v23.8c0,1.6,1.3,2.8,2.8,2.8h15.5V39H14c-0.6,0-1,0.5-1,1   s0.5,1,1,1h20.2c0.6,0,1-0.5,1-1s-0.5-1-1-1h-6.3v-3.5h15.5c1.6,0,2.8-1.3,2.8-2.8V8.8C46.2,7.3,44.9,6,43.3,6L43.3,6z M22.4,39   v-3.5h3.5V39H22.4z M4,8.8C4,8.4,4.4,8,4.9,8h38.5c0.4,0,0.8,0.4,0.8,0.8v23.8c0,0.4-0.4,0.8-0.8,0.8H4.8C4.3,33.4,4,33,4,32.6V8.8   L4,8.8z"></path>
+	<g id="computer-login-bars">
+		<path id="computer-login-bar-button" class="st2-a" d="M15.1,24.5h9.2c0.3,0,0.5,0.2,0.5,0.5v2.5c0,0.3-0.2,0.5-0.5,0.5h-9.2    c-0.3,0-0.5-0.2-0.5-0.5V25C14.6,24.7,14.9,24.5,15.1,24.5z"></path>
+		<path id="computer-login-bar-bottom" class="st2-a" d="M15.6,19.1h17c0.6,0,1,0.4,1,1v0.4c0,0.6-0.4,1-1,1h-17c-0.6,0-1-0.4-1-1    v-0.4C14.6,19.5,15.1,19.1,15.6,19.1z"></path>
+		<path id="computer-login-bar-top" class="st2-a" d="M15.6,13.6h17c0.6,0,1,0.4,1,1V15c0,0.6-0.4,1-1,1h-17c-0.6,0-1-0.4-1-1v-0.4    C14.6,14.1,15.1,13.6,15.6,13.6z"></path>
+	</g>
+	<path id="computer-cursor" class="st1-a" d="M35.6,30.3l-2-2l1-0.9c0.2-0.2,0.4-0.6,0.4-0.9s-0.1-0.7-0.4-0.9   c-0.1-0.1-0.3-0.2-0.5-0.3l-4.6-1.7c-0.1-0.1-0.3-0.1-0.4-0.1l0,0c-0.5,0-1,0.3-1.2,0.8c-0.1,0.3-0.1,0.6,0,0.9l1.7,4.6   c0.2,0.5,0.7,0.8,1.2,0.8l0,0c0.1,0,0.3,0,0.4-0.1c0.2-0.1,0.3-0.2,0.5-0.3l1-0.9l2,2c0.1,0.1,0.3,0.2,0.5,0.2l0,0   c0.2,0,0.4-0.1,0.5-0.2s0.2-0.3,0.2-0.5C35.8,30.6,35.7,30.4,35.6,30.3z M33.4,26.5l-2.7,2.7L29.1,25L33.4,26.5z"></path>
+</g>
+</svg></div>
+      
+</div>
+</div>
+      
+         </div>
+         <div class="promo-mid-wrap grid-row grid-col-12 tablet:grid-col-12">
+            <div class="grid-col-10 tablet:grid-col-11">
+               <h4 class="promo_heading"><em>my</em> Social Security account</h4>
+            </div>
+            <div class="grid-col-12">
+               
+
+            <div class="field field--name-field-promo-banner-summary field--type-text-long field--label-hidden field__item"><p>Use your account to access many of our personalized online services</p>
+</div>
+      
+            </div>
+         </div>
+         <div class="promo-banner-btn grid-col-12 tablet:grid-col-6">
+            
+
+            <div class="field field--name-field-action-link field--type-link field--label-hidden field__item"><a href="https://www.ssa.gov/myaccount" data-cta="button" data-location="body">Learn about your account</a></div>
+      
+         </div>
+      </div>
+         </div>
+</div>
+              <div class="ssa-page-components__item">   <div class="paragraph paragraph--type--promo-banner paragraph--view-mode--alternate">
+            <div class="grid-container promo-banner-wrap">
+        <div class="grid-row grid-gap-2 flex-align-center">
+          <div class="grid-col-12 tablet:grid-col-auto">
+            
+
+            <div class="field field--name-field-icon field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="field field--name-field-media-image-1 field--type-image field--label-hidden field__item"><svg xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 600 201" style="enable-background:new 0 0 600 201;" xml:space="preserve" width="257px" height="85px">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#002A5C;}
+	.st2{fill:#CE0E2D;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#002A5C;}
+</style>
+<switch>
+	
+	<g i:extraneous="self">
+		<g>
+			<g>
+				<g>
+					<path class="st0" d="M593.7,100.8c0,52.8-42.8,95.5-95.5,95.5c-52.8,0-95.5-42.8-95.5-95.5c0-52.8,42.8-95.5,95.5-95.5       C550.9,5.3,593.7,48.1,593.7,100.8"></path>
+					<path class="st1" d="M591.4,100.8c0,51.5-41.7,93.2-93.2,93.2c-51.5,0-93.2-41.7-93.2-93.2c0-51.5,41.7-93.2,93.2-93.2       C549.7,7.6,591.4,49.3,591.4,100.8"></path>
+					<path class="st0" d="M564.2,100.8c0,36.5-29.6,66-66,66c-36.5,0-66-29.6-66-66c0-36.5,29.6-66,66-66       C534.7,34.8,564.2,64.4,564.2,100.8"></path>
+					<path class="st1" d="M475,113.1h4.4v30.2c0,0-3.9,0.5-4.4-4.9V113.1z"></path>
+					<path class="st1" d="M522.2,113.1h-4.4v30.2c0,0,4.1,0.5,4.4-4.9V113.1z"></path>
+					<path class="st1" d="M482.5,113.1h4.1v32.6c0,0-1.2-0.2-4.4-1L482.5,113.1z"></path>
+					<path class="st1" d="M489.3,113.1h4.1v34.3c0,0-1.2-0.2-4.1-1V113.1z"></path>
+					<path class="st1" d="M514.6,113.1h-4.1v32.6c0,0,1.2-0.5,4.4-1L514.6,113.1z"></path>
+					<path class="st1" d="M507.6,113.1h-4.1v34.3c0,0,1.2-0.2,4.1-1V113.1z"></path>
+					<polygon class="st1" points="496.1,113.1 500.5,113.1 500.5,147.4 498.6,149.8 496.1,147.6      "></polygon>
+					<path class="st2" d="M489.6,96.4v7.7c0,3.7-1,6.8-6.7,6.8c-4.5,0-6.6-2.2-6.6-5.6v-8.9l-2.2-0.4v-0.8h7.7v0.8l-2.3,0.4v8.8       c0,2.7,1.4,4.4,4.2,4.4c3.9,0,4.5-2.7,4.5-5.6v-7.6l-2.4-0.4v-0.8h5.8v0.8L489.6,96.4z"></path>
+					<path class="st2" d="M502.2,99.5h-0.8c-0.2-1.9-0.9-3.7-3.2-3.7c-1.4,0-2.5,0.8-2.5,2.2c0,3.9,7.3,2.4,7.3,8       c0,2.8-2.4,4.8-5.3,4.8c-1.5,0-3.1-0.4-4.4-1.2c0-1.3,0-2.6-0.2-3.8h0.9c0.2,1.9,1.2,4.1,3.6,4.1c1.7,0,2.8-1,2.8-2.7       c0-3.3-7.1-2.7-7.1-7.7c0-3.2,2-4.8,5.1-4.8c1.3,0,2.6,0.4,3.7,1V99.5z"></path>
+					<path class="st2" d="M505.2,110.5v-0.8l1.8-0.4l5.3-14.5h1.9l5.6,14.5l1.8,0.4v0.8h-7.5v-0.8l2.1-0.4l-1.5-4h-4.9l-1.4,4       l2.1,0.4v0.8H505.2z M510.3,104h4l-2.1-5.3L510.3,104z"></path>
+					<path class="st1" d="M433.9,102c0,0,1.8,1,4.4-0.3c3.1-1.5,4.4-2.6,7.7-9.5c3.3-7.5,6.9-16.4,12.6-21.6       c5.7-5.1,12.1-9,21.3-6.7c0,0,0,0.8-3.9,1c-1.8,0.3-7.5,1.5-13.1,6.2c-6.2,5.7-10,15.4-12.3,19.8c-1.5,3.3-5.9,13.6-12.1,13.6       C436.2,104.9,433.9,102,433.9,102"></path>
+					<path class="st1" d="M457.2,85.6c6.2-13.9,13.1-15.4,13.1-15.4s0,3.1,0.3,3.9c0,0-5.4,1.3-11,16.4c-2.1,5.4-6.2,14.1-13.4,14.1       C446.2,104.6,450.3,101.5,457.2,85.6"></path>
+					<path class="st1" d="M461.1,95.9c0,0,1-2.1,3.6-7.7c5.1-11.8,11-13.4,12.6-13.4c1.8-0.3,2.6,0.8,2.6,0.8s-7.4,2.1-12.6,17.7       C467.3,93.3,463.1,94.6,461.1,95.9"></path>
+					<path class="st1" d="M471.6,92c0,0,3.3-10.3,10.5-14.4l2.1,2.3c0,0-5.9,4.6-8.2,11.3C476,91.2,473.2,91.5,471.6,92"></path>
+					<path class="st1" d="M484.7,91.5c0.5-2.6,3.9-5.9,3.9-5.9l-2.1-2.6c0,0-3.9,2.8-5.9,8.2c0,0,1.5,0,2.3,0.3H484.7z"></path>
+					<path class="st1" d="M500.6,81.7c0,0,3.3-0.3,4.4-1.5c0,0,8,3.6,10.5,10c0,0-3.3,0-5.1,0.3C510.4,90.5,508.1,86.1,500.6,81.7"></path>
+					<path class="st1" d="M524.5,91.2c0,0-3.3-1-5.1-0.8c0,0,0-7.2-11.6-12.6c0,0,1.8-2.3,2.3-3.3C510.2,74.6,523,78.7,524.5,91.2"></path>
+					<path class="st1" d="M536.4,96.4c0,0-2.6-2.1-6.2-3.9c0,0-3.3-19-19-19.8c0,0,1-2.1,1.8-3.3c0.3-0.3,0.8-0.5,1-0.8       c0,0,9.2-2.3,17.2,3.1c3.3,2.6,7.7,9.5,11,18.2c2.8,7.2,6.4,12.8,7.4,14.1c0,0-3.9-0.5-5.9-2.6c-3.1-3.1-8-18.2-11-22.6       c-3.1-4.4-5.9-8-14.9-7.4c0,0,6.4,1.8,10.3,6.9C532.8,84.6,536.4,96.4,536.4,96.4"></path>
+					<path class="st1" d="M508.6,64.8c-2.1,5.1-3.6,8.5-7.7,8.5c-7.4-0.5-8.5-4.9-8.7-5.4c0-1,1.5-1.8,1.5-1.8c-0.5,0-3.6,0-7.7-1       c-5.7-1.8-5.7,2.1-5.7,2.1s-6.9-1.8-7.7,1.8c-0.5,1.5-0.3,4.1-0.3,4.1s5.1-2.8,9,0.5c3.3,2.6,3.9,4.9,8.7,10.3       c2.3,2.8,8.5,11.8,16.4,8c0,0-1-2.1-6.4-5.7c-2.3-1.5-5.7-3.1-8-4.9c-2.1-1.5-2.8-2.3-6.9-6.9c-1.8-2.1-7.2-4.9-10.3-3.9       c-0.3,0.3-0.3,0.5-0.5,0.5c0,0,0-1.3,0.3-1.8c0.3-0.8,3.3-1,6.9,0c0,0-0.5-2.8,2.3-2.3s5.9,1.5,6.7,1.3c0,0,0,6.7,10.8,7.4       c5.4,0.3,7.4-5.4,8.7-7.7c0.5-0.5,1.3-1.8,2.3-2.1C519.4,64,532,64,540,77.1c3.1,5.7,8.2,17,10.3,20.6c5.1,9,9.2,7.4,12.6,4.4       c0,0-5.1,2.8-9.5-7.4c-2.1-4.6-9-19.8-14.1-24.4c-2.6-2.3-6.4-5.9-13.1-7.4C512.5,59.9,508.6,64.8,508.6,64.8"></path>
+					<path class="st1" d="M482.9,67.9c0,0,0.8,1,0.8,1.8c0,0,1-0.8,3.3-0.8C487,68.9,484,68.1,482.9,67.9"></path>
+					<path class="st3" d="M418.5,120.8l-4.6-0.3l0.2,2l-0.7,0.2l-1.4-5l0.7-0.2l0.8,1.6l14.7,1.4l0.3,1l-11.6,9.3l0.2,1.8l-0.7,0.2       l-1.7-5.8l0.7-0.2l0.9,1.9l3.6-2.9L418.5,120.8z M419.6,120.9l1.2,4.2l4.7-3.8L419.6,120.9z"></path>
+					<path class="st3" d="M418.5,136.1l1.3,1.6l10.8-6.1l-0.7-1.9l0.6-0.3l3.8,6.7c2.1,3.8,2.6,7.9-1.9,10.5       c-4.8,2.7-8.5,0.5-10.9-3.6l-3.6-6.5L418.5,136.1z M420.9,139.4c0.5,1.2,0.8,2.2,1.5,3.4c1.7,3.1,4.8,4.2,8.2,2.2       c4.2-2.3,4.6-5.7,2.5-9.5c-0.4-0.8-0.9-1.5-1.4-2.2L420.9,139.4z"></path>
+					<path class="st3" d="M449.7,157.1l-8,9.5l1.1,1.6l-0.5,0.5l-4.2-4.3l0.5-0.5l1.7,1.2l7.6-8.9l0,0l0,0l-12.6,4.9l-0.2-0.2       l5.2-12.3l0,0l0,0l-8.9,7.1l1.1,1.6l-0.5,0.5l-3.4-3.5l0.5-0.5l1.5,1l9.8-7.7l-1.3-1.8l0.5-0.5l3.1,3.3l-4.5,10.7l10.8-4.2       l3.1,3.2l-0.5,0.5L449.7,157.1z"></path>
+					<path class="st3" d="M456.5,162l-7.1,10.1l1.5,1.5l-0.4,0.6l-5-3.5l0.4-0.6l1.9,0.9l7.1-10.1l-1.5-1.5l0.4-0.6l5,3.5l-0.4,0.6       L456.5,162z"></path>
+					<path class="st3" d="M455.8,176.4l5.2-11.2l-1.7-1.2l0.3-0.6l3.4,1.6l4.5,14.5l4.3-9.3l-1.7-1.2l0.3-0.6l4.8,2.2l-0.3,0.6       l-2-0.5l-5.7,12.3l-0.9-0.4c-0.6-2-3.8-12.3-4.8-15.5l-4.6,9.8l1.8,1.2l-0.3,0.6l-4.8-2.3l0.3-0.6L455.8,176.4z"></path>
+					<path class="st3" d="M480.1,172.6l-3.2,12l1.9,0.9l-0.2,0.7l-5.9-1.6l0.2-0.7l2.1,0.2l3.2-12l-1.9-0.9l0.2-0.7l5.9,1.6       l-0.2,0.7L480.1,172.6z"></path>
+					<path class="st3" d="M492.2,177l-0.7,0c-0.1-1.6-0.7-2.9-2.4-3.2c-1.5-0.2-2.7,0.6-2.9,2.2c-0.5,3.9,6.5,3.8,6,8       c-0.3,2.6-2.3,4.2-5.3,3.8c-1.4-0.2-3.1-0.7-4.1-1.6l0.2-3.4l0.7-0.1c0,1.1,0.2,2,0.4,2.6c0.3,0.9,1.9,1.6,2.8,1.7       c1.7,0.2,3.1-0.5,3.3-2.3c0.4-3.5-6.6-3.3-5.9-8.5c0.3-2.2,2.2-3.7,5.1-3.3c1,0.1,2,0.6,2.9,0.8L492.2,177z"></path>
+					<path class="st3" d="M502,187.1l-0.7-12.2l-2.6,0.1c-0.7,0-1.4,0.1-2,0.2l-0.6,2.3l-0.7,0l0.2-3.6l13.6-0.8l0.4,3.5l-0.8,0       l-0.6-2.3c-0.7,0-1.4,0-2.2,0l-2.6,0.1l0.7,12.2l2.3,0.2l0,0.7l-6.6,0.4l0-0.7L502,187.1z"></path>
+					<path class="st3" d="M516.1,185.5l-3.2-11.9l-2.2,0.2l-0.2-0.7l6.6-1.8c2-0.5,4.2,0,4.8,2.4c0.5,1.7-0.3,3.5-1.4,4.8l3.5,2.8       c1,0.8,2.3,1.8,3.7,2l0,0.7l-1.6,0c-0.5,0-1.3,0-1.5-0.1c-2-1.4-4-2.9-5.7-4.5c-0.6,0.2-1.3,0.4-2.1,0.6l1.3,4.9l2.1-0.2       l0.2,0.7l-6,1.6l-0.2-0.7L516.1,185.5z M516.5,179.1c0.2,0,0.5-0.1,0.8-0.2c2.5-0.7,3.6-1.1,2.9-3.9c-0.6-2.2-2.1-3.2-4.3-2.6       c-0.4,0.1-0.8,0.2-1,0.4L516.5,179.1z"></path>
+					<path class="st3" d="M532.9,175.3l0.6,4.5l2-0.6l0.3,0.6l-4.6,2.4l-0.3-0.6l1.4-1.1l-1.5-14.7l0.9-0.5l11.4,9.6l1.7-0.5       l0.3,0.6l-5.3,2.7l-0.3-0.6l1.6-1.2l-3.6-3L532.9,175.3z M532.8,174.2l3.9-2l-4.6-3.9L532.8,174.2z"></path>
+					<path class="st3" d="M550.6,169.5l-7.6-9.7l-2,1.6c-0.6,0.4-1.1,0.9-1.6,1.3l0.8,2.3l-0.6,0.4l-1.8-3.1l10.7-8.4l2.3,2.7       l-0.6,0.5l-1.8-1.5c-0.5,0.4-1.2,0.8-1.8,1.3l-2.1,1.6l7.6,9.7l2-1.1l0.4,0.6l-5.2,4.1l-0.4-0.6L550.6,169.5z"></path>
+					<path class="st3" d="M552.9,150.7l9,8.5l1.6-1.2l0.5,0.5l-4.2,4.4l-0.5-0.5l1.1-1.7l-9-8.5l-1.6,1.2l-0.5-0.5l4.2-4.4l0.5,0.5       L552.9,150.7z"></path>
+					<path class="st3" d="M569.7,139c3.5,2.3,4.2,6.3,1.8,10.1c-2.9,4.4-7,4.8-10.5,2.5c-3.9-2.6-4.9-6.6-2.4-10.4       C561.6,136.7,565.8,136.4,569.7,139z M570.9,148.5c2.1-3.2,0.2-6-2.6-7.8c-3.6-2.4-7.4-1.6-9.1,0.9c-1.7,2.6-0.9,5.4,2.2,7.5       C565.3,151.7,568.9,151.5,570.9,148.5z"></path>
+					<path class="st3" d="M577.4,135.9l-11.6-4.1l-1,1.8l-0.7-0.2l1.3-3.6l14-5.8l-9.6-3.4l-1,1.8l-0.7-0.2l1.8-5l0.7,0.2l-0.3,2       l12.8,4.5l-0.3,1c-1.9,0.8-11.9,4.9-15,6.2l10.2,3.6l1-1.9l0.7,0.2l-1.8,5l-0.7-0.2L577.4,135.9z"></path>
+					<path class="st3" d="M418.4,74.6l-0.1,0.7c-1.6-0.1-3,0.2-3.5,1.9c-0.4,1.5,0.2,2.8,1.8,3.2c3.9,1.1,4.8-5.9,8.9-4.8       c2.5,0.7,3.9,2.9,3.1,5.8c-0.4,1.4-1.2,3-2.2,3.8l-3.4-0.7l0-0.7c1.1,0.1,2,0.1,2.7,0c1-0.2,1.9-1.7,2.1-2.5       c0.5-1.7,0-3.2-1.8-3.7c-3.5-1-4.2,6.1-9.3,4.7c-2.1-0.6-3.4-2.8-2.6-5.6c0.3-1,0.9-1.9,1.3-2.8L418.4,74.6z"></path>
+					<path class="st3" d="M431.2,57.4c3.7,1.9,4.9,5.9,2.9,9.9c-2.5,4.7-6.5,5.5-10.2,3.6c-4.2-2.2-5.6-6.1-3.5-10.2       C422.7,56.1,426.9,55.2,431.2,57.4z M433.4,66.9c1.8-3.5-0.4-6-3.4-7.6c-3.9-2-7.6-0.8-9,1.9c-1.4,2.8-0.3,5.5,3,7.3       C428.1,70.7,431.7,70.1,433.4,66.9z"></path>
+					<path class="st3" d="M439.9,41.2l-0.5,0.6c-1.6-1.1-3.6-1.4-6.2,1.7c-2.5,2.8-2.6,5.7,0.3,8.2c3.3,2.8,7.7,3,10.2,0       c1.4-1.7,1.9-3.6,1.1-5.7l0.7-0.1l1.1,3c-0.7,1.4-1.5,2.6-2.4,3.7c-3.1,3.6-7.2,4.9-11.4,1.3c-3.6-3.1-3.8-7.1-0.3-11.1       c1-1.1,2.9-2.8,4.3-3.8L439.9,41.2z"></path>
+					<path class="st3" d="M444.1,33.6l7.9,9.6l1.8-1l0.5,0.5l-4.7,3.9l-0.5-0.5l1.4-1.6l-7.9-9.6l-1.8,1l-0.5-0.5l4.7-3.9l0.5,0.5       L444.1,33.6z"></path>
+					<path class="st3" d="M456.5,34.6l0.8,4.5l2-0.7l0.4,0.6l-4.5,2.6l-0.4-0.6l1.4-1.2L454,25.1l0.9-0.5l11.9,9.1l1.7-0.6l0.4,0.6       l-5.2,3l-0.4-0.6l1.6-1.3l-3.7-2.9L456.5,34.6z M456.4,33.5l3.9-2.2l-4.8-3.7L456.4,33.5z"></path>
+					<path class="st3" d="M470.1,32.7l1.8-1l-3.9-11.9l-2.1,0.3l-0.2-0.7l5.9-1.9l0.2,0.7l-1.8,1l3.8,11.7l5.1-1.6l0.3-3.1l0.7-0.2       l0.4,4.2l-9.9,3.2L470.1,32.7z"></path>
+					<path class="st3" d="M499,16.8l-0.7,0.1c-0.4-1.5-1.1-2.8-2.9-2.8c-1.5,0.1-2.6,1.1-2.6,2.6c0.1,4,7.1,2.8,7.2,7       c0.1,2.6-1.6,4.6-4.7,4.7c-1.4,0.1-3.3-0.2-4.3-0.9l-0.4-3.5l0.7-0.2c0.2,1.1,0.5,2,0.8,2.6c0.5,0.9,2.1,1.3,3,1.2       c1.7-0.1,3-1,3-2.8c-0.1-3.6-7.1-2.2-7.3-7.5c-0.1-2.2,1.6-4.1,4.5-4.2c1,0,2.1,0.3,3.1,0.4L499,16.8z"></path>
+					<path class="st3" d="M507.8,20.6l3.8,0.5l0.6-1.5l0.6,0.1c-0.3,1.1-0.6,3.1-0.6,4.2l-0.6-0.1l-0.2-1.6l-3.8-0.5l-0.8,5.7       l5.7,0.8l1.1-2.1l0.7,0.1l-1.3,3.4L502.6,28l0.1-0.7l2.1-0.1l1.7-12.4l-2-0.6l0.1-0.7l9.6,1.3l-0.2,3.2l-0.6-0.1l-0.3-2.1       l-4.6-0.6L507.8,20.6z"></path>
+					<path class="st3" d="M532.8,24.9l-0.7-0.2c0.4-1.9,0-3.8-3.8-5.2c-3.5-1.3-6.2-0.4-7.6,3.2c-1.5,4.1,0,8.2,3.6,9.5       c2.1,0.7,4.1,0.4,5.7-1l0.4,0.6l-2.4,2.1c-1.6-0.1-3-0.5-4.3-0.9c-4.5-1.6-7.2-4.9-5.3-10.2c1.6-4.4,5.2-6.1,10.2-4.3       c1.4,0.5,3.7,1.7,5.1,2.6L532.8,24.9z"></path>
+					<path class="st3" d="M550.8,32.2l-3.9,5.9c-2.2,3.4-5.2,4.9-9.1,2.3c-3.7-2.4-4-5.4-2.2-8.1l4.6-7l-1.5-1.4l0.4-0.6l5.1,3.4       l-0.4,0.6l-1.9-0.8l-4.2,6.4c-1.8,2.6-1.9,5,0.8,6.7c0.9,0.6,2.5,1.2,4,0.7c1.2-0.4,2.2-1.9,2.9-2.9l4-6l-1.5-1.4l0.4-0.6       l4.8,3.2l-0.4,0.6L550.8,32.2z"></path>
+					<path class="st3" d="M548.4,46.6l9-8.6l-1.2-1.8l0.5-0.5l4.7,5c1.4,1.5,2,3.7,0.2,5.4c-1.3,1.2-3.2,1.4-4.9,1.1l-0.7,4.4       c-0.2,1.3-0.5,2.9,0,4.2l-0.6,0.3l-0.8-1.4c-0.2-0.4-0.7-1.1-0.6-1.3c0.3-2.5,0.7-4.9,1.2-7.2c-0.5-0.4-1-1-1.6-1.6l-3.7,3.5       l1.2,1.7l-0.5,0.5l-4.3-4.5l0.5-0.5L548.4,46.6z M554.2,43.9c0.1,0.2,0.4,0.4,0.6,0.7c1.8,1.9,2.7,2.7,4.8,0.7       c1.7-1.6,1.8-3.4,0.2-5.1c-0.3-0.3-0.6-0.5-0.9-0.7L554.2,43.9z"></path>
+					<path class="st3" d="M569.9,52.9l-10.3,7.1l0.9,1.9l-0.6,0.4l-3.5-5.1l0.6-0.4l1.5,1.5l10.3-7.1l-0.9-1.9l0.6-0.4l3.5,5.1       l-0.6,0.4L569.9,52.9z"></path>
+					<path class="st3" d="M564.4,68.4l11.2-5.3l-1.1-2.3c-0.3-0.7-0.7-1.3-1-1.8l-2.4,0.3l-0.3-0.7l3.4-1.1l5.8,12.4l-3.2,1.7       l-0.3-0.7l1.9-1.4c-0.2-0.6-0.5-1.3-0.9-2l-1.1-2.4l-11.2,5.3l0.7,2.3l-0.6,0.3l-2.9-6.1l0.6-0.3L564.4,68.4z"></path>
+					<path class="st3" d="M569.5,82.1l4.9-1.2l6.1-6.2l-0.2-2.1l0.7-0.2l1.6,6.2l-0.7,0.2l-0.8-1.9l-4.9,5.1l6.7,1.8l-0.2-2.1       l0.7-0.2l1.3,5l-0.7,0.2l-0.8-1.5l-8.3-2.3l-4.9,1.2l0.3,2.5l-0.7,0.2l-1.7-6.7l0.7-0.2L569.5,82.1z"></path>
+				</g>
+			</g>
+			<g>
+				<path class="st2" d="M240.4,101L240.4,101c4-0.1,7.9,1.1,10,2.2l0.8,0.4l4.8-13l-0.6-0.3c-2.6-1.2-6.5-2.7-13.9-2.7      c-13.8,0-23.4,7.8-23.4,19.1c0,7.9,6.3,12.3,11.8,15.2c4.5,2.4,6.6,3.7,6.6,5.9c0,0.9-0.3,1.6-0.9,2.2c-1.1,1.1-3,1.6-5.4,1.6      c-4.5,0.1-9.4-1.2-13.1-3.3l-0.8-0.5l-5.1,12.7l0.5,0.4c1.8,1.2,7.1,4,17,4c11,0,23.9-5.1,23.9-19.7c0-6.1-3.7-11-11.3-14.9      l-1.1-0.6c-3.3-1.8-6.1-3.4-6.1-5.3C234,102.4,236.5,101,240.4,101z"></path>
+				<polygon class="st2" points="304.9,88.6 262.2,88.6 259.6,102.1 273.1,102.1 265.2,144.2 280.5,144.2 288.4,102.1 302.3,102.1          "></polygon>
+				<path class="st2" d="M317,88.6l-26.4,55.6H307l5.4-12.7h13l0.6,12.7h16l-5.9-55.6H317z M324.7,119.6h-7.9l3.7-8.8      c0.8-1.8,1.7-4.1,2.6-6.4c0.2-0.6,0.4-1.1,0.6-1.7c0.1,1.2,0.1,2.4,0.2,3.6c0.1,1.5,0.2,2.9,0.2,4.1L324.7,119.6z"></path>
+				<polygon class="st2" points="347.5,88.6 344.8,102.1 358.4,102.1 350.5,144.2 365.8,144.2 373.7,102.1 387.6,102.1 390.2,88.6          "></polygon>
+			</g>
+			<g>
+				<path class="st4" d="M56.5,23.9h-3.1l-0.2,0.3c-0.9,1.1-1.5,1.6-1.9,1.8c-0.5,0.3-1,0.4-1.7,0.4c-0.6,0-1.8-0.2-4.4-0.9      c-3.8-1-6.8-1.6-9.2-1.6c-5.2,0-9.5,1.5-12.7,4.5c-3.3,3-4.9,6.6-4.9,10.8c0,2.4,0.5,4.7,1.5,6.8c1.4,2.8,3.8,6,7.4,9.5      c3.4,3.4,5.6,6,6.6,7.7c0.9,1.7,1.4,3.4,1.4,5.3c0,2.1-0.8,3.9-2.4,5.5c-1.6,1.6-3.5,2.3-5.9,2.3c-2.4,0-4.6-0.7-6.5-2      c-1.9-1.3-3.4-3.2-4.4-5.5c-1.1-2.4-1.8-5.4-2.1-8.8l-0.1-0.7h-2.8L6,81h2.8L9,80.8c1-0.7,1.8-1.2,2.4-1.5      c0.6-0.2,1.3-0.4,2.1-0.4c1.1,0,3.3,0.3,6.6,1c3.4,0.7,6.3,1,8.6,1c3.8,0,7.2-0.7,10.1-2c3-1.4,5.3-3.4,6.9-5.9      c1.6-2.5,2.4-5.3,2.4-8.3c0-2.6-0.6-5.1-1.7-7.4c-1.1-2.2-3.3-4.9-6.5-8c-3.9-3.7-6.3-6.5-7.4-8.3c-1-1.7-1.5-3.5-1.5-5.3      c0-1.8,0.7-3.3,2.1-4.7c1.4-1.4,3-2.1,4.8-2.1c1.9,0,3.8,0.6,5.4,1.8c1.7,1.2,3.1,3,4.1,5.4c0.7,1.6,1.2,3.8,1.5,6.5l0.1,0.7      h2.6L56.5,23.9z"></path>
+				<path class="st4" d="M64.1,28l1,0.1c3.1,0.2,4.1,0.7,4.4,0.9c0.5,0.4,0.7,0.9,0.7,1.7c0,1-0.3,2.5-0.8,4.3l-10,34.2      c-1.2,4-2.3,5.6-3.1,6.3c-1.1,0.9-2.9,1.3-5.3,1.3h-0.6l-1,3h47.1l6.1-16.1h-3.1l-0.2,0.3c-3,3.7-6.5,6.6-10.3,8.4      c-3.8,1.8-7.9,2.8-12.3,2.8c-2.7,0-3.8-0.4-4.3-0.7c-0.4-0.3-0.5-0.6-0.5-0.8c0-0.5,0.1-1.4,0.6-3.3l4.9-17.3h2.5      c3.4,0,4.7,0.2,5.3,0.4c1.2,0.3,2.2,0.9,3,1.7c0.7,0.8,1.1,1.7,1.1,3c0,0.8-0.1,1.9-0.3,3.2l-0.2,0.9h2.9L98,40.1h-3l-0.2,0.4      c-1.4,3-3.2,5.2-5.2,6.3c-2.1,1.2-5.4,1.8-10,1.8h-0.8l5.5-19h4.4c3.9,0,6.8,0.4,8.5,1.1c1.7,0.7,3,1.8,4,3.4      c0.6,0.9,1,2.7,1.1,5.1l0,0.8h2.8l3.8-14.9h-44L64.1,28z"></path>
+				<path class="st4" d="M162.7,24.1c-1.2,1.2-2.3,1.9-3.4,1.9c-0.4,0-1.3-0.1-3.3-0.7c-3.3-1-6.2-1.4-8.4-1.4      c-5.9,0-11.9,1.7-17.8,5c-5.9,3.3-10.5,7.8-13.7,13.2c-3.2,5.4-4.8,11.2-4.8,17.1c0,6.4,2,11.7,6.1,15.7c4,4,9.4,6,16,6      c4.9,0,9.1-1,12.5-3c3.4-2,6.8-5.5,10.1-10.5l0.8-1.2h-3.7l-0.2,0.3c-2.5,3-5.1,5.1-7.5,6.4c-2.4,1.3-5.2,1.9-8.1,1.9      c-3.6,0-6.4-1.1-8.5-3.3c-2.1-2.2-3.1-5.5-3.1-9.7c0-4.9,1-9.9,3-15c2.4-6.2,5.4-10.8,8.9-13.8c3.4-2.9,6.9-4.4,10.3-4.4      c3.1,0,5.6,1,7.6,3.1c1.9,2.1,3,5.4,3.2,9.8l0,0.8h2.9l4.3-18.5h-2.8L162.7,24.1z"></path>
+				<path class="st4" d="M220.6,29.4L220.6,29.4c1-0.7,2.5-1.2,4.4-1.3l0.6,0l0.7-3h-19.6l-0.9,3h1.1c2.9,0,4.1,0.4,4.5,0.7      c0.9,0.7,1.4,1.7,1.4,3.1c0,0.8-0.2,1.9-0.6,3.2l-6.9,24.1c-1.3,4.5-2.8,8-4.5,10.4c-1.2,1.7-2.8,3.1-4.6,4.1      c-1.8,1-4.1,1.5-6.8,1.5c-2.9,0-5.1-0.7-6.7-2.2c-1.6-1.5-2.3-3.1-2.3-5c0-2.3,0.6-5.3,1.7-9.1l6.8-23.3c0.9-3,1.9-5,3.1-6      c1.2-1,3-1.5,5.4-1.5h0.6l1-3h-28.2l-0.9,3l1,0.1c3.3,0.2,4.4,0.7,4.8,0.9c0.5,0.4,0.8,0.9,0.8,1.7c0,0.9-0.3,2.4-0.9,4.4      l-6.7,23.3c-1.1,3.7-1.6,6.5-1.6,8.4c0,1.3,0.3,2.8,1,4.6c0.7,1.8,1.6,3.4,2.9,4.7c1.2,1.3,3.2,2.4,5.8,3.4c2.6,1,5.6,1.5,9,1.5      c6,0,10.9-1.6,14.8-4.7c3.9-3.1,7-8.6,9.2-16.3l7.1-24.4C217.7,32.7,218.9,30.7,220.6,29.4z"></path>
+				<path class="st4" d="M309.3,28.1l1.1-3h-27.6l-0.9,3l1,0.1c3.4,0.2,4.5,0.7,4.8,0.9c0.5,0.4,0.8,0.9,0.8,1.6      c0,1-0.3,2.5-0.9,4.5l-9.8,34c-0.9,3.2-2,5.3-3.1,6.2c-1.1,0.9-2.9,1.3-5.3,1.3h-0.6l0,0.1v-0.1l-0.8,0c-2-0.1-3.4-0.5-4.3-1.2      c-0.6-0.5-1.6-2.3-3.1-7.4l-4.6-15.3c4.5-1.3,7.7-2.9,9.6-4.7c3.1-3.1,4.7-6.6,4.7-10.4c0-3.7-1.4-6.7-4.1-9.1      s-7.2-3.5-13.8-3.5h-22.6l-0.8,3l0.9,0.1c3,0.2,4,0.7,4.3,0.9c0.5,0.4,0.7,1,0.7,1.8c0,1-0.3,2.5-0.8,4.3l-9.9,34.1      c-1.2,4.1-2.3,5.7-3,6.3c-1,0.9-2.8,1.3-5.1,1.3h-0.6l-1,3h27.2l1.1-3l-1.1,0c-3-0.1-4.1-0.5-4.6-0.8c-0.6-0.5-0.9-1-0.9-1.8      c0-1,0.3-2.6,1-4.8l4.5-15.5c0.3,0,0.6,0,0.8,0l0.7,0l7.5,25.9H268h0.9H296l0.8-3l-1,0c-3-0.1-4.3-0.5-4.9-1      c-0.5-0.4-0.8-0.9-0.8-1.6c0-0.5,0.2-1.7,1-4.6l9.7-34c0.9-3.1,1.9-5.2,3-6.2c1.1-0.9,2.7-1.4,4.9-1.4H309.3z M248.9,29.7      c0.5,0,0.9,0,1.2,0c1.9,0,3.5,0.6,4.6,1.7c1.1,1.1,1.7,2.9,1.7,5.2c0,4-1.2,7.3-3.5,9.7c-2.3,2.5-5.2,3.7-8.8,3.7      c-0.4,0-0.8,0-1.3,0L248.9,29.7z"></path>
+				<path class="st4" d="M315.3,25.1L310.7,41h3l0.2-0.4c2.2-3.7,4.6-6.4,7.2-8c2.4-1.4,5.3-2.3,8.8-2.5l-11.5,38.9      c-1.2,4.1-2.4,5.8-3.1,6.4c-1.1,0.9-2.9,1.3-5.4,1.3h-0.6l-1,3h28.1l0.7-3l-1,0c-2.9-0.1-4-0.5-4.5-0.8c-0.6-0.4-0.9-1-0.9-1.7      c0-1,0.3-2.6,0.9-4.7l11.7-39.4c3.3,0.3,5.6,1,7,2.3c1.4,1.4,2.1,3.2,2.1,5.8c0,0.6,0,1.2-0.1,1.9l-0.1,0.8h2.9l4.5-15.9H315.3z      "></path>
+				<path class="st4" d="M393.1,25.1l-0.9,2.9l0.9,0.1c1.4,0.2,2.4,0.5,2.9,1.1c0.6,0.6,0.8,1.2,0.8,1.9c0,0.8-0.3,1.8-0.8,3      c-0.5,1.2-1.9,3.3-4,6.3l-7.6,10.4l-3.1-14c-0.5-2.1-0.7-3.5-0.7-4.3c0-1.2,0.5-2.1,1.4-3c1-0.9,2.6-1.3,4.9-1.3h0.6l1-3h-27.2      l-0.8,2.9l0.9,0.2c1.9,0.4,3.3,0.9,4,1.7c1,1.1,1.8,3.3,2.6,6.5l4.4,19.2l-4,13.8c-1,3.3-1.5,4.4-1.7,4.8      c-0.5,0.8-1.3,1.4-2.4,1.9c-1.1,0.5-2.6,0.8-4.4,0.7l-0.6,0l-0.8,3h28.8l0.9-3h-2.5c-1.8,0-3.1-0.3-3.8-0.9      c-0.7-0.6-1-1.3-1-2.2c0-0.1,0.1-0.8,1.1-4.2l3.5-12.2l15-20.7c3.7-5.1,5.3-6.8,5.9-7.3c0.9-0.7,2-1.1,3.3-1.3l0.7-0.1v-2.9      H393.1z"></path>
+			</g>
+		</g>
+	</g>
+</switch>
+
+</svg></div>
+      
+</div>
+</div>
+      
+          </div>
+          <div class="promo-mid-wrap grid-col-12 tablet:grid-col">
+            <h4 class="promo_heading">SecurityStat</h4>
+            
+
+            <div class="field field--name-field-promo-banner-summary field--type-text-long field--label-hidden field__item"><p>Improving performance to serve our customers</p>
+</div>
+      
+          </div>
+          <div class="promo-banner-btn grid-col-12 tablet-lg:grid-col-auto">
+            
+
+            <div class="field field--name-field-action-link field--type-link field--label-hidden field__item"><a href="/securitystat" data-cta="button" data-location="body">See how we're doing</a></div>
+      
+          </div>
+        </div>
+      </div>
+         </div>
+</div>
+              <div class="ssa-page-components__item">  <section class="paragraph paragraph--type--two-column paragraph--view-mode--default grid-container usa-section paragraph--two-column--promo-card">
+          <div class="grid-row">
+                          <div class="grid-col-12 tablet:grid-col-12">
+            
+
+            <div class="field field--name-field-microcontent field--type-entity-reference-revisions field--label-hidden field__item"><div>
+  
+  
+
+      <div class="field field--name-field-promo-card field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item"><div class="slick blazy slick--field slick--field-promo-card slick--field-promo-card--default slick--skin--default slick--optionset--homepage-cards slick--multiple-view is-blazy slick--initialized" data-blazy="" data-once="blazy slick"><div id="slick-aed7781a640" data-slick="{&quot;count&quot;:4,&quot;total&quot;:4,&quot;accessibility&quot;:false,&quot;dots&quot;:true,&quot;appendDots&quot;:&quot;.ssa-slick-dots&quot;,&quot;draggable&quot;:false,&quot;lazyLoad&quot;:&quot;blazy&quot;,&quot;rows&quot;:0,&quot;slidesPerRow&quot;:2,&quot;slidesToShow&quot;:2,&quot;responsive&quot;:[{&quot;breakpoint&quot;:1089,&quot;settings&quot;:{&quot;dots&quot;:true,&quot;draggable&quot;:false,&quot;rows&quot;:0,&quot;waitForAnimate&quot;:false}},{&quot;breakpoint&quot;:879,&quot;settings&quot;:{&quot;arrows&quot;:false,&quot;dots&quot;:true,&quot;draggable&quot;:false,&quot;waitForAnimate&quot;:false}}]}" class="slick__slider slick-initialized slick-slider slick-dotted">  <div class="slick-list"><div class="slick-track" style="opacity: 1; width: 5840px; transform: translate3d(-1168px, 0px, 0px);"><div class="slick__slide slide slide--2 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-9a3e19a74f1" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/mlg-promo-card1.jpg?itok=Q1SSnMcv" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/mlg-promo-card1.jpg?itok=Q1SSnMcv" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header--2">
+         Social Security information in other languages
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We provide Social Security program information in other languages.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://www.ssa.gov/site/languages/en" aria-describedby="promo-header--2" tabindex="-1">
+               See More
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--3 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-d2bb5334852" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/faqs.jpg?itok=oPE6xj1c" width="450" height="338">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/faqs.jpg?itok=oPE6xj1c" width="450" height="338" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header--1">
+         Frequently Asked Questions
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We have answers for your frequently asked questions.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://faq.ssa.gov/en-US/" target="_blank" rel="noopener" aria-describedby="promo-header--1" tabindex="-1">
+               Visit our FAQs
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--0 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-1c859d35201" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/login_0.jpg?itok=mP5ctJSV" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/login_0.jpg?itok=mP5ctJSV" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-0">
+         SSA Transitioning Authentication Services to Login.gov
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We’re making changes to the way you access Social Security’s online services.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://blog.ssa.gov/how-to-transition-your-social-security-account-to-login-gov/" target="_blank" rel="noopener" aria-describedby="promo-header-0" tabindex="0">
+               Learn More
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--1 slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-8abb80f3cdc" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/vote.jpg?itok=mcLwt0or" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/vote.jpg?itok=mcLwt0or" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-1">
+         Are you registered to vote?
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">Check out vote.gov for official, nonpartisan voting information and make sure you’re registered to vote.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://vote.gov" target="_blank" rel="noopener" aria-describedby="promo-header-1" tabindex="0">
+               Vote.gov
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--2 slick-slide" data-slick-index="2" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-9a3e19a74f1" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/mlg-promo-card1.jpg?itok=Q1SSnMcv" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/mlg-promo-card1.jpg?itok=Q1SSnMcv" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-2">
+         Social Security information in other languages
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We provide Social Security program information in other languages.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://www.ssa.gov/site/languages/en" aria-describedby="promo-header-2" tabindex="-1">
+               See More
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--3 slick-slide" data-slick-index="3" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-d2bb5334852" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/faqs.jpg?itok=oPE6xj1c" width="450" height="338">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/faqs.jpg?itok=oPE6xj1c" width="450" height="338" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-3">
+         Frequently Asked Questions
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We have answers for your frequently asked questions.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://faq.ssa.gov/en-US/" target="_blank" rel="noopener" aria-describedby="promo-header-3" tabindex="-1">
+               Visit our FAQs
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--0 slick-slide slick-cloned" data-slick-index="4" id="" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-1c859d35201" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/login_0.jpg?itok=mP5ctJSV" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/login_0.jpg?itok=mP5ctJSV" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-4">
+         SSA Transitioning Authentication Services to Login.gov
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We’re making changes to the way you access Social Security’s online services.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://blog.ssa.gov/how-to-transition-your-social-security-account-to-login-gov/" target="_blank" rel="noopener" aria-describedby="promo-header-4" tabindex="-1">
+               Learn More
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--1 slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-8abb80f3cdc" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/vote.jpg?itok=mcLwt0or" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/vote.jpg?itok=mcLwt0or" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-5">
+         Are you registered to vote?
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">Check out vote.gov for official, nonpartisan voting information and make sure you’re registered to vote.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://vote.gov" target="_blank" rel="noopener" aria-describedby="promo-header-5" tabindex="-1">
+               Vote.gov
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--2 slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-9a3e19a74f1" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/mlg-promo-card1.jpg?itok=Q1SSnMcv" width="480" height="360">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/mlg-promo-card1.jpg?itok=Q1SSnMcv" width="480" height="360" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-6">
+         Social Security information in other languages
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We provide Social Security program information in other languages.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://www.ssa.gov/site/languages/en" aria-describedby="promo-header-6" tabindex="-1">
+               See More
+            </a>
+         </div>
+      </div>
+         </div>
+</div><div class="slick__slide slide slide--3 slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" style="width: 568px;" tabindex="-1">   
+   <div class="paragraph paragraph--type--promo-card paragraph--view-mode--primary-button">
+            <div class="promo_image grid-col-12 tablet:grid-col-6">
+                     
+
+            <div class="field field--name-field-card-image field--type-entity-reference field--label-hidden field__item"><div>
+  
+  
+
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--slick field field--name-field-media-image field--type-image field--label-hidden field__item is-blazy" data-blazy="" data-once="blazy">    <div data-b-token="b-d2bb5334852" class="media media--blazy media--image is-b-loading"><img alt="" decoding="async" class="media__element b-lazy" loading="lazy" src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/faqs.jpg?itok=oPE6xj1c" width="450" height="338">
+<noscript><img alt="" decoding="async" class="media__element" loading="lazy" data-b-noscript src="/sites/g/files/npxnvu131/files/styles/promo_card_4_3/public/images/faqs.jpg?itok=oPE6xj1c" width="450" height="338" />
+</noscript>        </div>
+  </div>
+      
+</div>
+</div>
+      
+               </div>
+      <h4 class="promo_heading" id="promo-header-7">
+         Frequently Asked Questions
+      </h4>
+      <div class="promo_text grid-col-12 tablet:grid-col-6">
+         <div class="promo_summary">
+            
+
+            <div class="field field--name-field-card-summary field--type-string-long field--label-hidden field__item">We have answers for your frequently asked questions.</div>
+      
+         </div>
+         <div class="promo_link">
+            <a href="https://faq.ssa.gov/en-US/" target="_blank" rel="noopener" aria-describedby="promo-header-7" tabindex="-1">
+               Visit our FAQs
+            </a>
+         </div>
+      </div>
+         </div>
+</div></div></div>
+  
+  
+  
+</div>
+          <nav role="navigation" class="slick__arrow">
+        <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" style="">Previous</button>
+        <div class="ssa-slick-dots"><ul class="slick-dots" style=""><li class="slick-active"><button type="button" aria-describedby="promo-header-0" tabindex="0"> Slide 1 of 4</button></li><li><button type="button" aria-describedby="promo-header-1" tabindex="0"> Slide 2 of 4</button></li><li><button type="button" aria-describedby="promo-header-2" tabindex="0"> Slide 3 of 4</button></li><li><button type="button" aria-describedby="promo-header-3" tabindex="0"> Slide 4 of 4</button></li></ul></div>
+                <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" style="">Next</button>
+      </nav>
+    </div>
+</div>
+          </div>
+  
+</div>
+</div>
+      
+          </div>
+                <div class="grid-col-12 tablet:grid-col-6">
+                    
+        </div>
+        <div class="grid-col-12 tablet:grid-col-6">
+                    
+        </div>
+      </div>
+      </section>
+  </div>
+              <div class="ssa-page-components__item">  <section class="paragraph paragraph--type--latest-news paragraph--view-mode--default grid-container usa-section ssa-section--small">
+          <div class="ssa-latest-news">
+        <h2 class="ssa-latest-news__heading">
+          Latest news
+        </h2>
+        <div class="ssa-latest-news__content">
+          
+
+            <div class="field field--name-field-news-items field--type-entity-reference-revisions field--label-hidden field__item"><div>
+  
+  
+
+      <div class="field field--name-field-news-item field--type-entity-reference-revisions field--label-hidden field__items">
+              <div class="field__item">  <div class="ssa-news-item__item">
+    <div class="ssa-news-item__type">
+      
+
+            <div class="field field--name-field-news-item-type field--type-entity-reference field--label-hidden field__item">Press release</div>
+      
+    </div>
+    <div class="ssa-news-item__heading">
+      
+
+            <div class="field field--name-field-news-item-heading field--type-link field--label-hidden field__item"><a href="https://www.ssa.gov/news/press/releases/2024/#2024-09-05" data-cta="button" data-location="body">Social Security Administration Digitizes or Removes Signature Requirements for Many Forms</a></div>
+      
+    </div>
+    <div class="ssa-news-item__summary">
+      
+
+            <div class="field field--name-field-news-item-summary field--type-text-long field--label-hidden field__item"><p>Today, the Social Security Administration (SSA) announced progress this year to reduce customer burden by transitioning wet (physical) signature requirements to digital signatures for over 30 forms as well as removing the signature requirements altogether for 13 forms.</p>
+</div>
+      
+    </div>
+  </div>
+</div>
+              <div class="field__item">  <div class="ssa-news-item__item">
+    <div class="ssa-news-item__type">
+      
+    </div>
+    <div class="ssa-news-item__heading">
+      
+
+            <div class="field field--name-field-news-item-heading field--type-link field--label-hidden field__item"><a href="https://www.ssa.gov/news/" data-cta="button" data-location="body">Visit our Communications Corner</a></div>
+      
+    </div>
+    <div class="ssa-news-item__summary">
+      
+
+            <div class="field field--name-field-news-item-summary field--type-text-long field--label-hidden field__item"><p>Stay on top of the latest Social Security news for the media, advocate community, and the public.&nbsp;</p>
+</div>
+      
+    </div>
+  </div>
+</div>
+          </div>
+  
+</div>
+</div>
+      
+        </div>
+        <div class="ssa-latest-news__footer">
+          
+        </div>
+        <div class="ssa-latest-news__social frontpage">
+          <p>Follow us on</p>
+
+            <a href="https://www.facebook.com/socialsecurity" class="social-link usa-social-link--facebook" aria-label="Social Security on Facebook" target="_blank" rel="noopener">
+  </a>
+  <a href="https://x.com/socialsecurity" class="social-link usa-social-link--twitter" aria-label="Social Security on Twitter" target="_blank" rel="noopener">
+  </a>
+  <a href="https://www.youtube.com/user/socialsecurityonline" class="social-link usa-social-link--youtube" aria-label="Social Security on Youtube" target="_blank" rel="noopener">
+  </a>
+  <a href="https://www.instagram.com/socialsecurity" class="social-link usa-social-link--instagram" aria-label="Social Security on Instagram" target="_blank" rel="noopener">
+  </a>
+  <a href="https://www.linkedin.com/company/ssa" class="social-link usa-social-link--linkedin" aria-label="Social Security on Linkedin" target="_blank" rel="noopener">
+  </a>
+
+        </div>
+      </div>
+      </section>
+</div>
+          </div>
+  
+  </div>
+
+</article>
+
+  </div>
+
+
+  
+</main>
+
+<footer class="usa-footer usa-footer--big" id="footer" role="contentinfo" tabindex="-1">
+  
+        <div class="usa-footer__primary-section">
+
+      <div class="usa-footer__primary-content">
+                <div class="grid-container">
+          <div class="grid-row grid-gap">
+            
+                        
+                      </div>
+        </div>
+        
+                  <div class="grid-container">
+            <div class="grid-row grid-gap-4">
+              <div class="desktop:grid-col-12">
+                  <div>
+        
+          <div class="tablet:grid-col-12">
+                      <nav class="usa-footer__nav">
+    
+                  <div class="grid-row grid-gap-6">
+    
+    
+                  <div class="grid-col-12 desktop:grid-col-auto">
+          <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                          <h4 class="usa-footer__primary-link">Support</h4>
+                                      <ul class="usa-list usa-list--unstyled">
+                                              
+        
+    
+    
+                          <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/agency/contact/">Contact us</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/locator/">Find an office</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/forms/">Forms</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/pubs/">Publications</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://secure.ssa.gov/pfrf/home" target="_blank" rel="noopener">Report fraud</a>
+        </li>
+          
+        
+    
+    
+  
+                          </ul>
+          </section>
+        </div>
+                        <div class="grid-col-12 desktop:grid-col-auto">
+          <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                          <h4 class="usa-footer__primary-link">Languages</h4>
+                                      <ul class="usa-list usa-list--unstyled">
+                                              
+        
+    
+    
+                          <li class="usa-footer__secondary-link">
+          <a href="/es">Español</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/site/languages/en/">Other languages</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/agency/plain-language">Plain language</a>
+        </li>
+          
+        
+    
+    
+  
+                          </ul>
+          </section>
+        </div>
+                        <div class="grid-col-12 desktop:grid-col-auto">
+          <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                          <h4 class="usa-footer__primary-link">Services for</h4>
+                                      <ul class="usa-list usa-list--unstyled">
+                                              
+        
+    
+    
+                          <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/employer/">Employers &amp; businesses</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="/about-ssa/agency-resources#representatives">Representatives</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="/about-ssa/agency-resources#government-agencies">Government agencies</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="/about-ssa/agency-resources#other-groups">Other groups</a>
+        </li>
+          
+        
+    
+    
+  
+                          </ul>
+          </section>
+        </div>
+                        <div class="grid-col-12 desktop:grid-col-auto">
+          <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                          <h4 class="usa-footer__primary-link">About</h4>
+                                      <ul class="usa-list usa-list--unstyled">
+                                              
+        
+    
+    
+                          <li class="usa-footer__secondary-link">
+          <a href="/about-ssa">About SSA</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="/about-ssa/agency-resources#communications">Communications</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/careers/">Careers</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="/about-ssa/agency-resources#initiatives">Initiatives</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="/about-ssa/agency-resources#research-policy">Research &amp; policy</a>
+        </li>
+                                <li class="usa-footer__secondary-link">
+          <a href="https://www.ssa.gov/finance/">Financial reports</a>
+        </li>
+          
+        
+    
+    
+  
+                          </ul>
+          </section>
+        </div>
+          
+          </div>
+              </nav>
+    
+          </div>
+    
+    
+  
+
+
+
+
+  </div>
+
+              </div>
+              
+            </div>
+          </div>
+              </div>
+
+    </div>
+  
+      <div class="usa-identifier">
+      <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier">
+        <div class="usa-identifier__container">
+                      <div class="usa-identifier__logos">
+                                                <a class="usa-identifier__logo" href="https://ssa.gov">
+                                  <img class="usa-identifier__logo-img" src="/themes/custom/ssa_core/logo.svg" alt="Agency logo">
+                                  </a>
+                                          </div>
+                          <div class="usa-identifier__identity" aria-label="Agency description">
+                <p class="usa-identifier__identity-domain">SSA.gov</p>
+                <div class="usa-identifier__identity-disclaimer"><p><strong>An official website of the Social Security Administration.</strong> Produced and published at taxpayer expense.</p></div>
+              </div>
+                        <div id="block-socialmedialinks" data-block-plugin-id="social_media_links_block" class="block-social-media-links block block-social-media-links-block">
+  
+    
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/socialsecurity" target="_blank" aria-label="Social Security on Facebook" title="Social Security on Facebook" rel="noopener">
+        <img src="/themes/custom/ssa_core/assets/img/ssa/facebook-brands.svg" alt="">
+
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.x.com/socialsecurity" target="_blank" aria-label="Social Security on Twitter" title="Social Security on Twitter" rel="noopener">
+        <img src="/themes/custom/ssa_core/assets/img/ssa/x-twitter-brands.svg" alt="">
+
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/user/socialsecurityonline" target="_blank" aria-label="Social Security on Youtube" title="Social Security on Youtube" rel="noopener">
+        <img src="/themes/custom/ssa_core/assets/img/ssa/youtube-brands.svg" alt="">
+
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/socialsecurity" target="_blank" aria-label="Social Security on Instagram" title="Social Security on Instagram" rel="noopener">
+        <img src="/themes/custom/ssa_core/assets/img/ssa/instagram-brands.svg" alt="">
+
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--linkedin" href="https://www.linkedin.com/company/ssa" target="_blank" aria-label="Social Security on LinkedIn" title="Social Security on LinkedIn" rel="noopener">
+        <img src="/themes/custom/ssa_core/assets/img/ssa/linkedin-brands.svg" alt="">
+
+      </a>
+
+          </li>
+  </ul>
+
+  </div>
+
+          </div>
+          <div id="footer-break"></div>
+                      <div class="usa-footer__contact-links desktop:grid-col-6">
+                            <address class="usa-footer__address">
+                <div class="usa-footer__contact-info grid-row grid-gap">
+                  
+                                  </div>
+              </address>
+            </div>
+          
+          
+                        <div>
+    <nav role="navigation" aria-labelledby="block-secondaryfooter-menu" id="block-secondaryfooter" data-block-plugin-id="system_menu_block:secondary-footer">
+            
+  <h2 class="usa-sr-only" id="block-secondaryfooter-menu">Secondary Footer</h2>
+  
+
+        
+
+<nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links">
+  <div class="usa-identifier__container">
+          <ul class="menu menu--secondary-footer nav usa-identifier__required-links-list">
+                              <li class="first usa-identifier__required-links-item">
+                                                                      <a href="https://www.ssa.gov/accessibility/" class="usa-identifier__required-link"><span>Accessibility support</span></a>
+                  </li>
+                              <li class="usa-identifier__required-links-item">
+                                                                      <a href="https://www.ssa.gov/agency/privacy.html" class="usa-identifier__required-link"><span>Privacy policy</span></a>
+                  </li>
+                              <li class="usa-identifier__required-links-item">
+                                                                      <a href="https://www.ssa.gov/foia/" class="usa-identifier__required-link"><span>FOIA requests</span></a>
+                  </li>
+                              <li class="usa-identifier__required-links-item">
+                                                                      <a href="https://www.ssa.gov/eeo" class="usa-identifier__required-link"><span>Civil Rights/Compliance</span></a>
+                  </li>
+                              <li class="usa-identifier__required-links-item">
+                                                                      <a href="https://oig.ssa.gov/" class="usa-identifier__required-link" target="_blank" rel="noopener"><span>Office of the Inspector General</span></a>
+                  </li>
+                              <li class="usa-identifier__required-links-item">
+                                                                      <a href="https://www.ssa.gov/OACT/" class="usa-identifier__required-link"><span>Office of the Chief Actuary</span></a>
+                  </li>
+                              <li class="last usa-identifier__required-links-item">
+                                                                      <a href="https://ssa.gov/agency/performance/" class="usa-identifier__required-link"><span>Performance reports</span></a>
+                  </li>
+          </ul>
+  
+  </div>
+</nav>
+
+  </nav>
+
+  </div>
+
+            <div class="usa-identifier__container footer_information">
+            <p>Looking for U.S. government information and services? <a href="https://usa.gov" class="usa-identifier__required-link" target="_blank" rel="noopener"><strong>Visit USA.gov</strong></a></p>
+            </div>
+                  </section></div>
+      
+    </footer></div>
+  
+
+
+  
+
+<script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"en","drupalCountry":"","siteName":"Social Security","contentType":"node","contentBundle":"landing_page","contentId":"11","contentTitle":"Homepage","primaryCategory":"homepage","contentCreated":"1629464190","contentLangcode":"en"});</script>
+<script type="text/javascript" src="https://resources.digital-cloud-gov.medallia.com/wdcgov/12849/onsite/embed.js" async=""></script>
+
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/11","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en","currentQuery":{"\/":""}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx1UW1uwyAMvRAKZ5i0eyADTmLFBIZNs-z0I126ppr2x3ofBj-wZ_jarT-quVcbGESYRE_OGeIJS-Z9JOYHrTmR4MkqjCfa0BcTQYFhx2o9znCjXMXgpzKti421FeDhpKZAhalCmeXhPJWhraX5HmfGaIRSYXS_VzutNE19xH-G6Q8Ji73XIYi88AS0DhFHaKwvhs6Y0EgOBOwSRgJ35BT7V3r0CriQK1pYgXelIO69Z3Fv2oP4i12Pg-CR5SKKoF44hby6YwEOP1ofNyNN87XhCO7W_qcTKPVeCEo3dKKgP1EEoYbZPuGphtZPP6GRXRST9dCX2GSL4g5oxwoJt1wXcyPcxN7rkHJsjN_p6Nt3","theme":"ssa_core","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"component":{"plugins":[]},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0},"es":{"id":"es","name":"Spanish","direction":"ltr","weight":1}}},"simple_datalayer_trigger":{"triggers":[{"selector":".js-account-home","aux_selectors":{"parents":"","find":""},"category":"click","action":"goto_account_home","label":"@text","value":"@href"},{"selector":"li.js-task-link--auth a","aux_selectors":{"parents":"","find":""},"category":"click","action":"@text","label":"@text","value":"@href"},{"selector":"li.usa-button-group__item--secondary.js-task-link--anon a","aux_selectors":{"parents":"","find":""},"category":"click","action":"begin_sign_up","label":"@text","value":"@href"},{"selector":"a[href*=\u0022\/\/secure.ssa.gov\/ICON\/main.jsp\u0022].usa-button","aux_selectors":{"parents":"","find":""},"category":"click","action":"cta","label":"@text","value":"@href"},{"selector":"article[about=\u0027\/retirement\u0027] .ssa-task__inline-action--primary a","aux_selectors":{"parents":"","find":""},"category":"click","action":"learn_to_apply_retirement","label":"@text","value":"@href"},{"selector":".usa-mobile-header-button.js-sign-in","aux_selectors":{"parents":"","find":""},"category":"click","action":"begin_login_header","label":"@text","value":"@href"},{"selector":"li:not(.usa-button-group__item--secondary).js-task-link--anon a","aux_selectors":{"parents":"","find":""},"category":"click","action":"begin_login_primary","label":"@text","value":"@href"},{"selector":".js-sign-out","aux_selectors":{"parents":"","find":""},"category":"click","action":"logout","label":"@text","value":"@href"},{"selector":".ssa-button-group__questionable a","aux_selectors":{"parents":"","find":""},"category":"benefits_quest","action":"begin_benefits_quest","label":"@text","value":"@href"}],"settings":{"event":"click","category_name":"event_category","action_name":"event_name","label_name":"event_label","value_name":"event_value"}},"ssa_secure":{"cookie":{"name":"prtl_ini","handling":{"status":true,"interval":"0"}}},"data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"before","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false,"visibleClass":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"slick":{"accessibility":true,"adaptiveHeight":false,"autoplay":false,"pauseOnHover":true,"pauseOnDotsHover":false,"pauseOnFocus":true,"autoplaySpeed":3000,"arrows":true,"downArrow":false,"downArrowTarget":"","downArrowOffset":0,"centerMode":false,"centerPadding":"50px","dots":false,"dotsClass":"slick-dots","draggable":true,"fade":false,"focusOnSelect":false,"infinite":true,"initialSlide":0,"lazyLoad":"ondemand","mouseWheel":false,"randomize":false,"rtl":false,"rows":1,"slidesPerRow":1,"slide":"","slidesToShow":1,"slidesToScroll":1,"speed":500,"swipe":true,"swipeToSlide":false,"edgeFriction":0.34999999999999998,"touchMove":true,"touchThreshold":5,"useCSS":true,"cssEase":"ease","cssEaseBezier":"","cssEaseOverride":"","useTransform":true,"easing":"linear","variableWidth":false,"vertical":false,"verticalSwiping":false,"waitForAnimate":true},"ssa_search":{"site_handle":"ssa"},"ajax":[],"user":{"uid":0,"permissionsHash":"3b2a7d4c469e617ac30b556938eebe0716cc43619e479abf960a69a91d597da6"}}</script>
+<script src="/sites/g/files/npxnvu131/files/js/js_S98jJzb1w1DeuJRqiWJKZoQ-2isGun8DozuRFvW5laY.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=ssa_core&amp;include=eJx1UVtuxCAMvBAKZ6jUeyADTmKtCRSbTdPTl6SJslXVH2s8gx-MIygwbFitxxmelKsYoVQYXbwkp5WmqT_5TzCSAwG7hJHAMS0PsX-pQWdMaETACYZW0d7QyCaKyXoQNE3WKG6HdqyQcM31cZSF3ItABFUMfure1cbaCvBwpqZAhalCmeVSbmZoS2meSWaMxjN8bfaIJ-YMF10ybyMxn2ngPrTX6SXXnKgv-pNVGE-0oi-mPwwPe8QhiPzKTwdemAS0DBFHaKwvf6y7aeCR5SYp5MXtWzj8aN3aGWmaVU5DoYbZ3vAu2ye4pZ92AqXeAYLSE50oKJon4Sr2iEPKsTG-LLEAb0pB3Hs_uHvTfm3_DWNa23c"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-469e5c3a62582fe4b9d","applicationID":"1222707131","transactionName":"YVMHNRAAVxICUkcKXFgZMBMLTlAPB1RLTUNeRg==","queueTime":5,"applicationTime":259,"atts":"TRQEQ1gaRBw=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div id="drupal-live-announce" class="visually-hidden" aria-live="polite" aria-busy="false"></div><script type="text/javascript" id="">(function(){var u=!0,l=2592E5;if(window.Storage){var c=JSON.parse(localStorage.getItem("_tab_ids"))||[],d=sessionStorage.getItem("_tab_id"),a=JSON.parse(sessionStorage.getItem("_nav_path")),e=document.location.href,f=!1,v=document.location.origin,r,n,m,g,t=function(b){return 0===l?b:b.filter(function(h){try{return m=parseInt(h.split("_")[1],10),m>(new Date).getTime()}catch(p){return!1}})};var q=function(b){if(0===l)return b;try{g=b.split("_");m=parseInt(g[1],10);if(m>(new Date).getTime())return b;
+g=g[0]+"_"+((new Date).getTime()+l);sessionStorage.setItem("_tab_id",g);return g}catch(h){return b}};var w=function(){if(!1===u)return"BACK/FORWARD";if(2>a.length)return"FORWARD";r=a[a.length-2];n=a[a.length-1];return r===e||n===e?"BACK":"FORWARD"},x=function(){c=JSON.parse(localStorage.getItem("_tab_ids"))||[];d=sessionStorage.getItem("_tab_id");c=t(c);if(c.length&&null!==d){var b=c.indexOf(d);-1<b&&c.splice(b,1);localStorage.setItem("_tab_ids",JSON.stringify(c))}},y=function(){var b=(new Date).getTime();
+"undefined"!==typeof performance&&"function"===typeof performance.now&&(b+=performance.now());return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(h){var p=(b+16*Math.random())%16|0;b=Math.floor(b/16);return("x"===h?p:p&3|8).toString(16)})+(0<l?"_"+((new Date).getTime()+l):"")},z=function(b,h){return!(!0===h&&0!==b&&255!==b)};null===d?(d=y(),f=!0,sessionStorage.setItem("_tab_id",d)):d=q(d);c=t(c);-1===c.indexOf(d)&&(c.push(d),localStorage.setItem("_tab_ids",JSON.stringify(c)));q=
+c.length;if(window.PerformanceNavigation){a=a||[];var A=window.performance.navigation.redirectCount;if(z(window.performance.navigation.type,f))switch(window.performance.navigation.type){case 0:var k="NAVIGATE";a.push(e);break;case 1:k="RELOAD";0!==a.length&&a[a.length-1]===e||a.push(e);break;case 2:k=w();"FORWARD"===k?-1<document.referrer.indexOf(v)&&a.push(e):"BACK"===k?n!==e&&a.pop():a.push(e);break;default:k="OTHER",a.push(e)}else a.push(e);sessionStorage.setItem("_nav_path",JSON.stringify(a))}window.addEventListener("beforeunload",
+x);f={tabCount:q,redirectCount:A,navigationType:k,newTab:!0===f?"New":"Existing",tabId:d.replace(/_.+/,"")};window.google_tag_manager[google_tag_manager["rm"]["95500989"](3)].dataLayer.set("browsingBehavior",f);window.dataLayer.push({event:"custom.navigation",browsingBehavior:f})}})();</script><script type="text/javascript" async="" src="https://resources.digital-cloud-gov.medallia.com/wdcgov/12849/onsite/generic1726092619946.js" charset="UTF-8"></script></body></html>

@@ -1,0 +1,565 @@
+{
+    "id5-sync.com": {
+        "/": {
+            "id5": {
+                "name": "id5",
+                "domain": ".id5-sync.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398558755,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734174558.752745,
+                        "expiry": 7776000.752744913,
+                        "value": "59b5bde7-386c-7388-9eb8-d7180f23d5e4#1726398558836#1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398558753
+                    }
+                ]
+            }
+        }
+    },
+    "patch.com": {
+        "/": {
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558910,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934558,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0",
+                        "same_site": "lax",
+                        "timestamp": 1726398558910
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726398558911
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726398558942
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0&isIABGlobal=false&hosts=&consentId=0d71cf1b-c120-4bc8-8309-ea0778fe1bd0",
+                        "same_site": "lax",
+                        "timestamp": 1726398558943
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0&isIABGlobal=false&hosts=&consentId=0d71cf1b-c120-4bc8-8309-ea0778fe1bd0&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726398558944
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0&isIABGlobal=false&hosts=&consentId=0d71cf1b-c120-4bc8-8309-ea0778fe1bd0&interactionCount=0&landingPath=https%3A%2F%2Fpatch.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726398558944
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A09%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.28.0&isIABGlobal=false&hosts=&consentId=0d71cf1b-c120-4bc8-8309-ea0778fe1bd0&interactionCount=1&landingPath=https%3A%2F%2Fpatch.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726398558974
+                    }
+                ]
+            },
+            "patchAds_dma": {
+                "name": "patchAds_dma",
+                "domain": ".patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558029,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "patchusa",
+                        "same_site": "lax",
+                        "timestamp": 1726398558028
+                    }
+                ]
+            },
+            "patchAds_patch": {
+                "name": "patchAds_patch",
+                "domain": ".patch.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398558030,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "across-america",
+                        "same_site": "lax",
+                        "timestamp": 1726398558029
+                    }
+                ]
+            },
+            "patchAds_patchModel": {
+                "name": "patchAds_patchModel",
+                "domain": ".patch.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398558031,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "mature",
+                        "same_site": "lax",
+                        "timestamp": 1726398558030
+                    }
+                ]
+            },
+            "patchAds_state": {
+                "name": "patchAds_state",
+                "domain": ".patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558031,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "us",
+                        "same_site": "lax",
+                        "timestamp": 1726398558031
+                    }
+                ]
+            },
+            "patchAds_user_agent": {
+                "name": "patchAds_user_agent",
+                "domain": ".patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558032,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Chrome/128.0.0.0",
+                        "same_site": "lax",
+                        "timestamp": 1726398558032
+                    }
+                ]
+            },
+            "PATCH_SESSION": {
+                "name": "PATCH_SESSION",
+                "domain": "patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398557855,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557854
+                    }
+                ]
+            },
+            "STYXKEY_PATCH_CONFIG": {
+                "name": "STYXKEY_PATCH_CONFIG",
+                "domain": "patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398557655,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.707737923,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557708
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.708610058,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557709
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.710135937,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557710
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.71184492,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557715
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.722296,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557722
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.723503113,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557724
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.72413802,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557726
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.72656703,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557729
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.728873014,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557737
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.876144886,
+                        "value": "|E3740:v1|EKTLO30_50:c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557876
+                    }
+                ]
+            },
+            "_lr_geo_location": {
+                "name": "_lr_geo_location",
+                "domain": "patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558800,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484958.79802,
+                        "expiry": 86400.79801988602,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398558798
+                    }
+                ]
+            },
+            "region_consent_type": {
+                "name": "region_consent_type",
+                "domain": "patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398557663,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.71016311646,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557712
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.71187210083,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557715
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.72233605385,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557722
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.72357296944,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557724
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.7260389328,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557728
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.72763490677,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557735
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.73517298698,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557740
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.77094888687,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557771
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.83570194244,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557836
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.87618398666,
+                        "value": "GDPR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398557876
+                    }
+                ]
+            },
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": "patch.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558781,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934558,
+                        "expiry": 31536000,
+                        "value": "1---",
+                        "same_site": "lax",
+                        "timestamp": 1726398558779
+                    }
+                ]
+            }
+        }
+    },
+    "rubiconproject.com": {
+        "/": {
+            "audit": {
+                "name": "audit",
+                "domain": ".rubiconproject.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398558261,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757934558.259013,
+                        "expiry": 31536000.259012938,
+                        "value": "1|yQuirGeEF6BTRlaZts6/pfle3InJUfZV9ZmI2eXj9GEQSvpjJsHP3MBKenVppPUc4HEYI5ehIrXTLqd9tErvxL7FQD2yB//hvsVAPbIH/+G+xUA9sgf/4Q==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398558260
+                    }
+                ]
+            },
+            "khaos": {
+                "name": "khaos",
+                "domain": ".rubiconproject.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398558260,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757934558.258965,
+                        "expiry": 31536000.258965015,
+                        "value": "M13H4KXL-1J-HEBG",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398558259
+                    }
+                ]
+            }
+        }
+    },
+    "prebid.media.net": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": "prebid.media.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398558102,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741950558.101482,
+                        "expiry": 15552000.101481915,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398558101
+                    }
+                ]
+            }
+        }
+    }
+}

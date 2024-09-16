@@ -1,0 +1,27 @@
+{
+    "gov.uk": {
+        "/": {
+            "cookies_policy": {
+                "name": "cookies_policy",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231247189,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767247,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231247185
+                    }
+                ]
+            }
+        }
+    }
+}

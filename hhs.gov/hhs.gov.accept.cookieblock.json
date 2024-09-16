@@ -1,0 +1,654 @@
+{
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419237848,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726420137.846592,
+                        "expiry": 900.8465919494629,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419237847
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9396541118622,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419237941
+                    }
+                ]
+            }
+        }
+    },
+    "hhs.gov": {
+        "/": {
+            "_ce.cch": {
+                "name": "_ce.cch",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419237881,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726419237881
+                    }
+                ]
+            },
+            "_ce.clock_data": {
+                "name": "_ce.clock_data",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419238033,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726505638,
+                        "expiry": 86400,
+                        "value": "-64%2C212.102.63.25%2C1%2Cfe0673f2a48d047b912b27e2a0c02f9f%2CChrome%2CGB",
+                        "same_site": "strict",
+                        "timestamp": 1726419238031
+                    }
+                ]
+            },
+            "_ce.clock_event": {
+                "name": "_ce.clock_event",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419237886,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726505637,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726419237886
+                    }
+                ]
+            },
+            "_ce.irv": {
+                "name": "_ce.irv",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419237884,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "new",
+                        "same_site": "strict",
+                        "timestamp": 1726419237884
+                    }
+                ]
+            },
+            "_ce.s": {
+                "name": "_ce.s",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419237886,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757955237,
+                        "expiry": 31536000,
+                        "value": "v~e43c761fdf1543a8a0bc81f80dda82aacafd7e97~lcw~1726419237881~lva~1726419237881~vpv~0~lcw~1726419237882",
+                        "same_site": "strict",
+                        "timestamp": 1726419237885
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~e43c761fdf1543a8a0bc81f80dda82aacafd7e97~lcw~1726419238033~lva~1726419237881~vpv~0~v11.fhb~1726419238033~v11.lhb~1726419238034~lcw~1726419238034",
+                        "same_site": "strict",
+                        "timestamp": 1726419238036
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~e43c761fdf1543a8a0bc81f80dda82aacafd7e97~lcw~1726419238035~lva~1726419237881~vpv~0~v11.fhb~1726419238033~v11.lhb~1726419238034~v11.cs~1944~v11.s~19ab6e30-7383-11ef-b0de-cf62c9323e6d~lcw~1726419238036",
+                        "same_site": "strict",
+                        "timestamp": 1726419238037
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~e43c761fdf1543a8a0bc81f80dda82aacafd7e97~lcw~1726419238036~lva~1726419237881~vpv~0~v11.fhb~1726419238033~v11.lhb~1726419238034~v11.cs~1944~v11.s~19ab6e30-7383-11ef-b0de-cf62c9323e6d~v11.sla~1726419238868~lcw~1726419238868",
+                        "same_site": "strict",
+                        "timestamp": 1726419238869
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~e43c761fdf1543a8a0bc81f80dda82aacafd7e97~lcw~1726419238868~lva~1726419237881~vpv~0~v11.fhb~1726419238033~v11.lhb~1726419238034~v11.cs~1944~v11.s~19ab6e30-7383-11ef-b0de-cf62c9323e6d~v11.sla~1726419238868~v11.send~1726419243087~lcw~1726419243087",
+                        "same_site": "strict",
+                        "timestamp": 1726419243089
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~e43c761fdf1543a8a0bc81f80dda82aacafd7e97~lcw~1726419243087~lva~1726419237881~vpv~0~v11.fhb~1726419238033~v11.lhb~1726419238034~v11.cs~1944~v11.s~19ab6e30-7383-11ef-b0de-cf62c9323e6d~v11.sla~1726419243096~v11.send~1726419243087~lcw~1726419243096",
+                        "same_site": "strict",
+                        "timestamp": 1726419243097
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419237671,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760979237.661767,
+                        "expiry": 34560000.661767006,
+                        "value": "GA1.1.292502042.1726419238",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419237671
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.689992905,
+                        "value": "GA1.1.292502042.1726419238",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419237691
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.87578392,
+                        "value": "GA1.1.292502042.1726419238",
+                        "same_site": "strict",
+                        "timestamp": 1726419237876
+                    }
+                ]
+            },
+            "_ga_3YLR8EGLBW": {
+                "name": "_ga_3YLR8EGLBW",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419237691,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.101747036,
+                        "value": "deleted",
+                        "same_site": "strict",
+                        "timestamp": 1726419243102
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.102041006,
+                        "value": "GS1.1.1726419237.1.0.1726419243.54.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419243103
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.10496092,
+                        "value": "deleted",
+                        "same_site": "strict",
+                        "timestamp": 1726419243105
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.1052351,
+                        "value": "GS1.1.1726419237.1.0.1726419243.54.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419243106
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.10988903,
+                        "value": "deleted",
+                        "same_site": "strict",
+                        "timestamp": 1726419243110
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.11008096,
+                        "value": "GS1.1.1726419237.1.0.1726419243.54.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419243111
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.11212897,
+                        "value": "deleted",
+                        "same_site": "strict",
+                        "timestamp": 1726419243112
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.112364054,
+                        "value": "GS1.1.1726419237.1.0.1726419243.54.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419243113
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.114121914,
+                        "value": "deleted",
+                        "same_site": "strict",
+                        "timestamp": 1726419243114
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.114541054,
+                        "value": "GS1.1.1726419237.1.0.1726419243.54.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419243116
+                    }
+                ]
+            },
+            "_ga_8RZ83J1052": {
+                "name": "_ga_8RZ83J1052",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419237671,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760979237.661557,
+                        "expiry": 34560000.66155696,
+                        "value": "GS1.1.1726419237.1.0.1726419237.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419237667
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.71065092,
+                        "value": "GS1.1.1726419237.1.0.1726419237.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419237711
+                    }
+                ]
+            },
+            "_ga_CSLL4ZEK4L": {
+                "name": "_ga_CSLL4ZEK4L",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419237876,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760979237.874922,
+                        "expiry": 34560000.87492204,
+                        "value": "deleted",
+                        "same_site": "strict",
+                        "timestamp": 1726419237875
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.875452995,
+                        "value": "GS1.1.1726419237.1.0.1726419237.0.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419237876
+                    }
+                ]
+            },
+            "cebs": {
+                "name": "cebs",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419237885,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726419237884
+                    }
+                ]
+            },
+            "cebsp_": {
+                "name": "cebsp_",
+                "domain": ".hhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419238035,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726419238034
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".www.hhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419238308,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727024038,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.hhs.gov&si=9cccc474-ea9a-4feb-8d81-21dbfc8a907b&ss=m13tfsd7&sl=0&tt=0&bcn=%2F%2F684dd312.akstat.io%2F\"",
+                        "same_site": "lax",
+                        "timestamp": 1726419238307
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.hhs.gov&si=9cccc474-ea9a-4feb-8d81-21dbfc8a907b&ss=m13tfsd7&sl=1&tt=3jh&bcn=%2F%2F684dd312.akstat.io%2F&ld=3jj\"",
+                        "same_site": "lax",
+                        "timestamp": 1726419241034
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.hhs.gov&si=9cccc474-ea9a-4feb-8d81-21dbfc8a907b&ss=m13tfsd7&sl=1&tt=3jh&bcn=%2F%2F684dd312.akstat.io%2F&ld=3jj&ul=54i\"",
+                        "same_site": "lax",
+                        "timestamp": 1726419243088
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.hhs.gov&si=9cccc474-ea9a-4feb-8d81-21dbfc8a907b&ss=m13tfsd7&sl=1&tt=3jh&bcn=%2F%2F684dd312.akstat.io%2F&ld=3jj&ul=54i&hd=54t\"",
+                        "same_site": "lax",
+                        "timestamp": 1726419243096
+                    }
+                ]
+            },
+            "QSI_HistorySession": {
+                "name": "QSI_HistorySession",
+                "domain": "www.hhs.gov",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419241366,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https%3A%2F%2Fwww.hhs.gov%2F~1726419241364",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419241365
+                    }
+                ]
+            },
+            "cookietest": {
+                "name": "cookietest",
+                "domain": "www.hhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419241431,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419241429
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419241432
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419241433
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419238046,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741971238.045557,
+                        "expiry": 15552000.045557022,
+                        "value": "_htaD114IFs",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419238046
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.820626974,
+                        "value": "pIJLoTRWo8w",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419239825
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726419238047,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741971238.045601,
+                        "expiry": 15552000.045600891,
+                        "value": "CgJHQhIEGgAgNA%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419238046
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.820694923,
+                        "value": "CgJHQhIEGgAgCg%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419239825
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419238045,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "wTqzPb0OWsw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419238045
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "CdD4-MIWWCc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419239824
+                    }
+                ]
+            }
+        }
+    }
+}

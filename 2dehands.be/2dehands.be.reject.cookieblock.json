@@ -1,0 +1,317 @@
+{
+    "2dehands.be": {
+        "/": {
+            "MpConsentState": {
+                "name": "MpConsentState",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168716445,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757704716.440465,
+                        "expiry": 31536000.440464973,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168716444
+                    }
+                ]
+            },
+            "MpSession": {
+                "name": "MpSession",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709203,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7df9c085-ead6-441c-9bb0-3b714fd6405d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709192
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7df9c085-ead6-441c-9bb0-3b714fd6405d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709445
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7df9c085-ead6-441c-9bb0-3b714fd6405d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168717379
+                    }
+                ]
+            },
+            "__mpx": {
+                "name": "__mpx",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709600,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741720709.599413,
+                        "expiry": 15552000.599412918,
+                        "value": "ecf76ad4-2f29-43bb-bc9a-975bcbfccf30",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709599
+                    }
+                ]
+            },
+            "consentDate": {
+                "name": "consentDate",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168716442,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704716.435819,
+                        "expiry": 31536000.43581891,
+                        "value": "2024-09-12T19:18:36.348Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168716442
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709811,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704709.811112,
+                        "expiry": 31536000.811111927,
+                        "value": "5389cdf3-c285-4707-9f08-1b8c953682b4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168709811
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.43564701,
+                        "value": "5389cdf3-c285-4707-9f08-1b8c953682b4_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168716442
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168716441,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704716.435212,
+                        "expiry": 31536000.435211897,
+                        "value": "CQE1dYAQE1dYAAGABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168716439
+                    }
+                ]
+            },
+            "luckynumber": {
+                "name": "luckynumber",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709205,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757704709.190843,
+                        "expiry": 31536000.190843105,
+                        "value": "64205381",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709204
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.444510937,
+                        "value": "64205381",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709445
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.37916088,
+                        "value": "64205381",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168717380
+                    }
+                ]
+            },
+            "rbzid": {
+                "name": "rbzid",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709584,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "NQMUX4zLzlrpcVup8l8LFv7wd0QZ7TiJgoxM85V6CAB/TWL4iITCj3bJVXK/xotfNFAacOA+p6QNOJW+kTm9UPei4iqp2SOxzNwrCH0Zj1g/snSE/2qlVdI9Y+FsOGxzikN7Fo4MwCbiWv3pdFHKv84OCw328UVMWumCXlFVMfNdEbSV50d3mDS14Y4pr0/m2u2SSKxr02wGDJlw7wdhT56QfLhAzgG87pvzRVmD8B7G3DrUlGTAMhnNRV58dqbC",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709583
+                    }
+                ]
+            },
+            "rbzsessionid": {
+                "name": "rbzsessionid",
+                "domain": ".2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709586,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4eaddafd0734a118efacd8194461c608",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709585
+                    }
+                ]
+            },
+            "route_65096237_fb4d_4561_b305_7b204b0db8cf": {
+                "name": "route_65096237_fb4d_4561_b305_7b204b0db8cf",
+                "domain": "2dehands.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709070,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ceeff8e0ed3927e76e402e16a08c674f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709063
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "fcddaf03b064de5f7d23d2f570c17686",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709192
+                    }
+                ]
+            },
+            "MpHpInitialFeed": {
+                "name": "MpHpInitialFeed",
+                "domain": "www.2dehands.be",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726168709508,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168709507
+                    }
+                ]
+            }
+        }
+    },
+    "p.marktplaats.net": {
+        "/": {
+            "client": {
+                "name": "client",
+                "domain": "p.marktplaats.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168709592,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741720709.591033,
+                        "expiry": 15552000.591032982,
+                        "value": "51c72004-8717-0532-398f-b6e836ece27d",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168709591
+                    }
+                ]
+            }
+        }
+    }
+}

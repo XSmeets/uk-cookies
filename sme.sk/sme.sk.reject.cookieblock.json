@@ -1,0 +1,1035 @@
+{
+    "criteo.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060525609,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759756526.606912,
+                        "expiry": 33696001.6069119,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525608
+                    }
+                ]
+            },
+            "uid": {
+                "name": "uid",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060525608,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759756526.606865,
+                        "expiry": 33696001.60686493,
+                        "value": "21cc422d-cc17-4344-9fed-3649ab5cad54",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525607
+                    }
+                ]
+            }
+        }
+    },
+    "etargetnet.com": {
+        "/": {
+            "ckf": {
+                "name": "ckf",
+                "domain": ".etargetnet.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060524651,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596524.64862,
+                        "expiry": 31536000.64861989,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524651
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.650521994,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524653
+                    }
+                ]
+            },
+            "cuvn": {
+                "name": "cuvn",
+                "domain": ".etargetnet.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060525966,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596525.964697,
+                        "expiry": 31536000.964696884,
+                        "value": "1250604362",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525966
+                    }
+                ]
+            },
+            "euvf": {
+                "name": "euvf",
+                "domain": ".etargetnet.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060524650,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727270124.648594,
+                        "expiry": 1209600.6485939026,
+                        "value": "131072",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524650
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1209600.6504518986,
+                        "value": "131072",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524653
+                    }
+                ]
+            },
+            "euvh": {
+                "name": "euvh",
+                "domain": ".etargetnet.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060524651,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728738924.648603,
+                        "expiry": 2678400.6486029625,
+                        "value": "R",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524650
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2678400.6504900455,
+                        "value": "R",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524653
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2678400.964682102,
+                        "value": "RR",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525965
+                    }
+                ]
+            },
+            "euvn": {
+                "name": "euvn",
+                "domain": ".etargetnet.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060525966,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596525.964691,
+                        "expiry": 31536000.964690924,
+                        "value": "1250604362",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525965
+                    }
+                ]
+            },
+            "p": {
+                "name": "p",
+                "domain": ".etargetnet.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060524650,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726064124.648541,
+                        "expiry": 3600.6485409736633,
+                        "value": "68512",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524649
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600.6503159999847,
+                        "value": "68514",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524653
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600.9646348953247,
+                        "value": "68506",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525965
+                    }
+                ]
+            }
+        }
+    },
+    "hit.gemius.pl": {
+        "/": {
+            "Gdyn": {
+                "name": "Gdyn",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726060524583,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760188524.581188,
+                        "expiry": 34128000.58118796,
+                        "value": "KlxzkMGGQMQGIzCMM5K_eUlUssGMXP8c25nSGYpyiPDtFRxSG7RrGS6GroMtFlMMYH7hRjBGqSRxSG8.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524582
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.18148303,
+                        "value": "KlQ_gRMGQMQGIzCMM5K_eUlUssGM414oL6nxmG72UXPyb6aUGsRP0QlGvGQpSMT8SLS8RgTSFsCB0788MG..",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525183
+                    }
+                ]
+            },
+            "Gdynp": {
+                "name": "Gdynp",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060524514,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760188524.512198,
+                        "expiry": 34128000.51219797,
+                        "value": "z8IVYODE9vuYEOoECySlxiFjtofbCF5XebkQXxY47xD.B7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524514
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.58120489,
+                        "value": "b3xg_UcNIQz1xAZvQMiHGPJxRBJD69h7H46FceXflHj.r7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524583
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.18153906,
+                        "value": "2E7XD7l1v_wP5IX1Sm.Oakbiu.3r7RKoknCGABVBsUL.p7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525183
+                    }
+                ]
+            },
+            "Gtest": {
+                "name": "Gtest",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726060524513,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726665324.512181,
+                        "expiry": 604800.5121810436,
+                        "value": "KlSrrMGGQMQGIzCMM5K_eUlUssGMXP8c25nSGYpyiPDtXBG.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524513
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060524513,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760188524.512122,
+                        "expiry": 34128000.512121916,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524512
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.581135035,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060524581
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.181092024,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060525182
+                    }
+                ]
+            }
+        }
+    },
+    "skgde.adocean.pl": {
+        "/": {
+            "GAD": {
+                "name": "GAD",
+                "domain": ".skgde.adocean.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060523928,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760188523.926838,
+                        "expiry": 34128000.92683792,
+                        "value": "KlShRRGGQMQGexos4I4_eUlUssGMXP8cfRySssX6Sssa",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060523927
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.9562459,
+                        "value": "KlQnKMMGQMQGexos4I4_eUlUssGMXP8cfRySssX6QssGvaGpI7EPoMVsL18GG7_D18yUuAeGsG..",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060523956
+                    }
+                ]
+            }
+        }
+    },
+    "sme.sk": {
+        "/": {
+            "FCCDCF": {
+                "name": "FCCDCF",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060523394,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759756523,
+                        "expiry": 33696000,
+                        "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQEyKcAQEyKcAEsACCSKBGFgAAAAAEPgACRQAAARmSD2N_K2uLPkPCmwXaIYRKvj6AElQhAAAmSBMgCiVUtWRgnvoAgCJFkAUQQIgABRMiCQAAQABCImIECkAAIXAFIAIAhABIQQ0DJACYCAECAAJCGBwKHMAARwNTQ6AShkhqZwZVpOhlkkwJDbORC58mooCE4VwYCH1Ya0CIj1aBY7oiUrBSY6Z-CIgEgACAAA.YAAACFgAAAA%22%2C%222~~dv.70.89.93.108.122.147.149.196.236.259.310.311.313.323.358.415.449.453.486.494.495.540.574.609.827.864.981.1029.1031.1033.1048.1051.1067.1092.1095.1097.1126.1186.1205.1276.1301.1307.1365.1415.1449.1514.1516.1558.1570.1577.1598.1616.1651.1712.1716.1735.1753.1765.1870.1878.1889.1917.1928.1958.1985.2010.2052.2072.2253.2299.2331.2357.2373.2406.2415.2427.2506.2526.2527.2568.2571.2575.2579.2584.2624.2669.2677.2822.2849.2860.2886.2898.2908.2929.2974.3055.3068.3236.3290.3292.3296%22%2C%227B3FDAEB-7FC1-4E69-BDC2-775BFD2DA2E8%22%5D%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060523389
+                    }
+                ]
+            },
+            "__eoi": {
+                "name": "__eoi",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060523590,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741612523,
+                        "expiry": 15552000,
+                        "value": "ID=baf552fcd26d97bb:T=1726060523:RT=1726060523:S=AA-AfjZoaDr9xg_j68tVj9eoF0UF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060523589
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=653228a3505259f9:T=1726060523:RT=1726060523:S=AA-AfjY3_6XhkhZVjghhw-Wl6czo",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060523884
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=30703e705465636b:T=1726060523:RT=1726060523:S=AA-Afjbh52IJqVzmUrslgzIWA1a5",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060523885
+                    }
+                ]
+            },
+            "browser_id": {
+                "name": "browser_id",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060510527,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596510,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060510525
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060510565
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060510924
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060510931
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060510935
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060510939
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060511499
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060515576
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060522586
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "5a39d961-33ad-44fa-a61a-8b306626a517",
+                        "same_site": "lax",
+                        "timestamp": 1726060526725
+                    }
+                ]
+            },
+            "campaigns": {
+                "name": "campaigns",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060510428,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"MWH4sx\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510760
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"MWH4sx\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510920
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510920
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510925
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ct\":1,\"vi\":\"YYOL77\",\"bi\":\"Tmo313\",\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510926
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ct\":1,\"vi\":\"YYOL77\",\"bi\":\"Tmo313\",\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ct\":1,\"vi\":\"Z5M8IO\",\"bi\":\"tiH0Q4\",\"ut\":1726060510},\"LvrFhR\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510927
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ct\":1,\"vi\":\"YYOL77\",\"bi\":\"Tmo313\",\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ct\":1,\"vi\":\"Z5M8IO\",\"bi\":\"tiH0Q4\",\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ct\":1,\"vi\":\"JNIb4A\",\"bi\":\"iCG7is\",\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510932
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ct\":1,\"vi\":\"YYOL77\",\"bi\":\"Tmo313\",\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ct\":1,\"vi\":\"Z5M8IO\",\"bi\":\"tiH0Q4\",\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ct\":1,\"vi\":\"JNIb4A\",\"bi\":\"iCG7is\",\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510936
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":1,\"ct\":1,\"vi\":\"dCD93S\",\"bi\":\"jBT8pC\",\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ct\":1,\"vi\":\"YYOL77\",\"bi\":\"Tmo313\",\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ct\":1,\"vi\":\"Z5M8IO\",\"bi\":\"tiH0Q4\",\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ct\":1,\"vi\":\"JNIb4A\",\"bi\":\"iCG7is\",\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":0,\"ct\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510937
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"ey1fL0\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"0SlGG8\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":1,\"ct\":1,\"vi\":\"dCD93S\",\"bi\":\"jBT8pC\",\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ct\":1,\"vi\":\"YYOL77\",\"bi\":\"Tmo313\",\"ut\":1726060510},\"IcPaLF\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"AYjGAV\":{\"sn\":0,\"ct\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ct\":1,\"vi\":\"Z5M8IO\",\"bi\":\"tiH0Q4\",\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ct\":1,\"vi\":\"JNIb4A\",\"bi\":\"iCG7is\",\"ut\":1726060510},\"MWH4sx\":{\"sn\":1,\"ct\":1,\"vi\":\"f8pvYZ\",\"bi\":\"dEoMvd\",\"ut\":1726060510},\"V3IRgJ\":{\"sn\":1,\"ct\":1,\"vi\":\"9HBgHB\",\"bi\":\"Vdqycs\",\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510940
+                    }
+                ]
+            },
+            "campaigns_session": {
+                "name": "campaigns_session",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060510922,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726061410,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510921
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510926
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510928
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510933
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510937
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510937
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510940
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"MWH4sx\":{\"sn\":1,\"ut\":1726060510},\"EqHFDp\":{\"sn\":1,\"ut\":1726060510},\"8wcp1q\":{\"sn\":1,\"ut\":1726060510},\"LvrFhR\":{\"sn\":1,\"ut\":1726060510},\"cHro61\":{\"sn\":1,\"ut\":1726060510},\"V3IRgJ\":{\"sn\":1,\"ut\":1726060510}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060510942
+                    }
+                ]
+            },
+            "cto_bundle": {
+                "name": "cto_bundle",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060525640,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759756525,
+                        "expiry": 33696000,
+                        "value": "VMnAhV9ZaGxpSVJnTzdRVDRTQmRtJTJGSUU4WmFlU3owMERPd2J3aGJ2OSUyQmdiOUt3TG0yOFREdloxeWhQN3JtUnhLUDJGYmtDZHZIVVA3QndKYVlsNGZSVks4eHN2M3RvS05wbWpmSmF1dmhyRUU2Yjh2SGVYUm90aVg3NkUxTlpxUWtrUzVyQlpHS0RKT0xTJTJCcGl2dXlLdXNjOHpDa2FuWVFrVG9xJTJCOE9SNlZRRWolMkZualg0OXclMkIxdXlrMXRNZWVzJTJGVDNHSw",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060525639
+                    }
+                ]
+            },
+            "cto_pub_test_tld": {
+                "name": "cto_pub_test_tld",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060525510,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726064125,
+                        "expiry": 3600,
+                        "value": "test",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060525509
+                    }
+                ]
+            },
+            "cto_writeable": {
+                "name": "cto_writeable",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060525507,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726064125,
+                        "expiry": 3600,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060525506
+                    }
+                ]
+            },
+            "pp_split_test": {
+                "name": "pp_split_test",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060510057,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733836510,
+                        "expiry": 7776000,
+                        "value": "6151",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060510048
+                    }
+                ]
+            },
+            "ppcnst_dsgr": {
+                "name": "ppcnst_dsgr",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060523530,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734700523.529155,
+                        "expiry": 8640000.529155016,
+                        "value": "{\"t\":1726060523}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060523529
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 8640000.530837059,
+                        "value": "{\"t\":1726060523}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060523531
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 8640000.532041073,
+                        "value": "{\"t\":1726060523}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060523532
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 8640000.532938004,
+                        "value": "{\"t\":1726060523}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060523533
+                    }
+                ]
+            },
+            "remp_session_id": {
+                "name": "remp_session_id",
+                "domain": ".sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060510567,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726061410,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060510566
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060510924
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060510932
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060510935
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060510939
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060511499
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060515577
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "623fb6ca-cebc-4f3a-a875-fa7260b738c6",
+                        "same_site": "lax",
+                        "timestamp": 1726060522586
+                    }
+                ]
+            },
+            "cookietest": {
+                "name": "cookietest",
+                "domain": "www.sme.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060510465,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726060510464
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "google.com": {
+        "/": {
+            "__Secure-ENID": {
+                "name": "__Secure-ENID",
+                "domain": ".google.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726410772982,
+                "storeId": "0",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760235316.978887,
+                        "expiry": 33824544.97888708,
+                        "value": "22.SE=HA8mjzox8DBHukhEMJrmdSpIH6gN6ICvbsch0rgKmW2-64RLOksDv_nkF5tpvCp0-czVLPxJX601ZeCHqtLXxsEJQoMBpvKqHHn9QfZNM-ZXC0LvmSkUilNOeEUKprtbkK7aus05ITuCTWp6SEovADiVG0KryA3lLGAxJiCEwlGv4WEqrZ1wgOAiq4ZcAcm98g",
+                        "same_site": "lax",
+                        "timestamp": 1726410772982
+                    }
+                ]
+            }
+        }
+    },
+    "amazon.com": {
+        "/": {
+            "csm-sid": {
+                "name": "csm-sid",
+                "domain": "www.amazon.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399706590,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728766476,
+                        "expiry": 2366770,
+                        "value": "792-0198678-1316256",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399706580
+                    }
+                ]
+            }
+        }
+    }
+}

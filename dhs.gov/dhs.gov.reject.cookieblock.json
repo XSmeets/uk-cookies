@@ -1,0 +1,521 @@
+{
+    "dhs.gov": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417459862,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726421059.857205,
+                        "expiry": 3600.857204914093,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459857
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417460673,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727022260,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=dhs.gov&si=1burvqtjahg&ss=m13sdpgu&sl=0&tt=0\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460672
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=dhs.gov&si=ovfc4j9njw&ss=m13sdpgu&sl=0&tt=0\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460677
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417459918,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977459.917218,
+                        "expiry": 34560000.91721797,
+                        "value": "GA1.2.1689745755.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459917
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.070862055,
+                        "value": "GA1.1.1689745755.1726417460",
+                        "same_site": "strict",
+                        "timestamp": 1726417460074
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17817998,
+                        "value": "GA1.2.1689745755.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460178
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.20708203,
+                        "value": "GA1.1.1689745755.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460208
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.222681046,
+                        "value": "GA1.1.1689745755.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460225
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.23951006,
+                        "value": "GA1.1.1689745755.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460241
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.26856804,
+                        "value": "GA1.1.1689745755.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460269
+                    }
+                ]
+            },
+            "_ga_5YY8Y4R5TC": {
+                "name": "_ga_5YY8Y4R5TC",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417460208,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977460.206775,
+                        "expiry": 34560000.20677495,
+                        "value": "GS1.1.1726417460.1.0.1726417460.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460207
+                    }
+                ]
+            },
+            "_ga_CSLL4ZEK4L": {
+                "name": "_ga_CSLL4ZEK4L",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417460073,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760977460.070574,
+                        "expiry": 34560000.070574045,
+                        "value": "GS1.1.1726417460.1.0.1726417460.0.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726417460072
+                    }
+                ]
+            },
+            "_ga_GHG7XR2CMP": {
+                "name": "_ga_GHG7XR2CMP",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417460224,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977460.222451,
+                        "expiry": 34560000.22245097,
+                        "value": "GS1.1.1726417460.1.0.1726417460.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460224
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.268337965,
+                        "value": "GS1.1.1726417460.1.1.1726417460.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460268
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.27358794,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460273
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.27388501,
+                        "value": "GS1.1.1726417460.1.1.1726417460.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460274
+                    }
+                ]
+            },
+            "_ga_X7LCTSTP70": {
+                "name": "_ga_X7LCTSTP70",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417460240,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977460.239232,
+                        "expiry": 34560000.23923206,
+                        "value": "GS1.1.1726417460.1.0.1726417460.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460240
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.76294303,
+                        "value": "GS1.1.1726417460.1.0.1726417461.59.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726417461763
+                    }
+                ]
+            },
+            "_gat": {
+                "name": "_gat",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417460180,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726417520,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460179
+                    }
+                ]
+            },
+            "_gat_gtag_UA_32318423_1": {
+                "name": "_gat_gtag_UA_32318423_1",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417459920,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726417519,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459919
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417459979,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734193459,
+                        "expiry": 7776000,
+                        "value": "1.1.195599538.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459978
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417459919,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726503859,
+                        "expiry": 86400,
+                        "value": "GA1.2.1413778593.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459918
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.1413778593.1726417460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460178
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417459600,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726424659.58582,
+                        "expiry": 7200.5858199596405,
+                        "value": "7EEFCAD5769DB0FF0C0D99FE18226F38~000000000000000000000000000000~YAAQqexlX90y6u6RAQAAwNl/9hn31djl6+AWeCU17xA4u6k0mSPvOi3ZnqK6992YH8TcHF72Dy/c9BBOvCCgEDkOOBGDXKx7034O3XaAVbtlY9sZwAbI59UTVUFmHVxwdeG9C+SuaUG0VHMuXdRNgk/0WPgnnYPZDA5tdSO8l5IFdKdOvLyEB9ThzNZy2C3wyKLBfR1j/8voQZ9T6/1KpxILGF9dasBsjudq0qiyj7lOTx++lhhQwAWj8vTFCJbxr4pPsVcOIhx2MpNvZXQHo7mvZfdpkB/7bKzsUughXcDp3syG37UhKs+apbx4UFqd2hw6WZCzlAy09PlJwJxg7xtmmrgqgTmsdYTkkDIvZsVQKeg1oHs27WKvKe9i415hnhbiSrk7TQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459588
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417459863,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726424659.857504,
+                        "expiry": 7200.857503890991,
+                        "value": "CF4D93DB21DF75131EE9DF3BF565930B~YAAQqexlXykz6u6RAQAAwtp/9hl79aHe1oCZNDsP2rwCBOtFLFfSrqL/vl0IBEQbDuFEazv3kuD21CkyPxS7QJmHKkV1TFoSDwDLyuE25yRdZX+XpcYswT8kABsNjEs2fiY2zBTmT20JJXKstHbyGh+LZm9s5agQHA3dyVypWTONkKOxzkCPlQ9GnQ9hKsinBUqRKIko+KaKLqsSBIwoLO07iKK07pQCmiQ7Xsdc3DTI+yC5rHRutG5gDQJj~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417459862
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7199.1218519210815,
+                        "value": "CF4D93DB21DF75131EE9DF3BF565930B~YAAQqexlX0Uz6u6RAQAAMdt/9hmn1E8lT3jGARmvQY+8Pn8S5+ztdi3xXS2xfG7oXe9NSiosKY+bJT9dYUDYu4fbvJNifQk3VfpVV1C0Lu5NPEAoDdC9l5rAyRrFtDQ0dXnRjpquD6D57SrTQY0Jz9Akf7O2ZA+e8TT0LNsCYrGrROiV4CBx40JvXuOm62iQCXfLMnbb5CPr0+On0omN1OZREzi/HuokiCySTN2jI9eYrh4Q2dH6eBIasglf~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417460123
+                    }
+                ]
+            },
+            "nmstat": {
+                "name": "nmstat",
+                "domain": ".dhs.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417460039,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977460.038503,
+                        "expiry": 34560000.03850293,
+                        "value": "a21ca400-6670-89f9-31ef-f74fa3ef8405",
+                        "same_site": "lax",
+                        "timestamp": 1726417460039
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417460475,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726418360.474151,
+                        "expiry": 900.4741508960724,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417460474
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726417460043,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741969460.042348,
+                        "expiry": 15552000.042347908,
+                        "value": "E-bmL74xkko",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417460043
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417460045,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741969460.042369,
+                        "expiry": 15552000.042368889,
+                        "value": "CgJHQhIEGgAgXQ%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417460043
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726417460042,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0M576yRHVzA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417460042
+                    }
+                ]
+            }
+        }
+    }
+}

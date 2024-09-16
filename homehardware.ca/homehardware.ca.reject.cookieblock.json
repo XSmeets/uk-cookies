@@ -1,0 +1,1402 @@
+{
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341896289,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760037897.287643,
+                        "expiry": 33696001.287642956,
+                        "value": "1FD7379CE76F68951A8D2366E6F069BF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896288
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696001.3325181,
+                        "value": "2BF220B7D35561A4027C344DD2CA6023",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896333
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696001.33305192,
+                        "value": "008FFAE7843267651BB2EE1D85AD669C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896334
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895646,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728933895.646188,
+                        "expiry": 2592000.6461880207,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895646
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341895677,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741893895.677234,
+                        "expiry": 15552000.677233934,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895677
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895648,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726342795.646233,
+                        "expiry": 900.6462330818176,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895647
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.677206993103,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895677
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.7387340068817,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895820
+                    }
+                ]
+            }
+        }
+    },
+    "gleam.io": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".gleam.io",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341896451,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726343696.450815,
+                        "expiry": 1800.450814962387,
+                        "value": "Cd9.7I4y2PwWpxvjiGtWNbuAEiHAvwVRjTqFcOuQSsk-1726341896-1.0.1.1-0FWvg9VOrCdvU.gYy_ey98Ax8c.s3TCXyDR3zpFeEJf02eHSjnx01rSaInbptr6xtPNFsebEjMyeug55rtJhXg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896451
+                    }
+                ]
+            },
+            "XSRF-TOKEN": {
+                "name": "XSRF-TOKEN",
+                "domain": "gleam.io",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341896688,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "RLm3TjOfUbL0koc8WV8jDDoahVep0sJU-h-Eg2UjviKlOeacB6ZXSY56E1w6YFmKyW8b2GI0WL3sYfFz9FlF7A",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896687
+                    }
+                ]
+            },
+            "_app_session": {
+                "name": "_app_session",
+                "domain": "gleam.io",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341896690,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728757496.687097,
+                        "expiry": 2415600.6870970726,
+                        "value": "7f5qVa4V%2BVH%2FqLvtU49%2FwUUwl3oIK01Yg0Qox3PPA%2BR45F6okLoX8s1wKqTYiiilykoWIJAIhLDqiNjjZzkg4SZmBzm1A05AyAOMulaGDjszqN6HNYPw9FvQuQy5quJacVoLEhnIaFbxFmxTyueT0VHgwTByhjPqq4oy%2BrEV3bnvh47IrAXCVsm%2FZYfnNBqGHLy4B6yhj2PcFvmTaJGYKVszKtuJVxxdxYopHFt6iUsiRp60aVje6hZDsm3O0qhdjUFSY9a0zWXg2qqr4XxhG1geu6u6J97TPRAYSQTZenAcg2VkjPXeVRS%2B--sALJLvbINd61pTkd--W38XSF%2F6MQOdF%2FBA%2FWDl7A%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896689
+                    }
+                ]
+            }
+        }
+    },
+    "homehardware.ca": {
+        "/": {
+            "_cq_duid": {
+                "name": "_cq_duid",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341895825,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734225895,
+                        "expiry": 7884000,
+                        "value": "1.1726341895.UKDZonRIBlaqM7yK",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895824
+                    }
+                ]
+            },
+            "_cq_suid": {
+                "name": "_cq_suid",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895826,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1.1726341895.7qw8Ezd350j6sKRF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895825
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341895668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734117895,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726341895667.129441709701625181",
+                        "same_site": "lax",
+                        "timestamp": 1726341895668
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726341895667.129441709701625181",
+                        "same_site": "lax",
+                        "timestamp": 1726341896147
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341895589,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.33826804,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896356
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.81874704,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900819
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.84466505,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900845
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.87079191,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900871
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.9110589,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900911
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.9905839,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900991
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.04418492,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901044
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.084434986,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901084
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.22990799,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901230
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.258286,
+                        "value": "GA1.2.345466216.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901258
+                    }
+                ]
+            },
+            "_ga_P9RP31XJ57": {
+                "name": "_ga_P9RP31XJ57",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341895588,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.877070904,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900877
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.87723303,
+                        "value": "GS1.1.1726341895.1.0.1726341900.55.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900877
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.91634703,
+                        "value": "GS1.1.1726341895.1.0.1726341900.55.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900916
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.994684935,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900995
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.9948411,
+                        "value": "GS1.1.1726341895.1.0.1726341900.55.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900995
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.04885292,
+                        "value": "GS1.1.1726341895.1.0.1726341901.54.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901049
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.08873391,
+                        "value": "GS1.1.1726341895.1.0.1726341901.54.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901088
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.234366894,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901234
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.23456001,
+                        "value": "GS1.1.1726341895.1.0.1726341901.54.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901235
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.26429701,
+                        "value": "GS1.1.1726341895.1.0.1726341901.54.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901264
+                    }
+                ]
+            },
+            "_gat_UA-6649328-1": {
+                "name": "_gat_UA-6649328-1",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341895645,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726341955,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895645
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341895447,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734117895,
+                        "expiry": 7776000,
+                        "value": "1.1.599683262.1726341895",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895446
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.599683262.1726341895",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895576
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341895617,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896356
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900820
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900845
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900871
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900912
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341900991
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901045
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901085
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901230
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.2127638030.1726341896",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341901259
+                    }
+                ]
+            },
+            "_pin_unauth": {
+                "name": "_pin_unauth",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341895672,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757877895,
+                        "expiry": 31536000,
+                        "value": "dWlkPVpXSmhOMkV6TlRJdFpEZGlNeTAwWVRjd0xUaGpOell0TmpJeVlUUXhaREV5TURneQ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895671
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895088,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726349095.073385,
+                        "expiry": 7200.073385000229,
+                        "value": "B74EBF018965EF28E22C752D99F159D8~000000000000000000000000000000~YAAQ2TndWELoz+ORAQAA3NP+8RmnwpDI/l1FUp94PJanFZhS2E8K8Hyls2iOXmqzL/mMVVcAMHFz56AT6yjnkiLactAux6tMCuxNx8Z10QFUgB3l+sbwUPKsHUDlz0aXy56ToEXrVIY5YnNrtnjZFQmJkcX4uxzSUBWUzuM3Zmy3eZQ1y4SHxg1C+9NiiQk9GXhHrYJUBPl+aSEVZbSowzWJ2N8mAvNopC9JRMYADlrWTmKqUp1OOycfAEee8S+yk7h+QWf2PhR+dQhYtN7jlnr9DA4X7Dvw4TQzNS52SmGEyTfjOz9Mmydwq/oR9dZTeJk+n7uFCmpzGWh9Ibzlm3aE6GXIukYEca3ImSqkZoo09OgJXbH2V8PdbGcfh0M4j9dRD7Fjm1WFxw9vUQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895075
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200.359620094299,
+                        "value": "74DF56C3B7A9E3F7A318E2A8D50EBA31~000000000000000000000000000000~YAAQ2TndWF7oz+ORAQAA99T+8RmDRnpn3DIH64YDUkdHQhAjA+Dd+nQvBq1Bm6T+RlW+lU4kumwl6zQ2ew13vyeSybDsXMkK7YRdI2v0L19PiTEy/xAsHn/i/FagQUPRo/VwRgpYUFJUJnKV+97WJsMX+YP/HJMJv3WyFjhJi8Z009p3jdntl1EhJ8ia852ck1mOaKpicI52Tw5swlOReRZH2zgVyJOFvXTpMzFCBv44b9FLtf9T7E5c0Xvbz0683cKdNK2FVsgHcTU754Dc6j0Nv/ZVKGXR6f+ihGMj769reADQ0F+UT8/hHojdLYVEn8TP3YStCRHCdMJdrPqf44CBSqVX0N331vjXOAom66Ws+mReC7w93LBU2IGLH/t7wRopAP9emlmfMywlu2jXNhsCIqHnj75oAwB0cALoe5JBPtZtwcK9v7u9vjVQnLGGEBM66ZaxEFvhCsC5fOCl1wAeHi/L5dCVgI8=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895360
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200.7202780246735,
+                        "value": "74DF56C3B7A9E3F7A318E2A8D50EBA31~000000000000000000000000000000~YAAQ2TndWIXoz+ORAQAAY9b+8RluXiTeCFJ6nBLBnHdOd7KjTnAo5lQn8bNJrXHWsuyz/lDaTYBPrvu28Eno3DRECJ0EcM2srn2BxDfi7kncEO35s4RL67eXf2zfYbrk01gG6Ot87cpBJhfgYN1V1hyyRGxYRJpQdH7sgiHfgfGx5qZUwQC6BBvWcI6A3hnLuzG0TTAsljfRmlhcHZrUzywfZdRRf70yDBKDCwC5Fc1ipMh8uUlsvQ8pPqVD+OSaI80JSLZtogaXeJlyqMJlqrOSwzo/enTCziN3KMAMdS//dDCBf1B/URUFxa8bwU4PYezbrAfQcO+c3i3O/cG3Mde3mmkumYse9AKeRToex4lsEeZS/btF9ntnL1XLTb7V8rEvKlmaUXWnK3pObbh7Y7LXH/Y0IqmoOsOsDh5HjH53IezZ2sAgMvOcsIyjW64Fc9vjNbv+rT5xedZt2OZCQakmlaUAOP9f803/ybKeUDd3c8EjnhjcPwp6",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895820
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.057379961014,
+                        "value": "74DF56C3B7A9E3F7A318E2A8D50EBA31~000000000000000000000000000000~YAAQ2TndWK7oz+ORAQAAtNf+8Rn37n7BDanb806BmhcvE2JybDgCrr02AKXrtQFTRrOLP4bempxZ0hqeANkTabD5OGNWLPJCL6NrIRb9RG+rakwdGntgdPcl1oimyXY/ksUYMy1MOXt2Bef5EP+RuNdWvf4cIFPxawUNfanmeCjl9qWxXu/NNALIxYn4n+9nXAIC0s+lT8AYbIYErrus6cMc2KIVB47JKYlFqrcK4bRQbR7JK+2tZa17qnco0BYIAgLYrLdkOLPvh8KS1b+zIEPujktKUZpy7JtnWbIMLakjMuT8DihP2RfEn1kPBNWoEgAejxkHX7FnTsKn9Tw3O0Qol5ZfknT+0133LHGT7hEpeYK2lJ06qkYVjCeHYwnt+NEOfXxKLwE91o7R0LfqX/TvkHku9+mhntf1koQMPlW9o2AmSTd+oBvuuFumdmmiq9+g2GFHSyMto1yqVHVp6t6p7KN8MynzwJecNP+1AMrMYUB1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896058
+                    }
+                ]
+            },
+            "bm_mi": {
+                "name": "bm_mi",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895193,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726349095.178339,
+                        "expiry": 7200.178339004517,
+                        "value": "14E6D0282C8FFA51EC752F5AB3787FD1~YAAQ2TndWE7oz+ORAQAARdT+8RnQV2UBujV5KPW18JuQdn/FRQKKavHqk5YUfkZDVaU0KswBaqROmDXJtTWhqoBdFTOaWvlFt9gpuUuv2XRDPphx59AMRXVqUXOIMnc9Kmw82NMCnEr3YaYHIHzCwOMnOo9vaXIin25q7TuQ0O+gRO7/joSP8UtsdubHoHgKO3OBwfR7f/Ea6IVGtswiMmNKagEQ1JPuAi782WP+p4tqIzl353pSDo8wIQnssQhnX6mkxq7Zi3PHJXS6vJcuJlmvqIvWOMcLdApxUGeledK0Jx9Y8P/RmAE1kvxRZW5vlEwYHb4=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895179
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895195,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726349095.178571,
+                        "expiry": 7200.178570985794,
+                        "value": "EFFC78B4D14E0952AAE9C6F485E2C526~YAAQ2TndWE/oz+ORAQAARdT+8RnXPqnDHSoOHmnlAGv0uJX1HqilRyXAEHEnUz8mpvYk86NkVLPqHzLa13aYdphg2i+5NTlO1kkTtzsM8hdeh1kiMH9odDogoqWM7Ra4ojGLWZlh9OoZxBhfAGFianj7J/lpe/XKnx8uk4virb0uayeaCSyk/+rOkOp0cIaotip6/zo5X6Uh34ViOg3Mcs3i5zYllEywk1D42W1mTxa2AXOfql4lTctHpxwgxnVBJz1m6DI=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895193
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7200.3894329071045,
+                        "value": "EFFC78B4D14E0952AAE9C6F485E2C526~YAAQ2TndWGLoz+ORAQAAGNX+8Rl5uFz4Hvg7n154t/ri6xaOXAPaoN6oN8ORVI7ZvXWKBHLrz6acC1pBVg75Yd5YP9jbW4zL6FHqVpIaIFcKOxr92nsvZV1i1IR5jNirkfSSlLr0b2II0gs7QppIlARWeA5glavwI11zDsb9yK3XAyxbxWEo/GQskHYdKvpT8Y19QRS5XccTlo1FUbA0lRm+g9r3ezJNOab6zEOtf/6ML9d54ZHgV4JHi2LtO7mc7igSxOQ=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895389
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7200.681077957153,
+                        "value": "EFFC78B4D14E0952AAE9C6F485E2C526~YAAQ2TndWIPoz+ORAQAAO9b+8RlliiE7zVqYx2ygXWaMWKO991pCmOAQ6tzNE+BoMKq4AmrgEyRDL2JbDIUX0qseHRQ7Q9R4X0769RPaf0a0LqC8dZZLoqo0Opk36qTsty1ohEsReYL/zHbM+bpz/uNPQOD3jWmFfIbuW74z5rNA/gl3tensKbxgBZvrs+etc/9AMZ5PKe+G0H3CJDER/znv1pcI6hNV6TFfMCCxnNBwivlvqex94SsIz0ccld9j/cslg+0=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895686
+                    }
+                ]
+            },
+            "mt.v": {
+                "name": "mt.v",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341895415,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901895.413197,
+                        "expiry": 34560000.41319704,
+                        "value": "2.1454856653.1726341895413",
+                        "same_site": "lax",
+                        "timestamp": 1726341895413
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.480146885,
+                        "value": "2.1454856653.1726341895413",
+                        "same_site": "lax",
+                        "timestamp": 1726341895480
+                    }
+                ]
+            },
+            "user": {
+                "name": "user",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895686,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728933895.680956,
+                        "expiry": 2592000.680955887,
+                        "value": "%7B%22userId%22%3A%2278d464d624644ae4b7d3295e673cfe34%22%2C%22isAnonymous%22%3Atrue%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895685
+                    }
+                ]
+            },
+            "userId": {
+                "name": "userId",
+                "domain": ".homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895685,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728933895.680937,
+                        "expiry": 2592000.680937052,
+                        "value": "78d464d624644ae4b7d3295e673cfe34",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895684
+                    }
+                ]
+            },
+            "_mibhv": {
+                "name": "_mibhv",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341896854,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757877896,
+                        "expiry": 31536000,
+                        "value": "anon-1726341896850-1432951861_8241",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896852
+                    }
+                ]
+            },
+            "_mzPc": {
+                "name": "_mzPc",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895820,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "eyJjb3JyZWxhdGlvbklkIjoiNWRmZjdjNTFhNjIzNDJjN2I0ZWZkYzdjZjg2MmQzMzYiLCJpcEFkZHJlc3MiOiI4OS4zNS4yNS4yNCIsImlzRGVidWdNb2RlIjpmYWxzZSwiaXNDcmF3bGVyIjpmYWxzZSwiaXNNb2JpbGUiOmZhbHNlLCJpc1RhYmxldCI6ZmFsc2UsImlzRGVza3RvcCI6dHJ1ZSwidmlzaXQiOnsidmlzaXRJZCI6ImhXX2szRkhydUVXS2RTV2lDem5mb3ciLCJ2aXNpdG9ySWQiOiI2V1d4cDF6ci1rZVVXdlY2TzF4R1p3IiwiaXNUcmFja2VkIjpmYWxzZSwiaXNVc2VyVHJhY2tlZCI6ZmFsc2V9LCJ1c2VyIjp7ImlzQXV0aGVudGljYXRlZCI6ZmFsc2UsInVzZXJJZCI6ImMzZTE5ZGY5ZTkwMDRjYmU5NjQzYTVhYWFiZDA4NjkxIiwiZmlyc3ROYW1lIjoiIiwibGFzdE5hbWUiOiIiLCJlbWFpbCI6IiIsImlzQW5vbnltb3VzIjp0cnVlLCJiZWhhdmlvcnMiOlsxMDE0LDIyMl0sImlzU2FsZXNSZXAiOmZhbHNlfSwidXNlclByb2ZpbGUiOnsidXNlcklkIjoiYzNlMTlkZjllOTAwNGNiZTk2NDNhNWFhYWJkMDg2OTEiLCJmaXJzdE5hbWUiOiIiLCJsYXN0TmFtZSI6IiIsImVtYWlsQWRkcmVzcyI6IiIsInVzZXJOYW1lIjoiIn0sImlzRWRpdE1vZGUiOmZhbHNlLCJpc0FkbWluTW9kZSI6ZmFsc2UsIm5vdyI6IjIwMjQtMDktMTRUMTk6MjQ6NTUuNzE4NzcxNVoiLCJjcmF3bGVySW5mbyI6eyJpc0NyYXdsZXIiOmZhbHNlfSwiY3VycmVuY3lSYXRlSW5mbyI6e319",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895818
+                    }
+                ]
+            },
+            "_mzvr": {
+                "name": "_mzvr",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895817,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757877895.720111,
+                        "expiry": 31536000.720110893,
+                        "value": "6WWxp1zr-keUWvV6O1xGZw",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895815
+                    }
+                ]
+            },
+            "_mzvs": {
+                "name": "_mzvs",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895818,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "nn",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895817
+                    }
+                ]
+            },
+            "_mzvt": {
+                "name": "_mzvt",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895818,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726343695.720221,
+                        "expiry": 1800.720221042633,
+                        "value": "hW_k3FHruEWKdSWiCznfow",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895818
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341896259,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726428296,
+                        "expiry": 86400,
+                        "value": "0660c5a072cf11ef97c55f7680ac5fae",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896258
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "0660c5a072cf11ef97c55f7680ac5fae",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896260
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "0660c5a072cf11ef97c55f7680ac5fae",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896261
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341896259,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760037896,
+                        "expiry": 33696000,
+                        "value": "0660efb072cf11ef931085418335eb22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896259
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "0660efb072cf11ef931085418335eb22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896260
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "0660efb072cf11ef931085418335eb22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341896262
+                    }
+                ]
+            },
+            "hhLanguage": {
+                "name": "hhLanguage",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895411,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757885095,
+                        "expiry": 31543200,
+                        "value": "en",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895410
+                    }
+                ]
+            },
+            "sb-sf-at-prod-s": {
+                "name": "sb-sf-at-prod-s",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895684,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "at=J0hNSlDXoNvlqTzYt0og1%2FQEG1A7El0aJHweGApJb%2BhEZugs9%2Ffp291rZGFw3tGBDMdxkT96o2eU9JQM1cY1ljUG10tMB6bGKbotbEukMr7KOICdmr8nH%2FdkfUMhY6UT8V25unqBgW2H0dsAPMYdlHyQF7HxrHj%2Blbuuk5MBAiJtAy62gFvE1gvbCxCyNPhJr3f1WwOo9GaP%2FC1qqrtXyEXc7KYxfYXy6e1p%2FEzmXG%2FHHcTOmmDCjm7wL0j7VFsSu6R4I2xoY%2BHQ3X9PjmLm0hywcKPxV2Pxt4rvOZWiSnztHmvHfdnsw%2BSij%2F8xlaiTXL9f0aEdS5m8DKbyFhm%2BtQ%3D%3D&dt=2024-09-14T19%3A24%3A55.643Z",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895683
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "at=9AQlj%2FOkUGeF9XjLQn9yvRT1l7FsN2Q%2BCH%2BO0bM0B9EgBThwZkVfV%2Br5qkthr9fCgaHuORHKi9U3pZkmI6yEiggO75J5729%2FIPcSaTDJyqPFYr7X3Wqbgk9mjx6imeV4Tktr2Sj1gEJAI9KanU95FjhvDYo65FIdo8QMPv%2BCI9LmCGoHt4Jler%2BCA%2Fg9T0OFb0Ya20wXdUpv4qYvVqKAA5jWRSrpgPVAWd8PWaKN74J364V9WFrQmeGFrsl3k4NZIJCYjEcX0zk57ocfXCiryk0hVlWI3ikBxn5a%2BxFRQHZMW5bZriGK9LR4difshZeFsRKL2Fva8Tq7k%2BI8gK2qvg%3D%3D&dt=2024-09-14T19%3A24%3A55.7181251Z",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895815
+                    }
+                ]
+            },
+            "sb-sf-at-prod": {
+                "name": "sb-sf-at-prod",
+                "domain": "www.homehardware.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895683,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757877895.680616,
+                        "expiry": 31536000.680615902,
+                        "value": "at=J0hNSlDXoNvlqTzYt0og1%2FQEG1A7El0aJHweGApJb%2BhEZugs9%2Ffp291rZGFw3tGBDMdxkT96o2eU9JQM1cY1ljUG10tMB6bGKbotbEukMr7KOICdmr8nH%2FdkfUMhY6UT8V25unqBgW2H0dsAPMYdlHyQF7HxrHj%2Blbuuk5MBAiJtAy62gFvE1gvbCxCyNPhJr3f1WwOo9GaP%2FC1qqrtXyEXc7KYxfYXy6e1p%2FEzmXG%2FHHcTOmmDCjm7wL0j7VFsSu6R4I2xoY%2BHQ3X9PjmLm0hywcKPxV2Pxt4rvOZWiSnztHmvHfdnsw%2BSij%2F8xlaiTXL9f0aEdS5m8DKbyFhm%2BtQ%3D%3D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895681
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.720069885,
+                        "value": "at=9AQlj%2FOkUGeF9XjLQn9yvRT1l7FsN2Q%2BCH%2BO0bM0B9EgBThwZkVfV%2Br5qkthr9fCgaHuORHKi9U3pZkmI6yEiggO75J5729%2FIPcSaTDJyqPFYr7X3Wqbgk9mjx6imeV4Tktr2Sj1gEJAI9KanU95FjhvDYo65FIdo8QMPv%2BCI9LmCGoHt4Jler%2BCA%2Fg9T0OFb0Ya20wXdUpv4qYvVqKAA5jWRSrpgPVAWd8PWaKN74J364V9WFrQmeGFrsl3k4NZIJCYjEcX0zk57ocfXCiryk0hVlWI3ikBxn5a%2BxFRQHZMW5bZriGK9LR4difshZeFsRKL2Fva8Tq7k%2BI8gK2qvg%3D%3D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341895815
+                    }
+                ]
+            }
+        }
+    },
+    "homehardware.dev": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".homehardware.dev",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895278,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726343695.277907,
+                        "expiry": 1800.2779068946838,
+                        "value": "I.sAJNrcrRmxOrhcqVRjgvkZ4sFqFEoDwqExsJDwwSA-1726341895-1.0.1.1-b9OhtlLXlW3XnSx_Kt.hcW_ftopgQ.7OHfPmJ5Qblo8cF3tfWIt35AZP0PNvzJGMLc3NR8Uvp3DDFigj8tqXEw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895278
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.2798790931702,
+                        "value": "fb_dDxcHgPH.nC81GJKwiMpa6u3m1dYCqJTvtQKgbP8-1726341895-1.0.1.1-4hsPrg3btybvp7heQjLn34K4w5T9_9zBXUggPDYdjPE00waIifplvTvyQDV9hlO9Wo3YnI.CgbodoWdp8b.HLA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895282
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.282278060913,
+                        "value": "36BSdoKbxuolf6.3LMv8nUKOpGNapWlfl0MIdj17Bok-1726341895-1.0.1.1-fSvHOfbB.xJBEtdC2LzXfH1o2D1TPAnHRsnRkdIzXwM0qU.HGtWMOvWE9ywApPpXLm9t5GkdrRD1Gi.vYB1mlg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895283
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.2835879325867,
+                        "value": "Fq7XiCgn61sJLzazOS23yukKMr63aWQ8sDXIjBOOU00-1726341895-1.0.1.1-xcFHVkIQ5Iu2kdOZp.k.C51OqOZCrhZZjnWh86vadSigHM7tIpPRKkdRcoggnwii9MIuxuUDWHH9I3gS2Ak2BA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895285
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.2946300506592,
+                        "value": "8iAf.xF57_.5C8a6y4yFD6SLEkymRVsDg6XPV3qetQI-1726341895-1.0.1.1-Nfh3fTXj1PbtR1kbq2FjLC0q0pgrZVvtbApxdbo7sPeDenolHJrl7.GKjwjjXluoyxQnq5gcpo9U89SOjXGUcQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895295
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.2952001094818,
+                        "value": "Ia.XqVudgH4RikmWn7eeRMRvfE4IwFumIJSHbqJ1_S8-1726341895-1.0.1.1-y5lT_zwYDJM_bdETIU..qpu5IwwJM1QNuuPWs.S3sH8ZDPHsHqxh5VpeDaIMsQ2f9rtEVGI2PfxP3l_1qPR81Q",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895296
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.2963109016418,
+                        "value": "qf0lcC.FrJ.pq16VnRcvavUIrorZdjl7mkT_AleXkeM-1726341895-1.0.1.1-C5vU8I5yrZvZYEWeBY.NFQYXyjrpPPKi0bRVtafe1ZdZuIyyYNq_DteS5Air.T_5O5CK9zgi_DK.a6teGPaQkA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895297
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.3948059082031,
+                        "value": "G7zWJ2pHz.RsKD7x..OMDQfMPz0AcFkZqOF.XVMcd6U-1726341895-1.0.1.1-3wMhp8n4GqaN.U07O4Ke9l3P5wSU4U3PF3LuCuiY5xdL3zqiLqd13j3kb3cNjv.0EIH_AP.MHLmHy3YeXxuxOQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895395
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.3959159851074,
+                        "value": "wA2gNOklJUyEVq0gj9ft1.TsS5wDWhbF7A2J2E.JFbk-1726341895-1.0.1.1-vzHsNQlDum7KzdKOSCaOWf0pYEjlUEOATcPfT5W4XYZvmbE1DxV61mcxDTqg5Iyqdbbiu5p6uHMNL9SrCx4_oQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895396
+                    }
+                ]
+            },
+            "_cfuvid": {
+                "name": "_cfuvid",
+                "domain": ".homehardware.dev",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341895280,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "x3d2fxHtS1pIHz4DuBH51RXxRBORf1vyCO9oODVpfaY-1726341895335-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895278
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "12NF7Wq7wWRBTGTGsBaRHZcrdCfo6WBYHFClcyJbRXg-1726341895337-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895283
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "OZbQzBdnSemAIekywrD1UWWoMo8FC9fFf0r4Wp9P9b4-1726341895336-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895285
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "2M3Roq8C2Fn4I5mTnTbTddTiWgUIRAipjT3Pjj9zJBM-1726341895338-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895295
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "K2H7VQW1uomfPvIWNKeOPbnHJIskwXVZM8HqoAT3zag-1726341895345-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895296
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "D4950cxdDtgASr1BbM_ZQYdaNTXBCQV1EKSLWODIHnQ-1726341895346-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895297
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "KmEeCalRyLTi4t0Pr.e6TXZgmVC4F3h8xxd4ZrTmGiw-1726341895446-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895395
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "KmEeCalRyLTi4t0Pr.e6TXZgmVC4F3h8xxd4ZrTmGiw-1726341895446-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895396
+                    }
+                ]
+            }
+        }
+    },
+    "linksynergy.com": {
+        "/": {
+            "rmuid": {
+                "name": "rmuid",
+                "domain": ".linksynergy.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341896574,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757877896.573475,
+                        "expiry": 31536000.573474884,
+                        "value": "b53ebc27-9343-4546-ae86-c0ed2bad6913",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896573
+                    }
+                ]
+            }
+        }
+    },
+    "pinterest.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341895674,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757877895.673934,
+                        "expiry": 31536000.673933983,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341895674
+                    }
+                ]
+            }
+        }
+    },
+    "obs.thisgreencolumn.com": {
+        "/": {
+            "cg_uuid": {
+                "name": "cg_uuid",
+                "domain": "obs.thisgreencolumn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341896142,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1755372296.13938,
+                        "expiry": 29030400.13937998,
+                        "value": "a21ecb4337e134e425794325e3bc818f",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341896140
+                    }
+                ]
+            }
+        }
+    }
+}

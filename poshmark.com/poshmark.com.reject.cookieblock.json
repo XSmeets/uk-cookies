@@ -1,0 +1,744 @@
+{
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724960,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760109725.959307,
+                        "expiry": 33696001.959306955,
+                        "value": "046B31236E6C602A318625D86FF361D3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724959
+                    }
+                ]
+            }
+        }
+    },
+    "ct.pinterest.com": {
+        "/": {
+            "_pinterest_ct_ua": {
+                "name": "_pinterest_ct_ua",
+                "domain": ".ct.pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413725212,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757949725.208996,
+                        "expiry": 31536000.208996058,
+                        "value": "\"TWc9PSZ2OXBaYzBZQjg0YlBCZDNhSE9rZDhoN2NxUzVLRXNTbTRKTHBnOGtqNUxHS2x5TlJSOEJYUkZrbkJRU0dxRmNUNFNLM0Vzd0hKR0ZyRHBmS2E2RElZNGk1ZE90VkhxVHZZWXFLcVovbnlWaz0mR2NLSGdFb0V0NnBqYTU5R1NqQzdGbzRnN0o4PQ==\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725209
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724903,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760109724.901917,
+                        "expiry": 33696000.90191698,
+                        "value": "AHWqTUmzgRCU0iQ_2G4ivrB_n3g91p9Z2cntkoCnbion7U8vQodrQteLRPfwlEmq",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724902
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.925410986,
+                        "value": "AHWqTUkfO3cC6CosGoj-8dV51IewWbQGI_iFD-BV46M-sr4L2H1V3gNHPywJ9385",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724926
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.99460912,
+                        "value": "AHWqTUnj74RdkVG4mMdn0djk4Q1RFoAqoqXjMUFC09Z9g8Bg38XnIA0p0be8_A3l",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724998
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.01191592,
+                        "value": "AHWqTUlM_vuH2zOcr5Q5zKkxK7xdg6yiN2HodVlVZSfKM4b-IboZVhQiUzleUAkK",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725013
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.016635895,
+                        "value": "AHWqTUlbYot_gA9MgBkGqX708RPqn3gkS2kGGtkv_T2jXFircdJX8HMFu9PQFqTG",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725017
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413724859,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726414624.85829,
+                        "expiry": 900.8582899570465,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724858
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.8707149028778,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724871
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9412848949432,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724941
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9515340328217,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724954
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9518148899078,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724955
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9665539264679,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413724966
+                    }
+                ]
+            }
+        }
+    },
+    "paypal.com": {
+        "/": {
+            "ts": {
+                "name": "ts",
+                "domain": ".paypal.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726413725137,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760973725.136044,
+                        "expiry": 34560000.136044025,
+                        "value": "vreXpYrS%3D1821021725%26vteXpYrS%3D1726415525%26vr%3Df646ddb71910a8a5181496b8f70836d7%26vt%3Df646ddb71910a8a5181496b8f70836d6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725136
+                    }
+                ]
+            },
+            "ts_c": {
+                "name": "ts_c",
+                "domain": ".paypal.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413725138,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760973725.136124,
+                        "expiry": 34560000.136123896,
+                        "value": "vr%3Df646ddb71910a8a5181496b8f70836d7%26vt%3Df646ddb71910a8a5181496b8f70836d6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725137
+                    }
+                ]
+            }
+        }
+    },
+    "paypalobjects.com": {
+        "/": {
+            "paypal-offers--country": {
+                "name": "paypal-offers--country",
+                "domain": ".paypalobjects.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413725094,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726672925,
+                        "expiry": 259200,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725094
+                    }
+                ]
+            },
+            "paypal-offers--cust": {
+                "name": "paypal-offers--cust",
+                "domain": ".paypalobjects.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413725788,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726500125,
+                        "expiry": 86400,
+                        "value": "null:null:null",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725787
+                    }
+                ]
+            }
+        }
+    },
+    "pinterest.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413725091,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757949725.089992,
+                        "expiry": 31536000.089992046,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725090
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.20889902,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726413725209
+                    }
+                ]
+            }
+        }
+    },
+    "poshmark.com": {
+        "/": {
+            "G_ENABLED_IDPS": {
+                "name": "G_ENABLED_IDPS",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413724433,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760973724.431815,
+                        "expiry": 34560000.43181491,
+                        "value": "google",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724432
+                    }
+                ]
+            },
+            "__ssid": {
+                "name": "__ssid",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724391,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760973724.389379,
+                        "expiry": 34560000.389379025,
+                        "value": "e9da66fb927c8d219b1ed8fb12eeaee",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724390
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724753,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734189724,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726413724750.479054766173498887",
+                        "same_site": "lax",
+                        "timestamp": 1726413724751
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726413724810,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760973724.807794,
+                        "expiry": 34560000.807794094,
+                        "value": "GA1.1.1258024380.1726413725",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724809
+                    }
+                ]
+            },
+            "_ga_S34VRNNVTV": {
+                "name": "_ga_S34VRNNVTV",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413724808,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760973724.806954,
+                        "expiry": 34560000.80695391,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724807
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.807154894,
+                        "value": "GS1.1.1726413724.1.0.1726413724.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724808
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.82644701,
+                        "value": "GS1.1.1726413724.1.0.1726413724.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724827
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.36113191,
+                        "value": "GS1.1.1726413724.1.0.1726413726.58.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413726361
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724634,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734189724,
+                        "expiry": 7776000,
+                        "value": "1.1.385684300.1726413725",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724633
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776001,
+                        "value": "1.1.385684300.1726413725",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724765
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776001,
+                        "value": "1.1.385684300.1726413725",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724836
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776001,
+                        "value": "1.1.385684300.1726413725",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724862
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776001,
+                        "value": "1.1.385684300.1726413725",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724882
+                    }
+                ]
+            },
+            "_pin_unauth": {
+                "name": "_pin_unauth",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726413725092,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757949725,
+                        "expiry": 31536000,
+                        "value": "dWlkPU5HWmlNR1psTkdRdE1UUTJNQzAwWldZMkxUaGtZV0l0WWpVeE5EZzVOMlk1WlRSbA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413725091
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724930,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726500124,
+                        "expiry": 86400,
+                        "value": "439a58a0737611efb999f9bfd556495a",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724929
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726413724931,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760109724,
+                        "expiry": 33696000,
+                        "value": "439a43d0737611efad32a9849012cf77",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724930
+                    }
+                ]
+            },
+            "cjConsent": {
+                "name": "cjConsent",
+                "domain": ".poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413724977,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760541724,
+                        "expiry": 34128000,
+                        "value": "MHxZfDB8Tnww",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724976
+                    }
+                ]
+            },
+            "_csrf": {
+                "name": "_csrf",
+                "domain": "poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413723876,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "n6QHQxUQeJr9w4GaR2Wg-KLn",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413723871
+                    }
+                ]
+            },
+            "_dd_s": {
+                "name": "_dd_s",
+                "domain": "poshmark.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726413724225,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726414624,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726414624224",
+                        "same_site": "strict",
+                        "timestamp": 1726413724225
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726414625968",
+                        "same_site": "strict",
+                        "timestamp": 1726413725969
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726414626969",
+                        "same_site": "strict",
+                        "timestamp": 1726413726970
+                    }
+                ]
+            },
+            "dd_cookie_test_0de79a9c-56f4-4c53-a511-45de01778b54": {
+                "name": "dd_cookie_test_0de79a9c-56f4-4c53-a511-45de01778b54",
+                "domain": "poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413724224,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726413725,
+                        "expiry": 1,
+                        "value": "test",
+                        "same_site": "strict",
+                        "timestamp": 1726413724224
+                    }
+                ]
+            },
+            "ps": {
+                "name": "ps",
+                "domain": "poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413723869,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760973723.857847,
+                        "expiry": 34560000.857846975,
+                        "value": "%7B%22bid%22%3A%2266e6fb9b4674a0389e8ec9fc%22%2C%22extvid%22%3A%22ext1%3Ad9185912-0a0f-42ad-b02b-bd56b62f2a6d%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413723859
+                    }
+                ]
+            },
+            "rt": {
+                "name": "rt",
+                "domain": "poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413724269,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760973724.268079,
+                        "expiry": 34560000.26807904,
+                        "value": "%7B%22src%22%3A%5B%7B%22rf%22%3A%22%22%2C%22lpu%22%3A%22%2F%22%2C%22lpt%22%3A%22Home%22%2C%22rs%22%3Anull%2C%22ca%22%3A%222024-09-15T15%3A22%3A04.267Z%22%7D%5D%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726413724268
+                    }
+                ]
+            },
+            "vsegv3": {
+                "name": "vsegv3",
+                "domain": "poshmark.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726413723877,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760973723.858038,
+                        "expiry": 34560000.85803795,
+                        "value": "eyJsMDEiOiIwNzEiLCJsMDIiOiIxMTYiLCJsMDMiOiIwNTgiLCJsMDQiOiIwNzMiLCJsMDUiOiIxMjAiLCJsMDYiOiIwNzQiLCJsMDciOiIwMjkiLCJsMDgiOiIwNTAifQ%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726413723876
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "house.gov": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".www.house.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726418133468,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GA1.3.456917030.1726418133",
+                        "same_site": "unspecified",
+                        "timestamp": 1726418133467
+                    }
+                ]
+            },
+            "_ga_65K8PR1QER": {
+                "name": "_ga_65K8PR1QER",
+                "domain": ".www.house.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726418133467,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GS1.3.1726418133.1.0.1726418133.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726418133463
+                    }
+                ]
+            },
+            "SERVERID": {
+                "name": "SERVERID",
+                "domain": "www.house.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726418132871,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "wb04",
+                        "same_site": "unspecified",
+                        "timestamp": 1726418132863
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "dunelm.com": {
+        "/": {
+            "_dd_s": {
+                "name": "_dd_s",
+                "domain": ".dunelm.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225823110,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726226723,
+                        "expiry": 900,
+                        "value": "lock=2df5c2ef-3edb-4b54-a6f5-d70fd9d431cc",
+                        "same_site": "strict",
+                        "timestamp": 1726225823110
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726226723110",
+                        "same_site": "strict",
+                        "timestamp": 1726225823111
+                    }
+                ]
+            },
+            "dd_cookie_test_4ceb7048-8c14-4b28-a3aa-0caa3572b5e5": {
+                "name": "dd_cookie_test_4ceb7048-8c14-4b28-a3aa-0caa3572b5e5",
+                "domain": ".dunelm.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225823107,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726225883,
+                        "expiry": 60,
+                        "value": "test",
+                        "same_site": "strict",
+                        "timestamp": 1726225823107
+                    }
+                ]
+            },
+            "dd_site_test_b4dd02e2-5035-48c1-85c6-1bb8f63c18e7": {
+                "name": "dd_site_test_b4dd02e2-5035-48c1-85c6-1bb8f63c18e7",
+                "domain": ".dunelm.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225823106,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726225824,
+                        "expiry": 1,
+                        "value": "test",
+                        "same_site": "strict",
+                        "timestamp": 1726225823106
+                    }
+                ]
+            },
+            "visitor_id": {
+                "name": "visitor_id",
+                "domain": ".dunelm.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225822905,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757782774.894201,
+                        "expiry": 31556952.89420104,
+                        "value": "1d7bc735-fba1-4de6-abdc-4b54bccc481e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225822896
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31556952.3595891,
+                        "value": "1d7bc735-fba1-4de6-abdc-4b54bccc481e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225823360
+                    }
+                ]
+            },
+            "flags_ni": {
+                "name": "flags_ni",
+                "domain": "dunelm.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726225821652,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225821647
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225822907
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225823360
+                    }
+                ]
+            },
+            "flags_checkout_cnc_improvements": {
+                "name": "flags_checkout_cnc_improvements",
+                "domain": "www.dunelm.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225822906,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726229422.894486,
+                        "expiry": 3600.89448595047,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225822906
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 3600.35973405838,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225823360
+                    }
+                ]
+            }
+        }
+    },
+    "assets.dunelm.com": {
+        "/": {
+            "flags_ni": {
+                "name": "flags_ni",
+                "domain": "assets.dunelm.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726225822983,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225822982
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225822996
+                    }
+                ]
+            }
+        }
+    }
+}

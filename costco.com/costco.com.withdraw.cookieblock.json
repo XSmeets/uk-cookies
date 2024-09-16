@@ -1,0 +1,599 @@
+{
+    "costco.com": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701295,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726416301.284128,
+                        "expiry": 3600.2841279506683,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701286
+                    }
+                ]
+            },
+            "BCO": {
+                "name": "BCO",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701303,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701296
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701324
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701479
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702417
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702733
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702853
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702861
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pm3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412703444
+                    }
+                ]
+            },
+            "_abck": {
+                "name": "_abck",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701310,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757948701.284738,
+                        "expiry": 31536000.284738064,
+                        "value": "43C6A795FB33AF1EEB30F647EAE94B18~-1~YAAQ4qMQAtTf38GRAQAAlz439gxwJxxStAJCRwnuhX1OE2DEnEnaze5pQFoQ/EdVmx7LJ3EkwzMzNChWRi2NHdYDnStjXOrpccxuleCFdSE9KF3bC2TXBjPfE8dn+FpWOKqMZfcZzF3w/OMbeoRGj4eOJhm8GkpJ+q2Hxndl+90EV0awqRqp1/4F4/lqhOBTLh5Dgg27JDLyGpjbiS1YDyfl/81U4Lgea+tGVHvPdW2u4YemxxQDxOg0rbzTPoOfi1nwvp4KvV8G92F2zn7lctqB/zkejcbKvSkmfqdGIVfd7KyjlI5V3Up2LfeUXBT1DmEkONEdREzfjvqoo1DGrpWzQ/xCUPohxX52WUx1TIVpuFSpS3r3W7hIcrC8xAf02pPZThMdznclSzgxunAMVjknvLptmtTYxHYyx5o=~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701307
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.852638006,
+                        "value": "43C6A795FB33AF1EEB30F647EAE94B18~-1~YAAQ4qMQAu3f38GRAQAAu0Q39gzTE6nDeVUA/yKoTDq7k1JwLUghlO91Vh7ernSCAZcoc4R4PF7QWDp/N4AU8nHEouVzQWFQgLZbd9AyWUnWRiL/Tpq6VZKf/J54rsbhUpDYtz3C2wr1Mz6mOrWmhA+XqhnMpzdfpk3ZCBSYJ4NbuogfmAOnZztF3ajdHUwVOFl71GtYHjSYi+8yAOkT0aAzmMpeOxlMT5piXkxtofnhQch3PVB9dsctNLZNB0bZdKZRDDjNVyL+OgNVsCBlNjIkigWwcX6zFoMG4vjAakvwqvR3uMxmJzQ+PYE5287EwgmwoHtIG6tkrOtKJjLzw0TbifAEitjmIn9D0vimhJvucf4SSJ/0thvn1KdhFz7QzOStAX6ZF708S6SlfRYEOZPmPsroPgYORB6QGq2+xU4KJYxkkY9NLP+iPA==~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702853
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.444016933,
+                        "value": "43C6A795FB33AF1EEB30F647EAE94B18~-1~YAAQ4qMQAvDf38GRAQAACkc39gyUa54s1xWTgBjfpnE7wPH/KtW5M+sRyXbIDsND0xbetAUeo7vUM31nM/IePAePCyiuPFpcp3uNWNYSQAOOmyUa8U7iKamBXqwlW/CY55gFvb1UpEnYRJOJBCsTmlZ8WmpJHX9aAhzfSXVs/vkHEhLSPrM1KmQ4wKYgYHbKAHjC0JspK4MD5QYIeLEKHPKBLnR5l4ONljLoD+94mkXaMtJ0Xi8KmE1k6bOB1Gllm4325CO3iTzNCIws3zH9Bn9QsQkwbymO4BmhX1SmsiLO3c9EuO4MEesE2RFQMSW8EP5/KUx6icNzFksqVadmN2o8ygjesUdf+rtuS+SinXDEHlARFrs38C8eFwbWWRsvi06OBYUr75jVJ5O/wYbcAGTQTwm5h7vWD1K9gn0u4GweqJ9Ru9hrNzJRhw==~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412703444
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701311,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726419901.284772,
+                        "expiry": 7200.2847719192505,
+                        "value": "C9EF55ECA610B2815A08D56BCA9CFD76~000000000000000000000000000000~YAAQ4qMQAtXf38GRAQAAlz439hl9o999Asver1m76Z29Fcx8C/XO7bT/whH/M6f3fzH86H/kQYm2td2NfBmjdU+X+Vh2KfUXucxkD9oKeIoAXXUPOJXERQJXVpsDUHUBCyEWcC0Wg8+XE5hCR6UqEtpSrC/K5Klx/DQppI0B2Fn1tOyVRsMj/uNsGONwnfeL7gjhhWF/mSVfFZmNrkmP2/75QUW4gQ8iKwkZEYtULTPvQIIEMdYhU9doT3PvxXQgBKToSY8jmV6i9UnudyMGTtqOAiWcce8+URdlynJk8gzjoVbT8UTDweo0ZMt4g+M6yBAKPq8YmAbOXHY/g8rYwqhiK0lb4npw8222VR+jfH8ph8HanyKd1YD0QLoWr2JngkfUpTHBEk2IqA==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701310
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.733227968216,
+                        "value": "DD42E62FE8DD1A39C4B6CC889ABC649C~000000000000000000000000000000~YAAQ4qMQAubf38GRAQAAAkQ39hlJ9IO90b/eO6QJzjKkomwh2fpxhh9o4ockAKWYlqdLBtzs4w+uxqs1M1dbQj+3WU6aZ8uEnsDyRedlvwTA0nBetRcoq0rLZQeCmU0ww8WljefjH9kanvTrTb6pXvmzzLadeC9Yf/Kl4f0fQraip32VgayRo2PCXJDjZxKJVGqYyimZj6MNdeV88Sn4te5EFhOzuxb/3q+Uk0XPTlqxeWMejJhHWb3Nf5OiEkW2vhN7UW51Zmcc/XeqTB7r8VkdF8L1mqZPPeVN+7gd2JRu0tFSzfDsIFp7vssVai/i6HdTY2mDY6iJrx+3zCezTf/GkAyoA52HmVvlXS7lqLAUIBbuyA9kvJLX+QthJ760TI3DvON+iYRQqfwWMDSV+CP/wPatXhPilupqH1xQyiZ9L94P3/GocE64NST54KM/8bFGDcWtkD5VuGtROKWfoLn7Uc2Y",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702734
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.796192884445,
+                        "value": "DD42E62FE8DD1A39C4B6CC889ABC649C~000000000000000000000000000000~YAAQ4qMQAuvf38GRAQAAg0Q39hlPtAElLJEdh0QZebCWyOHAbesqMjuKaUWLelt+qQTdIz6F5s7KpXwx0RPd93Lo7pfI1UhhJUUgjxc2YZwTVitsX8/GnhkePZ5iuwzR76Oe8qFQfQAOI5/zG8pz+BQ64CFxZdicHAok66QM1/g9LX66l3MBYCLSftKQaS2Zx9zMXKu95bnQ3HE8NP6eowfwbZSci84vEwopc+8wEdlzAH823tevomS5PDoAwQpfj/2+n09Z7DoubcBcmZPfxEwDolrV/Dw+wjV4rtemSnnsoaWkxz8Ql/k3EY0GuiyTRTIyiq8oT0xtCDLF+NoYpg6aWhiMkN8Nkz/WkKL9tm9AvNS1/3S7GNyGDEqT/xsL3gww6+pRruixe6hehljQ7muNTfsZkIw+2xlt36Kx/XoKCnz60nYdZVXLbu2Z+LdMWDSaDfwIg/KxD5kvWflqBw+xZO04qoLFoWG15sa1psB79LYM4Q==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702796
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.812695980072,
+                        "value": "DD42E62FE8DD1A39C4B6CC889ABC649C~000000000000000000000000000000~YAAQ4qMQAuzf38GRAQAAlEQ39hlv5xme9eC3gXMPsjx5N82coKrbPZJx20eyITBy8HSTHr9Mt2NgCMTEZy+MutvJo6bRm3LYTziH2cmFHQFHj0Y+s4cSjArwsE/9i5QmP4ndvgHqmKZRK+CHBEX7r14uiiSowA7iIVahfVPkTop66IP8kCDb3V6BuuT0/Cb3nMzlp1XWS8fGLi6cAYOXimRA4WTerFyH/KKrjrwbjPUD8cWdKzsLE3OI2n/Wc+oGQ6hzY6n9sxnyePyFDWj5t3FHaiR7FYx6uvuhA+QvBEY/Cx4EfAUp+r7CPSzm8kuUGvtGQI8G/3xu6RFWs0pCB390WaQomaC4Af37YRFfS9AgZRfnfB5I8haMzsd45AbsPqBJARHdgulSLucyHzp6h89Ju49ZW3qlg6u9dGeLeL54vXsvykpzGGqlca5kdov/19Ep/nixX6wyPNAi3rQRawqTP9RmQncwXO50CEfRedvarFNoYw==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702813
+                    }
+                ]
+            },
+            "bm_lso": {
+                "name": "bm_lso",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701416,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1729004701,
+                        "expiry": 2592000,
+                        "value": "C60BA6D654F87F629BA9AC70063C159EF017EC31EAA05A73572421A3DB13F9B5~YAAQ4qMQAtjf38GRAQAAlz439gDVbt/lYHFIsPxE5C7O/FyOFYZz5JTHu3gxGtehGx7edQqE8R4nhcIqIuMzYeeIlHfZgmhM5VJuTBNdqG50Of4K+nfGVaFmtfZJqEk28Q0s+nb97Utq55mYaZM1svMWtHE33jjfc6UU27ZCjhq4nD0Gvef9ijsDpews2CXMPejr83xt1x9df13KX/AardSFzfu6YwCK83xsvpAEO9dJxicDadblbo1y2cQNY9RzmK4BjsISmvTVeT7PR1eKQnNDAByooPEJM4FNv+4Y0Cadd7chfES5oGNbZyLzA4Lyga/5kWwFUMP6cDZAozbgTRFNtua2aoV8a/uTYqI7q2tBwQNKCz/f85tfM1gXvh3Up45Y6vR4GjJ3X1KwkKYXwTkwPCzj47H6s0sIKLpSJ8XLE9CQQ6oWxtsTkHDoaB6msRrzyevKyukW0qw5JzqjhlmGl50JoD1kSHf0pxc4DAzIiRC02XwRUv88RNQtVg==^1726412701414",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701415
+                    }
+                ]
+            },
+            "bm_mi": {
+                "name": "bm_mi",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412702489,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726419901.48516,
+                        "expiry": 7199.485160112381,
+                        "value": "54028BB7E67BCE804A7B55DB4DF643DD~YAAQ4qMQAuLf38GRAQAATEM39hlhajaOw83lMFDyQXOckcndumF9TzMRi6b9BTAHcVt97v5hRJzy1TMZ61WRWNpiIIUKLezynqSPlJko1JWc61PbuLd+Ke4v3og03ccy4+csE5bmwbasPWJ+SgylINEng41Q3IqKy3HLxkepwtQ13lm7PzQd0s/4oIrg30uHKXO/IuDNbEq5+YUWlUw81pjy73+wfa+jfMSgNlbVxSIpe55EByatYZQMrFmNWPjL+Rmly9urIx1xXpv8MTyfLM/+kRCO9J2FqRMl05KShwKzVeQbOBLcrFD3T6dI7Q==~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702487
+                    }
+                ]
+            },
+            "bm_s": {
+                "name": "bm_s",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701312,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1729091101.28481,
+                        "expiry": 2678400.284810066,
+                        "value": "YAAQ4qMQAtbf38GRAQAAlz439gJi9hWsmsVnP98Mj9h9aAcCNcALuKMjNihPYQLE5HzLTuwdHhxCdxRsDoV4Qcq7eezKuukv1oA4xc5WiSPRe6QJFCThGUjIkmg1tSUWQ0Yq0psdTZv4uhbGPdfXZ0tKMDyNO9rvurKqF11zL4THQSQkB9OtC7nxVwwq80HqHLYlENrc/Dxv8RvT/F22D1Y6IPtyz1nezyQAwFevZc4TTg4vXIZwCJQY+RDZwKRBT+wUXmmg/oiQltliPFYQ74i+kGI9AxUNr/5WqywrkrXDMcWcjPokOw3oeCx7UhqC57Mc+wJ/XSf1KSC9CmnmwD436Mg=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701311
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2678400.485179901,
+                        "value": "YAAQ4qMQAuPf38GRAQAATEM39gJKL/YBTnTUFDjl7sPF/Lk1Bn1wHKloK55dxSP/d7S2jglybEYi4vQ151Gg5phaGivfYdKICDEcqxsWGrzB9XcwwnEvX3glJCJ9tM4Xn8EGF0KHZHPH10YwiOj1bn3Wm0hjYJ5WgzF0VSld14zRXcJa7FpAHNhVJNwWUr0h1ZifFjvFb7LC5Jd4h5w+dXXjUcHWEi109Y/lewusAuTSeYVBj65difE+pDXxEGy1AI2rHMBG/AHtk2fkbmWlsP6mVg+Hp5DrjBh5VTrGLKGZnKxoiNc38/FrFjmFYrZVbfftGkppEpS1bx3m//7U6qIhoLk=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702490
+                    }
+                ]
+            },
+            "bm_sc": {
+                "name": "bm_sc",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701316,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726413361.284838,
+                        "expiry": 660.2848379611969,
+                        "value": "YAAQ4qMQAtff38GRAQAAlz439gHNTAlFqmCIr6J8yKjOP5TrkruAO6fIQSdAM/XKb3HnfEp+M031tXkMh8FVGA5ZMCYgFPRa7zNdwCgPljaDjjoFSp5fvJlJkfANHmUzkSWNeI5scukoAyn6PL93fpepe3sjI6/EV+j5wehfMhTQlrzpvJVpFY4YQZB8csX/lnJ3Eq6dID/pimpAFeT14rm3vtvw8dzuVqYQDvXvJ3kZ1Ha5hhxWE2vl5PZcEmTLmiP9C6yWqir7Fu2aH8e4aMEzHWoa+G7H5IZU8alxhNybrpH01xqernoGtWTJqkHwpfAluuszG+H4R0bliSkqyOdQDzwkL5A2Lp26",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 659.4171841144562,
+                        "value": "YAAQ4qMQAuHf38GRAQAACEM39gF1TEK/M/23rIueqnPlPW6FQZ76p5IFinzhlll7qt4X1jPMgIwLg5c89IO7bq0xhq8EkGh3MrDtTEtuvRKRtYVID2AmN2XTaSO7nkvjRM8sZzTx+l9SNuEwvlwuNBNvT0mVErLNz5pfZQKxAS8mEBjT0yHBAlED2uKIjQ2ylnn6M5R6v5+SRS0kOfpl4iXp2QDVZCzjwzV9wLCk8zvbXoh6xM4F8dv8c65DrkgIkwiYECvg29YRelO+QIf8XAx9ZSnSoxJAL8PYs0+yocOIpsOUjBKeo8Zs/N8mFmdnJTZLuQiPJb3tkA/VWSe82eV/q3A2YwjDFnXnC1Vy1g==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702418
+                    }
+                ]
+            },
+            "bm_so": {
+                "name": "bm_so",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701317,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726499101.284863,
+                        "expiry": 86400.28486299515,
+                        "value": "C60BA6D654F87F629BA9AC70063C159EF017EC31EAA05A73572421A3DB13F9B5~YAAQ4qMQAtjf38GRAQAAlz439gDVbt/lYHFIsPxE5C7O/FyOFYZz5JTHu3gxGtehGx7edQqE8R4nhcIqIuMzYeeIlHfZgmhM5VJuTBNdqG50Of4K+nfGVaFmtfZJqEk28Q0s+nb97Utq55mYaZM1svMWtHE33jjfc6UU27ZCjhq4nD0Gvef9ijsDpews2CXMPejr83xt1x9df13KX/AardSFzfu6YwCK83xsvpAEO9dJxicDadblbo1y2cQNY9RzmK4BjsISmvTVeT7PR1eKQnNDAByooPEJM4FNv+4Y0Cadd7chfES5oGNbZyLzA4Lyga/5kWwFUMP6cDZAozbgTRFNtua2aoV8a/uTYqI7q2tBwQNKCz/f85tfM1gXvh3Up45Y6vR4GjJ3X1KwkKYXwTkwPCzj47H6s0sIKLpSJ8XLE9CQQ6oWxtsTkHDoaB6msRrzyevKyukW0qw5JzqjhlmGl50JoD1kSHf0pxc4DAzIiRC02XwRUv88RNQtVg==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701316
+                    }
+                ]
+            },
+            "bm_ss": {
+                "name": "bm_ss",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701306,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726416301.284714,
+                        "expiry": 3600.2847139835358,
+                        "value": "ab8e18ef4e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701305
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412702491,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726419902.485206,
+                        "expiry": 7200.485205888748,
+                        "value": "9C646C4C43EF750A7BCD6F457092F433~YAAQ4qMQAuTf38GRAQAATEM39hn1W7kxZzv/pM3ItenrUeFcsrVTtCIXvt52NHm34VQzqraqXp7oWP52M9GK9wGGm6t8JOR+IPmKB+nkMfTREGzwES5sr1OQnqEtgKBw8zKQ7EXoUbRIkwtRau5CVwhESpSuwjK4N2Ya0eWB8kyw7kMnfTKeeSLh4NVsjtVwtDcTGcqxaUGfCLoCYRn+2Y6Vl6fvZDWk4Kt89frzjpK315VNFYveGkI0NHAJCy7T~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702490
+                    }
+                ]
+            },
+            "bm_sz": {
+                "name": "bm_sz",
+                "domain": ".costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701318,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726427101.284894,
+                        "expiry": 14400.284893989563,
+                        "value": "E88BA818A2A4403B0E810471C3CEC7E0~YAAQ4qMQAtnf38GRAQAAlz439hm0zXQ2NxrfXamxxr5OWIG3iwuOqHZ/D2x7cUTeS1gefYrceNAhasgQttWoKp5tJz9WP/4LfHTOYidYMutRgpJuZJfRFZT3BzPs04znfOaAdBHVcKg344YKFuAzrf8sl0kVE0ZL1eedbXQJakNi5pZjkTv5JPdA4AQ9WaVhwppVZUdzBDvj4gSBcuchh4h4pDJnxbWbtAUDMuO68wy9ZJbpZMCyMJBKB9/l0beFbNgkTTzMcpDz7piMruFTCIFkhNwT6XlmNA9xLStquhYr4/qiWFRL4wAl06sHA1s04rz717HTc3il13FTl8MFEr3d+tiPxLnI+6ddqMTLdCDhEN+H+lEHuvX5wXYGr+f4QkSHT4Z9XbZFt9YFRg==~4272696~3421764",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412701317
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 14399.485223054886,
+                        "value": "E88BA818A2A4403B0E810471C3CEC7E0~YAAQ4qMQAuXf38GRAQAATEM39hmivOx6IsRc+LDFLuUcFZDSW3husNnEPzAJ2LMVnmyBMzwUclsajEtnO0s9BTshywLWW2jxCPGL0te7m0sT25hLxlrGj/LrEd2crF9o9v+cs0Yynz6jKSgcNyht/kpNbA2WMebcscc/jJhCk5WXsOFTyvgrdA1WTL2fa5wuR7uEKTvW6WuyALXjzPfCsG7ADc7dvL33/0ylvBurSLqysDIOffeHDaF/SlTSjrRoacnQ4hOUF3YC+7XBm4Hxnsq6Ua0srALljaje6YFdTZi3WQmj4GpCbJ2IxseCV4zJGA5p2qzXVjIC8R9DjLvD9DpZ8aTGIgSkJeDL5ZL9tMeFnPrpeBxN5+UXPD32GWA8cHRNN6OKkjucxHDcpi2tSEIS~4272696~3421764",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702491
+                    }
+                ]
+            },
+            "akavpau_zezxapz5yf": {
+                "name": "akavpau_zezxapz5yf",
+                "domain": ".www.costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701304,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413001~id=d30af7eb016d122e7e85e1154d83cad1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412701303
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413001~id=d30af7eb016d122e7e85e1154d83cad1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412701324
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413002~id=5c414a807a9ac4587b67585a6253da42",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412702418
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413002~id=5c414a807a9ac4587b67585a6253da42",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412702487
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413002~id=5c414a807a9ac4587b67585a6253da42",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412702734
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413002~id=5c414a807a9ac4587b67585a6253da42",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412702853
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413002~id=5c414a807a9ac4587b67585a6253da42",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412702861
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726413003~id=f27bc58f31b3aa9c5e1ff69e6fb5ac00",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412703444
+                    }
+                ]
+            },
+            "AO": {
+                "name": "AO",
+                "domain": "www.costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412702486,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "BCAO",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412702485
+                    }
+                ]
+            },
+            "_lr_hb_-costco%2Fproduction-vrwno": {
+                "name": "_lr_hb_-costco%2Fproduction-vrwno",
+                "domain": "www.costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412703342,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726499103,
+                        "expiry": 86400,
+                        "value": "{%22heartbeat%22:1726412703340}",
+                        "same_site": "lax",
+                        "timestamp": 1726412703341
+                    }
+                ]
+            },
+            "_lr_tabs_-costco%2Fproduction-vrwno": {
+                "name": "_lr_tabs_-costco%2Fproduction-vrwno",
+                "domain": "www.costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412703341,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726499103,
+                        "expiry": 86400,
+                        "value": "{%22sessionID%22:0%2C%22recordingID%22:%225-8339ef1e-e8cb-40f8-b3f6-53007937424a%22%2C%22lastActivity%22:1726412703339}",
+                        "same_site": "lax",
+                        "timestamp": 1726412703340
+                    }
+                ]
+            },
+            "_lr_uf_-costco": {
+                "name": "_lr_uf_-costco",
+                "domain": "www.costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412703343,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3a8bc201-7a0a-4a96-8bf3-cd431f25b4b0",
+                        "same_site": "lax",
+                        "timestamp": 1726412703342
+                    }
+                ]
+            },
+            "akaas_AS01": {
+                "name": "akaas_AS01",
+                "domain": "www.costco.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412701305,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "2147483647~rv=69~id=8e76d276700420ef2967d787343b9a5d",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726412701304
+                    }
+                ]
+            }
+        }
+    }
+}

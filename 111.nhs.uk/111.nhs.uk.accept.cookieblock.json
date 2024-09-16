@@ -1,0 +1,47 @@
+{
+    "111.nhs.uk": {
+        "/": {
+            "akavpau_maintenance": {
+                "name": "akavpau_maintenance",
+                "domain": ".111.nhs.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232915398,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726233515~id=36e14a6de6b60f74d04c5848425c48d2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232915393
+                    }
+                ]
+            },
+            "nhs111-session-id": {
+                "name": "nhs111-session-id",
+                "domain": "111.nhs.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232915391,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726276115.385038,
+                        "expiry": 43200.38503789902,
+                        "value": "4d0a8207-124b-4d3c-90ac-e68091e633fc",
+                        "same_site": "strict",
+                        "timestamp": 1726232915386
+                    }
+                ]
+            }
+        }
+    }
+}

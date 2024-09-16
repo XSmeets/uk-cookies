@@ -1,0 +1,129 @@
+{
+    "gov.scot": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".www.gov.scot",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233157166,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760793157.164348,
+                        "expiry": 34560000.16434789,
+                        "value": "GA1.1.2076975385.1726233157",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233157165
+                    }
+                ]
+            },
+            "_ga_GYVH6SD8EX": {
+                "name": "_ga_GYVH6SD8EX",
+                "domain": ".www.gov.scot",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233157165,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760793157.163632,
+                        "expiry": 34560000.163631916,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233157164
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.16392708,
+                        "value": "GS1.1.1726233157.1.0.1726233157.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233157165
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.167582035,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233157167
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.168243885,
+                        "value": "GS1.1.1726233157.1.0.1726233157.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233157168
+                    }
+                ]
+            },
+            "cookie-notification-acknowledged": {
+                "name": "cookie-notification-acknowledged",
+                "domain": "www.gov.scot",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233156965,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757769156,
+                        "expiry": 31536000,
+                        "value": "eWVz",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233156955
+                    }
+                ]
+            },
+            "cookiePermissions": {
+                "name": "cookiePermissions",
+                "domain": "www.gov.scot",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233145236,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "eyJzdGF0aXN0aWNzIjpmYWxzZSwicHJlZmVyZW5jZXMiOnRydWV9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233145231
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "eyJuZWNlc3NhcnkiOnRydWUsInByZWZlcmVuY2VzIjp0cnVlLCJzdGF0aXN0aWNzIjp0cnVlLCJjYW1wYWlnbnMiOnRydWUsIm1hcmtldGluZyI6dHJ1ZX0=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233156954
+                    }
+                ]
+            }
+        }
+    }
+}

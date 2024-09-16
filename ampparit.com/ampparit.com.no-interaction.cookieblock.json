@@ -1,0 +1,149 @@
+{
+    "ampparit.com": {
+        "/": {
+            "cookie-test-1eb75330-b68b-41dc-9a48-75dd71433e70": {
+                "name": "cookie-test-1eb75330-b68b-41dc-9a48-75dd71433e70",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068832458,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie-test-value-8c0b5cc2-8860-4d4d-addb-4a9bd5ef2870",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068832458
+                    }
+                ]
+            },
+            "cookie-test-7be280b7-f149-409b-88d1-3dffc8320b60": {
+                "name": "cookie-test-7be280b7-f149-409b-88d1-3dffc8320b60",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068832460,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie-test-value-9158d676-04fd-49d3-88aa-17f9a7347623",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068832459
+                    }
+                ]
+            },
+            "cookie-test-a3d4e994-be04-40e3-8c74-0d7bf0bd3a31": {
+                "name": "cookie-test-a3d4e994-be04-40e3-8c74-0d7bf0bd3a31",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068832465,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie-test-value-c3790e7e-20e9-4ba6-a54e-b7c6dd4ae0b9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068832464
+                    }
+                ]
+            },
+            "cookie-test-efefdb71-607d-4d65-8e79-93d6b9ca9802": {
+                "name": "cookie-test-efefdb71-607d-4d65-8e79-93d6b9ca9802",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068832457,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie-test-value-4900ace8-ea65-45a6-910d-346ffd864994",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068832453
+                    }
+                ]
+            },
+            "sammio-bsid": {
+                "name": "sammio-bsid",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068832459,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760628832.453918,
+                        "expiry": 34560000.45391798,
+                        "value": "822e4ddf-3b85-4d93-967e-7573fef7b1c0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068832459
+                    }
+                ]
+            },
+            "sammio-init-time": {
+                "name": "sammio-init-time",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068832464,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760628832.454501,
+                        "expiry": 34560000.45450091,
+                        "value": "2024-09-11T15:33:52.453Z",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068832463
+                    }
+                ]
+            },
+            "tempProfile": {
+                "name": "tempProfile",
+                "domain": "www.ampparit.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068831768,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604831.753075,
+                        "expiry": 31536000.753074884,
+                        "value": "j%3A%7B%22whitelistedTags%22%3A%5B%5D%2C%22blacklistedTags%22%3A%5B%5D%2C%22whitelistedCats%22%3A%5B%5D%2C%22blacklistedCats%22%3A%5B%5D%2C%22tvFavoriteChannels%22%3A%5B%5D%2C%22nightMode%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726068831755
+                    }
+                ]
+            }
+        }
+    }
+}

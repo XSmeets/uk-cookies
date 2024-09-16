@@ -1,0 +1,651 @@
+{
+    "emag.hu": {
+        "/": {
+            "EMAGROSESSID": {
+                "name": "EMAGROSESSID",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939620,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726111139.600715,
+                        "expiry": 43200.60071492195,
+                        "value": "0gfltmnichv5eftks2tobcvrcs",
+                        "same_site": "lax",
+                        "timestamp": 1726067939615
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 43200.964576005936,
+                        "value": "14ko10973ihj0pb3bs5duh3ims",
+                        "same_site": "lax",
+                        "timestamp": 1726067940965
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 43200.964617967606,
+                        "value": "14ko10973ihj0pb3bs5duh3ims",
+                        "same_site": "lax",
+                        "timestamp": 1726067940965
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 43200.56012797356,
+                        "value": "14ko10973ihj0pb3bs5duh3ims",
+                        "same_site": "lax",
+                        "timestamp": 1726067945561
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 43200.724986076355,
+                        "value": "14ko10973ihj0pb3bs5duh3ims",
+                        "same_site": "lax",
+                        "timestamp": 1726067945725
+                    }
+                ]
+            },
+            "EMAGUUID": {
+                "name": "EMAGUUID",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726067939623,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760627939.601462,
+                        "expiry": 34560000.60146189,
+                        "value": "1726067939-7865750612-44868.543",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939622
+                    }
+                ]
+            },
+            "EMAGVISITOR": {
+                "name": "EMAGVISITOR",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939615,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760627939.600443,
+                        "expiry": 34560000.60044289,
+                        "value": "a%3A1%3A%7Bs%3A7%3A%22user_id%22%3Bi%3A2425465900569583913%3B%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939603
+                    }
+                ]
+            },
+            "_pdr_internal": {
+                "name": "_pdr_internal",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726067939624,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.04015803,
+                        "value": "GA1.2.2775107887.1726067940",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940040
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.38138604,
+                        "value": "GA1.2.5744529280.1726067940",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940381
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.964632034,
+                        "value": "GA1.2.2581128294.1726067941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940966
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.25641394,
+                        "value": "GA1.2.7855226877.1726067941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067941257
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.34024191,
+                        "value": "GA1.2.7855226877.1726067941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945340
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.4843359,
+                        "value": "GA1.2.7855226877.1726067941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945485
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.55942702,
+                        "value": "GA1.2.7855226877.1726067941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945559
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.560184956,
+                        "value": "GA1.2.7855226877.1726067941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945561
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.724999905,
+                        "value": "GA1.2.6039748047.1726067946",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945725
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.86098504,
+                        "value": "GA1.2.7489649750.1726067946",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945861
+                    }
+                ]
+            },
+            "_pdr_view_id": {
+                "name": "_pdr_view_id",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939624,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726085939.602193,
+                        "expiry": 18000.60219311714,
+                        "value": "1726067940-8461.687-7865750612",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939624
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 18000.381432056427,
+                        "value": "1726067940-26482.605-7853047699",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940382
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 18000.340303897858,
+                        "value": "1726067945-60493.961-7869112352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945340
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 18000.484411001205,
+                        "value": "1726067945-53916.740-7863629153",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945485
+                    }
+                ]
+            },
+            "eab1190": {
+                "name": "eab1190",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939625,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733843939.602498,
+                        "expiry": 7776000.6024980545,
+                        "value": "b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939625
+                    }
+                ]
+            },
+            "eab_allocation": {
+                "name": "eab_allocation",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939626,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.725456953048706,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945726
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.77468705177307,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945775
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.86114001274109,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945861
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.905235052108765,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945906
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.02523398399353,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067946026
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.14493989944458,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067946145
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.267354011535645,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067946268
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.661288022994995,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067946662
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.89165997505188,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067946892
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 60.958338022232056,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067946959
+                    }
+                ]
+            },
+            "loginTooltipShown": {
+                "name": "loginTooltipShown",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726067939934,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757603939,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939933
+                    }
+                ]
+            },
+            "ltuid": {
+                "name": "ltuid",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939621,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760627939.600793,
+                        "expiry": 34560000.600792885,
+                        "value": "2425455139421071079",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939620
+                    }
+                ]
+            },
+            "site_version_11": {
+                "name": "site_version_11",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939625,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.0403499603,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940041
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.3814558983,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940382
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.964653015,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067940966
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.256479025,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067941257
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.3403270245,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945341
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.484441042,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945485
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.5594820976,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945560
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.560233116,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945561
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.7250409126,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945726
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.861041069,
+                        "value": "not_mobile",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067945861
+                    }
+                ]
+            },
+            "sr": {
+                "name": "sr",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939812,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757603939,
+                        "expiry": 31536000,
+                        "value": "1920x977",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939811
+                    }
+                ]
+            },
+            "vp": {
+                "name": "vp",
+                "domain": ".emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939813,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757603939,
+                        "expiry": 31536000,
+                        "value": "1920x890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939813
+                    }
+                ]
+            },
+            "AID": {
+                "name": "AID",
+                "domain": "www.emag.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726067939817,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726092000,
+                        "expiry": 24061,
+                        "value": "12571aac67f786c756dfe1843b12a5264b6ea00fce7e73aaff5407361618256e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726067939816
+                    }
+                ]
+            }
+        }
+    },
+    "google.com": {
+        "/recaptcha": {
+            "_GRECAPTCHA": {
+                "name": "_GRECAPTCHA",
+                "domain": "www.google.com",
+                "path": "/recaptcha",
+                "current_label": 0,
+                "label_ts": 1726067941402,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741619941.402469,
+                        "expiry": 15552000.40246892,
+                        "value": "09ACY6sGw7tKT0GnV4KfNARqvdHr6PU7MkWb-Z9SoYsZu0s4POhxqLlGkMGjlhfA0vlg_RYUGtdFlrknejoAm8vZ0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726067941402
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.985528946,
+                        "value": "09AI66gCAoESvLIGOE4S8mrr-FT_mt3p_H0Akn8LimFfD7s11wkYf9XVKopL4_kU1WcaaHCLKOK-Mhigz9CniFfbM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726067945986
+                    }
+                ]
+            }
+        }
+    }
+}

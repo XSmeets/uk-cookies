@@ -1,0 +1,68 @@
+{
+    "gov.uk": {
+        "/": {
+            "cookies_policy": {
+                "name": "cookies_policy",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726228063514,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757764063,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726228063509
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726228064987
+                    }
+                ]
+            },
+            "cookies_preferences_set": {
+                "name": "cookies_preferences_set",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726228064996,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757764064,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726228064987
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726228065629
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,817 @@
+{
+    "dpgmedia.be": {
+        "/": {
+            "_sp_id.ed2c": {
+                "name": "_sp_id.ed2c",
+                "domain": ".dpgmedia.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463534,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760728463.530115,
+                        "expiry": 34560000.53011489,
+                        "value": "31c625c6-57c3-4433-bec2-797f8d013674.1726168464.1.1726168464..b48eb259-4fbe-4b50-b6e7-abef662507c5..07cf0928-9f50-48da-bfe9-0d43f9604f84.1726168463529.1",
+                        "same_site": "lax",
+                        "timestamp": 1726168463533
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.53358412,
+                        "value": "31c625c6-57c3-4433-bec2-797f8d013674.1726168464.1.1726168464..b48eb259-4fbe-4b50-b6e7-abef662507c5..07cf0928-9f50-48da-bfe9-0d43f9604f84.1726168463529.2",
+                        "same_site": "lax",
+                        "timestamp": 1726168463536
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.87753105,
+                        "value": "31c625c6-57c3-4433-bec2-797f8d013674.1726168464.1.1726168466..b48eb259-4fbe-4b50-b6e7-abef662507c5..07cf0928-9f50-48da-bfe9-0d43f9604f84.1726168463529.3",
+                        "same_site": "lax",
+                        "timestamp": 1726168465878
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.520138025,
+                        "value": "31c625c6-57c3-4433-bec2-797f8d013674.1726168464.1.1726168468..b48eb259-4fbe-4b50-b6e7-abef662507c5..07cf0928-9f50-48da-bfe9-0d43f9604f84.1726168463529.4",
+                        "same_site": "lax",
+                        "timestamp": 1726168467522
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.52802801,
+                        "value": "31c625c6-57c3-4433-bec2-797f8d013674.1726168464.1.1726168468..b48eb259-4fbe-4b50-b6e7-abef662507c5..07cf0928-9f50-48da-bfe9-0d43f9604f84.1726168463529.5",
+                        "same_site": "lax",
+                        "timestamp": 1726168467528
+                    }
+                ]
+            },
+            "_sp_root_domain_test_1726168463527": {
+                "name": "_sp_root_domain_test_1726168463527",
+                "domain": ".dpgmedia.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463530,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_test_value_1726168463527",
+                        "same_site": "lax",
+                        "timestamp": 1726168463528
+                    }
+                ]
+            },
+            "_sp_ses.ed2c": {
+                "name": "_sp_ses.ed2c",
+                "domain": ".dpgmedia.be",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726168463535,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726170263,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168463534
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168463536
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168465879
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168467522
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168467528
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".dpgmedia.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463207,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726175663.193905,
+                        "expiry": 7200.193905115128,
+                        "value": "26DEE1CC6B328ACEED11DC8E4F6294F1~000000000000000000000000000000~YAAQhhoSAtRSpsGRAQAAmHeo5xlNDjTJKnVAy0NyOQA/mtpUSr1V1aQqTfaKmftlqxvlVAZqzCpwT+8QWa1+NTi4n3GdDC3f+4mITanSrEdTcqBXtUx4KlM4cG+83Cg8S4Xin6Aq8E1XGwMcM+UQQ65nWywwcg9ZgvkMHWtbbAwHT8PG1DSo/yiHDrCNxcrQjZv7K25UY7zJNiAipjCiX4CIFzbCnf+gUK3G74VtxuBgbyLsbY5ZIriAXfMwm/Bokq5gZBBj7hLFgy41imFCBiYIw/AsstpYsI0haBAcx1lCsNLAPLrlLvRowN4m0szq+rjZVogW4lQcW7D8Ayi0Derd2f3+N+ZeZcida8VgGDUAhq5jlk7sXC1J23+SLM5vnXg9/h7TB3+mVzY=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168463204
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".dpgmedia.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463444,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726175663.439729,
+                        "expiry": 7200.439728975296,
+                        "value": "2D68E4427F656AE97736E306EEE6789A~YAAQkxoSAl6i3bmRAQAAlXio5xnZuKF0EWr+fKpvsE9Uyu8ki6t4eLppiWHt18c4dChOY+rn7Q3YOYrbq3osWcdC9EviPZbra+8dwrcyf6oV3x/Wpv4ftCHBEFojvWsirIZv1tGnN82Hprdl9sDweyFcUy1pH+ukMwG8wbnq4bd7Cg1d5DD+yJo8Z8rUWgxASt348O0ckXePBDgw+LWS7dyhd4caRFi92UrTfC16nwAeIHXVMxdh6HWPlXeKLy2ACQ==~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168463441
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7196.66265296936,
+                        "value": "2D68E4427F656AE97736E306EEE6789A~YAAQkxoSAoui3bmRAQAAFImo5xmiV5xO6wgDi0diriDwehgfMaCG+361pmffIj+AqkwzZwG3S9mRybb/qfDf7a1wj+ClO5LDIQzWQRAzc2NdXi963F4qKrJvvI9jfITdxRcvHah7S2R2vFy7bR2TdaUnSsqbnH1TLxmvFJ+Iq0z14HPhIu/qmiuF1AUIp1FN28liLJ7ckqgLqznIxUtY1Du52ihjGNshRvBqz1VnxHJ6puH++L2ysS3Ual9NQKsOXA==~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168467664
+                    }
+                ]
+            }
+        }
+    },
+    "dpgmedia.net": {
+        "/": {
+            "sp": {
+                "name": "sp",
+                "domain": ".dpgmedia.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463708,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704463.706754,
+                        "expiry": 31536000.70675397,
+                        "value": "eb437f36-77d4-458d-a542-22ff43e0896e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168463707
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.73511505,
+                        "value": "eb437f36-77d4-458d-a542-22ff43e0896e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168463735
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.90723896,
+                        "value": "eb437f36-77d4-458d-a542-22ff43e0896e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168465908
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.593451977,
+                        "value": "eb437f36-77d4-458d-a542-22ff43e0896e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168467594
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.620595932,
+                        "value": "eb437f36-77d4-458d-a542-22ff43e0896e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168467621
+                    }
+                ]
+            }
+        }
+    },
+    "hln.be": {
+        "/": {
+            "_abck": {
+                "name": "_abck",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468046,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704468.044403,
+                        "expiry": 31536000.044403076,
+                        "value": "9241626AB44953E48B27522154C20FE3~-1~YAAQjhoSAqhP1ceRAQAAj4qo5wyAdiRsVP/GZIzZd+Iptcd7b0K/Buiq2ybJOAxjlwVE+E3/LTfGhcukgWTc2wecg8xoiIp1/+mjIWpp3noEc4Lo8Q2EkeY6az+BZgVGGLgnzkiAWyvMFyRloWE2dB9vs7kZAK8atSeccMPmeEZe80pSO4FvCyrY5Vc/5zVtmgoMHLE2WgQVrndfmF8HdFMgXWxUQxGewqMGnJFPh1l6qfdp0bYYE55PZNnc+bkZWu6gvIaU6DmsjcXeF30t2sHHTjy2VQK2kGecIn2joJ4crwfURv7WHQg4l4alaJuJA+zS55ORtxfuU0zE5+Wc/Becu7ZHc/j8Il69PYziBZN3dmf4C36UH4QHcpGI7j8VoDuUqR3yDMP/5BzPcJqtot7gPdzEhBbWeg==~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168468044
+                    }
+                ]
+            },
+            "_gtm_group": {
+                "name": "_gtm_group",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726168468032,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757704468.030734,
+                        "expiry": 31536000.030734062,
+                        "value": "3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168468031
+                    }
+                ]
+            },
+            "_sp_id.5ba7": {
+                "name": "_sp_id.5ba7",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726168468168,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760728468.16659,
+                        "expiry": 34560000.166589975,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168468..85b1d48c-9026-4450-9070-3021523dc430....0",
+                        "same_site": "lax",
+                        "timestamp": 1726168468168
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.17131901,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168468..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.1",
+                        "same_site": "lax",
+                        "timestamp": 1726168468171
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.172787905,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168468..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.2",
+                        "same_site": "lax",
+                        "timestamp": 1726168468173
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.17385888,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168468..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.3",
+                        "same_site": "lax",
+                        "timestamp": 1726168468175
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.17586589,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168468..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.4",
+                        "same_site": "lax",
+                        "timestamp": 1726168468176
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.53514004,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168469..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.5",
+                        "same_site": "lax",
+                        "timestamp": 1726168468535
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.573704004,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168469..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.6",
+                        "same_site": "lax",
+                        "timestamp": 1726168468574
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.70312309,
+                        "value": "c5a9fa67-51bd-4b14-9a6d-73ed76534a0d.1726168468.1.1726168471..85b1d48c-9026-4450-9070-3021523dc430..4df93a4e-da0a-4e42-8b3b-f4c4fa4e210a.1726168468170.7",
+                        "same_site": "lax",
+                        "timestamp": 1726168470704
+                    }
+                ]
+            },
+            "_sp_root_domain_test_1726168468164": {
+                "name": "_sp_root_domain_test_1726168468164",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468166,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_test_value_1726168468164",
+                        "same_site": "lax",
+                        "timestamp": 1726168468165
+                    }
+                ]
+            },
+            "_sp_ses.5ba7": {
+                "name": "_sp_ses.5ba7",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726168468168,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726170268,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468167
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468171
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468173
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468175
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468177
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468535
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726168468575
+                    }
+                ]
+            },
+            "authId": {
+                "name": "authId",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168467730,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728846867.729353,
+                        "expiry": 2678400.729352951,
+                        "value": "e1d6c30e-202d-4408-8a44-f79e029fbcd6",
+                        "same_site": "lax",
+                        "timestamp": 1726168467729
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2678400.729389906,
+                        "value": "e1d6c30e-202d-4408-8a44-f79e029fbcd6",
+                        "same_site": "lax",
+                        "timestamp": 1726168467731
+                    }
+                ]
+            },
+            "bm_sz": {
+                "name": "bm_sz",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468049,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726182868.044453,
+                        "expiry": 14400.044452905655,
+                        "value": "9FD5FD89C01EDC0D91F39395D1B29AD0~YAAQjhoSAqpP1ceRAQAAj4qo5xlii0DC/dZ3c3QrugOXgxs2KbC7mxn0zRO8u062xyQnfPIEzpdtpieFxaxnKfrBV+EveVvEMR8PAV6pCjoMaNIdwBwlBSRCU6aPQVMDlCJA0j7cdMhJqqMeU9EVm6vKmbgIbg2ZoiaHt7q2/M8dARZyDM0KJzC4/pwgy7kzP4qw434Fy03dK5qwv/9itRdLhgBq4rBinEnINA7dZY90QrXw9hg16//unry1Bn5hdu6gfjoz6R0eEJr56KfrvekWK1Lf+LJ4zlEH6CJ22QQXBH/SpGgFusslJ9P1j5SKW+36hz1s9o1zapJd0VF0rkg00IK8OUSuzDZ67gQqb/IdVw==~3684662~3159874",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168468048
+                    }
+                ]
+            },
+            "gtm_temptation_template_id": {
+                "name": "gtm_temptation_template_id",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468109,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726773268,
+                        "expiry": 604800,
+                        "value": "trial_page_bottom_hl",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168468108
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "audience_newsletter_optin_oortje_hl",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168468119
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "subscribe_page_top_hln",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168468128
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "login_to_proceed__hln_live",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168468577
+                    }
+                ]
+            },
+            "tcf20_purposes": {
+                "name": "tcf20_purposes",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726168468157,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704468,
+                        "expiry": 31536000,
+                        "value": "functional|analytics",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168468156
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "functional|analytics",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168468158
+                    }
+                ]
+            },
+            "temptationSessionData": {
+                "name": "temptationSessionData",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726168468100,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704468.097745,
+                        "expiry": 31536000.09774494,
+                        "value": "0",
+                        "same_site": "lax",
+                        "timestamp": 1726168468099
+                    }
+                ]
+            },
+            "temptationTrackingId": {
+                "name": "temptationTrackingId",
+                "domain": ".hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468099,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704468.097705,
+                        "expiry": 31536000.097704887,
+                        "value": "ts-9295662c-36c2-4106-a95d-5ce79f7f9768",
+                        "same_site": "lax",
+                        "timestamp": 1726168468098
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".www.hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463124,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726175663.115141,
+                        "expiry": 7200.115140914917,
+                        "value": "C97CDBEFF6140C8F0CE795121EF2CB7D~000000000000000000000000000000~YAAQjhoSAsJH1ceRAQAATneo5xkzZCCoF4cr3p5L4XhfzxcLql0KYV+XH4spLoT41aE3hUMcAKQ2NDwmeuxYXExSQZ5WAN4flsC1YfX7YmjQVcmKEHDEt/jDwXkKAWYjqaSSWuz0ObZawM2625RzACSl7SGo4nqPfElRnp4K0uQ4+QO9pzdoj3ACqxp65ntMwpCqMnxL/qAHEazvEIdnObQDAqnyYlc/skaf1Rr05cib5tsfXLu7s3gmAKXAPQFDiInFPyQ0SAIlYV+6s0O/k0fxr6pKVdRDH7QPMBRrkTpksewsoFxqbdLg4MsnGW5W7bfkTZMYJDdUW941Sxf20W7XKNDkQPpmTBAYSC62vHirz6+CorDqUAjF3B8DcpD25ZFRAVIZ4IegsA==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168463116
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".www.hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168467762,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726175667.76099,
+                        "expiry": 7200.760989904404,
+                        "value": "F3A95CC1583DEF76A181DD76234DB01D~YAAQjhoSAiJP1ceRAQAAc4mo5xlyQZFdFL/LAaTPBxToJZb82C6FHCzQDlwPax8FzgD9ZJGlvpNl8Vsx2KaOHmjwcLMstSo+txH5prVQ9KP+suTIuYuoYIAZIEV1Y8pMJ/esFhv0PiyrB2BcS3/3LYmrAU7owfxF6aSqrO0Z/x/HzOx1S7nlvBbWJJJkB1afjvUZkNnVcKZ56Pq3RoRvJDm5fHnC7ydL9mg8fYlfXLi/W5BCzvBH7C9pVEyf3Pk0~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168467761
+                    }
+                ]
+            }
+        }
+    },
+    "login.hln.be": {
+        "/": {
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".login.hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468048,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726175668.044433,
+                        "expiry": 7200.044433116913,
+                        "value": "04A9493AB72735F3907F238EA71C4447~000000000000000000000000000000~YAAQjhoSAqlP1ceRAQAAj4qo5xm0KbGoFVkhH4PgZGBH9iWvZE84GoujucvIKwX7imxhkcCGqkzS4ShYz4wwvENl4EBJvVsfkpVkEXR5uk8gUHmkUC5ufwrvPeNJI/GIvi22Zsfl/cEdxUCaNpZGNZR7cYZaq2LtkDLBQGCATE0FT5NhDM6NiWDh1gxZt6Z/9lnd6akZF4jUwft02ujDVnLG9/FRadIYD8D9VsyXgYE3vso3N/ncVYYtykjpK7dWqf3W2i8oxqM5RRHtcJcs82zfVRI3BhTsM24dvJazWz8j5+bsMGmNRIaCGudaF3YcWb5rgI9wo69uGJOn/KgoKVVrxWYGJhyBVQCu9AbvAJB0mUbnBVOTN+NPlYPeGQKZvqaVUiCkU7xKWaxD",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168468047
+                    }
+                ]
+            }
+        }
+    },
+    "pg.hln.be": {
+        "/": {
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".pg.hln.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168468102,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726175668.101015,
+                        "expiry": 7200.101015090942,
+                        "value": "912174D2A3036FC3F735CE16337ED7DA~000000000000000000000000000000~YAAQhxoSAkZ/X9WRAQAAy4qo5xkxGoJmJ8hhC6Y78Kihrpi5rk4Go16BvOd4N56bENo0LvDRcrZssAg6gH5Ksh4hOFG7pVZcatcawTEhZVBIWlB9RC2xBRrTyRQ7EC00tWM7hNoMwBmUQU4XIxgSoEsZeb5acj1pOn7GpS6cu5vapvkqBMH+yUZ678mXikvbvMiQ09Z4hrIshQlquutPLJw+2SLgQix5KMpVZo9xCsoMdlL8q2av0qWso00+hpjA24d7A+Y33bRrCaqK7CSEAy6RUtcBhQgXK2zF7FP+NSUe0mYwuS668kUc9vY/qHpq5OXvij7i9g7WMC+G1Gj/AM8oTkx+wGL3No4u3+N5am6Y1DddCt9Mai6A6oSLMEWNIkTnSReXzHDw",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168468101
+                    }
+                ]
+            }
+        }
+    },
+    "myprivacy.dpgmedia.be": {
+        "/": {
+            "authId": {
+                "name": "authId",
+                "domain": "myprivacy.dpgmedia.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463204,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759864463.19389,
+                        "expiry": 33696000.193890095,
+                        "value": "e1d6c30e-202d-4408-8a44-f79e029fbcd6",
+                        "same_site": "lax",
+                        "timestamp": 1726168463203
+                    }
+                ]
+            },
+            "xAuthId": {
+                "name": "xAuthId",
+                "domain": "myprivacy.dpgmedia.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168463202,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759864463.193815,
+                        "expiry": 33696000.19381499,
+                        "value": "e1d6c30e-202d-4408-8a44-f79e029fbcd6",
+                        "same_site": "lax",
+                        "timestamp": 1726168463196
+                    }
+                ]
+            }
+        }
+    }
+}

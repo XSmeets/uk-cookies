@@ -1,0 +1,479 @@
+<html lang="da" prefix="
+    og: http://ogp.me/ns#
+    eli: http://data.europa.eu/eli/ontology#
+    iana: http://www.iana.org/"><!-- for a list of additionally recognized default prefixes in RDFa see: https://www.w3.org/2011/rdfa-context/rdfa-1.1 --><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="/"><style type="text/css">svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.225em;
+}
+.svg-inline--fa.fa-w-1 {
+  width: 0.0625em;
+}
+.svg-inline--fa.fa-w-2 {
+  width: 0.125em;
+}
+.svg-inline--fa.fa-w-3 {
+  width: 0.1875em;
+}
+.svg-inline--fa.fa-w-4 {
+  width: 0.25em;
+}
+.svg-inline--fa.fa-w-5 {
+  width: 0.3125em;
+}
+.svg-inline--fa.fa-w-6 {
+  width: 0.375em;
+}
+.svg-inline--fa.fa-w-7 {
+  width: 0.4375em;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 0.5em;
+}
+.svg-inline--fa.fa-w-9 {
+  width: 0.5625em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 0.625em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 0.6875em;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa.fa-w-13 {
+  width: 0.8125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.svg-inline--fa.fa-w-15 {
+  width: 0.9375em;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-17 {
+  width: 1.0625em;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-19 {
+  width: 1.1875em;
+}
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-border {
+  height: 1.5em;
+}
+.svg-inline--fa.fa-li {
+  width: 2em;
+}
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: 0.25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse {
+  color: #fff;
+}</style><link rel="shortcut icon" href="/favicon.ico"><link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"><meta name="msapplication-TileColor" content="#ffffff"><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><script defer="defer" src="/static/js/main.fabe5f8f.js"></script><link href="/static/css/main.70023ad3.css" rel="stylesheet">
+    <meta property="og:url" content="http://www.retsinformation.dk/">
+    <meta property="og:site_name" content="Retsinformation">
+    <meta property="og:title" content="Retsinformation">
+    <meta property="og:image" content="http://www.retsinformation.dk/ms-icon-310x310.png">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Retsinformation.dk er indgangen til det fælles statslige retsinformationssystem, der giver adgang til alle gældende love, bekendtgørelser og cirkulærer
+          m.v. Der er også adgang til Folketingets dokumenter og beretninger fra Folketingets Ombudsmand.">
+    <meta name="theme-color" content="#f9f9fb">
+    <meta name="google-site-verification" content="_2HNkmPtogIXF9YwHTNLc3bvBDb_Btz3c1gfM2qNflQ">
+    <title>Retsinformation</title>
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"Organization","@id":"https://civilstyrelsen.dk/","address":{"@type":"PostalAddress","addressCountry":"Danmark","addressLocality":"Viborg","postalCode":"8800","streetAddress":"Toldboden 2, 2. sal"},"url":"https://civilstyrelsen.dk/","name":"Civilstyrelsen","telephone":"\u002B45-33923334","contactPoint":{"@type":"ContactPoint","contactType":"Customer Service","telephone":"\u002B45-35203040"}}
+    </script>
+<link rel="stylesheet" type="text/css" href="/static/css/787.4d4147de.chunk.css"></head>
+<body class="">
+    <noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><div></div><div class="main-content-body"><div hidden="">lexdania/components version: ^3.0.0-dev.242</div><div><header><div class="container"><nav class="header-nav"><div class="logo-container"><a class="brand-logo" href="/"><span class="sr-only">Retsinformation.dk</span><div class="logo"></div></a></div><div class="menu-container"><ul class="header-top-menu" id="navbarSupportedContent"><li class="nav-item header-home"><a class="active" aria-current="page" href="/"><span class="d-none d-lg-block d-xl-block h4">Forside</span><svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="home" class="svg-inline--fa fa-home fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" style="transform-origin: 0.5625em 0.5em;"><g transform="translate(288 256)"><g transform="translate(0, 0)  scale(1.0000625, 1.0000625)  rotate(0 0 0)"><path fill="currentColor" d="M541 229.16l-61-49.83v-77.4a6 6 0 0 0-6-6h-20a6 6 0 0 0-6 6v51.33L308.19 39.14a32.16 32.16 0 0 0-40.38 0L35 229.16a8 8 0 0 0-1.16 11.24l10.1 12.41a8 8 0 0 0 11.2 1.19L96 220.62v243a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16v-128l64 .3V464a16 16 0 0 0 16 16l128-.33a16 16 0 0 0 16-16V220.62L520.86 254a8 8 0 0 0 11.25-1.16l10.1-12.41a8 8 0 0 0-1.21-11.27zm-93.11 218.59h.1l-96 .3V319.88a16.05 16.05 0 0 0-15.95-16l-96-.27a16 16 0 0 0-16.05 16v128.14H128V194.51L288 63.94l160 130.57z" transform="translate(-288 -256)"></path></g></g></svg></a></li><li class="nav-item "><a href="/documents"><span class="d-none d-lg-block d-xl-block h4">Søg</span><svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="transform-origin: 0.5em 0.5em;"><g transform="translate(256 256)"><g transform="translate(0, 0)  scale(1.0000625, 1.0000625)  rotate(0 0 0)"><path fill="currentColor" d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z" transform="translate(-256 -256)"></path></g></g></svg></a></li></ul><div class="dropdown-menu-container"></div></div></nav></div></header></div><div class="content-area  container"><div class="row"><div class="px-xs-0 col"><div class="searchbox-container pt-1 px-4 pb-4 mb-3 card bg-primary"><div class="mb-3 database-selectors row"><div class="d-block col"><button type="button" class="selected btn mx-2 btn btn-secondary">Regler</button><button type="button" class="btn mx-2 btn btn-secondary">Afgørelser</button><button type="button" class="btn mx-2 btn btn-secondary">Lov- og beslutningsforslag mv.</button></div></div><div class="mb-3 row"><div class="px-xs-0 col"><form autocomplete="off" id="live-search-form" aria-label="Søgeformular"><div class="input-group live-search"><input type="text" name="searchTerm" id="searchTerm" class="form-control" placeholder="Søg efter nummer og år eller søgeord" aria-label="Indtast søgeord" value=""><span class="icon-button-container" id="live-search-submit-button"><button type="submit" class=" btn-icon text-left btn btn-secondary" aria-label="Start søgning"><div class="row"><div class="col-auto pr-0 align-self-center col"><svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="transform-origin: 0.5em 0.5em;"><g transform="translate(256 256)"><g transform="translate(0, 0)  scale(1.0000625, 1.0000625)  rotate(0 0 0)"><path fill="currentColor" d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z" transform="translate(-256 -256)"></path></g></g></svg></div><div class="px-2 col-auto col"></div></div></button></span></div></form></div></div></div></div></div><div class="row"><div class="px-xs-0 col"><div class="shortcut-card mb-1 mb-lg-0 px-0 px-sm-3 card"><div class="mt-3 mt-lg-0 card-body"><div class="align-items-center row"><div class="col-12 col-lg-5 col"><h2 class="mb-0">Seneste dokumenter</h2></div><div class="col"><div class="align-items-center d-flex justify-content-lg-end row"><div class=" col-12 col-lg-auto d-flex justify-content-lg-end px-lg-0 mb-3 mt-2 my-lg-0 gray col">Vælg periode</div><div class="col-auto d-flex justify-content-lg-end align-items-center col"><button type="button" class="redirect-button px-3 py-0 font-weight-normal btn btn-white">Dag</button><button type="button" class="redirect-button px-3 py-0 ml-2 font-weight-normal btn btn-white">Uge</button><button type="button" class="redirect-button px-3 py-0 ml-2 font-weight-normal btn btn-white">Måned</button><button type="button" class="redirect-button px-3 py-0 ml-2 font-weight-normal btn btn-white">År</button></div></div></div></div></div></div><div class="card-deck"><div class="shortcut-card px-0 px-sm-3 mb-1 mb-lg-0 mr-lg-1 mt-lg-3 card"><div class="d-flex flex-column card-body"><div class="text-area mt-3"><div><h2>Ministerier</h2></div><p>Vælg ministerium og gå direkte til ministeriets love og regler. Du kan efterfølgende afgrænse din søgning yderligere.</p></div><div class="mt-auto  dropdown"><button type="button" aria-haspopup="true" aria-expanded="false" class="btn-narrow dropdown-toggle btn btn-white">Vælg ministerium</button><div tabindex="-1" role="menu" aria-hidden="true" class="scrollable-menu dropdown-menu"></div></div></div></div><div class="w-100 d-block d-lg-none"></div><div class=" shortcut-card px-0 px-sm-3 mb-1 mb-lg-0 mx-lg-1 mt-lg-3 card"><div class=" d-flex flex-column card-body"><div class="text-area mt-3"><div><h2>Folketinget</h2></div><p>Gå direkte til lovforslag, beslutningsforslag, betænkninger og andre dokumenter fra Folketinget.</p></div><button type="button" class=" mt-auto btn-narrow  font-weight-normal btn btn-white">Se dokumenter<span class="float-right"><svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-8 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" style="transform-origin: 0.25em 0.5em;"><g transform="translate(128 256)"><g transform="translate(0, 0)  scale(1.0000625, 1.0000625)  rotate(0 0 0)"><path fill="currentColor" d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z" transform="translate(-128 -256)"></path></g></g></svg></span></button></div></div><div class="w-100 d-block d-lg-none"></div><div class=" shortcut-card px-0 px-sm-3 ml-lg-1 mt-lg-3 card"><div class=" d-flex flex-column card-body"><div class="text-area mt-3"><div><h2>Folketingets Ombudsmand</h2></div><p>Søg på dokumenter fra Folketingets Ombudsmand ved brug af lovregisteret eller myndighedsregisteret.</p></div><div class=" mt-auto  dropdown"><button type="button" aria-haspopup="true" aria-expanded="false" class="btn-narrow dropdown-toggle btn btn-white">Vælg</button><div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><button type="button" tabindex="0" role="menuitem" class="dropdown-item">Lovregister</button><button type="button" tabindex="0" role="menuitem" class="dropdown-item">Myndigheder</button></div></div></div></div></div></div></div></div><div class="layout-footer"><footer class="site-footer"><div class="container"><div class="row"><div class="col-sm-12 col-md-8 col-lg-9"><h2>Om</h2>Retsinformation.dk er indgangen til det fælles statslige retsinformationssystem, der giver adgang til alle gældende love, bekendtgørelser og cirkulærer m.v. Der er også adgang til Folketingets dokumenter og beretninger fra Folketingets Ombudsmand.<br>På retsinformation.dk anvendes der ikke cookies.</div><div class="col-sm-12 col-md-4 col-lg-3"><h2>Besøg også</h2><div class="dropdown"><button type="button" aria-haspopup="true" aria-expanded="false" class="btn-narrow dropdown-toggle btn btn-white">Vælg site</button><div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu"><h6 value="" tabindex="-1" class="external-link dropdown-header">Civilstyrelsen</h6><button type="button" value="https://www.statstidende.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Statstidende</button><button type="button" value="https://www.lovtidende.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Lovtidende</button><button type="button" value="https://www.ministerialtidende.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Ministerialtidende</button><button type="button" value="https://www.offentlighedsportalen.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Offentlighedsportalen</button><button type="button" value="https://www.hoeringsportalen.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Høringsportalen</button><h6 value="" tabindex="-1" class="external-link dropdown-header">Andre</h6><button type="button" value="https://www.ft.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Folketinget</button><button type="button" value="https://www.ombudsmanden.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Folketingets Ombudsmand</button><button type="button" value="https://www.folketingstidende.dk" tabindex="0" role="menuitem" class="external-link dropdown-item">Folketingstidende</button><button type="button" value="https://www.stm.dk/statsministeriet/publikationer" tabindex="0" role="menuitem" class="external-link dropdown-item">Grønlandsk Lovregister</button><button type="button" value="https://www.kunngerdaportalur.fo/" tabindex="0" role="menuitem" class="external-link dropdown-item">Kunngerðaportalurin - Lovtidende på Færøerne</button><button type="button" value="https://logir.fo/" tabindex="0" role="menuitem" class="external-link dropdown-item">Lógasavnið  - Retsinformation på Færøerne</button><button type="button" value="https://eur-lex.europa.eu/" tabindex="0" role="menuitem" class="external-link dropdown-item">EU-lovgivningen</button></div></div></div><div class="site-footer-links col-12"><a href="/about">Om Retsinformation</a><a href="/contact">Kontakt</a><a href="/faq">FAQ</a><a href="/eli">Om ELI</a><a href="/api">API</a><a href="https://www.was.digst.dk/retsinformation-dk" target="_blank">Tilgængelighedserklæring</a></div></div></div></footer></div></div></div>
+
+
+
+
+</body></html>

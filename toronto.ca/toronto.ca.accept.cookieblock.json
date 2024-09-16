@@ -1,0 +1,27 @@
+{
+    "toronto.ca": {
+        "/": {
+            "ORA_FPC": {
+                "name": "ORA_FPC",
+                "domain": "www.toronto.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726344792954,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760904792.948893,
+                        "expiry": 34560000.94889307,
+                        "value": "id=315d0de7-bc26-47fe-a353-679d6616b65d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726344792949
+                    }
+                ]
+            }
+        }
+    }
+}

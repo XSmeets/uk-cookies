@@ -1,0 +1,87 @@
+{
+    "homedepot.com": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".homedepot.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726411348597,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726414948.575553,
+                        "expiry": 3600.5755529403687,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726411348589
+                    }
+                ]
+            },
+            "HD_DC": {
+                "name": "HD_DC",
+                "domain": ".homedepot.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726411348589,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "origin",
+                        "same_site": "unspecified",
+                        "timestamp": 1726411348578
+                    }
+                ]
+            },
+            "akacd_usbeta": {
+                "name": "akacd_usbeta",
+                "domain": "www.homedepot.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726411348600,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3903864147~rv=95~id=b3487a2e65f5234528438ec4ba62d827",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726411348599
+                    }
+                ]
+            },
+            "akavpau_prod": {
+                "name": "akavpau_prod",
+                "domain": "www.homedepot.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726411348599,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726411648~id=4213c29a8fb2d7530b71977a53957abb",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726411348598
+                    }
+                ]
+            }
+        }
+    }
+}

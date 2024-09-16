@@ -1,0 +1,67 @@
+{
+    "gap.com": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".gap.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412724268,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726416324.249752,
+                        "expiry": 3600.2497520446777,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412724267
+                    }
+                ]
+            },
+            "prlb": {
+                "name": "prlb",
+                "domain": ".gap.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412724267,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412724259
+                    }
+                ]
+            },
+            "s-prlb": {
+                "name": "s-prlb",
+                "domain": ".gap.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726412724258,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726412724251
+                    }
+                ]
+            }
+        }
+    }
+}

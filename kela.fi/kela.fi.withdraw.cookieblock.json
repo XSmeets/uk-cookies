@@ -1,0 +1,106 @@
+{
+    "kela.fi": {
+        "/": {
+            "KelaAA010c55cf": {
+                "name": "KelaAA010c55cf",
+                "domain": ".kela.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726069135209,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "018411a7622f4d93ac852e65944bb35ecc9075830c090245b1905020bda74d9c34b31a89448adbfc277f7bdd432b98f1abafe2b63daf2f86f250783a275c37a9717c03d6bc",
+                        "same_site": "lax",
+                        "timestamp": 1726069135200
+                    }
+                ]
+            },
+            "KelaAA01d28664": {
+                "name": "KelaAA01d28664",
+                "domain": ".www.kela.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726069135449,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "018411a7622f4d93ac852e65944bb35ecc9075830c090245b1905020bda74d9c34b31a89448adbfc277f7bdd432b98f1abafe2b63daf2f86f250783a275c37a9717c03d6bc",
+                        "same_site": "lax",
+                        "timestamp": 1726069135447
+                    }
+                ]
+            },
+            "__Host-kelaBalancer": {
+                "name": "__Host-kelaBalancer",
+                "domain": "kela.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726069135198,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0cca89ee6ce41fa060efced163eaba68",
+                        "same_site": "strict",
+                        "timestamp": 1726069135186
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0cca89ee6ce41fa060efced163eaba68",
+                        "same_site": "strict",
+                        "timestamp": 1726069135445
+                    }
+                ]
+            },
+            "__Host-siteLanguage": {
+                "name": "__Host-siteLanguage",
+                "domain": "www.kela.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726069136301,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "fi",
+                        "same_site": "lax",
+                        "timestamp": 1726069136299
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "fi",
+                        "same_site": "lax",
+                        "timestamp": 1726069141299
+                    }
+                ]
+            }
+        }
+    }
+}

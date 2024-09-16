@@ -1,0 +1,291 @@
+{
+    "ohio.gov": {
+        "/": {
+            "_pk_id.5370b119-457c-40f7-85eb-280317af5eca.2855": {
+                "name": "_pk_id.5370b119-457c-40f7-85eb-280317af5eca.2855",
+                "domain": "ohio.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417539602,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760372739,
+                        "expiry": 33955200,
+                        "value": "884125d6b9ad8ab4.1726417540.0.1726417540..",
+                        "same_site": "lax",
+                        "timestamp": 1726417539601
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "884125d6b9ad8ab4.1726417540.1.1726417540.1726417540.",
+                        "same_site": "lax",
+                        "timestamp": 1726417539604
+                    }
+                ]
+            },
+            "_pk_ses.5370b119-457c-40f7-85eb-280317af5eca.2855": {
+                "name": "_pk_ses.5370b119-457c-40f7-85eb-280317af5eca.2855",
+                "domain": "ohio.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417539606,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726419339,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726417539604
+                    }
+                ]
+            },
+            "stg_externalReferrer": {
+                "name": "stg_externalReferrer",
+                "domain": "ohio.gov",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417539490,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417539490
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417539786
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417539793
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417540483
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417540484
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417540637
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417540638
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726417542486
+                    }
+                ]
+            },
+            "stg_last_interaction": {
+                "name": "stg_last_interaction",
+                "domain": "ohio.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417539492,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757953539,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:39%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417539492
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:39%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417539793
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:40%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417540639
+                    }
+                ]
+            },
+            "stg_returning_visitor": {
+                "name": "stg_returning_visitor",
+                "domain": "ohio.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417539478,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757953539,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:39%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417539472
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:39%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417539492
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:39%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417539793
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Sun%2C%2015%20Sep%202024%2016:25:40%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726417540639
+                    }
+                ]
+            },
+            "stg_traffic_source_priority": {
+                "name": "stg_traffic_source_priority",
+                "domain": "ohio.gov",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417539485,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726419339,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726417539479
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726417539493
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726417539793
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726417540640
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,833 @@
+{
+    "contentpass.net": {
+        "/": {
+            "_cpauthstate": {
+                "name": "_cpauthstate",
+                "domain": ".contentpass.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164745380,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726769545.374765,
+                        "expiry": 604800.3747649193,
+                        "value": "%7B%22continue%22%3A%22https%3A%2F%2Fwww.focus.de%2F%22%2C%22instanceId%22%3A%2275a19f73-55b5-43c3-9ccd-a1140f3dc8c4%22%2C%22planId%22%3A%2248e64987-3032-4a34-be5c-4b1b84429968%22%2C%22propertyId%22%3A%2268f81197-8bd2-4cfb-8eec-1047cd57cd82%22%2C%22route%22%3A%22register%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164745379
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800.4754168987,
+                        "value": "%7B%22continue%22%3A%22https%3A%2F%2Fwww.focus.de%2F%22%2C%22instanceId%22%3A%2275a19f73-55b5-43c3-9ccd-a1140f3dc8c4%22%2C%22planId%22%3A%2248e64987-3032-4a34-be5c-4b1b84429968%22%2C%22propertyId%22%3A%2268f81197-8bd2-4cfb-8eec-1047cd57cd82%22%2C%22route%22%3A%22register%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164745476
+                    }
+                ]
+            },
+            "NEXT_LOCALE": {
+                "name": "NEXT_LOCALE",
+                "domain": "www.contentpass.net",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726164745378,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757700745.374701,
+                        "expiry": 31536000.374701023,
+                        "value": "en",
+                        "same_site": "lax",
+                        "timestamp": 1726164745377
+                    }
+                ]
+            }
+        }
+    },
+    "focus.de": {
+        "/": {
+            "_snow_id.ea17": {
+                "name": "_snow_id.ea17",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164727306,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164727.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164727313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164727.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164727470
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164742.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164742261
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164743.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164743483
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164743.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164743484
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164744.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164743521
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164745.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164745208
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164749.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164749085
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164749.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164749095
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "9e6f25a6-147e-4a39-a66d-435042ff9935.1726164727.1.1726164749.1726164727.394353b8-60f1-414d-87ed-a3558d8a2bae",
+                        "same_site": "lax",
+                        "timestamp": 1726164749306
+                    }
+                ]
+            },
+            "_snow_pv_id.ea17": {
+                "name": "_snow_pv_id.ea17",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164727315,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "66ddeab8-4479-465e-b35a-d6ca832ff4de|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164727314
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "66ddeab8-4479-465e-b35a-d6ca832ff4de|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164738273
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "66ddeab8-4479-465e-b35a-d6ca832ff4de|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164742502
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "66ddeab8-4479-465e-b35a-d6ca832ff4de|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164742503
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "66261d91-ae14-4744-bf50-2f32c19a64af|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164743485
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "66261d91-ae14-4744-bf50-2f32c19a64af|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164745212
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "9691bb05-9bd7-4f83-bead-9a93cf84191a|focus_web-prod",
+                        "same_site": "lax",
+                        "timestamp": 1726164749096
+                    }
+                ]
+            },
+            "_snow_ses.ea17": {
+                "name": "_snow_ses.ea17",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726164727305,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164727313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164727470
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164742261
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164743483
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164743484
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164743521
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164745208
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164749084
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164749095
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726164749306
+                    }
+                ]
+            },
+            "_sp_su": {
+                "name": "_sp_su",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164727347,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757700727.346168,
+                        "expiry": 31536000.34616804,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164727346
+                    }
+                ]
+            },
+            "bf__id_pi": {
+                "name": "bf__id_pi",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164726869,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1i7jmut2e0d63422d42902e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164726863
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1i7jmvd5v0feb06fc4fec19",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164743369
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1i7jmvigh0713caa3dfc598",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164748821
+                    }
+                ]
+            },
+            "consentDate": {
+                "name": "consentDate",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164742257,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757700742.250242,
+                        "expiry": 31536000.250241995,
+                        "value": "2024-09-12T18:12:22.165Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742254
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164727578,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757700727.578079,
+                        "expiry": 31536000.578078985,
+                        "value": "10e2d572-5e38-4a8e-af4a-a84e33d777d9",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164727578
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.24999404,
+                        "value": "10e2d572-5e38-4a8e-af4a-a84e33d777d9_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742254
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164742253,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757700742.249914,
+                        "expiry": 31536000.24991393,
+                        "value": "CQE1dYAQE1dYAAjABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742252
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "CQE1dYAQE1dYAAjABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742264
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "CQE1dYAQE1dYAAjABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164745211
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "CQE1dYAQE1dYAAjABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164745212
+                    }
+                ]
+            },
+            "gdpr": {
+                "name": "gdpr",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726164742264,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742264
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164745210
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164745212
+                    }
+                ]
+            },
+            "sp": {
+                "name": "sp",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164727501,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757700727.500012,
+                        "expiry": 31536000.50001192,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164727500
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.551453114,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164727552
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.29198003,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164742292
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.514571905,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164743515
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.58971405,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164743590
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.23984909,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164745240
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.125411987,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164749126
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.336690903,
+                        "value": "cbf46374-e0fd-4719-8306-b766d91408a0",
+                        "same_site": "lax",
+                        "timestamp": 1726164749337
+                    }
+                ]
+            },
+            "utag_main": {
+                "name": "utag_main",
+                "domain": ".focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164727190,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:1$_ss:1$_st:1726166527184$ses_id:1726164727184%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164727190
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:2$_ss:0$_st:1726166527466$ses_id:1726164727184%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164727467
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:4$_ss:0$_st:1726166542258$ses_id:1726164727184%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164742261
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:5$_ss:0$_st:1726166543237$ses_id:1726164727184%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164743238
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:6$_ss:0$_st:1726166543386$ses_id:1726164727184%3Bexp-session$_pn:2%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164743387
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:7$_ss:0$_st:1726166543519$ses_id:1726164727184%3Bexp-session$_pn:2%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164743519
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:8$_ss:0$_st:1726166545203$ses_id:1726164727184%3Bexp-session$_pn:2%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164745204
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:9$_ss:0$_st:1726166545206$ses_id:1726164727184%3Bexp-session$_pn:2%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164745207
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:10$_ss:0$_st:1726166548955$ses_id:1726164727184%3Bexp-session$_pn:3%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164748955
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e76f758f001ca0b13a357e0005075001506d00bd0$_sn:1$_se:11$_ss:0$_st:1726166549303$ses_id:1726164727184%3Bexp-session$_pn:3%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164749303
+                    }
+                ]
+            },
+            "fol_session": {
+                "name": "fol_session",
+                "domain": "www.focus.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164742266,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726166542,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742265
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164745215
+                    }
+                ]
+            }
+        }
+    },
+    "a.bf-tools.net": {
+        "/3PChecker": {
+            "thirdparty": {
+                "name": "thirdparty",
+                "domain": "a.bf-tools.net",
+                "path": "/3PChecker",
+                "current_label": 0,
+                "label_ts": 1726164742505,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726168342.502902,
+                        "expiry": 3600.502902030945,
+                        "value": "yes",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164742503
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600.3818819522858,
+                        "value": "yes",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726164745382
+                    }
+                ]
+            }
+        }
+    }
+}

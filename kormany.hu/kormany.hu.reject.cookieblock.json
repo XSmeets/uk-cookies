@@ -1,0 +1,126 @@
+{
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726068264292,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741620264.28801,
+                        "expiry": 15552000.288009882,
+                        "value": "4xjWCCCIzEw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068264292
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068264295,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741620264.288779,
+                        "expiry": 15552000.28877902,
+                        "value": "CgJHQhIEGgAgOA%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068264293
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726068264288,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "9q6wyn1Ut2c",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068264288
+                    }
+                ]
+            }
+        }
+    },
+    "cdn.kormany.hu": {
+        "/": {
+            "KHUSRV": {
+                "name": "KHUSRV",
+                "domain": "cdn.kormany.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068261768,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!78NqdrdlxwNfjXTqkqi5cRitpH9pXiFBtm5YytlvJ7laMAMEW7zLJ3CSFLk9i70GaTZyqcgdTE8wKVCswDFNWilR0dk1YvHJtnL5jo7PEw==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068261761
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!3JtGJxzmiAgH527qkqi5cRitpH9pXuaOSoMK9zIKZzOmXmaPB6HAjy5lhQCUmOvXimlQ7xhYtJU5liRwKGQiM9SPPIrjf77SfR2sIXYNNg==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068261769
+                    }
+                ]
+            }
+        }
+    },
+    "kormany.hu": {
+        "/": {
+            "KHUSRV": {
+                "name": "KHUSRV",
+                "domain": "kormany.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068261215,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!rQXTy03MrqBVj0Tqkqi5cRitpH9pXqP6mUo/++OgCPWV8tNR+4MoHBF1CjWjwWuNzM4G0FQPObIlD6ytXCq2t0lx3p8HRpJ3pZ5pnLSmJw==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068261205
+                    }
+                ]
+            }
+        }
+    }
+}

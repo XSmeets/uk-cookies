@@ -1,0 +1,129 @@
+{
+    "european-union.europa.eu": {
+        "/": {
+            "cck1": {
+                "name": "cck1",
+                "domain": ".european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167448818,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741719448,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Afalse%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167448817
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Afalse%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167448974
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167453577
+                    }
+                ]
+            },
+            "_pk_id.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33": {
+                "name": "_pk_id.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33",
+                "domain": "european-union.europa.eu",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726167449088,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760122649,
+                        "expiry": 33955200,
+                        "value": "edd29aec82496920.1726167449.0.1726167449..",
+                        "same_site": "lax",
+                        "timestamp": 1726167449087
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "edd29aec82496920.1726167449.0.1726167449..",
+                        "same_site": "lax",
+                        "timestamp": 1726167449088
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "edd29aec82496920.1726167449.1.1726167449.1726167449.",
+                        "same_site": "lax",
+                        "timestamp": 1726167449089
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "edd29aec82496920.1726167449.1.1726167449.1726167449.",
+                        "same_site": "lax",
+                        "timestamp": 1726167449091
+                    }
+                ]
+            },
+            "_pk_ses.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33": {
+                "name": "_pk_ses.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33",
+                "domain": "european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167449090,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726169249,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167449089
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167449091
+                    }
+                ]
+            }
+        }
+    }
+}

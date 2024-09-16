@@ -1,0 +1,180 @@
+{
+    "politie.nl": {
+        "/": {
+            "INGRESSCOOKIE": {
+                "name": "INGRESSCOOKIE",
+                "domain": "www.politie.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171274278,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726214474.275416,
+                        "expiry": 43200.27541589737,
+                        "value": "1726171274.998.3659.228131|a09830b7ca383fe17ccfd2a4efed0050",
+                        "same_site": "unspecified",
+                        "timestamp": 1726171274276
+                    }
+                ]
+            },
+            "_pk_id.1.df1e": {
+                "name": "_pk_id.1.df1e",
+                "domain": "www.politie.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171270208,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760126470,
+                        "expiry": 33955200,
+                        "value": "55fffa905781138d.1726171270.",
+                        "same_site": "lax",
+                        "timestamp": 1726171270204
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955198,
+                        "value": "55fffa905781138d.1726171270.",
+                        "same_site": "lax",
+                        "timestamp": 1726171272236
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955197,
+                        "value": "55fffa905781138d.1726171270.",
+                        "same_site": "lax",
+                        "timestamp": 1726171273823
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955196,
+                        "value": "55fffa905781138d.1726171270.",
+                        "same_site": "lax",
+                        "timestamp": 1726171274292
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955194,
+                        "value": "55fffa905781138d.1726171270.",
+                        "same_site": "lax",
+                        "timestamp": 1726171276367
+                    }
+                ]
+            },
+            "_pk_ses.1.df1e": {
+                "name": "_pk_ses.1.df1e",
+                "domain": "www.politie.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171270212,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726173070,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171270208
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171272236
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171273823
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171274292
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171276367
+                    }
+                ]
+            },
+            "pol_cookies": {
+                "name": "pol_cookies",
+                "domain": "www.politie.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171272129,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757707272.126694,
+                        "expiry": 31536000.126693964,
+                        "value": "yes",
+                        "same_site": "lax",
+                        "timestamp": 1726171272127
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.291009903,
+                        "value": "no",
+                        "same_site": "lax",
+                        "timestamp": 1726171275292
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,930 @@
+{
+    "cxense.com": {
+        "/": {
+            "gckp": {
+                "name": "gckp",
+                "domain": ".cxense.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399136955,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935136.954115,
+                        "expiry": 31536000.954114914,
+                        "value": "1x0gm117zdg2i2qucjbj3ipbtz",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399136954
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.063429117,
+                        "value": "cx:3n4uo8pvfnqvy2oefwujvu1t10:2ze2k5ljjfrgw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399137064
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.065320015,
+                        "value": "1x0gm117zdg2i2qucjbj3ipbtz",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399137066
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136843,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726400036.842379,
+                        "expiry": 900.8423790931702,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399136842
+                    }
+                ]
+            }
+        }
+    },
+    "piano.io": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".piano.io",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136637,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726400936.637467,
+                        "expiry": 1800.6374669075012,
+                        "value": "5GWjcEOcfg8GTKfa0lhLquvMCu9YWljKrBukfIJTTvk-1726399136-1.0.1.1-HsMTMJmpiPoqlNYc2OyzbrkycHEnwSURgbo2wHN4aly_YZpiWWwc9cSQ4TF0zyIkuad_FHalxxsdzZ33z8FLVQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399136637
+                    }
+                ]
+            }
+        }
+    },
+    "thedailybeast.com": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135340,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726402735.315048,
+                        "expiry": 3600.315047979355,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135339
+                    }
+                ]
+            },
+            "__pat": {
+                "name": "__pat",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136673,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728991136,
+                        "expiry": 2592000,
+                        "value": "-14400000",
+                        "same_site": "lax",
+                        "timestamp": 1726399136673
+                    }
+                ]
+            },
+            "__pid": {
+                "name": "__pid",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399135926,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728991135,
+                        "expiry": 2592000,
+                        "value": ".thedailybeast.com",
+                        "same_site": "lax",
+                        "timestamp": 1726399135926
+                    }
+                ]
+            },
+            "__pvi": {
+                "name": "__pvi",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136674,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485536,
+                        "expiry": 86400,
+                        "value": "eyJpZCI6InYtbTEzaGd5a2J4bTNpMjZzOSIsImRvbWFpbiI6Ii50aGVkYWlseWJlYXN0LmNvbSIsInRpbWUiOjE3MjYzOTkxMzY2NzB9",
+                        "same_site": "lax",
+                        "timestamp": 1726399136674
+                    }
+                ]
+            },
+            "__tbc": {
+                "name": "__tbc",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136672,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959136.669775,
+                        "expiry": 34560000.66977501,
+                        "value": "%7Bkpex%7DTh19TkSsRfIoyXWRh23ZXCryBTTC1A5W4IqZlkrXksmcgKBKbGGnjiZ-QCrc8XKn",
+                        "same_site": "lax",
+                        "timestamp": 1726399136670
+                    }
+                ]
+            },
+            "_cookie_test": {
+                "name": "_cookie_test",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135715,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726399165,
+                        "expiry": 30,
+                        "value": "m13hgyjlq0pyt4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135714
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgyk2jvnq2i",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135730
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgyk2o5pic9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135731
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgyk9vhu7sp",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135739
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgyngug6lsy",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135853
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgynl2gl83f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135857
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgza5neif6t",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399136673
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgzajm9jzh8",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399136683
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgzl6osv2ya",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399137067
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m13hgzx4dl587a",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399137497
+                    }
+                ]
+            },
+            "_detectRootDomain": {
+                "name": "_detectRootDomain",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135557,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485535,
+                        "expiry": 86400,
+                        "value": "testRootDomain",
+                        "same_site": "lax",
+                        "timestamp": 1726399135556
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399136679,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959136.67599,
+                        "expiry": 34560000.675990105,
+                        "value": "GA1.1.206188201.1726399137",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399136679
+                    }
+                ]
+            },
+            "_ga_GSSSY8MJY1": {
+                "name": "_ga_GSSSY8MJY1",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399136679,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959136.675761,
+                        "expiry": 34560000.675760984,
+                        "value": "GS1.1.1726399136.1.0.1726399136.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399136678
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.49363589,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399137494
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.49382806,
+                        "value": "GS1.1.1726399136.1.0.1726399137.59.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399137494
+                    }
+                ]
+            },
+            "_pcid": {
+                "name": "_pcid",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399135744,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760527135,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m13hgyk8gehju1f1%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726399135743
+                    }
+                ]
+            },
+            "_pctx": {
+                "name": "_pctx",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135738,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760527135,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXQF8g",
+                        "same_site": "lax",
+                        "timestamp": 1726399135737
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIEYOBmAdgBZuHAJy8ATAAZeAVknDh-AGwgAvkA",
+                        "same_site": "lax",
+                        "timestamp": 1726399135739
+                    }
+                ]
+            },
+            "_pcus": {
+                "name": "_pcus",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136675,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760527136,
+                        "expiry": 34128000,
+                        "value": "eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVHM6MjBlNGU3YzViYjBmZmVhNTNhZTFlYTUwYTA1ZjZiNWZkMWZkMzI1Zjpub19zY29yZSIsIkxUYzpmMTFjZDViNTMzODEyOWI0NDkyNmZmOGQzNDg3ZDQxYWExMTVlNTg2Om5vX3Njb3JlIiwiTFRyZWc6ZDQ1ZGI2NWQ0MjkyMDljYzVmNmYxNjY4YmFhN2ZjMGEwZGUxMjRhMzpub19zY29yZSIsIkxUcmV0dXJuOjg2ODBhZGYyMmNhOTljMjg4ZDliNDEyOTAwZDA1MTE1ODhhNWNlODc6bm9fc2NvcmUiLCJDU2NvcmU6MDc2YzA3MGQ1N2ZmZmMyZWQ5YjY2ZmIyMjRhMWY4OGQyMWEyMGUwZTpub19zY29yZSJdfX19",
+                        "same_site": "lax",
+                        "timestamp": 1726399136675
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135342,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726406334.315109,
+                        "expiry": 7199.315109014511,
+                        "value": "A83381F357701FD4271FE7C78A46D045~000000000000000000000000000000~YAAQk7USAmvr9uyRAQAAnj5o9RlpZDBOYL4N8uh6S2nemxxZoHuXYk7plf0po0Z7G7sjkF/CnrmIcgQAsiA2/SK+GlHJ9kVfPnQIIOgAp/4vD2b+KPiZaF6r/FU9jPdBNMGUACYDkWq/pnHgNAsEQ9UTKZGn51vidFNB4KAxXtTOfoetEYDBteSGauSz5Yl+ylcS9yrbNN0nyFAppK5LCg8a+tJOBi3CThUN5CpQ6ywI9GCMxkz70rz3g/Dgk6t28V6atSjMeR0xkARNC3nqV6L9qBUbCyw9hiVH5xcLI2szU1GbeuhxT34Ffsvf7VfzQwvGDDR0ukY1DG5jnmQ1OF5wwm2+Wl+J6AkpQnCnwXx2gJqlmlpaUppj+jN5tvIcA0PVczxABSOnHgwCMQH1pFI=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135340
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.705220937729,
+                        "value": "D6A60D24FF8372DB9B0BB42C07C5BD52~000000000000000000000000000000~YAAQk7USAm3r9uyRAQAAJ0Bo9RmjVwjkWO8JFhCoYISyb4ypxC3TyTP0fwoa6gZP1/GN2h08HWuQND+H3DgOVNgIHtNHFiH8blUyQPbToMZbIW42NCA+ShFPK8GdFYANaRTV6S3PmIfn09pziWfEZ96fede3/B4HepzCcog0vLQfy+Q5Relw54kBmTpDQfOuoTBT8+oRmQdZbxDu9jE5SkfCxpKSJBLjml/BQ83sT057rjUd7MXzpKsMlOMXyXXYGp2F4ZalxMJDFm1+92mgL+FmYz4pEaLLGS8CascmMBqyTT1omZ5IKSWZTPztvjHudAmw6VkaXjRzvnjbYRPpQi7iXMQAOZCOcdLcy/5b62QlcCZtwmwWX7e/QUO0pLUCN6FxA70sM0279dXnc/f6PEiKCOn56GxQCnO4vZiZW6UPdZAAA9Y6oC1drg==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135705
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7198.295057058334,
+                        "value": "D6A60D24FF8372DB9B0BB42C07C5BD52~000000000000000000000000000000~YAAQk7USAm7r9uyRAQAAdEJo9RnxH4n0nan9bWyl1uARu78s13ppHsTK+fjSQSAD93GGzvn1H3Wbg3+8kCENBd0ut+RelI97KpHvShw9IoH0iIIMX6ifSjUvBM1+UiLNvqIsUywY15dFPVw8pcAIYaWuKAVeEa7EMrXTAjP0JUw5jPNedkyHGj1ZlpIwItZofV9rdmIPinF+ao8WqJ7/cIGWsUGS8TEk1aG2WMZCsJ4zwtZyZQgiD1QLLD1q0o9kTjEFlYGSEnl51aKNThw6MAxSHFjiLbZT8yBwR8P2hpo3gsbE0QovM3pyXWqLjWu4BQCUQiaL2Rrf/wYZU9TT1WQ/6b8Zc5Eho8VoJ/YfpAyofgBh4p+3fny3XfscHNEk2+ekzLAipqwQ++P4txzEAc+vpsizdtYUb6IxuD7IcvXiDVpLhgVKtkD9p14PQHWaFQdSdrpWMcV+",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399136297
+                    }
+                ]
+            },
+            "cX_G": {
+                "name": "cX_G",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399137069,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760527137,
+                        "expiry": 34128000,
+                        "value": "cx%3A3n4uo8pvfnqvy2oefwujvu1t10%3A2ze2k5ljjfrgw",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399137068
+                    }
+                ]
+            },
+            "cX_P": {
+                "name": "cX_P",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136685,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760527136,
+                        "expiry": 34128000,
+                        "value": "m13hgyk8gehju1f1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399136684
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "m13hgyk8gehju1f1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399137498
+                    }
+                ]
+            },
+            "kameleoonVisitorCode": {
+                "name": "kameleoonVisitorCode",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135558,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757935135,
+                        "expiry": 31536000,
+                        "value": "5wxe6kr8g4xr41bf",
+                        "same_site": "lax",
+                        "timestamp": 1726399135557
+                    }
+                ]
+            },
+            "xbc": {
+                "name": "xbc",
+                "domain": ".thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136674,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959136.671465,
+                        "expiry": 34560000.67146492,
+                        "value": "%7Bkpex%7DiTHZm4UKohZRNMp90sHc1Y9b5WHwQVIgPlsqRztwaIiCKkA8DuEMEfatmAK8gQmhXDD3mfHzDKhntxz1D98F8g",
+                        "same_site": "lax",
+                        "timestamp": 1726399136674
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".www.thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136638,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757935136,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0",
+                        "same_site": "lax",
+                        "timestamp": 1726399136638
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726399136639
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726399136664
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4b9de61b-7cdf-4e04-919e-b99dfc9936d1",
+                        "same_site": "lax",
+                        "timestamp": 1726399136664
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4b9de61b-7cdf-4e04-919e-b99dfc9936d1&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726399136665
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4b9de61b-7cdf-4e04-919e-b99dfc9936d1&interactionCount=0&isAnonUser=1",
+                        "same_site": "lax",
+                        "timestamp": 1726399136665
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4b9de61b-7cdf-4e04-919e-b99dfc9936d1&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.thedailybeast.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726399136666
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A56+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4b9de61b-7cdf-4e04-919e-b99dfc9936d1&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.thedailybeast.com%2F&groups=C0001%3A1%2CBG32%3A0%2CC0003%3A0%2CC0004%3A0%2CC0002%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726399136721
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A18%3A57+GMT%2B0200+(Central+European+Summer+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4b9de61b-7cdf-4e04-919e-b99dfc9936d1&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.thedailybeast.com%2F&groups=C0001%3A1%2CBG32%3A0%2CC0003%3A0%2CC0004%3A0%2CC0002%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726399137495
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".www.thedailybeast.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399136935,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727003936,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.thedailybeast.com&si=b02f88ed-728c-4552-8da5-a0edc94d72af&ss=m13hgxrb&sl=0&tt=0\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399136934
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.thedailybeast.com&si=b02f88ed-728c-4552-8da5-a0edc94d72af&ss=m13hgxrb&sl=0&tt=0&rl=1\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399137449
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.thedailybeast.com&si=b02f88ed-728c-4552-8da5-a0edc94d72af&ss=m13hgxrb&sl=1&tt=24h&rl=1&ld=24j\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399137450
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.thedailybeast.com&si=b02f88ed-728c-4552-8da5-a0edc94d72af&ss=m13hgxrb&sl=1&tt=24h&rl=1&ld=24j&ul=25p\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399137492
+                    }
+                ]
+            },
+            "OneTrustWPCCPAGoogleOptOut": {
+                "name": "OneTrustWPCCPAGoogleOptOut",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136682,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757935136,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726399136682
+                    }
+                ]
+            },
+            "__tdbsesh.sig": {
+                "name": "__tdbsesh.sig",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135339,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726400935.314977,
+                        "expiry": 1800.3149769306183,
+                        "value": "JKF4o3VVhL6-He-fKUsxhPfjA9c",
+                        "same_site": "lax",
+                        "timestamp": 1726399135330
+                    }
+                ]
+            },
+            "__tdbsesh": {
+                "name": "__tdbsesh",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135329,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726400935.314001,
+                        "expiry": 1800.314001083374,
+                        "value": "eyJub3dJbk1pbnV0ZXMiOjI4NzczMzE4LCJzZXNzaW9uSWQiOiJhZWE5Y2Y0MC1kZjMxLTQxZjktYWEwNi1iYmY3NDMzM2YyYmEiLCJkZnBCdWNrZXRJZCI6MTB9",
+                        "same_site": "lax",
+                        "timestamp": 1726399135317
+                    }
+                ]
+            },
+            "_pc_annoyed": {
+                "name": "_pc_annoyed",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399136676,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726399136675
+                    }
+                ]
+            },
+            "_pc_hp": {
+                "name": "_pc_hp",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136676,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727003936,
+                        "expiry": 604800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726399136676
+                    }
+                ]
+            },
+            "cookies.js": {
+                "name": "cookies.js",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399135616,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399135614
+                    }
+                ]
+            },
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": "www.thedailybeast.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399136451,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757935136,
+                        "expiry": 31536000,
+                        "value": "1---",
+                        "same_site": "lax",
+                        "timestamp": 1726399136450
+                    }
+                ]
+            }
+        }
+    },
+    "id.tinypass.com": {
+        "/": {
+            "AWSELBCORS": {
+                "name": "AWSELBCORS",
+                "domain": "id.tinypass.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399135925,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726399735.924289,
+                        "expiry": 600.9242889881134,
+                        "value": "D54D83371CA73269B30D9CD8F7A2329AB776287862631963EA45639467593466FE96E1B9425EE10FBC6F62BBDC6CE59465D44AD307482732F48E8C8F71FCFC71E21E21959A",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399135924
+                    }
+                ]
+            }
+        }
+    }
+}

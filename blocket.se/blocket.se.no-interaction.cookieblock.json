@@ -1,0 +1,47 @@
+{
+    "blocket.se": {
+        "/": {
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".blocket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149821025,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741701821.024988,
+                        "expiry": 15552000.024987936,
+                        "value": "84d72cc5-24e6-40e4-a5a0-5e91dbe15236",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726149821025
+                    }
+                ]
+            },
+            "cookietest": {
+                "name": "cookietest",
+                "domain": "www.blocket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149820629,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149820625
+                    }
+                ]
+            }
+        }
+    }
+}

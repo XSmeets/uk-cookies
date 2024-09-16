@@ -1,0 +1,57 @@
+{
+    "gov.scot": {
+        "/": {
+            "cookie-notification-acknowledged": {
+                "name": "cookie-notification-acknowledged",
+                "domain": "www.gov.scot",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233177864,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757769177,
+                        "expiry": 31536000,
+                        "value": "eWVz",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233177854
+                    }
+                ]
+            },
+            "cookiePermissions": {
+                "name": "cookiePermissions",
+                "domain": "www.gov.scot",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233170481,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "eyJzdGF0aXN0aWNzIjpmYWxzZSwicHJlZmVyZW5jZXMiOnRydWV9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233170476
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "eyJuZWNlc3NhcnkiOnRydWUsInByZWZlcmVuY2VzIjpmYWxzZSwic3RhdGlzdGljcyI6ZmFsc2UsImNhbXBhaWducyI6ZmFsc2UsIm1hcmtldGluZyI6ZmFsc2V9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233177854
+                    }
+                ]
+            }
+        }
+    }
+}

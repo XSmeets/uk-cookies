@@ -1,0 +1,100 @@
+{
+    "amazon.es": {
+        "/": {
+            "i18n-prefs": {
+                "name": "i18n-prefs",
+                "domain": ".amazon.es",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726145599063,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757681599.009711,
+                        "expiry": 31536000.009711027,
+                        "value": "EUR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145599059
+                    }
+                ]
+            },
+            "session-id-time": {
+                "name": "session-id-time",
+                "domain": ".amazon.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145599059,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681599.009696,
+                        "expiry": 31536000.009696007,
+                        "value": "2082787201l",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145599059
+                    }
+                ]
+            },
+            "session-id": {
+                "name": "session-id",
+                "domain": ".amazon.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145599057,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681599.00965,
+                        "expiry": 31536000.009649992,
+                        "value": "260-2946709-1833831",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145599057
+                    }
+                ]
+            },
+            "csm-hit": {
+                "name": "csm-hit",
+                "domain": "www.amazon.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145598791,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1756385598,
+                        "expiry": 30240000,
+                        "value": "tb:s-DZFQC33JJAPFJRSTBGKP|1726145598788&t:1726145598788",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145598790
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:s-DZFQC33JJAPFJRSTBGKP|1726145598788&t:1726145598907&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145598907
+                    }
+                ]
+            }
+        }
+    }
+}

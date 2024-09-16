@@ -1,0 +1,655 @@
+{
+    "usatoday.com": {
+        "/": {
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395579877,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741947579,
+                        "expiry": 15552000,
+                        "value": "2024-09-15T10:19:39.874Z",
+                        "same_site": "lax",
+                        "timestamp": 1726395579875
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395570802,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG",
+                        "same_site": "lax",
+                        "timestamp": 1726395584662
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG",
+                        "same_site": "lax",
+                        "timestamp": 1726395584664
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395584665
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A44+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395584669
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395592119
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395592126
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395592127
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395592129
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395592130
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A19%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=62af92a4-79b3-4ce8-8813-a34dc9832394&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2C5%3A0%2CBG250%3A0%2CV2STACK42%3A0&genVendors=V12%3A0%2CV13%3A0%2CV8%3A1%2CV10%3A1%2CV9%3A1%2CV7%3A1%2CV1%3A1%2C&intType=5&geolocation=GB%3BENG&AwaitingReconsent=false",
+                        "same_site": "lax",
+                        "timestamp": 1726395592175
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726395584342,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931584.34,
+                        "expiry": 31536000.339999914,
+                        "value": "GA1.1.1577932011.1726395584340",
+                        "same_site": "lax",
+                        "timestamp": 1726395584341
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.667335033,
+                        "value": "GA1.1.1577932011.1726395584340",
+                        "same_site": "lax",
+                        "timestamp": 1726395584667
+                    }
+                ]
+            },
+            "_parsely_session": {
+                "name": "_parsely_session",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395584435,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726397384,
+                        "expiry": 1800,
+                        "value": "{%22sid%22:1%2C%22surl%22:%22https://cm.usatoday.com/your-privacy-choices/?hidebanner=true%22%2C%22sref%22:%22%22%2C%22sts%22:1726395584433%2C%22slts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395584434
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "{%22sid%22:1%2C%22surl%22:%22https://cm.usatoday.com/your-privacy-choices/?hidebanner=true%22%2C%22sref%22:%22%22%2C%22sts%22:1726395584433%2C%22slts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395584436
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "{%22sid%22:1%2C%22surl%22:%22https://cm.usatoday.com/your-privacy-choices/?hidebanner=true%22%2C%22sref%22:%22%22%2C%22sts%22:1726395584433%2C%22slts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395591139
+                    }
+                ]
+            },
+            "_parsely_visitor": {
+                "name": "_parsely_visitor",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395584438,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760559584,
+                        "expiry": 34164000,
+                        "value": "{%22id%22:%22pid=4548234b-abb3-4539-8e05-2a04d36f5c17%22%2C%22session_count%22:0%2C%22last_session_ts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395584436
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34164000,
+                        "value": "{%22id%22:%22pid=4548234b-abb3-4539-8e05-2a04d36f5c17%22%2C%22session_count%22:1%2C%22last_session_ts%22:1726395584433}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395584438
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34164000,
+                        "value": "{%22id%22:%22pid=4548234b-abb3-4539-8e05-2a04d36f5c17%22%2C%22session_count%22:1%2C%22last_session_ts%22:1726395584433}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395591142
+                    }
+                ]
+            },
+            "cookies.js_dtest": {
+                "name": "cookies.js_dtest",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584433,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395584432
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395579897,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741947579,
+                        "expiry": 15552000,
+                        "value": "CQE_EnAQE_EnAAcABBENBHFwAAAAAAAAACiQAAAU1gDAA4An2BRQCi0FGgUcApqAAAAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726395579896
+                    }
+                ]
+            },
+            "gca_pxi": {
+                "name": "gca_pxi",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931584.667389,
+                        "expiry": 31536000.667388916,
+                        "value": "hosting:vpn",
+                        "same_site": "lax",
+                        "timestamp": 1726395584667
+                    }
+                ]
+            },
+            "gca_rs": {
+                "name": "gca_rs",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584341,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726481984.34,
+                        "expiry": 86400.33999991417,
+                        "value": "direct",
+                        "same_site": "lax",
+                        "timestamp": 1726395584340
+                    }
+                ]
+            },
+            "gnt_cc": {
+                "name": "gnt_cc",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395583843,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726417183.840013,
+                        "expiry": 21600.84001302719,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395583842
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.186566114426,
+                        "value": "london",
+                        "same_site": "lax",
+                        "timestamp": 1726395584191
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.217413902283,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584218
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.218316078186,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584219
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.2315158844,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584232
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.233140945435,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584236
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.261687994003,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584263
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.26290488243,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584265
+                    }
+                ]
+            },
+            "gnt_cz": {
+                "name": "gnt_cz",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395583841,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726417183.839973,
+                        "expiry": 21600.83997297287,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395583840
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.186417102814,
+                        "value": "ec2n 3ar",
+                        "same_site": "lax",
+                        "timestamp": 1726395584191
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.217365026474,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584218
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.218194961548,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584219
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.23147892952,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584232
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.233078956604,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584236
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.2614068985,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584262
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.261648893356,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584263
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 21600.26272392273,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395584265
+                    }
+                ]
+            },
+            "gnt_eid": {
+                "name": "gnt_eid",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395570376,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1731579570.3694,
+                        "expiry": 5184000.369400024,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395570370
+                    }
+                ]
+            },
+            "gnt_i": {
+                "name": "gnt_i",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395570381,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931570.369482,
+                        "expiry": 31536000.36948204,
+                        "value": "27306032565043982899*60068*GB~LND",
+                        "same_site": "lax",
+                        "timestamp": 1726395570376
+                    }
+                ]
+            },
+            "gnt_sb": {
+                "name": "gnt_sb",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584191,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931584.186383,
+                        "expiry": 31536000.18638301,
+                        "value": "15",
+                        "same_site": "lax",
+                        "timestamp": 1726395584189
+                    }
+                ]
+            },
+            "gnt_ub": {
+                "name": "gnt_ub",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584189,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931584.186306,
+                        "expiry": 31536000.186306,
+                        "value": "74",
+                        "same_site": "lax",
+                        "timestamp": 1726395584188
+                    }
+                ]
+            }
+        }
+    },
+    "cm.usatoday.com": {
+        "/": {
+            "OneTrustWPCCPAGoogleOptOut": {
+                "name": "OneTrustWPCCPAGoogleOptOut",
+                "domain": "cm.usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584629,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931584,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726395584628
+                    }
+                ]
+            },
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": "cm.usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395584318,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931579,
+                        "expiry": 31535995,
+                        "value": "1---",
+                        "same_site": "lax",
+                        "timestamp": 1726395584317
+                    }
+                ]
+            }
+        }
+    }
+}

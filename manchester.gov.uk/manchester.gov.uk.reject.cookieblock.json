@@ -1,0 +1,77 @@
+{
+    "manchester.gov.uk": {
+        "/": {
+            "TestCookie": {
+                "name": "TestCookie",
+                "domain": ".manchester.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233074747,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Test",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233074741
+                    }
+                ]
+            },
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "www.manchester.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233074929,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760793074.929041,
+                        "expiry": 34560000.92904091,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233074929
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000,
+                        "value": "{stamp:%27gnBfFPtgIifFyJu/6M9wnGppYbcgUeh/9iVMGRKcTkLypRV1tMqJbQ==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:6%2Cutc:1726233077080%2Cregion:%27gb%27}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233077106
+                    }
+                ]
+            },
+            "PHPSESSID": {
+                "name": "PHPSESSID",
+                "domain": "www.manchester.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233074738,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "wAW9QZ5ZpdwL7njccSTykF3XafGxKIjR8GMSkYBvgjstJfS-XYxMVvqvcSYBgg6a",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233074729
+                    }
+                ]
+            }
+        }
+    }
+}

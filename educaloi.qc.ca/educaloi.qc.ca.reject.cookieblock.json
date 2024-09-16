@@ -1,0 +1,87 @@
+{
+    "educaloi.qc.ca": {
+        "/": {
+            "cookieyes-consent": {
+                "name": "cookieyes-consent",
+                "domain": ".educaloi.qc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726344024069,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757880024,
+                        "expiry": 31536000,
+                        "value": "consentid:MjZCT3RoWE1TYll6eWdIOVQ3emVtQXpnbjNxTDl5QXo,consent:,action:,necessary:,functional:,analytics:,performance:,advertisement:,other:",
+                        "same_site": "strict",
+                        "timestamp": 1726344024064
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:MjZCT3RoWE1TYll6eWdIOVQ3emVtQXpnbjNxTDl5QXo,consent:no,action:,necessary:yes,functional:no,analytics:,performance:,advertisement:,other:",
+                        "same_site": "strict",
+                        "timestamp": 1726344024486
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:MjZCT3RoWE1TYll6eWdIOVQ3emVtQXpnbjNxTDl5QXo,consent:no,action:,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no,other:no",
+                        "same_site": "strict",
+                        "timestamp": 1726344024487
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:MjZCT3RoWE1TYll6eWdIOVQ3emVtQXpnbjNxTDl5QXo,consent:yes,action:yes,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no,other:no",
+                        "same_site": "strict",
+                        "timestamp": 1726344034239
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:MjZCT3RoWE1TYll6eWdIOVQ3emVtQXpnbjNxTDl5QXo,consent:yes,action:yes,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no,other:no",
+                        "same_site": "strict",
+                        "timestamp": 1726344034244
+                    }
+                ]
+            },
+            "wp-wpml_current_language": {
+                "name": "wp-wpml_current_language",
+                "domain": "educaloi.qc.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726344024250,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "fr",
+                        "same_site": "unspecified",
+                        "timestamp": 1726344024246
+                    }
+                ]
+            }
+        }
+    }
+}

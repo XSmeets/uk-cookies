@@ -1,0 +1,1107 @@
+{
+    "ad.gt": {
+        "/": {
+            "au_3p_check": {
+                "name": "au_3p_check",
+                "domain": ".ad.gt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396957997,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396957996
+                    }
+                ]
+            }
+        }
+    },
+    "apnews.com": {
+        "/": {
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/": {
+                "name": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726396940755,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940754
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396957342,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757932957,
+                        "expiry": 31536000,
+                        "value": "2024-09-15T10:42:37.340Z",
+                        "same_site": "lax",
+                        "timestamp": 1726396957341
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396943680,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726396943681
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726396943709
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd",
+                        "same_site": "lax",
+                        "timestamp": 1726396943709
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726396943710
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=0&landingPath=https%3A%2F%2Fapnews.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726396943718
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=0&landingPath=https%3A%2F%2Fapnews.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726396943805
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=0&landingPath=NotLandingPage&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726396957344
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=0&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726396957353
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=0&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726396957393
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A42%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=457e4282-819f-44d2-aeef-a5f93245facd&interactionCount=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0%2CV2STACK42%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726396957397
+                    }
+                ]
+            },
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940052,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726398740.051256,
+                        "expiry": 1800.051255941391,
+                        "value": "9b.bpd4qkj.3UmdqorbbpfIph65b638qHOLcCXpb7QM-1726396942-1.0.1.1-BiJR44mN5cGuIlz67ViumpjgbS81GIgQrTuTwG6QHa0TZ1vGc5rqMywXDCZP8hkd_iVT1xCHI22ctNRGUMLi_vmjUCUFd8jjVEbosRAc634",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940052
+                    }
+                ]
+            },
+            "__qca": {
+                "name": "__qca",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396943299,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760265743,
+                        "expiry": 33868800,
+                        "value": "P0-2130047610-1726396940688",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396943298
+                    }
+                ]
+            },
+            "_dlt": {
+                "name": "_dlt",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726396940688,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726483340,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940687
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726396940697,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760956940.695727,
+                        "expiry": 34560000.69572711,
+                        "value": "GA1.2.1471699021.1726396941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940696
+                    }
+                ]
+            },
+            "_gat_gtag_UA_19104461_33": {
+                "name": "_gat_gtag_UA_19104461_33",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726396940698,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726397000,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940698
+                    }
+                ]
+            },
+            "_gd1726396940716_sharedId": {
+                "name": "_gd1726396940716_sharedId",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940717,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940717
+                    }
+                ]
+            },
+            "_gd1726396940719_sharedId": {
+                "name": "_gd1726396940719_sharedId",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940721,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940720
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726396940698,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726483340,
+                        "expiry": 86400,
+                        "value": "GA1.2.129995975.1726396941",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940697
+                    }
+                ]
+            },
+            "_parsely_session": {
+                "name": "_parsely_session",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726396940705,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726398740,
+                        "expiry": 1800,
+                        "value": "{%22sid%22:1%2C%22surl%22:%22https://apnews.com/%22%2C%22sref%22:%22%22%2C%22sts%22:1726396940704%2C%22slts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940704
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "{%22sid%22:1%2C%22surl%22:%22https://apnews.com/%22%2C%22sref%22:%22%22%2C%22sts%22:1726396940704%2C%22slts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940706
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "{%22sid%22:1%2C%22surl%22:%22https://apnews.com/%22%2C%22sref%22:%22%22%2C%22sts%22:1726396940704%2C%22slts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396961003
+                    }
+                ]
+            },
+            "_parsely_visitor": {
+                "name": "_parsely_visitor",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940707,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760560940,
+                        "expiry": 34164000,
+                        "value": "{%22id%22:%22pid=a604770d-9eab-4a39-ac5c-c9af188f54d9%22%2C%22session_count%22:0%2C%22last_session_ts%22:0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940706
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34164000,
+                        "value": "{%22id%22:%22pid=a604770d-9eab-4a39-ac5c-c9af188f54d9%22%2C%22session_count%22:1%2C%22last_session_ts%22:1726396940704}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940708
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34164000,
+                        "value": "{%22id%22:%22pid=a604770d-9eab-4a39-ac5c-c9af188f54d9%22%2C%22session_count%22:1%2C%22last_session_ts%22:1726396940704}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396961005
+                    }
+                ]
+            },
+            "_pubcid": {
+                "name": "_pubcid",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940719,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741948940,
+                        "expiry": 15552000,
+                        "value": "91c6986f-b69a-4cf5-abcd-3561caccdb39",
+                        "same_site": "lax",
+                        "timestamp": 1726396940718
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "91c6986f-b69a-4cf5-abcd-3561caccdb39",
+                        "same_site": "lax",
+                        "timestamp": 1726396940722
+                    }
+                ]
+            },
+            "_pubcid_cst": {
+                "name": "_pubcid_cst",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940719,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741948940,
+                        "expiry": 15552000,
+                        "value": "zix7LPQsHA%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726396940719
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "zix7LPQsHA%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726396940722
+                    }
+                ]
+            },
+            "blaize_session": {
+                "name": "blaize_session",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940797,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1738492939.795682,
+                        "expiry": 12095999.795681953,
+                        "value": "120098a6-d257-46d4-8c3a-63b5511e554c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940796
+                    }
+                ]
+            },
+            "blaize_tracking_id": {
+                "name": "blaize_tracking_id",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940798,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760956939.795766,
+                        "expiry": 34559999.795766115,
+                        "value": "f4f8b3f5-b5f8-4c5a-ac2a-85c457264a06",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940797
+                    }
+                ]
+            },
+            "cookies.js_dtest": {
+                "name": "cookies.js_dtest",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940703,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940703
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396957393,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757932957,
+                        "expiry": 31536000,
+                        "value": "CQE_EnAQE_EnAAcABBENBHFwAAAAAAAAACiQAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726396957392
+                    }
+                ]
+            },
+            "optimizelyDomainTestCookie": {
+                "name": "optimizelyDomainTestCookie",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726396940470,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741948940,
+                        "expiry": 15552000,
+                        "value": "0.8481836811137538",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940469
+                    }
+                ]
+            },
+            "optimizelyEndUserId": {
+                "name": "optimizelyEndUserId",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726396940471,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741948940,
+                        "expiry": 15552000,
+                        "value": "oeu1726396940468r0.21056496365450217",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940471
+                    }
+                ]
+            },
+            "properSessionStorage": {
+                "name": "properSessionStorage",
+                "domain": ".apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940446,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726398740,
+                        "expiry": 1800,
+                        "value": "eyJ1dWlkIjoiOGNmNzhjZWMtN2Q4MC00MmE2LTk4OWUtYjgxOTQyMjdhYThjIiwiZGVwdGgiOjEsInJlZmVycmVyIjoiIiwiZ2NsaWQiOiIiLCJmYmNsaWQiOiIiLCJ1dG1fY2FtcGFpZ24iOiIiLCJ1dG1fc291cmNlIjoiIiwidXRtX21lZGl1bSI6IiIsInV0bV90ZXJtIjoiIiwidXRtX2NvbnRlbnQiOiIiLCJ1dG1fdGVtcGxhdGUiOiIiLCJ1dG1fcmVmZXJyZXIiOiIiLCJ1dG1fYWRzZXQiOiIiLCJ1dG1fc3ViaWQiOiIiLCJyZXZlbnVlIjowLCJkeW5hbWljX2Zsb29ycyI6e30sIm5vX2JpZF9jbnQiOnt9LCJhdWN0aW9uX2NvdW50IjowLCJsYXN0X3RocmVzaG9sZCI6MH0%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726396940444
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "eyJ1dWlkIjoiOGNmNzhjZWMtN2Q4MC00MmE2LTk4OWUtYjgxOTQyMjdhYThjIiwiZGVwdGgiOjEsInJlZmVycmVyIjoiIiwiZ2NsaWQiOiIiLCJmYmNsaWQiOiIiLCJ1dG1fY2FtcGFpZ24iOiIiLCJ1dG1fc291cmNlIjoiIiwidXRtX21lZGl1bSI6IiIsInV0bV90ZXJtIjoiIiwidXRtX2NvbnRlbnQiOiIiLCJ1dG1fdGVtcGxhdGUiOiIiLCJ1dG1fcmVmZXJyZXIiOiIiLCJ1dG1fYWRzZXQiOiIiLCJ1dG1fc3ViaWQiOiIiLCJyZXZlbnVlIjowLCJkeW5hbWljX2Zsb29ycyI6e30sIm5vX2JpZF9jbnQiOnt9LCJhdWN0aW9uX2NvdW50IjoxLCJsYXN0X3RocmVzaG9sZCI6MH0%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726396957391
+                    }
+                ]
+            },
+            "AWSALB": {
+                "name": "AWSALB",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940454,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727001740.451961,
+                        "expiry": 604800.4519610405,
+                        "value": "DhVT09w/K7REmt2ufDxP8/WgZjCF83+8R1yKeFKk71Yd9DDKmXfKWGVppsjZ4WulCkHl2ydAaMFsViFrRes7NERCHSkQTVyS0cysbkRZzNuaWUo+bwIfnhzpOBuU",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940452
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604799.7955100536,
+                        "value": "BE5HjHYEcL30ZrTGrKU/5Je8FD+OtgY0snMnB1FIleIJw1XmsAObvwycnCIkjW7V2/k98bSE0jRdrXiMNd+eIEOSv1TjO/i0nG4uQmHe8DDXU2KIsTPaqxDU0RSv",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940796
+                    }
+                ]
+            },
+            "AWSALBCORS": {
+                "name": "AWSALBCORS",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940456,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727001740.452056,
+                        "expiry": 604800.4520559311,
+                        "value": "DhVT09w/K7REmt2ufDxP8/WgZjCF83+8R1yKeFKk71Yd9DDKmXfKWGVppsjZ4WulCkHl2ydAaMFsViFrRes7NERCHSkQTVyS0cysbkRZzNuaWUo+bwIfnhzpOBuU",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940455
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604799.7956500053,
+                        "value": "BE5HjHYEcL30ZrTGrKU/5Je8FD+OtgY0snMnB1FIleIJw1XmsAObvwycnCIkjW7V2/k98bSE0jRdrXiMNd+eIEOSv1TjO/i0nG4uQmHe8DDXU2KIsTPaqxDU0RSv",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940796
+                    }
+                ]
+            },
+            "__browsiSessionID": {
+                "name": "__browsiSessionID",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396957746,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726398757,
+                        "expiry": 1800,
+                        "value": "c5320df0-277d-4295-8b2d-aaed5bd15769&false&DEFAULT&gb&desktop-4.30.153&false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396957745
+                    }
+                ]
+            },
+            "__browsiUID": {
+                "name": "__browsiUID",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396957747,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757932957,
+                        "expiry": 31536000,
+                        "value": "111c5a9c-4a2c-4e36-98b2-14ab7b6e2560",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396957746
+                    }
+                ]
+            },
+            "pbjs-unifiedid": {
+                "name": "pbjs-unifiedid",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726396943256,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1731580943,
+                        "expiry": 5184000,
+                        "value": "%7B%22TDID_LOOKUP%22%3A%22FALSE%22%2C%22TDID_CREATED_AT%22%3A%222024-09-15T10%3A42%3A23%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726396943255
+                    }
+                ]
+            },
+            "pbjs-unifiedid_cst": {
+                "name": "pbjs-unifiedid_cst",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396943257,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1731580943,
+                        "expiry": 5184000,
+                        "value": "zix7LPQsHA%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726396943256
+                    }
+                ]
+            },
+            "proper_rtp_split_test": {
+                "name": "proper_rtp_split_test",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726396940298,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "{\"version_id\":\"29869\",\"release_ts\":\"2024-09-11 12:40:09\"}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940293
+                    }
+                ]
+            },
+            "sailthru_content": {
+                "name": "sailthru_content",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940691,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757932940,
+                        "expiry": 31536000,
+                        "value": "b356d47a35dfffa723fc8131b36c3ed1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940690
+                    }
+                ]
+            },
+            "sailthru_pageviews": {
+                "name": "sailthru_pageviews",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940171,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726398740,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940167
+                    }
+                ]
+            },
+            "sailthru_visitor": {
+                "name": "sailthru_visitor",
+                "domain": "apnews.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940692,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757932940,
+                        "expiry": 31536000,
+                        "value": "6388a84e-79d9-40ef-a594-5cb5e27516ee",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940692
+                    }
+                ]
+            }
+        }
+    },
+    "bounceexchange.com": {
+        "/": {
+            "test": {
+                "name": "test",
+                "domain": ".bounceexchange.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396943495,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757932943,
+                        "expiry": 31536000,
+                        "value": "test",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396943494
+                    }
+                ]
+            }
+        }
+    },
+    "criteo.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760092940.667848,
+                        "expiry": 33696000.66784811,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940668
+                    }
+                ]
+            }
+        }
+    },
+    "id5-sync.com": {
+        "/": {
+            "id5": {
+                "name": "id5",
+                "domain": ".id5-sync.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940822,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734172940.821204,
+                        "expiry": 7776000.821203947,
+                        "value": "893436c6-64b5-7c39-9dfa-3d924c603a0a#1726396943054#1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940821
+                    }
+                ]
+            }
+        }
+    },
+    "postrelease.com": {
+        "/": {
+            "opt_out": {
+                "name": "opt_out",
+                "domain": ".postrelease.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396940664,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757932940.663585,
+                        "expiry": 31536000.663584948,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940664
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.742496967,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940743
+                    }
+                ]
+            }
+        }
+    },
+    "quantserve.com": {
+        "/": {
+            "mc": {
+                "name": "mc",
+                "domain": ".quantserve.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396943298,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760611343.297198,
+                        "expiry": 34214400.29719806,
+                        "value": "66e6ba11-81303-6d35a-4fd6b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396943297
+                    }
+                ]
+            }
+        }
+    },
+    "ap.blueconic.net": {
+        "/": {
+            "AWSALBCORS": {
+                "name": "AWSALBCORS",
+                "domain": "ap.blueconic.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940497,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727001740.495193,
+                        "expiry": 604800.4951930046,
+                        "value": "cXr7S53h8ePBPXTeGgzzEoFGo9sluS3yV0eC2cf/ZWj3GsMGWWo6T7woZAe+UmkZtTH3ho6+oMog+0SkRFucED9UpzMSEe+nNFHCTuiyER/gx6KCzuHWo2QOHFx3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940495
+                    }
+                ]
+            }
+        }
+    },
+    "apcdp.apnews.com": {
+        "/": {
+            "AWSALB": {
+                "name": "AWSALB",
+                "domain": "apcdp.apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940794,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727001740.792862,
+                        "expiry": 604800.7928619385,
+                        "value": "Og5KLaXgeM/C06hRn2Bl0QpMDFmMCLGPkK9LMgbbrlyLxHezEhBA0ARRGD7Ts4Eqx11RJJmnoboJgStV51NlpmTAPwVX92c7lym/DNr2E1p4oj37gtRt6AUZUBBn",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396940793
+                    }
+                ]
+            },
+            "AWSALBCORS": {
+                "name": "AWSALBCORS",
+                "domain": "apcdp.apnews.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396940794,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727001740.7929,
+                        "expiry": 604800.7929000854,
+                        "value": "Og5KLaXgeM/C06hRn2Bl0QpMDFmMCLGPkK9LMgbbrlyLxHezEhBA0ARRGD7Ts4Eqx11RJJmnoboJgStV51NlpmTAPwVX92c7lym/DNr2E1p4oj37gtRt6AUZUBBn",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396940794
+                    }
+                ]
+            }
+        }
+    },
+    "apv-launcher.minute.ly": {
+        "/": {
+            "AWSALBCORS": {
+                "name": "AWSALBCORS",
+                "domain": "apv-launcher.minute.ly",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396943315,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726791288.314053,
+                        "expiry": 394345.3140530586,
+                        "value": "crOrvlnezwPSPOdvir5exrAMVqAa/vAkxLopRAqGeWG42WCPfyefaVSxR+hZ+K+/BnVohnH+Ikv/YLjIk5lLODoVrGXhD8L4bfcGYzMUZ/QsdcaTHSnUQFlwYZBK",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396943314
+                    }
+                ]
+            }
+        }
+    }
+}

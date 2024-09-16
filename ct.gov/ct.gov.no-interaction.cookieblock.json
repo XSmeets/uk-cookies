@@ -1,0 +1,47 @@
+{
+    "ct.gov": {
+        "/": {
+            "TS25324a21029": {
+                "name": "TS25324a21029",
+                "domain": "ct.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419565363,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726419595.349748,
+                        "expiry": 30.349747896194458,
+                        "value": "08ec0ef8bdab2800e58433a26a835b318ea7eb84e2dc6d13d954c789b62856e6450d8e2cc9cbc69c80394e9721cc2527",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419565352
+                    }
+                ]
+            },
+            "TS3dde3009027": {
+                "name": "TS3dde3009027",
+                "domain": "ct.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419565369,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "08ec0ef8bdab20001780b03e24ee61481519437c40efd65f14f65aa640915921ec855f1a145a511808b580f750113000b075734c344898d379d4f92ab0278f5c3051d5d8f346d90f74be54c2a1ed28e816aa82023a40a1e6aeedbcb130997f0c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419565364
+                    }
+                ]
+            }
+        }
+    }
+}

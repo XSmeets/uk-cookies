@@ -1,0 +1,482 @@
+<html lang="pt-PT" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><script src="assets/bot/rs_index.js" async=""></script>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Autoridade Tributária e Aduaneira [https://www.portaldasfinancas.gov.pt/at/html/index.html]">
+        <meta name="description" content="Autoridade Tributária e Aduaneira">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portal das Finanças</title>
+
+		<!-- ICONS -->
+		<link rel="icon" href="favicon.ico">
+
+		<!-- FONTS -->
+		<!--
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,700' rel='stylesheet' type='text/css'>
+		-->
+
+		<!-- MAIN CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+		<!-- CHATBOT CSS - Watson -->
+		<!--
+		<link rel="styleshhet" type="text/css" href="assets/bot/bot.css">
+		-->
+		<!-- CHATBOT CSS - RASA -->
+		<link rel="stylesheet" type="text/css" href="assets/bot/rs_style.css">
+		
+		<!--[if lt IE 9]>
+
+		<![endif]-->
+
+		<!-- MAIN SCRIPTS -->
+		<script src="assets/js/lib/modernizr.min.js"></script>
+
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/lib/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- OpenSearch -->
+		<link rel="search" type="application/opensearchdescription+xml" href="https://static.portaldasfinancas.gov.pt/app/pfstatic_static/opensearch/osd.xml" title="Portal das Finanças">
+
+		<!-- JSON-LD - Indexacao Google https://developers.google.com/structured-data/slsb-overview -->
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "WebSite",
+		  "url": "https://www.portaldasfinancas.gov.pt/",
+		  "potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://sitfiscal.portaldasfinancas.gov.pt/geral/search?query={search_term_string}",
+			"query-input": "required name=search_term_string"
+		  }
+		}
+		</script>
+		
+	<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-conversation-container .rw-header{background-color:#135afe;color:#fff;display:flex;flex-direction:column;justify-content:center;text-align:center;height:55px;font-family:Inter,sans-serif;position:relative}.rw-conversation-container .rw-header .rw-avatar{all:initial;height:31px;width:31px;position:absolute;top:12px;left:14px}.rw-conversation-container .rw-header.rw-with-subtitle{height:70px}.rw-conversation-container .rw-header.rw-with-subtitle .rw-avatar{top:20px}.rw-conversation-container .rw-header.rw-with-subtitle .rw-title{top:11px}.rw-conversation-container .rw-header.rw-with-subtitle span{bottom:12px;position:absolute;left:22px}.rw-conversation-container .rw-header.rw-with-subtitle span.rw-with-avatar{left:60px}.rw-conversation-container .rw-title{font-size:20px;margin:0;font-family:Inter,sans-serif;position:absolute;left:20px;font-weight:700}.rw-conversation-container .rw-title.rw-with-avatar{left:58px}.rw-conversation-container .rw-header-buttons{position:absolute;right:10px;display:flex;flex-direction:row}.rw-conversation-container .rw-close-button{display:none}.rw-conversation-container .rw-toggle-fullscreen-button{display:flex;justify-content:center;align-items:center;display:inline-block;background-color:transparent;border:0;width:40px;cursor:pointer}.rw-conversation-container .rw-toggle-fullscreen-button:active,.rw-conversation-container .rw-toggle-fullscreen-button:focus,.rw-conversation-container .rw-toggle-fullscreen-button:hover{outline:none}.rw-conversation-container .rw-toggle-fullscreen-button:active::-moz-focus-inner,.rw-conversation-container .rw-toggle-fullscreen-button:focus::-moz-focus-inner,.rw-conversation-container .rw-toggle-fullscreen-button:hover::-moz-focus-inner{border:0}.rw-conversation-container .rw-toggle-fullscreen{width:30px;height:30px;padding-top:3px}.rw-conversation-container .rw-toggle-fullscreen.rw-default{width:20px;height:20px}.rw-conversation-container .rw-toggle-fullscreen.rw-default:active,.rw-conversation-container .rw-toggle-fullscreen.rw-default:focus,.rw-conversation-container .rw-toggle-fullscreen.rw-default:hover{width:24px;height:24px}.rw-conversation-container .rw-toggle-fullscreen:active,.rw-conversation-container .rw-toggle-fullscreen:focus,.rw-conversation-container .rw-toggle-fullscreen:hover{width:34px;height:34px;top:-2px;margin-left:-2px}.rw-conversation-container .rw-loading{background-color:#b5b5b5;color:#fff;display:flex;flex-direction:column;text-align:center;padding:5px 0;font-family:Inter,sans-serif;font-size:14px}.rw-widget-embedded .rw-header{display:none}.rw-full-screen .rw-header{border-radius:0;flex-shrink:0;position:relative}.rw-full-screen .rw-close-button,.rw-full-screen .rw-toggle-fullscreen-button{display:flex;justify-content:center;align-items:center;display:inline-block;background-color:transparent;border:0;width:40px;cursor:pointer}.rw-full-screen .rw-close-button:active,.rw-full-screen .rw-close-button:focus,.rw-full-screen .rw-close-button:hover,.rw-full-screen .rw-toggle-fullscreen-button:active,.rw-full-screen .rw-toggle-fullscreen-button:focus,.rw-full-screen .rw-toggle-fullscreen-button:hover{outline:none}.rw-full-screen .rw-close-button:active::-moz-focus-inner,.rw-full-screen .rw-close-button:focus::-moz-focus-inner,.rw-full-screen .rw-close-button:hover::-moz-focus-inner,.rw-full-screen .rw-toggle-fullscreen-button:active::-moz-focus-inner,.rw-full-screen .rw-toggle-fullscreen-button:focus::-moz-focus-inner,.rw-full-screen .rw-toggle-fullscreen-button:hover::-moz-focus-inner{border:0}.rw-full-screen .rw-close,.rw-full-screen .rw-toggle-fullscreen{width:30px;height:30px;padding-top:3px}.rw-full-screen .rw-close.rw-default,.rw-full-screen .rw-toggle-fullscreen.rw-default{width:20px;height:20px}.rw-full-screen .rw-close.rw-default:active,.rw-full-screen .rw-close.rw-default:focus,.rw-full-screen .rw-close.rw-default:hover,.rw-full-screen .rw-toggle-fullscreen.rw-default:active,.rw-full-screen .rw-toggle-fullscreen.rw-default:focus,.rw-full-screen .rw-toggle-fullscreen.rw-default:hover{width:24px;height:24px}.rw-full-screen .rw-close:active,.rw-full-screen .rw-close:focus,.rw-full-screen .rw-close:hover,.rw-full-screen .rw-toggle-fullscreen:active,.rw-full-screen .rw-toggle-fullscreen:focus,.rw-full-screen .rw-toggle-fullscreen:hover{width:34px;height:34px;top:-2px;margin-left:-2px}.rw-full-screen .rw-loading{border-radius:0;flex-shrink:0;position:relative}.rw-full-screen.rw-widget-container .rw-conversation-container{margin-bottom:0}@media screen and (max-width:800px){.rw-conversation-container .rw-header{border-radius:0;flex-shrink:0;position:relative}.rw-conversation-container .rw-close-button{display:flex;justify-content:center;align-items:center;display:inline-block;background-color:transparent;border:0;width:40px;cursor:pointer}.rw-conversation-container .rw-close-button:active,.rw-conversation-container .rw-close-button:focus,.rw-conversation-container .rw-close-button:hover{outline:none}.rw-conversation-container .rw-close-button:active::-moz-focus-inner,.rw-conversation-container .rw-close-button:focus::-moz-focus-inner,.rw-conversation-container .rw-close-button:hover::-moz-focus-inner{border:0}.rw-conversation-container .rw-close{width:30px;height:30px;padding-top:3px}.rw-conversation-container .rw-close.rw-default{width:20px;height:20px}.rw-conversation-container .rw-close.rw-default:active,.rw-conversation-container .rw-close.rw-default:focus,.rw-conversation-container .rw-close.rw-default:hover{width:24px;height:24px}.rw-conversation-container .rw-close:active,.rw-conversation-container .rw-close:focus,.rw-conversation-container .rw-close:hover{width:34px;height:34px;top:-2px;margin-left:-2px}.rw-conversation-container .rw-toggle-fullscreen-button,.rw-conversation-container .rw-w-.toggle-fullscreen{display:none}.rw-conversation-container .rw-loading{border-radius:0;flex-shrink:0;position:relative}}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-conversation-container .rw-videoFrame{width:300px;height:200px;margin-top:10px;border:none}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-conversation-container .rw-image-details{object-fit:scale-down;max-width:100%;margin-top:10px}.rw-conversation-container .rw-image-frame{object-position:0 0;object-fit:cover;width:100%;height:100%;border-radius:15px}</style><style type="text/css">.rw-doc-viewer-modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:20041997;display:block}.rw-doc-viewer-modal-body{overflow-y:auto;border-radius:5px;width:80vw;max-width:900px;position:relative;height:90vh;top:0;background:#fff;animation:doc-viewer-slide-down .2s ease}.rw-doc-viewer-open-modal-link{color:#003a9b;text-decoration:underline;cursor:pointer;display:inline;background:none!important;border:none;padding:0!important;font:inherit}.rw-doc-viewer-modal-iframe{height:100%;width:100%;border:none}.rw-doc-viewer-modal-fade{opacity:.5;position:fixed;top:0;right:0;bottom:0;left:0;z-index:10000;background-color:#000;animation:appear .2s ease}.rw-doc-viewer-modal-footer{flex:0 0 auto;border:none;text-align:center;margin-top:2vh}.rw-doc-viewer-close-modal{border-radius:50%;background:#89919b;color:#fff;font-size:15px;width:45px;height:45px;padding:0;text-align:center;cursor:pointer;touch-action:manipulation;border:1px solid transparent;font-weight:100}.rw-doc-viewer-spinner{display:inline-block;width:64px;height:64px;position:fixed;top:50%;left:50%;transform:translate(-32px,-32px);animation:appear .6s ease-in}.rw-doc-viewer-spinner:after{content:" ";display:block;width:46px;height:46px;margin:1px;border-radius:50%;border:5px solid #003a9b;border-color:#003a9b transparent;will-change:transform;animation:doc-viewer-spinner 1.2s linear infinite}@keyframes doc-viewer-spinner{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes appear{0%{opacity:0}to{opacity:.5}}@keyframes doc-viewer-slide-down{0%{opacity:0;transform:translateY(-100px)}to{opacity:1;transform:translateY(0)}}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-conversation-container .rw-message{margin:10px;font-size:16px;line-height:20px;display:flex;font-family:Inter,sans-serif;flex-wrap:wrap;position:relative}.rw-conversation-container .rw-message .rw-markdown p{margin:0}.rw-conversation-container .rw-message .rw-markdown img{max-width:100%}.rw-conversation-container .rw-client{background-color:#003a9b;color:#fff;border-radius:15px;padding:11px 15px;max-width:215px;text-align:left;font-family:Inter,sans-serif;background-color:#135afe;max-width:85%;margin-left:auto;overflow-wrap:break-word}.rw-conversation-container .rw-client a{color:#35cce6}.rw-conversation-container .rw-response{background-color:#f4f7f9;color:#000;border-radius:0 15px 15px 15px;padding:11px 15px;max-width:215px;text-align:left;font-family:Inter,sans-serif;overflow-wrap:break-word}.rw-conversation-container .rw-message-text{margin:0}.rw-conversation-container .rw-message-text .rw-markdown p{margin-bottom:1em}.rw-conversation-container .rw-message-text .rw-markdown p:last-child{margin-bottom:0}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-carousel-container{min-height:345px;padding-bottom:10px;overflow-x:hidden;overflow-y:hidden;white-space:nowrap;padding-left:5px;padding-right:0;margin-top:8px;position:relative;display:flex}.rw-carousel-container .rw-carousel-card{display:inline-block;max-width:220px;width:220px;min-width:220px;min-height:324px;margin:3px 13px 3px 1px;box-shadow:4px 2px 12px 1px rgba(0,0,0,.1);border-radius:8px;overflow:hidden;position:relative}.rw-carousel-container .rw-carousel-card .rw-carousel-card-image{width:100%;height:150px;object-fit:cover;display:block;background-color:#b5b5b5;cursor:pointer}.rw-carousel-container .rw-carousel-card .rw-carousel-card-title{display:block;margin:7px 10px 2px 9px;font-weight:500;overflow:hidden;text-overflow:ellipsis;cursor:pointer;text-decoration:none;color:inherit}.rw-carousel-container .rw-carousel-card .rw-carousel-card-subtitle{display:block;margin:0 9px 8px;opacity:.5;font-size:.8em;overflow:hidden;white-space:normal;line-height:normal;cursor:pointer;text-decoration:none;color:inherit}.rw-carousel-container .rw-carousel-card .rw-carousel-buttons-container{margin-bottom:1.5rem;width:100%}.rw-carousel-container .rw-carousel-card .rw-carousel-buttons-container .rw-reply{min-height:21px;margin:5px 10px;font-size:.9em;justify-content:center;outline:none}.rw-carousel-container .rw-carousel-card .rw-carousel-buttons-container .rw-reply span{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.rw-carousel-arrows-container{max-height:345px;height:345px;width:100%;padding-left:-12px;padding-right:0;margin-top:8px;position:absolute;pointer-events:none}.rw-carousel-arrows-container .rw-carousel-arrow{pointer-events:auto;position:absolute;width:30px;height:30px;background-color:#fff;top:40%;border-radius:11px;transition:all .2s ease-in-out;cursor:pointer;box-shadow:0 2px 8px 4px hsla(0,0%,78%,.35);outline:none}.rw-carousel-arrows-container .rw-carousel-arrow:hover{box-shadow:0 3px 8px 4px hsla(0,0%,78%,.2);top:calc(40% - 3px)}.rw-carousel-arrows-container .rw-carousel-arrow:active{box-shadow:0 2px 8px 4px hsla(0,0%,78%,.3);top:calc(40% - 2px)}.rw-carousel-arrows-container .rw-carousel-arrow img.rw-arrow{position:absolute;height:100%;left:3px}.rw-carousel-arrows-container .rw-left-arrow{left:10px}.rw-carousel-arrows-container .rw-right-arrow{right:10px}.rw-carousel-arrows-container .rw-right-arrow div.rw-arrow{transform:rotate(180deg)}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-conversation-container .rw-replies{margin:5px 10px;display:flex;line-height:20px;flex-wrap:wrap;font-size:16px;font-family:Inter,sans-serif}.rw-conversation-container .rw-reply{-webkit-transition:box-shadow .3s ease,top .3s ease;-moz-transition:box-shadow .3s ease,top .3s ease;-o-transition:box-shadow .3s ease,top .3s ease;transition:box-shadow .3s ease,top .3s ease;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;background-color:#135afe;border:1px solid #135afe;border-radius:15px;color:#f4f7f9;padding:4px 8px;max-width:215px;min-height:1.7em;font-weight:500;text-align:center;font-family:Inter,sans-serif;cursor:pointer;margin:.25em;text-decoration:unset;box-shadow:0 .2px .7px -7px rgba(0,0,0,.277),0 .5px 1.8px -7px rgba(0,0,0,.369),0 1.2px 3.8px -7px rgba(0,0,0,.442),0 4px 13px -7px rgba(0,0,0,.64)}.rw-conversation-container .rw-reply:hover{position:relative;top:1px;opacity:1;box-shadow:none}.rw-conversation-container .rw-response{background-color:#f4f7f9;color:#000;border-radius:0 15px 15px 15px;padding:11px 15px;max-width:215px;text-align:left;font-family:Inter,sans-serif;max-width:85%}.rw-conversation-container .rw-avatar{width:17px;height:17px;border-radius:100%;margin-right:6px;position:relative;bottom:5px}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-group-message.rw-from-client span.rw-message-date{text-align:right;flex-basis:100%;margin-left:0;margin-right:4px;margin-top:5px;font-size:11px;color:#a4a7ab}.rw-group-message.rw-from-response span.rw-message-date{text-align:left;flex-basis:100%;margin-left:7px;margin-top:5px;font-size:11px;color:#a4a7ab}.rw-group-message.rw-from-response .rw-message:first-child:not(:only-child){margin-bottom:2px}.rw-group-message.rw-from-response .rw-message:first-child:not(:only-child) .rw-response{border-radius:0 15px 15px 0}.rw-group-message.rw-from-response .rw-message:not(:first-child):not(:last-child):not(:last-child){margin-top:2px;margin-bottom:2px}.rw-group-message.rw-from-response .rw-message:not(:first-child):not(:last-child):not(:last-child) .rw-response{border-radius:0 15px 15px 0}.rw-group-message.rw-from-response .rw-message:not(:first-child):not(:only-child) .rw-avatar{display:none}.rw-group-message.rw-from-response .rw-message:not(:first-child):not(:only-child).rw-with-avatar{margin-left:33px}.rw-group-message.rw-from-response .rw-message:last-child:not(:only-child){margin-top:2px}.rw-message.rw-typing-indication .rw-response{box-sizing:content-box;height:16px}.rw-messages-container{background-color:#fff;height:50vh;max-height:425px;overflow-y:auto;padding-top:10px}@media screen and (min-width:800px){.rw-messages-container{height:510px;max-height:50vh}}.rw-widget-embedded .rw-messages-container{height:100%;max-height:100%}.rw-full-screen .rw-messages-container{height:100%;max-height:none}@media screen and (max-width:800px){.rw-messages-container{height:100%;max-height:none}}div#wave{position:relative;text-align:center;width:25px;height:13px;margin-left:auto;margin-right:auto}div#wave .rw-dot{opacity:.4;display:inline-block;width:5px;height:5px;border-radius:50%;margin-right:3px;background:#000;animation:wave 1.6s linear infinite}div#wave .rw-dot:nth-child(2){animation-delay:-1.4s}div#wave .rw-dot:nth-child(3){animation-delay:-1.2s}@keyframes wave{0%,60%,to{transform:none}30%{transform:translateY(-5px)}}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">.rw-conversation-container .rw-sender{align-items:center;display:flex;background-color:#f4f7f9;min-height:30px;padding:15px 5px}.rw-conversation-container .rw-new-message{font-size:1em;width:100%;border:0;background-color:#f4f7f9;padding-left:15px;font-family:Inter,sans-serif;resize:none}.rw-conversation-container .rw-new-message:focus{outline:none}.rw-conversation-container .rw-send{background:#f4f7f9;border:0}.rw-conversation-container .rw-send .rw-send-icon{fill:#00000000;transition:fill .35s}.rw-conversation-container .rw-send .rw-send-icon-ready{fill:#135afe;transition:fill .35s}@media screen and (max-width:800px){.rw-conversation-container .rw-sender{border-radius:0;flex-shrink:0}}.rw-widget-embedded .rw-sender{flex:0,0,auto;min-height:35px}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">@-webkit-keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@-moz-keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@-webkit-keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@-moz-keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@-webkit-keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@-moz-keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@-webkit-keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@-moz-keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.rw-conversation-container{-webkit-animation-delay:0;-webkit-animation-duration:.5s;-webkit-animation-name:slide-in;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:.5s;-moz-animation-name:slide-in;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:.5s;animation-name:slide-in;animation-fill-mode:forwards;border-radius:10px;box-shadow:0 1px 1.5px -1px rgba(0,0,0,.048),0 2.5px 3.7px -1px rgba(0,0,0,.069),0 5px 7px -1px rgba(0,0,0,.085),0 9.7px 12.5px -1px rgba(0,0,0,.101),0 19.7px 23.4px -1px rgba(0,0,0,.122),0 54px 56px -1px rgba(0,0,0,.17);overflow:hidden;width:370px}.rw-slide-out{-webkit-animation-delay:0;-webkit-animation-duration:.5s;-webkit-animation-name:slide-out;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:.5s;-moz-animation-name:slide-out;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:.5s;animation-name:slide-out;animation-fill-mode:forwards}.rw-widget-embedded .rw-conversation-container{-webkit-animation-delay:0;-webkit-animation-duration:0s;-webkit-animation-name:slide-in;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:0s;-moz-animation-name:slide-in;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:0s;animation-name:slide-in;animation-fill-mode:forwards;display:flex;flex-direction:column;height:100%;width:100%;border-radius:0;overflow:unsetem}.rw-widget-embedded .rw-slide-out{-webkit-animation-delay:0;-webkit-animation-duration:0s;-webkit-animation-name:slide-out;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:0s;-moz-animation-name:slide-out;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:0s;animation-name:slide-out;animation-fill-mode:forwards}.rw-full-screen .rw-conversation-container{display:flex;flex-direction:column;height:100%;width:100%;border-radius:0}@media screen and (max-width:800px){.rw-conversation-container{display:flex;flex-direction:column;height:100%;width:100%;border-radius:0}}</style><style type="text/css">.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list,.slick-slider{position:relative;display:block}.slick-list{overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:""}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}</style><style type="text/css">.slick-loading .slick-list{background:#fff url(data:image/gif;base64,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) 50% no-repeat}@font-face{font-family:slick;font-weight:400;font-style:normal;src:url(data:application/vnd.ms-fontobject;base64,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);src:url(data:application/vnd.ms-fontobject;base64,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?#iefix) format("embedded-opentype"),url(data:application/font-woff;base64,d09GRk9UVE8AAAVkAAsAAAAAB1wAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAABCAAAAi4AAAKbH/pWDkZGVE0AAAM4AAAAGgAAABxt0civR0RFRgAAA1QAAAAcAAAAIAAyAARPUy8yAAADcAAAAFIAAABgUBj/rmNtYXAAAAPEAAAAUAAAAWIiC0SwaGVhZAAABBQAAAAuAAAANgABMftoaGVhAAAERAAAABwAAAAkA+UCA2htdHgAAARgAAAADgAAAA4ESgBKbWF4cAAABHAAAAAGAAAABgAFUABuYW1lAAAEeAAAANwAAAFuBSeBwnBvc3QAAAVUAAAAEAAAACAAAwABeJw9ks9vEkEUx2cpWyeUoFYgNkHi2Wt7N3rVm3cTs3UVLC4LxIWEQvi1P3i7O1tYLJDAmlgKGEhQrsajf0j7J3jYTXrQWUrMJG+++b55n5e8NwwKBhHDMLv5kxT3ATEBxKBn3qOAl9zxHgb1MAPhHQgHkyF08Gr/L8B/Eb6zWnmCJ7AJVLubQOheArXvJ1A4EXi6j4I+Zg9F0QFKvsnlBCmXeve+sFEnb/nCptdtQ4QYhVFRAT1HrF8UQK/RL/SbmUbclsvGVFXRZKDHUE38cc4qpkbAAsuwiImvro+ufcfaOIQ6szlrmjRJDaKZKnbjN3GWKIbiIzRFUfCffuxxKOL+3LDlDVvx2TdxN84qZEsnhNBa6pgm2dAsnzbLsETdsmRFxUeHV4e+I2/ptN8TyqV8T3Dt29t7EYOuajVIw2y1Wy3M86w0zg/Fz2IvawmQAUHOVrPVfLkoScVynsqsTG0MGUs4z55nh3mnOJa+li+rl9WpPIcFfDubDeaDC+fLBdYN3QADzLauGfj4B6sZmq6CCpqmtSvF0qlUl2qf5AJIUCSlTqlb7lUG+LRfGzZGzZEyBgccMu6MuqPecNDvD4Y9Kjtj4gD+DsvKVMTcMdtqtZtmkzQstQvYje7Syep0PDSAhSOeHYXYWThEF//A/0YvYV1fSQtpKU5STtrhbQ444OtpKSWJIg3pOg8cBs7maTY1EZf07aq+hjWs7IWzdCYTGhb2CtZ47x+Uhx28AAB4nGNgYGBkAIJz765vANHnCyvqYTQAWnkHswAAeJxjYGRgYOADYgkGEGBiYARCFjAG8RgABHYAN3icY2BmYmCcwMDKwMHow5jGwMDgDqW/MkgytDAwMDGwcjKAQQMDAyOQUmCAgoA01xQGB4ZExUmMD/4/YNBjvP3/NgNEDQPjbbBKBQZGADfLDgsAAHicY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQzMCQqKClOUJz0/z9YHRLv/+L7D+8V3cuHmgAHjGwM6ELUByxUMIOZCmbgAAA5LQ8XeJxjYGRgYABiO68w73h+m68M3EwMIHC+sKIeTqsyqDLeZrwN5HIwgKUB/aYJUgAAeJxjYGRgYLzNwMCgx8QAAkA2IwMqYAIAMGIB7QIAAAACAAAlACUAJQAlAAAAAFAAAAUAAHicbY49asNAEIU/2ZJDfkiRIvXapUFCEqpcptABUrg3ZhEiQoKVfY9UqVLlGDlADpAT5e16IUWysMz3hjfzBrjjjQT/EjKpCy+4YhN5yZoxcirPe+SMWz4jr6S+5UzSa3VuwpTnBfc8RF7yxDZyKs9r5IxHPiKv1P9iZqDnyAvMQ39UecbScVb/gJO03Xk4CFom3XYK1clhMdQUlKo7/d9NF13RkIdfy+MV7TSe2sl11tRFaXYmJKpWTd7kdVnJ8veevZKc+n3I93t9Jnvr5n4aTVWU/0z9AI2qMkV4nGNgZkAGjAxoAAAAjgAF) format("woff"),url(data:application/x-font-ttf;base64,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) format("truetype"),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxtZXRhZGF0YT5HZW5lcmF0ZWQgYnkgRm9udGFzdGljLm1lPC9tZXRhZGF0YT4KPGRlZnM+Cjxmb250IGlkPSJzbGljayIgaG9yaXotYWR2LXg9IjUxMiI+Cjxmb250LWZhY2UgZm9udC1mYW1pbHk9InNsaWNrIiB1bml0cy1wZXItZW09IjUxMiIgYXNjZW50PSI0ODAiIGRlc2NlbnQ9Ii0zMiIvPgo8bWlzc2luZy1nbHlwaCBob3Jpei1hZHYteD0iNTEyIiAvPgoKPGdseXBoIHVuaWNvZGU9IiYjODU5NDsiIGQ9Ik0yNDEgMTEzbDEzMCAxMzBjNCA0IDYgOCA2IDEzIDAgNS0yIDktNiAxM2wtMTMwIDEzMGMtMyAzLTcgNS0xMiA1LTUgMC0xMC0yLTEzLTVsLTI5LTMwYy00LTMtNi03LTYtMTIgMC01IDItMTAgNi0xM2w4Ny04OC04Ny04OGMtNC0zLTYtOC02LTEzIDAtNSAyLTkgNi0xMmwyOS0zMGMzLTMgOC01IDEzLTUgNSAwIDkgMiAxMiA1eiBtMjM0IDE0M2MwLTQwLTktNzctMjktMTEwLTIwLTM0LTQ2LTYwLTgwLTgwLTMzLTIwLTcwLTI5LTExMC0yOS00MCAwLTc3IDktMTEwIDI5LTM0IDIwLTYwIDQ2LTgwIDgwLTIwIDMzLTI5IDcwLTI5IDExMCAwIDQwIDkgNzcgMjkgMTEwIDIwIDM0IDQ2IDYwIDgwIDgwIDMzIDIwIDcwIDI5IDExMCAyOSA0MCAwIDc3LTkgMTEwLTI5IDM0LTIwIDYwLTQ2IDgwLTgwIDIwLTMzIDI5LTcwIDI5LTExMHoiLz4KPGdseXBoIHVuaWNvZGU9IiYjODU5MjsiIGQ9Ik0yOTYgMTEzbDI5IDMwYzQgMyA2IDcgNiAxMiAwIDUtMiAxMC02IDEzbC04NyA4OCA4NyA4OGM0IDMgNiA4IDYgMTMgMCA1LTIgOS02IDEybC0yOSAzMGMtMyAzLTggNS0xMyA1LTUgMC05LTItMTItNWwtMTMwLTEzMGMtNC00LTYtOC02LTEzIDAtNSAyLTkgNi0xM2wxMzAtMTMwYzMtMyA3LTUgMTItNSA1IDAgMTAgMiAxMyA1eiBtMTc5IDE0M2MwLTQwLTktNzctMjktMTEwLTIwLTM0LTQ2LTYwLTgwLTgwLTMzLTIwLTcwLTI5LTExMC0yOS00MCAwLTc3IDktMTEwIDI5LTM0IDIwLTYwIDQ2LTgwIDgwLTIwIDMzLTI5IDcwLTI5IDExMCAwIDQwIDkgNzcgMjkgMTEwIDIwIDM0IDQ2IDYwIDgwIDgwIDMzIDIwIDcwIDI5IDExMCAyOSA0MCAwIDc3LTkgMTEwLTI5IDM0LTIwIDYwLTQ2IDgwLTgwIDIwLTMzIDI5LTcwIDI5LTExMHoiLz4KPGdseXBoIHVuaWNvZGU9IiYjODIyNjsiIGQ9Ik00NzUgMjU2YzAtNDAtOS03Ny0yOS0xMTAtMjAtMzQtNDYtNjAtODAtODAtMzMtMjAtNzAtMjktMTEwLTI5LTQwIDAtNzcgOS0xMTAgMjktMzQgMjAtNjAgNDYtODAgODAtMjAgMzMtMjkgNzAtMjkgMTEwIDAgNDAgOSA3NyAyOSAxMTAgMjAgMzQgNDYgNjAgODAgODAgMzMgMjAgNzAgMjkgMTEwIDI5IDQwIDAgNzctOSAxMTAtMjkgMzQtMjAgNjAtNDYgODAtODAgMjAtMzMgMjktNzAgMjktMTEweiIvPgo8Z2x5cGggdW5pY29kZT0iJiM5NzsiIGQ9Ik00NzUgNDM5bDAtMTI4YzAtNS0xLTktNS0xMy00LTQtOC01LTEzLTVsLTEyOCAwYy04IDAtMTMgMy0xNyAxMS0zIDctMiAxNCA0IDIwbDQwIDM5Yy0yOCAyNi02MiAzOS0xMDAgMzktMjAgMC0zOS00LTU3LTExLTE4LTgtMzMtMTgtNDYtMzItMTQtMTMtMjQtMjgtMzItNDYtNy0xOC0xMS0zNy0xMS01NyAwLTIwIDQtMzkgMTEtNTcgOC0xOCAxOC0zMyAzMi00NiAxMy0xNCAyOC0yNCA0Ni0zMiAxOC03IDM3LTExIDU3LTExIDIzIDAgNDQgNSA2NCAxNSAyMCA5IDM4IDIzIDUxIDQyIDIgMSA0IDMgNyAzIDMgMCA1LTEgNy0zbDM5LTM5YzItMiAzLTMgMy02IDAtMi0xLTQtMi02LTIxLTI1LTQ2LTQ1LTc2LTU5LTI5LTE0LTYwLTIwLTkzLTIwLTMwIDAtNTggNS04NSAxNy0yNyAxMi01MSAyNy03MCA0Ny0yMCAxOS0zNSA0My00NyA3MC0xMiAyNy0xNyA1NS0xNyA4NSAwIDMwIDUgNTggMTcgODUgMTIgMjcgMjcgNTEgNDcgNzAgMTkgMjAgNDMgMzUgNzAgNDcgMjcgMTIgNTUgMTcgODUgMTcgMjggMCA1NS01IDgxLTE1IDI2LTExIDUwLTI2IDcwLTQ1bDM3IDM3YzYgNiAxMiA3IDIwIDQgOC00IDExLTkgMTEtMTd6Ii8+CjwvZm9udD48L2RlZnM+PC9zdmc+Cg==#slick) format("svg")}.slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;top:50%;display:block;width:20px;height:20px;padding:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);cursor:pointer;border:none}.slick-next,.slick-next:focus,.slick-next:hover,.slick-prev,.slick-prev:focus,.slick-prev:hover{color:transparent;outline:none;background:transparent}.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{font-family:slick;font-size:20px;line-height:1;opacity:.75;color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-prev{left:-25px}[dir=rtl] .slick-prev{right:-25px;left:auto}.slick-prev:before{content:"\2190"}[dir=rtl] .slick-prev:before{content:"\2192"}.slick-next{right:-25px}[dir=rtl] .slick-next{right:auto;left:-25px}.slick-next:before{content:"\2192"}[dir=rtl] .slick-next:before{content:"\2190"}.slick-dotted.slick-slider{margin-bottom:30px}.slick-dots{position:absolute;bottom:-25px;display:block;width:100%;padding:0;margin:0;list-style:none;text-align:center}.slick-dots li{position:relative;display:inline-block;margin:0 5px;padding:0}.slick-dots li,.slick-dots li button{width:20px;height:20px;cursor:pointer}.slick-dots li button{font-size:0;line-height:0;display:block;padding:5px;color:transparent;border:0;outline:none;background:transparent}.slick-dots li button:focus,.slick-dots li button:hover{outline:none}.slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}.slick-dots li button:before{font-family:slick;font-size:6px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:"\2022";text-align:center;opacity:.25;color:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-dots li.slick-active button:before{opacity:.75;color:#000}</style><style type="text/css">.rw-launcher .rw-badge{position:fixed;top:-10px;right:-5px;background-color:red;color:#fff;width:25px;height:25px;text-align:center;line-height:25px;border-radius:50%}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">@-webkit-keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@-moz-keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@-webkit-keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@-moz-keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@-webkit-keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@-moz-keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@-webkit-keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@-moz-keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.rw-markdown p{margin:10px}@media screen and (min-width:800px){.rw-widget-container .rw-conversation-container{margin-bottom:10px}}.rw-widget-container .rw-conversation-container ul,.rw-widget-embedded .rw-conversation-container ul{padding-left:10px;list-style:disc}.rw-launcher{-webkit-animation-delay:0;-webkit-animation-duration:.5s;-webkit-animation-name:slide-in;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:.5s;-moz-animation-name:slide-in;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:.5s;animation-name:slide-in;animation-fill-mode:forwards;display:flex;align-items:center;justify-content:center;background-color:#135afe;border:0;border-radius:50%;box-shadow:0 2px 10px 1px #b5b5b5;height:60px;margin:0;width:60px;box-sizing:border-box}.rw-launcher:focus{outline:none}.rw-launcher.rw-hide{display:none}.rw-launcher.rw-full-screen{margin:0 20px 20px 0}.rw-launcher img{width:70%;max-height:70%;object-fit:contain}.rw-launcher .rw-unread-count-pastille{background-color:#e41c23;color:#fff;border-radius:50%;width:15px;height:15px;position:absolute;top:0;right:0;font-weight:700}.rw-launcher .rw-tooltip-body{background-color:#fff;box-sizing:border-box;border-radius:8px;position:absolute;right:78px;bottom:12px;box-shadow:0 .9px 1.4px -4px rgba(0,0,0,.042),0 2.3px 3.3px -4px rgba(0,0,0,.061),0 4.7px 6.3px -4px rgba(0,0,0,.075),0 9px 11.2px -4px rgba(0,0,0,.089),0 18.2px 20.9px -4px rgba(0,0,0,.108),0 50px 50px -4px rgba(0,0,0,.15);width:320px;font-size:16px;padding:0 8px;line-height:19px;font-family:Inter,sans-serif;animation:slideUp .3s ease-in-out;transition:all .2s ease-in-out}@media screen and (max-width:800px){.rw-launcher .rw-tooltip-body{right:74px;width:calc(100vw - 90px)}}.rw-launcher .rw-tooltip-body:hover{background-color:#fafafa;transform:translateY(-2px);box-shadow:0 .9px 2.1px -4px rgba(0,0,0,.056),0 2.3px 5.1px -4px rgba(0,0,0,.081),0 4.7px 9.6px -4px rgba(0,0,0,.1),0 9px 17.2px -4px rgba(0,0,0,.119),0 18.2px 32.2px -4px rgba(0,0,0,.144),0 50px 77px -4px rgba(0,0,0,.2);cursor:pointer}.rw-launcher .rw-tooltip-body:hover .rw-tooltip-decoration{background:#fafafa}.rw-launcher .rw-tooltip-body:hover .rw-tooltip-close button{background-color:#fafafa}.rw-launcher .rw-tooltip-body[data-popper-placement=right]{margin-left:20px}.rw-launcher .rw-tooltip-body[data-popper-placement=right] .rw-tooltip-decoration{left:-6px;clip-path:polygon(0 50%,50% 0,50% 100%);-webkit-clip-path:polygon(0 50%,50% 0,50% 100%)}.rw-launcher .rw-tooltip-body[data-popper-placement=left]{margin-right:20px}.rw-launcher .rw-tooltip-body[data-popper-placement=left] .rw-tooltip-decoration{right:-6px;clip-path:polygon(100% 50%,50% 0,50% 100%);-webkit-clip-path:polygon(100% 50%,50% 0,50% 100%)}.rw-launcher .rw-tooltip-body[data-popper-placement=bottom]{margin-top:20px}.rw-launcher .rw-tooltip-body[data-popper-placement=bottom] .rw-tooltip-decoration{top:-6px;clip-path:polygon(100% 50%,0 50%,50% 0);-webkit-clip-path:polygon(100% 50%,0 50%,50% 0)}.rw-launcher .rw-tooltip-body[data-popper-placement=top]{margin-bottom:20px}.rw-launcher .rw-tooltip-body[data-popper-placement=top] .rw-tooltip-decoration{bottom:-6px;clip-path:polygon(100% 50%,0 50%,50% 100%);-webkit-clip-path:polygon(100% 50%,0 50%,50% 100%)}.rw-launcher .rw-tooltip-body .rw-image-details{object-fit:scale-down;max-width:100%;margin-top:8px;margin-bottom:2px}.rw-launcher .rw-tooltip-body .rw-replies{margin:5px 10px;display:flex;line-height:20px;flex-wrap:wrap;font-size:16px;font-family:Inter,sans-serif;justify-content:flex-end;margin-left:4px}.rw-launcher .rw-tooltip-body .rw-separator{width:calc(100% + 16px);position:relative;left:-8px;height:1px;background-color:#e0e0e0}.rw-launcher .rw-tooltip-body .rw-reply{-webkit-transition:box-shadow .3s ease,top .3s ease;-moz-transition:box-shadow .3s ease,top .3s ease;-o-transition:box-shadow .3s ease,top .3s ease;transition:box-shadow .3s ease,top .3s ease;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-flex-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;background-color:#135afe;border:1px solid #135afe;border-radius:15px;color:#f4f7f9;padding:4px 8px;max-width:215px;min-height:1.7em;font-weight:500;text-align:center;font-family:Inter,sans-serif;cursor:pointer;margin:.25em;text-decoration:unset;box-shadow:0 .2px .7px -7px rgba(0,0,0,.277),0 .5px 1.8px -7px rgba(0,0,0,.369),0 1.2px 3.8px -7px rgba(0,0,0,.442),0 4px 13px -7px rgba(0,0,0,.64)}.rw-launcher .rw-tooltip-body .rw-reply:hover{position:relative;top:1px;opacity:1;box-shadow:none}.rw-launcher .rw-tooltip-body .rw-response{text-align:left;margin-left:10px;margin-right:10px}.rw-launcher .rw-tooltip-body .rw-response ul{margin-top:1em;margin-bottom:1em;padding-left:40px}.rw-launcher .rw-tooltip-body .rw-image-frame{object-position:0 0;object-fit:cover;width:100%;height:100%;border-radius:9px}.rw-launcher .rw-tooltip-decoration{position:absolute;bottom:12px;right:-6px;background:#fff;height:12px;width:12px;transition:all .2s ease-in-out;clip-path:polygon(100% 50%,50% 0,50% 100%);-webkit-clip-path:polygon(100% 50%,50% 0,50% 100%)}.rw-launcher .slick-dots li{width:9px}.rw-launcher .slick-arrow{width:15px}.rw-launcher .slick-arrow.slick-next{right:-17px;top:auto;bottom:10px}.rw-launcher .slick-arrow.slick-next:before{color:silver}.rw-launcher .slick-arrow.slick-prev{left:-19px;top:auto;bottom:10px}.rw-launcher .slick-arrow.slick-prev:before{color:silver}.rw-launcher .rw-slider-safe-zone{width:87%;position:relative;margin-bottom:32px;left:18px}.rw-launcher .rw-slider-safe-zone .slick-list .rw-tooltip-response{max-height:min(60vh,350px);overflow-y:auto}.rw-launcher .rw-tooltip-response{margin-top:1.5rem;outline:none}.rw-launcher .rw-tooltip-close{position:absolute;right:7px;top:3px;color:red;height:15px;width:15px;transition:all .2s ease-in-out}.rw-launcher .rw-tooltip-close button{transition:all .2s ease-in-out;background-color:transparent;cursor:pointer;border:none;padding:0}@keyframes slideUp{0%{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}.rw-open-launcher{-webkit-animation-delay:0;-webkit-animation-duration:.5s;-webkit-animation-name:rotation-rl;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:.5s;-moz-animation-name:rotation-rl;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:.5s;animation-name:rotation-rl;animation-fill-mode:forwards}.rw-close-launcher{-webkit-animation-delay:0;-webkit-animation-duration:.5s;-webkit-animation-name:rotation-lr;-webkit-animation-fill-mode:forwards;-moz-animation-delay:0;-moz-animation-duration:.5s;-moz-animation-name:rotation-lr;-moz-animation-fill-mode:forwards;animation-delay:0;animation-duration:.5s;animation-name:rotation-lr;animation-fill-mode:forwards}.rw-close-launcher.rw-default{width:20px!important}@media screen and (max-width:800px){.rw-hide-sm{display:none}}</style><style type="text/css">@import url(https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap);</style><style type="text/css">@-webkit-keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@-moz-keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@keyframes rotation-lr{0%{transform:rotate(-90deg)}to{transform:rotate(0)}}@-webkit-keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@-moz-keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@keyframes rotation-rl{0%{transform:rotate(90deg)}to{transform:rotate(0)}}@-webkit-keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@-moz-keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@keyframes slide-in{0%{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}@-webkit-keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@-moz-keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}@keyframes slide-out{0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(10px)}}.rw-chat-open,.rw-full-screen,.rw-widget-container,.rw-widget-embedded{all:initial}.rw-chat-open a,.rw-chat-open abbr,.rw-chat-open acronym,.rw-chat-open address,.rw-chat-open applet,.rw-chat-open article,.rw-chat-open aside,.rw-chat-open audio,.rw-chat-open b,.rw-chat-open big,.rw-chat-open blockquote,.rw-chat-open body,.rw-chat-open canvas,.rw-chat-open caption,.rw-chat-open center,.rw-chat-open cite,.rw-chat-open code,.rw-chat-open dd,.rw-chat-open del,.rw-chat-open details,.rw-chat-open dfn,.rw-chat-open div,.rw-chat-open dl,.rw-chat-open dt,.rw-chat-open em,.rw-chat-open embed,.rw-chat-open fieldset,.rw-chat-open figcaption,.rw-chat-open figure,.rw-chat-open footer,.rw-chat-open form,.rw-chat-open h1,.rw-chat-open h2,.rw-chat-open h3,.rw-chat-open h4,.rw-chat-open h5,.rw-chat-open h6,.rw-chat-open header,.rw-chat-open hgroup,.rw-chat-open html,.rw-chat-open i,.rw-chat-open iframe,.rw-chat-open img,.rw-chat-open ins,.rw-chat-open kbd,.rw-chat-open label,.rw-chat-open legend,.rw-chat-open li,.rw-chat-open mark,.rw-chat-open menu,.rw-chat-open nav,.rw-chat-open object,.rw-chat-open ol,.rw-chat-open output,.rw-chat-open p,.rw-chat-open pre,.rw-chat-open q,.rw-chat-open ruby,.rw-chat-open s,.rw-chat-open samp,.rw-chat-open section,.rw-chat-open small,.rw-chat-open span,.rw-chat-open strike,.rw-chat-open strong,.rw-chat-open sub,.rw-chat-open summary,.rw-chat-open sup,.rw-chat-open table,.rw-chat-open tbody,.rw-chat-open td,.rw-chat-open tfoot,.rw-chat-open th,.rw-chat-open thead,.rw-chat-open time,.rw-chat-open tr,.rw-chat-open tt,.rw-chat-open u,.rw-chat-open ul,.rw-chat-open var,.rw-chat-open video,.rw-full-screen a,.rw-full-screen abbr,.rw-full-screen acronym,.rw-full-screen address,.rw-full-screen applet,.rw-full-screen article,.rw-full-screen aside,.rw-full-screen audio,.rw-full-screen b,.rw-full-screen big,.rw-full-screen blockquote,.rw-full-screen body,.rw-full-screen canvas,.rw-full-screen caption,.rw-full-screen center,.rw-full-screen cite,.rw-full-screen code,.rw-full-screen dd,.rw-full-screen del,.rw-full-screen details,.rw-full-screen dfn,.rw-full-screen div,.rw-full-screen dl,.rw-full-screen dt,.rw-full-screen em,.rw-full-screen embed,.rw-full-screen fieldset,.rw-full-screen figcaption,.rw-full-screen figure,.rw-full-screen footer,.rw-full-screen form,.rw-full-screen h1,.rw-full-screen h2,.rw-full-screen h3,.rw-full-screen h4,.rw-full-screen h5,.rw-full-screen h6,.rw-full-screen header,.rw-full-screen hgroup,.rw-full-screen html,.rw-full-screen i,.rw-full-screen iframe,.rw-full-screen img,.rw-full-screen ins,.rw-full-screen kbd,.rw-full-screen label,.rw-full-screen legend,.rw-full-screen li,.rw-full-screen mark,.rw-full-screen menu,.rw-full-screen nav,.rw-full-screen object,.rw-full-screen ol,.rw-full-screen output,.rw-full-screen p,.rw-full-screen pre,.rw-full-screen q,.rw-full-screen ruby,.rw-full-screen s,.rw-full-screen samp,.rw-full-screen section,.rw-full-screen small,.rw-full-screen span,.rw-full-screen strike,.rw-full-screen strong,.rw-full-screen sub,.rw-full-screen summary,.rw-full-screen sup,.rw-full-screen table,.rw-full-screen tbody,.rw-full-screen td,.rw-full-screen tfoot,.rw-full-screen th,.rw-full-screen thead,.rw-full-screen time,.rw-full-screen tr,.rw-full-screen tt,.rw-full-screen u,.rw-full-screen ul,.rw-full-screen var,.rw-full-screen video,.rw-widget-container a,.rw-widget-container abbr,.rw-widget-container acronym,.rw-widget-container address,.rw-widget-container applet,.rw-widget-container article,.rw-widget-container aside,.rw-widget-container audio,.rw-widget-container b,.rw-widget-container big,.rw-widget-container blockquote,.rw-widget-container body,.rw-widget-container canvas,.rw-widget-container caption,.rw-widget-container center,.rw-widget-container cite,.rw-widget-container code,.rw-widget-container dd,.rw-widget-container del,.rw-widget-container details,.rw-widget-container dfn,.rw-widget-container div,.rw-widget-container dl,.rw-widget-container dt,.rw-widget-container em,.rw-widget-container embed,.rw-widget-container fieldset,.rw-widget-container figcaption,.rw-widget-container figure,.rw-widget-container footer,.rw-widget-container form,.rw-widget-container h1,.rw-widget-container h2,.rw-widget-container h3,.rw-widget-container h4,.rw-widget-container h5,.rw-widget-container h6,.rw-widget-container header,.rw-widget-container hgroup,.rw-widget-container html,.rw-widget-container i,.rw-widget-container iframe,.rw-widget-container img,.rw-widget-container ins,.rw-widget-container kbd,.rw-widget-container label,.rw-widget-container legend,.rw-widget-container li,.rw-widget-container mark,.rw-widget-container menu,.rw-widget-container nav,.rw-widget-container object,.rw-widget-container ol,.rw-widget-container output,.rw-widget-container p,.rw-widget-container pre,.rw-widget-container q,.rw-widget-container ruby,.rw-widget-container s,.rw-widget-container samp,.rw-widget-container section,.rw-widget-container small,.rw-widget-container span,.rw-widget-container strike,.rw-widget-container strong,.rw-widget-container sub,.rw-widget-container summary,.rw-widget-container sup,.rw-widget-container table,.rw-widget-container tbody,.rw-widget-container td,.rw-widget-container tfoot,.rw-widget-container th,.rw-widget-container thead,.rw-widget-container time,.rw-widget-container tr,.rw-widget-container tt,.rw-widget-container u,.rw-widget-container ul,.rw-widget-container var,.rw-widget-container video,.rw-widget-embedded a,.rw-widget-embedded abbr,.rw-widget-embedded acronym,.rw-widget-embedded address,.rw-widget-embedded applet,.rw-widget-embedded article,.rw-widget-embedded aside,.rw-widget-embedded audio,.rw-widget-embedded b,.rw-widget-embedded big,.rw-widget-embedded blockquote,.rw-widget-embedded body,.rw-widget-embedded canvas,.rw-widget-embedded caption,.rw-widget-embedded center,.rw-widget-embedded cite,.rw-widget-embedded code,.rw-widget-embedded dd,.rw-widget-embedded del,.rw-widget-embedded details,.rw-widget-embedded dfn,.rw-widget-embedded div,.rw-widget-embedded dl,.rw-widget-embedded dt,.rw-widget-embedded em,.rw-widget-embedded embed,.rw-widget-embedded fieldset,.rw-widget-embedded figcaption,.rw-widget-embedded figure,.rw-widget-embedded footer,.rw-widget-embedded form,.rw-widget-embedded h1,.rw-widget-embedded h2,.rw-widget-embedded h3,.rw-widget-embedded h4,.rw-widget-embedded h5,.rw-widget-embedded h6,.rw-widget-embedded header,.rw-widget-embedded hgroup,.rw-widget-embedded html,.rw-widget-embedded i,.rw-widget-embedded iframe,.rw-widget-embedded img,.rw-widget-embedded ins,.rw-widget-embedded kbd,.rw-widget-embedded label,.rw-widget-embedded legend,.rw-widget-embedded li,.rw-widget-embedded mark,.rw-widget-embedded menu,.rw-widget-embedded nav,.rw-widget-embedded object,.rw-widget-embedded ol,.rw-widget-embedded output,.rw-widget-embedded p,.rw-widget-embedded pre,.rw-widget-embedded q,.rw-widget-embedded ruby,.rw-widget-embedded s,.rw-widget-embedded samp,.rw-widget-embedded section,.rw-widget-embedded small,.rw-widget-embedded span,.rw-widget-embedded strike,.rw-widget-embedded strong,.rw-widget-embedded sub,.rw-widget-embedded summary,.rw-widget-embedded sup,.rw-widget-embedded table,.rw-widget-embedded tbody,.rw-widget-embedded td,.rw-widget-embedded tfoot,.rw-widget-embedded th,.rw-widget-embedded thead,.rw-widget-embedded time,.rw-widget-embedded tr,.rw-widget-embedded tt,.rw-widget-embedded u,.rw-widget-embedded ul,.rw-widget-embedded var,.rw-widget-embedded video{border:0;font-size:100%;vertical-align:baseline;margin-block-end:0}.rw-chat-open article,.rw-chat-open aside,.rw-chat-open details,.rw-chat-open figcaption,.rw-chat-open figure,.rw-chat-open footer,.rw-chat-open header,.rw-chat-open hgroup,.rw-chat-open menu,.rw-chat-open nav,.rw-chat-open section,.rw-full-screen article,.rw-full-screen aside,.rw-full-screen details,.rw-full-screen figcaption,.rw-full-screen figure,.rw-full-screen footer,.rw-full-screen header,.rw-full-screen hgroup,.rw-full-screen menu,.rw-full-screen nav,.rw-full-screen section,.rw-widget-container article,.rw-widget-container aside,.rw-widget-container details,.rw-widget-container figcaption,.rw-widget-container figure,.rw-widget-container footer,.rw-widget-container header,.rw-widget-container hgroup,.rw-widget-container menu,.rw-widget-container nav,.rw-widget-container section,.rw-widget-embedded article,.rw-widget-embedded aside,.rw-widget-embedded details,.rw-widget-embedded figcaption,.rw-widget-embedded figure,.rw-widget-embedded footer,.rw-widget-embedded header,.rw-widget-embedded hgroup,.rw-widget-embedded menu,.rw-widget-embedded nav,.rw-widget-embedded section{display:block}.rw-chat-open body,.rw-full-screen body,.rw-widget-container body,.rw-widget-embedded body{line-height:1}.rw-chat-open ol,.rw-chat-open ul,.rw-full-screen ol,.rw-full-screen ul,.rw-widget-container ol,.rw-widget-container ul,.rw-widget-embedded ol,.rw-widget-embedded ul{list-style:disc}.rw-chat-open blockquote,.rw-chat-open q,.rw-full-screen blockquote,.rw-full-screen q,.rw-widget-container blockquote,.rw-widget-container q,.rw-widget-embedded blockquote,.rw-widget-embedded q{quotes:none}.rw-chat-open blockquote:after,.rw-chat-open blockquote:before,.rw-chat-open q:after,.rw-chat-open q:before,.rw-full-screen blockquote:after,.rw-full-screen blockquote:before,.rw-full-screen q:after,.rw-full-screen q:before,.rw-widget-container blockquote:after,.rw-widget-container blockquote:before,.rw-widget-container q:after,.rw-widget-container q:before,.rw-widget-embedded blockquote:after,.rw-widget-embedded blockquote:before,.rw-widget-embedded q:after,.rw-widget-embedded q:before{content:"";content:none}.rw-chat-open table,.rw-full-screen table,.rw-widget-container table,.rw-widget-embedded table{border-collapse:collapse;border-spacing:0}.rw-widget-container{bottom:0;display:flex;flex-direction:column;margin:0 20px 20px 0;position:fixed;right:0;width:auto;z-index:9999;align-items:flex-end;justify-content:flex-end}@media screen and (max-width:800px){.rw-widget-container{margin:0 12px 12px 0}}.rw-widget-container.rw-full-screen.rw-chat-open{height:100%;margin:0;max-width:none;width:100%}.rw-widget-container p{margin-block-start:1em;margin-block-end:1em;margin-inline-start:0;margin-inline-end:0}.rw-widget-embedded{box-sizing:border-box;width:100%;height:100%;position:relative;left:0;right:0;margin:0;z-index:1;display:flex;flex-direction:column}@media screen and (max-width:800px){.rw-widget-container.rw-chat-open{height:100%;margin:0;max-width:none;width:100%}}</style><style type="text/css">.rw-pulsating{box-shadow:0 0 0 0 hsla(0,0%,59%,.7);transform:scale(1);animation:rw-pulse 1s infinite;cursor:pointer}@keyframes rw-pulse{0%{transform:scale(.95);box-shadow:0 0 0 0 hsla(0,0%,59%,.4)}70%{transform:scale(1);box-shadow:0 0 2px 13px hsla(0,0%,59%,0)}to{transform:scale(.95);box-shadow:0 0 0 0 hsla(0,0%,59%,0)}}.rw-cursor-pointer{cursor:pointer}.rw-question-mark{height:11px;width:11px;padding:4px;background-color:hsla(0,0%,59%,.9)}.rw-pulsating-dot,.rw-question-mark{border-radius:420px;position:absolute;box-sizing:content-box}.rw-pulsating-dot{-webkit-animation:rw-pulse-dot 1s infinite;animation:rw-pulse-dot 1s infinite;height:17px;width:17px;padding:6px;background-color:#4cbd5a}.rw-pro-widget-embedded{box-sizing:border-box;width:100%;height:100%;position:relative;left:0;right:0;margin:0;z-index:1;display:flex;flex-direction:column}@keyframes rw-pulse-dot{0%{transform:scale(.95);box-shadow:0 0 0 0 rgba(76,189,90,.4)}70%{transform:scale(1);box-shadow:0 0 2px 17px rgba(76,189,90,0)}to{transform:scale(.95);box-shadow:0 0 0 0 rgba(76,189,90,0)}}</style></head>
+	<body><!-- MAIN HEADER -->
+		<div class="page-wrap">
+			<header role="banner" class="main-header">
+				<a fragment="main" class="skip-to-main" style="height: 0px; width: 0px; color: transparent;" href="#main">Saltar para o conteúdo principal</a>
+				<!-- MAIN HEADER HEAD -->
+				<!-- User related links -->
+				<div class="main-header-head">
+					<div class="container-wrapper">
+						<div class="hidden-xs col-sm-5">
+							<div id="date" class="date">Domingo, 15 de setembro de 2024
+                                <noscript></noscript>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-7">
+							<ul class="login">
+								<li>
+									<a href="https://www.acesso.gov.pt/unauthed/novoUtilizadorForm?partID=PFAP&amp;path=/geral/dashboard" class="btn-outline" style="text-transform: none;">Registar-se</a>
+								</li>
+								<li>
+									<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/dashboard" class="btn-default">Iniciar Sessão</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- MAIN HEADER -->
+				<div class="main-header-body">
+					<div class="container-wrapper">
+						<div class="col-xs-3">
+							<h1 class="logo">
+								<!--[if gte IE 9]><!-->
+								<img src="assets/images/logo-at.png" alt="Autoridade Tributária e Aduaneira">
+								<!--<![endif]-->
+								<!--[if lt IE 9]>
+								<img class="logo" src="assets/images/logo-at.png" alt="Autoridade Tributária e Aduaneira"/>
+								<![endif]-->
+							</h1>
+						</div>
+						<a class="burger-menu" href="#abrir-menu" title="Abrir menu">Menu</a>
+						<div class="col-xs-12 col-sm-12 col-md-9 no-pad">
+							<nav class="main-nav">
+								<ul id="menus"><li>
+<div class="menu-item-container">
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?segmento=CD" title="Aceder a serviços para cidadãos" class="">Cidadãos</a>
+</div>
+</li><li>
+<div class="menu-item-container">
+<a href="#" title="Aceder a serviços para empresas e negócios" class="submenu1">Negócios</a>
+</div>
+</li><li>
+<div class="menu-item-container">
+<a href="#" title="Aceder a serviços para outras entidades" class="submenu2">Outras Entidades</a>
+</div>
+</li><li>
+<div class="menu-item-container">
+<a href="#" title="Aceder a informação sobre a AT e matérias tributárias e aduaneiras" class="submenu3">Informação</a>
+</div>
+</li><li>
+<div class="menu-item-container">
+<a href="https://info.portaldasfinancas.gov.pt/pt/docs/Conteudos_1pagina/Pages/portuguese-tax-system.aspx" title="An overview of the Portuguese Tax System and useful forms" class="">Tax Information</a>
+</div>
+</li>
+</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="submenu-container" id="submenus"><ul class="submenu" id="submenu1">
+<li>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?segmento=ES" title="Serviços destindados a Empresas" class="toggle">Empresas</a>
+</li>
+<li>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?segmento=OP" title="Serviços destindados a Operadores Económicos" class="toggle">Operadores Económicos</a>
+</li>
+</ul><ul class="submenu" id="submenu2">
+<li>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?segmento=EP" title="Serviços destindados a Entidades Públicas" class="toggle">Entidades Públicas</a>
+</li>
+<li>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?segmento=TC" title="Serviços destindados a Contabilistas Certificados" class="toggle">Contabilistas Certificados</a>
+</li>
+<li>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?segmento=OE" title="Serviços destindados a Outros Profissionais" class="toggle">Outros Profissionais</a>
+</li>
+</ul><ul class="submenu" id="submenu3">
+<li>
+<a href="https://info.portaldasfinancas.gov.pt/pt/Pages/homepage.aspx" title="Informação sobre a Autoridade Tributária e Aduaneira" class="toggle">Institucional</a>
+</li>
+<li>
+<a href="https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/" title="Informação de apoio ao cumprimento" class="toggle">Apoio</a>
+</li>
+<li>
+<a href="https://info.portaldasfinancas.gov.pt/pt/home/" title="Informação Fiscal e Aduaneira" class="toggle">Fiscal e Aduaneira</a>
+</li>
+</ul>
+</div>
+				</div>
+			</header>
+			<!-- END MAIN HEADER -->
+
+			<!-- MAIN -->
+			<main role="main" id="main">
+				<div class="container-fluid no-pad">
+					<div class="header relative">
+						<div id="imgLandingPage" class="header-img header-secondary-background-4" style="max-height:150px;">
+						</div>
+                        <noscript>
+                            <div class="header-img header-secondary-background-1">
+                            </div>
+                        </noscript>
+						<div class="container-wrapper content">
+							<form action="https://sitfiscal.portaldasfinancas.gov.pt/geral/search" method="get">
+								<label id="lblSearch" hidden="">Indique o que pretende</label>
+								<input type="search" name="query" id="query" placeholder="Indique o que pretende... (Ex.: Entregar IRS)" aria-labelledby="lblSearch">
+								<input type="hidden" name="appName" value="pfapp">
+								<input type="submit" aria-label="Pesquisar" value="Pesquisar" onclick="return inputEmpty()">
+							</form>
+						</div>
+					</div>
+				</div>
+
+		<!-- CHATBOT LAUNCHER - WATSON -->
+		<!-- 
+		<button type="button" class="chatLauncher" style="display:none; line-height: 0.7; position: absolute; top: 300px; right: 20px; z-index:9999;">
+			<div style="width: 100%;">
+				<div style="width:70%; display: table-cell; text-align:center;">Ajuda online</div>
+				<div style="width:30%; display: table-cell; text-align:center;"><img src="assets/bot/chatbot-icon.png" alt="@AT"></div>
+			</div>
+		</button>
+		 -->
+		<!-- END CHATBOT LAUNCHER - WATSON -->
+
+		<!-- CHATBOT LAUNCHER - RASA -->
+			<script src="assets/bot/rs_bot.js"></script>
+		<!-- END CHATBOT LAUNCHER - RASA  -->					
+
+				<div class="container-wrapper clearfix relative" style="padding-bottom: 100px;">
+					<div class="main-content" id="infos"><div class="middle clearfix">
+<div class="col-xs-12 no-pad">
+<ul class="clearfix">
+<li>
+<div class="col-xs-12 col-sm-4">
+<div class="item-primary">
+<figure style="background-image: url(static/item-1.jpg);">
+<img src="static/item-1.jpg" alt="NOTIFICAÇÕES E CITAÇÕES"></figure>
+<div class="item-primary-content" style="display: table;">
+<div style="width:100%;display: table-header-group;height: 60px;">
+<span style="display: table-cell;vertical-align: bottom;"><a href="https://sitfiscal.portaldasfinancas.gov.pt/notificacoes/">
+<h3>NOTIFICAÇÕES E CITAÇÕES</h3>
+</a></span>
+</div>
+<div style="display:table-row;width: 100%;height: 32px;">
+<span style="display: table-cell;vertical-align: bottom;"><a href="https://sitfiscal.portaldasfinancas.gov.pt/notificacoes/">
+<h4>Área reservada do Portal das Finanças</h4>
+</a></span>
+</div>
+<div style="display:table-row; width:100%;height:80px;">
+<span style="display: table-cell;vertical-align: middle;">
+<p>
+				
+				<br>
+				Adira às notificações e citações eletrónicas em nome próprio ou em representação.<br>
+				Faça a sua gestão dos canais de receção das mesmas.<br>
+				<br>
+				
+			</p>
+</span>
+</div>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/notificacoes/" class="btn-primary">Aceder</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="col-xs-12 col-sm-4">
+<div class="item-primary">
+<figure style="background-image: url(static/item-2.jpg);">
+<img src="static/item-2.jpg" alt="APOIO"></figure>
+<div class="item-primary-content" style="display: table;">
+<div style="width:100%;display: table-header-group;height: 60px;">
+<span style="display: table-cell;vertical-align: bottom;"><a href="https://sitfiscal.portaldasfinancas.gov.pt/ebalcao/formularioContacto">
+<h3>APOIO</h3>
+</a></span>
+</div>
+<div style="display:table-row;width: 100%;height: 32px;">
+<span style="display: table-cell;vertical-align: bottom;"><a href="https://sitfiscal.portaldasfinancas.gov.pt/ebalcao/formularioContacto">
+<h4>Atendimento e-balcão</h4>
+</a></span>
+</div>
+<div style="display:table-row; width:100%;height:80px;">
+<span style="display: table-cell;vertical-align: middle;">
+<p>
+				Obtenha, de forma rápida e segura, todos os esclarecimentos sobre as obrigações tributárias e aduaneiras.
+			</p>
+</span>
+</div>
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/ebalcao/formularioContacto" class="btn-primary">Aceder</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="col-xs-12 col-sm-4">
+<div class="item-primary">
+<figure style="background-image: url(static/item-3.jpg);">
+<img src="static/item-3.jpg" alt="IRS"></figure>
+<div class="item-primary-content" style="display: table;">
+<div style="width:100%;display: table-header-group;height: 60px;">
+<span style="display: table-cell;vertical-align: bottom;"><a href="https://irs.portaldasfinancas.gov.pt/divergencias/consultarDivergencias">
+<h3>IRS</h3>
+</a></span>
+</div>
+<div style="display:table-row;width: 100%;height: 32px;">
+<span style="display: table-cell;vertical-align: bottom;"><a href="https://irs.portaldasfinancas.gov.pt/divergencias/consultarDivergencias">
+<h4>Divergências</h4>
+</a></span>
+</div>
+<div style="display:table-row; width:100%;height:80px;">
+<span style="display: table-cell;vertical-align: middle;">
+<p>
+				Consulte e resolva aqui as situações irregulares detetadas na declaração de IRS, 
+				evitando a deslocação aos Serviços de Finanças.
+			</p>
+</span>
+</div>
+<a href="https://irs.portaldasfinancas.gov.pt/divergencias/consultarDivergencias" class="btn-primary">Aceder</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="col-xs-12 no-pad">
+<div class="col-xs-12 col-sm-4 text-center">
+<a href="https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Premio_Salarial/Paginas/default.aspx"><img style="width: 300px; margin-top: 30px; margin-left: 20px" src="assets/images/logo_premio_salarial.png" alt="Pedir o prémio salarial de valorização das qualificações" title="Pedir o prémio salarial de valorização das qualificações"></a>
+</div>
+<div class="col-xs-12 col-sm-4 text-center">
+<a href="https://inq.novaims.unl.pt/EXAPPO002AT/"><img style="width:300px" src="assets/images/Banner_Beck_2024_AT_noticia_800x400.png" alt="BECX AP 2024" title="Ajude-nos a melhorar a experiência de utilização dos Serviços Públicos"></a>
+</div>
+<div class="col-xs-12 col-sm-4 text-center">
+<a href="https://info.portaldasfinancas.gov.pt//pt/apoio_contribuinte/IMT_Jovem/Pages/default.aspx"><img style="width: 300px; margin-top: 30px;max-width: 50% !important;" src="assets/images/logotipo_IMT_Jovem.png" alt="IMTJovem" title="Consulte a informação sobre o IMTJovem"></a>
+</div>
+</div>
+</div><div class="col-xs-12">
+<hr>
+</div><div class="bottom clearfix">
+<div class="col-xs-12 no-pad margin-bottom-l m-b-3">
+<ul class="clearfix">
+<li>
+<div class="col-xs-12 col-sm-4">
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?areaDestino=TR" class="item-secondary">
+<h4>Finanças</h4>
+<h5>Aceda aos Serviços Tributários</h5>
+<span class="icon-arrow-right"></span></a>
+</div>
+</li>
+<li>
+<div class="col-xs-12 col-sm-4">
+<a href="https://sitfiscal.portaldasfinancas.gov.pt/geral/home?areaDestino=AD" class="item-secondary">
+<h4>Alfândegas</h4>
+<h5>Aceda aos Serviços Aduaneiros</h5>
+<span class="icon-arrow-right"></span></a>
+</div>
+</li>
+<li>
+<div class="col-xs-12 col-sm-4">
+<a href="https://info.portaldasfinancas.gov.pt/pt/Pages/homepage.aspx" class="item-secondary">
+<h4>Destaques e Atualidades</h4>
+<h5>Aceder às publicações mais recentes</h5>
+<span class="icon-arrow-right"></span></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+				</div>
+			</main>
+			<!-- END MAIN -->
+		</div>
+		<!-- MAIN FOOTER -->
+		<footer role="contentinfo" class="main-footer" aria-label="footer links">
+			<div class="container-wrapper main-footer-wrapper">
+			
+					<div class="col-xs-6 col-sm-2 no-pad">
+						<a href="https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Comercio_eletronico/Paginas/Balcoes_Unicos.aspx" target="_blank" title="Balcão Único/Mini Balcão Único" style="line-height: 64px;">
+							<img src="assets/images/AT56_0ss_ver01-130x80.png" alt="Balcão Único" title="Balcão Único" style="height: 50px">
+						</a>
+					</div>
+					
+					<div class="col-xs-6 col-sm-2 no-pad" style="padding-top: 7px">
+						<a href="https://info.portaldasfinancas.gov.pt/pt/direitos_dos_contribuintes/Paginas/default.aspx" target="_blank" title="Direitos dos Contribuintes" style="line-height: 60px;">
+							<!--[if gte IE 9]><!-->
+							<img src="assets/images/AT56_direitos-do-contribuinte_ver01-180x60.png" alt="Direitos dos Contribuintes" title="Direitos dos Contribuintes" style="height: 30px">
+							<!--<![endif]-->
+							<!--[if lt IE 9]>
+							<img src="assets/images/logo_defesa_38.png" alt="Direitos dos Contribuintes" title="Direitos dos Contribuintes" style="height: 48px"/>
+							<![endif]-->
+						</a>
+					</div>
+				
+					<div class="col-xs-6 col-sm-2 no-pad" id="main-footer-appsAt">
+						<a href="https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Apps/Pages/Apps_AT_.aspx" target="_blank" title="APPs AT" style="line-height: 64px;">
+							<img src="assets/images/AT56_apps-at_ver01-120x75.png" alt="Aplicações móveis" title="Aplicações móveis" style="height: 40px">
+						</a>
+					</div>
+
+					<div class="col-xs-6 no-pad" id="main-footer-contactos-xs">
+						<a href="https://sitfiscal.portaldasfinancas.gov.pt/ebalcao/home" target="_blank" title="Contacte-nos pelo e-balcão" style="line-height: 64px;">
+							<!--[if gte IE 9]><!-->
+							<img src="assets/images/AT56_contactos_ver01-200x60.png" alt="Contactos" title="Contactos" style="height: 40px">
+							<!--<![endif]-->
+							<!--[if lt IE 9]>
+							<img src="assets/images/logotipo_Contacte_nos_h62.png" height="34px" alt="Contacte-nos pelo e-balcão" title="Contacte-nos pelo e-balcão" style="height: 48px"/>
+							<![endif]-->
+						</a>
+					</div>
+
+
+					<div class="col-xs-12 col-sm-3 col-md-4 no-pad" id="main-footer-redesSociais">
+						<div class="col-sm-2">
+							<a href="https://www.facebook.com/AT.financas" target="_blank" title="Siga-nos no facebook">
+								<img src="assets/images/AT56_facebook_ver01-40x40.png" alt="Siga-nos no facebook" title="Siga-nos no facebook" style="height:25px;">
+							</a>
+						</div>
+						<div class="col-sm-2">
+							<a href="https://www.instagram.com/at.financas" target="_blank" title="Siga-nos no Instagram">
+								<img src="assets/images/AT56_instagram_ver01-40x40.png" alt="Siga-nos no Instagram" title="Siga-nos no Instagram" style="height:25px;">
+							</a>
+						</div>
+
+						<div class="col-sm-2">
+							<a href="https://www.youtube.com/@AutoridadeTributariaAduaneira" target="_blank" title="Veja os nossos tutoriais no Youtube">
+								<img src="assets/images/AT56_youtube_ver01-40x40.png" alt="Veja os nossos tutoriais no Youtube" title="Veja os nossos tutoriais no Youtube" style="height:25px;">
+							</a>
+						</div>
+						<div class="col-sm-2">
+							<a href="https://twitter.com/Aut_Trib_Adua" target="_blank" title="Siga-nos no Twitter">
+								<img src="assets/images/AT56_twitter_ver01-40x40.png" alt="Siga-nos no Twitter" title="Siga-nos no Twitter" style="height:25px;">
+							</a>
+						</div>
+						<div class="col-sm-2">
+							<a href="https://www.linkedin.com/company/atfinancas" target="_blank" title="Siga-nos no linkedIn">
+								<img src="assets/images/AT56_linkedin_ver01-40x40.png" alt="Siga-nos no linkedIn" title="Siga-nos no linkedIn" style="height:25px;">
+							</a>
+						</div>
+						<!--<div class="col-sm-2">&nbsp;</div> -->
+					</div>
+ 
+
+
+					<div class="hidden-xs col-sm-3 col-md-2 no-pad">
+						<a href="https://sitfiscal.portaldasfinancas.gov.pt/ebalcao/home" target="_blank" title="Contacte-nos pelo e-balcão" style="line-height: 64px;">
+							<!--[if gte IE 9]><!-->
+							<img src="assets/images/AT56_contactos_ver01-200x60.png" alt="Contactos" title="Contactos" style="height: 40px">
+							<!--<![endif]-->
+							<!--[if lt IE 9]>
+							<img src="assets/images/logotipo_Contacte_nos_h62.png" height="34px" alt="Contacte-nos pelo e-balcão" title="Contacte-nos pelo e-balcão" style="height: 48px"/>
+							<![endif]-->
+						</a>
+				</div>
+
+			</div>
+		</footer>
+		<!-- END MAIN FOOTER -->
+
+		<footer role="contentinfo" class="secondary-footer" aria-label="footer info">
+    		<div class="secondary-footer-wrapper">
+    			<div class="col-xs-12 col-sm-4">
+					© AT <span id="at-ano">2024</span>
+    			</div>
+
+				<div class="col-xs-12 col-sm-4">
+        			<a href="https://info.portaldasfinancas.gov.pt/pt/at/Pages/Encarregado_protecao_dados.aspx">AT EPD</a>
+    			</div>
+
+    			<div class="col-xs-12 col-sm-4">
+        			<a href="https://info.portaldasfinancas.gov.pt/pt/quem_somos/privacidade/Pages/privacidade.aspx">Política de privacidade</a>
+    			</div>
+			</div>
+		</footer>
+
+		<!-- SCRIPTS -->
+		<script src="assets/js/lib/jquery-1.11.1.min.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			$(function() {
+				var number = Math.floor((Math.random() * 4) + 1);
+				$("#imgLandingPage").addClass('header-secondary-background-' + number);
+		        $("#imgLandingPage").removeClass('hidden');
+
+				$('#at-ano').text(new Date().getFullYear());
+	    	});
+		</script>
+		<script>
+			function inputEmpty() {
+				var input = document.getElementById("query").value;
+				if (input != null && input.trim() == "") {
+					return false;
+				}
+			};
+		</script>
+
+		<!-- CHATBOT SCRIPTS - WATSON -->
+		<!--
+		<script src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"></script>
+		<script src="assets/bot/bot.js"></script>
+		-->		
+		<!-- END CHATBOT SCRIPTS - WATSON -->
+
+	
+
+<div id="rasaWebchatPro"><div class="" style="display: none;"></div></div><style>@keyframes default-botfront-blinker-animation {
+    0% {
+      outline-color: rgba(0,255,0,0);
+    }
+    49% {
+      outline-color: rgba(0,255,0,0);
+    }
+    50% {
+      outline-color:green;
+    }
+    100% {
+      outline-color: green;
+    }
+  }</style></body></html>

@@ -1,0 +1,131 @@
+{
+    "ca.gov": {
+        "/": {
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".ca.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415925152,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726423125.136938,
+                        "expiry": 7200.136938095093,
+                        "value": "6CC22D3445013F482EAEA15485F8C000~000000000000000000000000000000~YAAQmhoSAhMQl9iRAQAAq29o9hkJZX1MYGeKuqGjvKS1Jsa42wkGc5/pPgp3kERcVjgnMdx4BOGLYqk0s3Isn5hQqoeio44V4HIxEMBZTfyQcWZWwSkHlK8Spy8twikwzc3hvrRSz71jVZYGqzU7ud2I+mor3tEYOLaJ9F0XNJ0U5Dhl41iWPlVe/CB+ERkulO5qjEUnv2PTh5HHwbLmKiLuvYV232PqjQZ/2+OOtEOOR+aC5i1Xd/8vPOQ+IzBJ62iaMVn5l1sBsswd9uNlwTgBgSZDg0EfAfgPBhcprolzSzA6g6hbGSZyJkm6aO4xOMEqTNGSbKTAh/pbED5GkXMeiXUEkTDATcCi23aPtzPemYHth7h5lUnYwbeR5cumqCPKNGPI",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415925141
+                    }
+                ]
+            },
+            "nmstat": {
+                "name": "nmstat",
+                "domain": ".ca.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726415925522,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760975925.521836,
+                        "expiry": 34560000.52183604,
+                        "value": "56b93fc1-856f-5621-c79b-534b38e5cfc2",
+                        "same_site": "lax",
+                        "timestamp": 1726415925522
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": "www.ca.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726415925511,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760975925.504587,
+                        "expiry": 34560000.504586935,
+                        "value": "GA1.1.2009321749.1726415926",
+                        "same_site": "lax",
+                        "timestamp": 1726415925510
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.5183301,
+                        "value": "GA1.1.2009321749.1726415926",
+                        "same_site": "lax",
+                        "timestamp": 1726415925519
+                    }
+                ]
+            },
+            "_ga_69TD0KNT0F": {
+                "name": "_ga_69TD0KNT0F",
+                "domain": "www.ca.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726415925510,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760975925.504446,
+                        "expiry": 34560000.50444603,
+                        "value": "GS1.1.1726415925.1.0.1726415925.0.0.0",
+                        "same_site": "lax",
+                        "timestamp": 1726415925509
+                    }
+                ]
+            },
+            "_ga_TM1XPW93HF": {
+                "name": "_ga_TM1XPW93HF",
+                "domain": "www.ca.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415925518,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760975925.517952,
+                        "expiry": 34560000.517951965,
+                        "value": "deleted",
+                        "same_site": "lax",
+                        "timestamp": 1726415925518
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.51812005,
+                        "value": "GS1.1.1726415925.1.0.1726415925.0.0.0",
+                        "same_site": "lax",
+                        "timestamp": 1726415925519
+                    }
+                ]
+            }
+        }
+    }
+}

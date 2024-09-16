@@ -1,0 +1,161 @@
+{
+    "aktualne.cz": {
+        "/": {
+            "bbxuid": {
+                "name": "bbxuid",
+                "domain": ".aktualne.cz",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059410785,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728651410.783983,
+                        "expiry": 2592000.783982992,
+                        "value": "sjnfyq.2.8de8e7d533db432687a1667cee4266fe",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059410784
+                    }
+                ]
+            }
+        }
+    },
+    "centrum.cz": {
+        "/": {
+            "AdTrack-cookies": {
+                "name": "AdTrack-cookies",
+                "domain": ".centrum.cz",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726059410909,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726059411,
+                        "expiry": 1,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059410908
+                    }
+                ]
+            },
+            "tracking-uid": {
+                "name": "tracking-uid",
+                "domain": ".centrum.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059410668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757595410,
+                        "expiry": 31536000,
+                        "value": "i8nrb3BEq",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059410667
+                    }
+                ]
+            },
+            "abTest": {
+                "name": "abTest",
+                "domain": "www.centrum.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059410272,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728651410.260687,
+                        "expiry": 2592000.260687113,
+                        "value": "56",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059410263
+                    }
+                ]
+            },
+            "dlc": {
+                "name": "dlc",
+                "domain": "www.centrum.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059410607,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757595410,
+                        "expiry": 31536000,
+                        "value": "desktop",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059410602
+                    }
+                ]
+            }
+        }
+    },
+    "cpex.cz": {
+        "/": {
+            "didomi_accept_cookie": {
+                "name": "didomi_accept_cookie",
+                "domain": ".cpex.cz",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059411122,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681811,
+                        "expiry": 31622400,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059411121
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".cpex.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059411138,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681811,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTEyODctNmJkMS02NjYzLWFjMjgtMjc2NjEyNmEzZmQyIiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTI6NTY6NTEuMTMzWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDEyOjU2OjUxLjEzM1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059411137
+                    }
+                ]
+            }
+        }
+    }
+}

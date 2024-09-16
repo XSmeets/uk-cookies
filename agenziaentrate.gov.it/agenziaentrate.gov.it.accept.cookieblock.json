@@ -1,0 +1,111 @@
+{
+    "agenziaentrate.gov.it": {
+        "/": {
+            "_pk_id.3.722f": {
+                "name": "_pk_id.3.722f",
+                "domain": ".www.agenziaentrate.gov.it",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726148087835,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760103288,
+                        "expiry": 33955201,
+                        "value": "f0cfd9d7f5a34073.1726148088.",
+                        "same_site": "lax",
+                        "timestamp": 1726148087835
+                    }
+                ]
+            },
+            "_pk_ses.3.722f": {
+                "name": "_pk_ses.3.722f",
+                "domain": ".www.agenziaentrate.gov.it",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148087837,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726149887,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726148087836
+                    }
+                ]
+            },
+            "_pk_testcookie_domain": {
+                "name": "_pk_testcookie_domain",
+                "domain": ".www.agenziaentrate.gov.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148087834,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726148097,
+                        "expiry": 10,
+                        "value": "testvalue",
+                        "same_site": "lax",
+                        "timestamp": 1726148087833
+                    }
+                ]
+            },
+            "LFR_SESSION_STATE_20120": {
+                "name": "LFR_SESSION_STATE_20120",
+                "domain": "www.agenziaentrate.gov.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148087707,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726148087697",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148087703
+                    }
+                ]
+            }
+        },
+        "/ZendServer": {
+            "ZDEDebuggerPresent": {
+                "name": "ZDEDebuggerPresent",
+                "domain": "www1.agenziaentrate.gov.it",
+                "path": "/ZendServer",
+                "current_label": 0,
+                "label_ts": 1726148087961,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "php,phtml,php3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148087959
+                    }
+                ]
+            }
+        }
+    }
+}

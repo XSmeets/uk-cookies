@@ -1,0 +1,1001 @@
+{
+    "buzzfeed.com": {
+        "/": {
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397956330,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757933956,
+                        "expiry": 31536000,
+                        "value": "2024-09-15T10:59:16.328Z",
+                        "same_site": "lax",
+                        "timestamp": 1726397956329
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397930345,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A58%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726397930377
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A58%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726397930401
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A58%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0&isAnonUser=1",
+                        "same_site": "lax",
+                        "timestamp": 1726397930402
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A58%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.buzzfeed.com%2Fuk",
+                        "same_site": "lax",
+                        "timestamp": 1726397930403
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A58%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.buzzfeed.com%2Fuk&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726397930452
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A58%3A50+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.buzzfeed.com%2Fuk&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726397930452
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A59%3A16+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726397956332
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A59%3A16+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726397956336
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A59%3A16+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726397956353
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A59%3A16+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7a10dd38-2ae6-4546-84b9-e101a868c1ab&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0&intType=6",
+                        "same_site": "lax",
+                        "timestamp": 1726397956356
+                    }
+                ]
+            },
+            "_awl": {
+                "name": "_awl",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726397930209,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760525930.208,
+                        "expiry": 34128000.207999945,
+                        "value": "2.1726397930.5-cc6257a9fd5827dd3c906fc8745b48fd-6763652d6575726f70652d7765737431-0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726397930208
+                    }
+                ]
+            },
+            "bf-browser-language": {
+                "name": "bf-browser-language",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929174,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329.16179,
+                        "expiry": 86400.1617898941,
+                        "value": "en-US,en",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929168
+                    }
+                ]
+            },
+            "bf-geo-country": {
+                "name": "bf-geo-country",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929175,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329.161821,
+                        "expiry": 86400.16182088852,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929174
+                    }
+                ]
+            },
+            "bf-xdomain-session-uuid": {
+                "name": "bf-xdomain-session-uuid",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929371,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726399729,
+                        "expiry": 1800,
+                        "value": "d3634d18-0556-4390-a7b4-6a92f5eade6f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929370
+                    }
+                ]
+            },
+            "bf_visit": {
+                "name": "bf_visit",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726397929297,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760957929.29618,
+                        "expiry": 34560000.29618001,
+                        "value": "u%3D.pbDWr0M37x%26uuid%3D22a35ca5-8a43-45c6-8a7a-200537d00b8b%26v%3D2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929296
+                    }
+                ]
+            },
+            "country": {
+                "name": "country",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929168,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727607529.16149,
+                        "expiry": 1209600.1614899635,
+                        "value": "uk",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929163
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397956352,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757933956,
+                        "expiry": 31536000,
+                        "value": "CQE_EnAQE_EnAAcABBENBHFgAAAAAAAAACiQKbtV_G__bWlr8X73aftkeY1P9_h77sQxBhfJE-4FzLvW_JwXx2ExNA36tqIKmRIAu3bBIQNlGJDUTVCgaogVryDMaE2coTNKJ6BkiFMRM2dYCF5vm4tj-QKY5vr991dx2B-t7dr83dzyz4VHn3a5_2a0WJCdA5-tDfv9bROb-9IOd_x8v4v8_F_rE2_eT1l_tWvp7D9-cts7_XW89_fff_9Ln_-uB_-_2CmoBJhoVEAZZEhIQaBhBAgBUFYQEUCAAAAEgaICAEwYFOwMAl1hIgBACgAGCAEAAKMgAQAACQAIRABAAUCAACAQKAAMACAYCABgYAAwAWAgEAAIDoGKYEECgWACRmREKYEIQCQQEtlQgkAQIK4QhFngUQCImCgAABIAKwABAWCwOJJASsSCBLiDaAAAgAQCCAAoRSdmAIIAzZai8WTaMrTAtHzBc9pgGSAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726397956350
+                    }
+                ]
+            },
+            "ADSGROUP-442-permutive": {
+                "name": "ADSGROUP-442-permutive",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929756,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929756
+                    }
+                ]
+            },
+            "ADSGROUP-442-permutive_version": {
+                "name": "ADSGROUP-442-permutive_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929756,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929756
+                    }
+                ]
+            },
+            "PAR-436-etsy-tpau-ranking": {
+                "name": "PAR-436-etsy-tpau-ranking",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929746,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "control",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929745
+                    }
+                ]
+            },
+            "PAR-436-etsy-tpau-ranking_version": {
+                "name": "PAR-436-etsy-tpau-ranking_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929746,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929746
+                    }
+                ]
+            },
+            "RT-1042-Admiral-script-on-BFDC": {
+                "name": "RT-1042-Admiral-script-on-BFDC",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929747,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929746
+                    }
+                ]
+            },
+            "RT-1042-Admiral-script-on-BFDC_version": {
+                "name": "RT-1042-Admiral-script-on-BFDC_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929748,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929748
+                    }
+                ]
+            },
+            "SITE-7528-TPAU_with_images": {
+                "name": "SITE-7528-TPAU_with_images",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929745,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "control",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929744
+                    }
+                ]
+            },
+            "SITE-7528-TPAU_with_images_metadata": {
+                "name": "SITE-7528-TPAU_with_images_metadata",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929758,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "%7B%22id%22%3A974%2C%22version%22%3A3%2C%22resolved%22%3Afalse%2C%22is_feature_flag%22%3Afalse%2C%22value%22%3A%22control%22%2C%22variant_id%22%3A1%2C%22payload%22%3Anull%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929757
+                    }
+                ]
+            },
+            "SITE-7528-TPAU_with_images_version": {
+                "name": "SITE-7528-TPAU_with_images_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929745,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929745
+                    }
+                ]
+            },
+            "TimeSpentRO_4": {
+                "name": "TimeSpentRO_4",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929742,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929741
+                    }
+                ]
+            },
+            "TimeSpentRO_4_version": {
+                "name": "TimeSpentRO_4_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929743,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929743
+                    }
+                ]
+            },
+            "ads_ad_lightning": {
+                "name": "ads_ad_lightning",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929753,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929753
+                    }
+                ]
+            },
+            "ads_ad_lightning_version": {
+                "name": "ads_ad_lightning_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929753,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929753
+                    }
+                ]
+            },
+            "ads_amazon_tam": {
+                "name": "ads_amazon_tam",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929752,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929752
+                    }
+                ]
+            },
+            "ads_amazon_tam_version": {
+                "name": "ads_amazon_tam_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929753,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929752
+                    }
+                ]
+            },
+            "ads_blockthrough": {
+                "name": "ads_blockthrough",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929754,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929754
+                    }
+                ]
+            },
+            "ads_blockthrough_version": {
+                "name": "ads_blockthrough_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929754,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929754
+                    }
+                ]
+            },
+            "ads_doubleverify": {
+                "name": "ads_doubleverify",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929753,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929753
+                    }
+                ]
+            },
+            "ads_doubleverify_version": {
+                "name": "ads_doubleverify_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929754,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929753
+                    }
+                ]
+            },
+            "ads_prebid": {
+                "name": "ads_prebid",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929750,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929750
+                    }
+                ]
+            },
+            "ads_prebid_version": {
+                "name": "ads_prebid_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929750,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929750
+                    }
+                ]
+            },
+            "ads_tam_hem": {
+                "name": "ads_tam_hem",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929757,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929756
+                    }
+                ]
+            },
+            "ads_tam_hem_version": {
+                "name": "ads_tam_hem_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726397929757,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929757
+                    }
+                ]
+            },
+            "ads_toolbar_feeds": {
+                "name": "ads_toolbar_feeds",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929749,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929749
+                    }
+                ]
+            },
+            "ads_toolbar_feeds_version": {
+                "name": "ads_toolbar_feeds_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929750,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929749
+                    }
+                ]
+            },
+            "advertise_international": {
+                "name": "advertise_international",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929755,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929754
+                    }
+                ]
+            },
+            "advertise_international_version": {
+                "name": "advertise_international_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929755,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929755
+                    }
+                ]
+            },
+            "bf-rev-geo": {
+                "name": "bf-rev-geo",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397930407,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728989930,
+                        "expiry": 2592000,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397930405
+                    }
+                ]
+            },
+            "gdpr": {
+                "name": "gdpr",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929175,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727607529.161844,
+                        "expiry": 1209600.1618440151,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929175
+                    }
+                ]
+            },
+            "non_us_ad_lookahead_adjustments": {
+                "name": "non_us_ad_lookahead_adjustments",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929755,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "on",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929755
+                    }
+                ]
+            },
+            "non_us_ad_lookahead_adjustments_version": {
+                "name": "non_us_ad_lookahead_adjustments_version",
+                "domain": ".www.buzzfeed.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726397929756,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484329,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929755
+                    }
+                ]
+            },
+            "_scor_uid": {
+                "name": "_scor_uid",
+                "domain": "www.buzzfeed.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726397929449,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760093929,
+                        "expiry": 33696000,
+                        "value": "b5a98df2330a421f9994d7940b7f3d8d",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726397929448
+                    }
+                ]
+            },
+            "_xsrf": {
+                "name": "_xsrf",
+                "domain": "www.buzzfeed.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726397929295,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "j6wquvocs1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726397929294
+                    }
+                ]
+            }
+        }
+    },
+    "ccgateway.net": {
+        "/": {
+            "ccuid": {
+                "name": "ccuid",
+                "domain": ".ccgateway.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726397932981,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734087532.978435,
+                        "expiry": 7689600.9784350395,
+                        "value": "9551236f-926e-439b-9b87-15559bb22430",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726397932979
+                    }
+                ]
+            }
+        }
+    }
+}

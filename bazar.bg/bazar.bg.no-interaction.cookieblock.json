@@ -1,0 +1,79 @@
+{
+    "bazar.bg": {
+        "/": {
+            "CookieScriptConsent": {
+                "name": "CookieScriptConsent",
+                "domain": ".bazar.bg",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726050243765,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728642243,
+                        "expiry": 2592000,
+                        "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726050243763
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000,
+                        "value": "{\"googleconsentmap\":{\"ad_storage\":\"targeting\",\"analytics_storage\":\"performance\",\"ad_personalization\":\"targeting\",\"ad_user_data\":\"targeting\",\"functionality_storage\":\"functionality\",\"personalization_storage\":\"functionality\",\"security_storage\":\"functionality\"},\"bannershown\":1}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726050248448
+                    }
+                ]
+            },
+            "bc": {
+                "name": "bc",
+                "domain": ".bazar.bg",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726050248099,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757586248,
+                        "expiry": 31536000,
+                        "value": "%7B%22device_id%22%3A%22e2b98cbc-9a50-49a5-b28b-46e59db3e22c%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726050248098
+                    }
+                ]
+            },
+            "uuid": {
+                "name": "uuid",
+                "domain": ".bazar.bg",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726050243497,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757586243.478627,
+                        "expiry": 31536000.478626966,
+                        "value": "5aaba87b-2893-4305-bd36-e14f63525a0c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726050243492
+                    }
+                ]
+            }
+        }
+    }
+}

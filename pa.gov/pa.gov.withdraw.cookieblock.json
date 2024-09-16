@@ -1,0 +1,277 @@
+{
+    "demdex.net": {
+        "/": {
+            "demdex": {
+                "name": "demdex",
+                "domain": ".demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417625315,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741969625.31348,
+                        "expiry": 15552000.3134799,
+                        "value": "77435048516847632444544848600097086016",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417625314
+                    }
+                ]
+            }
+        }
+    },
+    "pa.gov": {
+        "/": {
+            "AMCV_36CD506B6290D6770A495FF4%40AdobeOrg": {
+                "name": "AMCV_36CD506B6290D6770A495FF4%40AdobeOrg",
+                "domain": ".pa.gov",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417625345,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760113625,
+                        "expiry": 33696000,
+                        "value": "MCMID|74891844500616157843713801226313645700",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417625344
+                    }
+                ]
+            },
+            "com.adobe.alloy.getTld": {
+                "name": "com.adobe.alloy.getTld",
+                "domain": ".pa.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417625130,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "com.adobe.alloy.getTld",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625126
+                    }
+                ]
+            },
+            "coveo_visitorId": {
+                "name": "coveo_visitorId",
+                "domain": ".pa.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417625337,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757974577,
+                        "expiry": 31556952,
+                        "value": "283ac2d4-ec4a-4644-8584-c2456a4deec8",
+                        "same_site": "lax",
+                        "timestamp": 1726417625336
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31556952,
+                        "value": "283ac2d4-ec4a-4644-8584-c2456a4deec8",
+                        "same_site": "lax",
+                        "timestamp": 1726417625338
+                    }
+                ]
+            },
+            "kndctr_36CD506B6290D6770A495FF4_AdobeOrg_cluster": {
+                "name": "kndctr_36CD506B6290D6770A495FF4_AdobeOrg_cluster",
+                "domain": ".pa.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417625343,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726419425,
+                        "expiry": 1800,
+                        "value": "irl1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417625343
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "irl1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417625501
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "irl1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417625636
+                    }
+                ]
+            },
+            "kndctr_36CD506B6290D6770A495FF4_AdobeOrg_identity": {
+                "name": "kndctr_36CD506B6290D6770A495FF4_AdobeOrg_identity",
+                "domain": ".pa.gov",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417625344,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760545625,
+                        "expiry": 34128000,
+                        "value": "CiY3NDg5MTg0NDUwMDYxNjE1Nzg0MzcxMzgwMTIyNjMxMzY0NTcwMFITCJ3CibSfMhABGAEqBElSTDEwAPABncKJtJ8y",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726417625343
+                    }
+                ]
+            },
+            "FPID": {
+                "name": "FPID",
+                "domain": "www.pa.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417625272,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760113625.271316,
+                        "expiry": 33696000.27131605,
+                        "value": "828ed25a-cbb8-4ab5-9c23-e8305005ca4c",
+                        "same_site": "lax",
+                        "timestamp": 1726417625271
+                    }
+                ]
+            },
+            "affinity": {
+                "name": "affinity",
+                "domain": "www.pa.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417625274,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "\"972048e98fa25cec\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625273
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "\"f688a4193adff6a8\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625313
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "\"1bb0e434b9a43e2d\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625532
+                    }
+                ]
+            },
+            "s_gpv": {
+                "name": "s_gpv",
+                "domain": "www.pa.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417625156,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726419425,
+                        "expiry": 1800,
+                        "value": "home%20|%20commonwealth%20of%20pennsylvania",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625152
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "home%20|%20commonwealth%20of%20pennsylvania",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625345
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "home%20|%20commonwealth%20of%20pennsylvania",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417625586
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "home%20|%20commonwealth%20of%20pennsylvania",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417633119
+                    }
+                ]
+            }
+        }
+    }
+}

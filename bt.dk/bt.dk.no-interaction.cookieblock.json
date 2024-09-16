@@ -1,0 +1,88 @@
+{
+    "bt.dk": {
+        "/": {
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".www.bt.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148526436,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726155726.422351,
+                        "expiry": 7200.422350883484,
+                        "value": "9FCA9FAF997AC450CE3A572708438107~000000000000000000000000000000~YAAQ3DndWH6w18ORAQAAVUF45hnVZKE6fv9twlxTVeCWALHf8EuUrMpLQLSuwFtcWeCZX6kLqOeygr2Rq0xEnvWwTcw3MKQqbTBvoynbwYldQmM1vkmgYrGpN0OgCCF/Bs186DwvpPu2ohP+aP0mri4YWfwly5Rp8Hl3EAnRtoKBA7ur1tCkOl2LHvxqS9Bn14I/etYupUQHoaUDtZvvFbNy8sEnW+szkvDG9ZhIpV04ku4srG/79OLpy/6aVmRgQyZ4GU0titSIZeCwQbt0Lpow8TBnXesJf+n560183sBQEQhOvp77AWDAhn4rIOfstJYvDVfSQtS0c7ksjxCzzHj8L4wsNUP9NvW40paoPTSHYkkVYsP6GKXjIGNLUzOvseT1t6axvKvl",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148526428
+                    }
+                ]
+            },
+            "gig_canary": {
+                "name": "gig_canary",
+                "domain": ".www.bt.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148528034,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148528030
+                    }
+                ]
+            },
+            "gig_canary_ver": {
+                "name": "gig_canary_ver",
+                "domain": ".www.bt.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148528035,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "16174-3-28769145",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148528034
+                    }
+                ]
+            },
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "www.bt.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148526688,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760708526.687808,
+                        "expiry": 34560000.68780804,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148526688
+                    }
+                ]
+            }
+        }
+    }
+}

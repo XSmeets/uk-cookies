@@ -1,0 +1,352 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Home | Commonwealth of Pennsylvania</title>
+    <meta name="copapwp-page-title" content="Welcome to Pennsylvania">
+    
+    
+    
+    
+    
+    
+        
+        <meta name="description" content="<p>We&amp;#39;re the home base of the Commonwealth of Pennsylvania. Explore the services and resources offered by your government.</p>
+">
+        <meta name="copapwp-hero-description" content="<p>We&amp;#39;re the home base of the Commonwealth of Pennsylvania. Explore the services and resources offered by your government.</p>
+">
+	
+
+    <meta name="template" content="homepage-template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    
+    
+    
+    
+    
+<link rel="canonical" href="https://www.pa.gov/en.html">
+
+
+    
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/copapwp/clientlibs/clientlib-base.lc-5b6bf6bddb27a9ef3f911fb1eb20081a-lc.min.css" type="text/css">
+
+
+
+
+
+
+    <script src="https://assets.adobedtm.com/f86da0763cf0/5b0df319fe32/launch-65d09947fa92.min.js" async=""></script>
+
+
+    <script src="https://cdn.levelaccess.net/accessjs/YW1wX2NvcGExMTAy/access.js" async=""></script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onload&amp;render=explicit" async="" defer=""></script>
+
+    
+    
+    
+
+    
+
+    
+    
+    <link rel="stylesheet" href="/etc.clientlibs/copapwp/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/copapwp/clientlibs/clientlib-site.lc-2c090a549160250dd8f94244d2cfe5d8-lc.min.css" type="text/css">
+
+
+    
+    
+    <script async="" src="/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-398efcd96e798eb415efc01d532b723c-lc.min.js"></script>
+
+
+    
+    <script async="" src="/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js"></script>
+
+
+
+    
+    <link rel="icon" href="/etc.clientlibs/copapwp/clientlibs/clientlib-site/resources/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/etc.clientlibs/copapwp/clientlibs/clientlib-site/resources/images/apple-touch-icon.png">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://www.translate.googleapis.com">
+
+    
+    <script type="module" src="https://static.cloud.coveo.com/atomic/v2/atomic.esm.js"> </script>
+<link rel="stylesheet" href="https://static.cloud.coveo.com/atomic/v2/themes/coveo.css">
+
+
+    <script>
+    (function () {
+        const coveoSearch = new (function () {
+            // Keeps focus within the refine dialog.
+            this.focusTrap = (e) => {
+                const firstFocusableElement = document.querySelector('.cmp-coveo-search-sort-refine-modal__header__close');
+                const lastFocusableElement = document.querySelector('.cmp-coveo-search-sort-refine-modal__footer__apply');
+                const isTabPressed = e.key === 'Tab' || e.keyCode === 9;
+                
+                if (!isTabPressed) {
+                    return;
+                }
+            
+                if (e.shiftKey) {
+                    if (document.activeElement === firstFocusableElement) {
+                        lastFocusableElement.focus(); 
+                        e.preventDefault();
+                    }
+                } else { // if tab key is pressed
+                    if (document.activeElement === lastFocusableElement) {
+                        firstFocusableElement.focus();
+                        e.preventDefault();
+                    }
+                }
+            };
+
+            // Key press handler to close modal if ESC is pressed.
+            this.handleEscPress = (e) => {
+                const isEscPressed = e.key === 'Escape' || e.keyCode === 27;
+
+                if (!isEscPressed) {
+                    return;
+                }
+                
+                coveoSearch.closeRefineModal();
+                e.preventDefault(); 
+            }
+
+            // Opens the refine dialog.
+            this.openRefineModal = () => {
+                const modalBg = document.querySelector('.cmp-coveo-search-sort-refine-modal__overlay-bg');
+                const modal = document.querySelector('.cmp-coveo-search-sort-refine-modal');
+                const closeBtn = document.querySelector('.cmp-coveo-search-sort-refine-modal__header__close');
+                const applyBtn = document.querySelector('.cmp-coveo-search-sort-refine-modal__footer__apply');
+
+                // Allows interaction for tab screen readers within dialog.
+                modal.setAttribute('aria-hidden', false);
+                modal.setAttribute('tabindex', '0');
+
+                // Shows the dialog and locks scroll outside of it.
+                modalBg.classList.add('cmp-coveo-search-sort-refine-modal__overlay-bg--shown');
+                modal.classList.add('cmp-coveo-search-sort-refine-modal--shown');
+                document.body.classList.add('modal-open');
+
+                // Wire up all the ways to close the dialog.
+                closeBtn.addEventListener('click', coveoSearch.closeRefineModal);
+                applyBtn.addEventListener('click', coveoSearch.closeRefineModal);
+                modalBg.addEventListener('click', coveoSearch.closeRefineModal);
+
+                // Wires up keyboard handlers.
+                modal.addEventListener('keydown', coveoSearch.focusTrap);
+                modal.addEventListener('keyup', coveoSearch.handleEscPress);
+
+                // Sets focus on the first focusable element (cluse button) in the dialog.
+                closeBtn.focus();
+            }
+
+            this.closeRefineModal = () => {
+                const modalBg = document.querySelector('.cmp-coveo-search-sort-refine-modal__overlay-bg');
+                const modal = document.querySelector('.cmp-coveo-search-sort-refine-modal');
+                const modalTrigger = document.getElementById('cmp-coveo-search-modal-trigger');
+                const modalContent = document.querySelector('.cmp-coveo-search-sort-refine-modal__content');
+
+                // Removes dialog from tab order, hides from screen readers and resets scroll position of content.
+                modal.setAttribute('aria-hidden', true);
+                modal.setAttribute('tabindex', '-1');
+                modalContent.scrollTop = 0;
+
+                // Hides the dialog and allows scrolling of body again.
+                modalBg.classList.remove('cmp-coveo-search-sort-refine-modal__overlay-bg--shown');
+                modal.classList.remove('cmp-coveo-search-sort-refine-modal--shown');
+                document.body.classList.remove('modal-open');
+
+                // Remove keyboard event listeners.
+                modal.removeEventListener('keydown', coveoSearch.focusTrap);
+                modal.removeEventListener('keyup', coveoSearch.handleEscPress);
+
+                // Directs focus back to the dialog opener.
+                modalTrigger.focus();
+            }
+
+            this.init = () => {
+                (async () => {
+                    await customElements.whenDefined('atomic-search-interface');
+
+                    const searchInterface = document.querySelector('#search');
+                    const teaserSearchInterface = document.querySelector('#teaser-search');
+                    const headerSearchInterface = document.querySelector('#header-search');
+
+                    // Initialize main search interface
+                    if (searchInterface) {
+                        await searchInterface.initialize({
+                            accessToken: 'xx4e57cda9-3464-437d-9375-b947ca6b72c8',
+                            organizationId: 'commonwealthofpennsylvaniaproductiono8jd9ckm',
+                            platformUrl:'https://platform.cloud.coveo.com',
+                            search: {
+                                preprocessSearchResponseMiddleware: (response) => {
+                                    response.body.results.forEach((result) => {
+                                    if (result.raw.copapwpadditionalinformation) {
+                                        let template = '<style>li,p,span,ul{font-size:.75rem;line-height:1.5;font-weight:400;color:#001849}p{margin:.5rem 0}ul{margin:.5rem 0;padding-left:1rem}a{color:#00629e}a:hover{color:#001849;text-decoration:underline}a:focus,a:focus-visible{outline:1px solid #0f62fe;outline-offset:0}</style>';
+                                        template += result.raw.copapwpadditionalinformation.toString();
+                                        result.raw.copapwpadditionalinformationformatted = template;
+                                    }
+
+                                    if (result.raw.copapwpherodescription) {
+                                        let template = '<style>li,p,span,ul{font-size:.75rem;line-height:1.5;font-weight:400;color:#001849}p{margin:0 0 .5rem}p:last-of-type{margin-bottom: 0;}ul{margin:.5rem 0;padding-left:1rem}a{color:#00629e}a:hover{color:#001849;text-decoration:underline}a:focus,a:focus-visible{outline:1px solid #0f62fe;outline-offset:0}</style>';
+                                        template += result.raw.copapwpherodescription.toString();
+                                        result.raw.copapwpherodescriptionformatted = template;
+                                    }
+
+                                    if (result.raw.copapwpcontenttype) {
+                                        if ((result.raw.copapwpcontenttype.includes('Location') &&
+                                                (result.raw.copapwpcontactname2 ||
+                                                result.raw.copapwpcontactlabel2 ||
+                                                result.raw.copapwpphonenumber2 ||
+                                                (result.raw.copapwplinkurl2 && result.raw.copapwplinklabel2) ||
+                                                (result.raw.copapwpexternallinkurl2 && result.raw.copapwplinklabel2) ||
+                                                result.raw.copapwpadditionalinformation) ||
+                                                (result.raw.copapwpdocumentdownload2 && result.raw.copapwpdocumentdownload2linklabel) ||
+                                            (result.raw.copapwpcontenttype.includes('Event') && 
+                                                (result.raw.copapwpcontactname1 ||
+                                                result.raw.copapwpcontactlabel1 ||
+                                                result.raw.copapwpphonenumber1 ||
+                                                result.raw.copapwpadditionalinformation ||
+                                                result.raw.copapwpaddressline1 ||
+                                                result.raw.copapwpemail ||
+                                                result.raw.copapwpeventfee ||
+                                                result.raw.copapwpcity ||
+                                                result.raw.copapwpstate ||
+                                                result.raw.copapwpzip)
+                                            ))
+                                        ) {
+                                            result.raw.copapwpshowadditionalinformation = 'true';
+                                        }
+
+                                        if ((result.raw.copapwpcontenttype.includes('Location') &&
+                                                (result.raw.copapwpaddressline1 ||
+                                                result.raw.copapwpaddressline2 ||
+                                                result.raw.copapwpaddressline3 ||
+                                                result.raw.copapwpcity ||
+                                                result.raw.copapwpstate ||
+                                                result.raw.copapwpzipcode) ||
+                                            (result.raw.copapwpcontenttype.includes('Event') && 
+                                                (result.raw.copapwpaddressline1 ||
+                                                result.raw.copapwpaddressline2 ||
+                                                result.raw.copapwpaddressline3 ||
+                                                result.raw.copapwpcity ||
+                                                result.raw.copapwpstate ||
+                                                result.raw.copapwpzipcode)
+                                            ))
+                                        ) {
+                                            result.raw.copapwpshowaddress = 'true';
+                                        }
+                                        
+                                        if ((result.raw.copapwpcontenttype.includes('Location')||
+                                            result.raw.copapwpcontenttype.includes('Event')) &&
+                                            (result.raw.copapwpcity ||
+                                            result.raw.copapwpstate ||
+                                            result.raw.copapwpzipcode)
+                                        ) {
+                                            let formattedCityStateZip = '';
+
+                                            if (result.raw.copapwpcity) {
+                                                formattedCityStateZip += result.raw.copapwpcity;
+                                            }
+
+                                            if (result.raw.copapwpstate) {
+                                                if (result.raw.copapwpcity) {
+                                                    formattedCityStateZip += ', ' + result.raw.copapwpstate;
+                                                } else {
+                                                    formattedCityStateZip += result.raw.copapwpstate;
+                                                }
+                                            }
+
+                                            if (result.raw.copapwpzipcode) {
+                                                if (result.raw.copappwpcity || result.raw.copapwpstate) {
+                                                    formattedCityStateZip += ', ' + result.raw.copapwpzipcode;
+                                                } else {
+                                                    formattedCityStateZip += result.raw.copapwpzipcode;
+                                                }
+                                            }
+
+                                            result.raw.copapwpwcitystatezip = formattedCityStateZip;
+                                        }
+                                    }
+
+                                    return result;
+                                });
+                                return response;
+                                },
+                                preprocessFacetSearchResponseMiddleware: (response) => response,
+                                preprocessQuerySuggestResponseMiddleware: (response) => response,
+                            },
+                        });
+                        searchInterface.executeFirstSearch();
+
+                        const skipBtn = document.querySelector('a[href="#content"]');
+
+                        if (skipBtn) {
+                            skipBtn.addEventListener('click', function(e) {
+                                e.preventDefault();
+
+                                const contentDiv = document.getElementById('content');
+
+                                if (contentDiv) {
+                                    contentDiv.focus();
+                                }
+                            });
+                        }
+                    }
+
+                     // Initialize hero search bar
+                     if (headerSearchInterface) {
+                        await headerSearchInterface.initialize({
+                            accessToken: 'xx4e57cda9-3464-437d-9375-b947ca6b72c8',
+                            organizationId: 'commonwealthofpennsylvaniaproductiono8jd9ckm',
+                            platformUrl:'https://platform.cloud.coveo.com',
+                            analytics: {
+                                analyticsClientMiddleware: (eventType, payload) => {
+                                    if (eventType === 'search') {
+                                        window?.adobeDatalayer?.push(
+                                            {
+                                                event: eventType,
+                                                eventInfo: {
+                                                    action: 'Search Click',
+                                                    category: eventType,
+                                                    id: eventType,
+                                                    label: payload.queryText,
+                                                    name: eventType,
+                                                    parentId: 'header',
+                                                    targetURL: '/en/search.html.html',
+                                                    type: 'other',
+                                                }
+                                            }
+                                        );
+                                    }
+                                    return payload;
+                                }
+                            }
+                        });
+                    }
+
+                     // Initialize hero search bar
+                     if (teaserSearchInterface) {
+                        await teaserSearchInterface.initialize({
+                            accessToken: 'xx4e57cda9-3464-437d-9375-b947ca6b72c8',
+                            organizationId: 'commonwealthofpennsylvaniaproductiono8jd9ckm',
+                            platformUrl:'https://platform.cloud.coveo.com'
+                        });
+                    }
+                })();
+
+                if (document.getElementById('cmp-coveo-search-modal-trigger')) {
+                    document
+                        .getElementById('cmp-coveo-search-modal-trigger')
+                        .addEventListener('click', coveoSearch.openRefineModal);
+                }
+            };
+        })();
+        
+        document.addEventListener('DOMContentLoaded', coveoSearch.init, false);
+    })();
+</script></head></html>

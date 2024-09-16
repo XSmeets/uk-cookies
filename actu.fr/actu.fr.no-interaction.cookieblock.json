@@ -1,0 +1,242 @@
+{
+    "actu.fr": {
+        "/": {
+            "_cookie_test": {
+                "name": "_cookie_test",
+                "domain": ".actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271539,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726078301,
+                        "expiry": 30,
+                        "value": "m0y6fq5t5qtl72",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078271538
+                    }
+                ]
+            },
+            "_pcid": {
+                "name": "_pcid",
+                "domain": ".actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271546,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760206271,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m0y6fq5xa0j63wbv%22%2C%22_t%22%3A%22mgmld7i1%7Cm0y6fq61%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726078271545
+                    }
+                ]
+            },
+            "_pctx": {
+                "name": "_pctx",
+                "domain": ".actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271547,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760206271,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXSwH18yBbAOb9UrAOz0ATAB9%2BABgCeANgBmARyWSQAXyA",
+                        "same_site": "lax",
+                        "timestamp": 1726078271546
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271482,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741893071,
+                        "expiry": 15814800,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTI0ODMtZmY1Ny02ZGVhLWJmYWUtNzVlOTY0ZDE1MjJiIiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTg6MTE6MTEuNDc3WiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDE4OjExOjExLjQ3N1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726078271478
+                    }
+                ]
+            },
+            "pa_privacy": {
+                "name": "pa_privacy",
+                "domain": ".actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271544,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760206271,
+                        "expiry": 34128000,
+                        "value": "%22exempt%22",
+                        "same_site": "lax",
+                        "timestamp": 1726078271544
+                    }
+                ]
+            },
+            "tkCiblage": {
+                "name": "tkCiblage",
+                "domain": ".actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271446,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760264969,
+                        "expiry": 34186698,
+                        "value": "{\"pv\":1,\"sessions\":1,\"pvSession\":1,\"lastTimeStamp\":1726078271065,\"lastActiveDay\":\"2024|9|11\",\"NoRefresh\":1,\"gtmRollingJA\":1,\"NBActiveDays\":1,\"NbArticles\":0,\"NbPaidArticles\":0,\"Exp\":\"1760264969440\"}",
+                        "same_site": "lax",
+                        "timestamp": 1726078271441
+                    }
+                ]
+            }
+        }
+    },
+    "auth.actu.fr": {
+        "/": {
+            "AWSALB": {
+                "name": "AWSALB",
+                "domain": "auth.actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271563,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726683071.56111,
+                        "expiry": 604800.5611100197,
+                        "value": "OBASz0BYEvwHcRebE+lycQlSzQ7XTQdV1v61Gv9xa+6XTBAx84NSWSMB7S2q++vfVgjdZf0tBy1rvbTsEk9JYb5bSdL0IAboHF5JCOTMMmYV/MeZSKCHT2MxB/QM",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078271561
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800.6020979881,
+                        "value": "1vlqfJn6mPe7IJD5lOvQarvB0frl4Ctal4vj3STRWepQx65utoDXWhTP+fNSZ7da2pW/UOTBGHiBIZqnbjHA5MlTaE5Lr3lKHeqCSuTIJz00c2I9jZoxZRTi2Lsq",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078271603
+                    }
+                ]
+            },
+            "AWSALBCORS": {
+                "name": "AWSALBCORS",
+                "domain": "auth.actu.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078271565,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726683071.561181,
+                        "expiry": 604800.5611810684,
+                        "value": "OBASz0BYEvwHcRebE+lycQlSzQ7XTQdV1v61Gv9xa+6XTBAx84NSWSMB7S2q++vfVgjdZf0tBy1rvbTsEk9JYb5bSdL0IAboHF5JCOTMMmYV/MeZSKCHT2MxB/QM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726078271563
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 604800.6021440029,
+                        "value": "1vlqfJn6mPe7IJD5lOvQarvB0frl4Ctal4vj3STRWepQx65utoDXWhTP+fNSZ7da2pW/UOTBGHiBIZqnbjHA5MlTaE5Lr3lKHeqCSuTIJz00c2I9jZoxZRTi2Lsq",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726078271603
+                    }
+                ]
+            }
+        },
+        "/auth/realms/actu-fr/protocol/openid-connect/3p-cookies": {
+            "KEYCLOAK_3P_COOKIE": {
+                "name": "KEYCLOAK_3P_COOKIE",
+                "domain": "auth.actu.fr",
+                "path": "/auth/realms/actu-fr/protocol/openid-connect/3p-cookies",
+                "current_label": 0,
+                "label_ts": 1726078271567,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726078331.564139,
+                        "expiry": 60.564138889312744,
+                        "value": "supported",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078271566
+                    }
+                ]
+            },
+            "KEYCLOAK_3P_COOKIE_SAMESITE": {
+                "name": "KEYCLOAK_3P_COOKIE_SAMESITE",
+                "domain": "auth.actu.fr",
+                "path": "/auth/realms/actu-fr/protocol/openid-connect/3p-cookies",
+                "current_label": 0,
+                "label_ts": 1726078271566,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726078331.564096,
+                        "expiry": 60.564095973968506,
+                        "value": "supported",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726078271565
+                    }
+                ]
+            }
+        }
+    }
+}

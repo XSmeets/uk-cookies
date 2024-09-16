@@ -1,0 +1,27 @@
+{
+    "blog.gov.uk": {
+        "/": {
+            "CookieControl": {
+                "name": "CookieControl",
+                "domain": "www.blog.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233330107,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734012930,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"no-more-survey\"],\"optionalCookies\":{\"analytics\":\"revoked\"},\"statement\":{\"shown\":true,\"updated\":\"17/12/2019\"},\"consentDate\":1726233330095,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"5AFDFC12-2206-4496-B2E3-B6ECB4EE546A\"}",
+                        "same_site": "lax",
+                        "timestamp": 1726233330098
+                    }
+                ]
+            }
+        }
+    }
+}

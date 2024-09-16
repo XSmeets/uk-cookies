@@ -1,0 +1,1752 @@
+{
+    "api.lightboxcdn.com": {
+        "/": {
+            "TiPMix": {
+                "name": "TiPMix",
+                "domain": ".api.lightboxcdn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342850086,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726346450.085462,
+                        "expiry": 3600.0854620933533,
+                        "value": "42.60750639225057",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342850085
+                    }
+                ]
+            },
+            "x-ms-routing-name": {
+                "name": "x-ms-routing-name",
+                "domain": ".api.lightboxcdn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342850088,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726346450.085524,
+                        "expiry": 3600.085524082184,
+                        "value": "self",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342850087
+                    }
+                ]
+            }
+        }
+    },
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856103,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760038857.101744,
+                        "expiry": 33696001.10174394,
+                        "value": "2C1F2DA7386D611A27C6395D39556071",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342856102
+                    }
+                ]
+            }
+        }
+    },
+    "brownsshoes.com": {
+        "/": {
+            "BVBRANDID": {
+                "name": "BVBRANDID",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848928,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757878848,
+                        "expiry": 31536000,
+                        "value": "bc6a168f-58e2-41dc-9915-431af5b3ac75",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848928
+                    }
+                ]
+            },
+            "BVBRANDSID": {
+                "name": "BVBRANDSID",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848929,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726344648,
+                        "expiry": 1800,
+                        "value": "93a981a7-2ccd-4d82-9a98-2bc6ee4274ae",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848929
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342855889,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757878855,
+                        "expiry": 31536000,
+                        "value": "2024-09-14T19:40:55.888Z",
+                        "same_site": "lax",
+                        "timestamp": 1726342855889
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342849087,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726342849088
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3",
+                        "same_site": "lax",
+                        "timestamp": 1726342849089
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726342849090
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0&landingPath=https%3A%2F%2Fwww.brownsshoes.com%2Fen%2Fhome",
+                        "same_site": "lax",
+                        "timestamp": 1726342849095
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0&landingPath=https%3A%2F%2Fwww.brownsshoes.com%2Fen%2Fhome&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726342849156
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A49+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0&landingPath=https%3A%2F%2Fwww.brownsshoes.com%2Fen%2Fhome&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726342849157
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A55+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726342855890
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A55+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726342855891
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A55+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726342855891
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A40%3A55+GMT%2B0200+(Central+European+Summer+Time)&version=202310.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93567990-da45-4013-bee9-2be6e79509e3&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726342855913
+                    }
+                ]
+            },
+            "_ScCbts": {
+                "name": "_ScCbts",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342856256,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726947656,
+                        "expiry": 604800,
+                        "value": "%5B%5D",
+                        "same_site": "lax",
+                        "timestamp": 1726342856255
+                    }
+                ]
+            },
+            "__cq_uuid": {
+                "name": "__cq_uuid",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342849723,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760470849.722429,
+                        "expiry": 34128000.72242904,
+                        "value": "bdZ8SoDsaEPyPykE9aEUbki3gm",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849722
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34128000.761013985,
+                        "value": "bdZ8SoDsaEPyPykE9aEUbki3gm",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849761
+                    }
+                ]
+            },
+            "__tld__": {
+                "name": "__tld__",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726342848946,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848955
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848956
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848957
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848959
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848960
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849130
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849131
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849135
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849205
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855917
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856117,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734118856,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726342856115.26148638239248117",
+                        "same_site": "lax",
+                        "timestamp": 1726342856116
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342855894,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760902855.89312,
+                        "expiry": 34560000.89312005,
+                        "value": "GA1.1.864166803.1726342849",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855893
+                    }
+                ]
+            },
+            "_ga_J748DH5G9K": {
+                "name": "_ga_J748DH5G9K",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342855895,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760902855.893517,
+                        "expiry": 34560000.89351702,
+                        "value": "GS1.1.1726342848.1.0.1726342848.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855895
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.897177935,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855897
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.897377014,
+                        "value": "GS1.1.1726342848.1.0.1726342855.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855898
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.54063201,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342858541
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.54098296,
+                        "value": "GS1.1.1726342848.1.0.1726342858.57.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342858541
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342855903,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734118855,
+                        "expiry": 7776000,
+                        "value": "1.1.1136050636.1726342856",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855902
+                    }
+                ]
+            },
+            "_pin_unauth": {
+                "name": "_pin_unauth",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856119,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757878856,
+                        "expiry": 31536000,
+                        "value": "dWlkPU9XTTRNak0xTVRNdE9XTm1ZUzAwTVRFMExUZzFaREV0TXpFNVl6Tm1NalZqTmprMw",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342856118
+                    }
+                ]
+            },
+            "_px3": {
+                "name": "_px3",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342850373,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726343180,
+                        "expiry": 330,
+                        "value": "fe98def01704f424553c8c208c8ce5914952e77ddc213065d11fb9650f55cc6c:fPB0dxFdP7UwoNw5v51lGfil47a163cJoCiMuyNrKoTyDJCGJ05A6cU9NDB+mDsTzWAFeW3WYKoHReYjFi7vUw==:1000:/aLTYZCuBjGWKmjY/kFPGW+G3n0a6amo/fdU6nBx7+/5MorSpMkCbPT5iR/QlMqTIXx3RgNiX023EvVVz2gO641qBnKMenjnzZJuIzh2rDrIZf3TbiM4h0rEia3n0Xhl8yTgpBpeYAt9tvvUvOWWTPf7DYR+OWDiUoKpI0IciIplGjOcAc6GNbyqHHT37QHk4KPteIsykqPeB7jsNA7WRoQh8mg8JssP3OvBJ2DIAik=",
+                        "same_site": "lax",
+                        "timestamp": 1726342850372
+                    }
+                ]
+            },
+            "_pxvid": {
+                "name": "_pxvid",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342849519,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757878849,
+                        "expiry": 31536000,
+                        "value": "3d9ccd35-72d1-11ef-abf3-348d84fb77ca",
+                        "same_site": "lax",
+                        "timestamp": 1726342849519
+                    }
+                ]
+            },
+            "_schn1": {
+                "name": "_schn1",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342856053,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726343036,
+                        "expiry": 180,
+                        "value": "wg1n",
+                        "same_site": "lax",
+                        "timestamp": 1726342856053
+                    }
+                ]
+            },
+            "_scid": {
+                "name": "_scid",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726342856055,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760529554,
+                        "expiry": 34186698,
+                        "value": "4_vdGoL3N_FFSteKKfFbmhkAmZOBMvfd",
+                        "same_site": "lax",
+                        "timestamp": 1726342856055
+                    }
+                ]
+            },
+            "_scid_r": {
+                "name": "_scid_r",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726342856056,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760529554,
+                        "expiry": 34186698,
+                        "value": "4_vdGoL3N_FFSteKKfFbmhkAmZOBMvfd",
+                        "same_site": "lax",
+                        "timestamp": 1726342856056
+                    }
+                ]
+            },
+            "_tt_enable_cookie": {
+                "name": "_tt_enable_cookie",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342856150,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760038856,
+                        "expiry": 33696000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342856150
+                    }
+                ]
+            },
+            "_ttp": {
+                "name": "_ttp",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342856151,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760038856,
+                        "expiry": 33696000,
+                        "value": "9jGcNFQ8mmPKbGSiYzyTWEljPb-",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342856151
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856071,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726429256,
+                        "expiry": 86400,
+                        "value": "4278a30072d111efb703dbee617457bd",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342856070
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342856072,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760038856,
+                        "expiry": 33696000,
+                        "value": "4278838072d111efb6431fad85356139",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342856071
+                    }
+                ]
+            },
+            "_vis_opt_exp_75_combi": {
+                "name": "_vis_opt_exp_75_combi",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848935,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734982848,
+                        "expiry": 8640000,
+                        "value": "4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848935
+                    }
+                ]
+            },
+            "_vis_opt_exp_75_combi_choose": {
+                "name": "_vis_opt_exp_75_combi_choose",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848920,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734982848,
+                        "expiry": 8640000,
+                        "value": "4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848920
+                    }
+                ]
+            },
+            "_vis_opt_exp_75_goal_2": {
+                "name": "_vis_opt_exp_75_goal_2",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342858533,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734982858,
+                        "expiry": 8640000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342858532
+                    }
+                ]
+            },
+            "_vis_opt_exp_75_goal_3": {
+                "name": "_vis_opt_exp_75_goal_3",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342855884,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734982855,
+                        "expiry": 8640000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855884
+                    }
+                ]
+            },
+            "_vis_opt_exp_75_goal_5": {
+                "name": "_vis_opt_exp_75_goal_5",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342855885,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734982855,
+                        "expiry": 8640000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855885
+                    }
+                ]
+            },
+            "_vis_opt_s": {
+                "name": "_vis_opt_s",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848909,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734982848,
+                        "expiry": 8640000,
+                        "value": "1%7C",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848909
+                    }
+                ]
+            },
+            "_vis_opt_test_cookie": {
+                "name": "_vis_opt_test_cookie",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848811,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848810
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848910
+                    }
+                ]
+            },
+            "_vwo_ds": {
+                "name": "_vwo_ds",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848816,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728934848,
+                        "expiry": 2592000,
+                        "value": "3%241726342848%3A87.20516357%3A%3A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848815
+                    }
+                ]
+            },
+            "_vwo_sn": {
+                "name": "_vwo_sn",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848816,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726344648,
+                        "expiry": 1800,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848816
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848818
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848969
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342849430
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342853687
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342855069
+                    }
+                ]
+            },
+            "_vwo_uuid": {
+                "name": "_vwo_uuid",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848815,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757899800,
+                        "expiry": 31556952,
+                        "value": "DD3C0BE3B9B2F217D2F12662D5CFC97DF",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848814
+                    }
+                ]
+            },
+            "_vwo_uuid_v2": {
+                "name": "_vwo_uuid_v2",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848711,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757965248,
+                        "expiry": 31622400,
+                        "value": "DD3C0BE3B9B2F217D2F12662D5CFC97DF|b7aae266d1cf985022bcd6260763608c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848710
+                    }
+                ]
+            },
+            "ajs_anonymous_id": {
+                "name": "ajs_anonymous_id",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726342849128,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757878849,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342849127
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342849129
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342849134
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342849134
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342849202
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342849204
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "03f158a0-f8f2-4b6f-9235-ef4de3138674",
+                        "same_site": "lax",
+                        "timestamp": 1726342855912
+                    }
+                ]
+            },
+            "pxcts": {
+                "name": "pxcts",
+                "domain": ".brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342849518,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3e8f711c-72d1-11ef-8188-f717d2f0196d",
+                        "same_site": "lax",
+                        "timestamp": 1726342849517
+                    }
+                ]
+            },
+            "dwsid": {
+                "name": "dwsid",
+                "domain": "brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342847459,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "6pOSpUUrO52GygyDR3eOrMIKMD7n4NtzRn2hvVsRHkaJE6ybfL-0xVkv3RISf5N6tG6cZ4ksyFbnrWabpO_WgQ==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342847447
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "vmfhNE0uIIul47UbmpHBKSJfiL8xZUoM_8v-8yy3gFJY4rmrs4JuAYT8vBYfqn7LaKYBV9PHc4Vzg9wSRLpuAA==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848017
+                    }
+                ]
+            },
+            "__cq_dnt": {
+                "name": "__cq_dnt",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726342848015,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848014
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848433
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849119
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849561
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849567
+                    }
+                ]
+            },
+            "_pxhd": {
+                "name": "_pxhd",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848014,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757899798.991596,
+                        "expiry": 31556950.991595984,
+                        "value": "H2otDX2h81UXHKZLxKVrVhV70T/KaOlwpmIfcPusaTAFGKfD-AdGboTLeKIlM47UyRpFlnharDBeKJlVlRA2FA==:9kn5lArUuFpKr7hCZHGF6laX1dv6MzRrSJYOgfTYWUNg3SRqYN5BOohDpB-YQJSwyKMZ74kpHOCQ1y3LPp5W2vAR5eTUniXW-J4tSNNwWe8=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848011
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556952.430435896,
+                        "value": "H2otDX2h81UXHKZLxKVrVhV70T/KaOlwpmIfcPusaTAFGKfD-AdGboTLeKIlM47UyRpFlnharDBeKJlVlRA2FA==:9kn5lArUuFpKr7hCZHGF6laX1dv6MzRrSJYOgfTYWUNg3SRqYN5BOohDpB-YQJSwyKMZ74kpHOCQ1y3LPp5W2vAR5eTUniXW-J4tSNNwWe8=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848432
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556952.560431004,
+                        "value": "H2otDX2h81UXHKZLxKVrVhV70T/KaOlwpmIfcPusaTAFGKfD-AdGboTLeKIlM47UyRpFlnharDBeKJlVlRA2FA==:9kn5lArUuFpKr7hCZHGF6laX1dv6MzRrSJYOgfTYWUNg3SRqYN5BOohDpB-YQJSwyKMZ74kpHOCQ1y3LPp5W2vAR5eTUniXW-J4tSNNwWe8=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849560
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556952.566670895,
+                        "value": "H2otDX2h81UXHKZLxKVrVhV70T/KaOlwpmIfcPusaTAFGKfD-AdGboTLeKIlM47UyRpFlnharDBeKJlVlRA2FA==:9kn5lArUuFpKr7hCZHGF6laX1dv6MzRrSJYOgfTYWUNg3SRqYN5BOohDpB-YQJSwyKMZ74kpHOCQ1y3LPp5W2vAR5eTUniXW-J4tSNNwWe8=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849567
+                    }
+                ]
+            },
+            "cqcid": {
+                "name": "cqcid",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848007,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "bdZ8SoDsaEPyPykE9aEUbki3gm",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848006
+                    }
+                ]
+            },
+            "cquid": {
+                "name": "cquid",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726342848008,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "||",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848007
+                    }
+                ]
+            },
+            "dw_dnt": {
+                "name": "dw_dnt",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726342848016,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848016
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848433
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849119
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849561
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849567
+                    }
+                ]
+            },
+            "dwac_eaec2a44670c8d27339192c2da": {
+                "name": "dwac_eaec2a44670c8d27339192c2da",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848005,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "87wr7lqVjkqc4bhqbIY0gG-EQmUm3uTNxsk%3D|dw-only|||CAD|false|America%2FMontreal|true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342847992
+                    }
+                ]
+            },
+            "dwanonymous_f75b325ed75eeb7c3c140bef0629f074": {
+                "name": "dwanonymous_f75b325ed75eeb7c3c140bef0629f074",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848011,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741894847.991483,
+                        "expiry": 15551999.991482973,
+                        "value": "bdZ8SoDsaEPyPykE9aEUbki3gm",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848009
+                    }
+                ]
+            },
+            "old_sfcc_event_id": {
+                "name": "old_sfcc_event_id",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848641,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757878848,
+                        "expiry": 31536000,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848640
+                    }
+                ]
+            },
+            "sfcc_event_id": {
+                "name": "sfcc_event_id",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848642,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757878848,
+                        "expiry": 31536000,
+                        "value": "6685e918-41a8-4bcc-958a-d27772560817",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848641
+                    }
+                ]
+            },
+            "sid": {
+                "name": "sid",
+                "domain": "www.brownsshoes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848009,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "87wr7lqVjkqc4bhqbIY0gG-EQmUm3uTNxsk",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848008
+                    }
+                ]
+            }
+        },
+        "/en": {
+            "_gd1726342848925": {
+                "name": "_gd1726342848925",
+                "domain": ".brownsshoes.com",
+                "path": "/en",
+                "current_label": 0,
+                "label_ts": 1726342848926,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_gd1726342848925",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848926
+                    }
+                ]
+            },
+            "_gd1726342848926": {
+                "name": "_gd1726342848926",
+                "domain": ".brownsshoes.com",
+                "path": "/en",
+                "current_label": 0,
+                "label_ts": 1726342848927,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_gd1726342848926",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848927
+                    }
+                ]
+            },
+            "_gd1726342848928": {
+                "name": "_gd1726342848928",
+                "domain": ".brownsshoes.com",
+                "path": "/en",
+                "current_label": 0,
+                "label_ts": 1726342848930,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_gd1726342848928",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848929
+                    }
+                ]
+            },
+            "weird_get_top_level_domain": {
+                "name": "weird_get_top_level_domain",
+                "domain": ".brownsshoes.com",
+                "path": "/en",
+                "current_label": 1,
+                "label_ts": 1726342848881,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726342848880
+                    }
+                ]
+            },
+            "_pxttld": {
+                "name": "_pxttld",
+                "domain": ".www.brownsshoes.com",
+                "path": "/en",
+                "current_label": 3,
+                "label_ts": 1726342849516,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849515
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849517
+                    }
+                ]
+            }
+        }
+    },
+    "cquotient.com": {
+        "/": {
+            "uuid": {
+                "name": "uuid",
+                "domain": ".cquotient.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342849714,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760470849.712772,
+                        "expiry": 34128000.71277189,
+                        "value": "bdZ8SoDsaEPyPykE9aEUbki3gm",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849713
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.750533104,
+                        "value": "bdZ8SoDsaEPyPykE9aEUbki3gm",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342849751
+                    }
+                ]
+            }
+        }
+    },
+    "lightboxcdn.com": {
+        "/": {
+            "_cfuvid": {
+                "name": "_cfuvid",
+                "domain": ".lightboxcdn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726342848722,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "QjD3qIrswfGTKMrUYkPgh2sRbpcaKvPeQFz5OP9wRRU-1726342848783-0.0.1.1-604800000",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342848721
+                    }
+                ]
+            }
+        }
+    },
+    "pinterest.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856115,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757878856.114977,
+                        "expiry": 31536000.114976883,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342856115
+                    }
+                ]
+            }
+        }
+    },
+    "snapchat.com": {
+        "/": {
+            "sc_at": {
+                "name": "sc_at",
+                "domain": ".snapchat.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856136,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760038856.134415,
+                        "expiry": 33696000.13441491,
+                        "value": "v2|H4sIAAAAAAAAAAXBgQ0AIAgDsItIcOLAc0iQKzjeNt8O0lr4FGJVKdfbRVvBqoOkzSwHtyEORz+rFPS3MgAAAA==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342856135
+                    }
+                ]
+            }
+        }
+    },
+    "tiktok.com": {
+        "/": {
+            "_ttp": {
+                "name": "_ttp",
+                "domain": ".tiktok.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726342856062,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760038856.06102,
+                        "expiry": 33696000.0610199,
+                        "value": "2m4jgtdhmTB3jYgvIkySGHt7Qq0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342856061
+                    }
+                ]
+            }
+        }
+    },
+    "sc-static.net": {
+        "/scevent.min.js": {
+            "X-AB": {
+                "name": "X-AB",
+                "domain": "sc-static.net",
+                "path": "/scevent.min.js",
+                "current_label": 2,
+                "label_ts": 1726342856020,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726429256.018733,
+                        "expiry": 86400.0187330246,
+                        "value": "cab77dbec1934e8a9ca1d178419b55dc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726342856019
+                    }
+                ]
+            }
+        }
+    }
+}

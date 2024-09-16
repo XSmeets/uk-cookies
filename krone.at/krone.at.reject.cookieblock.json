@@ -1,0 +1,606 @@
+{
+    "krone.at": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166014231,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726169614.225043,
+                        "expiry": 3600.2250430583954,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166014226
+                    }
+                ]
+            },
+            "KRN_ANON": {
+                "name": "KRN_ANON",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166014362,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757702014,
+                        "expiry": 31536000,
+                        "value": "a6cbf547-5088-4f26-b13e-e569dddc3ab3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166014358
+                    }
+                ]
+            },
+            "KRN_SIGNUP_SOURCE": {
+                "name": "KRN_SIGNUP_SOURCE",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166023139,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "{%22piano%22:{}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166023137
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "{%22piano%22:{}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166023300
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "{%22piano%22:{}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166030790
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "{%22piano%22:{}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166030910
+                    }
+                ]
+            },
+            "__pat": {
+                "name": "__pat",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015391,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728758015,
+                        "expiry": 2592000,
+                        "value": "7200000",
+                        "same_site": "lax",
+                        "timestamp": 1726166015389
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000,
+                        "value": "7200000",
+                        "same_site": "lax",
+                        "timestamp": 1726166029620
+                    }
+                ]
+            },
+            "__pid": {
+                "name": "__pid",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015314,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728758015,
+                        "expiry": 2592000,
+                        "value": ".krone.at",
+                        "same_site": "lax",
+                        "timestamp": 1726166015313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000,
+                        "value": ".krone.at",
+                        "same_site": "lax",
+                        "timestamp": 1726166029548
+                    }
+                ]
+            },
+            "__pvi": {
+                "name": "__pvi",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015392,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726252415,
+                        "expiry": 86400,
+                        "value": "eyJpZCI6InYtbTB6bW9kbG52dXNiYXdnYSIsImRvbWFpbiI6Ii5rcm9uZS5hdCIsInRpbWUiOjE3MjYxNjYwMTUzODd9",
+                        "same_site": "lax",
+                        "timestamp": 1726166015391
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "eyJpZCI6InYtbTB6bW9vbGl5OGxpY3hiZSIsImRvbWFpbiI6Ii5rcm9uZS5hdCIsInRpbWUiOjE3MjYxNjYwMjk0NDZ9",
+                        "same_site": "lax",
+                        "timestamp": 1726166029447
+                    }
+                ]
+            },
+            "__tbc": {
+                "name": "__tbc",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015389,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760726015.386207,
+                        "expiry": 34560000.386207104,
+                        "value": "%7Bkpcd%7DChBtMHptb2RsazFmeWNucWJxEgpNU0Q2OWtvNXBlGjxrTmRoQUIxMjBKSTk4NHFuWTNtblFmU0VPSDdNMHd4RmZtYVZiN1FtYVFlNTZDYU1iMUhKNXp5YzdnTGogAA",
+                        "same_site": "lax",
+                        "timestamp": 1726166015386
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.61953211,
+                        "value": "%7Bkpcd%7DChBtMHptb2RsazFmeWNucWJxEgpNU0Q2OWtvNXBlGjxrTmRoQUIxMjBKSTk4NHFuWTNtblFmU0VPSDdNMHd4RmZtYVZiN1FtYVFlNTZDYU1iMUhKNXp5YzdnTGogAA",
+                        "same_site": "lax",
+                        "timestamp": 1726166029619
+                    }
+                ]
+            },
+            "_cookie_test": {
+                "name": "_cookie_test",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015170,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmodld2a08t4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166015186
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmodoms1btnc",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166015303
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmodor3k1q90",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166015308
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmodqyuef3u5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166015389
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmoola693d36",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029439
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmoolb3fta5j",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029440
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmoolc6ca59p",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029441
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmoomgp1vinx",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029481
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmoomhju1esj",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029482
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0zmooqbgcuhsf",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029620
+                    }
+                ]
+            },
+            "_pcid": {
+                "name": "_pcid",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726166015199,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760294015,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m0zmodlk1fycnqbq%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726166015199
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m0zmodlk1fycnqbq%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726166029443
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m0zmodlk1fycnqbq%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726166029445
+                    }
+                ]
+            },
+            "_pctx": {
+                "name": "_pctx",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015195,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760294015,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzICYAWAdgA4ugvgDYAjAFYufAMx8AnAAZRCkAF8gA",
+                        "same_site": "lax",
+                        "timestamp": 1726166015194
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzICYAWAdgA4ugvgDYAjAFYufAMx8AnAAZRCkAF8gA",
+                        "same_site": "lax",
+                        "timestamp": 1726166029444
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzICYAWAdgA4ugvgDYAjAFYufAMx8AnAAZRCkAF8gA",
+                        "same_site": "lax",
+                        "timestamp": 1726166029445
+                    }
+                ]
+            },
+            "_pcus": {
+                "name": "_pcus",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015394,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760294015,
+                        "expiry": 34128000,
+                        "value": "eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVHM6NjVjNDYxYWFjNTRjOWE1MmRiNGY5MmRiYTgxZjY5ZGFkMGU2NmQ0Yjpub19zY29yZSIsIkNTY29yZTpiYzNiYWQzNDY1OTdiZmVkNjFjNDU4OTAxMmM1NTZmODA4OTE1MzRhOm5vX3Njb3JlIiwiTFRjOjllMzFlMjBlZTQ5MjBmYjkxZjYwNzJkMGY4ZTViZTJiOGMxNTgxMzA6bm9fc2NvcmUiXX19fQ%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726166015393
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVHM6NjVjNDYxYWFjNTRjOWE1MmRiNGY5MmRiYTgxZjY5ZGFkMGU2NmQ0Yjpub19zY29yZSIsIkNTY29yZTpiYzNiYWQzNDY1OTdiZmVkNjFjNDU4OTAxMmM1NTZmODA4OTE1MzRhOm5vX3Njb3JlIiwiTFRjOjllMzFlMjBlZTQ5MjBmYjkxZjYwNzJkMGY4ZTViZTJiOGMxNTgxMzA6bm9fc2NvcmUiXX19fQ%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726166029443
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVHM6NjVjNDYxYWFjNTRjOWE1MmRiNGY5MmRiYTgxZjY5ZGFkMGU2NmQ0Yjpub19zY29yZSIsIkNTY29yZTpiYzNiYWQzNDY1OTdiZmVkNjFjNDU4OTAxMmM1NTZmODA4OTE1MzRhOm5vX3Njb3JlIiwiTFRjOjllMzFlMjBlZTQ5MjBmYjkxZjYwNzJkMGY4ZTViZTJiOGMxNTgxMzA6bm9fc2NvcmUiXX19fQ%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726166029445
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "eyJ1c2VyU2VnbWVudHMiOnsiQ09NUE9TRVIxWCI6eyJzZWdtZW50cyI6WyJMVHM6NjVjNDYxYWFjNTRjOWE1MmRiNGY5MmRiYTgxZjY5ZGFkMGU2NmQ0Yjpub19zY29yZSIsIkNTY29yZTpiYzNiYWQzNDY1OTdiZmVkNjFjNDU4OTAxMmM1NTZmODA4OTE1MzRhOm5vX3Njb3JlIiwiTFRjOjllMzFlMjBlZTQ5MjBmYjkxZjYwNzJkMGY4ZTViZTJiOGMxNTgxMzA6bm9fc2NvcmUiXX19fQ%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726166029621
+                    }
+                ]
+            },
+            "xbc": {
+                "name": "xbc",
+                "domain": ".krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015393,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760726015.388046,
+                        "expiry": 34560000.388046026,
+                        "value": "%7Bkpcd%7DChBtMHptb2RsazFmeWNucWJxEgpNU0Q2OWtvNXBlGjxrTmRoQUIxMjBKSTk4NHFuWTNtblFmU0VPSDdNMHd4RmZtYVZiN1FtYVFlNTZDYU1iMUhKNXp5YzdnTGogAA",
+                        "same_site": "lax",
+                        "timestamp": 1726166015392
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.620997906,
+                        "value": "%7Bkpcd%7DChBtMHptb2RsazFmeWNucWJxEgpNU0Q2OWtvNXBlGjxrTmRoQUIxMjBKSTk4NHFuWTNtblFmU0VPSDdNMHd4RmZtYVZiN1FtYVFlNTZDYU1iMUhKNXp5YzdnTGogAA",
+                        "same_site": "lax",
+                        "timestamp": 1726166029621
+                    }
+                ]
+            },
+            "krn_gifv_check": {
+                "name": "krn_gifv_check",
+                "domain": "www.krone.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015023,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166015022
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166015048
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029230
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029537
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166029537
+                    }
+                ]
+            }
+        }
+    },
+    "onesignal.com": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".onesignal.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015496,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726167815.496125,
+                        "expiry": 1800.4961249828339,
+                        "value": "QQwPLGvsZ3m7x1fZiiFNqyZ4iJ8UAZwKUltW4Vvv8gk-1726166015-1.0.1.1-bs5UX.Ao.hYH39XlCyiPudlWPNUavxtjSkM00SfKsPmsfvX28wp.0mf7.fjo32xLpW94p8xF8JeWGwrc.y4vbQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166015496
+                    }
+                ]
+            }
+        }
+    },
+    "piano.io": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".piano.io",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166015065,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726167815.064954,
+                        "expiry": 1800.0649540424347,
+                        "value": "y0ELcjruejy3uXYRx7gCo_yxzV0TkgoDOTwR7QH8v6Y-1726166015-1.0.1.1-CQOTIECF7jVFs.LHCZ0XHztgDj6bye5_SA84oAB2ssF72dPAqZC5_s3AHBbNJxwk_xPLoqWpFfqLfFOTeivmkw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166015065
+                    }
+                ]
+            }
+        }
+    }
+}

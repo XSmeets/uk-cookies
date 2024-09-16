@@ -1,0 +1,729 @@
+{
+    "criteo.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951812,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759862951.809386,
+                        "expiry": 33696000.809386015,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951811
+                    }
+                ]
+            },
+            "uid": {
+                "name": "uid",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951811,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759862951.809325,
+                        "expiry": 33696000.80932498,
+                        "value": "128acc27-02b6-4949-9863-5c9f350529d0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951809
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "APC": {
+                "name": "APC",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951896,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741718951.894399,
+                        "expiry": 15552000.894398928,
+                        "value": "AfxxVi6LcZmButnqA361huaWbBeHSmqVDmIL-tdNojopOdWLtleheQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951895
+                    }
+                ]
+            },
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951764,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759862951.762071,
+                        "expiry": 33696000.762070894,
+                        "value": "AHWqTUm9MXaMJ9WGvO_dAYODLARSrffasSSZrPWki30qYkSiNwFL6C1A6CfSsiCyktM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951762
+                    }
+                ]
+            },
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166951896,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728758951.894533,
+                        "expiry": 2592000.894532919,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951896
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951897,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741718951.89458,
+                        "expiry": 15552000.894579887,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951896
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951701,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726167851.699735,
+                        "expiry": 900.6997349262238,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.7214078903198,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951721
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.7230598926544,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951723
+                    }
+                ]
+            }
+        }
+    },
+    "geizhals.at": {
+        "/": {
+            "OTAdditionalConsentString": {
+                "name": "OTAdditionalConsentString",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166951437,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757702951,
+                        "expiry": 31536000,
+                        "value": "1~43.46.55.61.70.83.89.93.108.117.122.124.135.143.144.147.149.159.192.196.202.211.228.230.239.259.266.286.291.311.318.320.322.323.327.367.371.385.394.397.407.415.424.430.436.445.453.486.491.494.495.522.523.540.550.559.560.568.574.576.584.587.591.737.802.803.820.821.839.864.899.904.922.931.938.979.981.985.1003.1027.1031.1040.1046.1051.1053.1067.1092.1095.1097.1099.1107.1135.1143.1149.1152.1162.1166.1186.1188.1205.1215.1226.1227.1230.1252.1268.1270.1276.1284.1290.1301.1307.1312.1345.1356.1364.1375.1403.1415.1416.1421.1423.1440.1449.1455.1495.1512.1516.1525.1540.1548.1555.1558.1570.1577.1579.1583.1584.1591.1603.1616.1638.1651.1653.1659.1667.1677.1678.1682.1697.1699.1703.1712.1716.1721.1725.1732.1745.1750.1765.1782.1786.1800.1810.1825.1827.1832.1838.1840.1842.1843.1845.1859.1866.1870.1878.1880.1889.1899.1917.1929.1942.1944.1962.1963.1964.1967.1968.1969.1978.1985.1987.2003.2008.2027.2035.2039.2047.2052.2056.2064.2068.2072.2074.2088.2090.2103.2107.2109.2115.2124.2130.2133.2135.2137.2140.2147.2150.2156.2166.2177.2183.2186.2205.2213.2216.2219.2220.2222.2225.2234.2253.2279.2282.2292.2305.2309.2312.2316.2322.2325.2328.2331.2334.2335.2336.2337.2343.2354.2357.2358.2359.2370.2376.2377.2387.2400.2403.2405.2407.2411.2414.2416.2418.2425.2440.2447.2461.2465.2468.2472.2477.2481.2484.2486.2488.2493.2498.2501.2510.2517.2526.2527.2532.2535.2542.2552.2563.2564.2567.2568.2569.2571.2572.2575.2577.2583.2584.2596.2604.2605.2608.2609.2610.2612.2614.2621.2628.2629.2633.2636.2642.2643.2645.2646.2650.2651.2652.2656.2657.2658.2660.2661.2669.2670.2677.2681.2684.2687.2690.2695.2698.2713.2714.2729.2739.2767.2768.2770.2772.2784.2787.2791.2792.2798.2801.2805.2812.2813.2816.2817.2821.2822.2827.2830.2831.2834.2838.2839.2844.2846.2849.2850.2852.2854.2860.2862.2863.2865.2867.2869.2873.2874.2875.2876.2878.2880.2881.2882.2883.2884.2886.2887.2888.2889.2891.2893.2894.2895.2897.2898.2900.2901.2908.2909.2916.2917.2918.2919.2920.2922.2923.2927.2929.2930.2931.2940.2941.2947.2949.2950.2956.2958.2961.2963.2964.2965.2966.2968.2973.2975.2979.2980.2981.2983.2985.2986.2987.2994.2995.2997.2999.3000.3002.3003.3005.3008.3009.3010.3012.3016.3017.3018.3019.3025.3028.3034.3038.3043.3048.3052.3053.3055.3058.3059.3063.3066.3068.3070.3073.3074.3075.3076.3077.3089.3090.3093.3094.3095.3097.3099.3100.3106.3109.3112.3117.3119.3126.3127.3128.3130.3135.3136.3145.3150.3151.3154.3155.3163.3167.3172.3173.3182.3183.3184.3185.3187.3188.3189.3190.3194.3196.3209.3210.3211.3214.3215.3217.3219.3222.3223.3225.3226.3227.3228.3230.3231.3234.3235.3236.3237.3238.3240.3244.3245.3250.3251.3253.3257.3260.3270.3272.3281.3288.3290.3292.3293.3296.3299.3300.3306.3307.3309.3314.3315.3316.3318.3324.3328.3330.3331.3531.3731.3831.4131.4531.4631.4731.4831.5231.6931.7235.7831.7931.8931.9731.10231.10631.10831.11031.11531.12831.13632.13731.14237.14332.15731.16831.16931.21233.23031.25731.25931.26031.26831.27731.27831.28031.28731.28831.29631.31631.32531.33631",
+                        "same_site": "lax",
+                        "timestamp": 1726166951433
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166951384,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757702951,
+                        "expiry": 31536000,
+                        "value": "2024-09-12T18:49:11.382Z",
+                        "same_site": "lax",
+                        "timestamp": 1726166951383
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166947365,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757702947,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0",
+                        "same_site": "lax",
+                        "timestamp": 1726166947365
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726166947366
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726166947396
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=674f1443-e61a-4e66-b15f-2eb55b03312c&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726166947421
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=674f1443-e61a-4e66-b15f-2eb55b03312c&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fgeizhals.at%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726166947422
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=674f1443-e61a-4e66-b15f-2eb55b03312c&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fgeizhals.at%2F&groups=C0001%3A1%2CV2STACK42%3A0%2CC0004%3A0%2CC0003%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726166947471
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A11+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=674f1443-e61a-4e66-b15f-2eb55b03312c&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CV2STACK42%3A0%2CC0004%3A0%2CC0003%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726166951385
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A11+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=674f1443-e61a-4e66-b15f-2eb55b03312c&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CV2STACK42%3A1%2CC0004%3A1%2CC0003%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726166951418
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+20%3A49%3A11+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=674f1443-e61a-4e66-b15f-2eb55b03312c&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CV2STACK42%3A1%2CC0004%3A1%2CC0003%3A1&intType=1",
+                        "same_site": "lax",
+                        "timestamp": 1726166951437
+                    }
+                ]
+            },
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166946990,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726168746.969997,
+                        "expiry": 1800.9699969291687,
+                        "value": "kjVH77ydDzBk3odeH.3HkWL9P3zvCQsMvSn6TD8DZRQ-1726166947-1.0.1.1-wdltuNNodTXv6T8LGWmu4IYCTM_24H1F7vamcbwDWddHO6uhNSNHXKd.luXNyl21ePZCYBHCNTdUfCmzxGkhcA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166946990
+                    }
+                ]
+            },
+            "__eoi": {
+                "name": "__eoi",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951705,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741718951,
+                        "expiry": 15552000,
+                        "value": "ID=e4666cc9a8673355:T=1726166951:RT=1726166951:S=AA-AfjZZ4ga_cNp23ZOdYs2EEgYE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951705
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=066c4a3d811cf164:T=1726166951:RT=1726166951:S=AA-AfjZlK1SWyRXIQGjburkwFx6P",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951725
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=79ff944a6a0c324e:T=1726166951:RT=1726166951:S=AA-AfjZXfvwWcP5tynEqACJjU4A2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951738
+                    }
+                ]
+            },
+            "__gads": {
+                "name": "__gads",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951703,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759862951,
+                        "expiry": 33696000,
+                        "value": "ID=27f34761bc92d1ac:T=1726166951:RT=1726166951:S=ALNI_MZgE_rbB6tWn24DsLu61y-aCv_2UQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951702
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "ID=06dfc40437e10f94:T=1726166951:RT=1726166951:S=ALNI_Mb8tXOdke96u8IBXQIi124Gsq_IxQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951723
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "ID=d29a75f2e139a255:T=1726166951:RT=1726166951:S=ALNI_MY0jCJDZpHRJAUqp69X0LJqC4byyQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951737
+                    }
+                ]
+            },
+            "__gpi": {
+                "name": "__gpi",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951704,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759862951,
+                        "expiry": 33696000,
+                        "value": "UID=00000ef9fae41047:T=1726166951:RT=1726166951:S=ALNI_MZHDOJWq8eEhnr8ENepUnwiQoBIKg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951703
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "UID=00000ef9fb11669d:T=1726166951:RT=1726166951:S=ALNI_MYVy29yZzA6GRJOhfdSD4jYaRYnVw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951723
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "UID=00000ef9fa2d61ac:T=1726166951:RT=1726166951:S=ALNI_MY67mN7v9WkPVcApfZiO2HmcNmsuw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166951737
+                    }
+                ]
+            },
+            "cto_bundle": {
+                "name": "cto_bundle",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951850,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759862951,
+                        "expiry": 33696000,
+                        "value": "bcUTu183eURHSVZJdmhvWUNMdSUyRlNVTU5rOUhJaXlQTWVycktLYlpvQTdTeWpGZUs3cFJsckp4MXpYeTBlbHlxbyUyRkE1eUo2a2s4TlFFJTJCeTBTWWs3bFBGMFU3VEdzMGxqZDJSVEc5SDM0aTVUcmc2UFI1YmxtNUpGQ0pLY3N1UE1hb0dEWlptbW81TyUyRnolMkY1TkJYR2lubFFNZVp6Y3Q2U2FjblNaQVVydTlvJTJCOHZSbSUyQmdMU3U2dXc5eiUyRlpoREhjNHB4ZTliWHYlMkJ2ZHduRGZOZmJKZFR1ajh1bjhnJTNEJTNE",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166951850
+                    }
+                ]
+            },
+            "cto_pub_test_tld": {
+                "name": "cto_pub_test_tld",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726166951716,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726170551,
+                        "expiry": 3600,
+                        "value": "test",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166951716
+                    }
+                ]
+            },
+            "cto_writeable": {
+                "name": "cto_writeable",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166951715,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726170551,
+                        "expiry": 3600,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726166951714
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166951433,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757702951,
+                        "expiry": 31536000,
+                        "value": "CQE1LzAQE1LzAAcABBDEBGF8AP_gAEPgAAYgKaNV_G__bWlr8X73aftkeY1P9_h77sQxBhfJE-4FzLvW_JwXx2ExNA36tqIKmRIAu3bBIQNlGJDUTVCgaogVryDMak2coTNKJ6BkiFMRO2dYCF5vm4tj-QKY5vr991dx2B-t7dr83dzyz4VHn3a5_2a0WJCdA5-tDfv9bROb-9IOd_x8v4v8_F_rE2_eT1l_tevp7D9-cts7_XW-9_cff_9Ln_-uB_-_wU1AJMNCogDLIkJCDQMIIEAKgrCAigQAAAAkDRAQAmDAp2BgEusJEAIAUAAwQAgABRkACAAASABCIAIACgQAAQCBQABgAQDAQAMDAAGACwEAgABAdAxTAggUCwASMyIhTAhCASCAlsqEEgCBBXCEIs8CiAREwUAAAJABWAAICwWBxJICViQQJcQbQAAEACAQQAVCKTswBBAGbLUXiybRlaYFo-YLntMAyQAA.f_wACHwAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726166951430
+                    }
+                ]
+            },
+            "GHS": {
+                "name": "GHS",
+                "domain": "geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166946990,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "BvEOBXI5tULSevAHNaqCNNsJj%2BM",
+                        "same_site": "lax",
+                        "timestamp": 1726166946982
+                    }
+                ]
+            },
+            "_pk_id.9.3e86": {
+                "name": "_pk_id.9.3e86",
+                "domain": "geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166947277,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760122147,
+                        "expiry": 33955200,
+                        "value": "a90fd15aa1138ef4.1726166947.",
+                        "same_site": "lax",
+                        "timestamp": 1726166947276
+                    }
+                ]
+            },
+            "_pk_ses.9.3e86": {
+                "name": "_pk_ses.9.3e86",
+                "domain": "geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166947279,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726168747,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726166947278
+                    }
+                ]
+            },
+            "csrf": {
+                "name": "csrf",
+                "domain": "geizhals.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166946981,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "B07CE328-7137-11EF-8A8F-988D77C8D814--639a2617fc7043f0c0768dfb229e5b42a43661e8",
+                        "same_site": "lax",
+                        "timestamp": 1726166946971
+                    }
+                ]
+            }
+        }
+    },
+    "gzhls.at": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".gzhls.at",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726166947161,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726168747.161,
+                        "expiry": 1800.1610000133514,
+                        "value": "GaGeBiVRSwvdT5vRS_oYYuSS0j0x__9W5J2Z77nK2dg-1726166947-1.0.1.1-yBtSn_2ti6b2rFtw3jv.0.yc.Fxy9LZ3gm._8ERqui6MPAeVHkcCvktdtBiSNkQs3d7.eETw7VgPKStdq18vdg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947161
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.163255929947,
+                        "value": "qF.NlgrZi9MpihcWfg0f0g9LFFbu778Eltl.tuEfgDw-1726166947-1.0.1.1-s0P920HkGToSFIXTa3K1O.8L07CLBATKNoRDCcTFza03iYzIOWblHtwgiva_fgDSa2fUoYJcBqL_7BQR_sxJOQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947163
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.1651060581207,
+                        "value": "POIJfNqIBS9M8dU79EH9gdOkf7ROgjBRDmqnRNS8Vqw-1726166947-1.0.1.1-7VQLqfRgMi1sFkqjkWfvW9gv6NUzLoyQldOVU_ktKmGeYpOtde5jWD.jEJ_nXF9E8lOfFYL2g.v5MsJn9GPKbQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947165
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.1737880706787,
+                        "value": "7fYYIFoR51yt38EYaQ7YV7IuTWHtNN.oyCZRJgCdX3c-1726166947-1.0.1.1-Tp_3XMT9zZ7c2ARs3uo0Eb9TTH.p4ZEJr7OKdx.bKZVi2z35I3rCnmQTIFd8W21H.dEWzvSIfN_YABTlCfNNbQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947174
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.1741709709167,
+                        "value": "OUPSFo0Hhmg72JdnhgThLTUN34cuoGk72jkyoUG9fxg-1726166947-1.0.1.1-3T4SFQ_IO05v9MnKwmWV6w465l3G9Ic5Ve0WNOaGmbdR3_RNt8GZrlJQERmen1WfpHaEulneDoglqNkZPefdgQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947175
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.1761391162872,
+                        "value": "3TWyrfyE0UBeDfj_KDNUWIZ2VSoO8CK.PmUyNzLlYDA-1726166947-1.0.1.1-vQvhOeH4H4rjSnE9V3WX2Cytnn6QbSinztcVOo_p2FvhjVE0Mk7jqyj0O3EhGW6G3ulLGW0X8gL8KZGCIb_olQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947176
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.1766951084137,
+                        "value": "mTirT66NmQYNnBKf2oJ91meOebG.9E5ZNS8jTIaRE3s-1726166947-1.0.1.1-NcFXRLNa4wgO1ST0j2D4sgs2UJVA2.Eq_XCnycHouorcRAmC2lm9JQmdBbkipKbyg1fQFWql9ZSk533Nu_b._A",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947177
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.1865639686584,
+                        "value": "6Gs_uT93DpEaGeVWtGeis9xRGr9HXFC4KyFDkmPVJJw-1726166947-1.0.1.1-1On5W1r1yE9rxPK4lbFeF3OgegGdnx4aVP5aauVzlfqZWB5L_Qwg9wfFudHEHgkXEIXEABg6b5GG0owpSjWyFA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726166947187
+                    }
+                ]
+            }
+        }
+    }
+}

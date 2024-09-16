@@ -1,0 +1,217 @@
+{
+    "mywelfare.ie": {
+        "/": {
+            "ARRAffinity": {
+                "name": "ARRAffinity",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168356632,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "c8cc27bc9a04b6427054d2a142540b6c03e15d3170c5ea43a96a81547838fc16",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168356620
+                    }
+                ]
+            },
+            "ARRAffinitySameSite": {
+                "name": "ARRAffinitySameSite",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168356644,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "c8cc27bc9a04b6427054d2a142540b6c03e15d3170c5ea43a96a81547838fc16",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168356633
+                    }
+                ]
+            },
+            "_culture": {
+                "name": "_culture",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168356902,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734030756.898776,
+                        "expiry": 7862400.898776054,
+                        "value": "en-IE",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168356900
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000,
+                        "value": "en-IE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168357093
+                    }
+                ]
+            },
+            "is_performance_enabled": {
+                "name": "is_performance_enabled",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168359948,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1756408359,
+                        "expiry": 30240000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726168359947
+                    }
+                ]
+            },
+            "is_third_party_enabled": {
+                "name": "is_third_party_enabled",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168359949,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1756408359,
+                        "expiry": 30240000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726168359948
+                    }
+                ]
+            },
+            "mywelfareurl": {
+                "name": "mywelfareurl",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726168357095,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728760357,
+                        "expiry": 2592000,
+                        "value": "//www.mywelfare.ie/",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168357093
+                    }
+                ]
+            },
+            "wsscookiesok": {
+                "name": "wsscookiesok",
+                "domain": ".mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168359941,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1756408359,
+                        "expiry": 30240000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726168359940
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726168359946
+                    }
+                ]
+            }
+        }
+    },
+    "services.mywelfare.ie": {
+        "/": {
+            "ai_session": {
+                "name": "ai_session",
+                "domain": "services.mywelfare.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168357374,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726170157.372919,
+                        "expiry": 1800.3729190826416,
+                        "value": "ZcB/QOo/8RtiemJD8Sogv3|1726168357372|1726168357372",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168357373
+                    }
+                ]
+            },
+            "ai_user": {
+                "name": "ai_user",
+                "domain": "services.mywelfare.ie",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726168357264,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757704357.263541,
+                        "expiry": 31536000.263540983,
+                        "value": "BqhL+Wg2T8rRzvS1Bb7l18|2024-09-12T19:12:37.263Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726168357263
+                    }
+                ]
+            }
+        }
+    }
+}

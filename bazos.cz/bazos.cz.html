@@ -1,0 +1,228 @@
+<html lang="cs"><head>
+<title>Inzerce, inzeráty, bazar - Bazos.cz</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Inzerce zdarma, internetový bazar - kup si nový byt nebo prodej staré auto, to vše zvládne náš Bazos - Vaše inzeráty.">
+<meta name="google-play-app" content="app-id=cz.ackee.bazos">
+<meta name="apple-itunes-app" content="app-id=1195042966">
+<link rel="canonical" href="https://www.bazos.cz/"><meta property="fb:admins" content="1055875657">
+<meta property="og:image" content="https://www.bazos.cz/obrazky/bazoslogoface.png">
+<link rel="stylesheet" href="https://www.bazos.cz/bazos64hp.css" type="text/css"><script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "WebSite",
+"url": "https://www.bazos.cz",
+"potentialAction": {
+"@type": "SearchAction",
+"target": "https://www.bazos.cz/search.php?hledat={q}&rubriky=www&hlokalita=&humkreis=25&cenaod=&cenado=&Submit=Hledat&kitx=ano&a=1",
+"query-input": "required name=q"}
+}
+</script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Organization",
+"url": "https://www.bazos.cz",
+"logo": "https://www.bazos.cz/obrazky/bazos.svg"
+}
+</script>
+<link rel="preload" as="image" href="https://www.bazos.cz/obrazky/bazos.svg">
+<link rel="icon" href="https://www.bazos.cz/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://www.bazos.cz/favicon.ico" sizes="32x32">
+<link rel="apple-touch-icon" href="https://www.bazos.cz/apple-touch-icon.png">
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.bazos.cz/search.xml" title="Bazoš.cz">
+<link rel="alternate" hreflang="cs-CZ" href="https://www.bazos.cz/"><link rel="alternate" hreflang="sk-SK" href="https://www.bazos.sk/"><link rel="alternate" hreflang="de-AT" href="https://www.bazos.at/"><link rel="alternate" hreflang="pl-PL" href="https://www.bazos.pl/">
+<script>
+var xhr = new XMLHttpRequest();
+var naseptavac_value = '';
+function naseptavac(value) {
+  if (value=='')  {
+  	naseptavac_value = '';
+  	document.getElementById('vysledek').innerHTML='';
+  	}
+else {
+	if (naseptavac_value == value) {
+		return false;
+	}
+	naseptavac_value = value;
+	setTimeout(function () {
+		if (naseptavac_value != value) {
+			return false;
+		}
+		xhr.onreadystatechange = function() {
+ 		 if (this.readyState == 4 && naseptavac_value == value){
+				document.getElementById('vysledek').innerHTML = this.responseText;
+			}
+ 		 };
+		xhr.open("POST", '/suggest.php');
+		xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+		xhr.send('rubnas=HP&qnas='+encodeURIComponent(naseptavac_value));
+	}, 250);
+}
+}
+
+var naseptavacpsc_value = '';
+function naseptavacpsc(value) {
+  if (value=='')  {
+  	naseptavacpsc_value = '';
+  	document.getElementById('vysledekpsc').innerHTML='<table cellpadding=\"3\" cellspacing=\"0\" class=\"tablenaspsc\"><tr><td class=\"act\" onclick=\"getLocation();\"><b>Inzeráty v okolí</b></td></tr></table>';
+  	}
+else {
+	if (naseptavacpsc_value == value) {
+		return false;
+	}
+	naseptavacpsc_value = value;
+	setTimeout(function () {
+		if (naseptavacpsc_value != value) {
+			return false;
+		}
+		xhr.onreadystatechange = function() {
+ 		 if (this.readyState == 4 && naseptavacpsc_value == value){
+				document.getElementById('vysledekpsc').innerHTML = this.responseText;
+			}
+ 		 };
+		xhr.open("POST", '/suggestpsc.php');
+		xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+		xhr.send('qnaspsc='+encodeURIComponent(naseptavacpsc_value));
+	}, 250);
+}
+}
+
+function getLocation() {
+if (navigator.geolocation) {navigator.geolocation.getCurrentPosition(showPosition);}
+else {document.getElementById('hlokalita').value = '';}
+}
+function showPosition(position) {
+		xhr.onreadystatechange = function() {
+ 		 if (this.readyState == 4){
+				document.getElementById('hlokalita').value = this.responseText;
+				document.forms['formt'].submit();
+			}
+ 		 };
+		xhr.open("POST", '/zip.php');
+		xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+		xhr.send('latitude='+encodeURIComponent(position.coords.latitude)+'&longitude='+encodeURIComponent(position.coords.longitude));
+}
+
+function odeslatakci(postaction,value1,value2,value3) {
+document.getElementById('postaction').value = postaction;
+document.getElementById("postv1").value = value1;
+document.getElementById("postv2").value = value2;
+document.getElementById("postv3").value = value3;
+document.formaction.submit();
+}
+</script>
+<style type="text/css"></style><style type="text/css">.termsfeed-com---reset{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0);margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}.termsfeed-com---reset *,.termsfeed-com---reset *::before,.termsfeed-com---reset *::after{box-sizing:border-box}.termsfeed-com---reset a,.termsfeed-com---reset li,.termsfeed-com---reset p,.termsfeed-com---reset h1,.termsfeed-com---reset h2,.termsfeed-com---reset input,.termsfeed-com---reset button,.termsfeed-com---reset select{border-style:none;box-shadow:none;margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:none}@-ms-viewport{.termsfeed-com---reset{width:device-width}}.termsfeed-com---reset [tabindex="-1"]:focus{outline:0 !important}.termsfeed-com---reset h1,.termsfeed-com---reset h2,.termsfeed-com---reset h3,.termsfeed-com---reset h4,.termsfeed-com---reset h5,.termsfeed-com---reset h6{margin-top:0;margin-bottom:0;color:#000}.termsfeed-com---reset p{margin-top:0;margin-bottom:1rem}.termsfeed-com---reset div{display:block}.termsfeed-com---reset ol,.termsfeed-com---reset ul,.termsfeed-com---reset dl{margin-top:0;margin-bottom:1rem}.termsfeed-com---reset ol ol,.termsfeed-com---reset ul ul,.termsfeed-com---reset ol ul,.termsfeed-com---reset ul ol{margin-bottom:0}.termsfeed-com---reset b,.termsfeed-com---reset strong{font-weight:bolder}.termsfeed-com---reset small{font-size:80%}.termsfeed-com---reset a{color:#007bff;text-decoration:none;background-color:rgba(0,0,0,0);-webkit-text-decoration-skip:objects}.termsfeed-com---reset a:hover{color:#0056b3;text-decoration:underline}.termsfeed-com---reset a:not([href]):not([tabindex]){color:inherit;text-decoration:none}.termsfeed-com---reset a:not([href]):not([tabindex]):hover,.termsfeed-com---reset a:not([href]):not([tabindex]):focus{color:inherit;text-decoration:none}.termsfeed-com---reset a:not([href]):not([tabindex]):focus{outline:0}.termsfeed-com---reset label{display:inline-block;margin-bottom:.5rem}.termsfeed-com---reset button{border-radius:2px;padding:.5rem 1rem;outline:none;background:#dcdae5;color:#111;cursor:pointer;border:none}.termsfeed-com---reset button:focus{outline:none}.termsfeed-com---reset select{border-style:none;padding:.5rem 1rem}.termsfeed-com---reset input,.termsfeed-com---reset button,.termsfeed-com---reset select,.termsfeed-com---reset optgroup,.termsfeed-com---reset textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}.termsfeed-com---reset button,.termsfeed-com---reset input{overflow:visible}.termsfeed-com---reset button,.termsfeed-com---reset select{text-transform:none}.termsfeed-com---reset button,.termsfeed-com---reset html [type=button],.termsfeed-com---reset [type=reset],.termsfeed-com---reset [type=submit]{-webkit-appearance:button}.termsfeed-com---reset button::-moz-focus-inner,.termsfeed-com---reset [type=button]::-moz-focus-inner,.termsfeed-com---reset [type=reset]::-moz-focus-inner,.termsfeed-com---reset [type=submit]::-moz-focus-inner{padding:0;border-style:none}.termsfeed-com---reset input[type=radio],.termsfeed-com---reset input[type=checkbox]{box-sizing:border-box;padding:0}.termsfeed-com---reset [hidden]{display:none !important}</style><style type="text/css">.termsfeed-com---nb{overflow:auto;z-index:99999999999;font-size:16px}.termsfeed-com---nb .cc-nb-main-container{padding:1.4rem}.termsfeed-com---nb .cc-nb-title{font-size:20px;font-weight:600}.termsfeed-com---nb .cc-nb-text{font-size:14px;margin:0 0 1.25rem 0}.termsfeed-com---nb .cc-nb-okagree,.termsfeed-com---nb .cc-nb-reject,.termsfeed-com---nb .cc-nb-changep{font-weight:bold;font-size:14px;margin-right:.25rem !important;margin-bottom:.25rem !important}@media(max-width: 480px){.termsfeed-com---nb .cc-nb-okagree,.termsfeed-com---nb .cc-nb-reject,.termsfeed-com---nb .cc-nb-changep{display:block;width:100%}}.termsfeed-com---nb-headline{right:0;top:auto;bottom:0;left:0;max-width:100%;position:relative}@media(max-width: 320px),(max-height: 480px){.termsfeed-com---nb-headline{overflow:auto;height:200px;max-width:100%;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---nb-simple{border-radius: 3px;right:0;top:auto;bottom:0;left:auto;max-width:50%;position:fixed}@media screen and (max-width: 600px){.termsfeed-com---nb-simple{max-width:80%}}@media(max-width: 320px),(max-height: 480px){.termsfeed-com---nb-simple{overflow:auto;height:200px;max-width:100%}}.termsfeed-com---nb-interstitial-overlay{position:fixed;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,.8);z-index:9999999999}.termsfeed-com---nb-interstitial{right:3vw;top:3vh;left:3vw;max-width:100%;position:fixed}@media(max-width: 320px),(max-height: 480px){.termsfeed-com---nb-interstitial{overflow:auto;height:200px;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---nb-standalone{position:fixed;top:0;left:0;height:100%;width:100%}@media(max-width: 320px),(max-height: 480px){.termsfeed-com---nb-standalone{overflow:auto;height:200px;max-width:100%;right:0;top:auto;bottom:0;left:auto;position:fixed}}.termsfeed-com---pc-overlay{width:100%;height:100%;position:fixed;background:rgba(0,0,0,.5);z-index:999999999999;top:0;left:0;display:none}@media screen and (max-width: 600px){.termsfeed-com---pc-overlay{overflow-y:scroll}}.termsfeed-com---pc-dialog{position:absolute;margin:30px auto;width:750px;max-width:90%;height:auto;left:0;right:0}.termsfeed-com---pc-dialog>div{width:100%}.termsfeed-com---pc-dialog .cc-pc-container{width:100%;display:flex;background:#fff;flex-direction:column}.termsfeed-com---pc-dialog .cc-pc-head{background:#fff;color:#111;display:flex;flex-direction:row;justify-content:space-between}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head{flex-direction:column}}.termsfeed-com---pc-dialog .cc-pc-head-title{display:flex;padding-left:15px;flex-direction:column;justify-content:center;align-items:baseline}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head-title{align-items:center;padding:15px 0 0 0}}.termsfeed-com---pc-dialog .cc-pc-head-title-text{font-size:16px;line-height:1.5;margin:0}.termsfeed-com---pc-dialog .cc-pc-head-title-headline{font-size:18px;font-weight:600;margin:0}.termsfeed-com---pc-dialog .cc-pc-head-lang{display:flex;align-items:center;padding-right:15px;min-height:80px;justify-content:center;flex-direction:row-reverse}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-pc-head-lang{padding:15px 0;min-height:20px}}.termsfeed-com---pc-dialog .cc-pc-head-close{display:flex;align-items:center;justify-content:center;margin-left:15px}.termsfeed-com---pc-dialog .cc-cp-body{display:flex;flex-direction:row;align-items:stretch;background:#292929;color:#f5f5f5;border-bottom:none}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body{flex-direction:column}}.termsfeed-com---pc-dialog .cc-cp-body-tabs{font-family:Arial,sans-serif !important;width:150px;margin:0;padding:0;background:#e6e6e6;min-width:150px}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body-tabs{width:100%}}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item{margin:0;padding:0;float:left;display:block;width:100%;color:#666;background:#e6e6e6;border-bottom:1px solid #ccc;border-right:1px solid #ccc;transition:all ease .1s;box-sizing:content-box}@media screen and (max-width: 600px){.termsfeed-com---pc-dialog .cc-cp-body-tabs-item{border-right:0}}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item[active=true]{background:#292929;color:#f5f5f5}.termsfeed-com---pc-dialog .cc-cp-body-tabs-item-link{text-decoration:none;color:#666;display:block;padding:10px 5px 10px 10px;font-weight:700;font-size:12px;line-height:19px;position:relative;cursor:pointer;width:100%;text-align:left;background:none;word-wrap:break-word;white-space:break-spaces}.termsfeed-com---pc-dialog .cc-cp-body-content{background:#292929;color:#f5f5f5}.termsfeed-com---pc-dialog .cc-cp-body-content-entry{width:100%;display:none;padding:25px;box-sizing:border-box}.termsfeed-com---pc-dialog .cc-cp-body-content-entry[active=true]{display:block}.termsfeed-com---pc-dialog .cc-cp-body-content-entry-title{font-size:20px;font-weight:600}.termsfeed-com---pc-dialog .cc-cp-body-content-entry-text{font-size:14px;line-height:1.5}.termsfeed-com---pc-dialog .cc-cp-foot{background:#f2f2f2;display:flex;flex-direction:row;align-items:center;border-top:1px solid #ccc;justify-content:space-between}.termsfeed-com---pc-dialog .cc-cp-foot-byline{padding:20px 10px;font-size:14px;color:#333;display:block !important}.termsfeed-com---pc-dialog .cc-cp-foot-byline a{color:#999}.termsfeed-com---pc-dialog .cc-cp-foot-save{margin-right:10px;opacity:.9;transition:all ease .3s;font-size:14px;font-weight:bold;height:auto}.termsfeed-com---pc-dialog .cc-cp-foot-save:hover{opacity:1}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox{position:absolute;margin:2px 0 0 16px;cursor:pointer;appearance:none;border:0}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox+label{position:relative;padding:4px 0 0 50px;line-height:2em;cursor:pointer;display:inline;font-size:14px}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox+label:before{content:"";position:absolute;display:block;left:0;top:0;width:40px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all .3s;transition:all .3s}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox+label:after{content:"";position:absolute;display:block;left:0px;top:0px;width:24px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all .3s;transition:all .3s}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox+label:hover:after{box-shadow:0 0 5px rgba(0,0,0,.3)}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox:checked+label:after{margin-left:16px}.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox:checked+label:before{background:#55d069}</style><style type="text/css">.termsfeed-com---palette-dark.termsfeed-com---nb{background-color:#111;color:#fff}.termsfeed-com---palette-dark .cc-nb-title{color:#fff}.termsfeed-com---palette-dark .cc-nb-text{color:#fff}.termsfeed-com---palette-dark .cc-nb-text a{color:#fff;text-decoration:underline}.termsfeed-com---palette-dark .cc-nb-text a:hover{text-decoration:none}.termsfeed-com---palette-dark .cc-nb-text a:focus{box-shadow:0 0 0 2px #3dd000}.termsfeed-com---palette-dark .cc-nb-okagree{color:#000;background-color:#ff0}.termsfeed-com---palette-dark .cc-nb-okagree:focus{box-shadow:0 0 0 2px #3dd000}.termsfeed-com---palette-dark .cc-nb-reject{color:#000;background-color:#ff0}.termsfeed-com---palette-dark .cc-nb-reject:focus{box-shadow:0 0 0 2px #3dd000}.termsfeed-com---palette-dark .cc-nb-changep{background-color:#eaeaea;color:#111}.termsfeed-com---palette-dark .cc-nb-changep:focus{box-shadow:0 0 0 2px #3dd000}.termsfeed-com---palette-dark .cc-pc-container{background:#212121}.termsfeed-com---palette-dark .cc-pc-head{background:#212121;color:#fff;border-bottom:1px solid #111}.termsfeed-com---palette-dark .cc-pc-head-title-headline{color:#fff}.termsfeed-com---palette-dark .cc-pc-head-title-text{color:#fff}.termsfeed-com---palette-dark .cc-pc-head-lang select{color:#212121}.termsfeed-com---palette-dark .cc-pc-head-lang select:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-pc-head-close{background:none;color:#e6e6e6}.termsfeed-com---palette-dark .cc-pc-head-close:active,.termsfeed-com---palette-dark .cc-pc-head-close:focus{border:2px solid #ff0}.termsfeed-com---palette-dark .cc-cp-body{background:#292929 !important;color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-tabs{color:#666;background:#e6e6e6}.termsfeed-com---palette-dark .cc-cp-body-tabs-item{border-right-color:#ccc;border-bottom-color:#ccc}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link{color:#666}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link:hover{color:#666}.termsfeed-com---palette-dark .cc-cp-body-tabs-item-link:focus{box-shadow:0 0 0 2px #292929}.termsfeed-com---palette-dark .cc-cp-body-tabs-item[active=true]{background:#292929 !important}.termsfeed-com---palette-dark .cc-cp-body-tabs-item[active=true] button{color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-content{background:#292929 !important;color:#f5f5f5}.termsfeed-com---palette-dark .cc-cp-body-content-entry-title{color:#fff}.termsfeed-com---palette-dark .cc-cp-body-content-entry-text{color:#fff}.termsfeed-com---palette-dark .cc-cp-body-content-entry a{color:#fff;text-decoration:underline}.termsfeed-com---palette-dark .cc-cp-body-content-entry a:hover{text-decoration:none}.termsfeed-com---palette-dark .cc-cp-body-content-entry a:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-cp-foot{background:#212121;border-top-color:#111}.termsfeed-com---palette-dark .cc-cp-foot-byline{color:#fff}.termsfeed-com---palette-dark .cc-cp-foot-byline a:focus{box-shadow:0 0 0 2px #ff0}.termsfeed-com---palette-dark .cc-cp-foot-save{background:#ff0;color:#000}.termsfeed-com---palette-dark .cc-cp-foot-save:focus{box-shadow:0 0 0 2px #3dd000}</style><style type="text/css">.termsfeed-com---palette-light.termsfeed-com---nb{background-color:#FBF3E1;color:#111}.termsfeed-com---palette-light .cc-nb-title{color:#111}.termsfeed-com---palette-light .cc-nb-text{color:#111}.termsfeed-com---palette-light .cc-nb-text a{color:#111;text-decoration:underline}.termsfeed-com---palette-light .cc-nb-text a:hover{text-decoration:none}.termsfeed-com---palette-light .cc-nb-text a:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-okagree{color:#fff;background-color:#FF6600}.termsfeed-com---palette-light .cc-nb-okagree:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-reject{color:#fff;background-color:#FF6600}.termsfeed-com---palette-light .cc-nb-reject:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-nb-changep{background-color:#eaeaea;color:#111}.termsfeed-com---palette-light .cc-nb-changep:focus{box-shadow:0 0 0 2px #ff8d00}.termsfeed-com---palette-light .cc-pc-container{background:#fff}.termsfeed-com---palette-light .cc-pc-head{background:#fff;color:#111;border-bottom:1px solid #ccc}.termsfeed-com---palette-light .cc-pc-head-title-headline{color:#111}.termsfeed-com---palette-light .cc-pc-head-title-text{color:#111}.termsfeed-com---palette-light .cc-pc-head-lang select{color:#111}.termsfeed-com---palette-light .cc-pc-head-lang select:focus{box-shadow:0 0 0 2px #FF6600}.termsfeed-com---palette-light .cc-pc-head-close{background:none;color:#666}.termsfeed-com---palette-light .cc-pc-head-close:active,.termsfeed-com---palette-light .cc-pc-head-close:focus{border:2px solid #FF6600}.termsfeed-com---palette-light .cc-cp-body{background:#fbfbfb !important;color:#111}.termsfeed-com---palette-light .cc-cp-body-tabs{color:#666;background:#e6e6e6}.termsfeed-com---palette-light .cc-cp-body-tabs-item{border-right-color:#ccc;border-bottom-color:#ccc}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link{color:#666}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link:hover{color:#666}.termsfeed-com---palette-light .cc-cp-body-tabs-item-link:focus{box-shadow:0 0 0 2px #fbfbfb}.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true]{background:#fbfbfb !important}.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true] button{color:#111}.termsfeed-com---palette-light .cc-cp-body-content{background:#fbfbfb !important;color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry-title{color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry-text{color:#111}.termsfeed-com---palette-light .cc-cp-body-content-entry a{color:#111;text-decoration:underline}.termsfeed-com---palette-light .cc-cp-body-content-entry a:hover{text-decoration:none}.termsfeed-com---palette-light .cc-cp-body-content-entry a:focus{box-shadow:0 0 0 2px #FF6600}.termsfeed-com---palette-light .cc-cp-foot{background:#f2f2f2;border-top-color:#ccc}.termsfeed-com---palette-light .cc-cp-foot-byline{color:#111}.termsfeed-com---palette-light .cc-cp-foot-byline a:focus{box-shadow:0 0 0 2px #FF6600}.termsfeed-com---palette-light .cc-cp-foot-save{background:#FF6600;color:#fff}.termsfeed-com---palette-light .cc-cp-foot-save:focus{box-shadow:0 0 0 2px #ff8d00}</style><style type="text/css">.termsfeed-com---is-hidden{display:none}.termsfeed-com---is-visible{display:block}</style><style type="text/css">.termsfeed-com---nb.termsfeed-com---lang-ar,.termsfeed-com---pc-overlay.termsfeed-com---lang-ar{text-align:right}</style></head>
+
+<body><div class="termsfeed-com---reset termsfeed-com---nb termsfeed-com---palette-light termsfeed-com---nb-simple termsfeed-com---lang-cs" id="termsfeed-com---nb" role="dialog" aria-modal="true" aria-labelledby="cc-nb-title" aria-describedby="cc-nb-text"><div class="cc-nb-main-container"><div class="cc-nb-title-container"><p class="cc-nb-title" id="cc-nb-title">Používáme soubory cookies</p></div><div class="cc-nb-text-container"><p class="cc-nb-text" id="cc-nb-text">Tyto webové stránky používají soubory cookies a další sledovací nástroje s cílem vylepšení uživatelského prostředí, zobrazení přizpůsobeného obsahu a  reklam, analýzy návštěvnosti webových stránek a zjištění zdroje návštěvnosti.</p></div><div class="cc-nb-buttons-container"><button class="cc-nb-okagree" role="button">Souhlasím</button><button class="cc-nb-reject" role="button">Odmítám</button><button class="cc-nb-changep" role="button">Upravit mé předvolby</button></div></div></div>
+
+<div class="sirka">
+
+
+<div class="listalogor">
+<div class="listalogol"><a href="https://www.bazos.cz/" title="Bazos.cz - Inzerce, bazar"><img src="https://www.bazos.cz/obrazky/bazos.svg" width="199" height="34" alt="Bazos.cz - Inzerce, inzeráty"></a></div>
+<div class="listalogom"> <b>... inzerce pro každého</b></div>
+<div class="listalogop"><a href="https://www.bazos.cz/oblibene.php"><b>Oblíbené inzeráty</b></a> <a href="https://www.bazos.cz/moje-inzeraty.php"><b>Moje inzeráty</b></a> <a href="/pridat-inzerat.php"><b><span class="pridati">Přidat inzerát</span></b></a></div>
+</div>
+
+<form name="formt" id="formt" method="get" action="/search.php">
+<div class="listah">
+<div class="rubriky">
+<b>
+Co: <span class="vysokoli"><span id="vysledek"></span><input type="search" onkeyup="naseptavac(this.value);" id="hledat" name="hledat" size="17" maxlength="256" value="" autocomplete="off" title="Co? Vyhledávaný výraz" autofocus=""></span>
+
+<select name="rubriky" onchange="this.form.submit();" title="Vyber rubriku">
+<option value="www" selected="">Všechny rubriky</option>
+<option value="auto">Auto</option>
+<option value="deti">Děti</option>
+<option value="dum">Dům a zahrada</option>
+<option value="elektro">Elektro</option>
+<option value="foto">Foto</option>
+<option value="hudba">Hudba</option>
+<option value="knihy">Knihy</option>
+<option value="mobil">Mobily</option>
+<option value="motorky">Motorky</option>
+<option value="nabytek">Nábytek</option>
+<option value="obleceni">Oblečení</option>
+<option value="pc">PC</option>
+<option value="prace">Práce</option>
+<option value="reality">Reality</option>
+<option value="sluzby">Služby</option>
+<option value="sport">Sport</option>
+<option value="stroje">Stroje</option>
+<option value="vstupenky">Vstupenky</option>
+<option value="zvirata">Zvířata</option>
+<option value="ostatni">Ostatní</option>
+</select>
+
+Lokalita: <span class="vysokolipsc"><span id="vysledekpsc"></span><input type="search" name="hlokalita" id="hlokalita" onkeyup="naseptavacpsc(this.value);" onclick="naseptavacpsc(this.value);" value="" size="4" maxlength="25" autocomplete="off" title="Kde? PSČ (místo)" style="-webkit-appearance: none;"></span>
+Okolí: <input name="humkreis" title="Okolí v km" value="25" size="3" style="width: 25px;"> km
+Cena od: <input name="cenaod" title="Cena od Kč" maxlength="12" size="5" value=""> - do: <input name="cenado" title="Cena do Kč" maxlength="12" size="5" value=""> Kč <input type="submit" name="Submit" value="Hledat">
+<input type="hidden" name="order" id="order"><input type="hidden" name="kitx" value="ano"></b>
+</div>
+</div>
+</form>
+<br>
+
+
+<div class="icontblrow">
+<div class="icontblcell"><span class="nadpisnahlavni"><a href="https://zvirata.bazos.cz/">Zvířata</a></span><br><a href="https://zvirata.bazos.cz/pes/">Psi</a>, <a href="https://zvirata.bazos.cz/kocka/">Kočky</a>, <a href="https://zvirata.bazos.cz/kun/">Koně</a>, ...<br><a href="https://zvirata.bazos.cz/"><img src="/obrazky/zvirata.svg" width="54" height="60" class="imgmain" alt="Zvířata"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><a href="https://deti.bazos.cz/">Děti</a></span><br><a href="https://deti.bazos.cz/autosedacky/">Autosedačky</a>, <a href="https://deti.bazos.cz/kocarky/">Kočárky</a>, ...<br><a href="https://deti.bazos.cz/"><img src="/obrazky/deti.svg" width="60" height="60" class="imgmain" alt="Děti"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><a href="https://reality.bazos.cz/">Reality</a></span><br><a href="https://reality.bazos.cz/prodam/byt/">Byty prodej</a>, <a href="https://reality.bazos.cz/prodam/dum/">Domy</a>, ...<br><a href="https://reality.bazos.cz/"><img src="/obrazky/reality.svg" width="65" height="60" class="imgmain" alt="Reality"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><a href="https://prace.bazos.cz/">Práce</a></span><br><a href="https://prace.bazos.cz/ubytovani/">Pohostinství</a>, <a href="https://prace.bazos.cz/brigada/">Brigády</a>, ...<br><a href="https://prace.bazos.cz/"><img src="/obrazky/prace.svg" width="65" height="46" class="imgmain" alt="Práce"></a></div>
+</div>
+<div class="icontblrow">
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://auto.bazos.cz/">Auto</a></span><br><a href="https://auto.bazos.cz/skoda/">Škoda</a>, <a href="https://auto.bazos.cz/ford/">Ford</a>, <a href="https://auto.bazos.cz/volkswagen/">VW</a>, ...<br><a href="https://auto.bazos.cz/"><img src="/obrazky/auto.svg" width="65" height="44" class="imgmain" alt="Auto"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://motorky.bazos.cz/">Motorky</a></span><br><a href="https://motorky.bazos.cz/silnicni/">Silniční motocykly</a>, <a href="https://motorky.bazos.cz/skutry/">Skútry</a>, ...<br><a href="https://motorky.bazos.cz/"><img src="/obrazky/motorky.svg" width="65" height="34" class="imgmain" alt="Motorky"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://stroje.bazos.cz/">Stroje</a></span><br><a href="https://stroje.bazos.cz/drevoobrabeci/">Dřevoobráběcí</a>, <a href="https://stroje.bazos.cz/kovoobrabeci/">Kovoobráběcí</a>, ...<br><a href="https://stroje.bazos.cz/"><img src="/obrazky/stroje.svg" width="65" height="47" class="imgmain" alt="Stroje"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://dum.bazos.cz/">Dům a zahrada</a></span><br><a href="https://dum.bazos.cz/sekacky/">Sekačky</a>, <a href="https://dum.bazos.cz/kotle/">Kotle, Bojlery</a> ...<br><a href="https://dum.bazos.cz/"><img src="/obrazky/dum.svg" width="65" height="54" class="imgmain" alt="Dům a zahrada"></a></div>
+</div>
+<div class="icontblrow">
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://pc.bazos.cz/">PC<br></a></span><a href="https://pc.bazos.cz/notebook/">Notebooky</a>, <a href="https://pc.bazos.cz/pc/">Počítače</a>, ...<br><a href="https://pc.bazos.cz/"><img src="/obrazky/pc.svg" width="65" height="60" class="imgmain" alt="Počítače"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://mobil.bazos.cz/">Mobily</a></span><br><a href="https://mobil.bazos.cz/nokia/">Nokia</a>, <a href="https://mobil.bazos.cz/apple/">Apple</a>, <a href="https://mobil.bazos.cz/samsung/">Samsung</a>, ...<br><a href="https://mobil.bazos.cz/"><img src="/obrazky/mobil.svg" width="46" height="60" class="imgmain" alt="Mobily"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://foto.bazos.cz/">Foto</a></span><br><a href="https://foto.bazos.cz/digitalni/">Fotoaparáty</a>, <a href="https://foto.bazos.cz/videokamery/">Videokamery</a>, ...<br><a href="https://foto.bazos.cz/"><img src="/obrazky/foto.svg" width="65" height="46" class="imgmain" alt="Foto"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://elektro.bazos.cz/">Elektro</a></span><br><a href="https://elektro.bazos.cz/autoradia/">Autorádia</a>, <a href="https://elektro.bazos.cz/lednicky/">Ledničky</a>, ...<br><a href="https://elektro.bazos.cz/"><img src="/obrazky/elektro.svg" width="43" height="59" class="imgmain" alt="Elektro"></a></div>
+</div>
+<div class="icontblrow">
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://sport.bazos.cz/">Sport</a></span><br><a href="https://sport.bazos.cz/horska/">Horská kola</a>, <a href="https://sport.bazos.cz/lyze/">Lyže</a>, ...<br><a href="https://sport.bazos.cz/"><img src="/obrazky/sport.svg" width="65" height="40" class="imgmain" alt="Sport"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://hudba.bazos.cz/">Hudba</a></span><br><a href="https://hudba.bazos.cz/bici/">Bicí nástroje</a>, <a href="https://hudba.bazos.cz/zkusebny/">Zkušebny</a> ...<br><a href="https://hudba.bazos.cz/"><img src="/obrazky/hudba.svg" width="65" height="56" class="imgmain" alt="Hudba"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://vstupenky.bazos.cz/">Vstupenky</a></span><br><a href="https://vstupenky.bazos.cz/letenky/">Letenky</a>, <a href="https://vstupenky.bazos.cz/hudba/">Hudba, Koncerty</a>, ...<br><a href="https://vstupenky.bazos.cz/"><img src="/obrazky/vstupenky.svg" width="65" height="55" class="imgmain" alt="Vstupenky"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://knihy.bazos.cz/">Knihy</a></span><br><a href="https://knihy.bazos.cz/ucebnice/">Učebnice</a>, <a href="https://knihy.bazos.cz/skripta/">Skripta</a>, ...<br><a href="https://knihy.bazos.cz/"><img src="/obrazky/knihy.svg" width="43" height="60" class="imgmain" alt="Knihy"></a></div>
+</div>
+<div class="icontblrow">
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://nabytek.bazos.cz/">Nábytek</a></span><br><a href="https://nabytek.bazos.cz/kresla/">Křesla a gauče</a>, <a href="https://nabytek.bazos.cz/kuchyne/">Kuchyně</a>, ...<br><a href="https://nabytek.bazos.cz/"><img src="/obrazky/nabytek.svg" width="65" height="60" class="imgmain" alt="Nábytek"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://obleceni.bazos.cz/">Oblečení</a></span><br><a href="https://obleceni.bazos.cz/boty/">Boty</a>, <a href="https://obleceni.bazos.cz/sperky/">Šperky</a>, <a href="https://obleceni.bazos.cz/hodinky/">Hodinky</a> ...<br><a href="https://obleceni.bazos.cz/"><img src="/obrazky/obleceni.svg" width="53" height="60" class="imgmain" alt="Oblečení"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://sluzby.bazos.cz/">Služby</a></span><br><a href="https://sluzby.bazos.cz/doucovani/">Doučování</a>, <a href="https://sluzby.bazos.cz/ubytovani/">Ubytování</a>, ...<br><a href="https://sluzby.bazos.cz/"><img src="/obrazky/sluzby.svg" width="40" height="60" class="imgmain" alt="Služby"></a></div>
+<div class="icontblcell"><span class="nadpisnahlavni"><br><a href="https://ostatni.bazos.cz/">Ostatní</a></span><br><a href="https://ostatni.bazos.cz/starozitnosti/">Starožitnosti</a>, <a href="https://ostatni.bazos.cz/sberatelstvi/">Sběratelství</a> ...<br><a href="https://ostatni.bazos.cz/"><img src="/obrazky/ostatni.svg" width="44" height="60" class="imgmain" alt="Ostatní"></a></div>
+</div>
+
+<br>
+
+©2024 Bazoš -  <b>Inzerce, Bazar</b><br>
+<a href="https://www.bazos.cz/napoveda.php">Nápověda</a>, <a href="https://www.bazos.cz/dotazy.php">Dotazy</a>, <a href="https://www.bazos.cz/hodnoceni.php">Hodnocení</a>, <a href="https://www.bazos.cz/kontakt.php">Kontakt</a>, <a href="https://www.bazos.cz/reklama.php">Reklama</a>, <a href="https://www.bazos.cz/podminky.php">Podmínky</a>, <a href="https://www.bazos.cz/ochrana-udaju.php">Ochrana údajů</a>, <a href="https://www.bazos.cz/rss.php">RSS</a>, <form name="formvkm" id="formvkm" method="post" style="display: inline;"><input type="hidden" name="vkm" value="m"><input type="submit" class="vkm" value="Mobilní verze"></form><br>
+Inzeráty celkem:<b>
+1612882</b>, inzerce za 24 hodin: <b>64842</b><br><br>
+<a href="https://www.bazos.cz/mapa-kategorie.php">Mapa kategorií</a>, <a href="https://www.bazos.cz/mapa-search.php">Nejvyhledávanější výrazy</a>, Tmavý motiv: <form name="formdark" action="https://www.bazos.cz" method="post" style="display: inline;"><input type="hidden" name="darkmode" value="1"><input type="submit" class="vkm" value="Vypnuto"></form><br>
+Země: <a href="https://www.bazos.cz">Česká republika</a>, <a href="https://www.bazos.sk">Slovensko</a>, <a href="https://www.bazos.pl">Polsko</a>, <a href="https://www.bazos.at">Rakousko</a>
+<br>
+<br>
+</div>
+
+<script type="text/javascript" src="https://www.bazos.cz/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"light","language":"cs","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"cookie_domain": "bazos.cz"});
+});
+</script>
+<a href="#" id="open_preferences_center"> </a>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NZW1QTHKBB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NZW1QTHKBB');
+</script>
+
+</body></html>

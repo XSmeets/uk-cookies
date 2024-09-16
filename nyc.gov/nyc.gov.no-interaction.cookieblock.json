@@ -1,0 +1,111 @@
+{
+    "nyc.gov": {
+        "/": {
+            "RT": {
+                "name": "RT",
+                "domain": ".nyc.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726416848362,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727021648,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=nyc.gov&si=1uwteu0jjkw&ss=m13s0ldh&sl=0&tt=0\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726416848358
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".nyc.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726416849183,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760976849.179512,
+                        "expiry": 34560000.179512024,
+                        "value": "GA1.1.42084081.1726416849",
+                        "same_site": "unspecified",
+                        "timestamp": 1726416849182
+                    }
+                ]
+            },
+            "_ga_X0W5WYPG3G": {
+                "name": "_ga_X0W5WYPG3G",
+                "domain": ".nyc.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726416849181,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760976849.179227,
+                        "expiry": 34560000.17922711,
+                        "value": "GS1.1.1726416849.1.0.1726416849.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726416849180
+                    }
+                ]
+            },
+            "AWSALB": {
+                "name": "AWSALB",
+                "domain": "www.nyc.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726416848791,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727021648.780643,
+                        "expiry": 604800.7806429863,
+                        "value": "kEzujlttx9iGZBi7qGdlvJ09RTgILn8tg+Z7aO+7mGJcjgmljlgh8rHEDKE5SjoXHSPT/HggHqljODVe0PtZYRD5hcHWByeDKrv8IrfHtQyRirSS4wS+/BfaFg5e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726416848781
+                    }
+                ]
+            },
+            "AWSALBCORS": {
+                "name": "AWSALBCORS",
+                "domain": "www.nyc.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726416848792,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727021648.780758,
+                        "expiry": 604800.780757904,
+                        "value": "kEzujlttx9iGZBi7qGdlvJ09RTgILn8tg+Z7aO+7mGJcjgmljlgh8rHEDKE5SjoXHSPT/HggHqljODVe0PtZYRD5hcHWByeDKrv8IrfHtQyRirSS4wS+/BfaFg5e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726416848791
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "cbsa-asfc.gc.ca": {
+        "/": {
+            "Apache": {
+                "name": "Apache",
+                "domain": ".cbsa-asfc.gc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726346378623,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "84.17.50.205.1726346378593380",
+                        "same_site": "unspecified",
+                        "timestamp": 1726346378611
+                    }
+                ]
+            }
+        }
+    }
+}

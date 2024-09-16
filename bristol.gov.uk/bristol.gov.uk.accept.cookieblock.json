@@ -1,0 +1,159 @@
+{
+    "bristol.gov.uk": {
+        "/": {
+            "CookieControl": {
+                "name": "CookieControl",
+                "domain": ".bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232298895,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734011898,
+                        "expiry": 7779600,
+                        "value": "%7B%22necessaryCookies%22%3A%5B%5D%2C%22optionalCookies%22%3A%7B%22analytics%22%3A%22accepted%22%2C%22marketing%22%3A%22accepted%22%7D%2C%22statement%22%3A%7B%22shown%22%3Atrue%2C%22updated%22%3A%2224%2F07%2F2024%22%7D%2C%22consentDate%22%3A1726232298890%2C%22consentExpiry%22%3A90%2C%22interactedWith%22%3Atrue%2C%22user%22%3A%2213FEB724-3FA0-492D-9FAC-C463ADC4DD43%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726232298893
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".bristol.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726232298986,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760792298.983003,
+                        "expiry": 34560000.9830029,
+                        "value": "GA1.1.423952681.1726232299",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232298985
+                    }
+                ]
+            },
+            "_ga_1KKYQK3TEK": {
+                "name": "_ga_1KKYQK3TEK",
+                "domain": ".bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232298983,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760792298.982014,
+                        "expiry": 34560000.98201394,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232298982
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.98248792,
+                        "value": "GS1.1.1726232298.1.0.1726232298.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232298984
+                    }
+                ]
+            },
+            "ApplicationGatewayAffinity": {
+                "name": "ApplicationGatewayAffinity",
+                "domain": "bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232292601,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7cc0c1d094549749d86c674ae31ec9aa",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232292597
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "f4bccd389685678005c43b15c8cc2cf6",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232293173
+                    }
+                ]
+            },
+            "ApplicationGatewayAffinityCORS": {
+                "name": "ApplicationGatewayAffinityCORS",
+                "domain": "bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232292596,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7cc0c1d094549749d86c674ae31ec9aa",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232292592
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "f4bccd389685678005c43b15c8cc2cf6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232293171
+                    }
+                ]
+            },
+            "7f139727a1a02cb92270148e5343e871": {
+                "name": "7f139727a1a02cb92270148e5343e871",
+                "domain": "www.bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232293183,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "29a57ae04f6f8d9fafbe6c8b5b47ae31",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232293181
+                    }
+                ]
+            }
+        }
+    }
+}

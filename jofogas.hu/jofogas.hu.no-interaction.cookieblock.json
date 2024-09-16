@@ -1,0 +1,93 @@
+{
+    "jofogas.hu": {
+        "/": {
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".jofogas.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068031190,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1736612431,
+                        "expiry": 10544400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTFhYmYtZWQwOC02ZGIzLWE3ODktYjk1MGYxOTM5MDZjIiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTU6MjA6MzEuMTg0WiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDE1OjIwOjMxLjE4NFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726068031185
+                    }
+                ]
+            },
+            "utag_main": {
+                "name": "utag_main",
+                "domain": ".jofogas.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068031200,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757604031,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e1abfed30021c6c1bace1b8805075001706d00bd0$_sn:1$_se:1$_ss:1$_st:1726069831188$ses_id:1726068031188%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068031199
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e1abfed30021c6c1bace1b8805075001706d00bd0$_sn:1$_se:1$_ss:1$_st:1726069831188$ses_id:1726068031188%3Bexp-session$_pn:1%3Bexp-session$dc_visit:1$dc_event:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068031278
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191e1abfed30021c6c1bace1b8805075001706d00bd0$_sn:1$_se:1$_ss:1$_st:1726069831188$ses_id:1726068031188%3Bexp-session$_pn:1%3Bexp-session$dc_visit:1$dc_event:1%3Bexp-session$dc_region:eu-west-1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068031403
+                    }
+                ]
+            }
+        }
+    },
+    "tealiumiq.com": {
+        "/": {
+            "TAPID": {
+                "name": "TAPID",
+                "domain": ".tealiumiq.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068031402,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604031.401312,
+                        "expiry": 31536000.401312113,
+                        "value": "adevinta/jofogas>0191e1abfed30021c6c1bace1b8805075001706d00bd0|",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068031401
+                    }
+                ]
+            }
+        }
+    }
+}

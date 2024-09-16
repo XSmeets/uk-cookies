@@ -1,0 +1,226 @@
+{
+    "cdns.eu1.gigya.com": {
+        "/": {
+            "apiDomain_3_hZBzqOVgJX_i7ij7qcHcPmxekIlduisTDGBUSIMJySJ3x5sipkskd0LxSrd_J-4M": {
+                "name": "apiDomain_3_hZBzqOVgJX_i7ij7qcHcPmxekIlduisTDGBUSIMJySJ3x5sipkskd0LxSrd_J-4M",
+                "domain": ".cdns.eu1.gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591508,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757703591,
+                        "expiry": 31536000,
+                        "value": "gigya-cp.independent.ie",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726167591507
+                    }
+                ]
+            }
+        }
+    },
+    "gigya-cp.independent.ie": {
+        "/": {
+            "gmid": {
+                "name": "gmid",
+                "domain": ".gigya-cp.independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591783,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757703591.78232,
+                        "expiry": 31536000.782320023,
+                        "value": "gmid.ver4.AcbHlLl8Lg.xpZ7C9d8mFHe1Vf39xoj4_zktcx1RX6hU5TjlFWamCKlV39BOazj1t55UhWVgGea.S-QIoOxKHTj2lxFjZaIzeiDhO7qxPJ5L5nIaE3NNNg25RPGeJqn1z1adJDGPET1vfJgZVRekYgpb2KHpQxMKWQ.sc3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726167591782
+                    }
+                ]
+            },
+            "hasGmid": {
+                "name": "hasGmid",
+                "domain": ".gigya-cp.independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591785,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741809591.782601,
+                        "expiry": 15642000.782601118,
+                        "value": "ver4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726167591785
+                    }
+                ]
+            },
+            "ucid": {
+                "name": "ucid",
+                "domain": ".gigya-cp.independent.ie",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726167591784,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757703591.782424,
+                        "expiry": 31536000.782423973,
+                        "value": "yrksklzlwfdAGltg8JvoyA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726167591784
+                    }
+                ]
+            }
+        }
+    },
+    "gigya.com": {
+        "/": {
+            "gig3pctest": {
+                "name": "gig3pctest",
+                "domain": ".gigya.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726167591511,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726167592,
+                        "expiry": 1,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726167591510
+                    }
+                ]
+            }
+        }
+    },
+    "independent.ie": {
+        "/": {
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591391,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757789991,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTc5YjItOWRjNC02Njk2LTljZTAtOTljZDBjZjk5N2E1IiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTg6NTk6NTEuMzg4WiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDE4OjU5OjUxLjM4OVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726167591389
+                    }
+                ]
+            },
+            "gig_bootstrap_4_CO8231Ix1RbYi2EmMbsrlw": {
+                "name": "gig_bootstrap_4_CO8231Ix1RbYi2EmMbsrlw",
+                "domain": ".independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591789,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757703591,
+                        "expiry": 31536000,
+                        "value": "gigya-cp_ver4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726167591788
+                    }
+                ]
+            },
+            "gig_canary": {
+                "name": "gig_canary",
+                "domain": ".www.independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591218,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726167591214
+                    }
+                ]
+            },
+            "gig_canary_ver": {
+                "name": "gig_canary_ver",
+                "domain": ".www.independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591223,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "16174-3-28769445",
+                        "same_site": "unspecified",
+                        "timestamp": 1726167591218
+                    }
+                ]
+            },
+            "_segmentgroup": {
+                "name": "_segmentgroup",
+                "domain": "www.independent.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167591317,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757271591,
+                        "expiry": 31104000,
+                        "value": "K",
+                        "same_site": "unspecified",
+                        "timestamp": 1726167591316
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,303 @@
+{
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077459862,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726078359.860726,
+                        "expiry": 900.8607261180878,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077459861
+                    }
+                ]
+            }
+        }
+    },
+    "lege5.ro": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".lege5.ro",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726077459716,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637459.705793,
+                        "expiry": 34560000.705792904,
+                        "value": "GA1.1.1166593549.1726077460",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077459716
+                    }
+                ]
+            },
+            "_ga_DQB06J4YY9": {
+                "name": "_ga_DQB06J4YY9",
+                "domain": ".lege5.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077459715,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637459.705329,
+                        "expiry": 34560000.70532894,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077459709
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.70567298,
+                        "value": "GS1.1.1726077459.1.0.1726077459.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077459715
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.58975506,
+                        "value": "GS1.1.1726077459.1.0.1726077474.45.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077474591
+                    }
+                ]
+            },
+            "_lfa": {
+                "name": "_lfa",
+                "domain": ".lege5.ro",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077459895,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757613459,
+                        "expiry": 31536000,
+                        "value": "LF1.1.77722da0ea5e1ebe.1726077459892",
+                        "same_site": "lax",
+                        "timestamp": 1726077459894
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "LF1.1.77722da0ea5e1ebe.1726077459892",
+                        "same_site": "lax",
+                        "timestamp": 1726077459931
+                    }
+                ]
+            },
+            "ASP.NET_SessionId": {
+                "name": "ASP.NET_SessionId",
+                "domain": "lege5.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077459354,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "zvzrxadxvd2qcu1o0gbyobr0",
+                        "same_site": "lax",
+                        "timestamp": 1726077459346
+                    }
+                ]
+            },
+            "_lfa_test_cookie_stored": {
+                "name": "_lfa_test_cookie_stored",
+                "domain": "lege5.ro",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077459893,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726077460,
+                        "expiry": 1,
+                        "value": "1726077459892-0.9284319811583972",
+                        "same_site": "lax",
+                        "timestamp": 1726077459892
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1,
+                        "value": "1726077459894-0.1851892503458319",
+                        "same_site": "lax",
+                        "timestamp": 1726077459895
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1,
+                        "value": "1726077459895-0.15075379069951134",
+                        "same_site": "lax",
+                        "timestamp": 1726077459897
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1,
+                        "value": "1726077459930-0.3966944460525683",
+                        "same_site": "lax",
+                        "timestamp": 1726077459930
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1,
+                        "value": "1726077459931-0.5747743477698184",
+                        "same_site": "lax",
+                        "timestamp": 1726077459932
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1,
+                        "value": "1726077459932-0.7847162434622925",
+                        "same_site": "lax",
+                        "timestamp": 1726077459933
+                    }
+                ]
+            },
+            "cookies": {
+                "name": "cookies",
+                "domain": "lege5.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077471093,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637471.092095,
+                        "expiry": 34560000.0920949,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077471092
+                    }
+                ]
+            }
+        }
+    },
+    "linkedin.com": {
+        "/": {
+            "bcookie": {
+                "name": "bcookie",
+                "domain": ".linkedin.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077460016,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757613459.01542,
+                        "expiry": 31535999.01541996,
+                        "value": "\"v=2&15b59c51-ff5e-408c-8d0c-de206379b2ab\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077460016
+                    }
+                ]
+            },
+            "li_gc": {
+                "name": "li_gc",
+                "domain": ".linkedin.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077460017,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741629459.015506,
+                        "expiry": 15551999.01550603,
+                        "value": "MTswOzE3MjYwNzc0NTk7MjswMjG0vkPJNC9TFqp17r/riSPg5RZs/EWoF4baZNLb7N4kIw==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077460016
+                    }
+                ]
+            },
+            "lidc": {
+                "name": "lidc",
+                "domain": ".linkedin.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077460017,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726163859.015542,
+                        "expiry": 86399.01554203033,
+                        "value": "\"b=TGST09:s=T:r=T:a=T:p=T:g=2868:u=1:x=1:i=1726077459:t=1726163859:v=2:sig=AQFrq7p6IZYM9YNkE5Vq_C6k8VeG7dha\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077460017
+                    }
+                ]
+            }
+        }
+    }
+}

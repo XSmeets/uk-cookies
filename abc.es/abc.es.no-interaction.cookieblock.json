@@ -1,0 +1,458 @@
+{
+    "abc.es": {
+        "/": {
+            "AMCV_9854C13E58403FEB0A495D53%40AdobeOrg": {
+                "name": "AMCV_9854C13E58403FEB0A495D53%40AdobeOrg",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726146373800,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760706373.799641,
+                        "expiry": 34560000.799640894,
+                        "value": "179643557%7CMCIDTS%7C19979%7CvVersion%7C5.5.0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726146373799
+                    }
+                ]
+            },
+            "TEST_AMCV_COOKIE_WRITE": {
+                "name": "TEST_AMCV_COOKIE_WRITE",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726146373791,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373790
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726146373799
+                    }
+                ]
+            },
+            "at_check": {
+                "name": "at_check",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726146373928,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373928
+                    }
+                ]
+            },
+            "com.adobe.alloy.getTld": {
+                "name": "com.adobe.alloy.getTld",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726146373814,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "com.adobe.alloy.getTld",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373813
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726146373843,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757768773,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTY1NzYtOGQwOS02MDBiLWE1NzYtNjNlNTBmZmIxY2U2IiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTM6MDY6MTMuODQwWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDEzOjA2OjEzLjg0MFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726146373841
+                    }
+                ]
+            },
+            "ev_did": {
+                "name": "ev_did",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726146373825,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757250373,
+                        "expiry": 31104000,
+                        "value": "66e2e7459e09fc03fb328e44",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726146373824
+                    }
+                ]
+            },
+            "ev_sid": {
+                "name": "ev_sid",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726146373824,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757250373,
+                        "expiry": 31104000,
+                        "value": "66e2e7459e09fc03fb328e45",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726146373823
+                    }
+                ]
+            },
+            "mbox": {
+                "name": "mbox",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726146373927,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726148234,
+                        "expiry": 1861,
+                        "value": "session#8ef19ca152a442dc860fd7f4208f9488#1726148234",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373927
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1861,
+                        "value": "session#8ef19ca152a442dc860fd7f4208f9488#1726148234",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373928
+                    }
+                ]
+            },
+            "s_ac": {
+                "name": "s_ac",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726146374044,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374043
+                    }
+                ]
+            },
+            "s_ppv": {
+                "name": "s_ppv",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726146374047,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "portada%253Aabc-ultimas-noticias-de-espana-y-el-mundo-hoy%2C3%2C3%2C890%2C1920%2C890%2C1920%2C1080%2C1%2CP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374046
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "portada%253Aabc-ultimas-noticias-de-espana-y-el-mundo-hoy%2C3%2C3%2C890%2C1920%2C890%2C1920%2C1080%2C1%2CP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374377
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "portada%253Aabc-ultimas-noticias-de-espana-y-el-mundo-hoy%2C3%2C3%2C890%2C1920%2C890%2C1920%2C1080%2C1%2CP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374712
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "portada%253Aabc-ultimas-noticias-de-espana-y-el-mundo-hoy%2C3%2C3%2C890%2C1920%2C890%2C1920%2C1080%2C1%2CP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374823
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "portada%253Aabc-ultimas-noticias-de-espana-y-el-mundo-hoy%2C3%2C3%2C890%2C1920%2C890%2C1920%2C1080%2C1%2CP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374871
+                    }
+                ]
+            },
+            "s_ppvl": {
+                "name": "s_ppvl",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726146374045,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%5B%5BB%5D%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374044
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "portada%253Aabc-ultimas-noticias-de-espana-y-el-mundo-hoy%2C3%2C3%2C890%2C1920%2C890%2C1920%2C1080%2C1%2CP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374822
+                    }
+                ]
+            },
+            "voc-rtim": {
+                "name": "voc-rtim",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726146374734,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728738374,
+                        "expiry": 2592000,
+                        "value": "{ \"geo-europe\" : true}",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726146374733
+                    }
+                ]
+            },
+            "vtm_op": {
+                "name": "vtm_op",
+                "domain": ".abc.es",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726146373926,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373924
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".www.abc.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726146373422,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726153573.408186,
+                        "expiry": 7200.408185958862,
+                        "value": "13E20EC75B5EE7982640FD0099460779~000000000000000000000000000000~YAAQirEXArxeENqRAQAAHmdX5hlM9WOBjF3vO1XrCmh4yHJA0CIN9B2n5gXpcQhXerE7fvgNHlgRuEEprEU12fFdVYmTZvrGUFfuhaZW8g+1j7hQrKu4JYYGRVqXe8hK5DOtPaQ6QAub6hd5Hpqmc1y54yh6j+8dc3+PTzzp1qIZYyHpM1jaMPDY2VkhJsX1w71w+nTVZxmyH1e8eGlf3tAvS/ojZc63zog9IfdPfycMwhnktDedLwvS/s19TNAkGAS6XOtyV8rN7hTxn4MbXIDCeqYIGk08HmskOJ3rAVR8HOjWOaNNe/Q4jNNlWaD9P4rDMmcdI7tr4+r3Sl49FvZ64EvP0iLg9FMdCNL7GoxzZ7Svpi0b0eD2mz635mmW7z3phbz7HowZzQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373411
+                    }
+                ]
+            },
+            "gig_canary": {
+                "name": "gig_canary",
+                "domain": ".www.abc.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726146374803,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374803
+                    }
+                ]
+            },
+            "gig_canary_ver": {
+                "name": "gig_canary_ver",
+                "domain": ".www.abc.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726146374804,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "16174-3-28769100",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146374803
+                    }
+                ]
+            },
+            "": {
+                "name": "",
+                "domain": "www.abc.es",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726146373598,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "kangaroo-test-cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726146373593
+                    }
+                ]
+            }
+        }
+    },
+    "demdex.net": {
+        "/": {
+            "demdex": {
+                "name": "demdex",
+                "domain": ".demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726146374150,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741698374.148882,
+                        "expiry": 15552000.148881912,
+                        "value": "72735941335510728163244164766444930889",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726146374149
+                    }
+                ]
+            }
+        }
+    }
+}

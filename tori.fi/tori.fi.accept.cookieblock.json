@@ -1,0 +1,602 @@
+{
+    "adnxs.com": {
+        "/": {
+            "XANDR_PANID": {
+                "name": "XANDR_PANID",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068961746,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1733844961.745183,
+                        "expiry": 7776000.745182991,
+                        "value": "_iz0dzh8GZ-xx9dKzOFuU10e2SD_ExftT9quoFZrbIGvkHGwxhjFHiew_0dEMDtx1aHp7FNByNr87rKeIMAZ2Jb5jmPLNlSm5aLX_CCxzko.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961745
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.773633957,
+                        "value": "_iz0dzh8GZ-xx9dKzOFuU10e2SD_ExftT9quoFZrbIGvkHGwxhjFHiew_0dEMDtx1aHp7FNByNr87rKeIMAZ2Jb5jmPLNlSm5aLX_CCxzko.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961775
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.648880005,
+                        "value": "_iz0dzh8GZ-xx9dKzOFuU10e2SD_ExftT9quoFZrbIGvkHGwxhjFHiew_0dEMDtx1aHp7FNByNr87rKeIMAZ2Jb5jmPLNlSm5aLX_CCxzko.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068963650
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068961747,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760628961.74525,
+                        "expiry": 34560000.74524999,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961747
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.773710966,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961775
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.64897299,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068963650
+                    }
+                ]
+            },
+            "uuid2": {
+                "name": "uuid2",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068961748,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1733844961.745272,
+                        "expiry": 7776000.745271921,
+                        "value": "4551200106890636812",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961747
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.773746967,
+                        "value": "4551200106890636812",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961775
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.649012089,
+                        "value": "4551200106890636812",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068963651
+                    }
+                ]
+            }
+        }
+    },
+    "schibsted.com": {
+        "/": {
+            "cis-jwe": {
+                "name": "cis-jwe",
+                "domain": ".schibsted.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068938324,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604938.322473,
+                        "expiry": 31536000.32247305,
+                        "value": "eyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM1OjM4WiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..RteEE1cMbTnpTsg3gFGh6Q.ceHgrm5p2L9JI1oeE-eD9VkGfDdGX-rTP5n9oKkvG9Y_b_4UA6BOxvz8FwNVjpZIYBiii0yFTQozQsqUnqiD0g.0RC7rL7mRDQfbGnBchysIg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938323
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.323000908,
+                        "value": "eyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM1OjM4WiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..w1uXv46PiaEWs7KNTb8g0g.itQ1URVaT7smTZU6OO5r1IFIzFb34sAq_w-Gn5UpeiZpm8ydr3CGGUsXMLo8NcNiZxreUDl3RPNtUfygOwqBXA.DvqnDERl77b0qJIfO-fq3A",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938325
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.614208937,
+                        "value": "eyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM2OjAxWiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..4H6UhgE942AqI41T_5wREQ.F9A_AopNODKNtkcPAZ2ZO85KjVl1NVGwqIwNVKJFPhE9FremZEZk3RIyW3UynO-gz7tgvlkGwTxOsU5d5EEo_w.VZ6aLwnOXxLOUKYZ5kwm2Q",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961615
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.82567501,
+                        "value": "eyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM2OjAxWiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..UdNCaCfPbJ_auKM1pFaZjw.ntRWB1kgP00QySb44Rimi-3OlDcAcbZWS12TuIjW6XzCgl-DFgvz7Cip_L_uN_fD9NRyXGzgMIY-87_Jz2KmYesrUyO4xxgpaMUu2KgsLe-tHuVZBFSIJSayRRHP2YMg.cHVJHzvcx3NryXGEtgXjxw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961826
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.70477605,
+                        "value": "eyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM2OjAzWiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..zRIxG-8E18lTAcHoyvW2PQ.Y1Yawd5F-m3fjwI2wDIdLmZuqFDXqhpfvlZUMzftx6shlTvuCLAvwEdz629Qt8TtXZpbvzb23WjtyL1f3cev1Q.ENKzFlcUYy1y1-ZioKVsNA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068963706
+                    }
+                ]
+            }
+        }
+    },
+    "tori.fi": {
+        "/": {
+            "__mbl": {
+                "name": "__mbl",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068937983,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757604937,
+                        "expiry": 31536000,
+                        "value": "61@{\"u\":[{\"uid\":\"uWWoofxzB7yNOkPX\",\"ts\":1726068937},1726158937]}",
+                        "same_site": "strict",
+                        "timestamp": 1726068937977
+                    }
+                ]
+            },
+            "_cmp_advertising": {
+                "name": "_cmp_advertising",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068961557,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741620961.554399,
+                        "expiry": 15552000.554399014,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068961556
+                    }
+                ]
+            },
+            "_cmp_analytics": {
+                "name": "_cmp_analytics",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726068961562,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741620961.554643,
+                        "expiry": 15552000.554642916,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068961560
+                    }
+                ]
+            },
+            "_cmp_marketing": {
+                "name": "_cmp_marketing",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726068961556,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741620961.554091,
+                        "expiry": 15552000.554090977,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068961554
+                    }
+                ]
+            },
+            "_cmp_personalisation": {
+                "name": "_cmp_personalisation",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726068961562,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741620961.555013,
+                        "expiry": 15552000.555012941,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726068961562
+                    }
+                ]
+            },
+            "_hjSessionUser_3686617": {
+                "name": "_hjSessionUser_3686617",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726068938186,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604938,
+                        "expiry": 31536000,
+                        "value": "eyJpZCI6IjgyN2JlYTk3LWZmY2MtNWZmZC1iMWFhLTUzNDg1MTUzZDk2MiIsImNyZWF0ZWQiOjE3MjYwNjg5MzgxODUsImV4aXN0aW5nIjpmYWxzZX0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938185
+                    }
+                ]
+            },
+            "_hjSession_3686617": {
+                "name": "_hjSession_3686617",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068938188,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726070738,
+                        "expiry": 1800,
+                        "value": "eyJpZCI6IjFhZTdmMmNjLTg4ZDQtNGI2OC05ZTI4LWJkM2Q1Mzk1MTg1NCIsImMiOjE3MjYwNjg5MzgxODUsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938187
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "eyJpZCI6IjFhZTdmMmNjLTg4ZDQtNGI2OC05ZTI4LWJkM2Q1Mzk1MTg1NCIsImMiOjE3MjYwNjg5MzgxODUsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938190
+                    }
+                ]
+            },
+            "_hjTLDTest": {
+                "name": "_hjTLDTest",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726068938181,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": ".tori.fi",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938180
+                    }
+                ]
+            },
+            "_pulse2data": {
+                "name": "_pulse2data",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726068938015,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760628938.008552,
+                        "expiry": 34560000.008552074,
+                        "value": "%2Cv%2C%2C1726069838007%2C%2C%2C0%2C%2C%2C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938015
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.323474884,
+                        "value": "c5bfafa0-00b9-4379-8672-9713f8c2612b%2Cv%2C%2C1727278538000%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM1OjM4WiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..46R5u3BiVFLhThmKe4JruQ.jso_3Q2GM3zFHAgiponTC-bV7vW8jawt4BdqZ2ll36QO1LMysF3hPxU5K_emrzhzNJUwp2A7F-BP844FmlQKVi3s7OxO9m4DvPzuXQJtsSUXr6ne1Z0vsVUZeI42cBUj3Tlrv5O_MsMcMeIVu7GlULXU7Lf1-NpnnkkareSsmvy85EOGWF51KkIAr-CGwfPAyy6HLv7dSed3vLkyyWeTYvJoErauKPjZq4GG0jDtnrjmmN84UAWtKrCY4fIRO416-od2UE5hIYBJOZoSYbil9gpKGODaek-1dqF7x1ggALC2XMIAlX0nEuK9zyxirXRgjnOG3k_sLFyIp942xbTd55ofCdLQbCcEVuFcKoTDJQA.mC-1ZaOSll-2LEYJVw3aDg%2C%2C0%2Ctrue%2C%2C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938325
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.328948975,
+                        "value": "89698de2-5963-4fdc-ab79-8f81695c2134%2Cv%2C%2C1727278538000%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM1OjM4WiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..c-VYHSpXB7oDUNfwV8SopQ.1w_b5QZj4TVjNZDuwFv_rLXbZGzYc9uNsMw1rwaa7UXHPU7I2vAZzZFyzWXq-f9RWrT_OQAGLggHLGQfVt1AlLmQwHCNysprkWZAqn3K8fWhstrTgGn24RfxPIF7tWX9peJZzYw8aXYTUnW_79bfVlXmXE6nbbXQdzAmdEa9lTwRioFVYBcYoh-rmMrpYbe-drUGIzFlgzr-XQ-INoG7j86Db7scT9yLrfcNPRIL4yzVtRdJRj1uJXSA1qymv4IHozhOtCfW4_1uNQzDXwJMg98m3uM_5-lz4eKfE-ZNiSlaqipmcQB99e66yx4XCA2gcobZILe4_ttbf5ul_DKoaMoL1U0cdEwvRMacrgxOjDs.yeXcqdEw0xXGS8IcyR7YbQ%2C%2C0%2Ctrue%2C%2C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938331
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.5633049,
+                        "value": "89698de2-5963-4fdc-ab79-8f81695c2134%2Cv%2C%2C1726068961562%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM1OjM4WiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..c-VYHSpXB7oDUNfwV8SopQ.1w_b5QZj4TVjNZDuwFv_rLXbZGzYc9uNsMw1rwaa7UXHPU7I2vAZzZFyzWXq-f9RWrT_OQAGLggHLGQfVt1AlLmQwHCNysprkWZAqn3K8fWhstrTgGn24RfxPIF7tWX9peJZzYw8aXYTUnW_79bfVlXmXE6nbbXQdzAmdEa9lTwRioFVYBcYoh-rmMrpYbe-drUGIzFlgzr-XQ-INoG7j86Db7scT9yLrfcNPRIL4yzVtRdJRj1uJXSA1qymv4IHozhOtCfW4_1uNQzDXwJMg98m3uM_5-lz4eKfE-ZNiSlaqipmcQB99e66yx4XCA2gcobZILe4_ttbf5ul_DKoaMoL1U0cdEwvRMacrgxOjDs.yeXcqdEw0xXGS8IcyR7YbQ%2C%2C0%2Ctrue%2C%2C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961567
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.61629391,
+                        "value": "89698de2-5963-4fdc-ab79-8f81695c2134%2Cv%2C%2C1727278561000%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM2OjAxWiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..7dLgMPGWUm6bYe8JT6aodg.iQ5K2ZQfAelHjSWXrxralMyBAMhNvBCoshX62E-KUyezP02USIrqXRNLZDiQHx2cy2ey8tc-MUO6ybjAy2aysqkjy_lI4SkEVQHfS2KocNzr5SwDBQglyNnn1OfLH5N3-aMbX2L9IToovIA8W4ryLPlrPp6sP7EBwYRkj1eULo1Kjvh_K2wVZernBrdlH3lysFEog1l2ONBv7U-r4O1YUHRrpfdcV_D0zOw75igk6fKZK6I0umtOKbNaZST68u_mBa6ygrr86OHfkA2ChCR9yKi0FdaL8caIjwnEYa_-g_J47nOSDoD7c9zPf2Pc5RBPuZbR3LtR4RaZ4r08vYoF_C1MLzrqT_mBf_WMT_MFTXar9Za-xhNyOdqyYW24pheZgDbxV8AIpwXe3n_PAV9x3XdniS1_kOekktTh_9fqRf_QWueqEGd3o0PwpwM_RODjI9jyMoFWzvvlZeYP5YPkLw.tsa1MUhjW5Q34f4NMgOf0A%2C%2C0%2Ctrue%2C%2CeyJraWQiOiIyIiwiYWxnIjoiSFMyNTYifQ..3FQ04zk64Cum-80wY8JAaLU3ECmuwUG5EN69rIyFcI8",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961619
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.65127301,
+                        "value": "89698de2-5963-4fdc-ab79-8f81695c2134%2Cv%2C%2C1727278561000%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM2OjAxWiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..7dLgMPGWUm6bYe8JT6aodg.iQ5K2ZQfAelHjSWXrxralMyBAMhNvBCoshX62E-KUyezP02USIrqXRNLZDiQHx2cy2ey8tc-MUO6ybjAy2aysqkjy_lI4SkEVQHfS2KocNzr5SwDBQglyNnn1OfLH5N3-aMbX2L9IToovIA8W4ryLPlrPp6sP7EBwYRkj1eULo1Kjvh_K2wVZernBrdlH3lysFEog1l2ONBv7U-r4O1YUHRrpfdcV_D0zOw75igk6fKZK6I0umtOKbNaZST68u_mBa6ygrr86OHfkA2ChCR9yKi0FdaL8caIjwnEYa_-g_J47nOSDoD7c9zPf2Pc5RBPuZbR3LtR4RaZ4r08vYoF_C1MLzrqT_mBf_WMT_MFTXar9Za-xhNyOdqyYW24pheZgDbxV8AIpwXe3n_PAV9x3XdniS1_kOekktTh_9fqRf_QWueqEGd3o0PwpwM_RODjI9jyMoFWzvvlZeYP5YPkLw.tsa1MUhjW5Q34f4NMgOf0A%2C4551200106890636812%2C1726083363650%2Ctrue%2C%2CeyJraWQiOiIyIiwiYWxnIjoiSFMyNTYifQ..3FQ04zk64Cum-80wY8JAaLU3ECmuwUG5EN69rIyFcI8",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068963653
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.7073369,
+                        "value": "89698de2-5963-4fdc-ab79-8f81695c2134%2Cv%2C%2C1727278563000%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTFUMTU6MzU6MzhaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTExVDE1OjM2OjAzWiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..hdeLXFW0RneCLcZxCksYGg.UYtL-WdWAWXpUoT0O2iYCxXVQEyn55iGEtkyHFUsd57kKOP_Mr0ROUBQ8uFc6ozX10v_smo1orpzkyAfC8TowNim08QauHUbGxuQZjHc77JV5vIp_MEkzCqyOh14KR7oYZGzrwhl36ksM_0FzeHcQcoB0GKnRITLaoG3mNxmB9l3MNvGZgyqhyDtXCbEu_jL08S_IiU03kGOmmlYP2-s1me6TWeaEFfG1LExpHT43TDTj8swq5iHSUXEqrFFgeWVTflaOb3CpnL9tFWkfoJn28X-72xK6SUbXsAs7f9l9rBWCYJGJVlpfLtkdNoPkvlcD-7f9ZFEOMF3otwCF3j_Rt2ai_su_LAUIM4nvAXjlgiHirv7MmYHe552Abqvj62Ce-yz0NZ6KoQkGbe684cURohjX9JfgSAvN9TwGuDL67nCjNzK9U5cHi74a036oKYyquLkqQs4ptrZ572EI5_QXFVAEW_qi0x1IplBx6S2__YW4EmOJBGKeammhsnchQAZ.e4jpFwKdsSxSSEyE7Mtleg%2C4551200106890636812%2C1726083363707%2Ctrue%2C%2CeyJraWQiOiIyIiwiYWxnIjoiSFMyNTYifQ..3FQ04zk64Cum-80wY8JAaLU3ECmuwUG5EN69rIyFcI8",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068963708
+                    }
+                ]
+            },
+            "_pulse2test": {
+                "name": "_pulse2test",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068938013,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726155338,
+                        "expiry": 86400,
+                        "value": "mPWIH4Ao3Bu6Ft77",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938008
+                    }
+                ]
+            },
+            "_pulsesession": {
+                "name": "_pulsesession",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726068938330,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726070738,
+                        "expiry": 1800,
+                        "value": "%5B%22sdrn%3Aschibsted%3Asession%3A4d2f74e1-1d34-46aa-9070-ffddcc1ec3ef%22%2C1726068938328%2C1726068938328%5D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938328
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "%5B%22sdrn%3Aschibsted%3Asession%3A4d2f74e1-1d34-46aa-9070-ffddcc1ec3ef%22%2C1726068938328%2C1726068938330%5D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938331
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "%5B%22sdrn%3Aschibsted%3Asession%3A4d2f74e1-1d34-46aa-9070-ffddcc1ec3ef%22%2C1726068938328%2C1726068961618%5D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961621
+                    }
+                ]
+            },
+            "_sp_su": {
+                "name": "_sp_su",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068938095,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604938.093878,
+                        "expiry": 31536000.09387803,
+                        "value": "false",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068938094
+                    }
+                ]
+            },
+            "consentDate": {
+                "name": "consentDate",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068961566,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604961.555588,
+                        "expiry": 31536000.555588007,
+                        "value": "2024-09-11T15:36:01.575Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961565
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068961565,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604961.555496,
+                        "expiry": 31536000.555495977,
+                        "value": "c577d735-2ef2-468d-b476-61cdace43b17_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961565
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": ".tori.fi",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726068961565,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757604961.555386,
+                        "expiry": 31536000.555386066,
+                        "value": "CQEyKcAQEyKcAAGABCENBGFgAP_gAEPAAAwIF7wKYAFAAYABAACoAFwAMgAcAA8ACAAEgALQAZAA0gCIAIsATABNACoAFsAOYAfgBAQCDAIQARkA0QDSAGyAOIAeYA_QCEAERAIsASIAnYBSAC6gGKAM4AfYBGoC2QFvALzAXuBgkBiABQAFgAVAAuABwADwAIAASAAyABpAEQARQAmABzAEIANEAbIA_QCEAERAJEAXUAxQCZAF5gMEAKCQAgA_AEiCgBQAFABFADmANEAhAQAGABkAnYBnB0BEABYAFQAOAAggBkAGgARAAmAB-AGiANkAfoBFgCRAGKAPsAtkBeZCAEAAsAxRKAOAAsADgARAAmADZAMUAvMpAKAAWABUADgARAA_ADRAGyARYA-wC8yoAEABRQACAFstABAPsAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726068961562
+                    }
+                ]
+            }
+        }
+    }
+}

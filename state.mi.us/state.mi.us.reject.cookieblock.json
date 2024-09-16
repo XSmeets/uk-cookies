@@ -1,0 +1,58 @@
+{
+    "state.mi.us": {
+        "/": {
+            "cf_ob_info": {
+                "name": "cf_ob_info",
+                "domain": "www.state.mi.us",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726420608720,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726420638.71676,
+                        "expiry": 30.71675992012024,
+                        "value": "520:8c3a4441de537199:LHR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726420608719
+                    }
+                ]
+            },
+            "cf_use_ob": {
+                "name": "cf_use_ob",
+                "domain": "www.state.mi.us",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726420608725,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726420638.717678,
+                        "expiry": 30.71767807006836,
+                        "value": "443",
+                        "same_site": "unspecified",
+                        "timestamp": 1726420608725
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30.854984998703003,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726420608855
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "ct.gov": {
+        "/": {
+            "TS25324a21029": {
+                "name": "TS25324a21029",
+                "domain": "ct.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419576347,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726419606.334694,
+                        "expiry": 30.334693908691406,
+                        "value": "08ec0ef8bdab28003983b1aaa58ba296538443ca885497e92106197fc63ca258134b080f0bc172c4f9c3e25fc08afd58",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419576336
+                    }
+                ]
+            },
+            "TS3dde3009027": {
+                "name": "TS3dde3009027",
+                "domain": "ct.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726419576355,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "08ec0ef8bdab2000881a243554454105159c93c7ad1246fc555e29e2cc067df9cfb1304163d74922083e0efa74113000605b787e019cad99188a96b26d8a25918c14f8b8ff5c42b77e9651cb932fd6b44dd93acc93a6b3ca4243cc9bd37c95b1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419576349
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "08ec0ef8bdab20005fd8fe8fc5c30e10e87948a61e06c7d6027bae1a8acee3aecbbecc06344ef9ad08dfd673661130002b268ae1da34937b188a96b26d8a25918c14f8b8ff5c42b77e9651cb932fd6b44dd93acc93a6b3ca4243cc9bd37c95b1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726419576620
+                    }
+                ]
+            }
+        }
+    }
+}

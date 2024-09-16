@@ -1,0 +1,114 @@
+{
+    "bls.gov": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".bls.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419129602,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760979129.591069,
+                        "expiry": 34560000.59106898,
+                        "value": "GA1.1.668672844.1726419130",
+                        "same_site": "strict",
+                        "timestamp": 1726419129602
+                    }
+                ]
+            },
+            "_ga_CSLL4ZEK4L": {
+                "name": "_ga_CSLL4ZEK4L",
+                "domain": ".bls.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419129602,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760979129.590738,
+                        "expiry": 34560000.59073806,
+                        "value": "GS1.1.1726419129.1.0.1726419129.0.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419129597
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419129835,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741971129.83489,
+                        "expiry": 15552000.834889889,
+                        "value": "YoWozK7Gipk",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419129835
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726419129836,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741971129.834921,
+                        "expiry": 15552000.834920883,
+                        "value": "CgJHQhIEGgAgEA%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419129835
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419129835,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "P0OzeA9NyH8",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419129835
+                    }
+                ]
+            }
+        }
+    }
+}

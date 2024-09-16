@@ -1,0 +1,87 @@
+{
+    "homedepot.ca": {
+        "/": {
+            "akavpau_www": {
+                "name": "akavpau_www",
+                "domain": "homedepot.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726333742963,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726334043~id=8ac0a2ab0b9d63f0bc106987982bd48f",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726333742962
+                    }
+                ]
+            },
+            "checkout": {
+                "name": "checkout",
+                "domain": "homedepot.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726333742962,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726337342.944334,
+                        "expiry": 3600.9443340301514,
+                        "value": "angular",
+                        "same_site": "unspecified",
+                        "timestamp": 1726333742957
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 3600.03635597229,
+                        "value": "angular",
+                        "same_site": "unspecified",
+                        "timestamp": 1726333743037
+                    }
+                ]
+            },
+            "province": {
+                "name": "province",
+                "domain": "homedepot.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726333742956,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "EN",
+                        "same_site": "unspecified",
+                        "timestamp": 1726333742946
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "EN",
+                        "same_site": "unspecified",
+                        "timestamp": 1726333743037
+                    }
+                ]
+            }
+        }
+    }
+}

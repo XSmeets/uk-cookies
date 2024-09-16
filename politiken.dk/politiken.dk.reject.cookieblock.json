@@ -1,0 +1,89 @@
+{
+    "politiken.dk": {
+        "/": {
+            "pol-auth2": {
+                "name": "pol-auth2",
+                "domain": ".politiken.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148680428,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684680.407673,
+                        "expiry": 31536000.407672882,
+                        "value": "AhQH6ylQ1kqbhwqO33truWcwAAAAAGbi8EgAqU_fNdSInVAVrA==",
+                        "same_site": "lax",
+                        "timestamp": 1726148680423
+                    }
+                ]
+            },
+            "pol-auth": {
+                "name": "pol-auth",
+                "domain": ".politiken.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148680420,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684680.40752,
+                        "expiry": 31536000.407520056,
+                        "value": "AhQH6ylQ1kqbhwqO33truWcwAAAAAGbi8EgR-YlJ3hpRHz6i",
+                        "same_site": "lax",
+                        "timestamp": 1726148680408
+                    }
+                ]
+            },
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "politiken.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148680518,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760708680.517983,
+                        "expiry": 34560000.51798296,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148680518
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{stamp:%272BfMbkE0pFja/3k9JZuhwuXdkK3tM4r+y537q9QPGjqkK1PA2TXm/g==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:6%2Cutc:1726148693688%2Ciab2:%27CQE1dYAQE1dYACGABBENBGFgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA%27%2Cgacm:%272~AA==fmR2Lg==AA==%27%2Cregion:%27gb%27}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148693725
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{stamp:%272BfMbkE0pFja/3k9JZuhwuXdkK3tM4r+y537q9QPGjqkK1PA2TXm/g==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:6%2Cutc:1726148693688%2Ciab2:%27CQE1dYAQE1dYACGABBENBGFgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA%27%2Cgacm:%272~AA==fmR2Lg==AA==%27%2Cregion:%27gb%27}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148693728
+                    }
+                ]
+            }
+        }
+    }
+}

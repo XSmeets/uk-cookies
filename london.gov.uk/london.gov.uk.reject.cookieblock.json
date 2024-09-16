@@ -1,0 +1,93 @@
+{
+    "london.gov.uk": {
+        "/": {
+            "CookieControl": {
+                "name": "CookieControl",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233400825,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734013000,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"CONSENT\",\"CookieConsent\",\"crisis_communication_modal\",\"googtrans\",\"test_cookie\",\"what-intent\"],\"optionalCookies\":{\"Marketing\":\"revoked\",\"Statistics\":\"revoked\"},\"statement\":{},\"consentDate\":1726233400816,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"357C96A1-C942-4DC2-947F-2B94CEC49CF8\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726233400817
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233399096,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741785399.094519,
+                        "expiry": 15552000.0945189,
+                        "value": "ViNRXLdZ7FI",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233399096
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726233399100,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741785399.094789,
+                        "expiry": 15552000.094789028,
+                        "value": "CgJHQhIEGgAgYQ%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233399096
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233399095,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "M1b-2T_-D9I",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233399095
+                    }
+                ]
+            }
+        }
+    }
+}

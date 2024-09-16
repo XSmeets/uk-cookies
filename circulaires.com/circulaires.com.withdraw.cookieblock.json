@@ -1,0 +1,73 @@
+{
+    "circulaires.com": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".circulaires.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341436776,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901436.762976,
+                        "expiry": 34560000.76297593,
+                        "value": "GA1.1.525289089.1726341437",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341436775
+                    }
+                ]
+            },
+            "_ga_9YL4V5NVM3": {
+                "name": "_ga_9YL4V5NVM3",
+                "domain": ".circulaires.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341436775,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901436.762559,
+                        "expiry": 34560000.76255894,
+                        "value": "GS1.1.1726341436.1.0.1726341436.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341436769
+                    }
+                ]
+            }
+        }
+    },
+    "circulaires.ca": {
+        "/pub/970x250/885A": {
+            "TESTCOOKIESENABLED": {
+                "name": "TESTCOOKIESENABLED",
+                "domain": "www.circulaires.ca",
+                "path": "/pub/970x250/885A",
+                "current_label": 0,
+                "label_ts": 1726341439493,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726341499,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341439492
+                    }
+                ]
+            }
+        }
+    }
+}

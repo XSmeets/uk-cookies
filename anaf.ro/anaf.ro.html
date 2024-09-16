@@ -1,0 +1,42 @@
+<html><head></head><body>
+<script type="text/javascript">
+var locatie_noua = "";
+var protocol_nou="";
+var context_nou="";
+var jonctiune="";
+if (location.protocol == "http:")
+{
+protocol_nou="http";
+}
+
+if (location.protocol=="https:")
+{
+protocol_nou="https";
+}
+
+if (protocol_nou=="")
+{
+protocol_nou="http";/*implicit este http*/
+jonctiune="anaf";
+}
+
+if (protocol_nou=="http")
+{
+context_nou="internet";
+jonctiune="anaf";
+}
+if (protocol_nou=="https")
+{
+context_nou="internet";
+jonctiune="anaf";
+}
+
+if (context_nou=="")
+{
+context_nou="";/*implicit este neautentificat*/
+}
+
+locatie_noua = "/"+jonctiune +"/" + context_nou + "/ANAF";
+
+window.location = locatie_noua;
+</script></body></html>

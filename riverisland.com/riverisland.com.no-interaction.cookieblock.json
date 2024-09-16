@@ -1,0 +1,191 @@
+{
+    "riverisland.com": {
+        "/": {
+            "_cs_mk_ga": {
+                "name": "_cs_mk_ga",
+                "domain": ".riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813631,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726228613,
+                        "expiry": 1800,
+                        "value": "0.4776009717142795_1726226813629",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226813631
+                    }
+                ]
+            },
+            "_cs_tld1726226813629": {
+                "name": "_cs_tld1726226813629",
+                "domain": ".riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813630,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cs_tld1726226813629",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226813629
+                    }
+                ]
+            },
+            "cookie_consent": {
+                "name": "cookie_consent",
+                "domain": ".riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813415,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734092813,
+                        "expiry": 7866000,
+                        "value": "{\"analytics\":false,\"marketing\":false,\"version\":1.02,\"entry\":true}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813414
+                    }
+                ]
+            },
+            "lang": {
+                "name": "lang",
+                "domain": ".riverisland.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226813413,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "en",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813412
+                    }
+                ]
+            },
+            "intl_country": {
+                "name": "intl_country",
+                "domain": "www.riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813209,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813199
+                    }
+                ]
+            },
+            "intl_currency": {
+                "name": "intl_currency",
+                "domain": "www.riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813211,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757718000.183786,
+                        "expiry": 31491187.183785915,
+                        "value": "GBP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813210
+                    }
+                ]
+            },
+            "tcpl_sessId": {
+                "name": "tcpl_sessId",
+                "domain": "www.riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813213,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e54a8a947d8841178a2265f7a2a49428",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813212
+                    }
+                ]
+            },
+            "tcpl_user": {
+                "name": "tcpl_user",
+                "domain": "www.riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813214,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741778813.186741,
+                        "expiry": 15552000.186741114,
+                        "value": "%7bca8f615c-0eab-4cd6-b7cc-0d3e66a25224%7d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813213
+                    }
+                ]
+            },
+            "tdt": {
+                "name": "tdt",
+                "domain": "www.riverisland.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226813333,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726230413,
+                        "expiry": 3600,
+                        "value": "D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226813332
+                    }
+                ]
+            }
+        }
+    }
+}

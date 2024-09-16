@@ -1,0 +1,437 @@
+{
+    "pepper.pl": {
+        "/": {
+            "browser_push_permission_requested": {
+                "name": "browser_push_permission_requested",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058554875,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760618554.873996,
+                        "expiry": 34560000.87399602,
+                        "value": "1726058554",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058554874
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.03260994,
+                        "value": "1726058555",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058555034
+                    }
+                ]
+            },
+            "cookie_policy_agreement": {
+                "name": "cookie_policy_agreement",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058549884,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757594549.87632,
+                        "expiry": 31536000.876319885,
+                        "value": "3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058549883
+                    }
+                ]
+            },
+            "dont-track": {
+                "name": "dont-track",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058549880,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760618549.876238,
+                        "expiry": 34560000.87623811,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058549878
+                    }
+                ]
+            },
+            "f_c": {
+                "name": "f_c",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058549881,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760618549.876268,
+                        "expiry": 34560000.87626791,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058549880
+                    }
+                ]
+            },
+            "f_v": {
+                "name": "f_v",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058547273,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757594547.254364,
+                        "expiry": 31536000.254364014,
+                        "value": "%224d3ebf90-703b-11ef-b215-0242ac110002%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058547268
+                    }
+                ]
+            },
+            "g_p": {
+                "name": "g_p",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058549883,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760618549.876294,
+                        "expiry": 34560000.8762939,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058549882
+                    }
+                ]
+            },
+            "guest_user_visit": {
+                "name": "guest_user_visit",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726058551732,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726058671.730133,
+                        "expiry": 120.73013305664062,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058551731
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 120.61442708969116,
+                        "value": "2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058554615
+                    }
+                ]
+            },
+            "navi": {
+                "name": "navi",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058547275,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728477747.254463,
+                        "expiry": 2419200.2544629574,
+                        "value": "%5B%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058547275
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2419200.7301950455,
+                        "value": "%7B%22homepage%22%3A%22dlaciebie%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058551732
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2419200.5251460075,
+                        "value": "%7B%22homepage%22%3A%22dlaciebie%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058552526
+                    }
+                ]
+            },
+            "pepper_session": {
+                "name": "pepper_session",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058547267,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726060647.254222,
+                        "expiry": 2100.2542219161987,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058547256
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.644224882126,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058547644
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.76255607605,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058547763
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.876096010208,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058549877
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.730050086975,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058551731
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.525059938431,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058552525
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.614296913147,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058554615
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.8739409446716,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058554874
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2100.0325078964233,
+                        "value": "%22vPRhafZ2Vork2w6cfw8G8LkpuJwa3uUevWqCAo7z%22",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058555033
+                    }
+                ]
+            },
+            "u_l": {
+                "name": "u_l",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058547274,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726059447.254397,
+                        "expiry": 900.2543969154358,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058547273
+                    }
+                ]
+            },
+            "xsrf_t": {
+                "name": "xsrf_t",
+                "domain": "www.pepper.pl",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726058547275,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726184547.254425,
+                        "expiry": 126000.25442504883,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058547274
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.64428591728,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058547645
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.76258707047,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058547763
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.87618589401,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058549878
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.7301568985,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058551732
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.52512598038,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058552525
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.61464691162,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058554616
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.87402105331,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058554875
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 126000.03265404701,
+                        "value": "%22JMoYaJQAE5vO6tYShM1ZmTM2p6StMRzw7tH8HFzI%22",
+                        "same_site": "strict",
+                        "timestamp": 1726058555034
+                    }
+                ]
+            }
+        }
+    }
+}

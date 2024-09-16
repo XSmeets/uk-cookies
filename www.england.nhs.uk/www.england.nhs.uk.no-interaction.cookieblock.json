@@ -1,0 +1,52 @@
+{
+    "england.nhs.uk": {
+        "/": {
+            "CookieControl": {
+                "name": "CookieControl",
+                "domain": ".england.nhs.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232454909,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734012054,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"cookies-never-ask-again\",\"cookies-analytics-cookies-have-been-enabled-by-default\"],\"optionalCookies\":{},\"initialState\":{\"type\":\"closed\"},\"statement\":{},\"consentDate\":1726232454903,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"F1DB12B5-DBCC-4828-8682-50F917EB9ADF\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726232454904
+                    }
+                ]
+            }
+        }
+    },
+    "fonts.net": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".fonts.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232454372,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726234254.370385,
+                        "expiry": 1800.3703849315643,
+                        "value": "u7zCl.2LSEtUdmr3oD_P_kpIjUAAmCBZ5AGlSF4JJPA-1726232454-1.0.1.1-agFonOPD8AG_zMpNPW0_weNhWBfFUgemC0ah2DLoovIacmu5QTzKFHiVxwOglSTcRIu1sW0dLdGniXVrdRe51w",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232454371
+                    }
+                ]
+            }
+        }
+    }
+}

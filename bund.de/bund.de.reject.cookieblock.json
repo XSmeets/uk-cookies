@@ -1,0 +1,47 @@
+{
+    "verwaltung.bund.de": {
+        "/": {
+            "isTrackingConsentGiven": {
+                "name": "isTrackingConsentGiven",
+                "domain": "verwaltung.bund.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726165934262,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726770734.254443,
+                        "expiry": 604800.2544429302,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726165934255
+                    }
+                ]
+            },
+            "sscn-ac44c67534e0d3ac": {
+                "name": "sscn-ac44c67534e0d3ac",
+                "domain": "verwaltung.bund.de",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726165930910,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "a5e66d246791547c871c48067c5bfdb4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726165930900
+                    }
+                ]
+            }
+        }
+    }
+}

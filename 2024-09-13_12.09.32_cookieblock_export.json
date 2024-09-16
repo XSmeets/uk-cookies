@@ -1,0 +1,446 @@
+{
+    "ft.com": {
+        "/": {
+            "FTAllocation": {
+                "name": "FTAllocation",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124202,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757758124.187501,
+                        "expiry": 31536000.187500954,
+                        "value": "9871fdea-1d6b-43be-a51b-f324219d5366",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124190
+                    }
+                ]
+            },
+            "FTClientSessionId": {
+                "name": "FTClientSessionId",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726222124207,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760782124.188976,
+                        "expiry": 34560000.18897605,
+                        "value": "dfb9435f-8b8e-41ce-b733-f66570585b0f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124202
+                    }
+                ]
+            },
+            "FTConsent": {
+                "name": "FTConsent",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222130996,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741860530.993677,
+                        "expiry": 15638400.9936769,
+                        "value": "marketingBypost%3Aoff%2CmarketingByemail%3Aoff%2CmarketingByphonecall%3Aoff%2CmarketingByfax%3Aoff%2CmarketingBysms%3Aoff%2CenhancementBypost%3Aoff%2CenhancementByemail%3Aoff%2CenhancementByphonecall%3Aoff%2CenhancementByfax%3Aoff%2CenhancementBysms%3Aoff%2CbehaviouraladsOnsite%3Aoff%2CdemographicadsOnsite%3Aon%2CrecommendedcontentOnsite%3Aon%2CprogrammaticadsOnsite%3Aon%2CcookiesUseraccept%3Aoff%2CcookiesOnsite%3Aoff%2CmembergetmemberByemail%3Aoff%2CpermutiveadsOnsite%3Aoff%2CpersonalisedmarketingOnsite%3Aon",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222130994
+                    }
+                ]
+            },
+            "FTCookieConsentGDPR": {
+                "name": "FTCookieConsentGDPR",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222130998,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741860530.993856,
+                        "expiry": 15638400.993855953,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222130996
+                    }
+                ]
+            },
+            "_cb": {
+                "name": "_cb",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124365,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760350124,
+                        "expiry": 34128000,
+                        "value": "DQlpKf508wMCukxhC",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124364
+                    }
+                ]
+            },
+            "_cb_svref": {
+                "name": "_cb_svref",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124368,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726223924,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124367
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124369
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124371
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726222124362,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124361
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124363
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124370
+                    }
+                ]
+            },
+            "_chartbeat2": {
+                "name": "_chartbeat2",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726222124367,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760350124,
+                        "expiry": 34128000,
+                        "value": ".1726222124362.1726222124362.1.DH7VpoCkUm9rBdXbpbZCvT_CUXFMo.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124366
+                    }
+                ]
+            },
+            "_chartbeat4": {
+                "name": "_chartbeat4",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222141155,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726222201,
+                        "expiry": 60,
+                        "value": "t=BzZ6B-D6h_mbB8hnw-C5n0g6DTJdVj&E=3&x=0&c=0.28&y=9495&w=890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222141153
+                    }
+                ]
+            },
+            "_chartbeat5": {
+                "name": "_chartbeat5",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222134642,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726222194,
+                        "expiry": 60,
+                        "value": "570|9093|www.ft.com%2F%3Fedition%3Duk|https%3A%2F%2Fwww.ft.com%2Fpreferences%2Fmanage-cookies|BuiCfk8HhDYB7MzDXB_7wo4zWYUN||c|BKKaUZDfi_R9DjFnDB9LT2VobLFd|ft.com|",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222134641
+                    }
+                ]
+            },
+            "consentDate": {
+                "name": "consentDate",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222130829,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758130.826919,
+                        "expiry": 31536000.82691908,
+                        "value": "2024-09-13T10:08:50.775Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222130828
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124716,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758124.715674,
+                        "expiry": 31536000.715673923,
+                        "value": "08d577f4-8b4f-448c-b2f0-ce8b2fdc6092",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222124716
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.826755047,
+                        "value": "08d577f4-8b4f-448c-b2f0-ce8b2fdc6092_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222130827
+                    }
+                ]
+            },
+            "o-typography-fonts-loaded": {
+                "name": "o-typography-fonts-loaded",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124310,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726826924.308704,
+                        "expiry": 604800.3087038994,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124309
+                    }
+                ]
+            },
+            "spoor-id": {
+                "name": "spoor-id",
+                "domain": ".ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124411,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760782124.410291,
+                        "expiry": 34560000.41029096,
+                        "value": "cm10k2zo200003b6o7j85eu6q",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124410
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.41277695,
+                        "value": "cm10k2zo200003b6o7j85eu6q",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124413
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.41317201,
+                        "value": "cm10k2zo200003b6o7j85eu6q",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222124413
+                    }
+                ]
+            },
+            "__exponea_etc__": {
+                "name": "__exponea_etc__",
+                "domain": ".www.ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124734,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741946924,
+                        "expiry": 15724800,
+                        "value": "5d063a11-3ec4-4c74-aff6-ca6ab1c2b74a",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222124733
+                    }
+                ]
+            },
+            "__exponea_time2__": {
+                "name": "__exponea_time2__",
+                "domain": ".www.ft.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726222124818,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741946924,
+                        "expiry": 15724800,
+                        "value": "0.0664682388305664",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222124818
+                    }
+                ]
+            }
+        }
+    },
+    "bloomreach.ft.com": {
+        "/": {
+            "xnpe_d6e5bd4c-9228-11eb-a414-9a67e462410e": {
+                "name": "xnpe_d6e5bd4c-9228-11eb-a414-9a67e462410e",
+                "domain": "bloomreach.ft.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222124732,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741946923.731191,
+                        "expiry": 15724799.73119092,
+                        "value": "5d063a11-3ec4-4c74-aff6-ca6ab1c2b74a",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222124731
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15724798.951724052,
+                        "value": "5d063a11-3ec4-4c74-aff6-ca6ab1c2b74a",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222124952
+                    }
+                ]
+            }
+        }
+    }
+}

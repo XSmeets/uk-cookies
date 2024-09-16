@@ -1,0 +1,154 @@
+{
+    "just.ro": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".just.ro",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726077359314,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637359.303841,
+                        "expiry": 34560000.303841114,
+                        "value": "GA1.1.1598849751.1726077359",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077359313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.200210094,
+                        "value": "GA1.1.1598849751.1726077359",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077409201
+                    }
+                ]
+            },
+            "_ga_PCQGGE8BZE": {
+                "name": "_ga_PCQGGE8BZE",
+                "domain": ".just.ro",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726077359313,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637359.303636,
+                        "expiry": 34560000.303636074,
+                        "value": "GS1.1.1726077359.1.0.1726077359.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077359308
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.792655945,
+                        "value": "GS1.1.1726077359.1.1.1726077408.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077408794
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.20002198,
+                        "value": "GS1.1.1726077359.1.1.1726077409.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077409201
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.25409889,
+                        "value": "GS1.1.1726077359.1.1.1726077409.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077409254
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.57130194,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077429573
+                    }
+                ]
+            },
+            "ct-ultimate-gdpr-cookie": {
+                "name": "ct-ultimate-gdpr-cookie",
+                "domain": "www.just.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077362921,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757613221,
+                        "expiry": 31535859,
+                        "value": "eyJjb25zZW50X2xldmVsIjoiMiIsImNvbnNlbnRfZXhwaXJlX3RpbWUiOiIxNzU3NjEzMjIxIiwiY29uc2VudF90aW1lIjoiMTcyNjA3NzIyMSIsImNvbnNlbnRfZGVjbGluZWQiOmZhbHNlfQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077362919
+                    }
+                ]
+            }
+        }
+    },
+    "google.com": {
+        "/recaptcha": {
+            "_GRECAPTCHA": {
+                "name": "_GRECAPTCHA",
+                "domain": "www.google.com",
+                "path": "/recaptcha",
+                "current_label": 0,
+                "label_ts": 1726077361905,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741629361.904414,
+                        "expiry": 15552000.904413939,
+                        "value": "09AI66gCCz6HEikiWVIOleH6MAN7xwID-4IDImkVV8HyADp8pb-P5C0ZkajuDGuD7FEtbsTnlQVsncg-GQwhAKpRI",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077361905
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.931049109,
+                        "value": "09AI66gCDQjUumfmXTGWPIgLnqlZXledsbL6FxZ3cCY_bljACj2whq_mYUfY2GOqd7SFoPLJ1YfXkTK19DLUFsp0Y",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077410931
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "consent.yahoo.com": {
+        "/": {
+            "CFC": {
+                "name": "CFC",
+                "domain": ".consent.yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396536099,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757975703.089249,
+                        "expiry": 31579167.089248896,
+                        "value": "AQABCAFm6ABnE0MkIgT-&s=AQAAAMm3Avro&g=Zua4hA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396536090
+                    }
+                ]
+            }
+        }
+    },
+    "yahoo.com": {
+        "/": {
+            "A1": {
+                "name": "A1",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396536155,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757932536.151058,
+                        "expiry": 31536000.15105796,
+                        "value": "d=AQABBHq45mYCEFdizypCNZOl2uq-yqVBj0AFEgABCAEG6GYXZ_bPb2UBAiAAAAcIbbjmZv0of6s&S=AQAAAguq1C39fVublrqH-FelGGw",
+                        "same_site": "lax",
+                        "timestamp": 1726396536154
+                    }
+                ]
+            },
+            "A1S": {
+                "name": "A1S",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396536154,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "d=AQABBHq45mYCEFdizypCNZOl2uq-yqVBj0AFEgABCAEG6GYXZ_bPb2UBAiAAAAcIbbjmZv0of6s&S=AQAAAguq1C39fVublrqH-FelGGw",
+                        "same_site": "lax",
+                        "timestamp": 1726396536152
+                    }
+                ]
+            },
+            "A3": {
+                "name": "A3",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396536365,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757954136.362314,
+                        "expiry": 31557600.362313986,
+                        "value": "d=AQABBHq45mYCEFdizypCNZOl2uq-yqVBj0AFEgABCAEG6GYXZ_bPb2UBAiAAAAcIbbjmZv0of6s&S=AQAAAguq1C39fVublrqH-FelGGw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396536363
+                    }
+                ]
+            },
+            "EuConsent": {
+                "name": "EuConsent",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396536152,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726482936.150971,
+                        "expiry": 86400.15097093582,
+                        "value": "CQE_WMAQE_WMAAOACMENBGFgAAAAAAAAACiQAAAAAAAA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396536151
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "CQE_WMAQE_WMAAOACMENBGFgAAAAAAAAACiQAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396536845
+                    }
+                ]
+            },
+            "GUC": {
+                "name": "GUC",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396536158,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757975703.151075,
+                        "expiry": 31579167.151074886,
+                        "value": "AQABCAFm6AZnF0IkIgT-&s=AQAAAELP-TgG&g=Zua4hA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396536156
+                    }
+                ]
+            },
+            "GUCS": {
+                "name": "GUCS",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396522699,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726398322.686672,
+                        "expiry": 1800.6866719722748,
+                        "value": "AWChc9H_",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396522689
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726396536743,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760956536.741549,
+                        "expiry": 34560000.741549015,
+                        "value": "GA1.1.960819269.1726396537",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396536743
+                    }
+                ]
+            },
+            "_ga_B40QGCQW3G": {
+                "name": "_ga_B40QGCQW3G",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726396536741,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760956536.740761,
+                        "expiry": 34560000.74076104,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396536741
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.741014004,
+                        "value": "GS1.1.1726396536.1.0.1726396536.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396536742
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.01895189,
+                        "value": "GS1.1.1726396536.1.0.1726396540.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726396540019
+                    }
+                ]
+            },
+            "cmp": {
+                "name": "cmp",
+                "domain": ".yahoo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726396536845,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757932536,
+                        "expiry": 31536000,
+                        "value": "t=1726396537&j=1&u=1---&v=42",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726396536843
+                    }
+                ]
+            }
+        }
+    }
+}

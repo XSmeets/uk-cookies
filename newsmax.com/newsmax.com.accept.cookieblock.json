@@ -1,0 +1,2483 @@
+{
+    "ad.gt": {
+        "/": {
+            "au_3p_check": {
+                "name": "au_3p_check",
+                "domain": ".ad.gt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351202,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351202
+                    }
+                ]
+            },
+            "au_id": {
+                "name": "au_id",
+                "domain": ".ad.gt",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355545,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.54437,
+                        "expiry": 31536000.544369936,
+                        "value": "AU1D-0100-001726399355-7C9T9ELA-9USR",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355544
+                    }
+                ]
+            }
+        }
+    },
+    "adnxs.com": {
+        "/": {
+            "XANDR_PANID": {
+                "name": "XANDR_PANID",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355070,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734175355.068991,
+                        "expiry": 7776000.068990946,
+                        "value": "2B_zN874Gr3f83eTCR2SR76PZ8BcHzvlOLZabXE-6RfofF5YD5mlhpCY8pbbDfCp5HlHxF1xdnRuI8kY0Q74m2XPrR-Hapffl3hGzCwv_m4.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355069
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.115309954,
+                        "value": "2B_zN874Gr3f83eTCR2SR76PZ8BcHzvlOLZabXE-6RfofF5YD5mlhpCY8pbbDfCp5HlHxF1xdnRuI8kY0Q74m2XPrR-Hapffl3hGzCwv_m4.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355115
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355071,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760959355.069032,
+                        "expiry": 34560000.069031954,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355070
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.11534405,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355115
+                    }
+                ]
+            },
+            "uuid2": {
+                "name": "uuid2",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355071,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734175355.069068,
+                        "expiry": 7776000.069067955,
+                        "value": "3363235806203701261",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355071
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.115361929,
+                        "value": "3363235806203701261",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355116
+                    }
+                ]
+            }
+        }
+    },
+    "adsrvr.org": {
+        "/": {
+            "TDCPM": {
+                "name": "TDCPM",
+                "domain": ".adsrvr.org",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355134,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.130773,
+                        "expiry": 31536000.130773067,
+                        "value": "CAEYBSgCMgsIrLzE3u3gqj0QBTgB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355134
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.2867651,
+                        "value": "CAEYBSABKAIyCwisvMTe7eCqPRAFOAE.",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355287
+                    }
+                ]
+            },
+            "TDID": {
+                "name": "TDID",
+                "domain": ".adsrvr.org",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355134,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.130712,
+                        "expiry": 31536000.130712032,
+                        "value": "73e4f0f5-04f0-4dae-bc09-26beb829f7be",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355134
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.28672695,
+                        "value": "73e4f0f5-04f0-4dae-bc09-26beb829f7be",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355287
+                    }
+                ]
+            }
+        }
+    },
+    "bing.com": {
+        "/": {
+            "MSPTC": {
+                "name": "MSPTC",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399354976,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095355.97503,
+                        "expiry": 33696001.975029945,
+                        "value": "Ij3N02nQDFo8qcfp5dF4P0Sc_iR5qcRSVjK0sYM9d7U",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399354975
+                    }
+                ]
+            },
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399351690,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095351.688952,
+                        "expiry": 33696000.68895197,
+                        "value": "23E7076042D6673D3CA7139B43E766F3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351689
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696001.11577201,
+                        "value": "23E7076042D6673D3CA7139B43E766F3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352116
+                    }
+                ]
+            }
+        }
+    },
+    "c.bing.com": {
+        "/": {
+            "MR": {
+                "name": "MR",
+                "domain": ".c.bing.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399352116,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727004153.115819,
+                        "expiry": 604801.1158189774,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352116
+                    }
+                ]
+            },
+            "SRM_B": {
+                "name": "SRM_B",
+                "domain": ".c.bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399352117,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095353.115836,
+                        "expiry": 33696001.115835905,
+                        "value": "23E7076042D6673D3CA7139B43E766F3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352117
+                    }
+                ]
+            }
+        }
+    },
+    "c.clarity.ms": {
+        "/": {
+            "ANONCHK": {
+                "name": "ANONCHK",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399352144,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726399952.14357,
+                        "expiry": 600.1435699462891,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352144
+                    }
+                ]
+            },
+            "MR": {
+                "name": "MR",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399352144,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727004152.143554,
+                        "expiry": 604800.1435539722,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352144
+                    }
+                ]
+            },
+            "SM": {
+                "name": "SM",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399351934,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "T",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351933
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352143
+                    }
+                ]
+            }
+        }
+    },
+    "clarity.ms": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399351934,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095352.931795,
+                        "expiry": 33696001.93179488,
+                        "value": "028EAD68FDD26C1A17A0B993F9D26244",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351934
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.143527985,
+                        "value": "23E7076042D6673D3CA7139B43E766F3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399352144
+                    }
+                ]
+            },
+            "CLID": {
+                "name": "CLID",
+                "domain": "www.clarity.ms",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399351832,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935351.831771,
+                        "expiry": 31536000.831770897,
+                        "value": "63644cf543f742159ee894c3ce70d0a2.20240915.20250915",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351832
+                    }
+                ]
+            }
+        }
+    },
+    "company-target.com": {
+        "/": {
+            "tuuid": {
+                "name": "tuuid",
+                "domain": ".company-target.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356275,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760959356.274171,
+                        "expiry": 34560000.274171114,
+                        "value": "12bc5182-1364-427e-a7fe-8dbf2832943d",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356274
+                    }
+                ]
+            },
+            "tuuid_lu": {
+                "name": "tuuid_lu",
+                "domain": ".company-target.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356276,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760959356.27421,
+                        "expiry": 34560000.274209976,
+                        "value": "1726399356",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356275
+                    }
+                ]
+            }
+        }
+    },
+    "criteo.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355666,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095354.663377,
+                        "expiry": 33695999.66337705,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355665
+                    }
+                ]
+            },
+            "uid": {
+                "name": "uid",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355665,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095354.663333,
+                        "expiry": 33695999.66333294,
+                        "value": "630761b7-d9b0-41c2-830f-fb5fcb9cd5ec",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355664
+                    }
+                ]
+            }
+        }
+    },
+    "crwdcntrl.net": {
+        "/": {
+            "_cc_dc": {
+                "name": "_cc_dc",
+                "domain": ".crwdcntrl.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355118,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1749726360.115795,
+                        "expiry": 23327005.115794897,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355117
+                    }
+                ]
+            },
+            "_cc_id": {
+                "name": "_cc_id",
+                "domain": ".crwdcntrl.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355118,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1749726360.115831,
+                        "expiry": 23327005.1158309,
+                        "value": "1465b61ca7314cc591f877bff2630543",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355118
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 23327005.147059917,
+                        "value": "1465b61ca7314cc591f877bff2630543",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355147
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355134,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760095355.127591,
+                        "expiry": 33696000.127590895,
+                        "value": "AHWqTUlLd-lz_HU7TUlXNox5z06FwMRoEN5UTNBjYTLamYlglYkN0rJCvIfCaMbZVcQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355133
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355027,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726400255.025671,
+                        "expiry": 900.025671005249,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355026
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.0286610126495,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355029
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.1228659152985,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355131
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.1255149841309,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355133
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.2185139656067,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355218
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.5166609287262,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355517
+                    }
+                ]
+            }
+        }
+    },
+    "exelator.com": {
+        "/": {
+            "EE": {
+                "name": "EE",
+                "domain": ".exelator.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356260,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1736767356.258986,
+                        "expiry": 10368000.258985996,
+                        "value": "\"17c48dc4903d5df1412419400c051680\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356259
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10368000.304163933,
+                        "value": "\"17c48dc4903d5df1412419400c051680\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356304
+                    }
+                ]
+            },
+            "ud": {
+                "name": "ud",
+                "domain": ".exelator.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356261,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1736767356.259044,
+                        "expiry": 10368000.259043932,
+                        "value": "\"eJxrXxzq6XKLQcHQPNnEIiXZxNLAOMU0Jc3QxNDIxNDSxMAg2cDU0MzCYHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVywAswJcw1asCS%252FKDN9kbvT4qKUNMZFJcWngk%252F82gYAAm4nEQ%253D%253D\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356260
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10368000.304198027,
+                        "value": "\"eJxrXxzq6XKLQcHQPNnEIiXZxNLAOMU0Jc3QxNDIxNDSxMAg2cDU0MzCYHFZatGCpaXFqSlJh5ZU5JTkNK0uiw91jHdz9PX0iVzmnFGUn5u6AiwU5hq02NDIYkl%252BUWb6InenxUUpaQyLSopPBZ%252F4tQ0AUzYqEg%253D%253D\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356304
+                    }
+                ]
+            }
+        }
+    },
+    "eyeota.net": {
+        "/": {
+            "SERVERID": {
+                "name": "SERVERID",
+                "domain": ".eyeota.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356245,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726399956.243665,
+                        "expiry": 600.2436649799347,
+                        "value": "24175~DM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356245
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 600.3045020103455,
+                        "value": "24175~DM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356305
+                    }
+                ]
+            },
+            "mako_uid": {
+                "name": "mako_uid",
+                "domain": ".eyeota.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356244,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935356.243619,
+                        "expiry": 31536000.243618965,
+                        "value": "191f56b9da1-28ec0000010f5e6f",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356244
+                    }
+                ]
+            }
+        }
+    },
+    "ml314.com": {
+        "/": {
+            "pi": {
+                "name": "pi",
+                "domain": ".ml314.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399356209,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935356.208505,
+                        "expiry": 31536000.208504915,
+                        "value": "3647026638983528512",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356209
+                    }
+                ]
+            }
+        }
+    },
+    "newsmax.com": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399348886,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726402948.87185,
+                        "expiry": 3600.871850013733,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399348885
+                    }
+                ]
+            },
+            "__eoi": {
+                "name": "__eoi",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355538,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741951355,
+                        "expiry": 15552000,
+                        "value": "ID=f8919ae0f41dc362:T=1726399355:RT=1726399355:S=AA-Afja9OLp3fwjP9rrPcdsIS1z4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355537
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=f8919ae0f41dc362:T=1726399355:RT=1726399355:S=AA-Afja9OLp3fwjP9rrPcdsIS1z4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355547
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=f8919ae0f41dc362:T=1726399355:RT=1726399355:S=AA-Afja9OLp3fwjP9rrPcdsIS1z4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355551
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=f8919ae0f41dc362:T=1726399355:RT=1726399355:S=AA-Afja9OLp3fwjP9rrPcdsIS1z4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355555
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=f8919ae0f41dc362:T=1726399355:RT=1726399355:S=AA-Afja9OLp3fwjP9rrPcdsIS1z4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355556
+                    }
+                ]
+            },
+            "__qca": {
+                "name": "__qca",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355379,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760268155,
+                        "expiry": 33868800,
+                        "value": "P0-1230208302-1726399350817",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355379
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33868800,
+                        "value": "P0-1230208302-1726399350817",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355385
+                    }
+                ]
+            },
+            "_au_1d": {
+                "name": "_au_1d",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399354938,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935354.937214,
+                        "expiry": 31536000.937213898,
+                        "value": "AU1D-0100-001726399355-7C9T9ELA-9USR",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399354937
+                    }
+                ]
+            },
+            "_au_last_seen_iab_tcf": {
+                "name": "_au_last_seen_iab_tcf",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355072,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757935355.070304,
+                        "expiry": 31536000.070303917,
+                        "value": "1726399355070",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355072
+                    }
+                ]
+            },
+            "_cc_id": {
+                "name": "_cc_id",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399355237,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1749727355,
+                        "expiry": 23328000,
+                        "value": "1465b61ca7314cc591f877bff2630543",
+                        "same_site": "lax",
+                        "timestamp": 1726399355236
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 23328000,
+                        "value": "1465b61ca7314cc591f877bff2630543",
+                        "same_site": "lax",
+                        "timestamp": 1726399355281
+                    }
+                ]
+            },
+            "_ce.cch": {
+                "name": "_ce.cch",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399351798,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726399351797
+                    }
+                ]
+            },
+            "_ce.clock_data": {
+                "name": "_ce.clock_data",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351998,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485751,
+                        "expiry": 86400,
+                        "value": "-47%2C212.102.63.46%2C1%2Cfe0673f2a48d047b912b27e2a0c02f9f%2CChrome%2CGB",
+                        "same_site": "strict",
+                        "timestamp": 1726399351997
+                    }
+                ]
+            },
+            "_ce.clock_event": {
+                "name": "_ce.clock_event",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399351804,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485751,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726399351803
+                    }
+                ]
+            },
+            "_ce.irv": {
+                "name": "_ce.irv",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351802,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "new",
+                        "same_site": "strict",
+                        "timestamp": 1726399351801
+                    }
+                ]
+            },
+            "_ce.s": {
+                "name": "_ce.s",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351799,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356331~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356345~lcw~1726399356345",
+                        "same_site": "strict",
+                        "timestamp": 1726399356345
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356345~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356358~lcw~1726399356358",
+                        "same_site": "strict",
+                        "timestamp": 1726399356359
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356358~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356371~lcw~1726399356371",
+                        "same_site": "strict",
+                        "timestamp": 1726399356372
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356371~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356385~lcw~1726399356385",
+                        "same_site": "strict",
+                        "timestamp": 1726399356386
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356385~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356530~lcw~1726399356530",
+                        "same_site": "strict",
+                        "timestamp": 1726399356531
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356530~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356543~lcw~1726399356543",
+                        "same_site": "strict",
+                        "timestamp": 1726399356544
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356543~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356558~lcw~1726399356558",
+                        "same_site": "strict",
+                        "timestamp": 1726399356558
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356558~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356564~lcw~1726399356564",
+                        "same_site": "strict",
+                        "timestamp": 1726399356566
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399356564~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399356564~v11.send~1726399358033~lcw~1726399358033",
+                        "same_site": "strict",
+                        "timestamp": 1726399358035
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v~663fad6154f1f58d446749ed1eef071e3f7f22e1~lcw~1726399358033~lva~1726399351798~vpv~0~v11.fhb~1726399352000~v11.lhb~1726399352000~v11.cs~163581~v11.s~ccab4c00-7354-11ef-8bfc-87e8f511def5~v11.sla~1726399358061~v11.send~1726399358033~lcw~1726399358061",
+                        "same_site": "strict",
+                        "timestamp": 1726399358063
+                    }
+                ]
+            },
+            "_clck": {
+                "name": "_clck",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399351865,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757935351,
+                        "expiry": 31536000,
+                        "value": "15e1pmv%7C2%7Cfp7%7C0%7C1719",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351865
+                    }
+                ]
+            },
+            "_clsk": {
+                "name": "_clsk",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399352278,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485752,
+                        "expiry": 86400,
+                        "value": "v2sbek%7C1726399352276%7C1%7C0%7Cz.clarity.ms%2Fcollect",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399352277
+                    }
+                ]
+            },
+            "_dlt": {
+                "name": "_dlt",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399350818,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485750,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399350817
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399356011,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734175356,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726399356010.740097605564405307",
+                        "same_site": "lax",
+                        "timestamp": 1726399356010
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399351628,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959351.625126,
+                        "expiry": 34560000.625125885,
+                        "value": "GA1.1.851405868.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351628
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.04040694,
+                        "value": "GA1.2.851405868.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399352040
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.950259924,
+                        "value": "GA1.2.851405868.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399354950
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.06600404,
+                        "value": "GA1.2.851405868.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355066
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.05859089,
+                        "value": "GA1.1.851405868.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399358060
+                    }
+                ]
+            },
+            "_ga_2FX1NRF0GB": {
+                "name": "_ga_2FX1NRF0GB",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399351627,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959351.624635,
+                        "expiry": 34560000.62463498,
+                        "value": "GS1.1.1726399351.1.0.1726399351.0.0.1574235887",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351627
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.00765705,
+                        "value": "GS1.1.1726399351.1.0.1726399355.60.0.1574235887",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355008
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.04994798,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399358050
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.05031896,
+                        "value": "GS1.1.1726399351.1.0.1726399358.57.0.1574235887",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399358051
+                    }
+                ]
+            },
+            "_ga_FVWZ0RM4DH": {
+                "name": "_ga_FVWZ0RM4DH",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399358059,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760959358.057603,
+                        "expiry": 34560000.05760288,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399358058
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.05790806,
+                        "value": "GS1.1.1726399358.1.0.1726399358.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399358059
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399354940,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734175354,
+                        "expiry": 7776000,
+                        "value": "1.1.1280062356.1726399355",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399354940
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776001,
+                        "value": "1.1.1280062356.1726399355",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399354941
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399352041,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485752,
+                        "expiry": 86400,
+                        "value": "GA1.2.1321739081.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399352041
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.1321739081.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399354951
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.1321739081.1726399352",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355066
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399351663,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726485751,
+                        "expiry": 86400,
+                        "value": "cc77a180735411ef9ab963c6b1ad1b45",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351662
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399351663,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760095351,
+                        "expiry": 33696000,
+                        "value": "cc77bd30735411ef97aef324bad62d74",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351663
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399348888,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726406548.871923,
+                        "expiry": 7200.871922969818,
+                        "value": "9E1C1AD2D953E270E239AA568715152B~000000000000000000000000000000~YAAQYx4SAvXRH+KRAQAA2oBr9RmZcFhaSkZbTpLKEHazoQYPbopfjir7XhSlG8lI8ummLljjN9j1HeKGb+owrygXZzRIK7OQBPBYUEh0tAhQDb+yG/F4SqqLiYxbb/r6015x5i1QKzidGHdioZR5TWw0Pc7b25SCTvJVSOqWfuWqOmliRQYk0mMK3/rxLMb7dKbDUKNMtrF5aVObDmCOcCPiuV0wIXL6NBuzE5kG7CFwK3f/fKHGTEUUDw0pobijTD2KByUck/uKR382/cxT8Mj2FfpDbOC98synuavfwgoPbNjJzhelkCWj34Z6QjorHOsb4qLhQZOqJAxrQMVBgHxFXJJNUO2ZufQlYdzY1thhTnWGjgz2wb5MMNhs0cgog3G7WYTTEDn/acM=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399348886
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.107445001602,
+                        "value": "D18AC4C303C598A09CE327DEA7495231~000000000000000000000000000000~YAAQYx4SAvnRH+KRAQAArIFr9RlUHLJqJM6RGyEDZgsurIiNPUQ1bJS7XQ0P/PfVXA4lIfc2etK1Yo3Zs7iE0UJeBJJ+SXugZ6+GGU7VnBrxSMpzgKxDTDqP5Gxoqupt3NS/6C9frzRcHkanFNfA1KHTD1LExs4F8lUCHfIT3XZIjr/Quy0bCw1mdlNpfWTvgDcS8tHjQBx8gfXWHJSbZujc4KAgUl2DH5QjBaHW3t/UYwgdWrmxqcq/eOan6pt9O5KnoKaLS80P/YJsKBPueZXFr19QaiwhGPTRr1Sy6t3bYQnXV/N1EsEbVGhuGsk2XoBL0t77hAtuMva19dIG5GoCl+8rZ5lA2ckZVvSN2wYwf3g9GDVsfnyNayXatDp4Z7UCTK2d1z1RcfLtvjcFU876m4Wy5HQIWGtOB836jIktgH7tta0E",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399349108
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7198.013506889343,
+                        "value": "D18AC4C303C598A09CE327DEA7495231~000000000000000000000000000000~YAAQYx4SAinSH+KRAQAAUYVr9RmGegKuDxL/e1RoLMqFflO+8Q2WQDwCkqZEMhJRtvHfl6HFPCRf1c0trnW9L0g4gtxkcfjE69f/cqKcfKTYposqOVOT5MAKZFefEckKDywsw3t1UyBIRjP5Fm+N0VhpPV5Ph//xhmOJWFClkXOttydQw1hwZeH9Ut8BtUAaOSHGzbl/V8F8axhobMBcAXXaLY476XdDYymu8CFmJ7/WypUhLI4OxjsAqhp/mp+EoJUil39Cwg8dz5PUkgk4Xc/oW7eHMEKQ1/P/dP5ditR+HdT3dZDK5bKLrhV4NIbeeBs6UN3w6kqH9SrI0drCx+/u2zc0fPVv/qVxfWq7d0Fgqd6zT/GlhBywKJt+bF/2oVJDRTLTiX62I4q6+J9UAC7+UFP4IEqw5hg3st7oC2jx29o9eEXqJAtP3MrTWzVtyAA=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399350014
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7198.2246561050415,
+                        "value": "74DAF2E7B027969AD9129146789BDE5A~000000000000000000000000000000~YAAQYx4SAi3SH+KRAQAAJIZr9RnUbwFuT42K6a5k6VvZ+W4y2ZmAvAEQx4AtjRbkq9+W8Hpno/G7kJvCRb4naAb1PK2cqwhRs5x5pIeG3L5ZHydLLCBBv8jthHXo2RovndUMcJUQivIexBKWAbmaDCQAKdXqlNE80ik93OBxMd6nP/9WueUEsaTOSFbMz6C6K9mO6mp6sDzpgBS0vkJwxj8C1L1BgVe310G/3af+rz54k3xdrY8UbmW3hgmHnbT2B9ui0Qih+jj/83I7irQ2KWjPhfFdVHeQPXq6amZiCn/hl/03s1FoXnO/iB7UxtlpyWfTUCxOCaEeVUvw5fD6CXNdR/b1aZAoLHdKES0/AKyBh3l51IfIkpC8tu8aE/XpTReY4dN6cjnipIRs/CBp/bzzLiHQm5oWw4rOoI/JE7ikGN4LCxCz",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399350225
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7198.781030893326,
+                        "value": "74DAF2E7B027969AD9129146789BDE5A~000000000000000000000000000000~YAAQYx4SAk7SH+KRAQAAUYhr9Rm0Fqi5Mda+o2OgqMSLNk09uWCmqP8klNf6Chc05yP3WQ99wTtQpvTpoVB+vla2I/sWnu1iEqhjkiwwWTnuo3g/miQkVee5+yaqpkLwIF71qzReOT36Op4HbtAH22vzOKBwf/8z8DVChfvEUS504yVfRylJ04SCkbrUxsdB8P0/uJ5v6xmwrgMDgWEHSRaT2X0ChmuxY5OpdpSkIc7T5JUPj1GQrRZTavcbK4tujjhnUcwVgl/kWKOnA7tLFITDVKM7Fp5BECwKAlHYyxuZW7Um9sNwITEz9purccw13aVvMUr8gYfehjN0LmAnxluCoMLAmCmjbMe90Wt8q00vBSuJMcke6qfTNbR7MVW63NzMvgaYcFdAUiQlrrGnjnD+FOi1WdvgIdQSsbVbk7QwTe7NH0I2co0f1RNuXJ8dJsCjBaBX1dC2KkrRY7c=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399350781
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351359,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726406551.357056,
+                        "expiry": 7200.357055902481,
+                        "value": "4F8A521B21C37268BD1A193CC8F5D715~YAAQYx4SAlrSH+KRAQAAkIpr9RmrXD7XNkRZIreYh0hYd/9noPl0tZ0Z83PspQd9wPJ1nDBKz5KyVY/+AM7WDLIL6uYkMD86+SHmF261SkEDkPBWAnXuvF2ROSI3+WDOr1meITzwg6m0K9/M45ltB1kPkNs83qARkyc14eyrhfc4cZ1N1fNIw5ltFWHEpLc321aT3IPRaof4ELijs/gaaTFrA2TDdmrFjfRuC5umCbRFS9KVYMNlEB2G5gU0QssI9Q==~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351357
+                    }
+                ]
+            },
+            "cebs": {
+                "name": "cebs",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399351802,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726399351802
+                    }
+                ]
+            },
+            "cebsp_": {
+                "name": "cebsp_",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726399352000,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726399351999
+                    }
+                ]
+            },
+            "cto_bundle": {
+                "name": "cto_bundle",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355694,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760095355,
+                        "expiry": 33696000,
+                        "value": "t4o4TV8lMkZKT2hna2VvZjd6ZTVOZHg4VmQlMkZ0SlglMkJoRVRtVEVWT3hOZ3JTNXFRYXdIcGRsUHNvR3ZJdWl0bU9YODdMQVNiRVJDcG9HeERDVmZHbU1RJTJGJTJCVHV6dUgzMTNNdmxUSER5UjFmYkJzaFFMWW03dlBZNHVjYjhqSVA5TTY3RUg5c0tVYU8lMkJCSkRZQXclMkZJS2lLa1VEWTR3ZyUzRCUzRA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355693
+                    }
+                ]
+            },
+            "cto_pub_test_tld": {
+                "name": "cto_pub_test_tld",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355573,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726402955,
+                        "expiry": 3600,
+                        "value": "test",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355573
+                    }
+                ]
+            },
+            "cto_writeable": {
+                "name": "cto_writeable",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355572,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726402955,
+                        "expiry": 3600,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355572
+                    }
+                ]
+            },
+            "fpestid": {
+                "name": "fpestid",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355285,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.283356,
+                        "expiry": 31536000.28335595,
+                        "value": "XE6Fs_yaGj5T531KgcIeT6hlCtO-TZV5A-8HzMsxTOuAAzmqNFFYk05JL79Yi00883vwCg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355284
+                    }
+                ]
+            },
+            "lotame_domain_check": {
+                "name": "lotame_domain_check",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355235,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726399365,
+                        "expiry": 10,
+                        "value": "newsmax.com",
+                        "same_site": "lax",
+                        "timestamp": 1726399355235
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 10,
+                        "value": "newsmax.com",
+                        "same_site": "lax",
+                        "timestamp": 1726399355281
+                    }
+                ]
+            },
+            "panoramaId": {
+                "name": "panoramaId",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355238,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727004155,
+                        "expiry": 604800,
+                        "value": "d97516812c7b3b4aac4789e462d5185ca02c1ecad81a411cf1e9465ce112cfad",
+                        "same_site": "lax",
+                        "timestamp": 1726399355238
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "d97516812c7b3b4aac4789e462d5185ca02c1ecad81a411cf1e9465ce112cfad",
+                        "same_site": "lax",
+                        "timestamp": 1726399355281
+                    }
+                ]
+            },
+            "panoramaIdType": {
+                "name": "panoramaIdType",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355239,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727004155,
+                        "expiry": 604800,
+                        "value": "panoDevice",
+                        "same_site": "lax",
+                        "timestamp": 1726399355238
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "panoDevice",
+                        "same_site": "lax",
+                        "timestamp": 1726399355282
+                    }
+                ]
+            },
+            "panoramaId_expiry": {
+                "name": "panoramaId_expiry",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355238,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727004155,
+                        "expiry": 604800,
+                        "value": "1727004155183",
+                        "same_site": "lax",
+                        "timestamp": 1726399355237
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "1727004155215",
+                        "same_site": "lax",
+                        "timestamp": 1726399355281
+                    }
+                ]
+            },
+            "ppid": {
+                "name": "ppid",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399351480,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728991351,
+                        "expiry": 2592000,
+                        "value": "c7c93d47-1674-47d4-940b-88203077c917",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351479
+                    }
+                ]
+            },
+            "view_cnt": {
+                "name": "view_cnt",
+                "domain": ".newsmax.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399351479,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728991351,
+                        "expiry": 2592000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351478
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351932,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727004151,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.newsmax.com&si=cc610b07-de45-44fc-803c-6346ca9cbcff&ss=m13hlii5&sl=0&tt=0&bcn=%2F%2F684dd32a.akstat.io%2F\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399351931
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.newsmax.com&si=cc610b07-de45-44fc-803c-6346ca9cbcff&ss=m13hlii5&sl=1&tt=1d0&bcn=%2F%2F684dd32a.akstat.io%2F&ld=2w2\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399351952
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.newsmax.com&si=cc610b07-de45-44fc-803c-6346ca9cbcff&ss=m13hlii5&sl=1&tt=1d0&bcn=%2F%2F684dd32a.akstat.io%2F&ld=2w2&hd=7l2\"",
+                        "same_site": "lax",
+                        "timestamp": 1726399358038
+                    }
+                ]
+            },
+            "LB_Nmx": {
+                "name": "LB_Nmx",
+                "domain": "newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399348788,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1930406080.47873.0000",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399348777
+                    }
+                ]
+            },
+            "Akamai_ABTesting": {
+                "name": "Akamai_ABTesting",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399348885,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "B",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399348885
+                    }
+                ]
+            },
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399348984,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760959348.98376,
+                        "expiry": 34560000.98376012,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399348984
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{stamp:%27r7yjpNRz/ay8AZDznbh7/SbMQXzv5TrRXW3UlmFAQkayHWCpqXlFwQ==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1726399355062%2Ciab2:%27CQE_WMAQE_WMACGABBENBGFsAP_gAEPgAAAAKaNV_G__bWlr8X73aftkeY1P9_h77sQxBhfJE-4FzLvW_JwXx2ExNA36tqIKmRIAu3bBIQNlGJDUTVCgaogVryDMak2coTNKJ6BkiFMRO2dYCF5vm4tj-QKY5vr991dx2B-t7dr83dzyz4VHn3a5_2a0WJCdA5-tDfv9bROb-9IOd_x8v4v8_F_rE2_eT1l_tevp7D9-cts7_XW-9_fff_9Ln_-uB_-_wUyAJMNCogDLAkJCDQMIIEAKgrCAigQAAAAkDRAQAmDAp2BgEusJEAIAUAAwQAgABRkACAAACABCIAIACgQAAQCBQABgAQDAQAEDAACACwEAgABAdAxTAggUCwASMyIhTAhCASCAlsqEEgCBBXCEIs8AiAREwUAAAAABWAAICwWBxJICVCQQJcQbQAAEACAQQAVCCTkwABAGbLUHgybRlaYBo-YJENMAyAAA.YAAAAAAAAAA%27%2Cgacm:%272~AAAAAAAAAAACAABAAAgAIAAABAAAAAAACAAAAAAAAAAQAAAAAAABABAAAAAAAAAAAAAAAQAAAAAAAAAAAgMAAAAAAAgAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAQAAAAAAFAAAAAAAAAAAAAAAAABAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAABAQAAAEAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAACAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAkQAAAAAAAAAAAAAAAAQ=fmR2Lg==AA==%27%2Cregion:%27gb%27}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399355016
+                    }
+                ]
+            },
+            "NMSeg": {
+                "name": "NMSeg",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351493,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "PR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399351492
+                    }
+                ]
+            },
+            "__sharethis_cookie_test__": {
+                "name": "__sharethis_cookie_test__",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399350117,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399350116
+                    }
+                ]
+            },
+            "_ew_clientISP": {
+                "name": "_ew_clientISP",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399348883,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726402948.871284,
+                        "expiry": 3600.871284008026,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399348872
+                    }
+                ]
+            },
+            "_pbjs_userid_consent_data": {
+                "name": "_pbjs_userid_consent_data",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351315,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728991351,
+                        "expiry": 2592000,
+                        "value": "6683316680106290",
+                        "same_site": "lax",
+                        "timestamp": 1726399351314
+                    }
+                ]
+            },
+            "dicbo_id": {
+                "name": "dicbo_id",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399352011,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726399652,
+                        "expiry": 300,
+                        "value": "%7B%22dicbo_fetch%22%3A1726399352010%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399352010
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 300,
+                        "value": "%7B%22dicbo_fetch%22%3A1726399352329%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399352330
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 300,
+                        "value": "%7B%22dicbo_fetch%22%3A1726399354951%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399354951
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 300,
+                        "value": "%7B%22dicbo_fetch%22%3A1726399354952%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726399354952
+                    }
+                ]
+            },
+            "st_samesite": {
+                "name": "st_samesite",
+                "domain": "www.newsmax.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726399355284,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355284
+                    }
+                ]
+            }
+        }
+    },
+    "nr-data.net": {
+        "/": {
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": ".nr-data.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351831,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "60a9241f363cf94e",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351830
+                    }
+                ]
+            }
+        }
+    },
+    "onesignal.com": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".onesignal.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399351557,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726401151.556481,
+                        "expiry": 1800.556480884552,
+                        "value": "J2y6wxZeLu46fiNFLg2kiBdx3AjI8uaT4IZsTsaaVPg-1726399351-1.0.1.1-IYAKB04Q12Z_JUvvtgeNAHfr9lhgTPqMTvWak_.sdvBG.FpWuI8QqJXxix27iaGF.fxpVYF1c7e74V3OYAK1_A",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399351557
+                    }
+                ]
+            }
+        }
+    },
+    "openx.net": {
+        "/": {
+            "i": {
+                "name": "i",
+                "domain": ".openx.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355688,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.686887,
+                        "expiry": 31536000.686887026,
+                        "value": "8108fa3e-b586-43dd-a650-74dda4def916|1726399355",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355687
+                    }
+                ]
+            }
+        }
+    },
+    "quantserve.com": {
+        "/": {
+            "mc": {
+                "name": "mc",
+                "domain": ".quantserve.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355378,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760613755.377706,
+                        "expiry": 34214400.37770605,
+                        "value": "66e6c37b-6f058-9b490-5608b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355378
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34214400.384283066,
+                        "value": "66e6c37b-70967-e8ba8-179be",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355384
+                    }
+                ]
+            }
+        }
+    },
+    "rubiconproject.com": {
+        "/": {
+            "audit": {
+                "name": "audit",
+                "domain": ".rubiconproject.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355131,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.122106,
+                        "expiry": 31536000.122106075,
+                        "value": "1|us0kpegFRMZhb0kwnyad/2pOLHKN17cLWABzFwc1kan5XtyJyVH2VdVL2Ugp3bnZfQ/9syaYqZBCbuL7wqM7W24/AOYgyMTzmjbisE4m2Mfme0rGRDIQp6H94839WOs73PB5oTdUryaGHdSfyTAYGUVGF9cdsfLpWzs+gIybVGvAzv/zxWtyx9gQBaVQbE6rUTNngN8UZTSVcQD86tgVQkadK/MtmNgPsveUBsSdNjSo6qY2769KAD5wSBkDvURjTSuaCdYncDnOQNS3UmsKCqnlKAAbjumEn70EdvKArhShFBOwtQitTFObaaW5PwCsz15DJc7V4v+qLBGRbKDSc7v1bOqq64Qt8YvQjMVUbby2aGOzpkBkk7tCDv9PQ+uKwndmErl0Cpp3nBjYwJbmVO0eATHMxd3MvJN376y1DyPcYFakx1ztZJNYo+hx0qHkqE08IaoPveg+TrLLmTHqPJxjiUepir0TB7xKXvewpo0YK2qEjtC6AHwYLY1hgDbdvaEZ0eMp2WNwqrgMzVVI0ETodetEdmhn7WyZsGpX2c5JhjxLiNzWqX2qRDGzmJpshkUgL1/zUkOOzhPtpgoln6v+n13YrUpieNP3Of7FOsvFEbP4t0fYSgk0VVkHSVx0hJDoKfRCX/MZ8dpCr5ARi6r0y/zM7DzUDJgSbWWCzAGCTcSydIf7l6D6ECN5gm7ijODmLp1dM7+yjCEr8VQ00v2C0WtCKI59+PIpva51NBLBAVcodTbYpgPvwmAlPjcxhz1V/dQtphADiMP3zGCLYYhQHA+LfFqFZZlOFf5hN9lgy8xzprWvHjTkFwNsmot/lOyCXXZigKNd+mKMdWVp3tB7Z7NVFciPQpj55dfCVtcFgXjm7Rh/hSfSpoQ4IKhwci9y1+5JF3fsjOV0EcdakaehXelhZzcdF6cE+cRQ0Ev4bzT2Jc4dy317j7D30rJxP2X/FTrEoVk6jrJyGYmWAXHA2vPpdx1ZKVwuxUaRLJNwDS/e46z5Ye6QqAyC3zxr5NAKHZ3f4vfMvti+q1Alxk+ElCLNxQtEK+GVYCmFY0Cn5k8qgBsr24J6xXMv+Na6iSTg3WjGAEZeSyBUj/xdGTknqrMV2cK5u2nQQqQOWi41HGjRejXzXiWN4xluLtFVkkNBu6ekHtY7I996j7vCwqS2w/Dk8INuzLkmts8kY2MwwMbKyRGXD9/lRALzFPeXzhuaGSBsvhRKTZwg8qJ2pTqx9/OtV2mDDKirdRu/EmaonWI2BMf82wLsVI9oW4vYyMmEA5B+bWWd1KRVKvSoG2tEeUItmkDctwq3hnH58CGooghx4LEFh9yyHbA0TJxcJNaD9PSK5wQO3TBWcE+pV9gSsMhg1eUL1xQRcMUHH7/MMrIj6Nn5mlbqsN7FAJaSGlgO9htCIVChXJHEvhuKMe8KwlaFLdJodeW29Se9Z7qUkvFQUt1ZnC7oRwE/cx7RbgIIX86xBjoUYKdRNpy4lOrdvIoA21rLC4hGvAfPLSG6cHX0erLNo5Tsgl12YoCj1fVXzQV4Ixg=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355129
+                    }
+                ]
+            },
+            "audit_p": {
+                "name": "audit_p",
+                "domain": ".rubiconproject.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399355126,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.122059,
+                        "expiry": 31536000.122059107,
+                        "value": "1|us0kpegFRMZhb0kwnyad/2pOLHKN17cLWABzFwc1kan5XtyJyVH2VdVL2Ugp3bnZfQ/9syaYqZBCbuL7wqM7W24/AOYgyMTzmjbisE4m2Mfme0rGRDIQp6H94839WOs73PB5oTdUryaGHdSfyTAYGUVGF9cdsfLpWzs+gIybVGvAzv/zxWtyx9gQBaVQbE6rUTNngN8UZTSVcQD86tgVQkadK/MtmNgPsveUBsSdNjSo6qY2769KAD5wSBkDvURjTSuaCdYncDnOQNS3UmsKCqnlKAAbjumEn70EdvKArhShFBOwtQitTFObaaW5PwCsz15DJc7V4v+qLBGRbKDSc7v1bOqq64Qt8YvQjMVUbby2aGOzpkBkk7tCDv9PQ+uKwndmErl0Cpp3nBjYwJbmVO0eATHMxd3MvJN376y1DyPcYFakx1ztZJNYo+hx0qHkqE08IaoPveg+TrLLmTHqPJxjiUepir0TB7xKXvewpo0YK2qEjtC6AHwYLY1hgDbdvaEZ0eMp2WNwqrgMzVVI0ETodetEdmhn7WyZsGpX2c5JhjxLiNzWqX2qRDGzmJpshkUgL1/zUkOOzhPtpgoln6v+n13YrUpieNP3Of7FOsvFEbP4t0fYSgk0VVkHSVx0hJDoKfRCX/MZ8dpCr5ARi6r0y/zM7DzUDJgSbWWCzAGCTcSydIf7l6D6ECN5gm7ijODmLp1dM7+yjCEr8VQ00v2C0WtCKI59+PIpva51NBLBAVcodTbYpgPvwmAlPjcxhz1V/dQtphADiMP3zGCLYYhQHA+LfFqFZZlOFf5hN9lgy8xzprWvHjTkFwNsmot/lOyCXXZigKNd+mKMdWVp3tB7Z7NVFciPQpj55dfCVtcFgXjm7Rh/hSfSpoQ4IKhwci9y1+5JF3fsjOV0EcdakaehXelhZzcdF6cE+cRQ0Ev4bzT2Jc4dy317j7D30rJxP2X/FTrEoVk6jrJyGYmWAXHA2vPpdx1ZKVwuxUaRLJNwDS/e46z5Ye6QqAyC3zxr5NAKHZ3f4vfMvti+q1Alxk+ElCLNxQtEK+GVYCmFY0Cn5k8qgBsr24J6xXMv+Na6iSTg3WjGAEZeSyBUj/xdGTknqrMV2cK5u2nQQqQOWi41HGjRejXzXiWN4xluLtFVkkNBu6ekHtY7I996j7vCwqS2w/Dk8INuzLkmts8kY2MwwMbKyRGXD9/lRALzFPeXzhuaGSBsvhRKTZwg8qJ2pTqx9/OtV2mDDKirdRu/EmaonWI2BMf82wLsVI9oW4vYyMmEA5B+bWWd1KRVKvSoG2tEeUItmkDctwq3hnH58CGooghx4LEFh9yyHbA0TJxcJNaD9PSK5wQO3TBWcE+pV9gSsMhg1eUL1xQRcMUHH7/MMrIj6Nn5mlbqsN7FAJaSGlgO9htCIVChXJHEvhuKMe8KwlaFLdJodeW29Se9Z7qUkvFQUt1ZnC7oRwE/cx7RbgIIX86xBjoUYKdRNpy4lOrdvIoA21rLC4hGvAfPLSG6cHX0erLNo5Tsgl12YoCj1fVXzQV4Ixg=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355122
+                    }
+                ]
+            },
+            "khaos": {
+                "name": "khaos",
+                "domain": ".rubiconproject.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355128,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.122086,
+                        "expiry": 31536000.122086048,
+                        "value": "M13HLNWD-13-1WS6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355127
+                    }
+                ]
+            },
+            "khaos_p": {
+                "name": "khaos_p",
+                "domain": ".rubiconproject.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355129,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.122095,
+                        "expiry": 31536000.122095108,
+                        "value": "M13HLNWD-13-1WS6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355128
+                    }
+                ]
+            }
+        }
+    },
+    "sharethis.com": {
+        "/": {
+            "__stid": {
+                "name": "__stid",
+                "domain": ".sharethis.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355113,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.112508,
+                        "expiry": 31536000.11250806,
+                        "value": "ZG8ABGbmw3sAAAAIB3nFAw==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355112
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.117134094,
+                        "value": "ZG8ABGbmw3sAAAAIB3nPAw==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355119
+                    }
+                ]
+            },
+            "__stidv": {
+                "name": "__stidv",
+                "domain": ".sharethis.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726399355114,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757935355.112551,
+                        "expiry": 31536000.112550974,
+                        "value": "2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355113
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.11716199,
+                        "value": "2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399355119
+                    }
+                ]
+            }
+        }
+    },
+    "t.sharethis.com": {
+        "/": {
+            "pxcelPage_default_c010_B": {
+                "name": "pxcelPage_default_c010_B",
+                "domain": ".t.sharethis.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726399356111,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728991356,
+                        "expiry": 2592000,
+                        "value": "0_6_1726399356110",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726399356111
+                    }
+                ]
+            }
+        }
+    }
+}

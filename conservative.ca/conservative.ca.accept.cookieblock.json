@@ -1,0 +1,914 @@
+{
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913440,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760039914.438645,
+                        "expiry": 33696001.438644886,
+                        "value": "0F318DA5BE0B6131314C995FBF0D60AF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913439
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.724289894,
+                        "value": "0F318DA5BE0B6131314C995FBF0D60AF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913724
+                    }
+                ]
+            }
+        }
+    },
+    "c.bing.com": {
+        "/": {
+            "MR": {
+                "name": "MR",
+                "domain": ".c.bing.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913725,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726948713.724348,
+                        "expiry": 604800.7243480682,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913725
+                    }
+                ]
+            },
+            "SRM_B": {
+                "name": "SRM_B",
+                "domain": ".c.bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913726,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760039913.724366,
+                        "expiry": 33696000.72436595,
+                        "value": "0F318DA5BE0B6131314C995FBF0D60AF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913725
+                    }
+                ]
+            }
+        }
+    },
+    "c.clarity.ms": {
+        "/": {
+            "ANONCHK": {
+                "name": "ANONCHK",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913754,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726344513.752681,
+                        "expiry": 600.752681016922,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913754
+                    }
+                ]
+            },
+            "MR": {
+                "name": "MR",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913754,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726948713.752666,
+                        "expiry": 604800.7526659966,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913753
+                    }
+                ]
+            },
+            "SM": {
+                "name": "SM",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913579,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "T",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913578
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913753
+                    }
+                ]
+            }
+        }
+    },
+    "clarity.ms": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913579,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760039913.578142,
+                        "expiry": 33696000.57814193,
+                        "value": "27EAC3E1D44E6B2A058CD71BD04E653E",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913579
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.7526319,
+                        "value": "0F318DA5BE0B6131314C995FBF0D60AF",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913753
+                    }
+                ]
+            },
+            "CLID": {
+                "name": "CLID",
+                "domain": "www.clarity.ms",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726343913469,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.468195,
+                        "expiry": 31536000.46819496,
+                        "value": "3ce19ab1477b4647928935b231b8d8d9.20240914.20250914",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913468
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.485282898,
+                        "value": "e358826a946f4d299f53f1fdd27d2d82.20240914.20250914",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913486
+                    }
+                ]
+            }
+        }
+    },
+    "conservative.ca": {
+        "/": {
+            "_clck": {
+                "name": "_clck",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726343913516,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757879913,
+                        "expiry": 31536000,
+                        "value": "7a63xh%7C2%7Cfp6%7C0%7C1718",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913515
+                    }
+                ]
+            },
+            "_clsk": {
+                "name": "_clsk",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343914052,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726430314,
+                        "expiry": 86400,
+                        "value": "1dplk4j%7C1726343914050%7C1%7C1%7Co.clarity.ms%2Fcollect",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343914051
+                    }
+                ]
+            },
+            "_dc_gtm_UA-53938406-1": {
+                "name": "_dc_gtm_UA-53938406-1",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913395,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726343973,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913393
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913593,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734119913,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726343913590.91781432155329056",
+                        "same_site": "lax",
+                        "timestamp": 1726343913592
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726343913590.91781432155329056",
+                        "same_site": "lax",
+                        "timestamp": 1726343913810
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726343913590.91781432155329056",
+                        "same_site": "lax",
+                        "timestamp": 1726343913811
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726343913590.91781432155329056",
+                        "same_site": "lax",
+                        "timestamp": 1726343914089
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726343913590.91781432155329056",
+                        "same_site": "lax",
+                        "timestamp": 1726343914306
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726343912782,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760903912.772168,
+                        "expiry": 34560000.77216792,
+                        "value": "GA1.1.204730412.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343912782
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.36079097,
+                        "value": "GA1.1.204730412.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913362
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.379345894,
+                        "value": "GA1.1.204730412.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913381
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.3901701,
+                        "value": "GA1.2.204730412.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913390
+                    }
+                ]
+            },
+            "_ga_9WL9DXL9XW": {
+                "name": "_ga_9WL9DXL9XW",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726343912781,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760903912.771927,
+                        "expiry": 34560000.77192712,
+                        "value": "GS1.1.1726343912.1.0.1726343912.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343912777
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.21547294,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913216
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.215856075,
+                        "value": "GS1.1.1726343912.1.0.1726343913.59.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913220
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.41769695,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913418
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.41790295,
+                        "value": "GS1.1.1726343912.1.0.1726343913.59.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913418
+                    }
+                ]
+            },
+            "_ga_BEV96EB1DK": {
+                "name": "_ga_BEV96EB1DK",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913361,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760903913.360239,
+                        "expiry": 34560000.36023903,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913360
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.36050296,
+                        "value": "GS1.1.1726343913.1.0.1726343913.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913362
+                    }
+                ]
+            },
+            "_ga_LPVNEMR4ZK": {
+                "name": "_ga_LPVNEMR4ZK",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913380,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760903913.37886,
+                        "expiry": 34560000.37886,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913379
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.379164934,
+                        "value": "GS1.1.1726343913.1.0.1726343913.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913380
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913243,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734119913,
+                        "expiry": 7776000,
+                        "value": "1.1.1619620895.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913242
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.1619620895.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913253
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.1619620895.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913264
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726343913391,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726430313,
+                        "expiry": 86400,
+                        "value": "GA1.2.1428499890.1726343913",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913390
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913413,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726430313,
+                        "expiry": 86400,
+                        "value": "b8b20f0072d311ef99b9ddf155bebb41",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913412
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".conservative.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913414,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760039913,
+                        "expiry": 33696000,
+                        "value": "b8b226e072d311efb6f2172ad41d24fd",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913413
+                    }
+                ]
+            },
+            "sa-user-id-v2": {
+                "name": "sa-user-id-v2",
+                "domain": "www.conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913539,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913,
+                        "expiry": 31536000,
+                        "value": "s%253AWMm0J6jwVzVGPfdktWgryVQRMs0.b7VN2v4jIa3WoRpgVnvQOnys9k%252BIi5XOeMmhOSueTk4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913539
+                    }
+                ]
+            },
+            "sa-user-id-v3": {
+                "name": "sa-user-id-v3",
+                "domain": "www.conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913541,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913,
+                        "expiry": 31536000,
+                        "value": "s%253AAQAKIHMvmQuwnCtgTPOEnX8rsbSBF_AC5z9JI5YAmriiZ8naEMABGAQg6dWXtwYwAToEwhEMFEIETebQZQ.TnCQM2pv%252B1nh5PzKzW7fAS%252F%252BqYrbowMNe97MWHKBOxo",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913540
+                    }
+                ]
+            },
+            "sa-user-id": {
+                "name": "sa-user-id",
+                "domain": "www.conservative.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343913539,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913,
+                        "expiry": 31536000,
+                        "value": "s%253A0-58c9b427-a8f0-5735-463d-f764b5682bc9.0alUUaRdUiO%252BhZqogrjtsejxU91KiQLKqO%252Bd%252BcB5nS0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726343913538
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913337,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760039913.335332,
+                        "expiry": 33696000.33533192,
+                        "value": "AHWqTUkHvElDH5ExayZmLkcacFGvKKFonm3Or_vHEV3fCbSG5p87XTR70DdrfbRY",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913336
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.34151411,
+                        "value": "AHWqTUlVB6kNjhHS-LRshAMV-GhS42avScmJI_pjxun4YYTVrdz6Bhe5tV98Jua8",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913342
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.368475914,
+                        "value": "AHWqTUkDbUvJEy143A2hb5qOHZwaDviFqodJd5M34oC7KAx6Dt8XkJ9LKiFW2Df2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913369
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.38348603,
+                        "value": "AHWqTUnTMXRololwzkmS5cvRncKODu1TJBr_hCYm4RJhNWmSb3jd4ki0qNF1JKJA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913385
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.390912056,
+                        "value": "AHWqTUmH_1fiaZ2RVUufv_kENTMKmYr3ElFxy_ODp3dswYu95E43FPwJxO6RYmlI",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913393
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726343912941,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726344812.939102,
+                        "expiry": 900.939101934433,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343912939
+                    }
+                ]
+            }
+        }
+    },
+    "srv.stackadapt.com": {
+        "/": {
+            "sa-user-id-v2": {
+                "name": "sa-user-id-v2",
+                "domain": ".srv.stackadapt.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913513,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.507914,
+                        "expiry": 31536000.507914066,
+                        "value": "s%3AWMm0J6jwVzVGPfdktWgryVQRMs0.b7VN2v4jIa3WoRpgVnvQOnys9k%2BIi5XOeMmhOSueTk4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913511
+                    }
+                ]
+            },
+            "sa-user-id-v3": {
+                "name": "sa-user-id-v3",
+                "domain": ".srv.stackadapt.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913514,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.507933,
+                        "expiry": 31536000.5079329,
+                        "value": "s%3AAQAKIHMvmQuwnCtgTPOEnX8rsbSBF_AC5z9JI5YAmriiZ8naEMABGAQg6dWXtwYwAToEwhEMFEIETebQZQ.TnCQM2pv%2B1nh5PzKzW7fAS%2F%2BqYrbowMNe97MWHKBOxo",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913514
+                    }
+                ]
+            },
+            "sa-user-id": {
+                "name": "sa-user-id",
+                "domain": ".srv.stackadapt.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913510,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.507891,
+                        "expiry": 31536000.50789094,
+                        "value": "s%3A0-58c9b427-a8f0-5735-463d-f764b5682bc9.0alUUaRdUiO%2BhZqogrjtsejxU91KiQLKqO%2Bd%2BcB5nS0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913509
+                    }
+                ]
+            }
+        }
+    },
+    "tags.srv.stackadapt.com": {
+        "/": {
+            "sa-user-id-v2": {
+                "name": "sa-user-id-v2",
+                "domain": "tags.srv.stackadapt.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913511,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.507904,
+                        "expiry": 31536000.507904053,
+                        "value": "s%3AWMm0J6jwVzVGPfdktWgryVQRMs0.b7VN2v4jIa3WoRpgVnvQOnys9k%2BIi5XOeMmhOSueTk4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913511
+                    }
+                ]
+            },
+            "sa-user-id-v3": {
+                "name": "sa-user-id-v3",
+                "domain": "tags.srv.stackadapt.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913513,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.507923,
+                        "expiry": 31536000.507922888,
+                        "value": "s%3AAQAKIHMvmQuwnCtgTPOEnX8rsbSBF_AC5z9JI5YAmriiZ8naEMABGAQg6dWXtwYwAToEwhEMFEIETebQZQ.TnCQM2pv%2B1nh5PzKzW7fAS%2F%2BqYrbowMNe97MWHKBOxo",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913513
+                    }
+                ]
+            },
+            "sa-user-id": {
+                "name": "sa-user-id",
+                "domain": "tags.srv.stackadapt.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726343913509,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757879913.507861,
+                        "expiry": 31536000.5078609,
+                        "value": "s%3A0-58c9b427-a8f0-5735-463d-f764b5682bc9.0alUUaRdUiO%2BhZqogrjtsejxU91KiQLKqO%2Bd%2BcB5nS0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726343913508
+                    }
+                ]
+            }
+        }
+    }
+}

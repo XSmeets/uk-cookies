@@ -1,0 +1,73 @@
+{
+    "montreal.ca": {
+        "/": {
+            "_clck": {
+                "name": "_clck",
+                "domain": ".montreal.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726344847100,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757880847,
+                        "expiry": 31536000,
+                        "value": "gxdkk4%7C2%7Cfp6%7C0%7C1718",
+                        "same_site": "unspecified",
+                        "timestamp": 1726344847100
+                    }
+                ]
+            },
+            "cookieyes-consent": {
+                "name": "cookieyes-consent",
+                "domain": ".montreal.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726344847020,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757880847,
+                        "expiry": 31536000,
+                        "value": "consentid:SUgxdTZvMzBsQUNYQjJvQWc4OGh1ZXZWM3JvZHN5Q1U,consent:,action:,necessary:,functional:,analytics:,performance:,advertisement:,other:",
+                        "same_site": "strict",
+                        "timestamp": 1726344847015
+                    }
+                ]
+            }
+        }
+    },
+    "clarity.ms": {
+        "/": {
+            "CLID": {
+                "name": "CLID",
+                "domain": "www.clarity.ms",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726344847066,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757880847.061664,
+                        "expiry": 31536000.061664104,
+                        "value": "25613ca89f2d436795a2feedf6931c89.20240914.20250914",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726344847062
+                    }
+                ]
+            }
+        }
+    }
+}

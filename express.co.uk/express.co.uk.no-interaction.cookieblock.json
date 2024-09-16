@@ -1,0 +1,78 @@
+{
+    "express.co.uk": {
+        "/": {
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": ".www.express.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726223121451,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759919121.450122,
+                        "expiry": 33696000.45012212,
+                        "value": "1---",
+                        "same_site": "lax",
+                        "timestamp": 1726223121450
+                    }
+                ]
+            },
+            "X-Experiment": {
+                "name": "X-Experiment",
+                "domain": "express.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726223120928,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734863120.922586,
+                        "expiry": 8640000.922585964,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726223120923
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 8640000.972443104,
+                        "value": "C",
+                        "same_site": "unspecified",
+                        "timestamp": 1726223120972
+                    }
+                ]
+            },
+            "testcookie": {
+                "name": "testcookie",
+                "domain": "www.express.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726223121286,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726223121282
+                    }
+                ]
+            }
+        }
+    }
+}

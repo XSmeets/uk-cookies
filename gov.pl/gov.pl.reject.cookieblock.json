@@ -1,0 +1,132 @@
+{
+    "matomo.www.gov.pl": {
+        "/": {
+            "MSRV": {
+                "name": "MSRV",
+                "domain": "matomo.www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058655120,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "m3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058655116
+                    }
+                ]
+            }
+        }
+    },
+    "gov.pl": {
+        "/": {
+            "_pk_id.1.66a7": {
+                "name": "_pk_id.1.66a7",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058655133,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760013855,
+                        "expiry": 33955200,
+                        "value": "aae3e34c9361c87f.1726058655.",
+                        "same_site": "lax",
+                        "timestamp": 1726058655129
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955195,
+                        "value": "aae3e34c9361c87f.1726058655.",
+                        "same_site": "lax",
+                        "timestamp": 1726058660132
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955194,
+                        "value": "aae3e34c9361c87f.1726058655.",
+                        "same_site": "lax",
+                        "timestamp": 1726058661255
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955189,
+                        "value": "aae3e34c9361c87f.1726058655.",
+                        "same_site": "lax",
+                        "timestamp": 1726058666259
+                    }
+                ]
+            },
+            "_pk_ses.1.66a7": {
+                "name": "_pk_ses.1.66a7",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058655134,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726060455,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058655133
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058660133
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058661255
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058666260
+                    }
+                ]
+            }
+        }
+    }
+}

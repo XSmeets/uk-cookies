@@ -1,0 +1,499 @@
+<html lang="bg"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Единен портал за електронно правосъдие</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+
+    <noscript><meta http-equiv="refresh" content="0; url=/Error/NoScript.html" /></noscript>
+
+    <!-- Not supported browser -->
+    
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-CTJ6GJ1J8P&amp;cx=c&amp;_slc=1"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+    function checkBrowserVersion(url) {
+        var ieVersion = 11; // Return value assumes failure.
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            var ua = navigator.userAgent;
+            var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+            if (re.exec(ua) != null)
+                ieVersion = parseFloat(RegExp.$1);
+        }
+
+        if (ieVersion < 9) {
+            window.location = url;
+        }
+    }
+
+    checkBrowserVersion('/Error/NotSupportedBrowser.html');
+</script>
+
+
+    <link href="/bundles/upxcss?v=kCmb2USpQB44D0jETyj1atfKSSuNx7EvEe6Iwe3oY8g1" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+      <script src="/Scripts/html5shiv.js"></script>
+      <script src="/Scripts/respond.min.js"></script>
+    <![endif]-->
+
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/3/intl/bg_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/3/intl/bg_ALL/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/3/intl/bg_ALL/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/3/intl/bg_ALL/overlay.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/3/intl/bg_ALL/marker.js"></script></head>
+<body>
+
+    <div class="loader"><div></div></div>
+
+    <div class="wrapper">
+
+        <!-- HEADER -->
+        <header>
+            <a class="logo" href="/">
+                <img src="/Content/img/gerb.jpg" alt="">
+            </a>
+            <div class="title">
+                <strong>Единен портал за електронно правосъдие</strong>
+                <span>Република България</span>
+            </div>
+        </header>
+        <!-- -->
+
+        <!-- BODY -->
+        
+
+<div class="home-courts" init-height="288.6666666666667px" style="height: 288.667px;">
+    <div class="map-search-init">
+        <button>
+            Търсене на съд
+            <img src="/Content/img/arrow-right.png" alt="">
+        </button>
+    </div>
+    <div class="map-container" style="height: 786px;">
+        <button class="close_map"><span>ЗАТВОРИ КАРТАТА</span></button>
+        <div id="map"><div style="height: 100%; width: 100%;"></div></div>
+        <div class="map-search">
+            <div class="select2-container select2" id="s2id_type"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">Моля, изберете съд:</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1"><div class="select2-drop select2-display-none home-map select2-with-searchbox">   <div class="select2-search">       <label for="s2id_autogen1_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-1">   </ul></div></div><select name="marker" class="select2 select2-offscreen" id="type" onchange="filterMarkers(this.value);" tabindex="-1" title="">
+                <option value="0">Моля, изберете съд:</option>
+                    <option value="703">Административен съд Благоевград</option>
+                    <option value="704">Административен съд Бургас</option>
+                    <option value="705">Административен съд Варна</option>
+                    <option value="706">Административен съд Велико Търново</option>
+                    <option value="707">Административен съд Видин</option>
+                    <option value="708">Административен съд Враца</option>
+                    <option value="709">Административен съд Габрово</option>
+                    <option value="710">Административен съд Добрич</option>
+                    <option value="712">Административен съд Кърджали</option>
+                    <option value="711">Административен съд Кюстендил</option>
+                    <option value="713">Административен съд Ловеч</option>
+                    <option value="714">Административен съд Монтана</option>
+                    <option value="715">Административен съд Пазарджик</option>
+                    <option value="716">Административен съд Перник</option>
+                    <option value="717">Административен съд Плевен</option>
+                    <option value="718">Административен съд Пловдив</option>
+                    <option value="719">Административен съд Разград</option>
+                    <option value="720">Административен съд Русе</option>
+                    <option value="721">Административен съд Силистра</option>
+                    <option value="722">Административен съд Сливен</option>
+                    <option value="723">Административен съд Смолян</option>
+                    <option value="701">Административен съд София град</option>
+                    <option value="702">Административен съд София област</option>
+                    <option value="724">Административен съд Стара Загора</option>
+                    <option value="725">Административен съд Търговище</option>
+                    <option value="726">Административен съд Хасково</option>
+                    <option value="727">Административен съд Шумен</option>
+                    <option value="728">Административен съд Ямбол</option>
+                    <option value="101">Апелативен съд - София - АСНС закрит</option>
+                    <option value="200">Апелативен Съд Бургас</option>
+                    <option value="300">Апелативен Съд Варна</option>
+                    <option value="400">Апелативен Съд Велико Търново</option>
+                    <option value="500">Апелативен Съд Пловдив</option>
+                    <option value="100">Апелативен Съд София</option>
+                    <option value="630">Военен Съд Варна</option>
+                    <option value="640">Военен Съд Плевен</option>
+                    <option value="620">Военен Съд Пловдив</option>
+                    <option value="650">Военен Съд Сливен</option>
+                    <option value="610">Военен Съд София</option>
+                    <option value="600">Военно-апелативен съд София</option>
+                    <option value="001">Върховен Административен Съд</option>
+                    <option value="002">Върховен Касационен Съд</option>
+                    <option value="110">Градски Съд София</option>
+                    <option value="120">Окръжен Съд Благоевград</option>
+                    <option value="210">Окръжен Съд Бургас</option>
+                    <option value="310">Окръжен Съд Варна</option>
+                    <option value="410">Окръжен Съд Велико Търново</option>
+                    <option value="130">Окръжен Съд Видин</option>
+                    <option value="140">Окръжен Съд Враца</option>
+                    <option value="420">Окръжен Съд Габрово</option>
+                    <option value="320">Окръжен Съд Добрич</option>
+                    <option value="510">Окръжен Съд Кърджали</option>
+                    <option value="150">Окръжен Съд Кюстендил</option>
+                    <option value="430">Окръжен Съд Ловеч</option>
+                    <option value="160">Окръжен Съд Монтана</option>
+                    <option value="520">Окръжен Съд Пазарджик</option>
+                    <option value="170">Окръжен Съд Перник</option>
+                    <option value="440">Окръжен Съд Плевен</option>
+                    <option value="530">Окръжен Съд Пловдив</option>
+                    <option value="330">Окръжен Съд Разград</option>
+                    <option value="450">Окръжен Съд Русе</option>
+                    <option value="340">Окръжен Съд Силистра</option>
+                    <option value="220">Окръжен Съд Сливен</option>
+                    <option value="540">Окръжен Съд Смолян</option>
+                    <option value="180">Окръжен Съд София</option>
+                    <option value="550">Окръжен Съд Стара Загора</option>
+                    <option value="350">Окръжен Съд Търговище</option>
+                    <option value="560">Окръжен Съд Хасково</option>
+                    <option value="360">Окръжен Съд Шумен</option>
+                    <option value="230">Окръжен Съд Ямбол</option>
+                    <option value="211">Районен Съд Айтос</option>
+                    <option value="511">Районен Съд Ардино</option>
+                    <option value="531">Районен Съд Асеновград</option>
+                    <option value="321">Районен Съд Балчик</option>
+                    <option value="131">Районен Съд Белоградчик</option>
+                    <option value="161">Районен Съд Берковица</option>
+                    <option value="121">Районен съд Благоевград</option>
+                    <option value="181">Районен Съд Ботевград</option>
+                    <option value="171">Районен Съд Брезник</option>
+                    <option value="212">Районен Съд Бургас</option>
+                    <option value="451">Районен Съд Бяла</option>
+                    <option value="141">Районен Съд Бяла Слатина</option>
+                    <option value="311">Районен Съд Варна</option>
+                    <option value="361">Районен Съд Велики Преслав</option>
+                    <option value="411">Районен Съд Велико Търново</option>
+                    <option value="521">Районен Съд Велинград</option>
+                    <option value="132">Районен Съд Видин</option>
+                    <option value="142">Районен Съд Враца</option>
+                    <option value="421">Районен Съд Габрово</option>
+                    <option value="322">Районен Съд Генерал Тошево</option>
+                    <option value="412">Районен Съд Горна Оряховица</option>
+                    <option value="122">Районен Съд Гоце Делчев</option>
+                    <option value="555">Районен Съд Гълъбово</option>
+                    <option value="541">Районен Съд Девин</option>
+                    <option value="312">Районен Съд Девня</option>
+                    <option value="561">Районен Съд Димитровград</option>
+                    <option value="323">Районен Съд Добрич</option>
+                    <option value="422">Районен Съд Дряново</option>
+                    <option value="341">Районен Съд Дулово</option>
+                    <option value="151">Районен Съд Дупница</option>
+                    <option value="413">Районен Съд Елена</option>
+                    <option value="182">Районен Съд Елин Пелин</option>
+                    <option value="231">Районен Съд Елхово</option>
+                    <option value="183">Районен Съд Етрополе</option>
+                    <option value="542">Районен Съд Златоград</option>
+                    <option value="512">Районен Съд Ивайловград</option>
+                    <option value="331">Районен Съд Исперих</option>
+                    <option value="184">Районен Съд Ихтиман</option>
+                    <option value="324">Районен Съд Каварна</option>
+                    <option value="551">Районен Съд Казанлък</option>
+                    <option value="532">Районен Съд Карлово</option>
+                    <option value="213">Районен Съд Карнобат</option>
+                    <option value="143">Районен Съд Кнежа</option>
+                    <option value="144">Районен Съд Козлодуй</option>
+                    <option value="185">Районен Съд Костинброд</option>
+                    <option value="221">Районен Съд Котел</option>
+                    <option value="513">Районен Съд Крумовград</option>
+                    <option value="332">Районен Съд Кубрат</option>
+                    <option value="133">Районен Съд Кула</option>
+                    <option value="514">Районен Съд Кърджали</option>
+                    <option value="152">Районен Съд Кюстендил</option>
+                    <option value="441">Районен Съд Левски</option>
+                    <option value="431">Районен Съд Ловеч</option>
+                    <option value="162">Районен Съд Лом</option>
+                    <option value="432">Районен Съд Луковит</option>
+                    <option value="543">Районен Съд Мадан</option>
+                    <option value="214">Районен Съд Малко Търново</option>
+                    <option value="145">Районен Съд Мездра</option>
+                    <option value="515">Районен Съд Момчилград</option>
+                    <option value="163">Районен Съд Монтана</option>
+                    <option value="215">Районен Съд Несебър</option>
+                    <option value="442">Районен Съд Никопол</option>
+                    <option value="222">Районен Съд Нова Загора</option>
+                    <option value="362">Районен Съд Нови Пазар</option>
+                    <option value="351">Районен Съд Омуртаг</option>
+                    <option value="146">Районен Съд Оряхово</option>
+                    <option value="414">Районен Съд Павликени</option>
+                    <option value="522">Районен Съд Пазарджик</option>
+                    <option value="523">Районен Съд Панагюрище</option>
+                    <option value="172">Районен Съд Перник</option>
+                    <option value="123">Районен Съд Петрич</option>
+                    <option value="524">Районен Съд Пещера</option>
+                    <option value="186">Районен Съд Пирдоп</option>
+                    <option value="443">Районен Съд Плевен</option>
+                    <option value="533">Районен Съд Пловдив</option>
+                    <option value="216">Районен Съд Поморие</option>
+                    <option value="352">Районен Съд Попово</option>
+                    <option value="313">Районен Съд Провадия</option>
+                    <option value="534">Районен Съд Първомай</option>
+                    <option value="552">Районен Съд Раднево</option>
+                    <option value="173">Районен Съд Радомир</option>
+                    <option value="333">Районен Съд Разград</option>
+                    <option value="124">Районен Съд Разлог</option>
+                    <option value="452">Районен Съд Русе</option>
+                    <option value="187">Районен Съд Самоков</option>
+                    <option value="125">Районен Съд Сандански</option>
+                    <option value="562">Районен Съд Свиленград</option>
+                    <option value="415">Районен Съд Свищов</option>
+                    <option value="188">Районен Съд Своге</option>
+                    <option value="423">Районен Съд Севлиево</option>
+                    <option value="342">Районен Съд Силистра</option>
+                    <option value="223">Районен Съд Сливен</option>
+                    <option value="189">Районен Съд Сливница</option>
+                    <option value="544">Районен Съд Смолян</option>
+                    <option value="1112">Районен Съд София - ГО</option>
+                    <option value="1111">Районен Съд София - НО</option>
+                    <option value="217">Районен Съд Средец</option>
+                    <option value="553">Районен Съд Стара Загора</option>
+                    <option value="325">Районен Съд Тервел</option>
+                    <option value="433">Районен Съд Тетевен</option>
+                    <option value="232">Районен Съд Тополовград</option>
+                    <option value="434">Районен Съд Троян</option>
+                    <option value="174">Районен Съд Трън</option>
+                    <option value="424">Районен Съд Трявна</option>
+                    <option value="343">Районен Съд Тутракан</option>
+                    <option value="353">Районен Съд Търговище</option>
+                    <option value="563">Районен Съд Харманли</option>
+                    <option value="564">Районен Съд Хасково</option>
+                    <option value="218">Районен Съд Царево</option>
+                    <option value="545">Районен Съд Чепеларе</option>
+                    <option value="444">Районен Съд Червен бряг</option>
+                    <option value="554">Районен Съд Чирпан</option>
+                    <option value="363">Районен Съд Шумен</option>
+                    <option value="233">Районен Съд Ямбол</option>
+                    <option value="105">Софийски градски съд - СНС закрит</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZvXYaJvd0cqlQ1t2D9cnnwBfcQ1cOWP4&amp;language=bg"></script>
+<script type="text/javascript" src="/Scripts/oms.min.js"></script>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var markers = [["100","<p><a href=\"https://sofia-as.justice.bg\" target=\"_blank\"><strong>Апелативен Съд София</strong></a></p><p>София, 1000</p><p>бул. Витоша 2</p><p>02 921988</p><a href=\"mailto:registry@appellatecs.org\">registry@appellatecs.org</a>",42.6954187,23.3205029,"100","/Content/img/markers/marker01.png","Апелативен Съд София"],["101","<p><a href=\"https://aspns.justice.bg\" target=\"_blank\"><strong>Апелативен съд - София - АСНС закрит</strong></a></p><p>София, 1505</p><p>ул. Черковна 90</p><p>02 4217204</p><a href=\"mailto:asns@asns-sofia.bg\">asns@asns-sofia.bg</a>",42.6915394,23.3510483,"101","/Content/img/markers/marker01.png","Апелативен съд - София - АСНС закрит"],["105","<p><a href=\"https://spns.justice.bg\" target=\"_blank\"><strong>Софийски градски съд - СНС закрит</strong></a></p><p>София, 1505</p><p>ул. Черковна 90</p><p>02 8140573</p><a href=\"mailto:ctrifonova@spcc.bg\">ctrifonova@spcc.bg</a>",42.6915394,23.3510483,"105","/Content/img/markers/marker01.png","Софийски градски съд - СНС закрит"],["110","<p><a href=\"https://sgs.justice.bg\" target=\"_blank\"><strong>Градски Съд София</strong></a></p><p>София, 1000</p><p>бул. Витоша 2</p><p>02 9219332</p><a href=\"mailto:adm.sgs@scc.bg\">adm.sgs@scc.bg</a>",42.6954187,23.3205029,"110","/Content/img/markers/marker01.png","Градски Съд София"],["1111","<p><a href=\"https://www.srs.justice.bg\" target=\"_blank\"><strong>Районен Съд София - НО</strong></a></p><p>Наказателно отделение, София, 1463</p><p>бул. „Генерал Скобелев“ 23</p><p>02 8955231</p><a href=\"mailto:documents.no@srs.justice.bg\">documents.no@srs.justice.bg</a>",42.6879766,23.3144902,"1111","/Content/img/markers/marker01.png","Районен Съд София - НО"],["1112","<p><a href=\"https://www.srs.justice.bg\" target=\"_blank\"><strong>Районен Съд София - ГО</strong></a></p><p>Гражданско отделение, София, 1612</p><p>бул. „Цар Борис III“ 54</p><p>02 8955600</p><a href=\"mailto:documents.go@srs.justice.bg\">documents.go@srs.justice.bg</a>",42.6844624,23.2943629,"1112","/Content/img/markers/marker01.png","Районен Съд София - ГО"],["120","<p><a href=\"https://blagoevgrad-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Благоевград</strong></a></p><p>Благоевград, 2700</p><p>пл. Васил Левски 1</p><p>073 889840</p><a href=\"mailto:court@pirin.com\">court@pirin.com</a>",42.0185551,23.0969757,"120","/Content/img/markers/marker01.png","Окръжен Съд Благоевград"],["121","<p><a href=\"https://blagoevgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен съд Благоевград</strong></a></p><p>Благоевград, 2700</p><p>пл. Васил Левски 1</p><p>073 8896424</p><a href=\"mailto:rc_blagoevgrad@mail.bg\">rc_blagoevgrad@mail.bg</a>",42.0185551,23.0969757,"121","/Content/img/markers/marker01.png","Районен съд Благоевград"],["122","<p><a href=\"https://gdelchev-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Гоце Делчев</strong></a></p><p>Гоце Делчев, 2900</p><p>ул. Отец Паисий 25</p><p>0751 60181</p><a href=\"mailto:court_gd@abv.bg\">court_gd@abv.bg</a>",41.57046756,23.71548608,"122","/Content/img/markers/marker01.png","Районен Съд Гоце Делчев"],["123","<p><a href=\"https://petrich-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Петрич</strong></a></p><p>Петрич, 2850</p><p>ул. Лазар Маджаров N:3</p><p>074522053</p><a href=\"mailto:rspetrich@gmail.com\">rspetrich@gmail.com</a>",41.3923636,23.2090436,"123","/Content/img/markers/marker01.png","Районен Съд Петрич"],["124","<p><a href=\"https://razlog-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Разлог</strong></a></p><p>Разлог, 2760</p><p>ул. И. Макариополски 23</p><p>0747 80181</p><a href=\"mailto:rs_razlog@abv.bg\">rs_razlog@abv.bg</a>",41.8882853,23.4638382,"124","/Content/img/markers/marker01.png","Районен Съд Разлог"],["125","<p><a href=\"https://sandanski-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Сандански</strong></a></p><p>Сандански, 2800</p><p>Бул. Македония 57</p><p>0746 34561</p><a href=\"mailto:rs_sandanski@abv.bg\">rs_sandanski@abv.bg</a>",41.565481,23.280274,"125","/Content/img/markers/marker01.png","Районен Съд Сандански"],["130","<p><a href=\"https://vidin-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Видин</strong></a></p><p>Видин, 3700</p><p>пл. Бдинци 1</p><p>094 600980</p><a href=\"mailto:os.vidin@abv.bg\">os.vidin@abv.bg</a>",43.9864407,22.8772471,"130","/Content/img/markers/marker01.png","Окръжен Съд Видин"],["131","<p><a href=\"https://belogradchik-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Белоградчик</strong></a></p><p>Белоградчик, 3900</p><p>ул. Княз Борис І 45</p><p>093 654168</p><a href=\"mailto:rsbelog@abv.bg\">rsbelog@abv.bg</a>",43.6259886,22.6835531,"131","/Content/img/markers/marker01.png","Районен Съд Белоградчик"],["132","<p><a href=\"https://vidin-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Видин</strong></a></p><p>Видин, 3700</p><p>пл. Бдинци 1</p><p>094 600782</p><a href=\"mailto:rs_vidin@yahoo.com\">rs_vidin@yahoo.com</a>",43.9864407,22.8772471,"132","/Content/img/markers/marker01.png","Районен Съд Видин"],["133","<p><a href=\"https://kula-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Кула</strong></a></p><p>Кула, 3800</p><p>ул. Иван Кръстев 1</p><p>0938 3149</p><a href=\"mailto:rskula@abv.bg\">rskula@abv.bg</a>",43.8897418,22.522318,"133","/Content/img/markers/marker01.png","Районен Съд Кула"],["140","<p><a href=\"https://vratsa-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Враца</strong></a></p><p>Враца, 3000</p><p>бул. Христо Ботев 29</p><p>092 682100</p><a href=\"mailto:os.vraca@abv.bg\">os.vraca@abv.bg</a>",43.2041424,23.5486075,"140","/Content/img/markers/marker01.png","Окръжен Съд Враца"],["141","<p><a href=\"https://bslatina-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Бяла Слатина</strong></a></p><p>Бяла Слатина, 3200</p><p>ул. Димитър Благоев 85</p><p>0892255060</p><a href=\"mailto:sadbs@mail.orbitel.bg\">sadbs@mail.orbitel.bg</a>",43.4724714,23.9325363,"141","/Content/img/markers/marker01.png","Районен Съд Бяла Слатина"],["142","<p><a href=\"https://vratsa-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Враца</strong></a></p><p>Враца, 3000</p><p>бул. Христо Ботев 29</p><p>092 682144</p><a href=\"mailto:rs.vratza@abv.bg\">rs.vratza@abv.bg</a>",43.2041424,23.5486075,"142","/Content/img/markers/marker01.png","Районен Съд Враца"],["143","<p><a href=\"https://knezha-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Кнежа</strong></a></p><p>Кнежа, 5835</p><p>ул. Марин Боев 71</p><p>09132 7236</p><a href=\"mailto:rs_kneja@abv.bg\">rs_kneja@abv.bg</a>",43.496346,24.079434,"143","/Content/img/markers/marker01.png","Районен Съд Кнежа"],["144","<p><a href=\"https://kozloduy-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Козлодуй</strong></a></p><p>Козлодуй, 3320</p><p>ул. Кирил и Методий 5</p><p>0973 80676</p><a href=\"mailto:rskozlodui@abv.bg\">rskozlodui@abv.bg</a>",43.7678448,23.7262949,"144","/Content/img/markers/marker01.png","Районен Съд Козлодуй"],["145","<p><a href=\"https://mezdra-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Мездра</strong></a></p><p>Мездра, 3100</p><p>ул. Св.Св. Кирил и Методий 21</p><p>0910 92548</p><a href=\"mailto:rsud_mz@abv.bg\">rsud_mz@abv.bg</a>",43.1450626,23.7166548,"145","/Content/img/markers/marker01.png","Районен Съд Мездра"],["146","<p><a href=\"https://oryahovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Оряхово</strong></a></p><p>Оряхово, 3300</p><p>ул. Арх. Цолов 47</p><p>09171 3065</p><a href=\"mailto:rsoriahovo@abv.bg\">rsoriahovo@abv.bg</a>",43.732652,23.959437,"146","/Content/img/markers/marker01.png","Районен Съд Оряхово"],["150","<p><a href=\"https://kyustendil-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Кюстендил</strong></a></p><p>Кюстендил, 2500</p><p>ул. Гороцветна 31</p><p>078 550455</p><a href=\"mailto:kos@kos-bg.eu\">kos@kos-bg.eu</a>",42.2781306,22.6878483,"150","/Content/img/markers/marker01.png","Окръжен Съд Кюстендил"],["151","<p><a href=\"https://dupnitsa-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Дупница</strong></a></p><p>Дупница, 2600</p><p>ул. Николаевска 15</p><p>0701 52076</p><a href=\"mailto:drs@mbox.contact.bg\">drs@mbox.contact.bg</a>",42.265949,23.1229308,"151","/Content/img/markers/marker01.png","Районен Съд Дупница"],["152","<p><a href=\"https://kyustendil-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Кюстендил</strong></a></p><p>Кюстендил, 2500</p><p>ул. Гороцветна 31</p><p>078 550789</p><a href=\"mailto:krs@krs-bg.eu\">krs@krs-bg.eu</a>",42.2781306,22.6878483,"152","/Content/img/markers/marker01.png","Районен Съд Кюстендил"],["160","<p><a href=\"https://montana-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Монтана</strong></a></p><p>Монтана, 3400</p><p>ул. Васил Левски 24</p><p>096 395101</p><a href=\"mailto:mail@court-montana.com\">mail@court-montana.com</a>",43.4054713,23.2256892,"160","/Content/img/markers/marker01.png","Окръжен Съд Монтана"],["161","<p><a href=\"https://berkovitsa-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Берковица</strong></a></p><p>Берковица, 3500</p><p>пл. Йордан Радичков 2</p><p>0953 88817</p><a href=\"mailto:brs@mail.bg\">brs@mail.bg</a>",43.2377348,23.1235786,"161","/Content/img/markers/marker01.png","Районен Съд Берковица"],["162","<p><a href=\"https://lom-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Лом</strong></a></p><p>Лом, 3600</p><p>пл. Свобода 8</p><p>0971 68101</p><a href=\"mailto:court@rclom.org\">court@rclom.org</a>",43.82562,23.237503,"162","/Content/img/markers/marker01.png","Районен Съд Лом"],["163","<p><a href=\"https://montana-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Монтана</strong></a></p><p>Монтана, 3400</p><p>ул. Васил Левски 22</p><p>096 395160</p><a href=\"mailto:montana_sad@mail.bg\">montana_sad@mail.bg</a>",43.4064895,23.226449,"163","/Content/img/markers/marker01.png","Районен Съд Монтана"],["170","<p><a href=\"https://pernik-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Перник</strong></a></p><p>Перник, 2300</p><p>ул. Търговска 37</p><p>076647012</p><a href=\"mailto:pernik-os@justice.bg\">pernik-os@justice.bg</a>",42.6021866,23.0299629,"170","/Content/img/markers/marker01.png","Окръжен Съд Перник"],["171","<p><a href=\"https://breznik-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Брезник</strong></a></p><p>Брезник, 2360</p><p>ул. Пролетарска 4</p><p>07779 8748</p><a href=\"mailto:rs_breznik@mail.bg\">rs_breznik@mail.bg</a>",42.7412596,22.9080799,"171","/Content/img/markers/marker01.png","Районен Съд Брезник"],["172","<p><a href=\"https://pernik-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Перник</strong></a></p><p>Перник, 2300</p><p>ул. Търговска 37</p><p>076 647502</p><a href=\"mailto:rspernik@abv.bg\">rspernik@abv.bg</a>",42.6021866,23.0299629,"172","/Content/img/markers/marker01.png","Районен Съд Перник"],["173","<p><a href=\"https://radomir-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Радомир</strong></a></p><p>Радомир, 2400</p><p>ул. Свети Свети Кирил и Методи 22</p><p>0777 84031</p><a href=\"mailto:rs_radomir@abv.bg\">rs_radomir@abv.bg</a>",42.5481276,22.9656279,"173","/Content/img/markers/marker01.png","Районен Съд Радомир"],["174","<p><a href=\"https://tran-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Трън</strong></a></p><p>Трън, 2460</p><p>ул. Г. Димитров 4</p><p>0777 98652</p><a href=\"mailto:rstran@abv.bg\">rstran@abv.bg</a>",42.8343426,22.6503696,"174","/Content/img/markers/marker01.png","Районен Съд Трън"],["180","<p><a href=\"https://sofia-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд София</strong></a></p><p>София, 1000</p><p>бул. Витоша 2</p><p>02 9219203</p><a href=\"mailto:sd_court@sofiadc.justice.bg\">sd_court@sofiadc.justice.bg</a>",42.6954187,23.3205029,"180","/Content/img/markers/marker01.png","Окръжен Съд София"],["181","<p><a href=\"https://botevgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Ботевград</strong></a></p><p>Ботевград, 2140</p><p>ул. Свобода 3Б</p><p>0723 69349</p><a href=\"mailto:rajsud@abv.bg\">rajsud@abv.bg</a>",42.9087742,23.7896574,"181","/Content/img/markers/marker01.png","Районен Съд Ботевград"],["182","<p><a href=\"https://elpelin-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Елин Пелин</strong></a></p><p>Елин Пелин, 2100</p><p>ул. Владимир Заимов 1</p><p>0725 60172</p><a href=\"mailto:rs_elinpelin@abv.bg\">rs_elinpelin@abv.bg</a>",42.669374,23.599497,"182","/Content/img/markers/marker01.png","Районен Съд Елин Пелин"],["183","<p><a href=\"https://etropole-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Етрополе</strong></a></p><p>Етрополе, 2180</p><p>бул. Руски 105</p><p>0720 63758</p><a href=\"mailto:etropole-rs@justice.bg\">etropole-rs@justice.bg</a>",42.8340305,23.9978083,"183","/Content/img/markers/marker01.png","Районен Съд Етрополе"],["184","<p><a href=\"https://ihtiman-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Ихтиман</strong></a></p><p>Ихтиман, 2050</p><p>ул. Иван Вазов 1</p><p>0724 87032</p><a href=\"mailto:predsedatel@rsihtiman.org\">predsedatel@rsihtiman.org</a>",42.440504,23.814641,"184","/Content/img/markers/marker01.png","Районен Съд Ихтиман"],["185","<p><a href=\"https://kostinbrod-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Костинброд</strong></a></p><p>Костинброд, 2231</p><p>ул.Детелина 2А</p><p>0721 66138</p><a href=\"mailto:rs_kostinbrod@abv.bg\">rs_kostinbrod@abv.bg</a>",42.809994,23.200482,"185","/Content/img/markers/marker01.png","Районен Съд Костинброд"],["186","<p><a href=\"https://pirdop-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Пирдоп</strong></a></p><p>Пирдоп, 2070</p><p>бул. Цар Освободител 47</p><p>07181 5970</p><a href=\"mailto:rspirdop@abv.bg\">rspirdop@abv.bg</a>",42.6999952,24.1775973,"186","/Content/img/markers/marker01.png","Районен Съд Пирдоп"],["187","<p><a href=\"https://samokov-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Самоков</strong></a></p><p>Самоков, 2000</p><p>ул. Бачо Киро 1</p><p>0722 66125</p><a href=\"mailto:samokov-rs@justice.bg\">samokov-rs@justice.bg</a>",42.3378602,23.5617674,"187","/Content/img/markers/marker01.png","Районен Съд Самоков"],["188","<p><a href=\"https://svoge-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Своге</strong></a></p><p>Своге, 2260</p><p>ул. Александър Вутимски 9</p><p>0726 22008</p><a href=\"mailto:rs_svoge@abv.bg\">rs_svoge@abv.bg</a>",42.9595739,23.3498974,"188","/Content/img/markers/marker01.png","Районен Съд Своге"],["189","<p><a href=\"https://slivnitsa-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Сливница</strong></a></p><p>Сливница, 2200</p><p>пл. Съединение 1</p><p>0727 42247</p><a href=\"mailto:rs_slivnitza@abv.bg\">rs_slivnitza@abv.bg</a>",42.8519742,23.0378716,"189","/Content/img/markers/marker01.png","Районен Съд Сливница"],["200","<p><a href=\"https://burgas-as.justice.bg\" target=\"_blank\"><strong>Апелативен Съд Бургас</strong></a></p><p>Бургас, 8000</p><p>ул. Александровска 101</p><p>056 859919</p><a href=\"mailto:ap.sad.burgas@abv.bg\">ap.sad.burgas@abv.bg</a>",42.4983556,27.4711177,"200","/Content/img/markers/marker01.png","Апелативен Съд Бургас"],["210","<p><a href=\"https://burgas-os.justice.bg/\" target=\"_blank\"><strong>Окръжен Съд Бургас</strong></a></p><p>Бургас, 8000</p><p>ул. Александровска 101</p><p>056 879400</p><a href=\"mailto:judge@os-burgas.org\">judge@os-burgas.org</a>",42.4983556,27.4711177,"210","/Content/img/markers/marker01.png","Окръжен Съд Бургас"],["211","<p><a href=\"https://aytos-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Айтос</strong></a></p><p>Айтос, 8500</p><p>ул. Цар Освободител 3А</p><p>055 22016</p><a href=\"mailto:rs_aitos@abv.bg\">rs_aitos@abv.bg</a>",42.703056,27.254387,"211","/Content/img/markers/marker01.png","Районен Съд Айтос"],["212","<p><a href=\"https://burgas-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Бургас</strong></a></p><p>Бургас, 8000</p><p>ул. Александровска 101</p><p>056 878843</p><a href=\"mailto:rsyd_burgas@abv.bg\">rsyd_burgas@abv.bg</a>",42.498273,27.470817,"212","/Content/img/markers/marker01.png","Районен Съд Бургас"],["213","<p><a href=\"https://karnobat-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Карнобат</strong></a></p><p>Карнобат, 8400</p><p>ул. Г. Димитров 2</p><p>0559 25915</p><a href=\"mailto:rs_karnobat@mail.bg\">rs_karnobat@mail.bg</a>",42.647336,26.984158999999998,"213","/Content/img/markers/marker01.png","Районен Съд Карнобат"],["214","<p><a href=\"https://mtarnovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Малко Търново</strong></a></p><p>Малко Търново, 8162</p><p>ул. Райна княгиня 3</p><p>05952 3652</p><a href=\"mailto:mtrs@abv.bg\">mtrs@abv.bg</a>",42.4888785,26.507687,"214","/Content/img/markers/marker01.png","Районен Съд Малко Търново"],["215","<p><a href=\"https://nesebar-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Несебър</strong></a></p><p>Несебър, 8230</p><p>ул. Иван Вазов 23</p><p>0554 43254</p><a href=\"mailto:rsnesebar@gmail.com\">rsnesebar@gmail.com</a>",42.6593223,27.7183723,"215","/Content/img/markers/marker01.png","Районен Съд Несебър"],["216","<p><a href=\"https://pomorie-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Поморие</strong></a></p><p>Поморие, 8200</p><p>ул. Калоян 2</p><p>0596 22072</p><a href=\"mailto:rspomorie@mail.bg\">rspomorie@mail.bg</a>",42.5578,27.6397,"216","/Content/img/markers/marker01.png","Районен Съд Поморие"],["217","<p><a href=\"https://sredets-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Средец</strong></a></p><p>Средец, 8300</p><p>пл. Г. Димитров 3</p><p>05551 7373</p><a href=\"mailto:sredecsad@abv.bg\">sredecsad@abv.bg</a>",42.346943,27.181465,"217","/Content/img/markers/marker01.png","Районен Съд Средец"],["218","<p><a href=\"https://tsarevo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Царево</strong></a></p><p>Царево, 8260</p><p>ул. Крайморска 26</p><p>0590 53520</p><a href=\"mailto:rs_carevo@abv.bg\">rs_carevo@abv.bg</a>",42.170204,27.849629,"218","/Content/img/markers/marker01.png","Районен Съд Царево"],["220","<p><a href=\"https://sliven-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Сливен</strong></a></p><p>Сливен, 8800</p><p>бул. Г. Данчев 1</p><p>044 616403</p><a href=\"mailto:os_sliven@iradeum.com\">os_sliven@iradeum.com</a>",42.678453,26.3264363,"220","/Content/img/markers/marker01.png","Окръжен Съд Сливен"],["221","<p><a href=\"https://kotel-rs.justice.bg/\" target=\"_blank\"><strong>Районен Съд Котел</strong></a></p><p>Котел, 8970</p><p>ул. Раковска 58</p><p>0453 42476</p><a href=\"mailto:sad.kotel@gmail.com\">sad.kotel@gmail.com</a>",42.8845022,26.4485315,"221","/Content/img/markers/marker01.png","Районен Съд Котел"],["222","<p><a href=\"https://nzagora-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Нова Загора</strong></a></p><p>Нова Загора, 8900</p><p>ул. Проф. Минко Балкански 60</p><p>0457 62994</p><a href=\"mailto:nzagora-rs@justice.bg\">nzagora-rs@justice.bg</a>",42.491889,26.015684,"222","/Content/img/markers/marker01.png","Районен Съд Нова Загора"],["223","<p><a href=\"https://sliven-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Сливен</strong></a></p><p>Сливен, 8800</p><p>пл. Хаджи Димитър 2</p><p>044 624091</p><a href=\"mailto:rs_sliven@blizoomail.bg\">rs_sliven@blizoomail.bg</a>",42.6809716,26.3135309,"223","/Content/img/markers/marker01.png","Районен Съд Сливен"],["230","<p><a href=\"https://yambol-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Ямбол</strong></a></p><p>Ямбол, 8600</p><p>ул. Жорж Папазов 1 1</p><p>046 688822</p><a href=\"mailto:info@os-yambol.org\">info@os-yambol.org</a>",42.4850413,26.5053682,"230","/Content/img/markers/marker01.png","Окръжен Съд Ямбол"],["231","<p><a href=\"https://elhovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Елхово</strong></a></p><p>Елхово, 8700</p><p>ул. Пирот 2</p><p>0478 81362</p><a href=\"mailto:elhovo-rs@justice.bg\">elhovo-rs@justice.bg</a>",42.17503,26.57356,"231","/Content/img/markers/marker01.png","Районен Съд Елхово"],["232","<p><a href=\"https://topolovgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Тополовград</strong></a></p><p>Тополовград, 6560</p><p>ул. Иван Вазов 2</p><p>0470 2959</p><a href=\"mailto:topol_bg@abv.bg\">topol_bg@abv.bg</a>",42.085274,26.33856,"232","/Content/img/markers/marker01.png","Районен Съд Тополовград"],["233","<p><a href=\"https://yambol-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Ямбол</strong></a></p><p>Ямбол, 8600</p><p>ул. Жорж Папазов 1</p><p>046 661829</p><a href=\"mailto:yrs@yambollan.com\">yrs@yambollan.com</a>",42.4850413,26.5053682,"233","/Content/img/markers/marker01.png","Районен Съд Ямбол"],["300","<p><a href=\"https://varna-as.justice.bg\" target=\"_blank\"><strong>Апелативен Съд Варна</strong></a></p><p>Варна, 8000</p><p>пл. Независимост 2</p><p>052 686506</p><a href=\"mailto:vnaps@mbox.contact.bg\">vnaps@mbox.contact.bg</a>",43.2043147,27.9121643,"300","/Content/img/markers/marker01.png","Апелативен Съд Варна"],["310","<p><a href=\"https://varna-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Варна</strong></a></p><p>Варна, 9000</p><p>пл. Независимост 2</p><p>052 622062</p><a href=\"mailto:president@vos.bg\">president@vos.bg</a>",43.2043147,27.9121643,"310","/Content/img/markers/marker01.png","Окръжен Съд Варна"],["311","<p><a href=\"https://varna-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Варна</strong></a></p><p>Варна, 9000</p><p>бул. Владислав Варненчик 57</p><p>052 602028</p><a href=\"mailto:vrc@mbox.contact.bg\">vrc@mbox.contact.bg</a>",43.211377,27.9063091,"311","/Content/img/markers/marker01.png","Районен Съд Варна"],["312","<p><a href=\"https://devnya-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Девня</strong></a></p><p>Девня, 9160</p><p>ул. Строител 12</p><p>0519 92888</p><a href=\"mailto:rs_devnya@courtdevnya.org\">rs_devnya@courtdevnya.org</a>",43.21712,27.603484,"312","/Content/img/markers/marker01.png","Районен Съд Девня"],["313","<p><a href=\"https://provadiya-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Провадия</strong></a></p><p>Провадия, 9200</p><p>ул. Александър Стамболийски 23</p><p>051 847733</p><a href=\"mailto:rsprov@court-provadia.com\">rsprov@court-provadia.com</a>",43.181847,27.44465,"313","/Content/img/markers/marker01.png","Районен Съд Провадия"],["320","<p><a href=\"https://dobrich-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Добрич</strong></a></p><p>Добрич, 9300</p><p>ул. Д-р Константин Стоилов 7</p><p>058 652030</p><a href=\"mailto:info@os-dobrich.com\">info@os-dobrich.com</a>",43.5719477,27.8293558,"320","/Content/img/markers/marker01.png","Окръжен Съд Добрич"],["321","<p><a href=\"https://balchik-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Балчик</strong></a></p><p>Балчик, 9600</p><p>ул. Стара планина 2</p><p>579 75044</p><a href=\"mailto:balchik_rs@abv.bg\">balchik_rs@abv.bg</a>",43.4225685,28.1686931,"321","/Content/img/markers/marker01.png","Районен Съд Балчик"],["322","<p><a href=\"https://gtoshevo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Генерал Тошево</strong></a></p><p>Генерал Тошево, 9500</p><p>ул. Опълченска1</p><p>05731 2078</p><a href=\"mailto:gtrs@mail.bg\">gtrs@mail.bg</a>",43.7008,28.036,"322","/Content/img/markers/marker01.png","Районен Съд Генерал Тошево"],["323","<p><a href=\"https://dobrich-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Добрич</strong></a></p><p>Добрич, 9300</p><p>ул. Д-р Константин Стоилов 7</p><p>058 652020</p><a href=\"mailto:rs_dobrich@abv.bg\">rs_dobrich@abv.bg</a>",43.5719477,27.8293558,"323","/Content/img/markers/marker01.png","Районен Съд Добрич"],["324","<p><a href=\"https://kavarna-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Каварна</strong></a></p><p>Каварна, 9650</p><p>ул. Дончо Стойков 8</p><p>0570 81015</p><a href=\"mailto:rs_kavarna@abv.bg\">rs_kavarna@abv.bg</a>",43.4341158,28.3401855,"324","/Content/img/markers/marker01.png","Районен Съд Каварна"],["325","<p><a href=\"https://tervel-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Тервел</strong></a></p><p>Тервел, 9450</p><p>ул. Христо Ботев 3</p><p>05751 4043</p><a href=\"mailto:rstervel@mail.bg\">rstervel@mail.bg</a>",43.748681,27.4085,"325","/Content/img/markers/marker01.png","Районен Съд Тервел"],["330","<p><a href=\"https://razgrad-os.justice.bg/\" target=\"_blank\"><strong>Окръжен Съд Разград</strong></a></p><p>Разград, 7200</p><p>пл. Независимост 1</p><p>084 660537</p><a href=\"mailto:os_razgrad@mail.bg\">os_razgrad@mail.bg</a>",43.5267171,26.5234712,"330","/Content/img/markers/marker01.png","Окръжен Съд Разград"],["331","<p><a href=\"https://isperih-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Исперих</strong></a></p><p>Исперих, 7400</p><p>ул. Дунав 2</p><p>08431 2076</p><a href=\"mailto:rs_isperih@raionensydisperih.org\">rs_isperih@raionensydisperih.org</a>",43.72172,26.833782,"331","/Content/img/markers/marker01.png","Районен Съд Исперих"],["332","<p><a href=\"https://kubrat-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Кубрат</strong></a></p><p>Кубрат, 7300</p><p>ул. Цар Иван Асен ІІ 4</p><p>0838 72563</p><a href=\"mailto:rs_kubrat@abv.bg\">rs_kubrat@abv.bg</a>",43.79759,26.5058158,"332","/Content/img/markers/marker01.png","Районен Съд Кубрат"],["333","<p><a href=\"https://razgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Разград</strong></a></p><p>Разград, 7200</p><p>пл. Независимост 1</p><p>084 624 339</p><a href=\"mailto:rs_razgrad@mbox.contact.bg\">rs_razgrad@mbox.contact.bg</a>",43.5267171,26.5234712,"333","/Content/img/markers/marker01.png","Районен Съд Разград"],["340","<p><a href=\"https://silistra-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Силистра</strong></a></p><p>Силистра, 7500</p><p>ул. Симеон Велики 31</p><p>086 816601</p><a href=\"mailto:sos_silistra@abv.bg\">sos_silistra@abv.bg</a>",44.1186635,27.2605987,"340","/Content/img/markers/marker01.png","Окръжен Съд Силистра"],["341","<p><a href=\"https://dulovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Дулово</strong></a></p><p>Дулово, 7650</p><p>ул. В. Левски 12</p><p>0864 24001</p><a href=\"mailto:rsdulovo@abv.bg\">rsdulovo@abv.bg</a>",43.8199056,27.1420925,"341","/Content/img/markers/marker01.png","Районен Съд Дулово"],["342","<p><a href=\"https://silistra-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Силистра</strong></a></p><p>Силистра, 7500</p><p>ул. Симеон Велики 31</p><p>086 816501</p><a href=\"mailto:silistra-rs@vss.justice.bg\">silistra-rs@vss.justice.bg</a>",44.1186635,27.2605987,"342","/Content/img/markers/marker01.png","Районен Съд Силистра"],["343","<p><a href=\"https://tutrakan-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Тутракан</strong></a></p><p>Тутракан, 7600</p><p>ул. Трансмариска 8</p><p>0857 61620</p><a href=\"mailto:RS343@mbox.contact.bg\">RS343@mbox.contact.bg</a>",44.044787,26.614034,"343","/Content/img/markers/marker01.png","Районен Съд Тутракан"],["350","<p><a href=\"https://targovishte-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Търговище</strong></a></p><p>Търговище, 7700</p><p>ул. П.Р.Славейков 59</p><p>0601 62129</p><a href=\"mailto:info@justicetg.org\">info@justicetg.org</a>",43.2468777,26.5736573,"350","/Content/img/markers/marker01.png","Окръжен Съд Търговище"],["351","<p><a href=\"https://omurtag-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Омуртаг</strong></a></p><p>Омуртаг, 7900</p><p>ул. Цар Освободител 5</p><p>0605 62423</p><a href=\"mailto:ors@abv.bg\">ors@abv.bg</a>",43.1072865,26.4188204,"351","/Content/img/markers/marker01.png","Районен Съд Омуртаг"],["352","<p><a href=\"https://popovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Попово</strong></a></p><p>Попово, 7800</p><p>ул.Ал. Стамболийски 1</p><p>0608 47832</p><a href=\"mailto:info@rspopovo.com\">info@rspopovo.com</a>",43.348255,26.227152,"352","/Content/img/markers/marker01.png","Районен Съд Попово"],["353","<p><a href=\"https://targovishte-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Търговище</strong></a></p><p>Търговище, 7700</p><p>ул. Славейков 59</p><p>0601 62410</p><a href=\"mailto:rs_tar@dir.bg\">rs_tar@dir.bg</a>",43.2468777,26.5736573,"353","/Content/img/markers/marker01.png","Районен Съд Търговище"],["360","<p><a href=\"https://shumen-os.justice.bg/\" target=\"_blank\"><strong>Окръжен Съд Шумен</strong></a></p><p>Шумен, 9700</p><p>ул. Съединение 1</p><p>054 850333</p><a href=\"mailto:shos@court-sh.org\">shos@court-sh.org</a>",43.26583,26.94791,"360","/Content/img/markers/marker01.png","Окръжен Съд Шумен"],["361","<p><a href=\"https://vpreslav-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Велики Преслав</strong></a></p><p>Велики Преслав, 9850</p><p>ул. Беломорска 80</p><p>0538 48300</p><a href=\"mailto:vprs@abv.bg\">vprs@abv.bg</a>",43.162029,26.823506,"361","/Content/img/markers/marker01.png","Районен Съд Велики Преслав"],["362","<p><a href=\"https://npazar-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Нови Пазар</strong></a></p><p>Нови Пазар, 9900</p><p>ул. Цар Освободител 31</p><p>0537 27941</p><a href=\"mailto:rs_novipazar@abv.bg\">rs_novipazar@abv.bg</a>",43.3436939,27.191754799999998,"362","/Content/img/markers/marker01.png","Районен Съд Нови Пазар"],["363","<p><a href=\"https://shumen-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Шумен</strong></a></p><p>Шумен, 9700</p><p>ул. Съединение 1</p><p>054 850126</p><a href=\"mailto:rssh@court-sh.org\">rssh@court-sh.org</a>",43.26583,26.94791,"363","/Content/img/markers/marker01.png","Районен Съд Шумен"],["400","<p><a href=\"https://vtarnovo-as.justice.bg\" target=\"_blank\"><strong>Апелативен Съд Велико Търново</strong></a></p><p>Велико Търново, 5000</p><p>ул. Васил Левски 16</p><p>062 600730</p><a href=\"mailto:vtas@abv.bg\">vtas@abv.bg</a>",43.0788842,25.6271534,"400","/Content/img/markers/marker01.png","Апелативен Съд Велико Търново"],["410","<p><a href=\"https://vtarnovo-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Велико Търново</strong></a></p><p>Велико Търново, 5000</p><p>ул. Васил Левски 16</p><p>062 615889</p><a href=\"mailto:vtos.bg@gmail.com\">vtos.bg@gmail.com</a>",43.0788842,25.6271534,"410","/Content/img/markers/marker01.png","Окръжен Съд Велико Търново"],["411","<p><a href=\"https://vtarnovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Велико Търново</strong></a></p><p>Велико Търново, 5000</p><p>ул. Васил Левски 16</p><p>062 615900</p><a href=\"mailto:vtrs@mail.bg\">vtrs@mail.bg</a>",43.0788842,25.6271534,"411","/Content/img/markers/marker01.png","Районен Съд Велико Търново"],["412","<p><a href=\"https://goryahovitsa-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Горна Оряховица</strong></a></p><p>Горна Оряховица, 5100</p><p>ул. Христо Ботев 2</p><p>0618 61911</p><a href=\"mailto:rsad_go@abv.bg\">rsad_go@abv.bg</a>",43.121998,25.689562,"412","/Content/img/markers/marker01.png","Районен Съд Горна Оряховица"],["413","<p><a href=\"https://elena-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Елена</strong></a></p><p>Елена, 5070</p><p>ул. Йеромонах Йосиф Брадати 2</p><p>06151 6243</p><a href=\"mailto:rs_elena@abv.bg\">rs_elena@abv.bg</a>",42.9292248,25.8748158,"413","/Content/img/markers/marker01.png","Районен Съд Елена"],["414","<p><a href=\"https://pavlikeni-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Павликени</strong></a></p><p>Павликени, 5200</p><p>ул. Атанас Хаджиславчев 8</p><p>0610 51545</p><a href=\"mailto:rs_pavlikeni@abv.bg\">rs_pavlikeni@abv.bg</a>",43.2325,25.29897,"414","/Content/img/markers/marker01.png","Районен Съд Павликени"],["415","<p><a href=\"https://svishtov-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Свищов</strong></a></p><p>Свищов, 5250</p><p>ул. Димитър Анев 3</p><p>0631 60293</p><a href=\"mailto:RS_Svishtov@abv.bg\">RS_Svishtov@abv.bg</a>",43.6183951,25.3450771,"415","/Content/img/markers/marker01.png","Районен Съд Свищов"],["420","<p><a href=\"https://gabrovo-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Габрово</strong></a></p><p>Габрово, 5300</p><p>пл. Възраждане 1</p><p>066 811101</p><a href=\"mailto:justice@court-gbr.com\">justice@court-gbr.com</a>",42.8709608,25.3153538,"420","/Content/img/markers/marker01.png","Окръжен Съд Габрово"],["421","<p><a href=\"https://gabrovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Габрово</strong></a></p><p>Габрово, 5300</p><p>пл. Възраждане 1</p><p>066 811207</p><a href=\"mailto:rs-gabrovo@coutr-gbr.com\">rs-gabrovo@coutr-gbr.com</a>",42.8709608,25.3153538,"421","/Content/img/markers/marker01.png","Районен Съд Габрово"],["422","<p><a href=\"https://dryanovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Дряново</strong></a></p><p>Дряново, 5370</p><p>ул. Бачо Киро 21</p><p>0676 75567</p><a href=\"mailto:raionen_sad_drianovo@abv.bg\">raionen_sad_drianovo@abv.bg</a>",42.977926,25.475724,"422","/Content/img/markers/marker01.png","Районен Съд Дряново"],["423","<p><a href=\"https://sevlievo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Севлиево</strong></a></p><p>Севлиево, 5400</p><p>ул. Стефан Пешев 7</p><p>0675 33880</p><a href=\"mailto:administrative@sevlievo.court-bg.org\">administrative@sevlievo.court-bg.org</a>",43.0252547,25.1062142,"423","/Content/img/markers/marker01.png","Районен Съд Севлиево"],["424","<p><a href=\"https://tryavna-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Трявна</strong></a></p><p>Трявна, 5350</p><p>ул. Бачо Киро 1</p><p>0677 62018</p><a href=\"mailto:rstryavna@mail.bg\">rstryavna@mail.bg</a>",42.866997,25.491944,"424","/Content/img/markers/marker01.png","Районен Съд Трявна"],["430","<p><a href=\"https://lovech-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Ловеч</strong></a></p><p>Ловеч, 5500</p><p>ул. Търговска 41</p><p>068 689898</p><a href=\"mailto:los@gbg.bg\">los@gbg.bg</a>",43.1345201,24.7167061,"430","/Content/img/markers/marker01.png","Окръжен Съд Ловеч"],["431","<p><a href=\"https://lovech-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Ловеч</strong></a></p><p>Ловеч, 5500</p><p>ул. Търговска 41</p><p>068 685525</p><a href=\"mailto:LRS@abv.bg\">LRS@abv.bg</a>",43.1345201,24.7167061,"431","/Content/img/markers/marker01.png","Районен Съд Ловеч"],["432","<p><a href=\"https://lukovit-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Луковит</strong></a></p><p>Луковит, 5770</p><p>ул. Раковски 6</p><p>0697 2404</p><a href=\"mailto:rs_lukovit@abv.bg\">rs_lukovit@abv.bg</a>",43.2032051,24.1648653,"432","/Content/img/markers/marker01.png","Районен Съд Луковит"],["433","<p><a href=\"https://teteven-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Тетевен</strong></a></p><p>Тетевен, 5700</p><p>ул. Христо Ботев 3А</p><p>0678 54284</p><a href=\"mailto:rs_teteven@abv.bg\">rs_teteven@abv.bg</a>",42.916868,24.264579,"433","/Content/img/markers/marker01.png","Районен Съд Тетевен"],["434","<p><a href=\"https://troyan-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Троян</strong></a></p><p>Троян, 5600</p><p>пл. Възраждане 1</p><p>0670 62952</p><a href=\"mailto:rs.troyan@mail.bg\">rs.troyan@mail.bg</a>",42.8841,24.7103,"434","/Content/img/markers/marker01.png","Районен Съд Троян"],["440","<p><a href=\"https://pleven-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Плевен</strong></a></p><p>Плевен, 5800</p><p>ул. Д. Константинов 25</p><p>064 893913</p><a href=\"mailto:os_pleven@abv.bg\">os_pleven@abv.bg</a>",43.4086943,24.6208884,"440","/Content/img/markers/marker01.png","Окръжен Съд Плевен"],["441","<p><a href=\"https://levski-rs.justice.bg/\" target=\"_blank\"><strong>Районен Съд Левски</strong></a></p><p>Левски, 5900</p><p>бул. България 58</p><p>0650 82296</p><a href=\"mailto:levski_rs@abv.bg\">levski_rs@abv.bg</a>",43.357482,25.143098,"441","/Content/img/markers/marker01.png","Районен Съд Левски"],["442","<p><a href=\"https://nikopol-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Никопол</strong></a></p><p>Никопол, 5940</p><p>пл. Европа 14</p><p>064 889 159</p><a href=\"mailto:nikopolrs@mbox.contact.bg\">nikopolrs@mbox.contact.bg</a>",43.701476,24.895006,"442","/Content/img/markers/marker01.png","Районен Съд Никопол"],["443","<p><a href=\"https://pleven-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Плевен</strong></a></p><p>Плевен, 5800</p><p>ул. Д. Константинов 25</p><p>064 892975</p><a href=\"mailto:admin-sud-pleven@mbox.contact.bg\">admin-sud-pleven@mbox.contact.bg</a>",43.4086943,24.6208884,"443","/Content/img/markers/marker01.png","Районен Съд Плевен"],["444","<p><a href=\"https://chbryag-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Червен бряг</strong></a></p><p>Червен бряг, 5980</p><p>ул. Екзарх Йосиф 6</p><p>0659 93009</p><a href=\"mailto:chbryag-rs@justice.bg\">chbryag-rs@justice.bg</a>",43.2798151,24.0795523,"444","/Content/img/markers/marker01.png","Районен Съд Червен бряг"],["450","<p><a href=\"https://ruse-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Русе</strong></a></p><p>Русе, 7000</p><p>ул. Александровска 57</p><p>082 881273</p><a href=\"mailto:courtruse@gmail.com\">courtruse@gmail.com</a>",43.8496899,25.9534483,"450","/Content/img/markers/marker01.png","Окръжен Съд Русе"],["451","<p><a href=\"https://byala-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Бяла</strong></a></p><p>Бяла, 7100</p><p>Пл. Екзарх Йосиф I 6</p><p>0817 73113</p><a href=\"mailto:rsbyala@rs-byala.org\">rsbyala@rs-byala.org</a>",43.4591,25.737446,"451","/Content/img/markers/marker01.png","Районен Съд Бяла"],["452","<p><a href=\"https://ruse-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Русе</strong></a></p><p>Русе, 7000</p><p>ул. Александровска 57</p><p>082 825430</p><a href=\"mailto:rusers@gmail.com\">rusers@gmail.com</a>",43.8496899,25.9534483,"452","/Content/img/markers/marker01.png","Районен Съд Русе"],["500","<p><a href=\"https://plovdiv-as.justice.bg\" target=\"_blank\"><strong>Апелативен Съд Пловдив</strong></a></p><p>Пловдив, 4000</p><p>бул. 6 септември 167</p><p>032 656101</p><a href=\"mailto:pvapelsad@dir.bg\">pvapelsad@dir.bg</a>",42.151972,24.7475685,"500","/Content/img/markers/marker01.png","Апелативен Съд Пловдив"],["510","<p><a href=\"https://kardzhali-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Кърджали</strong></a></p><p>Кърджали, 6600</p><p>бул. Беломорски 48</p><p>0361 58815</p><a href=\"mailto:okrsad_kj@mail.bg\">okrsad_kj@mail.bg</a>",41.6395898,25.3759015,"510","/Content/img/markers/marker01.png","Окръжен Съд Кърджали"],["511","<p><a href=\"https://ardino-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Ардино</strong></a></p><p>Ардино, 6750</p><p>ул. Републиканска 6</p><p>03651 4216</p><a href=\"mailto:ardino-rs@justice.bg\">ardino-rs@justice.bg</a>",41.583683,25.13356,"511","/Content/img/markers/marker01.png","Районен Съд Ардино"],["512","<p><a href=\"https://ivaylovgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Ивайловград</strong></a></p><p>Ивайловград, 6570</p><p>ул. Г. Димитров 42</p><p>03661 6017</p><a href=\"mailto:rsi@mail.bg\">rsi@mail.bg</a>",41.5270275,26.1231075,"512","/Content/img/markers/marker01.png","Районен Съд Ивайловград"],["513","<p><a href=\"https://krumovgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Крумовград</strong></a></p><p>Крумовград, 6900</p><p>пл. България 17</p><p>03641 7592</p><a href=\"mailto:sys.rskrumovgrad@gmail.com\">sys.rskrumovgrad@gmail.com</a>",41.470923,25.653165,"513","/Content/img/markers/marker01.png","Районен Съд Крумовград"],["514","<p><a href=\"https://kardzhali-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Кърджали</strong></a></p><p>Кърджали, 6600</p><p>бул. Беломорски 48</p><p>0361 65190</p><a href=\"mailto:kardzhali-rs@justice.bg\">kardzhali-rs@justice.bg</a>",41.6395898,25.3759015,"514","/Content/img/markers/marker01.png","Районен Съд Кърджали"],["515","<p><a href=\"https://momchilgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Момчилград</strong></a></p><p>Момчилград, 6800</p><p>ул. Петър Мирчев 2</p><p>03631 6003</p><a href=\"mailto:rs@link.bg\">rs@link.bg</a>",41.520403,25.413035,"515","/Content/img/markers/marker01.png","Районен Съд Момчилград"],["520","<p><a href=\"https://pazardzhik-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Пазарджик</strong></a></p><p>Пазарджик, 4400</p><p>ул. Хан Крум 3</p><p>034 409500</p><a href=\"mailto:pazardzhik-os@justice.bg\">pazardzhik-os@justice.bg</a>",42.1945089,24.3329829,"520","/Content/img/markers/marker01.png","Окръжен Съд Пазарджик"],["521","<p><a href=\"https://velingrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Велинград</strong></a></p><p>Велинград, 4600</p><p>ул. Хан Аспарух 3</p><p>0359 55551</p><a href=\"mailto:rs_vel@abv.bg\">rs_vel@abv.bg</a>",42.0280504,23.9959362,"521","/Content/img/markers/marker01.png","Районен Съд Велинград"],["522","<p><a href=\"https://pazardzhik-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Пазарджик</strong></a></p><p>Пазарджик, 4400</p><p>ул. Хан Крум 3</p><p>034 409600</p><a href=\"mailto:rcourt-pz@rcourt-pz.info\">rcourt-pz@rcourt-pz.info</a>",42.1945089,24.3329829,"522","/Content/img/markers/marker01.png","Районен Съд Пазарджик"],["523","<p><a href=\"https://panagyurishte-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Панагюрище</strong></a></p><p>Панагюрище, 4500</p><p>ул. Петко Мачев 2</p><p>035788839</p><a href=\"mailto:rspan@mail.bg\">rspan@mail.bg</a>",42.501928,24.1867385,"523","/Content/img/markers/marker01.png","Районен Съд Панагюрище"],["524","<p><a href=\"https://peshtera-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Пещера</strong></a></p><p>Пещера, 4550</p><p>ул. Васил Левски 2А</p><p>0350 60151</p><a href=\"mailto:peshtera-rs@justice.bg\">peshtera-rs@justice.bg</a>",42.0341,24.3037,"524","/Content/img/markers/marker01.png","Районен Съд Пещера"],["530","<p><a href=\"https://plovdiv-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Пловдив</strong></a></p><p>Пловдив, 4000</p><p>бул. 6 септември 167</p><p>032 656231</p><a href=\"mailto:pvokrsad@dir.bg\">pvokrsad@dir.bg</a>",42.151972,24.7475685,"530","/Content/img/markers/marker01.png","Окръжен Съд Пловдив"],["531","<p><a href=\"https://asenovgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Асеновград</strong></a></p><p>Асеновград, 4230</p><p>ул. Цар Иван Асен ІІ 6</p><p>0331 62232</p><a href=\"mailto:info@court-asenovgrad.org\">info@court-asenovgrad.org</a>",42.0048271,24.8753559,"531","/Content/img/markers/marker01.png","Районен Съд Асеновград"],["532","<p><a href=\"https://karlovo-rs.justice.bg/\" target=\"_blank\"><strong>Районен Съд Карлово</strong></a></p><p>Карлово, 4300</p><p>ул. Димитър Събев 4</p><p>0335 94516</p><a href=\"mailto:krs@rs-karlovo.com\">krs@rs-karlovo.com</a>",42.640748,24.8087185,"532","/Content/img/markers/marker01.png","Районен Съд Карлово"],["533","<p><a href=\"https://plovdiv-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Пловдив</strong></a></p><p>Пловдив, 4000</p><p>бул. 6 септември 167</p><p>032 656362</p><a href=\"mailto:plovdiv-rs@justice.bg\">plovdiv-rs@justice.bg</a>",42.151972,24.7475685,"533","/Content/img/markers/marker01.png","Районен Съд Пловдив"],["534","<p><a href=\"https://parvomay-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Първомай</strong></a></p><p>Първомай, 4270</p><p>ул. Христо Ботев 13</p><p>0336 62261</p><a href=\"mailto:rsp@parvomai.escom.bg\">rsp@parvomai.escom.bg</a>",42.099292,25.225941,"534","/Content/img/markers/marker01.png","Районен Съд Първомай"],["540","<p><a href=\"https://smolyan-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Смолян</strong></a></p><p>Смолян, 4700</p><p>бул. България 16</p><p>0301 62812</p><a href=\"mailto:dc_sm@mail.bg\">dc_sm@mail.bg</a>",41.5755669,24.7112455,"540","/Content/img/markers/marker01.png","Окръжен Съд Смолян"],["541","<p><a href=\"https://devin-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Девин</strong></a></p><p>Девин, 4800</p><p>ул. Ал. Костов 1</p><p>03041 2022</p><a href=\"mailto:devin_rs@abv.bg\">devin_rs@abv.bg</a>",41.7429109,24.3915387,"541","/Content/img/markers/marker01.png","Районен Съд Девин"],["542","<p><a href=\"https://zlatograd-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Златоград</strong></a></p><p>Златоград, 4980</p><p>бул. България 120</p><p>030712453</p><a href=\"mailto:rszlatograd@mbox.contact.bg\">rszlatograd@mbox.contact.bg</a>",41.3798446,25.096521,"542","/Content/img/markers/marker01.png","Районен Съд Златоград"],["543","<p><a href=\"https://madan-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Мадан</strong></a></p><p>Мадан, 4900</p><p>ул. Обединение 8</p><p>0308 22117</p><a href=\"mailto:court_madan@mail.bg\">court_madan@mail.bg</a>",41.5001879,24.939005,"543","/Content/img/markers/marker01.png","Районен Съд Мадан"],["544","<p><a href=\"https://smolyan-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Смолян</strong></a></p><p>Смолян, 4700</p><p>бул. България 16</p><p>0301 60450</p><a href=\"mailto:rc_smolyan@mail.bg\">rc_smolyan@mail.bg</a>",41.5755669,24.7112455,"544","/Content/img/markers/marker01.png","Районен Съд Смолян"],["545","<p><a href=\"https://chepelare-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Чепеларе</strong></a></p><p>Чепеларе, 4850</p><p>ул. Беломорска 48</p><p>03051 2127</p><a href=\"mailto:court_che@abv.bg\">court_che@abv.bg</a>",41.725176,24.68467,"545","/Content/img/markers/marker01.png","Районен Съд Чепеларе"],["550","<p><a href=\"https://stzagora-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Стара Загора</strong></a></p><p>Стара Загора , 6000</p><p>бул.”Митрополит Методий Кусев” 33</p><p>+359 42 220 262</p><a href=\"mailto:osstz@osstz.com\">osstz@osstz.com</a>",42.4266137,25.6252062,"550","/Content/img/markers/marker01.png","Окръжен Съд Стара Загора"],["551","<p><a href=\"https://kazanlak-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Казанлък</strong></a></p><p>Казанлък, 6100</p><p>ул. П. Хилендарски 16</p><p>0431 67221</p><a href=\"mailto:krs@kz-court.org\">krs@kz-court.org</a>",42.6207519,25.3961278,"551","/Content/img/markers/marker01.png","Районен Съд Казанлък"],["552","<p><a href=\"https://radnevo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Раднево</strong></a></p><p>Раднево, 6260</p><p>ул. Тачо Даскалов 1</p><p>0417 83433</p><a href=\"mailto:rs_radnevo@abv.bg\">rs_radnevo@abv.bg</a>",42.28987,25.933935,"552","/Content/img/markers/marker01.png","Районен Съд Раднево"],["553","<p><a href=\"https://stzagora-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Стара Загора</strong></a></p><p>Стара Загора, 6000</p><p>бул. Митрополит Методи Кусев 33</p><p>042 900847</p><a href=\"mailto:court@rs-sz.com\">court@rs-sz.com</a>",42.4266137,25.6252062,"553","/Content/img/markers/marker01.png","Районен Съд Стара Загора"],["554","<p><a href=\"https://chirpan-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Чирпан</strong></a></p><p>Чирпан, 6200</p><p>бул. Г. Димитров 28</p><p>0416 92592</p><a href=\"mailto:as_rscir@abv.bg\">as_rscir@abv.bg</a>",42.1984524,25.329173,"554","/Content/img/markers/marker01.png","Районен Съд Чирпан"],["555","<p><a href=\"https://galabovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Гълъбово</strong></a></p><p>Гълъбово, 6280</p><p>ул. Стефан Стамболов 2</p><p>0418 65431</p><a href=\"mailto:rs_galabovo@mail.bg\">rs_galabovo@mail.bg</a>",42.135801,25.864895,"555","/Content/img/markers/marker01.png","Районен Съд Гълъбово"],["560","<p><a href=\"https://haskovo-os.justice.bg\" target=\"_blank\"><strong>Окръжен Съд Хасково</strong></a></p><p>Хасково, 6300</p><p>бул. България 144</p><p>038 601814</p><a href=\"mailto:sud@escom.bg\">sud@escom.bg</a>",41.9339688,25.5500623,"560","/Content/img/markers/marker01.png","Окръжен Съд Хасково"],["561","<p><a href=\"https://dimitrovgrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Димитровград</strong></a></p><p>Димитровград, 6400</p><p>бул. Г. С. Раковски 13</p><p>0391 33170</p><a href=\"mailto:contacts@rs-dimitrovgrad.com\">contacts@rs-dimitrovgrad.com</a>",42.0608508,25.5923712,"561","/Content/img/markers/marker01.png","Районен Съд Димитровград"],["562","<p><a href=\"https://svilengrad-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Свиленград</strong></a></p><p>Свиленград, 6500</p><p>ул. Г. Бенковски 12</p><p>0379 70600</p><a href=\"mailto:svilengrad-rs@justice.bg\">svilengrad-rs@justice.bg</a>",41.7692864,26.1965022,"562","/Content/img/markers/marker01.png","Районен Съд Свиленград"],["563","<p><a href=\"https://harmanli-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Харманли</strong></a></p><p>Харманли, 6450</p><p>пл. Възраждане 11</p><p>0373 82337</p><a href=\"mailto:rsharmanli@mail.bg\">rsharmanli@mail.bg</a>",41.927521,25.902472,"563","/Content/img/markers/marker01.png","Районен Съд Харманли"],["564","<p><a href=\"https://haskovo-rs.justice.bg\" target=\"_blank\"><strong>Районен Съд Хасково</strong></a></p><p>Хасково, 6300</p><p>бул. България 144</p><p>038 601905</p><a href=\"mailto:rshaskovo@mbox.contact.bg\">rshaskovo@mbox.contact.bg</a>",41.9339688,25.5500623,"564","/Content/img/markers/marker01.png","Районен Съд Хасково"],["600","<p><a href=\"https://voas.justice.bg\" target=\"_blank\"><strong>Военно-апелативен съд София</strong></a></p><p>София, 1000</p><p>бул. Витоша 2</p><p>02 9219617</p><a href=\"mailto:vasbg@dir.bg\">vasbg@dir.bg</a>",42.6954187,23.3205029,"600","/Content/img/markers/marker01.png","Военно-апелативен съд София"],["610","<p><a href=\"https://sofia-vs.justice.bg\" target=\"_blank\"><strong>Военен Съд София</strong></a></p><p>София, 1000</p><p>бул. Витоша 2</p><p>02 9219498</p><a href=\"mailto:svs1990@abv.bg\">svs1990@abv.bg</a>",42.6954187,23.3205029,"610","/Content/img/markers/marker01.png","Военен Съд София"],["620","<p><a href=\"https://plovdiv-vs.justice.bg/\" target=\"_blank\"><strong>Военен Съд Пловдив</strong></a></p><p>Пловдив, 4000</p><p>ул. Г. М. Димитров 28</p><p>032 621242</p><a href=\"mailto:voenensd@gmail.com\">voenensd@gmail.com</a>",42.1386708,24.7474364,"620","/Content/img/markers/marker01.png","Военен Съд Пловдив"],["630","<p><a href=\"http://vsvarna.court-bg.org\" target=\"_blank\"><strong>Военен Съд Варна</strong></a></p><p>Варна, 9000</p><p>бул. Владислав Варненчик 57</p><p>052 612188</p><a href=\"mailto:vvs-adm@mbox.contact.bg\">vvs-adm@mbox.contact.bg</a>",43.211377,27.9063091,"630","/Content/img/markers/marker01.png","Военен Съд Варна"],["640","<p><strong>Военен Съд Плевен</strong></p><p>Плевен, 5800</p><p>ул. Димитър Константинов 25</p><p>064 822609</p>",43.4086943,24.6208884,"640","/Content/img/markers/marker01.png","Военен Съд Плевен"],["650","<p><a href=\"https://sliven-vs.justice.bg\" target=\"_blank\"><strong>Военен Съд Сливен</strong></a></p><p>Сливен, 8800</p><p>бул. Г. Данчев 1</p><p>044 667213</p><a href=\"mailto:voenensud@abv.bg\">voenensud@abv.bg</a>",42.678453,26.3264363,"650","/Content/img/markers/marker01.png","Военен Съд Сливен"],["001","<p><a href=\"http://www.sac.government.bg\" target=\"_blank\"><strong>Върховен Административен Съд</strong></a></p><p>София, 1301</p><p>бул. Александър Стамболийски 18</p><p>02 9884902</p><a href=\"mailto:edocuments@sac.justice.bg\">edocuments@sac.justice.bg</a>",42.6971239,23.3200898,"001","/Content/img/markers/marker01.png","Върховен Административен Съд"],["701","<p><a href=\"https://sofia-adms-g.justice.bg\" target=\"_blank\"><strong>Административен съд София град</strong></a></p><p>София, 1000</p><p>ул. Георг Вашингтон 17</p><p>02 42 15 724</p><a href=\"mailto:kabinet@admincourtsofia.bg\">kabinet@admincourtsofia.bg</a>",42.69983,23.320975,"701","/Content/img/markers/marker01.png","Административен съд София град"],["702","<p><a href=\"https://sofia-adms-o.justice.bg\" target=\"_blank\"><strong>Административен съд София област</strong></a></p><p>София, 1000</p><p>ул. Съборна 7</p><p>02 8050711</p><a href=\"mailto:sda_court@abv.bg\">sda_court@abv.bg</a>",42.6960933,23.3234609,"702","/Content/img/markers/marker01.png","Административен съд София област"],["703","<p><a href=\"https://blagoevgrad-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Благоевград</strong></a></p><p>Благоевград, 2700</p><p>ул.Тодор Александров 47</p><p>073 872684</p><a href=\"mailto:admcourtblg@bl-adc.justice.bg\">admcourtblg@bl-adc.justice.bg</a>",42.0170097,23.0955635,"703","/Content/img/markers/marker01.png","Административен съд Благоевград"],["704","<p><a href=\"https://burgas-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Бургас</strong></a></p><p>Бургас, 8000</p><p>ул. Александровска 101</p><p>056 810490</p><a href=\"mailto:ad_sad_bs@abv.bg\">ad_sad_bs@abv.bg</a>",42.498273,27.470817,"704","/Content/img/markers/marker01.png","Административен съд Бургас"],["705","<p><a href=\"https://varna-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Варна</strong></a></p><p>Варна, 9010</p><p>ул. Никола Вапцаров 3А</p><p>052 712805</p><a href=\"mailto:admcourt.vn@gmail.com\">admcourt.vn@gmail.com</a>",43.2130842,27.934346,"705","/Content/img/markers/marker01.png","Административен съд Варна"],["706","<p><a href=\"https://vtarnovo-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Велико Търново</strong></a></p><p>Велико Търново, 5000</p><p>пл. Център 2</p><p>062 604102</p><a href=\"mailto:adm.asvt@abv.bg\">adm.asvt@abv.bg</a>",43.0795106,25.63567,"706","/Content/img/markers/marker01.png","Административен съд Велико Търново"],["707","<p><a href=\"https://vidin-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Видин</strong></a></p><p>Видин, 3700</p><p>пл. Бдинци 1</p><p>094 626363</p><a href=\"mailto:acvidin@acvidin.org\">acvidin@acvidin.org</a>",43.9864407,22.8772471,"707","/Content/img/markers/marker01.png","Административен съд Видин"],["708","<p><a href=\"https://vratsa-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Враца</strong></a></p><p>Враца, 3000</p><p>ул. Иванка Ботева 16</p><p>092 620606</p><a href=\"mailto:asvr@abv.bg\">asvr@abv.bg</a>",43.2065533,23.5506788,"708","/Content/img/markers/marker01.png","Административен съд Враца"],["709","<p><a href=\"https://gabrovo-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Габрово</strong></a></p><p>Габрово, 5300</p><p>ул. Райчо Каролев 4</p><p>066 810722</p><a href=\"mailto:gabrovo-adms@justice.bg\">gabrovo-adms@justice.bg</a>",42.8687123,25.318453,"709","/Content/img/markers/marker01.png","Административен съд Габрово"],["710","<p><a href=\"https://dobrich-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Добрич</strong></a></p><p>Добрич, 9300</p><p>ул. Д-р Константин Стоилов 7</p><p>058 622611</p><a href=\"mailto:asdobrich@mail.bg\">asdobrich@mail.bg</a>",43.5719477,27.8293558,"710","/Content/img/markers/marker01.png","Административен съд Добрич"],["711","<p><a href=\"https://kyustendil-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Кюстендил</strong></a></p><p>Кюстендил, 2500</p><p>ул. Гороцветна 29A</p><p>078 551986</p><a href=\"mailto:adm.kas@mbox.contact.bg\">adm.kas@mbox.contact.bg</a>",42.2781752,22.6880401,"711","/Content/img/markers/marker01.png","Административен съд Кюстендил"],["712","<p><a href=\"https://kardzhali-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Кърджали</strong></a></p><p>Кърджали, 6600</p><p>ул. Булаир 12</p><p>0361 68000</p><a href=\"mailto:admsad_kj@abv.bg\">admsad_kj@abv.bg</a>",41.6384468,25.3680148,"712","/Content/img/markers/marker01.png","Административен съд Кърджали"],["713","<p><a href=\"https://lovech-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Ловеч</strong></a></p><p>Ловеч, 5500</p><p>ул.Търговска 40</p><p>068 601344</p><a href=\"mailto:as_lovech@abv.bg\">as_lovech@abv.bg</a>",43.1377264,24.7178821,"713","/Content/img/markers/marker01.png","Административен съд Ловеч"],["714","<p><a href=\"https://montana-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Монтана</strong></a></p><p>Монтана, 3400</p><p>пл. Жеравица 3</p><p>096 390812</p><a href=\"mailto:as.montana@mail.bg\">as.montana@mail.bg</a>",43.4085367,23.227404,"714","/Content/img/markers/marker01.png","Административен съд Монтана"],["715","<p><a href=\"https://pazardzhik-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Пазарджик</strong></a></p><p>Пазарджик, 4400</p><p>ул. Константин Величков 20</p><p>034 407211</p><a href=\"mailto:admincourt-pz@admincourt-pz.bg\">admincourt-pz@admincourt-pz.bg</a>",42.1913861,24.3294637,"715","/Content/img/markers/marker01.png","Административен съд Пазарджик"],["716","<p><a href=\"https://pernik-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Перник</strong></a></p><p>Перник, 2300</p><p>ул. Търговска 37</p><p>076 647012</p><a href=\"mailto:ospernik@abv.bg\">ospernik@abv.bg</a>",42.6021866,23.0299629,"716","/Content/img/markers/marker01.png","Административен съд Перник"],["717","<p><a href=\"https://pleven-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Плевен</strong></a></p><p>Плевен, 5800</p><p>ул. П. Р. Славейков 21</p><p>064 899900</p><a href=\"mailto:mail@ac-pleven.org\">mail@ac-pleven.org</a>",43.4163374,24.6180077,"717","/Content/img/markers/marker01.png","Административен съд Плевен"],["718","<p><a href=\"https://plovdiv-adms.justice.bg/\" target=\"_blank\"><strong>Административен съд Пловдив</strong></a></p><p>Пловдив, 4000</p><p>ул. Иван Вазов 20</p><p>032 261064</p><a href=\"mailto:adms_pv@abv.bg\">adms_pv@abv.bg</a>",42.1400699,24.7474788,"718","/Content/img/markers/marker01.png","Административен съд Пловдив"],["719","<p><a href=\"https://razgrad-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Разград</strong></a></p><p>Разград, 7200</p><p>бул. Бели Лом 33</p><p>+359 (84) 612 177</p><a href=\"mailto:delovodstvo@razgrad-adms.justice.bg\">delovodstvo@razgrad-adms.justice.bg</a>",43.5249654,26.528639,"719","/Content/img/markers/marker01.png","Административен съд Разград"],["720","<p><a href=\"https://ruse-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Русе</strong></a></p><p>Русе, 7000</p><p>ул. Цариброд 6</p><p>082 511632</p><a href=\"mailto:as@admcourt-ruse.com\">as@admcourt-ruse.com</a>",43.8473028,25.9499378,"720","/Content/img/markers/marker01.png","Административен съд Русе"],["721","<p><a href=\"https://silistra-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Силистра</strong></a></p><p>Силистра, 7500</p><p>ул. Цар Шишман 5</p><p>086 822321</p><a href=\"mailto:adm_sad_silistra@abv.bg\">adm_sad_silistra@abv.bg</a>",44.1178071,27.2618731,"721","/Content/img/markers/marker01.png","Административен съд Силистра"],["722","<p><a href=\"https://sliven-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Сливен</strong></a></p><p>Сливен, 8800</p><p>бул. Цар Освободител 12</p><p>087 5317089</p><a href=\"mailto:delovodstvo@sliven-adms.justice.bg\">delovodstvo@sliven-adms.justice.bg</a>",42.6805218,26.3174013,"722","/Content/img/markers/marker01.png","Административен съд Сливен"],["723","<p><a href=\"https://smolyan-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Смолян</strong></a></p><p>Смолян, 4700</p><p>бул. България 16</p><p>0301 81420</p><a href=\"mailto:ac_smolian@abv.bg\">ac_smolian@abv.bg</a>",41.5755669,24.7112455,"723","/Content/img/markers/marker01.png","Административен съд Смолян"],["724","<p><a href=\"https://stzagora-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Стара Загора</strong></a></p><p>Стара Загора, 6000</p><p>бул. Руски 44</p><p> 042 651040</p><a href=\"mailto:info@adms-sz.com\">info@adms-sz.com</a>",42.4274205,25.6276939,"724","/Content/img/markers/marker01.png","Административен съд Стара Загора"],["725","<p><a href=\"https://targovishte-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Търговище</strong></a></p><p>Търговище, 7700</p><p>пл. Свобода 1</p><p>0601 62268</p><a href=\"mailto:as_tg@abv.bg\">as_tg@abv.bg</a>",43.2461974,26.5725975,"725","/Content/img/markers/marker01.png","Административен съд Търговище"],["726","<p><a href=\"https://haskovo-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Хасково</strong></a></p><p>Хасково, 6300</p><p>ул. Преслав 26</p><p>038 626012</p><a href=\"mailto:has@admsudhaskovo.org\">has@admsudhaskovo.org</a>",41.9312425,25.5533571,"726","/Content/img/markers/marker01.png","Административен съд Хасково"],["727","<p><a href=\"https://shumen-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Шумен</strong></a></p><p>Шумен, 9700</p><p>ул. Адам Мицкевич 1</p><p>054 800791</p><a href=\"mailto:shumen-adms@justice.bg\">shumen-adms@justice.bg</a>",43.2701835,26.9233979,"727","/Content/img/markers/marker01.png","Административен съд Шумен"],["728","<p><a href=\"https://yambol-adms.justice.bg\" target=\"_blank\"><strong>Административен съд Ямбол</strong></a></p><p>Ямбол, 8600</p><p>ул. Александър Стамболийски 4</p><p>046 681000</p><a href=\"mailto:adms_yambol@yambollan.com\">adms_yambol@yambollan.com</a>",42.4851561,26.5049071,"728","/Content/img/markers/marker01.png","Административен съд Ямбол"],["002","<p><a href=\"http://www.vks.bg\" target=\"_blank\"><strong>Върховен Касационен Съд</strong></a></p><p>София, 1000</p><p>бул. Витоша 2</p><p>02 921988</p><a href=\"mailto:http://www.vks.bg/vks_p03.htm\">http://www.vks.bg/vks_p03.htm</a>",42.6954187,23.3205029,"002","/Content/img/markers/marker01.png","Върховен Касационен Съд"]];
+        var gmarkers = [];
+        var gm = google.maps;
+        var mapOptions = {
+            panControl: true,
+            zoom: 7,
+            scrollwheel: true,
+            panControl: true,
+            mapTypeControl: false
+        };
+        map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        //map styles
+        var styles = [{
+            "stylers": [{
+                "hue": "#0088ff"
+            }, {
+                "saturation": -85
+            }]
+        }, {
+            "featureType": "road",
+            "stylers": [{
+                "hue": "#ff8800"
+            }, {
+                "saturation": 87
+            }]
+        }];
+        map.setOptions({
+            styles: styles
+        });
+        var iw = new gm.InfoWindow();
+        var oms = new OverlappingMarkerSpiderfier(map, {
+            markersWontMove: true,
+            markersWontHide: true
+        });
+
+        var usualColor = '/Content/img/markers/marker01.png';
+        var spiderfiedColor = '/Content/img/markers/marker02.png';
+
+        oms.addListener('click', function (marker) {
+            iw.setContent(marker.desc);
+            iw.open(map, marker);
+        });
+        oms.addListener('spiderfy', function (markers) {
+            for (var i = 0; i < markers.length; i++) {
+                markers[i].setIcon(spiderfiedColor);
+            }
+            iw.close();
+        });
+        oms.addListener('unspiderfy', function (markers) {
+            for (var i = 0; i < markers.length; i++) {
+                markers[i].setIcon(usualColor);
+            }
+        });
+
+        var bounds = new gm.LatLngBounds();
+
+        for (i = 0; i < markers.length; i++) {
+            addMarker(markers[i]);
+        }
+
+        function addMarker(marker) {
+            var category = marker[4];
+            var title = marker[6];
+            var pos = new google.maps.LatLng(marker[2], marker[3]);
+            var content = marker[1];
+            var icon = marker[5];
+
+            bounds.extend(pos);
+
+            marker1 = new google.maps.Marker({
+                title: title,
+                position: pos,
+                category: category,
+                map: map,
+                desc: content,
+                icon: icon
+            });
+
+            gmarkers.push(marker1);
+            oms.addMarker(marker1);
+        }
+
+        map.fitBounds(bounds);
+
+        // filterMarkers function:
+        filterMarkers = function (category) {
+            for (i = 0; i < markers.length; i++) {
+                marker = gmarkers[i];
+                // If is same category or category not picked
+                if (marker.category == category) {
+                    map.panTo(marker.position);
+                    map.setZoom(18);
+                    google.maps.event.trigger(marker, 'click');
+                    google.maps.event.trigger(marker, 'click');
+                }
+            }
+        }
+
+        $(".map-container .close_map").click(function(){
+            setTimeout(function(){
+                map.fitBounds(bounds);
+                iw.close();
+                $(".map-search .select2").select2("val", "");
+            }, 500);
+
+        });
+    }
+</script>
+
+<h1 class="text-align-center">Електронни услуги</h1>
+
+
+
+<div class="clearfix">
+    <a href="http://ecase.justice.bg/" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-1.png');"> </span> <strong>Електронни съдебни дела</strong>
+        <p>В портала за електронни съдебни дела с квалифициран електронен подпис,  имате възможност да достъпите потребителски профил и да видите движенията по Вашите дела.</p>
+    </a>
+    <a href="http://legalacts.justice.bg" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-2.png');"> </span> <strong>Актове със заличени лични данни</strong>
+        <p>В портала за публикуване на съдебни актове със заличени лични данни можете да видите публикуваните от съдилищата съдебни решения. За достъп до портала не се изисква потребителско име и парола.</p>
+    </a>
+    <a href="http://evote.justice.bg/" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/e-vote.png');"> </span> <strong>Избори за членове на ВСС</strong>
+        <p>Порталът се използва за провеждане на избори за членове на Висшия съдебен съвет от квотата на съдиите, прокурорите и следователите и електронно дистанционно гласуване.</p>
+    </a>
+
+
+
+    <a href="http://portalextensions.justice.bg/" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-1.png');"> </span> <strong>Подаване на заявление по реда на чл. 410 от ГПК</strong>
+        <p>Електронна услуга за подаване на заявления по реда на чл.410 ГПК. Подаването се извършва с електронен подпис.</p>
+    </a>
+    <a href="https://crr.mjs.bg/" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-3.png');"> </span> <strong>Свидетелство за съдимост</strong>
+        <p>Електронна услуга за издаване на електронно свидетелство за съдимост.</p>
+    </a>
+    <a href="http://anticorruption.justice.bg/" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-4.png');"> </span> <strong>Сигнали за корупция в съдебната система </strong>
+        <p>Система за приемане и обработване на жалби и сигнали за корупция в съдебната система. Тук имате възможност да съобщите и изпратите сигнал за корупция в съдебната система.</p>
+    </a>
+
+
+    <a href="http://webrand.justice.bg/" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-5.png');"> </span> <strong>Случайно разпределение</strong>
+        <p>От тук имате възможност да достъпите информация за начина, по който всяко едно дело е било разпределено, както и да прегледате Протокола от случайното разпределение на всяко дело.</p>
+    </a>
+    <a href="https://epro.justice.bg/" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-8.png');"> </span> <strong>Електронен публичен регистър на отводите</strong>
+        <p>Регистърът съдържа информация за произнасянето на съда по исканите от страни по делата отводи и отводи по инициатива на съда (самоотводи).</p>
+    </a>
+    <a href="https://www.jurors.justice.bg/" target="_blank" class="home-service col-lg-offset-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-9.png');"> </span> <strong>Единен регистър на съдебните заседатели</strong>
+        <p>Регистърът съдържа информация за съдебните заседатели, техните специалности, мандат, за който са избрани и участие в съдебни дела.</p>
+    </a>
+    <a href="https://ersp.justice.bg/" target="_blank" class="home-service col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <span class="service-ico" style="background-image: url('/Content/img/icons/home-service-10.png');"> </span> <strong>Единен регистър на съдебните преводачи</strong>
+        <p>Регистърът съдържа информация за всички лица, които имат право да извършват съдебни преводи в страната.</p>
+    </a>
+</div>
+
+
+        <!-- FOOTER -->
+        <div class="information-links clearfix" style="margin-top:20px;">
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <a style="text-decoration:none;"><strong>Българско правосъдие</strong></a>
+        <a href="http://www.vss.justice.bg/" target="blank">Висш съдебен съвет на Република България</a>
+        <a href="http://www.nbpp.government.bg/" target="blank">Националното бюро за правна помощ</a>
+        <a href="http://www.prb.bg/" target="blank">Прокуратура на Република България</a>
+        <a href="http://www.mjs.bg/" target="blank">Министерство на правосъдието</a>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <a style="text-decoration:none;"><strong>Международно правосъдие</strong></a>
+        <a href="http://www.echr.coe.int/Pages/home.aspx?p=home&amp;c=" target="blank">Европейски съд по правата на човека в Страсбург</a>
+        <a href="https://e-justice.europa.eu/home.do?action=home&amp;plang=bg" target="blank">Европейският портал за електронно правосъдие</a>
+        <a href="http://www.icj-cij.org/" target="blank">Международен съд към ООН в Хага</a>
+        
+    </div>
+    <div class="md-clear"> </div>
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <a style="text-decoration:none;"><strong>Европейско законодателство</strong></a>
+        <a href="http://ec.europa.eu/legislation/index_bg.htm" target="blank">Европейско законодателство</a>
+        <a href="http://ec.europa.eu/civiljustice/index_bg.htm" target="blank">Европейска съдебна мрежа</a>
+        <a href="http://curia.europa.eu/jcms/jcms/j_6/" target="blank">Съд на Европейския съюз</a>
+        <a href="http://eur-lex.europa.eu/homepage.html?locale=bg" target="blank">Право на ЕС</a>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <a style="text-decoration:none;"><strong>Обща информация</strong></a>
+        <a href="/Home/AccessibilityPolicy">Политика за достъпност</a>
+        <a href="https://ecase.justice.bg/Feedback">Обратна връзка</a>
+        <a href="/Home/AboutTheSystem">За системата</a>
+        <a href="/Home/Help">Помощ</a>
+    </div>
+    <span class="gototop">
+        <img src="/Content/img/icons/chevron-up.png" alt="Горе">
+        Горе
+    </span>
+</div>
+
+<footer class="clearfix text-align-center">
+    <div class="col-xs-12">
+        <p style="margin:20px 20% 20px 20%">Порталът е разработен по проект: „Електронно правосъдие - проучване и изграждане на единна комуникационна и информационна инфраструктура и единен електронен портал на съдебната власт“, финансиран по Оперативна програма "Административен капацитет", съфинансирана от Европейския съюз чрез Европейския социален фонд. Договорът е сключен в изпълнение на обществена поръчка с предмет: „Разработване и внедряване на единен портал на електронното правосъдие, и обучение за работа с единния портал“.</p>
+        <p style="margin:20px 20% 20px 20%">Проект „Доразвитие и централизиране на порталите в СП за достъп на граждани до информация, е-услуги и е-правосъдие“, се осъществява с финансовата подкрепа на Оперативна програма „Добро управление“ 2014-2020, съфинансирана от Европейския съюз чрез Европейския социален фонд.</p>
+        <img src="/Content/img/footer-logos.gif" alt="">
+    </div>
+</footer>
+
+    </div>
+
+    <script src="/bundles/upxjs?v=iEyXXdpfaDBlUTUJb_qFiszpWNfco8xDJUT7hL7ZZTU1"></script>
+
+
+    
+
+    <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-61694850-7', 'auto');
+          ga('send', 'pageview');
+
+    </script>
+
+
+
+<span role="status" aria-live="polite" class="select2-hidden-accessible"></span></body></html>

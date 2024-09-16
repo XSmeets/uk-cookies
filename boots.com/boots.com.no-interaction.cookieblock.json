@@ -1,0 +1,956 @@
+{
+    "account.boots.com": {
+        "/": {
+            "apiDomain_3_N2POHauZ36ejoDqicSAcNnjRxrjswQ79aDK_LZyjccQ5qLAaZz11c37QQ0bH9JKR": {
+                "name": "apiDomain_3_N2POHauZ36ejoDqicSAcNnjRxrjswQ79aDK_LZyjccQ5qLAaZz11c37QQ0bH9JKR",
+                "domain": ".account.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225720362,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757761720,
+                        "expiry": 31536000,
+                        "value": "account.boots.com",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225720362
+                    }
+                ]
+            }
+        }
+    },
+    "boots.com": {
+        "/": {
+            "ADRUM": {
+                "name": "ADRUM",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726225721174,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "s=1726225721173&r=https%3A%2F%2Fwww.boots.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726225721174
+                    }
+                ]
+            },
+            "AMCV_591A299B5B5F2D0F0A495E91%40AdobeOrg": {
+                "name": "AMCV_591A299B5B5F2D0F0A495E91%40AdobeOrg",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225719148,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760785719.14703,
+                        "expiry": 34560000.147030115,
+                        "value": "T",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719147
+                    }
+                ]
+            },
+            "OneTrustPrevious": {
+                "name": "OneTrustPrevious",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225720691,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761720,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13:08:40+GMT+0200+(Central+European+Summer+Time)&version=6.9.0&hosts=&consentId=2fba6139-567f-42d2-811b-b40a2f63a23e&interactionCount=0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720690
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225720625,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761720,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13%3A08%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.9.0",
+                        "same_site": "lax",
+                        "timestamp": 1726225720624
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13%3A08%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.9.0&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726225720666
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13%3A08%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.9.0&hosts=&consentId=2fba6139-567f-42d2-811b-b40a2f63a23e&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726225720668
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13%3A08%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.9.0&hosts=&consentId=2fba6139-567f-42d2-811b-b40a2f63a23e&interactionCount=0&landingPath=https%3A%2F%2Fwww.boots.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726225720697
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13%3A08%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.9.0&hosts=&consentId=2fba6139-567f-42d2-811b-b40a2f63a23e&interactionCount=0&landingPath=https%3A%2F%2Fwww.boots.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2CBG79%3A0%2C4%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726225720717
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isIABGlobal=false&datestamp=Fri+Sep+13+2024+13%3A08%3A41+GMT%2B0200+(Central+European+Summer+Time)&version=6.9.0&hosts=&consentId=2fba6139-567f-42d2-811b-b40a2f63a23e&interactionCount=1&landingPath=https%3A%2F%2Fwww.boots.com%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2CBG79%3A0%2C4%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726225721171
+                    }
+                ]
+            },
+            "WC_ACTIVEPOINTER": {
+                "name": "WC_ACTIVEPOINTER",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719691,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-1%2C11352",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719691
+                    }
+                ]
+            },
+            "WC_AUTHENTICATION_-1002": {
+                "name": "WC_AUTHENTICATION_-1002",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719691,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-1002%2Cb4YQAyT36C5beJiWfD5onj88FqdZfKBHwruwKFgaLT0%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719691
+                    }
+                ]
+            },
+            "WC_GENERIC_ACTIVITYDATA": {
+                "name": "WC_GENERIC_ACTIVITYDATA",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719694,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "[23739628720%3Atrue%3Afalse%3A0%3AGVkkm1zuurhhWy1zI%2BRByP9RWg%2FcqHpfjvtKbog6RGU%3D][com.ibm.commerce.context.entitlement.EntitlementContext|12002%2612002%26null%26-2000%26null%26null%26null][com.ibm.commerce.context.audit.AuditContext|1726225719647-5910][com.ibm.commerce.context.globalization.GlobalizationContext|-1%26GBP%26-1%26GBP][com.ibm.commerce.store.facade.server.context.StoreGeoCodeContext|null%26null%26null%26null%26null%26null][com.ibm.commerce.context.experiment.ExperimentContext|null][com.boots.commerce.context.BootsUserContext|null][com.ibm.commerce.context.ExternalCartContext|null][com.ibm.commerce.context.bcsversion.BusinessContextVersionContext|null][com.ibm.commerce.giftcenter.context.GiftCenterContext|null%26null%26null][com.ibm.commerce.catalog.businesscontext.CatalogContext|28501%26null%26false%26false%26false][CTXSETNAME|Store][com.ibm.commerce.context.base.BaseContext|11352%26-1002%26-1002%26-1]",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719693
+                    }
+                ]
+            },
+            "WC_PERSISTENT": {
+                "name": "WC_PERSISTENT",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225719690,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728817719.687111,
+                        "expiry": 2592000.687110901,
+                        "value": "B8JtsEhBm1ujJYOV%2BDOr0uR6ntX22RBTMNd1Tw8Mx68%3D%3B2024-09-13+12%3A08%3A39.657_1726225719647-5910_11352_-1002%2C-1%2CGBP_11352",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719690
+                    }
+                ]
+            },
+            "WC_SESSION_ESTABLISHED": {
+                "name": "WC_SESSION_ESTABLISHED",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225719689,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719689
+                    }
+                ]
+            },
+            "WC_USERACTIVITY_-1002": {
+                "name": "WC_USERACTIVITY_-1002",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719692,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-1002%2C11352%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C1877362032%2Cver_null%2CglPHYCfUod7sdPjGKFauc%2FChvuc1N2CnDvKs04I1Xse4BPonPsiSgBgIDJtXK%2F2P%2Fl1tScq%2F%2Btt1P8ooAyfkzmEC1WSyUPYNY3WUGtmbYpk5i37woX1VfpAItsRaw33E49g239EoDn1jHj9Vgby6zA5toojXTIauJ%2FI%2BM4WMm2MONJIJELZleU50d7UVoWtMcFzcl67h5qlgTkPGrpAwUQIltK4NKfAf7u6S%2FHLA7VenwmKpvmywvZ%2FHWRFPV4wB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719692
+                    }
+                ]
+            },
+            "at_check": {
+                "name": "at_check",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726225719146,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719145
+                    }
+                ]
+            },
+            "gig3pctest": {
+                "name": "gig3pctest",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726225720364,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726225721,
+                        "expiry": 1,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225720364
+                    }
+                ]
+            },
+            "incap_ses_727_949787": {
+                "name": "incap_ses_727_949787",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225716619,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5dfzU+KywxiTN+FAttIWCjQd5GYAAAAA8ibO/RRewVUxV4ZC1etZ8A==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225716608
+                    }
+                ]
+            },
+            "incap_ses_869_2478461": {
+                "name": "incap_ses_869_2478461",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225721087,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "CRcJDFVKtw4L89D3904PDDkd5GYAAAAA0nS5QFZ3/6zSgJU0GYzWuw==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225721087
+                    }
+                ]
+            },
+            "mbox": {
+                "name": "mbox",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225719149,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726227580,
+                        "expiry": 1861,
+                        "value": "session#1001a91bbefe400880657caceb480b59#1726227580",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719148
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.45283198,
+                        "value": "session#1001a91bbefe400880657caceb480b59#1726227580|PC#1001a91bbefe400880657caceb480b59.37_0#1789470520",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719453
+                    }
+                ]
+            },
+            "mboxEdgeCluster": {
+                "name": "mboxEdgeCluster",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719455,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726227579,
+                        "expiry": 1860,
+                        "value": "37",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719454
+                    }
+                ]
+            },
+            "nlbi_949787": {
+                "name": "nlbi_949787",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225716608,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Ki73SI5aTiuh1I+mb/11CwAAAAAkmeeyHxzrExSe+A2eGgh6",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719695
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "nLoGGY0qsQlMOhJvb/11CwAAAADhDg9um3IvhnToew5n3LAe",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719727
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pVmUBYQH/nlEMjrBb/11CwAAAADnrY3/WMjRXN42ERXJvPRW",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719773
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4LNiCenUfR5uywv7b/11CwAAAACoYBtIby2JBdMfyxMs3OeP",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719967
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "TzXLdfipCnN086L3b/11CwAAAAB/0so/QA2eDIRqgoueFqLl",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719984
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "08/jLmqdvT0LcLh7b/11CwAAAABr3twFkHq/peoaedtfYa+v",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719994
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5RuCf3RMCmLNaw53b/11CwAAAACmE/mrAgIFSEn9bfSJu3HL",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720774
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "l+5UBygOxju/KS71b/11CwAAAAAW8UblIxpGPP7EOBzeRP0m",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720786
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pwfDP7kV3QVC1zszb/11CwAAAAAXoaTIiu+ldYMFJy3wwTWM",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720983
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "HPGMEv/oKWs8gZ7fb/11CwAAAAAEnl1u4lMSbYzJDxNS9e0H",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225721125
+                    }
+                ]
+            },
+            "test": {
+                "name": "test",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719112,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719111
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719114
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225719115
+                    }
+                ]
+            },
+            "visid_incap_2478461": {
+                "name": "visid_incap_2478461",
+                "domain": ".boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225721087,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757716958.08469,
+                        "expiry": 31491237.084690094,
+                        "value": "WwR2oKzTQCu11DPIja9A/jkd5GYAAAAAQUIPAAAAAADMpPZVj/7qngNVsiyqSqbg",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225721086
+                    }
+                ]
+            },
+            "gig_canary": {
+                "name": "gig_canary",
+                "domain": ".www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719561,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719560
+                    }
+                ]
+            },
+            "gig_canary_ver": {
+                "name": "gig_canary_ver",
+                "domain": ".www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719562,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "16174-3-28770420",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719561
+                    }
+                ]
+            },
+            "DISPLAYNAME": {
+                "name": "DISPLAYNAME",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719695,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817719.687357,
+                        "expiry": 2592000.687356949,
+                        "value": "guest",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719695
+                    }
+                ]
+            },
+            "DataLayerLoginOption": {
+                "name": "DataLayerLoginOption",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719799,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Guest",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719798
+                    }
+                ]
+            },
+            "DataLayerUserObject": {
+                "name": "DataLayerUserObject",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719695,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817719.687379,
+                        "expiry": 2592000.6873788834,
+                        "value": "-1002%7C%7CNew%7Cfalse%7Cfalse%7C%7C%7C%7C0d-t46WyHotkndNNhxPdUIx",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719695
+                    }
+                ]
+            },
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719688,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "00010d-t46WyHotkndNNhxPdUIx:-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719687
+                    }
+                ]
+            },
+            "QueueITAccepted-SDFrts345E": {
+                "name": "QueueITAccepted-SDFrts345E",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225716762,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726312116.757271,
+                        "expiry": 86400.7572710514,
+                        "value": "EventId%3Dplannedmaint2024uk%26QueueId%3D4b2e3b72-fce2-4b6a-8b46-cc48e49e188e%26IsCookieExtendable%3Dtrue%26Expires%3D1726226916%26Hash%3D9000e960dc167d077bb9f5b7b8c9d87d27da543d0a3e7f64a6945285576bbaf9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225716758
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.7890329361,
+                        "value": "EventId%3Dplannedmaint2024uk%26QueueId%3D4b2e3b72-fce2-4b6a-8b46-cc48e49e188e%26IsCookieExtendable%3Dtrue%26Expires%3D1726226916%26Hash%3D9000e960dc167d077bb9f5b7b8c9d87d27da543d0a3e7f64a6945285576bbaf9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225716793
+                    }
+                ]
+            },
+            "UserType": {
+                "name": "UserType",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719695,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817719.687243,
+                        "expiry": 2592000.687242985,
+                        "value": "G",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719694
+                    }
+                ]
+            },
+            "_ALGOLIA": {
+                "name": "_ALGOLIA",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225719104,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "anonymous-592465f4-4c33-4f26-a63a-cd92fc077252",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225719101
+                    }
+                ]
+            },
+            "___utmvc": {
+                "name": "___utmvc",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225720214,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726225740,
+                        "expiry": 20,
+                        "value": "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",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720211
+                    }
+                ]
+            },
+            "deepLinkVisited": {
+                "name": "deepLinkVisited",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225720249,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720248
+                    }
+                ]
+            },
+            "x-search-usertoken": {
+                "name": "x-search-usertoken",
+                "domain": "www.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225720093,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817720,
+                        "expiry": 2592000,
+                        "value": "9b2ed5fb-88b9-4367-b966-b6bbf190b876",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225720092
+                    }
+                ]
+            }
+        }
+    },
+    "assets.boots.com": {
+        "/": {
+            "ApplicationGatewayAffinity": {
+                "name": "ApplicationGatewayAffinity",
+                "domain": "assets.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225721086,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "65680fc3ce62ab97706ad6a965a55373",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225721086
+                    }
+                ]
+            },
+            "ApplicationGatewayAffinityCORS": {
+                "name": "ApplicationGatewayAffinityCORS",
+                "domain": "assets.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225721085,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "65680fc3ce62ab97706ad6a965a55373",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225721085
+                    }
+                ]
+            }
+        }
+    },
+    "queue.boots.com": {
+        "/": {
+            "Queue-it-4b2e3b72-fce2-4b6a-8b46-cc48e49e188e": {
+                "name": "Queue-it-4b2e3b72-fce2-4b6a-8b46-cc48e49e188e",
+                "domain": "queue.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225716731,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726229316.722083,
+                        "expiry": 3600.722083091736,
+                        "value": "WasRedirected=false&i=638618225167820848",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225716728
+                    }
+                ]
+            },
+            "Queue-it-token": {
+                "name": "Queue-it-token",
+                "domain": "queue.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225716727,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726225896.721167,
+                        "expiry": 180.72116708755493,
+                        "value": "e_plannedmaint2024uk~q_4b2e3b72-fce2-4b6a-8b46-cc48e49e188e~ts_1726225896~ce_true~rt_safetynet~h_30fe5d7e22027a7036351d890b04bc23e79475dcbf01ddef33258b006282712b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225716723
+                    }
+                ]
+            },
+            "Queue-it": {
+                "name": "Queue-it",
+                "domain": "queue.boots.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225716734,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757761716.722131,
+                        "expiry": 31536000.722131014,
+                        "value": "u=9dfd950e-6218-4095-8151-28b2a842a279",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225716731
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "migrationsverket.se": {
+        "/": {
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "www.migrationsverket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726150411419,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7A5F25B325707915789EA08B0E4AD738",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726150411410
+                    }
+                ]
+            },
+            "ppms_privacy_d1f25f31-a983-48af-b044-23df3c5af29d": {
+                "name": "ppms_privacy_d1f25f31-a983-48af-b044-23df3c5af29d",
+                "domain": "www.migrationsverket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726150412554,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757686412,
+                        "expiry": 31536000,
+                        "value": "{%22visitorId%22:%226fa752ad-022c-4ab5-b992-19bafd73dcd5%22%2C%22domain%22:{%22normalized%22:%22www.migrationsverket.se%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.migrationsverket.se%22}}",
+                        "same_site": "strict",
+                        "timestamp": 1726150412549
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{%22visitorId%22:%226fa752ad-022c-4ab5-b992-19bafd73dcd5%22%2C%22domain%22:{%22normalized%22:%22www.migrationsverket.se%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.migrationsverket.se%22}%2C%22consents%22:{%22analytics%22:{%22status%22:-1}}}",
+                        "same_site": "strict",
+                        "timestamp": 1726150412554
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{%22visitorId%22:%226fa752ad-022c-4ab5-b992-19bafd73dcd5%22%2C%22domain%22:{%22normalized%22:%22www.migrationsverket.se%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.migrationsverket.se%22}%2C%22consents%22:{%22analytics%22:{%22status%22:0}}}",
+                        "same_site": "strict",
+                        "timestamp": 1726150416788
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{%22visitorId%22:%226fa752ad-022c-4ab5-b992-19bafd73dcd5%22%2C%22domain%22:{%22normalized%22:%22www.migrationsverket.se%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.migrationsverket.se%22}%2C%22consents%22:{%22analytics%22:{%22status%22:0}}}",
+                        "same_site": "strict",
+                        "timestamp": 1726150416804
+                    }
+                ]
+            },
+            "sv-cookie-consent": {
+                "name": "sv-cookie-consent",
+                "domain": "www.migrationsverket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726150416786,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757686416.783378,
+                        "expiry": 31536000.783377886,
+                        "value": ".c3YtaW50ZXJuYWwtc3Ytd2ViLWFuYWx5dGljcyxzdi1pbnRlcm5hbC1tdG1fY29va2llX2NvbnNlbnQsc3Ytd2ViLWFuYWx5dGljcyxzdi13ZWItYW5hbHl0aWNzLWN1c3RvbSxzdi13ZWItYW5hbHl0aWNzLW1hcmtldGluZyxzdi13ZWItYW5hbHl0aWNzLWZ1bmN0aW9uYWw=",
+                        "same_site": "lax",
+                        "timestamp": 1726150416784
+                    }
+                ]
+            }
+        }
+    }
+}

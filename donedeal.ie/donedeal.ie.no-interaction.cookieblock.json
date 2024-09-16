@@ -1,0 +1,109 @@
+{
+    "donedeal.ie": {
+        "/": {
+            "cto_tld_test": {
+                "name": "cto_tld_test",
+                "domain": ".donedeal.ie",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726168037445,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726171637,
+                        "expiry": 3600,
+                        "value": "woot",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168037444
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".donedeal.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168037609,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741982837,
+                        "expiry": 15814800,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTdhMWYtOGU1Ni02OTQ4LWIwNTEtYWI1YTM2MjRlNDM1IiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTk6MDc6MTcuNjA1WiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDE5OjA3OjE3LjYwNloiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726168037608
+                    }
+                ]
+            },
+            "__Host-next-auth.csrf-token": {
+                "name": "__Host-next-auth.csrf-token",
+                "domain": "www.donedeal.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168036970,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ea8375087e8cfa341fd1b9eeb9cc69cba7ca324acbf39898293bc50424ac23d0%7C487766074d1c82ee735bb9abe3dc18eb9b4f7143a0ec932fb5fd89e3af7dc0ac",
+                        "same_site": "lax",
+                        "timestamp": 1726168036961
+                    }
+                ]
+            },
+            "__Secure-next-auth.callback-url": {
+                "name": "__Secure-next-auth.callback-url",
+                "domain": "www.donedeal.ie",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726168036977,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https%3A%2F%2Fwww.donedeal.ie",
+                        "same_site": "lax",
+                        "timestamp": 1726168036972
+                    }
+                ]
+            },
+            "criteo_write_test": {
+                "name": "criteo_write_test",
+                "domain": "www.donedeal.ie",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726168037446,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726168047,
+                        "expiry": 10,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726168037445
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "amazon-adsystem.com": {
+        "/": {
+            "ad-privacy": {
+                "name": "ad-privacy",
+                "domain": ".amazon-adsystem.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726149970161,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760709970.159635,
+                        "expiry": 34560000.15963507,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726149970160
+                    }
+                ]
+            }
+        }
+    },
+    "amazon.se": {
+        "/": {
+            "i18n-prefs": {
+                "name": "i18n-prefs",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726149966840,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757685966.834722,
+                        "expiry": 31536000.834722042,
+                        "value": "SEK",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149966835
+                    }
+                ]
+            },
+            "session-id-time": {
+                "name": "session-id-time",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149966835,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685966.834637,
+                        "expiry": 31536000.834636927,
+                        "value": "2082787201l",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149966835
+                    }
+                ]
+            },
+            "session-id": {
+                "name": "session-id",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149966835,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685966.834474,
+                        "expiry": 31536000.834474087,
+                        "value": "258-6846907-2223224",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149966835
+                    }
+                ]
+            },
+            "session-token": {
+                "name": "session-token",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149968987,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685968.984939,
+                        "expiry": 31536000.9849391,
+                        "value": "NpMK2rYqqlrYHr2B3Rlyaof+EJT+iNG7u+d+g/YN8jN78Cl0sBSjzkx9Q446ymaiBqopsPVUKKYm+b+YaVen03BSzjSHCDm7TVToLERfaZkeBtdBeuX1rYGd/h2Rj+cI4xOPx5d5s2ZItNTzKXGU5hV6pQXfP9xHW5Fq8Z5FE1sLrPFFz5yEPkR89FpV2znGQPAYJyIrF9LQkOS4woRapsnrpUGqE2mIVvk2RyB58vGrwQnkHbio4uefxnByJWVH3JwDRXGp2WnioetWpG4z8SaJ5U2QgV3XCZXZHgVu/1zqXr9AsTHPdWJ0epo/LZuH1HL2WQd+iycQ89YKyaAk7WsinoCzi3y6",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149968985
+                    }
+                ]
+            },
+            "ubid-acbse": {
+                "name": "ubid-acbse",
+                "domain": ".amazon.se",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726149968693,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685968.685944,
+                        "expiry": 31536000.68594408,
+                        "value": "258-9928189-6580607",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149968686
+                    }
+                ]
+            },
+            "csm-hit": {
+                "name": "csm-hit",
+                "domain": "www.amazon.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149966659,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1756389966,
+                        "expiry": 30240000,
+                        "value": "tb:s-RTVC3A7EKDBS6NF4036P|1726149966657&t:1726149966657",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149966659
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:s-RTVC3A7EKDBS6NF4036P|1726149966657&t:1726149966753&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149966754
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:RTVC3A7EKDBS6NF4036P+s-RTVC3A7EKDBS6NF4036P|1726149968610&t:1726149968610&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149968611
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:s-W59D0NXCSX13J5VJH7FD|1726149968827&t:1726149968827&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149968828
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:s-W59D0NXCSX13J5VJH7FD|1726149968827&t:1726149969021&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149969022
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:RTVC3A7EKDBS6NF4036P+s-W59D0NXCSX13J5VJH7FD|1726149969933&t:1726149969933&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149969934
+                    }
+                ]
+            }
+        }
+    }
+}

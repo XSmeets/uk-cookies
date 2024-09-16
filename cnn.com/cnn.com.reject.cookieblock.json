@@ -1,0 +1,1461 @@
+{
+    "cnn.com": {
+        "/": {
+            "FastAB": {
+                "name": "FastAB",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395330630,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931330.627761,
+                        "expiry": 31536000.627760887,
+                        "value": "0=8542,1=0696,2=6986,3=0998,4=2252,5=7635,6=2324,7=1559,8=4303,9=9498,10=9920,11=9837,12=5165,13=6852,14=9896,15=1803,16=2723,17=7220,18=5278,19=2876",
+                        "same_site": "lax",
+                        "timestamp": 1726395330629
+                    }
+                ]
+            },
+            "FastAB_Zion": {
+                "name": "FastAB_Zion",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726395330909,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5.1",
+                        "same_site": "lax",
+                        "timestamp": 1726395330907
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5.1",
+                        "same_site": "lax",
+                        "timestamp": 1726395331157
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395352433,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931352,
+                        "expiry": 31536000,
+                        "value": "2024-09-15T10:15:52.432Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395352432
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331446,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395352437
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395352462
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353864
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353865
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353873
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353874
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353876
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353877
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B&AwaitingReconsent=false",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353877
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+12%3A15%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=202408.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=53e26f1e-96e2-44ef-a987-48e842d01113&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=dsa%3A0%2Ccad%3A0%2Cpad%3A0%2Cpap%3A0%2Cpcd%3A0%2Cpcp%3A0%2Cmap%3A0%2Cmcp%3A0%2Cmra%3A0%2Cpdd%3A0%2Csec%3A1%2Ctdc%3A1%2Ccos%3A1%2Cdlk%3A1%2Cdid%3A1%2Cven%3A1%2Cdsh%3A1%2Cdsl%3A1%2Creq%3A1&intType=5&geolocation=GB%3B&AwaitingReconsent=false",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353930
+                    }
+                ]
+            },
+            "OptanonControl": {
+                "name": "OptanonControl",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395353478,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931353,
+                        "expiry": 31536000,
+                        "value": "ccc=GB&csc=&cic=1&otvers=202408.1.0&pctm=2024-09-15T10%3A15%3A52.432Z&reg=gdpr&ustcs=1---&vers=4.1.17",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353474
+                    }
+                ]
+            },
+            "SecGpc": {
+                "name": "SecGpc",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395330536,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331506
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353600
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353669
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353673
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353732
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353830
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353831
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354106
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354177
+                    }
+                ]
+            },
+            "TEST_AMCV_COOKIE_WRITE": {
+                "name": "TEST_AMCV_COOKIE_WRITE",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395330805,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395330804
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395330808
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395330809
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395353638
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395353639
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395331119,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395331118
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395331119
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395353666
+                    }
+                ]
+            },
+            "_dlt": {
+                "name": "_dlt",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395331137,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726481731,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395331135
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395353834
+                    }
+                ]
+            },
+            "_sp_id.f5fb": {
+                "name": "_sp_id.f5fb",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395331183,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395331.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331291
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395331.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331293
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395331.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331298
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395354.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353584
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395354.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353587
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395354.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353674
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395354.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353887
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395354.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353977
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395354.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353979
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "0ba14353-7b93-4c7c-bb55-c8e757d814e9.1726395331.1.1726395356.1726395331.156d7b0a-c051-4ff6-9345-51fc92a493b0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395356199
+                    }
+                ]
+            },
+            "_sp_root_domain_test_1726395331179": {
+                "name": "_sp_root_domain_test_1726395331179",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331181,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_test_value_1726395331179",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331180
+                    }
+                ]
+            },
+            "_sp_root_domain_test_1726395353669": {
+                "name": "_sp_root_domain_test_1726395353669",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395353674,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_test_value_1726395353669",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353673
+                    }
+                ]
+            },
+            "_sp_ses.f5fb": {
+                "name": "_sp_ses.f5fb",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395331182,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331291
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331293
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395331298
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353585
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353587
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353674
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353887
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353977
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353979
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395356199
+                    }
+                ]
+            },
+            "_t_tests": {
+                "name": "_t_tests",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331289,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726398931,
+                        "expiry": 3600,
+                        "value": "eyJyMVQzazYwd21zNDY0Ijp7ImNob3NlblZhcmlhbnQiOiJCIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJCVV9qQU4iXX0sImxTeXhCWHdYY1V4c1giOnsiY2hvc2VuVmFyaWFudCI6IkQiLCJzcGVjaWZpY0xvY2F0aW9uIjpbIkNZSy15WiJdfSwibHY2aklCcDZYNUVtaSI6eyJjaG9zZW5WYXJpYW50IjoiQSIsInNwZWNpZmljTG9jYXRpb24iOlsiRHFUdmt2Il19LCJsaWZ0X2V4cCI6Im0ifQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395331286
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600,
+                        "value": "eyJyMVQzazYwd21zNDY0Ijp7ImNob3NlblZhcmlhbnQiOiJCIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJCVV9qQU4iXX0sImxTeXhCWHdYY1V4c1giOnsiY2hvc2VuVmFyaWFudCI6IkQiLCJzcGVjaWZpY0xvY2F0aW9uIjpbIkNZSy15WiJdfSwibHY2aklCcDZYNUVtaSI6eyJjaG9zZW5WYXJpYW50IjoiQSIsInNwZWNpZmljTG9jYXRpb24iOlsiRHFUdmt2Il19LCJsaWZ0X2V4cCI6Im0ifQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395353855
+                    }
+                ]
+            },
+            "countryCode": {
+                "name": "countryCode",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395330541,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353706
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353716
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353732
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353830
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353831
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354106
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354156
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354177
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395352460,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931352,
+                        "expiry": 31536000,
+                        "value": "CQE_EnAQE_EnAAcABBENBHFwAAAAAAAAAAwIAAAAAAFBIBoACwAQQAyADQAJgAfgBCACOAHsAQAAjABJQF5gN1CABAASAEHAXkA_cdARAAWACAAF0AMgA0ACYAH4AUYA9gCLAEYAI6ASUAsQC8wGWANVAbqOADAAkAEcAQCAg4CEAMEAfuQgCgALABcAI4BaIDVSAAMAsQC8gGCEoAwACwAmACOAFGAvMBlhIAGAQAAg4D9ykA4ABYAIIAZABoAEwAKQAfgBRgEWAIwAR0AkoC8wGWAN1KACgASAAuAEcAQAAg4BYgC6gLyAYIA_cAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395352458
+                    }
+                ]
+            },
+            "geoData": {
+                "name": "geoData",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395330542,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353706
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353715
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353732
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080|826044",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080|826044",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353830
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080|826044",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353831
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080|826044",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354106
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354157
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "london|LND|ec2n 3ar|GB|EU|100|broadband|51.510|-0.080|826044",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354177
+                    }
+                ]
+            },
+            "stateCode": {
+                "name": "stateCode",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395330542,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353706
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353715
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353732
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353830
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353831
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354106
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354157
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "LND",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395354177
+                    }
+                ]
+            },
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": ".cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395330660,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1---",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395330659
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1---",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353628
+                    }
+                ]
+            }
+        }
+    },
+    "edition.cnn.com": {
+        "/": {
+            "bounceClientVisit7291v": {
+                "name": "bounceClientVisit7291v",
+                "domain": ".edition.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331413,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726397131,
+                        "expiry": 1800,
+                        "value": "N4IgNgDiBcIBYBcEQM4FIDMBBNAmAYnvgKYAmAlguQPYB2AdAMa0OPUC2RIANCAE4wQIAL5A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395331412
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "N4IgNgDiBcIBYBcEQM4FIDMBBNAmAYnvgKYAmAlguQPYB2AdAMa0OPUC2RIANCAE4wQZSjVYsmHEAF8gA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395353936
+                    }
+                ]
+            },
+            "wbdFch": {
+                "name": "wbdFch",
+                "domain": ".edition.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395330632,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726395360.628492,
+                        "expiry": 30.6284921169281,
+                        "value": "f243a9638198f389607ef5d322db4fbde13a0a81",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395330631
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30.599742889404297,
+                        "value": "f243a9638198f389607ef5d322db4fbde13a0a81",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395353600
+                    }
+                ]
+            },
+            "_dd_s": {
+                "name": "_dd_s",
+                "domain": "edition.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331042,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396251751",
+                        "same_site": "strict",
+                        "timestamp": 1726395351752
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396251751&lock=de3f306a-20bc-4659-9deb-9f6bab8dd19e",
+                        "same_site": "strict",
+                        "timestamp": 1726395352041
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396251751",
+                        "same_site": "strict",
+                        "timestamp": 1726395352042
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396252428&lock=103887b8-fd27-42b2-83e3-8aa11401f51d",
+                        "same_site": "strict",
+                        "timestamp": 1726395352429
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396252428",
+                        "same_site": "strict",
+                        "timestamp": 1726395352430
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396252428",
+                        "same_site": "strict",
+                        "timestamp": 1726395353042
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396253793",
+                        "same_site": "strict",
+                        "timestamp": 1726395353812
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396253793&lock=d0ea41a9-5dd4-42ff-89ad-afcc4d9dc46f",
+                        "same_site": "strict",
+                        "timestamp": 1726395354795
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396253793",
+                        "same_site": "strict",
+                        "timestamp": 1726395354797
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "logs=1&id=b218b853-1fc6-4ded-98ff-6b72f7e30023&created=1726395331040&expire=1726396253793",
+                        "same_site": "strict",
+                        "timestamp": 1726395355797
+                    }
+                ]
+            },
+            "dd_cookie_test_a5553786-cce1-4a17-b933-d8389d0ba1a3": {
+                "name": "dd_cookie_test_a5553786-cce1-4a17-b933-d8389d0ba1a3",
+                "domain": "edition.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395353811,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726395413,
+                        "expiry": 60,
+                        "value": "test",
+                        "same_site": "strict",
+                        "timestamp": 1726395353811
+                    }
+                ]
+            },
+            "dd_cookie_test_efde25bb-4e5e-456b-bc76-a58bcc7bb59d": {
+                "name": "dd_cookie_test_efde25bb-4e5e-456b-bc76-a58bcc7bb59d",
+                "domain": "edition.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331040,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726395391,
+                        "expiry": 60,
+                        "value": "test",
+                        "same_site": "strict",
+                        "timestamp": 1726395331039
+                    }
+                ]
+            },
+            "nexus-web-application-identifier": {
+                "name": "nexus-web-application-identifier",
+                "domain": "edition.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331710,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760955331.709265,
+                        "expiry": 34560000.70926499,
+                        "value": "69aca654-61e9-4516-b114-810b86c193df|1726395331709",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395331709
+                    }
+                ]
+            }
+        }
+    },
+    "collector.cdp.cnn.com": {
+        "/": {
+            "sp": {
+                "name": "sp",
+                "domain": "collector.cdp.cnn.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395331648,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931331.646885,
+                        "expiry": 31536000.64688492,
+                        "value": "846e4ed7-6a2f-4963-b692-d0fa280d7a25",
+                        "same_site": "strict",
+                        "timestamp": 1726395331647
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.700337887,
+                        "value": "846e4ed7-6a2f-4963-b692-d0fa280d7a25",
+                        "same_site": "strict",
+                        "timestamp": 1726395331701
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.94100809,
+                        "value": "846e4ed7-6a2f-4963-b692-d0fa280d7a25",
+                        "same_site": "strict",
+                        "timestamp": 1726395353941
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.031004906,
+                        "value": "846e4ed7-6a2f-4963-b692-d0fa280d7a25",
+                        "same_site": "strict",
+                        "timestamp": 1726395354031
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.132771015,
+                        "value": "846e4ed7-6a2f-4963-b692-d0fa280d7a25",
+                        "same_site": "strict",
+                        "timestamp": 1726395354133
+                    }
+                ]
+            }
+        }
+    },
+    "turnip.cdn.turner.com": {
+        "/": {
+            "akacd_cvp_prod_ion": {
+                "name": "akacd_cvp_prod_ion",
+                "domain": "turnip.cdn.turner.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395332146,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726395452.145318,
+                        "expiry": 120.14531803131104,
+                        "value": "1726395454~rv=61~id=ab3dd3ea7647421b30b6a287e6a9a493",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395332145
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 120.14740896224976,
+                        "value": "1726395454~rv=63~id=0c57fb5b280cf08e64f8f8a665ddb02a",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395332147
+                    }
+                ]
+            }
+        }
+    }
+}

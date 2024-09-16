@@ -1,0 +1,990 @@
+{
+    "canada.ca": {
+        "/": {
+            "AMCVS_A90F2A0D55423F537F000101%40AdobeOrg": {
+                "name": "AMCVS_A90F2A0D55423F537F000101%40AdobeOrg",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726345794583,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726345794582
+                    }
+                ]
+            },
+            "AMCV_A90F2A0D55423F537F000101%40AdobeOrg": {
+                "name": "AMCV_A90F2A0D55423F537F000101%40AdobeOrg",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345793447,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760905793.445076,
+                        "expiry": 34560000.44507599,
+                        "value": "179643557%7CMCIDTS%7C19981%7CvVersion%7C5.5.0",
+                        "same_site": "lax",
+                        "timestamp": 1726345793445
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.57348704,
+                        "value": "179643557%7CMCIDTS%7C19981%7CMCMID%7C00464219956167302523154634098384989260%7CMCAAMLH-1726950594%7C6%7CMCAAMB-1726950594%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CvVersion%7C5.5.0",
+                        "same_site": "lax",
+                        "timestamp": 1726345794576
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.58249807,
+                        "value": "179643557%7CMCIDTS%7C19981%7CMCMID%7C00464219956167302523154634098384989260%7CMCAAMLH-1726950594%7C6%7CMCAAMB-1726950594%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1726352994s%7CNONE%7CvVersion%7C5.5.0",
+                        "same_site": "lax",
+                        "timestamp": 1726345794583
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.60191703,
+                        "value": "179643557%7CMCIDTS%7C19981%7CMCMID%7C00464219956167302523154634098384989260%7CMCAAMLH-1726950594%7C6%7CMCAAMB-1726950594%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1726352994s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.5.0",
+                        "same_site": "lax",
+                        "timestamp": 1726345794602
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.00985098,
+                        "value": "179643557%7CMCIDTS%7C19981%7CMCMID%7C00464219956167302523154634098384989260%7CMCAAMLH-1726950594%7C6%7CMCAAMB-1726950594%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1726352994s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-19988%7CvVersion%7C5.5.0",
+                        "same_site": "lax",
+                        "timestamp": 1726345795010
+                    }
+                ]
+            },
+            "PIM-SESSION-ID": {
+                "name": "PIM-SESSION-ID",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345793424,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ylWs50k0RqUYcPOf",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793423
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345794052,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726950594,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=canada.ca&si=4evqjwsgiiu&ss=m12lpnej&sl=0&tt=0\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794050
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=canada.ca&si=xmxysq5mrm&ss=m12lpnej&sl=0&tt=0\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796668
+                    }
+                ]
+            },
+            "TEST_AMCV_COOKIE_WRITE": {
+                "name": "TEST_AMCV_COOKIE_WRITE",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726345793437,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793437
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793443
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793444
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796575
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796576
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345793311,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726352993.292126,
+                        "expiry": 7200.292125940323,
+                        "value": "8204CDD94D109A4CE605961F70119715~000000000000000000000000000000~YAAQMO1lX7NZycORAQAAJk868hkRzbWBYWbVZvvxCUWVERhfMsv7z3zJeZIkOHT7qbYsl3gSCgpD6ViSihVNr3hJdn6REovR/DmIWOKcO34pyCqFdBlqFR1qZwD+JjpiEibFWENrpV2TZImjR1K38Y7bXsVQMlZojf1rbf8zAw4aHdUjb3F4h5SYZJE2x3gWoOtlk8ozO0bdg+wLAsjFiCRxrd+BC9eHKQ8o6mJS7Lo3spDfOpY810ZD0/t8hBVwkQyNYPRkTlbQkY7DE9KJnFgGsZ//YxMe9TWhSj/lcOUbLDU+5wSYQsfJiM6IVs2W6I4vSFcHqbvG8PbLXkEa0hv8Ztu0PHHfGEonHtoKAmrS9B5IdDcll/FNU9JSKBxWXeWA4S8v68c=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793305
+                    }
+                ]
+            },
+            "at_check": {
+                "name": "at_check",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726345793463,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793462
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796583
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345796551,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726352996.550284,
+                        "expiry": 7200.550283908844,
+                        "value": "F4B783DDFBD8ECD2861363CC9089D785~YAAQMO1lX7RaycORAQAA4Vs68hnNrCnrgMf8Y/RouaSD9LQsG9KZDFqlCQGy4D3M/5ohVw0cbdD+fz56u9yJ3f7Cc51joyjWmG2DLNSlhETRi2t0bKYejyC/2wU0VtwMm4PD6AvPTt7nYw8Ib646wOP0UrqTYdq8Uu42akyl8O+sqAHDvwU/OlvXzbKISOMbfP+eeVYLl+0CCktwc/Hf0LlkIosEvxo45483YnoZYk8AhjptM4ogfYPgabQcBws=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796550
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7200.762351036072,
+                        "value": "F4B783DDFBD8ECD2861363CC9089D785~YAAQMO1lX8daycORAQAAtVw68hmxxjsbUKObs1kKWFerxSnInrgasaX/2PfwaMEpXTifnLMiAZG4GJhhYWM1m1yaYhufnKXcZdka5fNaz76eB/B7OrqJ+gtggsP8NEsCTTf/2PRuJ+dR7N8wSZqDRHJFSe7NfY7fj/5z6gECiU5RcyMzspCQ5lpT4YGWxzT9rBT0cXrx6N6bPcQGX+rQgmfjo3SykfTbIuTysWmUPHNem/ootGR1ounv6khIxJA=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796762
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7200.788980960846,
+                        "value": "F4B783DDFBD8ECD2861363CC9089D785~YAAQMO1lX8haycORAQAAyVw68hkDKEfWDna/dMSKlieUfBcGAR1h5nweRmxiUWqcsrkJvCwtFghpJ/l1Uc5iZ37WDATXkQW7FiAdQv+Nd9Ir+RrL05nltx0U1cySIMLjW9bMOBqrgV1l5n84ME9EKpGxFtyJt+W4uymDJefbb8YW89bE6SD8iDD4YfOXiqAw5X48r2RA+LoUUi85MGL4CEVC3bsMVyeaInmsfXQz10IoAyCvBllcGnlzVbDdEwk=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796789
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7200.842387914658,
+                        "value": "F4B783DDFBD8ECD2861363CC9089D785~YAAQMO1lX8laycORAQAABV068hlAdUWt4EarVKTNJ+4C7LoSa8ibJ7OlMGmrU15jdmRSxia1YXiDjHEwnDgYIVvbgggjrA0zuUnE831smVqkgWrw/hq2wAE4S3WW8bn9J0gIzk40kphIel/U/xVkGQSUMuBSXGgAxYq9YshaqRZEArpNx550s/bemgBDlJxYJVK/28kJT0Gxap/f248jl9XREbpYZS5NjMchSLrxxm1UM1gR6La6NRk+Yi3w9Vo=~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796843
+                    }
+                ]
+            },
+            "gpv_pc": {
+                "name": "gpv_pc",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345794891,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726347594,
+                        "expiry": 1800,
+                        "value": "Service%20Canada",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794890
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "Service%20Canada",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796516
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "Service%20Canada",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "Service%20Canada",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796806
+                    }
+                ]
+            },
+            "gpv_pqs": {
+                "name": "gpv_pqs",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345794891,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726347594,
+                        "expiry": 1800,
+                        "value": "blank%20query%20string",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794891
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "blank%20query%20string",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796517
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "blank%20query%20string",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796799
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "blank%20query%20string",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796806
+                    }
+                ]
+            },
+            "gpv_pt": {
+                "name": "gpv_pt",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345794887,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726347594,
+                        "expiry": 1800,
+                        "value": "Canada.ca",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794886
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "Canada.ca",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796516
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "Home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796797
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "Home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796805
+                    }
+                ]
+            },
+            "gpv_pthl": {
+                "name": "gpv_pthl",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345794889,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726347594,
+                        "expiry": 1800,
+                        "value": "null-eng",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794887
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "null-eng",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796516
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "null-eng",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "null-eng",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796806
+                    }
+                ]
+            },
+            "gpv_url": {
+                "name": "gpv_url",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345794892,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726347594,
+                        "expiry": 1800,
+                        "value": "www.canada.ca%2F",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794891
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "www.canada.ca%2F",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796517
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "www.canada.ca%2Fen.html",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796799
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "www.canada.ca%2Fen.html",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796809
+                    }
+                ]
+            },
+            "mbox": {
+                "name": "mbox",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345793461,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1861,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347655",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794585
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.754887104,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347655|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590595",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794756
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.75630689,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347655|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590595",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794757
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.75800896,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347655|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590595",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794758
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.582756996,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347657|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590595",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796583
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.584084034,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347657|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590595",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796584
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.5852499,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347657|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590595",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796585
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.632078886,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347657|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590597",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796632
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.63272691,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347657|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590597",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796633
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.633456945,
+                        "value": "session#ae50da59eaf9491aa20ce697d51ae001#1726347657|PC#ae50da59eaf9491aa20ce697d51ae001.37_0#1789590597",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796633
+                    }
+                ]
+            },
+            "s_cc": {
+                "name": "s_cc",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345794895,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794894
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796804
+                    }
+                ]
+            },
+            "s_ips": {
+                "name": "s_ips",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345794893,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794892
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796520
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796802
+                    }
+                ]
+            },
+            "s_plt": {
+                "name": "s_plt",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345794782,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0.86",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794781
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%5B%5BB%5D%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796704
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0.23",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796955
+                    }
+                ]
+            },
+            "s_ppv": {
+                "name": "s_ppv",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345794894,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Canada.ca%2C100%2C100%2C100%2C890%2C1%2C1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794894
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Canada.ca%2C100%2C100%2C100%2C890%2C1%2C1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796520
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Home%2C28%2C28%2C28%2C890%2C3%2C1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796803
+                    }
+                ]
+            },
+            "s_sq": {
+                "name": "s_sq",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345796519,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "canadalivemain%3D%2526c.%2526a.%2526activitymap.%2526page%253DCanada.ca%2526link%253DEnglish%2526region%253DBODY%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253DCanada.ca%2526pidt%253D1%2526oid%253Dhttps%25253A%25252F%25252Fwww.canada.ca%25252Fen.html%2526ot%253DA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796517
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%5B%5BB%5D%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796804
+                    }
+                ]
+            },
+            "s_tp": {
+                "name": "s_tp",
+                "domain": ".canada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345794893,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345794893
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796520
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3198",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345796802
+                    }
+                ]
+            },
+            "aka-ca-site-token": {
+                "name": "aka-ca-site-token",
+                "domain": "www.canada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345793304,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "30ed655f354c000041f2e5663e010000f9120400",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345793296
+                    }
+                ]
+            }
+        }
+    },
+    "demdex.net": {
+        "/": {
+            "demdex": {
+                "name": "demdex",
+                "domain": ".demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726345794573,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741897794.571202,
+                        "expiry": 15552000.57120204,
+                        "value": "00475762816758106493155448910242699161",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345794571
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.965701103,
+                        "value": "00475762816758106493155448910242699161",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345794967
+                    }
+                ]
+            }
+        }
+    },
+    "dpm.demdex.net": {
+        "/": {
+            "dpm": {
+                "name": "dpm",
+                "domain": ".dpm.demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726345794967,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741897794.965649,
+                        "expiry": 15552000.96564889,
+                        "value": "00475762816758106493155448910242699161",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345794966
+                    }
+                ]
+            }
+        }
+    },
+    "everesttech.net": {
+        "/": {
+            "everest_g_v2": {
+                "name": "everest_g_v2",
+                "domain": ".everesttech.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726345794775,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757881794.774613,
+                        "expiry": 31536000.774612904,
+                        "value": "g_surferid~ZuXyQgAAAKvv9wOJ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345794775
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,223 @@
+{
+    "justice.cz": {
+        "/": {
+            "BIGipServer~Internal~MSp-PORTALAPL-80": {
+                "name": "BIGipServer~Internal~MSp-PORTALAPL-80",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060031711,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "rd2o00000000000000000000ffffac1ff407o80",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060031710
+                    }
+                ]
+            },
+            "CONSENT_TYPE_FUNCTIONAL": {
+                "name": "CONSENT_TYPE_FUNCTIONAL",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060041683,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596041.681385,
+                        "expiry": 31536000.68138504,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060041682
+                    }
+                ]
+            },
+            "CONSENT_TYPE_NECESSARY": {
+                "name": "CONSENT_TYPE_NECESSARY",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060041687,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596041.681592,
+                        "expiry": 31536000.681591988,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060041686
+                    }
+                ]
+            },
+            "CONSENT_TYPE_PERFORMANCE": {
+                "name": "CONSENT_TYPE_PERFORMANCE",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060041684,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596041.681477,
+                        "expiry": 31536000.68147707,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060041684
+                    }
+                ]
+            },
+            "CONSENT_TYPE_PERSONALIZATION": {
+                "name": "CONSENT_TYPE_PERSONALIZATION",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060041685,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596041.68154,
+                        "expiry": 31536000.681540012,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060041685
+                    }
+                ]
+            },
+            "COOKIE_SUPPORT": {
+                "name": "COOKIE_SUPPORT",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060031710,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596031.688217,
+                        "expiry": 31536000.688216925,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060031704
+                    }
+                ]
+            },
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060031700,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5D3E59DC3C1683255CAFD5078B15A593",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060031690
+                    }
+                ]
+            },
+            "LFR_SESSION_STATE_10158": {
+                "name": "LFR_SESSION_STATE_10158",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060032933,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596032.930328,
+                        "expiry": 31536000.930327892,
+                        "value": "1726060032930",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060032932
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.936726093,
+                        "value": "1726060038936",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060038937
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.937077045,
+                        "value": "1726060038937",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060038939
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.946691036,
+                        "value": "1726060038937",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060038947
+                    }
+                ]
+            },
+            "USER_CONSENT_CONFIGURED": {
+                "name": "USER_CONSENT_CONFIGURED",
+                "domain": "justice.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060041688,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596041.681702,
+                        "expiry": 31536000.6817019,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060041687
+                    }
+                ]
+            }
+        }
+    }
+}

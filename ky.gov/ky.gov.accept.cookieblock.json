@@ -1,0 +1,26 @@
+{
+    "ky.gov": {
+        "/": {
+            "BigIPEnc": {
+                "name": "BigIPEnc",
+                "domain": "ky.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726420500142,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!Ald5OFZk1QCHONDh+/fi7WXfyqfbc/3nDCDMJBiqPv/ZDsfUPkIIgRrg7d48MeA3nfujYAwtdJI70w==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726420500131
+                    }
+                ]
+            }
+        }
+    }
+}

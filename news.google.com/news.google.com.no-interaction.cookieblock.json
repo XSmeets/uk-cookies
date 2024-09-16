@@ -1,0 +1,73 @@
+{
+    "google.com": {
+        "/": {
+            "SOCS": {
+                "name": "SOCS",
+                "domain": ".google.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395641433,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760523641.431768,
+                        "expiry": 34128000.43176794,
+                        "value": "CAAaBgiAx5i3Bg",
+                        "same_site": "lax",
+                        "timestamp": 1726395641432
+                    }
+                ]
+            },
+            "__Secure-ENID": {
+                "name": "__Secure-ENID",
+                "domain": ".google.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395641433,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760582339.431984,
+                        "expiry": 34186698.43198395,
+                        "value": "22.SE=OxL4Kg9MSJS_wL-0ldq6HQ4hHqsTLbBEMfPBhLeQgLKai5jo3mVLahUsr0SlzfcyUU7U6yt0MrY1rVZwIMrYUNO7rqo9oRaPRThFjF240P6F_vNXXZqPDeghZdyvBxCIBK6RrsnXV14DPOtwQH7zwht5q9DyRL-19MbDHlf4UsFyfMKtqB1-adcJKw",
+                        "same_site": "lax",
+                        "timestamp": 1726395641433
+                    }
+                ]
+            }
+        }
+    },
+    "consent.google.com": {
+        "/": {
+            "OTZ": {
+                "name": "OTZ",
+                "domain": "consent.google.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395641767,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728987641,
+                        "expiry": 2592000,
+                        "value": "7734861_48_52_123900_48_436380",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395641763
+                    }
+                ]
+            }
+        }
+    }
+}

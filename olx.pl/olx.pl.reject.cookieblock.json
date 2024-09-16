@@ -1,0 +1,386 @@
+{
+    "olx.pl": {
+        "/": {
+            "OTAdditionalConsentString": {
+                "name": "OTAdditionalConsentString",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058328930,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757594328,
+                        "expiry": 31536000,
+                        "value": "1~",
+                        "same_site": "lax",
+                        "timestamp": 1726058328929
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058328900,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757594328,
+                        "expiry": 31536000,
+                        "value": "2024-09-11T12:38:48.898Z",
+                        "same_site": "lax",
+                        "timestamp": 1726058328899
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058316565,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C",
+                        "same_site": "lax",
+                        "timestamp": 1726058316601
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1",
+                        "same_site": "lax",
+                        "timestamp": 1726058316602
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.olx.pl%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726058316603
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.olx.pl%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726058316649
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.olx.pl%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726058316650
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.olx.pl%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726058316654
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.olx.pl%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2Cgad%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726058316656
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A48+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2Cgad%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726058328901
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A48+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2Cgad%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726058328903
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+14%3A38%3A48+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&genVendors=V10%3A0%2C&consentId=a73e9eb8-f32a-491d-8260-93c6eb9355aa&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2Cgad%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726058328931
+                    }
+                ]
+            },
+            "PHPSESSID": {
+                "name": "PHPSESSID",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058316597,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061916.59087,
+                        "expiry": 3600.5908699035645,
+                        "value": "ffhl8o76minnvudv505005qaoe",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316591
+                    }
+                ]
+            },
+            "__user_id_P&S": {
+                "name": "__user_id_P&S",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058316765,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618316.763541,
+                        "expiry": 34560000.76354098,
+                        "value": "2456375632",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316763
+                    }
+                ]
+            },
+            "a_access_token": {
+                "name": "a_access_token",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058316616,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618316.615424,
+                        "expiry": 34560000.61542392,
+                        "value": "aa714af2cb8c2a1339e71ad0b6309f8b6f086b5f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316615
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.630364895,
+                        "value": "aa714af2cb8c2a1339e71ad0b6309f8b6f086b5f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316630
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.631778,
+                        "value": "aa714af2cb8c2a1339e71ad0b6309f8b6f086b5f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316633
+                    }
+                ]
+            },
+            "a_grant_type": {
+                "name": "a_grant_type",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058316618,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618316.615733,
+                        "expiry": 34560000.61573291,
+                        "value": "device",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316617
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.63069701,
+                        "value": "device",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316631
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.632030964,
+                        "value": "device",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316633
+                    }
+                ]
+            },
+            "a_refresh_token": {
+                "name": "a_refresh_token",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058316617,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618316.615506,
+                        "expiry": 34560000.615505934,
+                        "value": "d755711b6bba3e3c6f9822028e60ad80faef93be",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316616
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.63050294,
+                        "value": "d755711b6bba3e3c6f9822028e60ad80faef93be",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316631
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.63188791,
+                        "value": "d755711b6bba3e3c6f9822028e60ad80faef93be",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316633
+                    }
+                ]
+            },
+            "deviceGUID": {
+                "name": "deviceGUID",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058316287,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618316.281676,
+                        "expiry": 34560000.281676054,
+                        "value": "31d87610-b98f-40a3-baa0-abc25c25c4d1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316282
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058328928,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757594328,
+                        "expiry": 31536000,
+                        "value": "CQEx43AQEx43AAcABBENBGFwAAAAAAAAAAYgAAAAAAFBIH4ACAAFwAUABUADgAHgAQQAvADUAHgARAAmABVADeAHoAPwAhIBDAESAI4ASwAmgBgADDgGUAZYA2QBzwDuAO-AewB8QD7AP2Af4CAAEUgIuAjABGgCSwE_AUGAqACrgFzAL0AYoA0QBtADcAHEgR6BIgCdgFDgKPAUiAtgBcgC7wF5gMNgZGBkgDJwGXAMzAZzA1cDWQGxgNvAbqA4IByYDlwgBYABwAJAAjgEHAI4ATQAvoCVgE2gKQAVyAsIBYgC8gGIAMWAZCA0YBqYDaAG3AN0HAKQAEQAOAA8AC4AJAAfgBHADQAI4AcgBAICDgIQAREAjgBNACoAHSAQgAlYBMQCZQE2gKTgVyBXYCxAFqALoAYIAxABiwDIQGTANGAamA14BtADbAG3AN0AceA5aBzoHPjoJIAC4AKAAqABwAEEALgA1AB4AEQAJgAVYAuAC6AGIAN4AegA_QCGAIkASwAmgBRgDAAGGAMoAaIA2QBzwDuAO8Ae0A-wD9AH_ARQBGICOgJLAT8BQYCogKuAWIAucBeQF6AMUAbQA3ABxADqAH2ARfAj0CRAEyAJ2AUPAo8CkAFNAKsAWKAtgBboC4AFyALtAXeAvMBfQDDQGPQMjAyQBk4DKoGWAZcAzMBnIDTYGrgawA28BuoDiwHJgOXIAFQAEAAPADQAOQAjgBYgC-gJtAUmArkBYgC8gGCAM8AaMA1MBtgDbgG6AOWAc-QgQAALAAoAC4AGoAVQAuABiADeAHoARwAwABzwDuAO8Af4BFACUgFBgKiAq4BcwDFAG0AOoAj0BTQCrAFigLRAXAAuQBkYDJwGckoEIACAAFgAUAA4ADwAIgATAAqgBcADFAIYAiQBHACjAGAANkAd4A_ICogKuAXMAxQB1AETAIvgR6BIgCjwFigLYAXnAyMDJAGTgM5AawA28kARAAuAEcAdwBAACDgEcAKgAlYBMQCbQFJgMWAZYAzwBuQDdAHLFIHIAC4AKAAqABwAEAANAAeABEACYAFUAMQAfoBDAESAKMAYAAygBogDZAHOAO-AfgB-gEWAIxAR0BJQCgwFRAVcAuYBeQDFAG0ANwAdQA9oB9gETAIvgR6BIgCdgFDgKQAVYAsUBbAC4AFyALtAXmAvoBhsDIwMkAZPAywDLgGcwNYA1kBt4DdQHBAOTKAHwALgAkABcADIAI4AjgByADuAH2AQAAg4BYgC6gGvAO2Af8BMQCbQFSAK7AXQAvIBggDFgGTAM8AaMA1MBrwDdAHLAAAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726058328922
+                    }
+                ]
+            },
+            "observed_aui": {
+                "name": "observed_aui",
+                "domain": ".olx.pl",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726058316726,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741610316.724896,
+                        "expiry": 15552000.724895954,
+                        "value": "5f0b41dbdaf54d3e8464cc936b1169b6",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058316725
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,233 @@
+{
+    "england.nhs.uk": {
+        "/": {
+            "CookieControl": {
+                "name": "CookieControl",
+                "domain": ".england.nhs.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232498709,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734012098,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"cookies-never-ask-again\",\"cookies-analytics-cookies-have-been-enabled-by-default\"],\"optionalCookies\":{},\"initialState\":{\"type\":\"closed\"},\"statement\":{},\"consentDate\":1726232498699,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"09A9979E-3A6C-4B29-BE94-25EA20E603C5\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726232498701
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"cookies-never-ask-again\",\"cookies-analytics-cookies-have-been-enabled-by-default\"],\"optionalCookies\":{\"analytics\":\"accepted\"},\"initialState\":{\"type\":\"closed\"},\"statement\":{},\"consentDate\":1726232498699,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"09A9979E-3A6C-4B29-BE94-25EA20E603C5\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726232499717
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"cookies-never-ask-again\",\"cookies-analytics-cookies-have-been-enabled-by-default\"],\"optionalCookies\":{\"analytics\":\"revoked\"},\"initialState\":{\"type\":\"closed\"},\"statement\":{},\"consentDate\":1726232514359,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"09A9979E-3A6C-4B29-BE94-25EA20E603C5\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726232514360
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".england.nhs.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726232499808,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760792499.806758,
+                        "expiry": 34560000.80675793,
+                        "value": "GA1.3.1854069604.1726232500",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232499807
+                    }
+                ]
+            },
+            "_ga_T33BJYG3P5": {
+                "name": "_ga_T33BJYG3P5",
+                "domain": ".england.nhs.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726232499971,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760792499.968956,
+                        "expiry": 34560000.96895599,
+                        "value": "GS1.3.1726232499.1.0.1726232499.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232499970
+                    }
+                ]
+            },
+            "_gat": {
+                "name": "_gat",
+                "domain": ".england.nhs.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726232499810,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726232559,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232499810
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".england.nhs.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726232499809,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726318899,
+                        "expiry": 86400,
+                        "value": "GA1.3.1556110680.1726232500",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232499808
+                    }
+                ]
+            },
+            "cookies-analytics-cookies-have-been-enabled-by-default": {
+                "name": "cookies-analytics-cookies-have-been-enabled-by-default",
+                "domain": "www.england.nhs.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232499716,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760792499.702957,
+                        "expiry": 34560000.702956915,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232499704
+                    }
+                ]
+            },
+            "cookies-never-ask-again": {
+                "name": "cookies-never-ask-again",
+                "domain": "www.england.nhs.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232512503,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760792512.501172,
+                        "expiry": 34560000.501172066,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232512502
+                    }
+                ]
+            }
+        }
+    },
+    "fonts.net": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".fonts.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232491153,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726234291.152407,
+                        "expiry": 1800.1524069309235,
+                        "value": "W0EtRH8_fvHNS8rDRZ2PXZPeC1HEvqeYD4HZ2jwO23I-1726232491-1.0.1.1-OQ8RjvX_014rf.szUv9hkoMDdzFgkGjN_rUIK2vJZ6D5UsExvK7mCFe0p3gRzApVpTCgvOBsHFXWPCw4zP2dUQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232491153
+                    }
+                ]
+            }
+        }
+    },
+    "google.com": {
+        "/recaptcha": {
+            "_GRECAPTCHA": {
+                "name": "_GRECAPTCHA",
+                "domain": "www.google.com",
+                "path": "/recaptcha",
+                "current_label": 0,
+                "label_ts": 1726232506455,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741784506.454851,
+                        "expiry": 15552000.454850912,
+                        "value": "09AC5v6t0MSnxBSNPWeCw8auRa6HuqbbHDtTLwRM7f3EBUaox4NBhpwtsSKpWZ92TLMb8XAzP9AKVtcbt1T6DeeVc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232506455
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.917197943,
+                        "value": "09AC5v6t2NBUE2eQGaKIyVg5chI6moEKD5Glhmd-Jq3k0JwZ8U_kGPm0H2bgLpl2Mw8t7M0XPOFi7MtBKimHYc1MA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232514918
+                    }
+                ]
+            }
+        }
+    }
+}

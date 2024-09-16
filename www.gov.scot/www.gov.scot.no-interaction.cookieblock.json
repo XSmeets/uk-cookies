@@ -1,0 +1,26 @@
+{
+    "gov.scot": {
+        "/": {
+            "cookiePermissions": {
+                "name": "cookiePermissions",
+                "domain": "www.gov.scot",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233134838,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "eyJzdGF0aXN0aWNzIjpmYWxzZSwicHJlZmVyZW5jZXMiOnRydWV9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233134833
+                    }
+                ]
+            }
+        }
+    }
+}

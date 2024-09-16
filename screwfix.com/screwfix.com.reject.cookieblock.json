@@ -1,0 +1,1131 @@
+{
+    "screwfix.com": {
+        "/": {
+            "TAconsentID": {
+                "name": "TAconsentID",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225659689,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760353659,
+                        "expiry": 34128000,
+                        "value": "960787e7-a7f9-4746-ae51-b5018ee23389",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225659688
+                    }
+                ]
+            },
+            "TAsessionID": {
+                "name": "TAsessionID",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225645204,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726227445,
+                        "expiry": 1800,
+                        "value": "068c320f-5cee-40ce-8abb-d8d7a5f01b58|NEW",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225645204
+                    }
+                ]
+            },
+            "_gdprCookiePrefs": {
+                "name": "_gdprCookiePrefs",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225659698,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760412329,
+                        "expiry": 34186670,
+                        "value": "permit 1 required",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659697
+                    }
+                ]
+            },
+            "atgUserId": {
+                "name": "atgUserId",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225645067,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "20529713866",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645066
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659699
+                    }
+                ]
+            },
+            "cmapi_cookie_privacy": {
+                "name": "cmapi_cookie_privacy",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225659707,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760353659,
+                        "expiry": 34128000,
+                        "value": "permit 1 required",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225659706
+                    }
+                ]
+            },
+            "cmapi_gtm_bl": {
+                "name": "cmapi_gtm_bl",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225659706,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760353659,
+                        "expiry": 34128000,
+                        "value": "ga-ms-ua-ta-asp-bzi-sp-awct-cts-csm-img-flc-fls-mpm-mpr-m6d-tc-tdc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225659705
+                    }
+                ]
+            },
+            "dTValidationCookie": {
+                "name": "dTValidationCookie",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644645,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "dTValidationCookieValue",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644644
+                    }
+                ]
+            },
+            "dtCookie": {
+                "name": "dtCookie",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225644630,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_3E7764E2745C9F4628E49F64932AAA69_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644629
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_1_sn_551D5C171D4BB98CCFB2721699FC7C45_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645137
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_1FEC5D4C92ACBE299AF14F523710E813_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645433
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_1FEC5D4C92ACBE299AF14F523710E813_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225646620
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_1FEC5D4C92ACBE299AF14F523710E813_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225648622
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_1FEC5D4C92ACBE299AF14F523710E813_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225648634
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_1FEC5D4C92ACBE299AF14F523710E813_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225648652
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_3_sn_1FEC5D4C92ACBE299AF14F523710E813_perc_100000_ol_0_mul_1_app-3Ac4f0aebc3d79082a_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225663325
+                    }
+                ]
+            },
+            "dtPC": {
+                "name": "dtPC",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225644651,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h1vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644650
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h1vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644897
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h2vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644966
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h3vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644967
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h4vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644969
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h5vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645032
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h4vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645039
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h3vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645047
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3$25644643_914h-vGROWPPWDLFMHUMSSDMVHSHKRBSFUOCMF-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645436
+                    }
+                ]
+            },
+            "dtSa": {
+                "name": "dtSa",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225644896,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644895
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225663322
+                    }
+                ]
+            },
+            "isPIIMasked": {
+                "name": "isPIIMasked",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225644976,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644975
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645067
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645977
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645983
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645986
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645988
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659699
+                    }
+                ]
+            },
+            "notice_behavior": {
+                "name": "notice_behavior",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225645205,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "expressed,eu",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225645205
+                    }
+                ]
+            },
+            "notice_gdpr_prefs": {
+                "name": "notice_gdpr_prefs",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225659690,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760353659,
+                        "expiry": 34128000,
+                        "value": "0:",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225659689
+                    }
+                ]
+            },
+            "notice_preferences": {
+                "name": "notice_preferences",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225659687,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760353659,
+                        "expiry": 34128000,
+                        "value": "0:",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225659686
+                    }
+                ]
+            },
+            "optimizelyDomainTestCookie": {
+                "name": "optimizelyDomainTestCookie",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225645004,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741777645,
+                        "expiry": 15552000,
+                        "value": "0.18947470717030912",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645003
+                    }
+                ]
+            },
+            "optimizelyEndUserId": {
+                "name": "optimizelyEndUserId",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225644806,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741777644.805196,
+                        "expiry": 15552000.805196047,
+                        "value": "oeu1726225644798r0.4281174920875672",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644805
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "oeu1726225644798r0.4281174920875672",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645004
+                    }
+                ]
+            },
+            "prevPageName": {
+                "name": "prevPageName",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225645071,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645071
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659702
+                    }
+                ]
+            },
+            "prevPageURL": {
+                "name": "prevPageURL",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726225645070,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645069
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645070
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645979
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645985
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645987
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645990
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659702
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https://www.screwfix.com/",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659704
+                    }
+                ]
+            },
+            "rxVisitor": {
+                "name": "rxVisitor",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644646,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760785644.645605,
+                        "expiry": 34560000.64560509,
+                        "value": "1726225644646KA85NRRD6S1QIN3Q07LG9GIAEBFDOLLJ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644646
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.622545004,
+                        "value": "1726225644646KA85NRRD6S1QIN3Q07LG9GIAEBFDOLLJ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225646623
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.65290499,
+                        "value": "1726225644646KA85NRRD6S1QIN3Q07LG9GIAEBFDOLLJ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225648654
+                    }
+                ]
+            },
+            "rxvt": {
+                "name": "rxvt",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644650,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726227444647|1726225644647",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644649
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726227444896|1726225644647",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644896
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726227444966|1726225644647",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644965
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726227444967|1726225644647",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644967
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726227444968|1726225644647",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644969
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726227445032|1726225644647",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645032
+                    }
+                ]
+            },
+            "utag_main": {
+                "name": "utag_main",
+                "domain": ".screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644974,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761644,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644973
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:1$_ss:1$_st:1726227444972$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644975
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:2$_ss:0$_st:1726227445068$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645069
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:3$_ss:0$_st:1726227445975$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645977
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:4$_ss:0$_st:1726227445982$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645983
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:5$_ss:0$_st:1726227445985$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645985
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:6$_ss:0$_st:1726227445987$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645988
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:7$_ss:0$_st:1726227459686$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659693
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb10fdac0050e9bf97a9b8f005075001906d00bd0$_sn:1$_se:8$_ss:0$_st:1726227459694$ses_id:1726225644972%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225659699
+                    }
+                ]
+            },
+            "BIGipServersfx.com_HTTPS_Pool": {
+                "name": "BIGipServersfx.com_HTTPS_Pool",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644631,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!x0ww9pJwfnbLfnYfkx1a+sXyK5MWD3GOjSMJfCHT8+yEuRgK0gELFaw9Z3P7GZhnEYPs4Mv/g2DR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644630
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!68O6mx+t/7XK6Jgfkx1a+sXyK5MWD8pjlNNM53Cw29M3zq345ynq09UkW7aEpfM+MuIBNelEzVnU",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645137
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!h7uOc78RgQgLm2cfkx1a+sXyK5MWD4YvHH8+FaxLF7NeC4jwgkmE5QDUeHx2thrawby5A3Al64te",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645433
+                    }
+                ]
+            },
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644629,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "lZvrEPvNE7ktpK7u67StCwvZGKGLgsKi984L89ITRMX_7IHQyOuR!-1901334307",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225644624
+                    }
+                ]
+            },
+            "TS7664d444029": {
+                "name": "TS7664d444029",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225645138,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726225675.136713,
+                        "expiry": 30.1367130279541,
+                        "value": "08016f2e84ab28008baeb083512506fcb41aa781b6ab64db165d11977cdf89bab88db22f6ed2374e5a527421069bae61",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645137
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30.432147979736328,
+                        "value": "08016f2e84ab2800a6694e5e70e37b56737792fcbbe703cecd08ccfe1b7f502672596237175aad7cef91e0498392adcb",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645434
+                    }
+                ]
+            },
+            "TSce5a380a027": {
+                "name": "TSce5a380a027",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225645139,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "08016f2e84ab2000789e19d09c41908f32c0f53a5283ef0b393bb721bee784777ee641362bd13ece0826fe70c61130003a2d433683c72036c86de9807733e48c658b4dad2fc82916a07b6e0c274a50f4fe793a996cd088d91a25f8d69ad0a1e5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645138
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "08016f2e84ab20006f3d5389857eccda1659b83f1c0fb020ecfdd743d8d3c10eb87362eccd207e6c08f1e9f215113000dfc3c0fb2f74e4d3c86de9807733e48c2a113137476ceb342ed0a8d5fa454f4fed9dba3c608d649f83d0db7f1648b38e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645434
+                    }
+                ]
+            },
+            "__Host-fusionx.sid": {
+                "name": "__Host-fusionx.sid",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644631,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726268844.612067,
+                        "expiry": 43200.61206698418,
+                        "value": "s%3A-vjAkG2SE7ClVxzJ-BQnl7bknFaoUiZC.TKm%2Bkz2uan5xO%2BzJ2LDvjQWRWtEmXuIPK%2Bpy7gTCVeo",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225644631
+                    }
+                ]
+            },
+            "cf_feature_flag_user_id": {
+                "name": "cf_feature_flag_user_id",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644632,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728817644.613395,
+                        "expiry": 2592000.6133949757,
+                        "value": "2VCk3SYwobYH5L5p2upFFR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644631
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000.882138014,
+                        "value": "2VCk3SYwobYH5L5p2upFFR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644882
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000.121673107,
+                        "value": "2VCk3SYwobYH5L5p2upFFR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225645122
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000.708933115,
+                        "value": "2VCk3SYwobYH5L5p2upFFR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225646710
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000.827785969,
+                        "value": "2VCk3SYwobYH5L5p2upFFR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225648828
+                    }
+                ]
+            },
+            "unsupported_browser": {
+                "name": "unsupported_browser",
+                "domain": "www.screwfix.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225644623,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726268844.61183,
+                        "expiry": 43200.61182999611,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225644614
+                    }
+                ]
+            }
+        }
+    }
+}

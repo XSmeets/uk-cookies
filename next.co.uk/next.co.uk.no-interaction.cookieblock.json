@@ -1,0 +1,720 @@
+{
+    "next.co.uk": {
+        "/": {
+            "ABPersistent_www.next.co.uk": {
+                "name": "ABPersistent_www.next.co.uk",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441744,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728817441,
+                        "expiry": 2592000,
+                        "value": "a|299",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225441743
+                    }
+                ]
+            },
+            "ABSession_www.next.co.uk": {
+                "name": "ABSession_www.next.co.uk",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441747,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "a|1726225441744",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225441746
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444942,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741777444,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0",
+                        "same_site": "lax",
+                        "timestamp": 1726225444942
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726225444942
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726225444943
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=32f7cbad-507c-4d6e-9459-64be372e4b8b",
+                        "same_site": "lax",
+                        "timestamp": 1726225444944
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=32f7cbad-507c-4d6e-9459-64be372e4b8b&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726225444945
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A04+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=32f7cbad-507c-4d6e-9459-64be372e4b8b&interactionCount=0&landingPath=https%3A%2F%2Fwww.next.co.uk%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726225444949
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A05+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=32f7cbad-507c-4d6e-9459-64be372e4b8b&interactionCount=0&landingPath=https%3A%2F%2Fwww.next.co.uk%2F&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1%2CFunct%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726225445044
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A05+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=32f7cbad-507c-4d6e-9459-64be372e4b8b&interactionCount=0&landingPath=https%3A%2F%2Fwww.next.co.uk%2F&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1%2CFunct%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726225445045
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A04%3A05+GMT%2B0200+(Central+European+Summer+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=32f7cbad-507c-4d6e-9459-64be372e4b8b&interactionCount=1&landingPath=https%3A%2F%2Fwww.next.co.uk%2F&groups=Targt%3A0%2COntgt%3A0%2CPerf%3A0%2CStNec%3A1%2CFunct%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726225445214
+                    }
+                ]
+            },
+            "_abck": {
+                "name": "_abck",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441635,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757761441.60004,
+                        "expiry": 31536000.60003996,
+                        "value": "02C0009E91ACDD4CFCA5FD3D9BE9FEA8~-1~YAAQBBoSAlRZddiRAQAAeuMN6wwx+EgZ67QNJPKJ8O5p+DIyXz4LcWer4373kE6OQvVnYXczVI9OHm+IxKsRbW+etnOYoxz3UGdF2kwZTV42eZXOFUSJgeyGzlVdQIiBVu2l7kWz/8/1lf4GLPGDH2Mi7rh1RtXhb8ejHtD+jct52MaDD7uXQZgRE5EweUjDrAPcSQ/UAJfLTTV9cMBHqaJ/kA7QB9TIa330v/CXIahp9Dsr6+zpr847OzRTiz2wnOX0yeSZk7X8h8JkyG0nFsxNa40v0ybCXK5Qq3ndM/jo+MmenD+RIt1cCV8pKyjusBNTTCVqBd+6vG0YfRhmS5XjAzXO1Hmn2GpZlbiQ+Q/xxqMYMxpcRYanThuJ6VqjByRSkhWqk5AAcEEDdMjsEtVue44YJwNC4G67UcM=~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441632
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.801940918,
+                        "value": "02C0009E91ACDD4CFCA5FD3D9BE9FEA8~-1~YAAQBBoSAndZddiRAQAAQuQN6wy5FhCyw75BEfPQRoEGDPaHtIG7wJrV4A6T9sxSlYirMBteXPDaxshKHZpUtPL0aPLKkN4UzUiy45flOoXlsnACWgE7OE39axEbcpWNKxPNOHxe/piq+stvnPOGG2JtYMSwXOSjEH46ANXi45IaxkFj7y30O8ppQzM91pB7PJ8HmjCe3c+MTIvUau8brSmywSLxa1YvizH3mwmUecHPGzUfv4D2gH9dhZ/cZTGFTYtkYG6w2Pr+lITMTgFEE5b/2BU/SY3pnxfnu/s4qZPQ0plIel1Gxjpk3I4gi8xNba0k4yaQn7KnBwgxAbeFZJYZwwSIrOcaSr6El/tcfLBRyKd2djuIUbAhAznt5tTx0mGFQpSXL+4djVnFyGzkiMtXCl3PcXk9U0EbyYoHdkfWXyq7udGmJMS8Vg==~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441802
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.839961052,
+                        "value": "02C0009E91ACDD4CFCA5FD3D9BE9FEA8~-1~YAAQBBoSAn5bddiRAQAAGfAN6wyDo//SDo0cG3aorm6FoKLP4HpckJHBDX0Y07D1lEnCxiC64pWuwO4+6Et6r/MDoP9scFnHqIV80KDSy8Ib7P81U3KvgiqGmKPDHR6eM8GjciQF7QTtc76dYNsRzHMRBnq4uqqBNlaFNv3q58yJ+MGF454inPx44hcg7RTWYEbCX4uPnV0/gxOkUL3zhN0rbZPx0lv4n8yRuLx9t2fnQFPkkotLWCq3JpwrK6q4k9TDWzBreO64/bK7w1fOkMTSb0IyK7QJVBtSyLkB7xm0d09CT5cWAK79nwKvKJAB8K8DnA5AZU9JR68xuK2jmI5y2OTA2ZXvIRuMLNzjrNmsoy67hjRp4xe3L/ZuWHETVf+bRg8MTKhNZiHh2X0nS9FHGT0osNubwn2LXJOtK+yxGxBopgAPtqk7XYQD3qfzyhRfXqnJ8AU=~-1~||0||~1726229044",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444842
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441637,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726232641.600091,
+                        "expiry": 7200.60009098053,
+                        "value": "FE46CC0CA032F03F35D0552E339ED986~000000000000000000000000000000~YAAQBBoSAlVZddiRAQAAeuMN6xnMNQij47300DVebAFmSQKFQHCytTJURnYhMtfcntn7cv/b65aKeAgFkKkxEufSzaC/QjjqaPepo4R1JKYy4LdGfCav2dpvHxH/shcxr3hvRUWTT8GZpAXu3G9iQ/zVxacQMZtVq3s5g4rHV1ApslwizJlAVK/4t4q6FwCv8R2aUvPygCCZhRVx7QMAiPFKYnmZO+Y4kM0az/6DTnnGNfuJUmMkRa5hPhRKWaXmZvZloGr/6IT7XrCbSCMA9y3NmsbvowjhUhAyswwp+zMQLBANmipAiwME1SBp2b/v0H17d/nvwIEXxNKAq5RPWWn6tFOy95dcprqJWwJP4kaYw8gA2EyDdZWNs9lUzkSpx0dLq4bspm482w==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441635
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200.903940916061,
+                        "value": "2C6DB3DC09429D16EEAF93C19B607D98~000000000000000000000000000000~YAAQBBoSAnlZddiRAQAATeQN6xnJKzD/ddAQcDADR15Z/PNnjBwHzwyhBh/8F/JWVsMlPD9PtwhVWzEwPRcvQGIg8JCIFogLZ+HjMp7wBqfFbo090AflRJfts8BKKJszKRrDs15D6m+J8iHA7yjhU5IkmtXEKQ3AVV44J/zobG/5izNYEi5tzt8nJKxF/YDgXBseojYHte1KC7lKEEx0ICQLTLB0uQS24svKo9Z2kBf14b4Vt76MakR5xs4jxrDcrgC1J48HzqPg4gC9C4/Xpd2X+4mrPTx7kuqUkvNG0iBjUubzjILh/JnxeaYSaaB397WRlJOYOTxN/MQQ0NIrrno2gArkHxE1LK3iL2LHtAtFLS1TUGHc/6P6Wt7Zphw3PqBM0YkNg07mAXVl4W3o2b9Vw7TMVyDfArNLK0dHDvXxJ5B97Xg=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441904
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7197.819952964783,
+                        "value": "2C6DB3DC09429D16EEAF93C19B607D98~000000000000000000000000000000~YAAQBBoSAntbddiRAQAAEPAN6xkGnN5T3Jra4xDHPlBId2mzMhMHbZH7PNuIZMIH5DNOM3xK+1ysazWdO8sKl2M3SGfe+VIyTocMxrxgkhKxQYWSb7yuqYESLTZl6sqCz9hrRvC/YQNRkCusUaNQfk6HBzffDRbySZeWsq0PsMisHKZxsPk/J72Rt92bP3ifBFfiFNlvx/og3TSfgdoGNmpHkqZojWEBWCmcbc2kYmvtLeYqfsfF9mMgFX3JEd3JcVPpPVq9wKdZKRLjQGqUYxcaXuPYMXMPR+ESybvpa5EzT+voaCxHPoEgEgEGlv9hc7xaBKWmg6oY5meHarNDOdN4AQHWrz1M3L1wmmjcxHv25iusMWcAj55zXP9Jx4LOp29yuWyHs+mRskkhm+aeg3w8rsJHgV8pr+67fixuRXtr2UiEm7lU+4C936U7KIZHGQuST+QD",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444839
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7197.928241968155,
+                        "value": "2C6DB3DC09429D16EEAF93C19B607D98~000000000000000000000000000000~YAAQBBoSAo1bddiRAQAAfPAN6xnhw4k4LwqhBHvF1OdweC40j7/acmI05mUFEEHJSpUA+ycIeYdVOeoZfcAllAYlaeqoe3jBUAheMpcfDqsseGCZc14Qf4LglVsFJZNNU3ztSVbSj0nBE8CsLBLBs9kj3vZzQ0k/O35XORTAgTFrObp2gP8dFMkVR37D/Xvz48H5dej1bExplPNUuXjRBYSbaZIzzWtA18EwcxJ0swNncvGTFsaKGzQMLKQqKFHO3Sbg8j+ciI3QlrLODLfNmngqE9lSPGzwpEThF7Kh8bza9tVVujbbL754xMpFnSuwrmVDdUKYMmneS0PlBpwIPEXumVKOQgze4wbJCA3DnO3z0BURU4RaEWpAMbmR6/5QFWQAjHhaoLXel7Ng5YLwFrLUuxlWLEfqTIcmzRCP0sMXwaGgObbDTikeEpfh9hoEfVRpgwc3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444932
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444841,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726232644.819992,
+                        "expiry": 7200.81999206543,
+                        "value": "F85332E9BBFC7642E5D0FF82DE82B2AA~YAAQBBoSAnxbddiRAQAAEPAN6xmZ7tOxb8HGDYezKZdfFph54mW+7XpbUcQmdBsOZYeQMbcjelIB4yobFweYIQOAm2oZsLguRfGBHO2BVk0fkk4lArNWs0ZjC9eUchMEb0fEAyUocJTmZpnelCZmbXOWPSz20sXPM+f0V+mqgpqOiRERS2pk2TZ7BG/bLVtKhx8MW4dWpsv9ZMBRnFV2sDUmS0rUhPbq4MmvzDPq2nEldQK8cYW8Z9YaUpjvRk1H~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444839
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7200.928261041641,
+                        "value": "589473E73D575BA048B7AF30C122C098~YAAQBBoSAo5bddiRAQAAfPAN6xmJTAvskCCdSmc4UEXNjRE3LgKAFV+/gdNwLOZrPzuUxo1JS1TZtjuYLoOHdIyZ91quTnrkZJQ60fVLLTbqujKWIrawBfC//nf9S9xUTfG87DmkVVOucQy6c2ejz9tfoSv4Og7yL3HYvSoqzzAbxdEkzhgK/+d1jxcnb0Z4cj9F3MpAzQJgHpnocZiBuvgbTZEhEWWbLT226Iypix+eYuPakq0Gdf9VrNSmHCFU~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444933
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7199.956243991852,
+                        "value": "F85332E9BBFC7642E5D0FF82DE82B2AA~YAAQBBoSApZbddiRAQAAl/AN6xkMjp6ORsy8/00z5TenxRhviqOrkKVDiT3JcHrDZTw7bcozDDbqR0T/WXRfl7WJtkAutpBG0PTGvzg49WQtkib1xKjwnIMVcWv8OtuqW8ieRU0qDigy+IZdjxVbgsgfr6lm3FCFoxOSiexqhd8F9WZB99uWNWfJPpE/ivBQrWCStEqR//WqC3Kqc4xoszY4AG7uRDzBm6S25R/T1PywZVKWrVmXrq6VmW37TRy2~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444957
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7199.128937005997,
+                        "value": "F85332E9BBFC7642E5D0FF82DE82B2AA~YAAQBBoSArVbddiRAQAARfEN6xkSDgiZ8OW0JxW6Dl4fKeUV5VQ6fWUZ/eJE8FnU0dR6hwqKQcq4ie/UkPuMnOMvLwriW69VOZET3uP/b23MI2okf7dBP54pIN9cSBkGah6hYm3G8yJ+XRqRcEUcWMQO685hj4HpGeRyes1nBDUBdblXtX9AXP906lSQ6VfqdIulWDSe9mt8AO4YVFsH74jBOsEv0v+a7Cf45xUT9GrOh3fXWLqQuu8WFm5M7I2G~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225445129
+                    }
+                ]
+            },
+            "bm_sz": {
+                "name": "bm_sz",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441638,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726239841.600169,
+                        "expiry": 14400.600168943405,
+                        "value": "0D2CC1A97CA4B9CD51F43FAA4F8A1C5B~YAAQBBoSAldZddiRAQAAeuMN6xmLVUjTeiG5wGT2foUtVXpk/lyRcNFWj6Qr7/bUHdU3t96NzDVV9Ipg7+eGKLYp8pjA/jtbJ5y8XXNCS2R2h9FPQZgjak3SBKg/xxfaBg6EPkziWZoukRB4xpK2/lwih/Ndm+4f5ReRu7yovaoth/8pmMFoWq9aMP7iNz3ZOsNhOaZ7CbcpD9b3R/nsGMUQF7KicobDEeNKjqMZbpdusfBLWbpygo/VY4s/pmtUkRukX5BTLSe40WPa8sQ3I9TcbjjBSbyg0B9JbTMQR7+Lvq1aemUuGgS5H9/9Nz4+E1PK26xDwnlyFNKUflQcf+2XC9nVAkU3VLwo3/YvMkor/5FAGnhQLwK1BEdMI7WkSbRH2lkO691tECnxpw==~3424834~3752769",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441637
+                    }
+                ]
+            },
+            "x-next-persona": {
+                "name": "x-next-persona",
+                "domain": ".next.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225441746,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728817441,
+                        "expiry": 2592000,
+                        "value": "APlatform",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225441744
+                    }
+                ]
+            },
+            "ASP.NET_SessionId": {
+                "name": "ASP.NET_SessionId",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444930,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "kn5sgj2xnen4fzlxh0pmfgka",
+                        "same_site": "lax",
+                        "timestamp": 1726225444928
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "wha3dxxlv4ksv0oxf0ey53xt",
+                        "same_site": "lax",
+                        "timestamp": 1726225444956
+                    }
+                ]
+            },
+            "MASId": {
+                "name": "MASId",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444930,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817444.928161,
+                        "expiry": 2592000.928160906,
+                        "value": "ID=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444930
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.955749035,
+                        "value": "ID=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444956
+                    }
+                ]
+            },
+            "NSC_JObpvvqlbx0xcdzbrn3bnhbgejhupbq": {
+                "name": "NSC_JObpvvqlbx0xcdzbrn3bnhbgejhupbq",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441842,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ffffffff6602d70045525d5f4f58455e445a4a423660",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441841
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ffffffff6602d70545525d5f4f58455e445a4a423660",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441850
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ffffffff6602d71045525d5f4f58455e445a4a423660",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441929
+                    }
+                ]
+            },
+            "Next": {
+                "name": "Next",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444932,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ID=19d0ac15fb0145d7bccb7f85bb7338b5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444932
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ID=d19d49ff7ca7437386beb4a678e386e2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444957
+                    }
+                ]
+            },
+            "NextDeviceType": {
+                "name": "NextDeviceType",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441615,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726236241.599051,
+                        "expiry": 10800.599050998688,
+                        "value": "Desktop",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225441603
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 10800.955627918243,
+                        "value": "Desktop",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444956
+                    }
+                ]
+            },
+            "NextSessionVariables": {
+                "name": "NextSessionVariables",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444931,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817444.928184,
+                        "expiry": 2592000.9281840324,
+                        "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444930
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2591999.955885887,
+                        "value": "ShowRecentlyViewed=false&ShowRVCoachTip=true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444957
+                    }
+                ]
+            },
+            "NextVisitor": {
+                "name": "NextVisitor",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444931,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761444.928203,
+                        "expiry": 31536000.928203106,
+                        "value": "LatestSessionID=19d0ac15fb0145d7bccb7f85bb7338b5&LatestSessionTimestamp=13/09/2024 12:04:04&ID=d6c21140d41a4605881dfd5abcba22fa",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444931
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31535999.955965042,
+                        "value": "LatestSessionID=d19d49ff7ca7437386beb4a678e386e2&LatestSessionTimestamp=13/09/2024 12:04:04&ID=08115b54d10b4578b8dbaeae5b1b52f0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444957
+                    }
+                ]
+            },
+            "QueueITAccepted-SDFrts345E-V3_nextmainsite": {
+                "name": "QueueITAccepted-SDFrts345E-V3_nextmainsite",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444793,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726226644,
+                        "expiry": 1200,
+                        "value": "EventId%3Dnextmainsite%26QueueId%3D984c908e-3370-4ebe-8be2-af972623d5ca%26RedirectType%3Dsafetynet%26IssueTime%3D1726225442%26Hash%3D0af8803b3abda37f0e724ab6b0fd93d12f01010cc97d70b87bf34010bc4db36e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444791
+                    }
+                ]
+            },
+            "RPId": {
+                "name": "RPId",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444932,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728817444.928226,
+                        "expiry": 2592000.928225994,
+                        "value": "ID=4444581906",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444932
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2592000.956170082,
+                        "value": "ID=4444581908",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444957
+                    }
+                ]
+            },
+            "_br_seg_id": {
+                "name": "_br_seg_id",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225444839,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "unclassified",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225444838
+                    }
+                ]
+            },
+            "akaas_MEGANAV_2022_PD": {
+                "name": "akaas_MEGANAV_2022_PD",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441632,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "2147483647~rv=93~id=3171bb86b95c255e6751dc6eaa66f3cd",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225441631
+                    }
+                ]
+            },
+            "osaCartItems": {
+                "name": "osaCartItems",
+                "domain": "www.next.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225445021,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726311845,
+                        "expiry": 86400,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225445020
+                    }
+                ]
+            }
+        }
+    },
+    "queue-it.net": {
+        "/": {
+            "Queue-it": {
+                "name": "Queue-it",
+                "domain": ".queue-it.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441993,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757761441.991495,
+                        "expiry": 31536000.991494894,
+                        "value": "u=b92d9f4a-22ff-4ca1-b0a6-ce51e8d25e05",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225441992
+                    }
+                ]
+            }
+        }
+    },
+    "next.queue-it.net": {
+        "/": {
+            "Queue-it-984c908e-3370-4ebe-8be2-af972623d5ca": {
+                "name": "Queue-it-984c908e-3370-4ebe-8be2-af972623d5ca",
+                "domain": "next.queue-it.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225441992,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726229041.991472,
+                        "expiry": 3600.991472005844,
+                        "value": "WasRedirected=false&i=638618222420487468",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225441991
+                    }
+                ]
+            }
+        }
+    }
+}

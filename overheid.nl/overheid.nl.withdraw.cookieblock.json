@@ -1,0 +1,581 @@
+{
+    "overheid.nl": {
+        "/": {
+            "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a": {
+                "name": "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171205301,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760126405,
+                        "expiry": 33955200,
+                        "value": "fac3d37b6ec057fc.1726171205.0.1726171205..",
+                        "same_site": "lax",
+                        "timestamp": 1726171205300
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "fac3d37b6ec057fc.1726171205.1.1726171205.1726171205.",
+                        "same_site": "lax",
+                        "timestamp": 1726171205305
+                    }
+                ]
+            },
+            "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a": {
+                "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171205301,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760126405,
+                        "expiry": 33955200,
+                        "value": "eeda1c1192cbcc6d.1726171205.0.1726171205..",
+                        "same_site": "lax",
+                        "timestamp": 1726171205301
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "eeda1c1192cbcc6d.1726171205.1.1726171205.1726171205.",
+                        "same_site": "lax",
+                        "timestamp": 1726171205305
+                    }
+                ]
+            },
+            "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a": {
+                "name": "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171205305,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726173005,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726171205305
+                    }
+                ]
+            },
+            "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a": {
+                "name": "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171205305,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726173005,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726171205305
+                    }
+                ]
+            },
+            "test": {
+                "name": "test",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171205299,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726171215,
+                        "expiry": 10,
+                        "value": "testvalue",
+                        "same_site": "lax",
+                        "timestamp": 1726171205297
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 10,
+                        "value": "testvalue",
+                        "same_site": "lax",
+                        "timestamp": 1726171205300
+                    }
+                ]
+            },
+            "stg_externalReferrer": {
+                "name": "stg_externalReferrer",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726171205120,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171206132
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171206134
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171206270
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171206272
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171208279
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171208478
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171208479
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171209498
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171210270
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171210270
+                    }
+                ]
+            },
+            "stg_last_interaction": {
+                "name": "stg_last_interaction",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171205121,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205379
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205386
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205521
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205543
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205577
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205924
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205938
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:06%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171206136
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:08%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171208480
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:09%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171209498
+                    }
+                ]
+            },
+            "stg_returning_visitor": {
+                "name": "stg_returning_visitor",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171205114,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205380
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205387
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205521
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205543
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205577
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205926
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:05%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171205938
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:06%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171206136
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:08%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171208480
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2020:00:09%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171209498
+                    }
+                ]
+            },
+            "stg_traffic_source_priority": {
+                "name": "stg_traffic_source_priority",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726171205122,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205380
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205387
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205522
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205544
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205577
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205926
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171205939
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171206136
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171208480
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171209499
+                    }
+                ]
+            }
+        }
+    }
+}

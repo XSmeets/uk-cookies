@@ -1,0 +1,67 @@
+{
+    "dba.dk": {
+        "/": {
+            "dbatracker": {
+                "name": "dbatracker",
+                "domain": ".www.dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148877654,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684877.636971,
+                        "expiry": 31536000.636970997,
+                        "value": "id=9eaa786f-a7d6-47cc-a3db-1416eba14e32",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148877648
+                    }
+                ]
+            },
+            "__RequestVerificationToken": {
+                "name": "__RequestVerificationToken",
+                "domain": "www.dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148877660,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "aRRWDpeHRT-bZARa0qfhU-hYLrnKDjfpplz_ic3AU7uKcthN8sg6O_BS2vwxZQcuUO_HV1OZsSIlU7QuZ_qgVnfIVhRam0BRQNl7BmrQZfsHZvGYFOlwJYszHlw_ONCtrC5VsA2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148877659
+                    }
+                ]
+            },
+            "dbasession": {
+                "name": "dbasession",
+                "domain": "www.dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148877659,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "id=7e6fb711-e264-4956-af52-a192a975706e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148877654
+                    }
+                ]
+            }
+        }
+    }
+}

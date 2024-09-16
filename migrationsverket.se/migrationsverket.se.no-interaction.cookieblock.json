@@ -1,0 +1,57 @@
+{
+    "migrationsverket.se": {
+        "/": {
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "www.migrationsverket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726150381742,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "BBDC990E01F8395ADA78A66B6E45CD93",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726150381734
+                    }
+                ]
+            },
+            "ppms_privacy_d1f25f31-a983-48af-b044-23df3c5af29d": {
+                "name": "ppms_privacy_d1f25f31-a983-48af-b044-23df3c5af29d",
+                "domain": "www.migrationsverket.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726150382823,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757686382,
+                        "expiry": 31536000,
+                        "value": "{%22visitorId%22:%22fa72dd6a-29cc-452d-ad65-3de9e0fa3d72%22%2C%22domain%22:{%22normalized%22:%22www.migrationsverket.se%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.migrationsverket.se%22}}",
+                        "same_site": "strict",
+                        "timestamp": 1726150382819
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{%22visitorId%22:%22fa72dd6a-29cc-452d-ad65-3de9e0fa3d72%22%2C%22domain%22:{%22normalized%22:%22www.migrationsverket.se%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.migrationsverket.se%22}%2C%22consents%22:{%22analytics%22:{%22status%22:-1}}}",
+                        "same_site": "strict",
+                        "timestamp": 1726150382823
+                    }
+                ]
+            }
+        }
+    }
+}

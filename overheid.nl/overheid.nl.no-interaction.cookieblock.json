@@ -1,0 +1,434 @@
+{
+    "overheid.nl": {
+        "/": {
+            "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a": {
+                "name": "_pk_id.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171165904,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760126365,
+                        "expiry": 33955200,
+                        "value": "091db4620c885653.1726171166.0.1726171166..",
+                        "same_site": "lax",
+                        "timestamp": 1726171165903
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "091db4620c885653.1726171166.1.1726171166.1726171166.",
+                        "same_site": "lax",
+                        "timestamp": 1726171165906
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "091db4620c885653.1726171166.1.1726171166.1726171166.",
+                        "same_site": "lax",
+                        "timestamp": 1726171165909
+                    }
+                ]
+            },
+            "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a": {
+                "name": "_pk_id.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171165906,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760126365,
+                        "expiry": 33955200,
+                        "value": "f3f96ef7237796c9.1726171166.0.1726171166..",
+                        "same_site": "lax",
+                        "timestamp": 1726171165905
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "f3f96ef7237796c9.1726171166.1.1726171166.1726171166.",
+                        "same_site": "lax",
+                        "timestamp": 1726171165909
+                    }
+                ]
+            },
+            "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a": {
+                "name": "_pk_ses.042a8a3e-7692-4e18-8abf-c3034df672d0.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171165907,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726172965,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726171165906
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726171165909
+                    }
+                ]
+            },
+            "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a": {
+                "name": "_pk_ses.3563c399-95ab-4851-b79b-4d4d85b6df10.340a",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171165909,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726172965,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726171165909
+                    }
+                ]
+            },
+            "test": {
+                "name": "test",
+                "domain": ".overheid.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726171165902,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726171175,
+                        "expiry": 10,
+                        "value": "testvalue",
+                        "same_site": "lax",
+                        "timestamp": 1726171165901
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 10,
+                        "value": "testvalue",
+                        "same_site": "lax",
+                        "timestamp": 1726171165903
+                    }
+                ]
+            },
+            "stg_externalReferrer": {
+                "name": "stg_externalReferrer",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726171165726,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165856
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165858
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165859
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165860
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165861
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165943
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165944
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171165944
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171166757
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "lax",
+                        "timestamp": 1726171166757
+                    }
+                ]
+            },
+            "stg_last_interaction": {
+                "name": "stg_last_interaction",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726171165727,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757707165,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165726
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165882
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165884
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165945
+                    }
+                ]
+            },
+            "stg_returning_visitor": {
+                "name": "stg_returning_visitor",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726171165721,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757707165,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165716
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165727
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165848
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165885
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "Thu%2C%2012%20Sep%202024%2019:59:25%20GMT",
+                        "same_site": "lax",
+                        "timestamp": 1726171165946
+                    }
+                ]
+            },
+            "stg_traffic_source_priority": {
+                "name": "stg_traffic_source_priority",
+                "domain": "overheid.nl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726171165727,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726172965,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171165727
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171165849
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171165885
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726171165946
+                    }
+                ]
+            }
+        }
+    }
+}

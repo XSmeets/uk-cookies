@@ -1,0 +1,844 @@
+{
+    "demdex.net": {
+        "/": {
+            "demdex": {
+                "name": "demdex",
+                "domain": ".demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231184540,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741783184.537593,
+                        "expiry": 15552000.537592888,
+                        "value": "28476111614665197450562474229421862284",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231184538
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.584837914,
+                        "value": "28476111614665197450562474229421862284",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231184587
+                    }
+                ]
+            }
+        }
+    },
+    "postoffice.co.uk": {
+        "/": {
+            "AMCVS_D7ECF561577691407F000101%40AdobeOrg": {
+                "name": "AMCVS_D7ECF561577691407F000101%40AdobeOrg",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231184599,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231184598
+                    }
+                ]
+            },
+            "AMCV_D7ECF561577691407F000101%40AdobeOrg": {
+                "name": "AMCV_D7ECF561577691407F000101%40AdobeOrg",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231177167,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760791177.157603,
+                        "expiry": 34560000.157603025,
+                        "value": "359503849%7CMCIDTS%7C19980%7CvVersion%7C5.0.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177162
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.58876705,
+                        "value": "359503849%7CMCIDTS%7C19980%7CMCMID%7C28194137027602457060534347001752618119%7CvVersion%7C5.0.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231184589
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.5908761,
+                        "value": "359503849%7CMCIDTS%7C19980%7CMCMID%7C28194137027602457060534347001752618119%7CMCAAMLH-1726835984%7C6%7CMCAAMB-1726835984%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CvVersion%7C5.0.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231184595
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.59717202,
+                        "value": "359503849%7CMCIDTS%7C19980%7CMCMID%7C28194137027602457060534347001752618119%7CMCAAMLH-1726835984%7C6%7CMCAAMB-1726835984%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1726238384s%7CNONE%7CvVersion%7C5.0.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231184600
+                    }
+                ]
+            },
+            "POSTOFFICE_ENSIGHTEN_PRIVACY_BANNER_LOADED": {
+                "name": "POSTOFFICE_ENSIGHTEN_PRIVACY_BANNER_LOADED",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231177241,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767177,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231177240
+                    }
+                ]
+            },
+            "POSTOFFICE_ENSIGHTEN_PRIVACY_BANNER_VIEWED": {
+                "name": "POSTOFFICE_ENSIGHTEN_PRIVACY_BANNER_VIEWED",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231181720,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767181,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231181719
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231181731
+                    }
+                ]
+            },
+            "POSTOFFICE_ENSIGHTEN_PRIVACY_Functional": {
+                "name": "POSTOFFICE_ENSIGHTEN_PRIVACY_Functional",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231181725,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767181,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231181724
+                    }
+                ]
+            },
+            "POSTOFFICE_ENSIGHTEN_PRIVACY_MODAL_VIEWED": {
+                "name": "POSTOFFICE_ENSIGHTEN_PRIVACY_MODAL_VIEWED",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231181729,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767181,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231181729
+                    }
+                ]
+            },
+            "POSTOFFICE_ENSIGHTEN_PRIVACY_Marketing_and_Social_Networks": {
+                "name": "POSTOFFICE_ENSIGHTEN_PRIVACY_Marketing_and_Social_Networks",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231181728,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767181,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231181727
+                    }
+                ]
+            },
+            "POSTOFFICE_ENSIGHTEN_PRIVACY_Performance": {
+                "name": "POSTOFFICE_ENSIGHTEN_PRIVACY_Performance",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231181727,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767181,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231181725
+                    }
+                ]
+            },
+            "QuantumMetricSessionID": {
+                "name": "QuantumMetricSessionID",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231182918,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726232982,
+                        "expiry": 1800,
+                        "value": "d173360e8e46f9c725cd81351dd71620",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231182917
+                    }
+                ]
+            },
+            "QuantumMetricUserID": {
+                "name": "QuantumMetricUserID",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231182919,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767182,
+                        "expiry": 31536000,
+                        "value": "342bd5609fe3fb321d4af05b74447f63",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231182918
+                    }
+                ]
+            },
+            "_cq_duid": {
+                "name": "_cq_duid",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231177852,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734115177,
+                        "expiry": 7884000,
+                        "value": "1.1726231177.QPuCjW40q55DrTCg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231177851
+                    }
+                ]
+            },
+            "_cq_suid": {
+                "name": "_cq_suid",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231177853,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1.1726231177.ynnVfT6Z0VtB7Bgh",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231177853
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231182168,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760791182.165382,
+                        "expiry": 34560000.16538191,
+                        "value": "GA1.1.739057299.1726231182",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231182167
+                    }
+                ]
+            },
+            "_ga_Y9YBRXVT6W": {
+                "name": "_ga_Y9YBRXVT6W",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231182166,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760791182.165056,
+                        "expiry": 34560000.16505599,
+                        "value": "GS1.1.1726231182.1.0.1726231182.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231182166
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.692205906,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231184692
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.69274092,
+                        "value": "GS1.1.1726231182.1.0.1726231184.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231184693
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231182116,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734007182,
+                        "expiry": 7776000,
+                        "value": "1.1.547902994.1726231182",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231182115
+                    }
+                ]
+            },
+            "at_check": {
+                "name": "at_check",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726231177171,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177171
+                    }
+                ]
+            },
+            "ens_awch": {
+                "name": "ens_awch",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231177427,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "dt",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231177426
+                    }
+                ]
+            },
+            "mbox": {
+                "name": "mbox",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231177173,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726233038,
+                        "expiry": 1861,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233038",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177172
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1861,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233038",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177173
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1861,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233040",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179224
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.55885792,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233040|PC#f0d5d84e7d97469bbf386093220a230b.37_0#1789475980",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179559
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.562392,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233040|PC#f0d5d84e7d97469bbf386093220a230b.37_0#1789475980",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179564
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.56507492,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233040|PC#f0d5d84e7d97469bbf386093220a230b.37_0#1789475980",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179566
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.62947893,
+                        "value": "session#f0d5d84e7d97469bbf386093220a230b#1726233040|PC#f0d5d84e7d97469bbf386093220a230b.37_0#1789475980",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179629
+                    }
+                ]
+            },
+            "mboxEdgeCluster": {
+                "name": "mboxEdgeCluster",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231179562,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726233039,
+                        "expiry": 1860,
+                        "value": "37",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179560
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1860,
+                        "value": "37",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231179564
+                    }
+                ]
+            },
+            "qm-rc": {
+                "name": "qm-rc",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726231182134,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231182133
+                    }
+                ]
+            },
+            "qm-ssc": {
+                "name": "qm-ssc",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231182135,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231182135
+                    }
+                ]
+            },
+            "s_CVP": {
+                "name": "s_CVP",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231177414,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760791177.412634,
+                        "expiry": 34560000.412633896,
+                        "value": "%5B%5B'Direct'%2C'1726231177412'%5D%5D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231177413
+                    }
+                ]
+            },
+            "s_ips": {
+                "name": "s_ips",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231177419,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177418
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177639
+                    }
+                ]
+            },
+            "s_pageName": {
+                "name": "s_pageName",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231177421,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726232977,
+                        "expiry": 1800,
+                        "value": "home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177421
+                    }
+                ]
+            },
+            "s_ppv": {
+                "name": "s_ppv",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231177421,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "home%2C21%2C21%2C890%2C1%2C4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177420
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "home%2C21%2C21%2C890%2C1%2C4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177640
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "home%2C26%2C26%2C890%2C1%2C3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231181731
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "home%2C26%2C26%2C890%2C1%2C3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231181732
+                    }
+                ]
+            },
+            "s_tp": {
+                "name": "s_tp",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231177420,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4223",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177419
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4223",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177639
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "3432",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231181730
+                    }
+                ]
+            },
+            "test": {
+                "name": "test",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231177161,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177157
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231177162
+                    }
+                ]
+            },
+            "uuid": {
+                "name": "uuid",
+                "domain": ".postoffice.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231182478,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760791182.474964,
+                        "expiry": 34560000.4749639,
+                        "value": "84d774ba-a6fd-4a3b-beea-da40e3253fb7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231182475
+                    }
+                ]
+            }
+        }
+    },
+    "obseu.togreencolumn.com": {
+        "/": {
+            "cg_uuid": {
+                "name": "cg_uuid",
+                "domain": "obseu.togreencolumn.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726231177994,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1755261577.993005,
+                        "expiry": 29030400.993005037,
+                        "value": "04d211ce1a0b1b6454f7499aeb0f3e55",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726231177993
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,764 @@
+{
+    "ado.icorp.ro": {
+        "/": {
+            "GAD": {
+                "name": "GAD",
+                "domain": ".ado.icorp.ro",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563338,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563.336963,
+                        "expiry": 34128000.33696294,
+                        "value": "KlSYhMMGQMQGn8Z5BKJYrUlUssGMXP8cfRySssX6Sssa",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563337
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.39371705,
+                        "value": "KlSSMRMGQMQGn8Z5BKJYrUlUssGMXP8cfRySssX6QssGvaGpI7EPoMVsL1BGG7_DGtGiXD_nGGMS",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563394
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.7719419,
+                        "value": "KlxY_RGGQMQGn8Z5BKJYrUlUssGMXP8cfRySssX6xssGvaGpI7EPoMVsL1BGG7_DGtGiXD3nG7GKoSxYuIqnGsR7IGla",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563773
+                    }
+                ]
+            },
+            "ao_cookie_support_check": {
+                "name": "ao_cookie_support_check",
+                "domain": "ado.icorp.ro",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563587,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726077565,
+                        "expiry": 2,
+                        "value": "0.6897311734486364",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563586
+                    }
+                ]
+            }
+        }
+    },
+    "avocatnet.ro": {
+        "/": {
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077562789,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757613562,
+                        "expiry": 31536000,
+                        "value": "2024-09-11T17:59:22.782Z",
+                        "same_site": "lax",
+                        "timestamp": 1726077562783
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077559693,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726077559718
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1",
+                        "same_site": "lax",
+                        "timestamp": 1726077559719
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.avocatnet.ro%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726077559721
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.avocatnet.ro%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726077559981
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.avocatnet.ro%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726077559985
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.avocatnet.ro%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726077559990
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.avocatnet.ro%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726077559995
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A19+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.avocatnet.ro%2F&groups=BG2240%3A1%2CC0010%3A1%2CC0001%3A1%2CC0008%3A0%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0009%3A0%2CC0011%3A0%2CC0007%3A0%2CC0005%3A0%2CV2STACK1%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726077559997
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A22+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0010%3A1%2CBG2240%3A1%2CC0001%3A1%2CC0008%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CC0009%3A1%2CC0011%3A1%2CC0007%3A1%2CC0005%3A1%2CV2STACK1%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726077562790
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Wed+Sep+11+2024+19%3A59%3A22+GMT%2B0200+(Central+European+Summer+Time)&version=202402.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=b30e1b7a-8c04-4fd1-93eb-6ba569ccec57&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0010%3A1%2CBG2240%3A1%2CC0001%3A1%2CC0008%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1%2CC0009%3A1%2CC0011%3A1%2CC0007%3A1%2CC0005%3A1%2CV2STACK1%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726077562808
+                    }
+                ]
+            },
+            "_cookie_test": {
+                "name": "_cookie_test",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077563080,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726077593,
+                        "expiry": 30,
+                        "value": "m0y60jicckrji3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563078
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0y60jimk1lg7a",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563087
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0y60jji6jx8f1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563120
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0y60jjlwxm6va",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563123
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0y60jnz6wamcp",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563280
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0y60jsvwe5iv7",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563455
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 30,
+                        "value": "m0y60jxjjn6ku8",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563624
+                    }
+                ]
+            },
+            "_pcid": {
+                "name": "_pcid",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726077563120,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563,
+                        "expiry": 34128000,
+                        "value": "%7B%22browserId%22%3A%22m0y60jinu9jtdfla%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726077563119
+                    }
+                ]
+            },
+            "_pctx": {
+                "name": "_pctx",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077563092,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAE0RXQF8g",
+                        "same_site": "lax",
+                        "timestamp": 1726077563091
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "%7Bu%7DN4IgrgzgpgThIC4B2YA2qA05owMoBcBDfSREQpAeyRCwgEt8oBJAEzIEYOBmATgDYADAFZ%2Bw3gBZJHAOzCOADgBMIAL5A",
+                        "same_site": "lax",
+                        "timestamp": 1726077563118
+                    }
+                ]
+            },
+            "ao-fpgad": {
+                "name": "ao-fpgad",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563590,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759773563,
+                        "expiry": 33696000,
+                        "value": "%7B%22fpcRequired%22%3Afalse%2C%22checkTS%22%3A1726077563586%2C%22domain%22%3A%22avocatnet.ro%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726077563589
+                    }
+                ]
+            },
+            "ao_cookie_support_check264": {
+                "name": "ao_cookie_support_check264",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077563589,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726077565,
+                        "expiry": 2,
+                        "value": "0.8053363253964787",
+                        "same_site": "lax",
+                        "timestamp": 1726077563588
+                    }
+                ]
+            },
+            "cX_G": {
+                "name": "cX_G",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077563457,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563,
+                        "expiry": 34128000,
+                        "value": "cx%3A21ug9x4cq1gg43qrssximgbkzb%3A3qjfxff0m4tik",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563456
+                    }
+                ]
+            },
+            "cX_P": {
+                "name": "cX_P",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077563121,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563,
+                        "expiry": 34128000,
+                        "value": "m0y60jinu9jtdfla",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563121
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "m0y60jinu9jtdfla",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563123
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "m0y60jinu9jtdfla",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563280
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "m0y60jinu9jtdfla",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077563624
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077562807,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757613562,
+                        "expiry": 31536000,
+                        "value": "CQEx43AQEx43AAcABBENBGF8AP_gAAAAAChQKVtV_G__bXlr8X73aftkeY1f9_h77sQxBhfJk-4FzLvW_JwX32EzNA36tqYKmRIAu3bBIQNlGJDUTUCgaogVrzDMak2coTNKJ6BkiFMRe2dYCF5vmwtj-QKY5vr_91d52R-t7dr83dzyz4Vnv3a5_2a1WJCdA58tDfv_bROb-9IMd_x8v4v88IfrE2_eT1l_tevp7D8AAAAAAHX-9_YBf79Ln_-uB_-AAAAwJBPAAQAAuACgAKgAcAA8ACCAF4AagA8ACIAEwAKoAbwA9AB-AEJAIYAiQBHACWAE0AMAAYcAygDLAGyAOeAdwB3wD2APiAfYB-wD_AQAAikBFwEYAI1ASIBJYCfgKDAVABVwC5gF6AMUAaIA2gBuADiAIdgR6BIoCdgFDgKPAUiAtgBcgC7wF5gMNgZGBkgDJwGXAMzAZzA1cDWQGxgNvAbqA4IByYDlwHjgPaAf8BBMCDAEIYIWghdBD0EP4I-gj-BIoCSEEmASZAmYBM4CbgQA6AA4AEgAnACDgJWATbAp8CoQFhALyAYgAxYBkIDSgGpgNoAbcA3SB5IHlAPkAfuBAQCBgEEQIVgQ8AimBMUCZoE1BwDgABEADgAPAAuACQAH4AaAB0AEAgIOAhABEQCaAFQAOkAhABIoCVgExAJlATaApMBUICpQFdgLUAXQAwQBiADFgGQgMmAamA14BtADbAG3AOPgc6Bz4DygHxAPtgfsB-4EDwIIgQbAhWBDwCKYEbwJCASNgkiCSQEwwJmgTUAmwBNsdBfAAXABQAFQAOAAggBcAGoAPAAiABMACrAFwAXQAxABvAD0AH6AQwBEgCWAE0AJwAUYAwABhgDKAGiANkAc8A7gDvAHtAPsA_QB_wEUARiAjoCSwE_AUGAqICrgFiALnAXkBegDFAG0ANwAcQA6gB9gEOgIvgR6BIgCZAE7AKHgUeBSACmgFWALFgWwBbIC3QFwALkAXaAu8BeYC-gGGgMegZGBkgDJwGVQMsAy4BmYDOQGmgNVgauBrADbwG6gOLAcmA5cB44DyQHtAPrAfcBAECDAELQIdAQ9gj6CP4EigJIASZAmYBM4CbgE3gJwkADoACAA0AFiAL6Am0BSYCpQFcgLyAYIA0YBqYDbAG3AOfgeSB5QD4gH7AQPAg2BCsCKYEaQI3wSRBJICYYEzQJsATbIQKgAFgAUABcADUAKoAXAAxABvAD0AI4AYAA54B3AHeAP8AigBKQCgwFRAVcAuYBigDaAHUAR6ApoBVgCxQFogLgAXIAyMBk4DOQGqgPHAgwBCgCFoEOgIegSKAkgBM4lAxAAQAAsACgAHAAeABEACYAFUALgAYoBDAESAI4AUYAwABsgDvAH5AVEBVwC5gGKAOoAh0BEwCL4EegSIAo8BTQCxQFsALzgZGBkgDJwGWAM5AawA28B7QEAQIHgQYAhCBD0CRQEkAJKgTMAmcBNwCcJIAiABcAdwBAACDgFQASKAlYBNoCkwGLANyAeUA_cCCIEkgJmgTbKALgAFAAXABIAC4ARwAnAB3AEAALEAXUA14B2wD_gJFATEAm0BT4CpQFdgLoAXkAwQBiwDJgGjANTAa8A5YB5QD4gH2wP2A_cCBgEDwINgQrAh4BFMCPcEkQSSAkqBM0CagE2AJtgThKQTQAFwAUABUADgAIIAZABoADwAIgATAApABVADEAH6AQwBEgCjAGAAMoAaIA2QBzgDvgH2AfoBFgCMQEdASUAoMBUQFXALmAXkAxQBtADcAHUAPaAfYBDoCJgEXwI9AkQBOwChwFIAKaAVYAsUBbAC4AFyALtAXmAvoBhsDIwMkAZPAywDLgGcwNYA1kBt4DdQHBAOTAeKA8cB7QD_gIJgQYAhCBC0CGcEOQQ6gj6CP4EigJIQSYBJkCZgEzgJvFoBYANQBgADuAL0AfYBTQDMwHjgQ9AmYBNwsAOAGWARwBHoCYgE2gK5AaMA1MBugDlgICARgAmaBNg.f_wAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726077562800
+                    }
+                ]
+            },
+            "_csrf": {
+                "name": "_csrf",
+                "domain": "www.avocatnet.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077559373,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "bd49ce63667acd09efb8f7f8e35f06b891f69d58f183a112b478bdfb058ed864a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LGAjifwkKvbdQg4k0B4ovJ9Jez4J2LVN%22%3B%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726077559366
+                    }
+                ]
+            }
+        }
+    },
+    "cxense.com": {
+        "/": {
+            "gckp": {
+                "name": "gckp",
+                "domain": ".cxense.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563227,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757613563.226561,
+                        "expiry": 31536000.22656107,
+                        "value": "j6hqm18mgq0v36qkvbz1xp5ci",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563227
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.347856045,
+                        "value": "j6hqm18mgq0v36qkvbz1xp5ci",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563348
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.392395973,
+                        "value": "j6hqm18mgq0v36qkvbz1xp5ci",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563392
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.4374609,
+                        "value": "cx:21ug9x4cq1gg43qrssximgbkzb:3qjfxff0m4tik",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563438
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.453644037,
+                        "value": "cx:21ug9x4cq1gg43qrssximgbkzb:3qjfxff0m4tik",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563454
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.676165104,
+                        "value": "cx:21ug9x4cq1gg43qrssximgbkzb:3qjfxff0m4tik",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563677
+                    }
+                ]
+            }
+        }
+    },
+    "hit.gemius.pl": {
+        "/": {
+            "Gdyn": {
+                "name": "Gdyn",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563714,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563.713234,
+                        "expiry": 34128000.71323395,
+                        "value": "KlSzFMMGQMGGn1e2dq6YrUlUssGMXP8cfRbG",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563713
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.831847906,
+                        "value": "KlxhuRaGQMGGn1e2dq6YrUlUssGMXP8cf8ySssX6nsGfGnfQHb2xxjGoxcxSY8CBI8l8MG..",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563833
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.83463001,
+                        "value": "KlSPmMXGQMGGn1e2dq6YrUlUssGMXP8cf8ySssX6nsGfGnfQHb2xxjGoxcxSY8CBI788MG..",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563835
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.87557101,
+                        "value": "KlQgDMGGQMGGn1e2dq6YrUlUssGMXP8cf8ySssX6nsGfGnfQHb2xxjGoxcxSY8CBI7l8MG..",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563877
+                    }
+                ]
+            },
+            "Gdynp": {
+                "name": "Gdynp",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563661,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563.656707,
+                        "expiry": 34128000.65670705,
+                        "value": "AId7jhJbFYQsFG7AbLbd8lja52_BdKVX.5RTJNoNX1z.87",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563661
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.71329689,
+                        "value": "BnGKC4RXHardrmojc6ilK_fRhdFZuXNLngAHk1pVE1T.I7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563715
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.83189511,
+                        "value": "0LcgdwK_AbCGwChPq1M.Tomu5v_M_zV1Vm5GPfoCC_f.67",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563834
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.8347199,
+                        "value": "dqeAlvLAsaNQne3sxO4C4mlx1TwWv_o80Rz0wi_ABpz._7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563835
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.875673056,
+                        "value": "0LcqfYwAM3ZOuMJcxy.12IjgdRMsTioCzKNqXwoq.kn.R7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563877
+                    }
+                ]
+            },
+            "Gtest": {
+                "name": "Gtest",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563660,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726682363.65666,
+                        "expiry": 604800.65666008,
+                        "value": "KlSzFMMGQMGGn1e2dq6YrUlUssGMXP8cfRbG",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563658
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726077563658,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760205563.656553,
+                        "expiry": 34128000.65655303,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563657
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.71311903,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563713
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.8316741,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563833
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.83438492,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563835
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.87482405,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077563876
+                    }
+                ]
+            }
+        }
+    }
+}

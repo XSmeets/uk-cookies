@@ -1,0 +1,116 @@
+{
+    "evnt.iol.it": {
+        "/": {
+            "evntuid": {
+                "name": "evntuid",
+                "domain": ".evnt.iol.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726147716966,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ZuLshAoCDU0AAB@-pcEAAA-l",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726147716965
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ZuLshAoCDUsAABTfbi0AAAop",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726147716988
+                    }
+                ]
+            }
+        }
+    },
+    "libero.it": {
+        "/": {
+            "iub_storage_available": {
+                "name": "iub_storage_available",
+                "domain": ".libero.it",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726147716926,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757683716,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726147716922
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726147716927
+                    }
+                ]
+            }
+        }
+    },
+    "italiaonline01.wt-eu02.net": {
+        "/215973748390194": {
+            "wteid_215973748390194": {
+                "name": "wteid_215973748390194",
+                "domain": "italiaonline01.wt-eu02.net",
+                "path": "/215973748390194",
+                "current_label": 2,
+                "label_ts": 1726147716940,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741699716.935732,
+                        "expiry": 15552000.935731888,
+                        "value": "4172614771600680420",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726147716936
+                    }
+                ]
+            },
+            "wtsid_215973748390194": {
+                "name": "wtsid_215973748390194",
+                "domain": "italiaonline01.wt-eu02.net",
+                "path": "/215973748390194",
+                "current_label": 0,
+                "label_ts": 1726147716940,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726147716940
+                    }
+                ]
+            }
+        }
+    }
+}

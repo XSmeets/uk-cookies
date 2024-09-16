@@ -1,0 +1,93 @@
+{
+    "express.co.uk": {
+        "/": {
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": ".www.express.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221468984,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759917468.975162,
+                        "expiry": 33696000.97516203,
+                        "value": "1---",
+                        "same_site": "lax",
+                        "timestamp": 1726221468983
+                    }
+                ]
+            },
+            "X-Experiment": {
+                "name": "X-Experiment",
+                "domain": "www.express.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221468523,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734861468.516677,
+                        "expiry": 8640000.516676903,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221468517
+                    }
+                ]
+            },
+            "testcookie": {
+                "name": "testcookie",
+                "domain": "www.express.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221468817,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726221468816
+                    }
+                ]
+            }
+        }
+    },
+    "dailyexpress.co.uk": {
+        "/": {
+            "X-Experiment": {
+                "name": "X-Experiment",
+                "domain": "dailyexpress.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726221468402,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734861468.396481,
+                        "expiry": 8640000.396481037,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726221468397
+                    }
+                ]
+            }
+        }
+    }
+}

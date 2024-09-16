@@ -1,0 +1,741 @@
+{
+    "ads.pubmatic.com": {
+        "/": {
+            "KCCH": {
+                "name": "KCCH",
+                "domain": ".ads.pubmatic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059342457,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726145742,
+                        "expiry": 86400,
+                        "value": "YES",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059342457
+                    }
+                ]
+            }
+        }
+    },
+    "alza.cz": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".alza.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059340838,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061140.83824,
+                        "expiry": 1800.8382399082184,
+                        "value": "HqwPKZ9Be9fXSKhqO6slo8hfJG2cKEGLaHPeDdBqJys-1726059340-1.0.1.1-KjI1QzIiY_MFvlbtZxf__cDHi1xTW2W.hDSJSxnz1hBaERzIy2zFjQoONBTRb5V0MtvaKScbmQDiIbvVE.H1mA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059340838
+                    }
+                ]
+            }
+        }
+    },
+    "cpex.cz": {
+        "/": {
+            "didomi_accept_cookie": {
+                "name": "didomi_accept_cookie",
+                "domain": ".cpex.cz",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059336881,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681736,
+                        "expiry": 31622400,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059336880
+                    }
+                ]
+            },
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".cpex.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059336885,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681736,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTEyNzUtNGIxMy02OGE2LWI5OWUtYzllNmViZWM2ZWE5IiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTI6NTU6MzYuODgxWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDEyOjU1OjM2Ljg4MVoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059336884
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTEyNzUtNGIxMy02OGE2LWI5OWUtYzllNmViZWM2ZWE5IiwiY3JlYXRlZCI6IjIwMjQtMDktMTFUMTI6NTU6MzYuODgxWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTExVDEyOjU1OjQyLjExNFoiLCJ2ZW5kb3JzIjp7ImRpc2FibGVkIjpbImdvb2dsZSIsImM6cmVjb21iZWVzLUMzcGJ5dEdlIiwiYzp1c2VyY29tLTdBZjZrSHhwIiwiYzp1cHNjb3JlZ20tYUhjOFJQOEYiLCJjOmVrb25ld3Nmby1nR250THFWayIsImM6cG9tb21lZGlhLUhaUVgzWVdMIiwiYzppbXByZXNzaW9uLUtId1lkUHc5IiwiYzp2aXZuZXR3b3ItRHd0SHpUS2QiLCJjOmN6ZWNobmV3cy1uSllqazNCZiIsImM6ZWNvbm9taWFhLW5kRVVBWDNnIiwiYzptYWZyYWFzLVhkNnAybUdBIiwiYzpjemVjaHZpZGUtaFQySmZkSFgiLCJjOm5tZWRpYWEtOGJjcTZuZXciLCJjOm5leHRwYWdlLVBEaHBXSndQIiwiYzphY3RpdmVyYWQtUExRakNIUTkiLCJjOmJwYXNwb3J0LThrRWNqM2VoIiwiYzppbnRlcm5ldG0tN0xER1Y2aGYiLCJjOmtvc2lrY3phLXpMRWozRExDIiwiYzpjemNjenNyLVFIS2ZUZkVGIiwiYzpvbmxham55Y28tQkZtWkVqNmciLCJjOmplbnplbnljei1aQW1DV21CNCIsImM6ZGF0YWJhemVrbi1MMlFVYmU4TSIsImM6YXV0b2pvdXJuYS1rS1FmOFpEaCIsImM6c2tvZGFob21lLWVLQzgzREhqIiwiYzpza29kYWtsYXNpLWgyWUt5V0xqIiwiYzpleHRyYW9ubGktOUdNcXlFemUiLCJjOnJlYWxtYW5zLUhRTWoyd0phIiwiYzpmdW5jb25jZXAtazRYVzhQVGEiLCJjOnBsYXljei1HZmNIZmFCOSIsImM6dGlja2V0cG9ydC1GOWJicVUzaCIsImM6c2hvcnRoYW5kLUZkOTZwbUhuIiwiYzplY2hvbWVkaWEtUjlYRWR3OVciLCJjOnNzcHNvbHV0aS0zaExXRmNrVCIsImM6bmV3c3RyZWFtLVhGNjdqZ0dGIiwiYzp0b3BpbmN6LW1tWlhmeGpQIiwiYzpyb25kb2dvcy1hQlFHalhwVSIsImM6c2luZ2xlcXVlLW5IamtkV3hEIiwiYzpidXJkYWludGUtVkwyd3lQZUoiLCJjOmdyYXBlbWVkaS02UlR0UVh6QyIsImM6Y2F2aXhvc3IteE1iVXJYOW0iLCJjOnZsdGF2YWxhYi14eVdXQmY3NCJdfSwicHVycG9zZXMiOnsiZGlzYWJsZWQiOlsicHVibGlzaGVycy1qUlFGMkY0VSIsInB1Ymxpc2hlcnMtS3FxM2lQZ2UiLCJwdWJsaXNoZXJzLVhXWjJiM0FLIiwicHVibGlzaGVycy1VUHF0Y2dhRSIsInNvdWhsYXNzLTZFQzdoNGRKIl19LCJ2ZW5kb3JzX2xpIjp7ImRpc2FibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6Mn0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059342129
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": ".cpex.cz",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059342130,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681742,
+                        "expiry": 31622400,
+                        "value": "CQEyKcAQEyKcAAHABBENBGFgAAAAAAAAAATIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059342129
+                    }
+                ]
+            }
+        }
+    },
+    "denik.cz": {
+        "/": {
+            "AdTrack-cookies": {
+                "name": "AdTrack-cookies",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726059337026,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726059338,
+                        "expiry": 1,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337025
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726059336935,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760619336.932712,
+                        "expiry": 34560000.93271208,
+                        "value": "GA1.1.1534372726.1726059337",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059336935
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.002130985,
+                        "value": "GA1.1.1534372726.1726059337",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337003
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.01623988,
+                        "value": "GA1.1.1534372726.1726059337",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337017
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.07165289,
+                        "value": "GA1.1.1534372726.1726059337",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337074
+                    }
+                ]
+            },
+            "_ga_964J8J74CQ": {
+                "name": "_ga_964J8J74CQ",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059337002,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760619337.001419,
+                        "expiry": 34560000.00141907,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337001
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.001848936,
+                        "value": "GS1.1.1726059336.1.0.1726059336.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337003
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.35794592,
+                        "value": "GS1.1.1726059336.1.0.1726059337.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337358
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.199858904,
+                        "value": "GS1.1.1726059336.1.0.1726059339.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059339200
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.09449005,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059345096
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.09573698,
+                        "value": "GS1.1.1726059336.1.0.1726059345.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059345097
+                    }
+                ]
+            },
+            "_ga_JRVFB06CW4": {
+                "name": "_ga_JRVFB06CW4",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726059336934,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760619336.932541,
+                        "expiry": 34560000.93254089,
+                        "value": "GS1.1.1726059336.1.0.1726059336.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059336933
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.087882996,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059345089
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.08879995,
+                        "value": "GS1.1.1726059336.1.0.1726059345.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059345091
+                    }
+                ]
+            },
+            "_ga_LZZ6YMHMFR": {
+                "name": "_ga_LZZ6YMHMFR",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726059337073,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760619337.071396,
+                        "expiry": 34560000.07139611,
+                        "value": "GS1.1.1726059337.1.0.1726059337.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337072
+                    }
+                ]
+            },
+            "_ga_SW47JB56DV": {
+                "name": "_ga_SW47JB56DV",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059337017,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760619337.015823,
+                        "expiry": 34560000.01582289,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337016
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.015959024,
+                        "value": "GS1.1.1726059337.1.0.1726059337.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337017
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.359163046,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337359
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.35963297,
+                        "value": "GS1.1.1726059337.1.0.1726059337.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337360
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.2009449,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059339201
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.201086044,
+                        "value": "GS1.1.1726059337.1.0.1726059339.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059339201
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.09909105,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059345099
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.09986997,
+                        "value": "GS1.1.1726059337.1.0.1726059345.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059345101
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": ".denik.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059342125,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757681742,
+                        "expiry": 31622400,
+                        "value": "CQEyKcAQEyKcAAHABBENBGFgAAAAAAAAAATIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726059342124
+                    }
+                ]
+            },
+            "__adblocker": {
+                "name": "__adblocker",
+                "domain": "www.denik.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059337239,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726059637,
+                        "expiry": 300,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059337239
+                    }
+                ]
+            },
+            "_nss": {
+                "name": "_nss",
+                "domain": "www.denik.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059336712,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "strict",
+                        "timestamp": 1726059336708
+                    }
+                ]
+            },
+            "_sp_id.2a0a": {
+                "name": "_sp_id.2a0a",
+                "domain": "www.denik.cz",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059337040,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760619337.039308,
+                        "expiry": 34560000.03930807,
+                        "value": "ce08b487-e38a-4d86-a9f4-b3c04735fda7.1726059337.1.1726059337..0d6b841f-4bd7-4e8f-a60d-07e511d394d0....0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059337040
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.04009199,
+                        "value": "ce08b487-e38a-4d86-a9f4-b3c04735fda7.1726059337.1.1726059337..0d6b841f-4bd7-4e8f-a60d-07e511d394d0..cc89e40c-74fb-4af2-92fb-647cd9fdd37c.1726059337039.1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059337041
+                    }
+                ]
+            },
+            "_sp_ses.2a0a": {
+                "name": "_sp_ses.2a0a",
+                "domain": "www.denik.cz",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726059337040,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061137,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059337039
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059337041
+                    }
+                ]
+            },
+            "vlm_login": {
+                "name": "vlm_login",
+                "domain": "www.denik.cz",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726059336734,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726059936,
+                        "expiry": 600,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726059336727
+                    }
+                ]
+            }
+        }
+    },
+    "hit.gemius.pl": {
+        "/": {
+            "Gdyn": {
+                "name": "Gdyn",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059341070,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760187341.068754,
+                        "expiry": 34128000.06875396,
+                        "value": "KlQnlRXGQMQGEK5iF5FyeUlUssGMXP8cf8ySssX6nsGfGnfQHb2xQjGowOx1G0F6Sssa",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059341069
+                    }
+                ]
+            },
+            "Gdynp": {
+                "name": "Gdynp",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059341027,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760187341.024306,
+                        "expiry": 34128000.02430606,
+                        "value": "Kv8cCgo_1HpF1hnY5FkOrHKAx3QlIJBqhi_FTH8mQpz.F7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059341026
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.06880903,
+                        "value": "8AnHM9PJbpl.3lXJl3YjfiAbZSBg9Gnoha1aXy2pPW3.a7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059341070
+                    }
+                ]
+            },
+            "Gtest": {
+                "name": "Gtest",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059341026,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726664141.02425,
+                        "expiry": 604800.0242500305,
+                        "value": "KlQ_vRGGQMQGEK5iF5FyeUlUssGMXP8cfRbG",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059341025
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726059341025,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760187341.024183,
+                        "expiry": 34128000.024183035,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059341024
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.06861901,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059341069
+                    }
+                ]
+            }
+        }
+    },
+    "pubmatic.com": {
+        "/": {
+            "KTPCACOOKIE": {
+                "name": "KTPCACOOKIE",
+                "domain": ".pubmatic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726059342456,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1733835342,
+                        "expiry": 7776000,
+                        "value": "YES",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059342455
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "YES",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059342626
+                    }
+                ]
+            }
+        }
+    },
+    "ssp.wp.pl": {
+        "/bidder": {
+            "_X_": {
+                "name": "_X_",
+                "domain": "ssp.wp.pl",
+                "path": "/bidder",
+                "current_label": 1,
+                "label_ts": 1726059343714,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726059343713
+                    }
+                ]
+            }
+        }
+    }
+}

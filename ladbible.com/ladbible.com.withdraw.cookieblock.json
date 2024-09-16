@@ -1,0 +1,586 @@
+{
+    "adnxs.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726222491941,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760782491.939513,
+                        "expiry": 34560000.93951297,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222491940
+                    }
+                ]
+            }
+        }
+    },
+    "c8ee9446-97ed-462f-a5e9-1af66c8e9104.prmutv.co": {
+        "/": {
+            "pxid": {
+                "name": "pxid",
+                "domain": ".c8ee9446-97ed-462f-a5e9-1af66c8e9104.prmutv.co",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726222491907,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734084891.905585,
+                        "expiry": 7862400.905585051,
+                        "value": "d0365de9-2f2c-4164-a83a-c8051a338348",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222491906
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222484883,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726223384.878305,
+                        "expiry": 900.8783049583435,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222484882
+                    }
+                ]
+            }
+        }
+    },
+    "ladbible.com": {
+        "/": {
+            "_cb": {
+                "name": "_cb",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222484665,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760350484,
+                        "expiry": 34128000,
+                        "value": "BzLyFKD1R6R1D9gwAo",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484664
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": "BzLyFKD1R6R1D9gwAo",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491793
+                    }
+                ]
+            },
+            "_cb_svref": {
+                "name": "_cb_svref",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222484670,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726224284,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484669
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484672
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491795
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491797
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726222484658,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484656
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484662
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484670
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491790
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491791
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491795
+                    }
+                ]
+            },
+            "_chartbeat2": {
+                "name": "_chartbeat2",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726222484668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760350484,
+                        "expiry": 34128000,
+                        "value": ".1726222484662.1726222484662.1.B9cTtk9DaFhD0LzMpfpa77DyKdRY.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484666
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000,
+                        "value": ".1726222484662.1726222491791.1.DVdRnBC8Mwc1DkOb-dgC7HywRAa8.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491794
+                    }
+                ]
+            },
+            "_chartbeat4": {
+                "name": "_chartbeat4",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222491620,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726222551,
+                        "expiry": 60,
+                        "value": "t=CmUlWZDoc6pqCWJo-LDK13X1BYO6Wc&E=1&x=0&c=0.12&y=3193&w=890",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491616
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726222484717,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760782484.71516,
+                        "expiry": 34560000.71515989,
+                        "value": "GA1.1.1581318863.1726222485",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484716
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.82042098,
+                        "value": "GA1.1.1581318863.1726222485",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491820
+                    }
+                ]
+            },
+            "_ga_ZSZ528CV9S": {
+                "name": "_ga_ZSZ528CV9S",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222484716,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760782484.714695,
+                        "expiry": 34560000.71469498,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484715
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.71487999,
+                        "value": "GS1.1.1726222484.1.0.1726222484.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222484716
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.347472906,
+                        "value": "GS1.1.1726222484.1.0.1726222485.59.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222485348
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.61854911,
+                        "value": "GS1.1.1726222484.1.0.1726222491.53.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491623
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.82014799,
+                        "value": "GS1.1.1726222484.1.1.1726222491.53.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222491820
+                    }
+                ]
+            },
+            "_sp_su": {
+                "name": "_sp_su",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222477107,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758477.101542,
+                        "expiry": 31536000.101541996,
+                        "value": "false",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222477107
+                    }
+                ]
+            },
+            "ccpaApplies": {
+                "name": "ccpaApplies",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222477105,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758477.100344,
+                        "expiry": 31536000.100343943,
+                        "value": "false",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222477105
+                    }
+                ]
+            },
+            "ccpaUUID": {
+                "name": "ccpaUUID",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726222484724,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758484.72243,
+                        "expiry": 31536000.72242999,
+                        "value": "a44be074-8027-43e6-bf8a-a951718c9c6b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222484722
+                    }
+                ]
+            },
+            "dnsDisplayed": {
+                "name": "dnsDisplayed",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726222477105,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758477.100241,
+                        "expiry": 31536000.100240946,
+                        "value": "undefined",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222477100
+                    }
+                ]
+            },
+            "exp-X8OQvho8Ogmw4djzRw1hRd": {
+                "name": "exp-X8OQvho8Ogmw4djzRw1hRd",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222476880,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760782476.868464,
+                        "expiry": 34560000.86846399,
+                        "value": "2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726222476870
+                    }
+                ]
+            },
+            "permutive-id": {
+                "name": "permutive-id",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222491809,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741864491,
+                        "expiry": 15642000,
+                        "value": "98584771-f856-4f24-9daf-34d3c690a8b2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222491808
+                    }
+                ]
+            },
+            "signedLspa": {
+                "name": "signedLspa",
+                "domain": ".ladbible.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726222477106,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758477.10038,
+                        "expiry": 31536000.100379944,
+                        "value": "undefined",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222477106
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": "www.ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222484546,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758484.542554,
+                        "expiry": 31536000.5425539,
+                        "value": "76a8b63c-7fbe-4dc5-ad11-c1bc2438a60a_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222484546
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.642620087,
+                        "value": "76a8b63c-7fbe-4dc5-ad11-c1bc2438a60a_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222487643
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": "www.ladbible.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726222484546,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757758484.542132,
+                        "expiry": 31536000.5421319,
+                        "value": "CQE4wUAQE4wUAAGABCENBGFgAP_gAEPgAAwIJMkB9CpMACFBMWJ0IIIkaQAXwRhwIEAgAhAAAQAAABIEIIwAgCAgAACAACIAAQIAABIAIAAAAABAAEAAAAABAAAECAAAAAACAAAAAAABAgAAAAAAAAAAEAAAAAAAAAQggAAAQAIAQEgAAAEAAAAAAIAEAAAAAAAAAAAAQAAAAAAAAAAAkABAAAAAAAAAABAAAAAAIAIJIwKIAFAAWAA4ACoAFwAOAAgABkADQAH8ARABFACYAFUANAAhABHACWAHcAP2Ag4CEAEWAI6ASkAmgBYgC_AHEATEAmQBdAC7QF5gMEAZIAywBtADcwHAAOCAkaBJEBEJAKADeAH4AdwA-ACSgFRANoA3MCCYEmQoAUAIoBfgExALoAkaEABAE0AJ2IAAgEdHQBwA3gB-AHwASUAqIBtAJMjwAQARQC_DgAYAUABfAE7IQBAA3gDuAKiAbQiACATEA4AgABAF8SgBAFRAZITAAgOAJAAQBpFIBAAfgCOgElAKiAbQBlgEEwJMlQAQACgAilAAgAWwBfADSAIOWgAgDuAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222484543
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.64249897,
+                        "value": "CQE4wUAQE4wUAAGABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726222487643
+                    }
+                ]
+            }
+        }
+    }
+}

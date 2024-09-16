@@ -1,0 +1,395 @@
+{
+    "adform.net": {
+        "/": {
+            "C": {
+                "name": "C",
+                "domain": ".adform.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148916753,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728740916.752333,
+                        "expiry": 2592000.752332926,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916752
+                    }
+                ]
+            },
+            "uid": {
+                "name": "uid",
+                "domain": ".adform.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726148916786,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1731336516.785707,
+                        "expiry": 5187600.785706997,
+                        "value": "2655045974297892526",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916786
+                    }
+                ]
+            }
+        }
+    },
+    "dba.dk": {
+        "/": {
+            "GdprConsent-Custom": {
+                "name": "GdprConsent-Custom",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148916212,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684916,
+                        "expiry": 31536000,
+                        "value": "eyJ2ZW5kb3JJZHMiOnt9fQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148916212
+                    }
+                ]
+            },
+            "GdprConsent": {
+                "name": "GdprConsent",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148916212,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684916,
+                        "expiry": 31536000,
+                        "value": "{\"version\":\"IAB TCF 2.0\",\"consentString\":\"CQE1dYAQE1dYAAGABBENBGFgAAAAAAAAAAwIAAAAAAAA.YAAAAAAAAAAA\"}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148916210
+                    }
+                ]
+            },
+            "_cmp_advertising": {
+                "name": "_cmp_advertising",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726148916205,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741700916.201757,
+                        "expiry": 15552000.201756954,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148916204
+                    }
+                ]
+            },
+            "_cmp_analytics": {
+                "name": "_cmp_analytics",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148916202,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741700916.201237,
+                        "expiry": 15552000.201236963,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148916201
+                    }
+                ]
+            },
+            "_cmp_marketing": {
+                "name": "_cmp_marketing",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148916204,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741700916.201594,
+                        "expiry": 15552000.201594114,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148916203
+                    }
+                ]
+            },
+            "_cmp_personalisation": {
+                "name": "_cmp_personalisation",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148916203,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741700916.201439,
+                        "expiry": 15552000.201438904,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148916203
+                    }
+                ]
+            },
+            "_pulse2data": {
+                "name": "_pulse2data",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726148916354,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760708916.350536,
+                        "expiry": 34560000.35053611,
+                        "value": "%2Cv%2C%2C1726149816348%2C%2C%2C0%2C%2C%2C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916352
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.663239,
+                        "value": "54138fc9-3b26-4afe-b77d-f3b2cf9c9b17%2Cv%2C%2C1727358516000%2CeyJpc3N1ZWRBdCI6IjIwMjQtMDktMTJUMTM6NDg6MzZaIiwiZW5jIjoiQTEyOENCQy1IUzI1NiIsInJlSXNzdWVkQXQiOiIyMDI0LTA5LTEyVDEzOjQ4OjM2WiIsImFsZyI6ImRpciIsImtpZCI6IjIifQ..MgomtOnTFMOO044phu5Ziw.ZFge0NMCabNGU63xPL7HHva28Cw-cZzSbZgae3JZEOHe5_7sySYEh4dLC701JdaCZwRURaZawXlhvrYvX2UCkab3cqrlNM-Tg_TUQThDT0uprIvPVVNsyJ2SokjTsulMl-Hz3MDnzPO-mZUtrHJ_fkQtShO0DtoDZj6XHvrLYRc21q2wx-0ERJEJAZ5lp2nVdtZmy7YqlqpS4x0LR2FZzHF2pUgvPCwf3IWBpI-IYw7adkcSmwXUxnP6TJVtU4j29JGwMKQFMj60DX-9ZtzW4gXcFyMR0RnQdfaT0oDKmtoRAknvAajjs3N3vkaHw4SWiODZkkJ3Uz8u6pxEMeStrg.pf2zumrK6nOeLcEYReoFSA%2C%2C0%2Ctrue%2C%2C",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916663
+                    }
+                ]
+            },
+            "_pulse2test": {
+                "name": "_pulse2test",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148916350,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726235316,
+                        "expiry": 86400,
+                        "value": "WfdFknU2rbljx67H",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916349
+                    }
+                ]
+            },
+            "_pulsesession": {
+                "name": "_pulsesession",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726148916666,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726150716,
+                        "expiry": 1800,
+                        "value": "%5B%22sdrn%3Aschibsted%3Asession%3A75034d5a-40d5-4257-86b3-ebc6b27c8b5c%22%2C1726148916664%2C1726148916664%5D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916665
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "%5B%22sdrn%3Aschibsted%3Asession%3A75034d5a-40d5-4257-86b3-ebc6b27c8b5c%22%2C1726148916664%2C1726148916665%5D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916666
+                    }
+                ]
+            },
+            "_sp_su": {
+                "name": "_sp_su",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148908090,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684908.089107,
+                        "expiry": 31536000.089107037,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148908089
+                    }
+                ]
+            },
+            "consentDate": {
+                "name": "consentDate",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148916208,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741700916.202136,
+                        "expiry": 15552000.20213604,
+                        "value": "2024-09-12T13:48:36.155Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916207
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148908241,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741700908.240522,
+                        "expiry": 15552000.240521908,
+                        "value": "a4d58fb8-53a5-495b-ac16-c6aa23256a44",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148908241
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.201910019,
+                        "value": "a4d58fb8-53a5-495b-ac16-c6aa23256a44_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148916206
+                    }
+                ]
+            },
+            "dbatracker": {
+                "name": "dbatracker",
+                "domain": ".www.dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148907642,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757684907.629188,
+                        "expiry": 31536000.62918806,
+                        "value": "id=1124980f-7d28-4792-a094-395813d2f5c1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148907631
+                    }
+                ]
+            },
+            "__RequestVerificationToken": {
+                "name": "__RequestVerificationToken",
+                "domain": "www.dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148907649,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7kF_mRadmJ8OPce5ra_ca58ud-97VrPbeROEvIXoIPMk1FIe60xzfqfoKPt5XIAfK1xm6wsMHpnzmXbVGh8Bn6xYYARQYFkTmBgFsqUjeylWvM0DG0Tkggh-cUBtM-ZDlktusA2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148907648
+                    }
+                ]
+            },
+            "dbasession": {
+                "name": "dbasession",
+                "domain": "www.dba.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148907648,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "id=faf43371-d7ce-4972-af66-6a280d88e7c8",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148907643
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "matomo.www.gov.pl": {
+        "/": {
+            "MSRV": {
+                "name": "MSRV",
+                "domain": "matomo.www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058677862,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "m3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058677858
+                    }
+                ]
+            }
+        }
+    },
+    "gov.pl": {
+        "/": {
+            "_pk_id.1.66a7": {
+                "name": "_pk_id.1.66a7",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058677877,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760013878,
+                        "expiry": 33955201,
+                        "value": "e237c49428c2c3ae.1726058678.",
+                        "same_site": "lax",
+                        "timestamp": 1726058677873
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955196,
+                        "value": "e237c49428c2c3ae.1726058678.",
+                        "same_site": "lax",
+                        "timestamp": 1726058682848
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955191,
+                        "value": "e237c49428c2c3ae.1726058678.",
+                        "same_site": "lax",
+                        "timestamp": 1726058687850
+                    }
+                ]
+            },
+            "_pk_ses.1.66a7": {
+                "name": "_pk_ses.1.66a7",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058677878,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726060477,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058677877
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058682848
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058687850
+                    }
+                ]
+            },
+            "seen_cookie_message": {
+                "name": "seen_cookie_message",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058682160,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "yes",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058682159
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "durham.gov.uk": {
+        "/": {
+            "SyrenisCookieConsentDate_e079b9d4-389b-43e2-9f42-856d61b1137d": {
+                "name": "SyrenisCookieConsentDate_e079b9d4-389b-43e2-9f42-856d61b1137d",
+                "domain": ".durham.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233549917,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757769549,
+                        "expiry": 31536000,
+                        "value": "1726226349901",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233549916
+                    }
+                ]
+            },
+            "SyrenisCookieFormConsent_e079b9d4-389b-43e2-9f42-856d61b1137d": {
+                "name": "SyrenisCookieFormConsent_e079b9d4-389b-43e2-9f42-856d61b1137d",
+                "domain": ".durham.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233549914,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757769549,
+                        "expiry": 31536000,
+                        "value": "[{\"FieldID\":\"s28_c21\",\"IsChecked\":0},{\"FieldID\":\"s43_c36\",\"IsChecked\":0},{\"FieldID\":\"s44_c37\",\"IsChecked\":0},{\"FieldID\":\"s23_c16\",\"IsChecked\":0},{\"FieldID\":\"s46_c39\",\"IsChecked\":0},{\"FieldID\":\"s22_c15\",\"IsChecked\":0},{\"FieldID\":\"s47_c40\",\"IsChecked\":0},{\"FieldID\":\"s24_c17\",\"IsChecked\":0},{\"FieldID\":\"s48_c41\",\"IsChecked\":0},{\"FieldID\":\"s18_c11\",\"IsChecked\":0},{\"FieldID\":\"s42_c35\",\"IsChecked\":0},{\"FieldID\":\"s163_c156\",\"IsChecked\":0},{\"FieldID\":\"s164_c157\",\"IsChecked\":0}]",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233549911
+                    }
+                ]
+            },
+            "SyrenisCookiePrivacyLink_e079b9d4-389b-43e2-9f42-856d61b1137d": {
+                "name": "SyrenisCookiePrivacyLink_e079b9d4-389b-43e2-9f42-856d61b1137d",
+                "domain": ".durham.gov.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233549916,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757769549,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233549914
+                    }
+                ]
+            },
+            "SyrenisGuid_e079b9d4-389b-43e2-9f42-856d61b1137d": {
+                "name": "SyrenisGuid_e079b9d4-389b-43e2-9f42-856d61b1137d",
+                "domain": ".durham.gov.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233549911,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757769549,
+                        "expiry": 31536000,
+                        "value": "9b0e96cf-6394-49ae-bf20-7fd788b6f964",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233549902
+                    }
+                ]
+            },
+            "DCCCookieCheck": {
+                "name": "DCCCookieCheck",
+                "domain": "durham.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233548060,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726319948,
+                        "expiry": 86400,
+                        "value": "ON",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233548055
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "ON",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233550261
+                    }
+                ]
+            }
+        }
+    }
+}

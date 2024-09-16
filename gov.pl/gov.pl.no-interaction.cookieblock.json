@@ -1,0 +1,72 @@
+{
+    "matomo.www.gov.pl": {
+        "/": {
+            "MSRV": {
+                "name": "MSRV",
+                "domain": "matomo.www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058624584,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "m2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058624578
+                    }
+                ]
+            }
+        }
+    },
+    "gov.pl": {
+        "/": {
+            "_pk_id.1.66a7": {
+                "name": "_pk_id.1.66a7",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726058624598,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760013825,
+                        "expiry": 33955201,
+                        "value": "226f833ef165f43d.1726058625.",
+                        "same_site": "lax",
+                        "timestamp": 1726058624593
+                    }
+                ]
+            },
+            "_pk_ses.1.66a7": {
+                "name": "_pk_ses.1.66a7",
+                "domain": "www.gov.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058624599,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726060424,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726058624598
+                    }
+                ]
+            }
+        }
+    }
+}

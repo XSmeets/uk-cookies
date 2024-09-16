@@ -1,0 +1,321 @@
+{
+    "gov.uk": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".www.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231368761,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760791368.758058,
+                        "expiry": 34560000.75805807,
+                        "value": "GA1.3.970085375.1726231369",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368760
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.700414896,
+                        "value": "GA1.3.970085375.1726231369",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231369701
+                    }
+                ]
+            },
+            "_ga_S5RQ7FTGVR": {
+                "name": "_ga_S5RQ7FTGVR",
+                "domain": ".www.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726231368760,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760791368.757617,
+                        "expiry": 34560000.757617,
+                        "value": "GS1.3.1726231368.1.0.1726231368.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368759
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.53716898,
+                        "value": "GS1.3.1726231368.1.0.1726231369.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231369538
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.70005798,
+                        "value": "GS1.3.1726231368.1.1.1726231369.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231369700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231374869
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.73663497,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231375737
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.73699093,
+                        "value": "GS1.3.1726231368.1.1.1726231375.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231375738
+                    }
+                ]
+            },
+            "ABTest-BankHolidaysTest": {
+                "name": "ABTest-BankHolidaysTest",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231368586,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726317768.584208,
+                        "expiry": 86400.58420801163,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368584
+                    }
+                ]
+            },
+            "ABTest-PopularTasks": {
+                "name": "ABTest-PopularTasks",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231368587,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734093768.584262,
+                        "expiry": 7862400.584261894,
+                        "value": "B",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368586
+                    }
+                ]
+            },
+            "cookies_policy": {
+                "name": "cookies_policy",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231366452,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767366,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231366447
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":true,\"usage\":true,\"campaigns\":true}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368567
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231374870
+                    }
+                ]
+            },
+            "cookies_preferences_set": {
+                "name": "cookies_preferences_set",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231368569,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767368,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368568
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231374870
+                    }
+                ]
+            },
+            "global_bar_seen": {
+                "name": "global_bar_seen",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231368572,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1733488968,
+                        "expiry": 7257600,
+                        "value": "{\"count\":0,\"version\":8}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231368570
+                    }
+                ]
+            },
+            "lux_uid": {
+                "name": "lux_uid",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726231368600,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726233168.599162,
+                        "expiry": 1800.5991621017456,
+                        "value": "172623136859887667",
+                        "same_site": "lax",
+                        "timestamp": 1726231368599
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800.6294140815735,
+                        "value": "172623136859887667",
+                        "same_site": "lax",
+                        "timestamp": 1726231369630
+                    }
+                ]
+            }
+        },
+        "/help": {
+            "_ga_S5RQ7FTGVR": {
+                "name": "_ga_S5RQ7FTGVR",
+                "domain": "www.gov.uk",
+                "path": "/help",
+                "current_label": 0,
+                "label_ts": 1726231374868,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726238574,
+                        "expiry": 7200,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231374868
+                    }
+                ]
+            }
+        }
+    },
+    "dvla.gov.uk": {
+        "/": {
+            "TSdcd23dac027": {
+                "name": "TSdcd23dac027",
+                "domain": "dvla.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231366326,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0897a94fe3ab20007e47962f8663df842d6b8e4c863b8184d198f15505e9f1dd55d3ed40a7588a9c0894b69ee2113000a55364224b803b465d664eff6a7fb21e2cfc762b581eacb2fd2eaf5a4ace00fa1927b8a00cf8e7263ba2f8909ba62f95",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231366318
+                    }
+                ]
+            }
+        }
+    }
+}

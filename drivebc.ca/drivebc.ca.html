@@ -1,0 +1,349 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" ext-strict"><head runat="server">
+    <title>DriveBC</title>
+
+    <!-- Suggest Internet Explorer 'edge' compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <script async="" src="https://www2.gov.bc.ca/StaticWebResources/static/sp/sp-2-14-0.js"></script><script>
+        // Turn on debugging to console if parameter exists..
+		if (!(window.location.hash.toLowerCase() == "#debug" ||
+            window.location.href.match(/[&?]debug\b/i))) {	// If 'debug' in url params, enable output.
+            // Disable all console output
+            window.console = { log: function () { }, error: function () { }, warn: function () { }, info: function () { } };
+        } else if ('console' in window) {	// Deal with IE and its older versions.
+            if (!('warn' in console)) { console.warn = function (a) { console.log("WARN: " + a); }; }
+            if (!('error' in console)) { console.error = function (a) { console.log("ERROR: " + a); }; }
+            if (!('info' in console)) { console.info = function (a) { console.log("INFO: " + a); }; }
+            if (!('dir' in console)) { console.dir = function (a) { console.log(a); }; }  // Object output
+        }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="ext/resources/css/ext-all.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="js/map-plugin/dropmenu.css">
+
+	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=quarterly&amp;client=gme-ministryoftransportation2&amp;channel=MoTI-DBCMain"></script>
+    <script type="text/javascript" src="ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="ext/ext-all.js"></script>
+    <script type="text/javascript" src="ext/gridsearch/js/Ext.ux.util.js"></script>
+    <script type="text/javascript" src="ext/Ext.ux.GridPrinter.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/moment.2.13.0.min.js"></script>
+    <script type="text/javascript" src="js/drivebc.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+
+    <script type="text/javascript" src="js/map-plugin/spiderfier.js"></script>
+    <script type="text/javascript" src="js/map-plugin/dbc_dropmenu.js"></script>
+    <script type="text/javascript" src="js/map-plugin/layersStoresMarkers.js"></script>
+    <script type="text/javascript" src="js/map-plugin/markerClusterer.js"></script>
+    <script type="text/javascript" src="js/map-plugin/driveBCMap.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/13/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/13/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/13/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/13/map.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/13/overlay.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/13/layers.js"></script></head>
+
+<body class="  ext-webkit ext-chrome ext-mac x-body-masked" id="ext-gen3">
+    <div class="x-hide-display">
+        <div id="mapView"></div>
+        <div id="welcome"></div>
+        <div id="listView"></div>
+        <div id="webcams"></div>
+        <div id="faq"></div>
+        <div id="links"></div>
+        <div id="feedback"></div>
+        <div id="help"></div>
+        <div id="new"></div>
+    </div>
+
+    <div id="mapTab" class="x-hide-display">
+        <div id="myMap" style="position:fixed; top: 0px; left: 0px; width: 800px; height: 600px;"><div style="height: 100%; width: 100%;"><div style="overflow: hidden;"></div></div></div>
+    </div>
+
+    <div id="insetMapDiv" class="x-hide-display">
+        <div id="myInsetMap" style="position:relative; top: 0px; left: 0px; width: 200px; height: 100px;"><div style="height: 100%; width: 100%;"><div style="overflow: hidden;"></div></div></div>
+    </div>
+
+    <div id="top-panel-div" class="header nav__header" style="background-color:#004B8D;">
+        <table border="0" style="border-collapse:collapse;margin:0px;padding:0px; width:100%; border-width:0px;">
+            <tbody><tr>
+                <td style="width:217px; padding:0px;">
+                    <a target="_self" href="//drivebc.ca">
+                        <img src="images/Banner/DriveBC_Banner_lft_2010_01_04.jpg" alt="DriveBC" width="217" height="76" style="position:relative;top:-2px;">
+                    </a>
+                </td>
+                <td style="padding:0px;">&nbsp;</td>
+                <td style="width:454px; padding:0px;margin-left:0px;">
+                    <img class="nav__header__links" src="images/Banner/DriveBC_Banner_rt_2010_09.jpg" alt="Traveller Information for Numbered Routes" style="position:relative;top:-2px;width:454px;height:77px;border:0" usemap="#Map">
+                </td>
+                <td></td>
+            </tr>
+        </tbody></table>
+        <map name="Map" id="Map" class="nav__header__links">
+            <area shape="rect" coords="153,51,218,69" href="https://www.gov.bc.ca/com/copyright.html" target="_blank" alt="Copyright" title="Copyright">
+            <area shape="rect" coords="226,51,293,71" href="https://www.gov.bc.ca/com/disclaimer.html" target="_blank" alt="Disclaimer" title="Disclaimer">
+            <area shape="rect" coords="299,50,350,70" href="https://www.gov.bc.ca/com/privacy.html" target="_blank" alt="Privacy" title="Privacy">
+            <area shape="rect" coords="359,50,435,68" href="https://www.gov.bc.ca/com/accessibility.html" target="_blank" alt="Accessibility" title="Accessibility">
+        </map>
+    </div>
+
+    <div id="settings">
+        <div id="left-top" class="nav__sidebar">
+            <div id="BCHome" class="nav__sidebar__home">
+                <a href="https://www.gov.bc.ca">B.C. Homepage</a>
+            </div> <!-- END BCHome -->
+
+            <div id="ministryHome" class="nav__sidebar__home">
+                <a href="https://www.th.gov.bc.ca">Ministry of<br>Transportation and<br>Infrastructure</a>
+            </div> <!-- END ministryHome -->
+
+            <div id="DBCLinks">
+                <p><span style="color:#002d72;font-weight:bold">Subscribe</span></p>
+                <p><span style="margin-left:0px; " title="Email" alt="Email">
+                        <a href="https://email.drivebc.ca" target="_blank">
+                            <img src="images/LeftNav/email_up.png" onmouseover="this.src='images/LeftNav/email_down.png'" onmouseout="this.src='images/LeftNav/email_up.png'">
+                        </a>
+                    </span>
+                    <span style="margin-left:5px;" title="X" alt="X">
+                        <a href="static/twitter/twitter_map.html" target="_blank">
+                            <img src="images/LeftNav/twitter_up.png" onmouseover="this.src='images/LeftNav/twitter_down.png'" onmouseout="this.src='images/LeftNav/twitter_up.png'">
+                        </a>
+                    </span>
+                    <span style="margin-left:5px;" title="RSS" alt="RSS">
+                        <!--   <a href="/api/events/rss_disclaimer.html" target="_blank">  -->
+                        <a href="../../static/rss/rss_map.html" target="_blank">
+                            <img src="images/LeftNav/rss_up.png" onmouseover="this.src='images/LeftNav/rss_down.png'" onmouseout="this.src='images/LeftNav/rss_up.png'">
+                        </a>
+                    </span>
+                </p>
+            </div> <!-- END DBCLinks -->
+
+            <div id="Shortcuts">
+                <p><a href="directions.html" target="_self">Plan Your Route</a></p>
+                <p><a href="cvrp/" target="_self">CV Height Clearance Tool</a></p>
+                <p><a href="chainup.php" target="_self">Commercial Vehicle Chain Requirements</a></p>
+                <p><a href="/mobile">DriveBC Mobile</a></p>
+                <p><a id="speed-sign-btn" class="piwik_ignore" href="//vsls.drivebc.ca">Variable Speed Limit Signs</a></p>
+                <p><a href="#listView&amp;severity=Major&amp;xtg=Major%20Events">Major Events</a></p>
+                <p><a href="//images.drivebc.ca/bchighwaycam/pub/html/www/index.html" target="_blank">BC Highway Webcams</a></p>
+                <p><a href="http://www.th.gov.bc.ca/ATIS/index.htm" target="_blank">Border Delays</a></p>
+                <!-- Inland Ferry Link GUID goes to http://www2.gov.bc.ca/gov/content/transportation/passenger-travel/water-travel/inland-ferries http://www2.gov.bc.ca/gov/content?id=FAF5177631254C3EB999A1CF97769879 -->
+                <p><a href="https://www2.gov.bc.ca/gov/content?id=FAF5177631254C3EB999A1CF97769879" target="_blank">Inland Ferry</a></p>
+                <!-- Report a Highway Problem Link GUID goes to http://www2.gov.bc.ca/gov/content/transportation/transportation-infrastructure/contracting-to-transportation/highway-bridge-maintenance http://www2.gov.bc.ca/gov/content?id=1847872C36314A6D8A876F4F735A6737-->
+                <!--<p><a href="http://www2.gov.bc.ca/gov/content?id=1847872C36314A6D8A876F4F735A6737" target="_blank">Report a Highway Problem</a></p>-->
+                <p><a href="rahp/" target="_self">Report a Highway Problem</a></p>
+                <p><a href="#links">More Links...</a><br></p>
+            </div>
+        </div> <!-- END left-top -->
+        <p>
+
+        <!-- Left Nav Buttons -->
+        </p><div id="infoButtons">
+            <!-- Should probably keep this button on top of them all. -->
+            <div id="deuAlertButton" style="display:none;" onclick="openDeuMsgPopup()" onmouseover="PSA_mouseovertoggle('deuAlertButton','images/LeftNav/3291-ViewAlert-down.png')" onmouseout="PSA_mouseovertoggle('deuAlertButton','images/LeftNav/3291-ViewAlert-up.png')">
+                <img src="images/LeftNav/3291-ViewAlert-up.png" title="Open emergency message popup">
+            </div>
+            <div id="alertButton" style="display:none;" onclick="staticFileAlertCheck()" onmouseover="PSA_mouseovertoggle('alertButton','images/LeftNav/3291-ViewAlert-down.png')" onmouseout="PSA_mouseovertoggle('alertButton','images/LeftNav/3291-ViewAlert-up.png')">
+                <img src="images/LeftNav/3291-ViewAlert-up.png" title="Open emergency message popup">
+            </div>
+
+            <img src="images/LeftNav/3291-PhoneNumber.png">
+
+			<!-- Emergency Travel Info Button -->
+			
+			<div id="leftnav13" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav13','static/images/PSA/EmergencyTravelInformation_RO.png')" onmouseout="PSA_mouseovertoggle('leftnav13','static/images/PSA/EmergencyTravelInformation.png')">
+                <a title="Emergency Travel Information" href="https://www.tranbc.ca/current-travel-advisories/" target="_blank">
+                    <img src="static/images/PSA/EmergencyTravelInformation.png">
+                </a>
+            </div>
+			
+
+			<!-- Customer Satisfaction Survey Button -->
+            <!-- <div id="leftnav7" class="leftnavbutton"  onmouseover="PSA_mouseovertoggle('leftnav7','static/images/PSA/5058_CSS_button_2021_183x55_RO.png')"
+                onmouseout="PSA_mouseovertoggle('leftnav7','static/images/PSA/5058_CSS_button_2021_183x55.png')">
+                <a title="Customer Satisfaction Survey" href="https://survey.th.gov.bc.ca/transportation2021" target="_blank">
+                  <img src="static/images/PSA/5058_CSS_button_2021_183x55.png" />
+                </a>
+            </div> -->
+
+            <!-- DriveBC Beta Link DBC22-2011 -->
+                <div id="leftnav4" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav4','images/LeftNav/DriveBC_Beta_Down.png')" onmouseout="PSA_mouseovertoggle('leftnav4','images/LeftNav/DriveBC_Beta_Up.png')">
+                <a target="_blank" href="https://beta.drivebc.ca">
+                    <img src="images/LeftNav/DriveBC_Beta_Up.png">
+                </a>
+            </div>
+
+            <!-- Seasonal Load Restrictions TH-33304 -->
+            <!--    <div id="leftnav4" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav4','images/LeftNav/3684_SLR_Down_Button.png')"
+                onmouseout="PSA_mouseovertoggle('leftnav4','images/LeftNav/3684_SLR_Up_Button.png')">
+                <a target="_blank" href="https://www.th.gov.bc.ca/bchighways/loadrestrictions/loadrestrictions.htm">
+                    <img src="images/LeftNav/3684_SLR_Up_Button.png" />
+                </a>
+            </div> -->
+
+            
+            <!-- Kamloops to Alberta Improvements -->
+            <div id="leftnav6" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav6','static/images/PSA/3684_Kamloops2AB-4LaningInfo_Button-Orange-RO.png')" onmouseout="PSA_mouseovertoggle('leftnav6','static/images/PSA/3684_Kamloops2AB-4LaningInfo_Button-Orange.png')">
+                <a title="Kamloops to Alberta Improvements" href="https://www2.gov.bc.ca/gov/content?id=50FE317A51E140449BCF63693171780A" target="_blank">
+                    <img src="static/images/PSA/3684_Kamloops2AB-4LaningInfo_Button-Orange.png">
+                </a>
+            </div>
+
+			<!-- Covid-19 Travel Information -->
+            <!-- <div id="leftnav5" class="leftnavbutton"  onmouseover="PSA_mouseovertoggle('leftnav5','static/images/PSA/Travel-Information_COVID19-RED_RO.png')"
+                onmouseout="PSA_mouseovertoggle('leftnav5','static/images/PSA/Travel-Information_COVID19-RED.png')">
+                <a title="Covid-19 Travel Information" href="https://www2.gov.bc.ca/gov/content?id=3A36597E76894E9BAACB95D8F32CBF63" target="_blank">
+                    <img src="static/images/PSA/Travel-Information_COVID19-RED.png" />
+                </a>
+            </div> -->
+
+            <!-- Summer Tips -->
+            <div id="leftnav12" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav12','static/images/PSA/3684_ConeZone_Button_RO.png')" onmouseout="PSA_mouseovertoggle('leftnav12','static/images/PSA/3684_ConeZone_Button.png')">
+                <a title="Cone Zone" href="https://roadsafetyatwork.ca/campaign/cone-zone/" target="_blank">
+                    <img src="static/images/PSA/3684_ConeZone_Button.png">
+                </a>
+            </div> 
+
+            <!-- Shift Into Winter Button -->
+            <!-- <div id="leftnav2" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav2','images/LeftNav/ShiftIntoWinter_183x40_RO.png')"
+                onmouseout="PSA_mouseovertoggle('leftnav2','images/LeftNav/ShiftIntoWinter_183x40.png')">
+                <a target="_blank" href="https://shiftintowinter.ca/">
+                    <img src="images/LeftNav/ShiftIntoWinter_183x40.png" />
+                </a>
+            </div>  -->
+
+            <!-- Chain Up Button -->
+            <!-- <div id="leftnav3" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav3','images/LeftNav/3131_ChainUpInfo_Button_183x55_RO.PNG')"
+                onmouseout="PSA_mouseovertoggle('leftnav3','images/LeftNav/3131_ChainUpInfo_Button_183x55.png')">
+                <a target="_blank" href="https://drivebc.ca/chainup.php">
+                    <img src="images/LeftNav/3131_ChainUpInfo_Button_183x55.png" />
+                </a>
+            </div> -->
+
+            <!-- Emergency Travel Information -->
+            <!--<div id="leftnav4" class="leftnavbutton"  onmouseover="PSA_mouseovertoggle('leftnav4','static/images/PSA/EmergencyTravelInformation_RO.png')"
+                onmouseout="PSA_mouseovertoggle('leftnav4','static/images/PSA/EmergencyTravelInformation.png')">
+                <a title="Emergency Travel Information" href="https://www.tranbc.ca/current-travel-advisories/" target="_blank">
+                    <img src="static/images/PSA/EmergencyTravelInformation.png" />
+                </a>
+            </div> -->
+       
+
+            <!-- Connect With Us On TranBC button -->
+            <!--<div id="leftnav1" class="leftnavbutton" onmouseover="PSA_mouseovertoggle('leftnav1','images/LeftNav/ConnectTranBC_rollover.png')"
+                onmouseout="PSA_mouseovertoggle('leftnav1','images/LeftNav/ConnectTranBC.png')">
+                <a target="_blank" href="https://www.tranbc.ca">
+                    <img src="images/LeftNav/ConnectTranBC.png" />
+                </a>
+            </div>-->
+
+        </div> <!-- END Left Nav Buttons -->
+
+        <br>
+        <!--<hr />-->
+
+        <span id="version" style="color:#aac; font-size:0.8em; margin:0px 0px 0px 5px;">2.8.1r(9982)</span>
+
+        <div style="display:none;">
+            <span style="font:10px verdana; font-weight: bold;">Events: </span><span id="eventsLastUpdated" style="font:10px verdana;">Never</span>
+            <p>
+            <span style="font:10px verdana; font-weight: bold;">Webcams: </span><span id="webcamsLastUpdated" style="font:10px verdana;">Never</span>
+            </p><p>
+            <span style="font:10px verdana; font-weight: bold;">Ferries: </span><span id="ferriesLastUpdated" style="font:10px verdana;">Never</span>
+            </p><p>
+            <span style="font:10px verdana; font-weight: bold;">Message Signs: </span><span id="messageSignsLastUpdated" style="font:10px verdana;">Never</span>
+            </p><p>
+            <span style="font:10px verdana; font-weight: bold;">HEW weather: </span><span id="hewWeatherLastUpdated" style="font:10px verdana;">Never</span>
+            </p><p>
+            <span style="font:10px verdana; font-weight: bold;">weather: </span><span id="weatherLastUpdated" style="font:10px verdana;">Never</span>
+            </p><p>
+            <span style="font:10px verdana; font-weight: bold;">weather stations: </span><span id="weatherStationsLastUpdated" style="font:10px verdana;">Never</span>
+            </p><p>
+        </p></div>
+    </div>
+    <div id="mainTabPanel"><div id="center-panel" class=" x-tab-panel" style="width: auto;"><div class="x-tab-panel-header x-unselectable" id="ext-gen59"><div class="x-tab-strip-wrap" id="ext-gen62"><ul class="x-tab-strip x-tab-strip-top" id="ext-gen64"><li class=" x-tab-with-icon x-tab-strip-active" id="center-panel__welcome"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text welcomeIcon">Welcome</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__mapView"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text mapIcon">Map View</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__listView"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text listGridIcon">Conditions &amp; Events</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__webcams"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text webcamIcon">Webcam List</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__faq"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text faqIcon">FAQ</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__links"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text nav">Related Links</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__feedback"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text feedbackIcon">Feedback</span></span></em></a></li><li class=" x-tab-with-icon" id="center-panel__help"><a class="x-tab-strip-close" onclick="return false;"></a><a class="x-tab-right" onclick="return false;"><em class="x-tab-left"><span class="x-tab-strip-inner"><span class="x-tab-strip-text helpIcon">Help</span></span></em></a></li><li class="x-tab-edge" id="ext-gen65"></li><div class="x-clear" id="ext-gen66"></div></ul></div><div class="x-tab-strip-spacer" id="ext-gen63"></div></div><div class="x-tab-panel-bwrap" id="ext-gen60"><div class="x-tab-panel-body x-tab-panel-body-top" id="ext-gen61" style="width: auto;"><div id="welcome" class=" x-panel x-panel-noborder" style="width: 1698px;"><div class="x-panel-bwrap" id="ext-gen67"><div class="x-panel-body x-panel-body-noheader x-panel-body-noborder" id="ext-gen68" style="background-color: rgb(155, 190, 223); height: 700px; width: 1698px;"><div class="loading-indicator">Loading...</div></div></div></div></div></div></div></div>
+    <!-- Fields required for history management -->
+    <form id="history-form" class="x-hidden">
+        <input type="hidden" id="x-history-field">
+        <iframe id="x-history-frame"></iframe>
+    </form>
+
+    <!-- Emergency message window element. -->
+    <script type="text/javascript" src="js/popup.js"></script>
+    <div id="deuPopup" style="display:none;">
+        <div class="deuReset deuContent">
+            <div class="modalTitle"><span id="deuTitleTxt">DriveBC Emergency Message</span><input type="button" value="&nbsp;X&nbsp;" style="float:right;" onclick="Popup.hide('deuPopup')"></div>
+            <div id="deuMsg" class="deuMsg"></div>
+            <div class="modalButtonDiv"><input type="button" value="Close" onclick="Popup.hide('deuPopup')"></div>
+        </div>
+    </div>
+
+    <div id="photoPopup" style="display:none;">
+        <div id="photoPopupContent">
+            <div class="photoTitleBar">
+                <span id="photoTitleTxt"></span>
+                <input type="button" value="&nbsp;X&nbsp;" style="float:right;" onclick="Popup.hide('photoPopup')">
+            </div>
+            <div id="photoDiv"></div>
+        </div>
+    </div>
+    <script>
+        /* Determine environment. Typically urls like this:
+           "http://dev.drivebc.ca/mobile"
+           "http://drivebc.ca/mobile"
+        */
+
+        var env = window.location.href.match(/https?:\/\/([^\.\:\/]*).*/)[1];
+        if (env == "localhost") {
+          var link = document.getElementById("speed-sign-btn");
+          link.setAttribute("href","//localhost:3000"); // Local
+        }
+    </script>
+    <script type="text/javascript" src="js/snowplow.js"></script>
+	<script type="text/javascript" src="api/exit-survey/inc/exit-survey.js"></script>
+	<script type="text/javascript">runExitSurvey("");</script><style>
+			#exit-survey-container {
+				padding: 14px 25px 12px 25px;
+				position: fixed;
+				z-index: 10000;
+				width: 83%;
+				max-width: 450px;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				margin: auto;
+				border-radius: 8px 8px 0px 0px;
+				background-color: #FFBC19;
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				line-height: 1.6;
+				display: none;
+			}
+			#exit-survey-container a {
+			    text-decoration: none;
+			}
+			#exit-survey-close-btn {
+				position: absolute;
+				top: 1px;
+				right: 8px;
+				color: black;
+				text-decoration: none;
+				font-size: 22px;
+				font-weight: bold;
+			}
+			.exit-survey-text h4 {
+				color: #013366;
+				font-size: 20px;
+				margin: 14px 0px 10px 0px;
+			}
+		</style>
+		<div id="exit-survey-container">
+			<a id="exit-survey-close-btn" href="#" title="Close" aria-label="Close">×</a>
+			<div id="exit-survey-prompt">
+				<b>Check out the new DriveBC Beta!</b><br>
+				We've been working hard to improve the experience of DriveBC and we're ready to show you how we're doing. <br>
+				<b><u><a target="_blank" href="https://beta.drivebc.ca">Explore the new DriveBC beta!</a></u></b>
+			</div>  
+		</div>
+
+
+<div id="ext-comp-1001" class=" x-tip" style="position: absolute; z-index: 20000; visibility: hidden; display: none;"><div class="x-tip-tl"><div class="x-tip-tr"><div class="x-tip-tc"><div class="x-tip-header x-unselectable" id="ext-gen4"><span class="x-tip-header-text"></span></div></div></div></div><div class="x-tip-bwrap" id="ext-gen5"><div class="x-tip-ml"><div class="x-tip-mr"><div class="x-tip-mc"><div class="x-tip-body" id="ext-gen6" style="height: auto;"></div></div></div></div><div class="x-tip-bl x-panel-nofooter"><div class="x-tip-br"><div class="x-tip-bc"></div></div></div></div><div class="x-tip-anchor x-tip-anchor-top" id="ext-gen7" style="z-index: 20001;"></div></div><div class="x-window-proxy" id="ext-gen15" style="display: none;"></div><div class="ext-el-mask" id="ext-gen16" style="display: block; width: 1920px; height: 928px; z-index: 9000;"></div><div class="x-shadow" id="ext-gen31" style="z-index: 9002; left: 831px; top: 404px; width: 258px; height: 87px; display: block;"><div class="xst"><div class="xstl"></div><div class="xstc" style="width: 246px;"></div><div class="xstr"></div></div><div class="xsc" style="height: 75px;"><div class="xsml"></div><div class="xsmc" style="width: 246px;"></div><div class="xsmr"></div></div><div class="xsb"><div class="xsbl"></div><div class="xsbc" style="width: 246px;"></div><div class="xsbr"></div></div></div><div id="ext-comp-1002" class=" x-window x-window-plain x-window-dlg" style="position: absolute; z-index: 9003; visibility: visible; left: 835px; top: 401px; width: 250px; display: block;"><div class="x-window-tl"><div class="x-window-tr"><div class="x-window-tc"><div class="x-window-header x-unselectable x-window-draggable" id="ext-gen8"><div class="x-tool x-tool-close" id="ext-gen17" style="display: none;">&nbsp;</div><span class="x-window-header-text" id="ext-gen18">Please wait...</span></div></div></div></div><div class="x-window-bwrap" id="ext-gen9"><div class="x-window-ml"><div class="x-window-mr"><div class="x-window-mc"><div class="x-window-body" id="ext-gen10" style="width: 218px; height: auto;"><div id="ext-gen19"><div class="ext-mb-icon x-hidden" id="ext-gen20"></div><div class="ext-mb-content"><span class="ext-mb-text" id="ext-gen21">Retrieving data...</span><br><div class="ext-mb-fix-cursor"><input type="text" class="ext-mb-input" id="ext-gen22" style="display: none;"><textarea class="ext-mb-textarea" id="ext-gen23" style="display: none;"></textarea></div></div><div class="x-progress-wrap" id="ext-comp-1008" style="width: 216px;"><div class="x-progress-inner"><div class="x-progress-bar" id="ext-gen25" style="height: 16px; width: 42px;"><div class="x-progress-text " id="ext-gen26" style="z-index: 99; width: 33px;"><div id="ext-gen28" style="width: 216px; height: 18px;">&nbsp;</div></div></div><div class="x-progress-text x-progress-text-back" id="ext-gen27"><div id="ext-gen29" style="width: 216px; height: 18px;">&nbsp;</div></div></div></div><div class="x-clear" id="ext-gen30"></div></div></div></div></div></div><div class="x-window-bl"><div class="x-window-br"><div class="x-window-bc"><div class="x-window-footer" id="ext-gen11"><div class="x-panel-btns x-panel-btns-center" id="ext-gen12"><div id="ext-comp-1007" class="x-panel-fbar x-small-editor x-toolbar-layout-ct" style="width: auto;"><table cellspacing="0" class="x-toolbar-ct"><tbody><tr><td class="x-toolbar-left" align="left"><table cellspacing="0"><tbody><tr class="x-toolbar-left-row"><td class="x-toolbar-cell x-hide-offsets" id="ext-gen32"><table cellspacing="0" class="x-btn  x-btn-noicon" id="ext-comp-1003" style="width: 75px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button class="x-btn-text " type="button" id="ext-gen34">OK</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table></td><td class="x-toolbar-cell x-hide-offsets" id="ext-gen35"><table cellspacing="0" class="x-btn  x-btn-noicon" id="ext-comp-1004" style="width: 75px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button class="x-btn-text " type="button" id="ext-gen37">Yes</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table></td><td class="x-toolbar-cell x-hide-offsets" id="ext-gen38"><table cellspacing="0" class="x-btn  x-btn-noicon" id="ext-comp-1005" style="width: 75px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button class="x-btn-text " type="button" id="ext-gen40">No</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table></td><td class="x-toolbar-cell x-hide-offsets" id="ext-gen41"><table cellspacing="0" class="x-btn  x-btn-noicon" id="ext-comp-1006" style="width: 75px;"><tbody class="x-btn-small x-btn-icon-small-left"><tr><td class="x-btn-tl"><i>&nbsp;</i></td><td class="x-btn-tc"></td><td class="x-btn-tr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-ml"><i>&nbsp;</i></td><td class="x-btn-mc"><em class="" unselectable="on"><button class="x-btn-text " type="button" id="ext-gen43">Cancel</button></em></td><td class="x-btn-mr"><i>&nbsp;</i></td></tr><tr><td class="x-btn-bl"><i>&nbsp;</i></td><td class="x-btn-bc"></td><td class="x-btn-br"><i>&nbsp;</i></td></tr></tbody></table></td></tr></tbody></table></td><td class="x-toolbar-right" align="right"><table cellspacing="0" class="x-toolbar-right-ct"><tbody><tr><td><table cellspacing="0"><tbody><tr class="x-toolbar-right-row"></tr></tbody></table></td><td><table cellspacing="0"><tbody><tr class="x-toolbar-extras-row"></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div><div class="x-clear" id="ext-gen13"></div></div></div></div></div></div></div><a href="#" class="x-dlg-focus" tabindex="-1" id="ext-gen14">&nbsp;</a></div></body></html>

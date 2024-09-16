@@ -1,0 +1,117 @@
+{
+    "bol.com": {
+        "/": {
+            "BUI": {
+                "name": "BUI",
+                "domain": ".www.bol.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170724170,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760730724.156004,
+                        "expiry": 34560000.15600395,
+                        "value": "d3cffe99-2951-4ed9-aea8-1c72de559983",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170724158
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.34386492,
+                        "value": "d3cffe99-2951-4ed9-aea8-1c72de559983",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170724346
+                    }
+                ]
+            },
+            "bltgSessionId": {
+                "name": "bltgSessionId",
+                "domain": ".www.bol.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170724180,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0348f61f-4d7e-4552-91a3-303fced8c3b2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170724179
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0348f61f-4d7e-4552-91a3-303fced8c3b2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170724347
+                    }
+                ]
+            },
+            "shopping_session_id": {
+                "name": "shopping_session_id",
+                "domain": ".www.bol.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170724179,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "142306575a190b02f2d9e40017d949f2e87f1b5556e7e127e82c3ffb8e6c85b1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170724170
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "142306575a190b02f2d9e40017d949f2e87f1b5556e7e127e82c3ffb8e6c85b1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170724347
+                    }
+                ]
+            },
+            "XSRF-TOKEN": {
+                "name": "XSRF-TOKEN",
+                "domain": "www.bol.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170724350,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "2c0b6308-399a-4664-8349-25cec796b1ae",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170724347
+                    }
+                ]
+            }
+        }
+    }
+}

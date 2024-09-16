@@ -1,0 +1,519 @@
+{
+    "qvc.com": {
+        "/": {
+            "AMCV_C2717067604046AD0A495CC2%40AdobeOrg": {
+                "name": "AMCV_C2717067604046AD0A495CC2%40AdobeOrg",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726415075165,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760975075.164754,
+                        "expiry": 34560000.164753914,
+                        "value": "179643557%7CMCIDTS%7C19982%7CvVersion%7C5.5.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075164
+                    }
+                ]
+            },
+            "ConstructorioID_client_id": {
+                "name": "ConstructorioID_client_id",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075141,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "c4c4595d-dbb9-4b65-80f8-4b2f95beafa0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075140
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "c4c4595d-dbb9-4b65-80f8-4b2f95beafa0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075206
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "c4c4595d-dbb9-4b65-80f8-4b2f95beafa0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075220
+                    }
+                ]
+            },
+            "ConstructorioID_session": {
+                "name": "ConstructorioID_session",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075219,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757951075,
+                        "expiry": 31536000,
+                        "value": "{\"sessionId\":1,\"lastTime\":1726415075205,\"newToBeacon\":true}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075218
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"sessionId\":1,\"lastTime\":1726415075218}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075221
+                    }
+                ]
+            },
+            "ConstructorioID_session_id": {
+                "name": "ConstructorioID_session_id",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075218,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757951075,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075218
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075221
+                    }
+                ]
+            },
+            "PIM-SESSION-ID": {
+                "name": "PIM-SESSION-ID",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415074986,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ttvIwZoeEa60o8KF",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415074985
+                    }
+                ]
+            },
+            "TEST_AMCV_COOKIE_WRITE": {
+                "name": "TEST_AMCV_COOKIE_WRITE",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726415075159,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075157
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075163
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075164
+                    }
+                ]
+            },
+            "_abck": {
+                "name": "_abck",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415074924,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757951074.89661,
+                        "expiry": 31536000.89661002,
+                        "value": "0F25493B5793C98BFBCDAC54938D3566~-1~YAAQQO1lX+tE9sCRAQAAd3Zb9gw3NE8SqgNeDrDZDfSDawh4bDBgImyhAthyMwsyNZ2m70UvOEqYUGxBgsEGIIes9GlYDQonYV/iXlwm92nj0TNzO5KdVp6Q8lp/aUrm20YK5IFx38Jftuq18VqHBaewdRnwEe+hGrpN0GvTWjJg4e7oZr/VzTPSkg72xIs6+FYJvi/ks0AYZBOfbUyUt1RfMyZJhH7jkcYgsktYWHynYo6/hTRks2yzjEI8wrkqK130H5leyW6hLLM1SOJQjn33iAbzSmxRLEwb6V8qrexYrYlXazPcwG6bXF3ZFToMt95YGEVtWhKkhsgdq9NclPA2W+rI1EZEld4GO2HaFBTk8wyzQE/18jfI/Kbd7woZS7niXp9oSU+E/pLmIXmzvOIqBC+Mg1OsWg8=~-1~-1~-1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415074920
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.04461503,
+                        "value": "0F25493B5793C98BFBCDAC54938D3566~-1~YAAQQO1lX/RE9sCRAQAABHdb9gyEiIF0a1icUR2QQLrua6jDBmmxFZv6dgQNB6r/2lodhdZZmvDLwpAnbg+Zk5uKRW78ixWz8jMjoJn54QZmGabsKfGrOZMyy+US8MolPt2Ai4mPVkJERzFjAsef4uRutv9/USLNe/f1m5OtftiThv8Jo+JAw9gLS49OSXN6XcJaVH/Nmtnx64syqv0SWWD/cRt66AwLKXgploBUsHICpDrsjnmMkbhkcCovJXtBshBNQqlYOspAP/Vld0nAZ1QBUueKO1/whcqbeElcEhdXPdgQXDRsRCCglGCjKzcnlhPI6F2mFv9yFaNuORH6NkyMalrrDbTH63x9vG/Qb7yo2ZdU9tRYEqSQoKBo91gqsiZGUpKmQIs1vm/y9j2ZvkPpz/YIXjCwrEy/JgygoJf16l+r/wqfwg==~-1~-1~-1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415075045
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.467564106,
+                        "value": "0F25493B5793C98BFBCDAC54938D3566~-1~YAAQQO1lXwNF9sCRAQAAs3hb9gywXTp74iR9y+sVSvqYF0ZVKPoKSmS9pAACOJRsPEfnswrFK1FsXbNgmzYsN35sdhgnP4Ay66ljbPYO3wxrkVYb446XGThW6TlmjdqJrFgwfKSG7xdJ2XVl3xFzfBrGVpsit/89ChCy1duVPbo+4RI5lgtALNB1a1nS8o04/x8XIJ0ymucAfR5dR3KRxE01VQgzJGPoBSlEgCo4784GN+4v7DBFk5JzRWZWbKQAg38mv987np0eBQLIwB35lpbpPAWsI3GT3UKtiIB7jAf5hjjz2qssqTK1k4z8r/uYDMX+FU4GM+xEOBg3AasNzOerOlTocIHW19eiD3nLC+Gj6Rc4WTRBMEDCcnZ8TaN4j2zDDU3fkO1DJYOE+N3Lgk0FjGgSV+ePOrggKARPVK3sk923zdzL7w==~-1~||1-dFCexEvHkw-1-10-1000-2||~-1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415075492
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415074925,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726422274.89668,
+                        "expiry": 7200.896680116653,
+                        "value": "F8814E43659A20C66578EDDD81BC3100~000000000000000000000000000000~YAAQQO1lX+xE9sCRAQAAd3Zb9hkxfNvo/zvufnI0i/CXR36Eb38/k9+MWaG36YLn89r4+Fev3vlCosyLTLtYDtmzvN+qhWEoDBsK6u4E5k18PYNIZgtz0mY0ddanVQh/LQC5wUWmPplflcJKKE/vM59BanXZiqq3RFwQ7ZyrDnj4GJy1ooWGKI3H/XJmdxiWUDRbjexay7JEUhQr3BMc9VMR/tSGhLjvC40s7V8gQV9mSyM+3Ij8vT8yTgpVNGibxizNwF6OeIkqSIegzqLy/GjoiulVKByYV8L+X0aTJFnE4fDq2z/f7uDvE9iUZUNocFajgUZZcurvxL8NK5hY9Z9Ux6S1twwpNoTolp0fROYqvo+UogtTUf3u3mljsLnuNipBZ5Bk",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415074924
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7199.052944898605,
+                        "value": "5A7D7DBBDA2D302A4FB48811EF20F12C~000000000000000000000000000000~YAAQQO1lX/VE9sCRAQAABXdb9hkDOJKdFLf6JMlkyRI4m29lef43R08kSpl70UfF6GVRPwOHDtehIuvH1k4QSCQ7C7h56JESniWVXnT+NOTou3Oe/RHft/PynoR+wuLFoNYp3/4TsRdqafwZUR9fVXa/lMfuV6WZna5rtnlt7wLFkJLBo3JHkA0/kniCEsO89wns7gWzy+V+iuUfsS/0mcBoB+JRW8Y1C7sNHTRwv3tofhaBZTZaeiVyAGQ4SVmlSVxsnbNvPJMZTUbx56u+KaqpMwod8GL2iB7qMdrbPuGF9FTmzV/VA6FsS9KuM1PgUfJZ/xKlNE65xzq1sjNh/ktLgASDjQBqZDDS/a7wF3i4xzvJEYeREPZw2WqAe1j8dhUo91NO1ZTzaBoNyGt3QVMolbp+mbXlgbDJ+YbajPjvCg==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415075053
+                    }
+                ]
+            },
+            "at_check": {
+                "name": "at_check",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726415075188,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075188
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075468
+                    }
+                ]
+            },
+            "bm_sz": {
+                "name": "bm_sz",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415074926,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726429474.89673,
+                        "expiry": 14400.896729946136,
+                        "value": "3A8749D284787082B497267438CCCDFB~YAAQQO1lX+5E9sCRAQAAd3Zb9hn0f2zAiP+PcGj9IiBcY+JcFdoBRN/UruEFjBxA1eDwDbH2Rp3nXf29dwihQYnq2acfNthNYGRMMOoJBg2Lrm+c2ekwCVylWeWqei3cmlzVbypRTl9/lIJ3TQgU9iCYV4VP7oSrFmQ02gLVjM95XH0FQp7A7kzwFIYHBUxrmhK9KV0NjAjEvq4Ss4KYbX0mxClCVJ81DZLQVENJL6IIqQ/rTcbTU9jyQX1yTrmocMipdmpPEazKdJMkZtpP7Druo52WWK2WUEGLBce8KOL2Gkz8isUBBzlJi1XGvsy3Ok007cHCayCBOOwCltUh4TGco9wgZNJMrtKA8RoxOwlcKQOe4B/dHI3bt3lFGzASwDs2YkIF67A=~3749170~3359798",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415074925
+                    }
+                ]
+            },
+            "mbox": {
+                "name": "mbox",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726415075186,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726416936,
+                        "expiry": 1861,
+                        "value": "session#1ed949de6aaf4a0aa7f9d088ac16d235#1726416936",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075185
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1861,
+                        "value": "session#1ed949de6aaf4a0aa7f9d088ac16d235#1726416936",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075189
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1861,
+                        "value": "session#1ed949de6aaf4a0aa7f9d088ac16d235#1726416936",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075468
+                    }
+                ]
+            },
+            "quid": {
+                "name": "quid",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415074994,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760975074.993277,
+                        "expiry": 34560000.99327707,
+                        "value": "c4c4595d-dbb9-4b65-80f8-4b2f95beafa0",
+                        "same_site": "lax",
+                        "timestamp": 1726415074993
+                    }
+                ]
+            },
+            "uattr": {
+                "name": "uattr",
+                "domain": ".qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075138,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760975075.136296,
+                        "expiry": 34560000.136296034,
+                        "value": "NV%7C0%7CCSNULL%7C0%7C0%7CNA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075136
+                    }
+                ]
+            },
+            "akaalb_ALB_PROD_QVC_US": {
+                "name": "akaalb_ALB_PROD_QVC_US",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415074920,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "~op=LB_PROD_QVC_US:origin_prod_dc20_qvc_com|~rv=100~m=origin_prod_dc20_qvc_com:0|~os=7d9af901dc41048f97fe77a58f69575b~id=64da1c183e2dea939273390b8b4d4158",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415074919
+                    }
+                ]
+            },
+            "cartQty": {
+                "name": "cartQty",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075089,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1729007075,
+                        "expiry": 2592000,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075087
+                    }
+                ]
+            },
+            "page": {
+                "name": "page",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075100,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "en",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075099
+                    }
+                ]
+            },
+            "tgtSession": {
+                "name": "tgtSession",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075467,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726416875,
+                        "expiry": 1800,
+                        "value": "1ed949de6aaf4a0aa7f9d088ac16d235",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075466
+                    }
+                ]
+            },
+            "uattrmb": {
+                "name": "uattrmb",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075139,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757951075,
+                        "expiry": 31536000,
+                        "value": "NV0CSNULL",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075138
+                    }
+                ]
+            },
+            "wctz": {
+                "name": "wctz",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415075452,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760975075.352261,
+                        "expiry": 34560000.35226107,
+                        "value": "EST",
+                        "same_site": "unspecified",
+                        "timestamp": 1726415075452
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,397 @@
+{
+    "drivebc.ca": {
+        "/": {
+            "_sp_id.a946": {
+                "name": "_sp_id.a946",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726345190825,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760905190.807003,
+                        "expiry": 34560000.80700302,
+                        "value": "8f0d35d9-ecf0-4e9e-91f7-a337a563df40.1726345191.1.1726345191.1726345191.25c4e2d6-e2df-454b-a814-fd0c30bcc479",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345190823
+                    }
+                ]
+            },
+            "_sp_ses.a946": {
+                "name": "_sp_ses.a946",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726345190813,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726346990,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345190805
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345190825
+                    }
+                ]
+            },
+            "ys-CurrentPlanEventDbcMainChecked": {
+                "name": "ys-CurrentPlanEventDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190830,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190829
+                    }
+                ]
+            },
+            "ys-FerryDbcMainChecked": {
+                "name": "ys-FerryDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190834,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190834
+                    }
+                ]
+            },
+            "ys-FuturePlanEventDbcMainChecked": {
+                "name": "ys-FuturePlanEventDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190830,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190830
+                    }
+                ]
+            },
+            "ys-IncidentDbcMainChecked": {
+                "name": "ys-IncidentDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190829,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190828
+                    }
+                ]
+            },
+            "ys-RoadCondDbcMainChecked": {
+                "name": "ys-RoadCondDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190828,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190826
+                    }
+                ]
+            },
+            "ys-WeatherCurrentDbcMainChecked": {
+                "name": "ys-WeatherCurrentDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190833,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190833
+                    }
+                ]
+            },
+            "ys-WeatherDbcMainChecked": {
+                "name": "ys-WeatherDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190833,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190832
+                    }
+                ]
+            },
+            "ys-WeatherHewrDbcMainChecked": {
+                "name": "ys-WeatherHewrDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190834,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190833
+                    }
+                ]
+            },
+            "ys-WebcamDbcMainChecked": {
+                "name": "ys-WebcamDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190832,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190831
+                    }
+                ]
+            },
+            "ys-googleTrafficDbcMainChecked": {
+                "name": "ys-googleTrafficDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190835,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190834
+                    }
+                ]
+            },
+            "ys-interestDbcMainChecked": {
+                "name": "ys-interestDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190836,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190835
+                    }
+                ]
+            },
+            "ys-messageSignDbcMainChecked": {
+                "name": "ys-messageSignDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190831,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190830
+                    }
+                ]
+            },
+            "ys-restAreasDbcMainChecked": {
+                "name": "ys-restAreasDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190837,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190836
+                    }
+                ]
+            },
+            "ys-variableSpeedDbcMainChecked": {
+                "name": "ys-variableSpeedDbcMainChecked",
+                "domain": "drivebc.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726345190832,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726949990,
+                        "expiry": 604800,
+                        "value": "b%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345190832
+                    }
+                ]
+            }
+        }
+    },
+    "spt.apps.gov.bc.ca": {
+        "/": {
+            "3c6aa5bf75cec870d6dde49c758533da": {
+                "name": "3c6aa5bf75cec870d6dde49c758533da",
+                "domain": "spt.apps.gov.bc.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345191942,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "dc9f3a5c86c3b951e48bf09e30ae9acd",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345191941
+                    }
+                ]
+            },
+            "sp": {
+                "name": "sp",
+                "domain": "spt.apps.gov.bc.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345191940,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757881191.938367,
+                        "expiry": 31536000.93836689,
+                        "value": "5a1fca44-4aee-41c2-8fc3-13fb2b39f59d",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726345191939
+                    }
+                ]
+            }
+        }
+    }
+}

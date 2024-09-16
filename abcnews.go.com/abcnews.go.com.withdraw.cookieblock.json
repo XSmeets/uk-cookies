@@ -1,0 +1,1110 @@
+{
+    "abcnews.go.com": {
+        "/": {
+            "s_ensNR": {
+                "name": "s_ensNR",
+                "domain": ".abcnews.go.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398075820,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728997275,
+                        "expiry": 2599200,
+                        "value": "1726398075819-New",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398075819
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2599200,
+                        "value": "1726398081344-New",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398081345
+                    }
+                ]
+            },
+            "_dcf": {
+                "name": "_dcf",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398075615,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727002875.598014,
+                        "expiry": 604800.5980141163,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075609
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075826
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398081347
+                    }
+                ]
+            },
+            "_nr": {
+                "name": "_nr",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398075851,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075850
+                    }
+                ]
+            },
+            "_scor_uid": {
+                "name": "_scor_uid",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398087167,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760094087,
+                        "expiry": 33696000,
+                        "value": "6675027133cb4647809862970a5a687e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398087166
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "6675027133cb4647809862970a5a687e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398087168
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "6675027133cb4647809862970a5a687e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398092162
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "6675027133cb4647809862970a5a687e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398094754
+                    }
+                ]
+            },
+            "country": {
+                "name": "country",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398076302,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484476.301756,
+                        "expiry": 86400.30175590515,
+                        "value": "uk",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076302
+                    }
+                ]
+            },
+            "region": {
+                "name": "region",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398075609,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727002875.59725,
+                        "expiry": 604800.5972499847,
+                        "value": "emea",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075602
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800.09126091,
+                        "value": "emea",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398081092
+                    }
+                ]
+            },
+            "s_ensCDS": {
+                "name": "s_ensCDS",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398075826,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075825
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398081346
+                    }
+                ]
+            },
+            "s_ensRegion": {
+                "name": "s_ensRegion",
+                "domain": "abcnews.go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398075827,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "unknown",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075826
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "unknown",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398081347
+                    }
+                ]
+            }
+        }
+    },
+    "ads.pubmatic.com": {
+        "/": {
+            "KCCH": {
+                "name": "KCCH",
+                "domain": ".ads.pubmatic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398094559,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726484494,
+                        "expiry": 86400,
+                        "value": "YES",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398094558
+                    }
+                ]
+            }
+        }
+    },
+    "criteo.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".criteo.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398081276,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760094081.275795,
+                        "expiry": 33696000.27579498,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398081276
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398076229,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726398976.228216,
+                        "expiry": 900.2282159328461,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398076228
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.2328410148621,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398076233
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.3222529888153,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398076324
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.3230969905853,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398076325
+                    }
+                ]
+            }
+        }
+    },
+    "go.com": {
+        "/": {
+            "AMCVS_C7A21CFE532E6E920A490D45%40AdobeOrg": {
+                "name": "AMCVS_C7A21CFE532E6E920A490D45%40AdobeOrg",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398076444,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076443
+                    }
+                ]
+            },
+            "AMCV_C7A21CFE532E6E920A490D45%40AdobeOrg": {
+                "name": "AMCV_C7A21CFE532E6E920A490D45%40AdobeOrg",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398076284,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958076.282782,
+                        "expiry": 34560000.28278208,
+                        "value": "-1506532908%7CMCIDTS%7C19982%7CvVersion%7C4.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076283
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.44166708,
+                        "value": "-1506532908%7CMCIDTS%7C19982%7CMCMID%7C50764522740291259641683994001089467164%7CvVersion%7C4.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076442
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.44231892,
+                        "value": "-1506532908%7CMCIDTS%7C19982%7CMCMID%7C50764522740291259641683994001089467164%7CMCAAMLH-1727002876%7C6%7CMCAAMB-1727002876%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CvVersion%7C4.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076442
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.444003105,
+                        "value": "-1506532908%7CMCIDTS%7C19982%7CMCMID%7C50764522740291259641683994001089467164%7CMCAAMLH-1727002876%7C6%7CMCAAMB-1727002876%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1726405276s%7CNONE%7CvVersion%7C4.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076444
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.58011603,
+                        "value": "-1506532908%7CMCIDTS%7C19982%7CMCMID%7C50764522740291259641683994001089467164%7CMCAAMLH-1727002876%7C6%7CMCAAMB-1727002876%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1726405276s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076581
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.58308506,
+                        "value": "-1506532908%7CMCIDTS%7C19982%7CMCMID%7C50764522740291259641683994001089467164%7CMCAAMLH-1727002876%7C6%7CMCAAMB-1727002876%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1726405276s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C4.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076583
+                    }
+                ]
+            },
+            "SWID": {
+                "name": "SWID",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398075855,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934075,
+                        "expiry": 31536000,
+                        "value": "840eaf7a-ea4f-4e46-9bc7-77aa0b6ebb1e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398075854
+                    }
+                ]
+            },
+            "__eoi": {
+                "name": "__eoi",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398081896,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741950081,
+                        "expiry": 15552000,
+                        "value": "ID=9949ef437bda6a3a:T=1726398081:RT=1726398081:S=AA-AfjYahyQg4cLSwIoKvESveDbl",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398081895
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "ID=9949ef437bda6a3a:T=1726398081:RT=1726398081:S=AA-AfjYahyQg4cLSwIoKvESveDbl",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398081899
+                    }
+                ]
+            },
+            "_cb": {
+                "name": "_cb",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398076379,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760526076,
+                        "expiry": 34128000,
+                        "value": "CUDmTkC27uYTCnhxPO",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076378
+                    }
+                ]
+            },
+            "_cb_svref": {
+                "name": "_cb_svref",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398076383,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726399876,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076382
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076384
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398082154
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398076364,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076363
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076365
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076375
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076375
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076383
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398082151
+                    }
+                ]
+            },
+            "_chartbeat2": {
+                "name": "_chartbeat2",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398076379,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760526076,
+                        "expiry": 34128000,
+                        "value": ".1726398076377.1726398076377.1.B6CaDy1pG7FBbLX9KBI94EWigRhV.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076379
+                    }
+                ]
+            },
+            "_chartbeat4": {
+                "name": "_chartbeat4",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398094761,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726398154,
+                        "expiry": 60,
+                        "value": "t=KnS_8BDHNv4hqvITBUpEhzc9qim&E=0&x=0&c=0.31&y=9831&w=892",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398094760
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398076092,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734174076,
+                        "expiry": 7776000,
+                        "value": "1.1.659826656.1726398076",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076091
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.659826656.1726398076",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076147
+                    }
+                ]
+            },
+            "_t_tests": {
+                "name": "_t_tests",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398076428,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726401676,
+                        "expiry": 3600,
+                        "value": "eyJDUUlpUE9BWUxJNnFuIjp7ImNob3NlblZhcmlhbnQiOiJBIiwic3BlY2lmaWNMb2NhdGlvbiI6WyJDTXIyY1MiXX0sImxpZnRfZXhwIjoibSJ9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076427
+                    }
+                ]
+            },
+            "_v__cb_cp": {
+                "name": "_v__cb_cp",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398094764,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726398154,
+                        "expiry": 60,
+                        "value": "Caboagh7zxKCP2--qGMW2zDJY5Zr",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398094763
+                    }
+                ]
+            },
+            "_v__chartbeat3": {
+                "name": "_v__chartbeat3",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398082153,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760526082,
+                        "expiry": 34128000,
+                        "value": "CmUyJUDhWaXZCzwB-J",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398082152
+                    }
+                ]
+            },
+            "ab._gd": {
+                "name": "ab._gd",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398076336,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ab._gd",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076334
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ab._gd",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076336
+                    }
+                ]
+            },
+            "ab.storage.deviceId.0ca73e32-3849-46c5-a406-e001c45b799e": {
+                "name": "ab.storage.deviceId.0ca73e32-3849-46c5-a406-e001c45b799e",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398076342,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958076,
+                        "expiry": 34560000,
+                        "value": "%7B%22g%22%3A%2294aeeb04-5dc3-42f1-04b4-659b84b399bb%22%2C%22c%22%3A1726398076338%2C%22l%22%3A1726398076338%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076342
+                    }
+                ]
+            },
+            "ab.storage.sessionId.0ca73e32-3849-46c5-a406-e001c45b799e": {
+                "name": "ab.storage.sessionId.0ca73e32-3849-46c5-a406-e001c45b799e",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398076341,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958076,
+                        "expiry": 34560000,
+                        "value": "%7B%22g%22%3A%225ca676c4-a6d9-418b-a765-4ebab1de7960%22%2C%22e%22%3A1726399876337%2C%22c%22%3A1726398076337%2C%22l%22%3A1726398076337%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076340
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "%7B%22g%22%3A%225ca676c4-a6d9-418b-a765-4ebab1de7960%22%2C%22e%22%3A1726399876340%2C%22c%22%3A1726398076337%2C%22l%22%3A1726398076340%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076344
+                    }
+                ]
+            },
+            "ab.storage.userId.0ca73e32-3849-46c5-a406-e001c45b799e": {
+                "name": "ab.storage.userId.0ca73e32-3849-46c5-a406-e001c45b799e",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398076340,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958076,
+                        "expiry": 34560000,
+                        "value": "%7B%22g%22%3A%22840eaf7a-ea4f-4e46-9bc7-77aa0b6ebb1e%22%2C%22c%22%3A1726398076336%2C%22l%22%3A1726398076336%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076337
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "%7B%22g%22%3A%22840eaf7a-ea4f-4e46-9bc7-77aa0b6ebb1e%22%2C%22c%22%3A1726398076336%2C%22l%22%3A1726398076338%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076341
+                    }
+                ]
+            },
+            "nol_fpid": {
+                "name": "nol_fpid",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398076361,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741950076,
+                        "expiry": 15552000,
+                        "value": "weuqyq0e2ceto58ndrlfxjeikcy9y1726398076|1726398076358|1726398076358|1726398076358",
+                        "same_site": "lax",
+                        "timestamp": 1726398076360
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15551994,
+                        "value": "weuqyq0e2ceto58ndrlfxjeikcy9y1726398076|1726398076358|1726398082174|1726398076358",
+                        "same_site": "lax",
+                        "timestamp": 1726398082174
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15551994,
+                        "value": "weuqyq0e2ceto58ndrlfxjeikcy9y1726398076|1726398076358|1726398082174|1726398082175",
+                        "same_site": "lax",
+                        "timestamp": 1726398082175
+                    }
+                ]
+            },
+            "s_cc": {
+                "name": "s_cc",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398076582,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076582
+                    }
+                ]
+            },
+            "s_ecid": {
+                "name": "s_ecid",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398076580,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958076.579293,
+                        "expiry": 34560000.57929301,
+                        "value": "MCMID%7C50764522740291259641683994001089467164",
+                        "same_site": "lax",
+                        "timestamp": 1726398076579
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.64493799,
+                        "value": "MCMID%7C50764522740291259641683994001089467164",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076645
+                    }
+                ]
+            },
+            "test": {
+                "name": "test",
+                "domain": ".go.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398076276,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076275
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076281
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398076282
+                    }
+                ]
+            }
+        }
+    },
+    "imrworldwide.com": {
+        "/": {
+            "IMRID": {
+                "name": "IMRID",
+                "domain": ".imrworldwide.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398076594,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760094076.593991,
+                        "expiry": 33696000.59399104,
+                        "value": "d4807bb0-7351-11ef-bb03-5d7b7b6c59cb",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398076594
+                    }
+                ]
+            }
+        }
+    },
+    "nr-data.net": {
+        "/": {
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": ".nr-data.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398077343,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "bc5f2cd3e86bcf93",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398077342
+                    }
+                ]
+            }
+        }
+    },
+    "pubmatic.com": {
+        "/": {
+            "KTPCACOOKIE": {
+                "name": "KTPCACOOKIE",
+                "domain": ".pubmatic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398094558,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734174094,
+                        "expiry": 7776000,
+                        "value": "YES",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398094557
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "YES",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398094659
+                    }
+                ]
+            }
+        }
+    }
+}

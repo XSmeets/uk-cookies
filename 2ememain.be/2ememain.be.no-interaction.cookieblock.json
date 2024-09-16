@@ -1,0 +1,184 @@
+{
+    "2ememain.be": {
+        "/": {
+            "MpSession": {
+                "name": "MpSession",
+                "domain": ".2ememain.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726169823237,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ee3d52fe-d070-4603-a9ca-0f78e19af69c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823225
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ee3d52fe-d070-4603-a9ca-0f78e19af69c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823506
+                    }
+                ]
+            },
+            "__mpx": {
+                "name": "__mpx",
+                "domain": ".2ememain.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726169823959,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741721823.958458,
+                        "expiry": 15552000.958457947,
+                        "value": "5babe3ec-6467-411c-b743-f230147d96e8",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823958
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".2ememain.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726169824219,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757705824.218876,
+                        "expiry": 31536000.218875885,
+                        "value": "b9eb643c-7bfc-4ab9-a467-5bee2d0f7efd",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726169824219
+                    }
+                ]
+            },
+            "luckynumber": {
+                "name": "luckynumber",
+                "domain": ".2ememain.be",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726169823239,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757705823.2233,
+                        "expiry": 31536000.22329998,
+                        "value": "1153986438",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823238
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.50507903,
+                        "value": "1153986438",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823506
+                    }
+                ]
+            },
+            "route_65096237_fb4d_4561_b305_7b204b0db8cf": {
+                "name": "route_65096237_fb4d_4561_b305_7b204b0db8cf",
+                "domain": "2ememain.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726169822939,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "fcddaf03b064de5f7d23d2f570c17686",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169822930
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "50cfb3a62c6dea7728413516252b97e7",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823224
+                    }
+                ]
+            },
+            "MpHpInitialFeed": {
+                "name": "MpHpInitialFeed",
+                "domain": "www.2ememain.be",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726169823857,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726169823856
+                    }
+                ]
+            }
+        }
+    },
+    "p.marktplaats.net": {
+        "/": {
+            "client": {
+                "name": "client",
+                "domain": "p.marktplaats.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726169823946,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741721823.94524,
+                        "expiry": 15552000.94524002,
+                        "value": "e69ba93c-cc59-0795-3256-d383e96dbba5",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726169823945
+                    }
+                ]
+            }
+        }
+    }
+}

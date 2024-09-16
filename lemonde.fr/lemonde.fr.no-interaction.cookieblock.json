@@ -1,0 +1,90 @@
+{
+    "lemonde.fr": {
+        "/": {
+            "_cookie_test": {
+                "name": "_cookie_test",
+                "domain": ".lemonde.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078167955,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726078197,
+                        "expiry": 30,
+                        "value": "m0y6di8bcj0dq4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078167954
+                    }
+                ]
+            },
+            "atauthority": {
+                "name": "atauthority",
+                "domain": ".lemonde.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078167954,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760378967,
+                        "expiry": 34300800,
+                        "value": "%7B%22name%22%3A%22atauthority%22%2C%22val%22%3A%7B%22authority_name%22%3A%22cnil%22%2C%22visitor_mode%22%3A%22exempt%22%7D%2C%22options%22%3A%7B%22end%22%3A%222025-10-13T18%3A09%3A27.942Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078167952
+                    }
+                ]
+            },
+            "atidvisitor": {
+                "name": "atidvisitor",
+                "domain": ".lemonde.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078167951,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741802967.940724,
+                        "expiry": 15724800.940723896,
+                        "value": "%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-43260-%22%7D%2C%22options%22%3A%7B%22path%22%3A%22%2F%22%2C%22session%22%3A15724800%2C%22end%22%3A15724800%7D%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078167947
+                    }
+                ]
+            },
+            "pa_privacy": {
+                "name": "pa_privacy",
+                "domain": ".lemonde.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078167956,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760206167,
+                        "expiry": 34128000,
+                        "value": "%22exempt%22",
+                        "same_site": "lax",
+                        "timestamp": 1726078167955
+                    }
+                ]
+            }
+        }
+    }
+}

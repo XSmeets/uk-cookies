@@ -1,0 +1,48 @@
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+      id-token: write
+      pages: write
+    name: Deploy to GitHub Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up Python
+        # This is the version of the action for setting up Python, not the Python version.
+        uses: actions/setup-python@v5
+        with:
+          # Semantic version range syntax or exact version of a Python version
+          python-version: '3.12'
+          # Optional - x64 or x86 architecture, defaults to x64
+          architecture: 'x64'
+      # Run your project's build step
+      - name: Install Python requirements
+        run: python -m pip install -r requirements.txt
+      - name: Filter data
+        run: python cleanup.py
+      - name: Remove sites file
+        run: rm sites.tsv
+      - name: Remove cleanup file
+        run: rm cleanup.py
+      - name: Generate index.html
+        run: tree -T "UK cookies extracted from Cookieblock (in cookie consent project)" -H . -I "index.html" -o index.html
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+
+    #   - name: Publish
+    #     uses: cloudflare/pages-action@v1
+    #     with:
+    #       apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    #       accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    #       projectName: 'mep-cookies-california'
+    #       directory: '.'
+    #       gitHubToken: ${{ secrets.GITHUB_TOKEN }}

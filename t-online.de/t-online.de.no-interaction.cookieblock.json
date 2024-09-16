@@ -1,0 +1,27 @@
+{
+    "t-online.de": {
+        "/": {
+            "testVariationconsent": {
+                "name": "testVariationconsent",
+                "domain": "www.t-online.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726164436651,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728756436,
+                        "expiry": 2592000,
+                        "value": "2022-07-26-cmp-pur-7-B",
+                        "same_site": "unspecified",
+                        "timestamp": 1726164436645
+                    }
+                ]
+            }
+        }
+    }
+}

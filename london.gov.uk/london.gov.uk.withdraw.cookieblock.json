@@ -1,0 +1,309 @@
+{
+    "london.gov.uk": {
+        "/": {
+            "CookieControl": {
+                "name": "CookieControl",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233416471,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734013016,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"CONSENT\",\"CookieConsent\",\"crisis_communication_modal\",\"googtrans\",\"test_cookie\",\"what-intent\"],\"optionalCookies\":{\"Marketing\":\"accepted\",\"Statistics\":\"accepted\"},\"statement\":{},\"consentDate\":1726233416462,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"22A51BAA-C442-4298-8DF1-9685A817FFD6\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726233416464
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"CONSENT\",\"CookieConsent\",\"crisis_communication_modal\",\"googtrans\",\"test_cookie\",\"what-intent\"],\"optionalCookies\":{\"Marketing\":\"revoked\",\"Statistics\":\"revoked\"},\"statement\":{},\"consentDate\":1726233419552,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"22A51BAA-C442-4298-8DF1-9685A817FFD6\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726233419555
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7779600,
+                        "value": "{\"necessaryCookies\":[\"CONSENT\",\"CookieConsent\",\"crisis_communication_modal\",\"googtrans\",\"test_cookie\",\"what-intent\"],\"optionalCookies\":{\"Marketing\":\"revoked\",\"Statistics\":\"revoked\"},\"statement\":{},\"consentDate\":1726233421416,\"consentExpiry\":90,\"interactedWith\":true,\"user\":\"22A51BAA-C442-4298-8DF1-9685A817FFD6\"}",
+                        "same_site": "strict",
+                        "timestamp": 1726233421418
+                    }
+                ]
+            },
+            "_vis_opt_out": {
+                "name": "_vis_opt_out",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233419550,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734873419,
+                        "expiry": 8640000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233419548
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 8640000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233419670
+                    }
+                ]
+            },
+            "_vis_opt_s": {
+                "name": "_vis_opt_s",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233416642,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734873416,
+                        "expiry": 8640000,
+                        "value": "1%7C",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416641
+                    }
+                ]
+            },
+            "_vis_opt_test_cookie": {
+                "name": "_vis_opt_test_cookie",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233416625,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416624
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416642
+                    }
+                ]
+            },
+            "_vwo_ds": {
+                "name": "_vwo_ds",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233416630,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728825416,
+                        "expiry": 2592000,
+                        "value": "3%241726233415%3A85.65353675%3A%3A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416629
+                    }
+                ]
+            },
+            "_vwo_sn": {
+                "name": "_vwo_sn",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233416632,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726235216,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416632
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416639
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233417649
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "0%3A1%3A%3A%3A1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233418719
+                    }
+                ]
+            },
+            "_vwo_uuid": {
+                "name": "_vwo_uuid",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233416628,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757790368,
+                        "expiry": 31556952,
+                        "value": "D7230B766A3F0E97C779D78D9C11A3B4A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416628
+                    }
+                ]
+            },
+            "_vwo_uuid_v2": {
+                "name": "_vwo_uuid_v2",
+                "domain": ".london.gov.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726233416537,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757855816,
+                        "expiry": 31622400,
+                        "value": "D7230B766A3F0E97C779D78D9C11A3B4A|bc9246c4c7baf20036e05d26d67c308f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233416534
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233414720,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741785414.719076,
+                        "expiry": 15552000.719075918,
+                        "value": "uwYX6PPeuEs",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233414720
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233414725,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741785414.719406,
+                        "expiry": 15552000.71940589,
+                        "value": "CgJHQhIEGgAgFw%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233414720
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233414720,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "UFwiI6Sq108",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233414719
+                    }
+                ]
+            }
+        }
+    }
+}

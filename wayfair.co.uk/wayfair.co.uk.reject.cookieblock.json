@@ -1,0 +1,703 @@
+{
+    "wayfair.co.uk": {
+        "/": {
+            "CSNUtId": {
+                "name": "CSNUtId",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226534216,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786534.196682,
+                        "expiry": 34560000.19668198,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226534211
+                    }
+                ]
+            },
+            "CSN_CSRF": {
+                "name": "CSN_CSRF",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535096,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726312935.084636,
+                        "expiry": 86400.08463597298,
+                        "value": "744b57f276ee1309e72cefe447b43e3532c5ecbea1ae5e9a116ab35cfe1a2142",
+                        "same_site": "lax",
+                        "timestamp": 1726226535095
+                    }
+                ]
+            },
+            "ExCSNUtId": {
+                "name": "ExCSNUtId",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226535067,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786535.065693,
+                        "expiry": 34560000.0656929,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535066
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.06674695,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535068
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.06841707,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535070
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.070751905,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535076
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.08116388,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535084
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.085278034,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535096
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.08742404,
+                        "value": "dbc385f1-a2ed-4f7e-b6ce-b35d2745009b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226535101
+                    }
+                ]
+            },
+            "SFSID": {
+                "name": "SFSID",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535093,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "7f1c1c97248adf73dc823d403cb16454",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535092
+                    }
+                ]
+            },
+            "WFDC": {
+                "name": "WFDC",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226534208,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726237334.196565,
+                        "expiry": 10800.196564912796,
+                        "value": "GRQ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226534199
+                    }
+                ]
+            },
+            "canary": {
+                "name": "canary",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726226535094,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786535.084598,
+                        "expiry": 34560000.084598064,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535093
+                    }
+                ]
+            },
+            "cc_post_exp": {
+                "name": "cc_post_exp",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226534882,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726831334,
+                        "expiry": 604800,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226534881
+                    }
+                ]
+            },
+            "forterToken": {
+                "name": "forterToken",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535368,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760786535,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366___20ck",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535367
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF4_20ck",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535908
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43_20ck_",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535927
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43_20ck_xdUb9r3GpR4%3D-5581-v2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226538105
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43-m4_20ck_xdUb9r3GpR4%3D-5581-v2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226538285
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43-m4_20ck_xdUb9r3GpR4%3D-5581-v2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226538286
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43-m9_20ck_xdUb9r3GpR4%3D-5581-v2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226538290
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43-m9_20ck_xdUb9r3GpR4%3D-5581-v2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226538290
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000,
+                        "value": "12e1a3048fbc40ac9e4384e446d9d6be_1726226535366__UDF43-m9-anf_20ck_xdUb9r3GpR4%3D-5581-v2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226541483
+                    }
+                ]
+            },
+            "i18nPrefs": {
+                "name": "i18nPrefs",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535090,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.352134943,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535352
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.36369896,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535364
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.379669905,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535380
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.5735209,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535574
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.614447117,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535615
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.30557704,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226539306
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.10005212,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540101
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.338052988,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540338
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.42609501,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540426
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.46494603,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540465
+                    }
+                ]
+            },
+            "serverUAInfo": {
+                "name": "serverUAInfo",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535095,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%7B%22browser%22%3A%22Google%20Chrome%22%2C%22browserVersion%22%3A128%2C%22OS%22%3A%22Mac%20OS%20X%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%2C%22isTouch%22%3Afalse%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535094
+                    }
+                ]
+            },
+            "user_cookie_prefs": {
+                "name": "user_cookie_prefs",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226540116,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760786540.11514,
+                        "expiry": 34560000.11513996,
+                        "value": "NECESSARY%2CADMINISTRATIVE",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540115
+                    }
+                ]
+            },
+            "vid": {
+                "name": "vid",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535091,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.35229897499,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535353
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.363729953766,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535364
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.379757881165,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535380
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.573590993881,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535574
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.614537000656,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535615
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.305635929108,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226539307
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.10014295578,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540101
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.33808708191,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540338
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.42613196373,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540426
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.46498799324,
+                        "value": "23cca2b0-66e4-2067-37dc-4e56ef655d02",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226540465
+                    }
+                ]
+            },
+            "FVSID": {
+                "name": "FVSID",
+                "domain": "www.wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226535372,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726320135,
+                        "expiry": 93600,
+                        "value": "49-fd46fd12-84c1-43fd-98ab-b4cfc87f06b2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226535370
+                    }
+                ]
+            },
+            "_px3": {
+                "name": "_px3",
+                "domain": "www.wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226537909,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727436137,
+                        "expiry": 1209600,
+                        "value": "5bfef9d9743b5f7db5de85a62714a7ade3d5b765f7b6acafd6f5701088aa1ede:b1yZJQYioSy+TPW4o0zSuLIMpn62zn8jOYNC18X7oNEWWWadvyC8PbIcfq/gmHri0QJd+GJPaq0rgA8n7CfejQ==:1000:lnwOIAjlOf0EOyAN3zC7CxcDzrNgONvocjgyBm8BaAtr8fvtYYfZn2el5P84mqnMKn3L6Hha4NkpRQFETAzc2a4pDofRAeSQVJTuEc+JMOzEJBOlMFqgVQ6TueeZT0LhA9+I5WpVC1bUud09zM5+/WCGG7mD+aNQGbaCTGiZZ4kDxbppfGH6+fUMT/2rnoV9fZHzQZLcY/8XzOFlVJ7h0P7RV7o/mTl8QvpkJep+VKA=",
+                        "same_site": "lax",
+                        "timestamp": 1726226537908
+                    }
+                ]
+            },
+            "_pxvid": {
+                "name": "_pxvid",
+                "domain": "www.wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226534871,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757762534,
+                        "expiry": 31536000,
+                        "value": "6d8e020e-71c2-11ef-9a6b-f3ced3e80167",
+                        "same_site": "lax",
+                        "timestamp": 1726226534871
+                    }
+                ]
+            },
+            "pxcts": {
+                "name": "pxcts",
+                "domain": "www.wayfair.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226534870,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "6d8e1072-71c2-11ef-9a6c-e0033437a2db",
+                        "same_site": "lax",
+                        "timestamp": 1726226534869
+                    }
+                ]
+            }
+        }
+    },
+    "imgs.signifyd.com": {
+        "/": {
+            "thx_guid": {
+                "name": "thx_guid",
+                "domain": "imgs.signifyd.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226538058,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786538.056768,
+                        "expiry": 34560000.05676794,
+                        "value": "4acbe25b669caa004794df9352cce184",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226538057
+                    }
+                ]
+            },
+            "tmx_guid": {
+                "name": "tmx_guid",
+                "domain": "imgs.signifyd.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226538058,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786538.056804,
+                        "expiry": 34560000.05680394,
+                        "value": "AAwrwc5-y0QAjG7UyZZZDuIDAuXd5YwvSLiLj0iD23ubeDr0IJx608O4W22ZTGwALlt_8gj89lfpK-YEjGQFn-FnVfzhuw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226538058
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,317 @@
+{
+    "google.com": {
+        "/": {
+            "__Secure-ENID": {
+                "name": "__Secure-ENID",
+                "domain": ".google.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227091070,
+                "storeId": "0",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760235317.069446,
+                        "expiry": 34008226.06944609,
+                        "value": "22.SE=iriQCCHcutZ9cqs7pXXcTEECj2jgdSII9Dr4_9n29qJM3RT5ZUWnlESlPlC5xevFsQdkwxJtst-_cSsgU3R193CUql2Z7Zb1oYC4hQnDwE_v30YBUnrk1rSYpoY_KOKZkxpo3VBLXVIE_j-r3riN51naCmPuRsIs7ZbC3XBpDxIEFLbnLG0gxaax0PFY-lhbfw",
+                        "same_site": "lax",
+                        "timestamp": 1726227091070
+                    }
+                ]
+            }
+        }
+    },
+    "lookfantastic.com": {
+        "/": {
+            "chumewe_sess": {
+                "name": "chumewe_sess",
+                "domain": ".lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227085692,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726241485.679276,
+                        "expiry": 14400.679275989532,
+                        "value": "0ae98028-ad6e-4b21-8f7e-5e7a1427f4be",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227085691
+                    }
+                ]
+            },
+            "chumewe_user": {
+                "name": "chumewe_user",
+                "domain": ".lookfantastic.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726227085691,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760787085.679242,
+                        "expiry": 34560000.679241896,
+                        "value": "a9f95d20-da95-4c01-bb32-9cddd298dac6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227085686
+                    }
+                ]
+            },
+            "en_chosenSubsite_V6": {
+                "name": "en_chosenSubsite_V6",
+                "domain": ".lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227086287,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "en",
+                        "same_site": "lax",
+                        "timestamp": 1726227086287
+                    }
+                ]
+            },
+            "gaVisitId": {
+                "name": "gaVisitId",
+                "domain": ".lookfantastic.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726227086217,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "idxvpbn9h12ll",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227086216
+                    }
+                ]
+            },
+            "lantern": {
+                "name": "lantern",
+                "domain": ".lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227086429,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728819086,
+                        "expiry": 2592000,
+                        "value": "3e878e5d-5c10-46b3-9fb6-6f55909bd6d9",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227086428
+                    }
+                ]
+            },
+            "locale_V6": {
+                "name": "locale_V6",
+                "domain": ".lookfantastic.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726227085692,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757784011.679288,
+                        "expiry": 31556926.67928791,
+                        "value": "en_GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227085692
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556926.778503895,
+                        "value": "en_GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227085779
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556926.2863369,
+                        "value": "en_GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227086286
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556926.29139495,
+                        "value": "en_GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227086291
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31556926.691329002,
+                        "value": "en_GB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227086691
+                    }
+                ]
+            },
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": "lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227085685,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "EA4EA9421E3E40A730C959D5CB8F9F77",
+                        "same_site": "lax",
+                        "timestamp": 1726227085680
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "CA2CAF3554598B79286B84F130B538AF",
+                        "same_site": "lax",
+                        "timestamp": 1726227085778
+                    }
+                ]
+            },
+            "NSC_mc_wtsw_efgbvmu_xfctsw_8010_H": {
+                "name": "NSC_mc_wtsw_efgbvmu_xfctsw_8010_H",
+                "domain": "lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227085693,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726237885.679299,
+                        "expiry": 10800.679299116135,
+                        "value": "4c22a3d3e1c926c22b41cc049e8f4ead4cdd27798bba0cca9c4ba99a13226349b742f442",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227085692
+                    }
+                ]
+            },
+            "NSC_mc_wtsw_efgbvmu_xfctsw_8010_B": {
+                "name": "NSC_mc_wtsw_efgbvmu_xfctsw_8010_B",
+                "domain": "www.lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227085781,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726237885.778547,
+                        "expiry": 10800.778547048569,
+                        "value": "6f44a3df787fffdb6d13bc41e2642fc7bcf355dc6c35f0de03ad0446d526597db4488f5d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227085781
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.286380052567,
+                        "value": "6f44a3df787fffdb6d13bc41e2642fc7bcf355dc6c35f0de03ad0446d526597db4488f5d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227086288
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.29144191742,
+                        "value": "6f44a3df787fffdb6d13bc41e2642fc7bcf355dc6c35f0de03ad0446d526597db4488f5d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227086291
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 10800.691359996796,
+                        "value": "6f44a3df787fffdb6d13bc41e2642fc7bcf355dc6c35f0de03ad0446d526597db4488f5d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726227086692
+                    }
+                ]
+            },
+            "csrf_token": {
+                "name": "csrf_token",
+                "domain": "www.lookfantastic.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726227085780,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "76547602021673467516",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726227085779
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,381 @@
+{
+    "europa.eu": {
+        "/": {
+            "eu_cookie_consent": {
+                "name": "eu_cookie_consent",
+                "domain": ".europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167498722,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%7B%22a%22%3A%7B%7D%2C%22r%22%3A%7B%22europa%22%3A%5B%22europa-analytics%22%5D%7D%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726167498720
+                    }
+                ]
+            }
+        }
+    },
+    "european-union.europa.eu": {
+        "/": {
+            "cck1": {
+                "name": "cck1",
+                "domain": ".european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167469048,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Atrue%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167494312
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Atrue%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167494313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167498713
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167500857
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167500880
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167500881
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167500917
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167502740
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167502754
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167502756
+                    }
+                ]
+            },
+            "eu_optout": {
+                "name": "eu_optout",
+                "domain": ".european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167498717,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757703498,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726167498715
+                    }
+                ]
+            },
+            "_pk_id.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33": {
+                "name": "_pk_id.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33",
+                "domain": "european-union.europa.eu",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726167469147,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167483.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167482809
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167486.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167485634
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167488.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167488141
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167491.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167490956
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167494.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167494293
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167494.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167494294
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167494.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167494296
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167495.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167494918
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167496.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167496092
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "421463a302cefad4.1726167469.1.1726167497.1726167469.",
+                        "same_site": "lax",
+                        "timestamp": 1726167497026
+                    }
+                ]
+            },
+            "_pk_ses.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33": {
+                "name": "_pk_ses.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33",
+                "domain": "european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167469149,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167482082
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167482809
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167485634
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167488141
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167490957
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167494294
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167494296
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167494918
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167496093
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167497026
+                    }
+                ]
+            }
+        }
+    }
+}

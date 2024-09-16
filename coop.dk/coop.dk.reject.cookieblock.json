@@ -1,0 +1,103 @@
+{
+    "coop.dk": {
+        "/": {
+            "TEST_AMCV_COOKIE_WRITE": {
+                "name": "TEST_AMCV_COOKIE_WRITE",
+                "domain": ".coop.dk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726149214499,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149214493
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149214500
+                    }
+                ]
+            },
+            "CookieInformationConsent": {
+                "name": "CookieInformationConsent",
+                "domain": "coop.dk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149241173,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727358841,
+                        "expiry": 1209600,
+                        "value": "%7B%22website_uuid%22%3A%224b458035-e98d-4b1e-b7ca-3f1a72d7eaf6%22%2C%22timestamp%22%3A%222024-09-12T13%3A54%3A01.165Z%22%2C%22consent_url%22%3A%22https%3A%2F%2Fcoop.dk%2F%22%2C%22consent_website%22%3A%22coop.dk%22%2C%22consent_domain%22%3A%22coop.dk%22%2C%22user_uid%22%3A%22132cbeb0-5a11-45b1-99da-37a1e2a9adf6%22%2C%22consents_approved%22%3A%5B%22cookie_cat_necessary%22%5D%2C%22consents_denied%22%3A%5B%22cookie_cat_functional%22%2C%22cookie_cat_statistic%22%2C%22cookie_cat_marketing%22%2C%22cookie_cat_unclassified%22%5D%2C%22user_agent%22%3A%22Mozilla%2F5.0%20%28Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F128.0.0.0%20Safari%2F537.36%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726149241166
+                    }
+                ]
+            }
+        }
+    },
+    "policy.app.cookieinformation.com": {
+        "/": {
+            "CookieInformationConfig": {
+                "name": "CookieInformationConfig",
+                "domain": "policy.app.cookieinformation.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149241177,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757685241,
+                        "expiry": 31536000,
+                        "value": "NobwRAlgJmBcYC8AOB5AagawAoCcC2AnAEpgA0YUA9ngIYQB2AznMGEjTgC70CmOAZpRxQeAGx4A6AMaVKSCVAxkwAAhlya9GqICejSYuUrGACzlIGAc2mz5h8mtsKlDhoJtznRvDyji8HnYuqlA6ODwAbmL8AGfCgV4AugC+iUA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726149241175
+                    }
+                ]
+            },
+            "CookieInformationConsent_zpOVkPrm9R": {
+                "name": "CookieInformationConsent_zpOVkPrm9R",
+                "domain": "policy.app.cookieinformation.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149241179,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1727358841,
+                        "expiry": 1209600,
+                        "value": "N4Ig7gpgRgzglgFwgfQK6rgExALhAFinwFYAOABgGZiBaCATlMxsIEYIaoB2AYwEMalAGas+XAEyYuEPkIBsIADQgEcALYQYCPmoAOuEOPLj8NcvRqtxAFVaUcxfDnKsAdKznEAWkpA8A9gB2MBCBCGgATgA2BgAWCAi6MDgA9CkB-rqumADWKb4BwaHhkLCIEAYZWbkFQSFhyJj+anxwgZX+mdk5vqghEWhYBnbiPFDQ5DTEfKysLMRQc-T0mAKUXDMQ4nz0fJjytUVhMMh8uroR-gBuENg4ANp+nTlwKPzhgRA8mjB8EQCeIAAuspCvUECdMKFXndHhkXm8+OEhKhAjxVEE+DFQc9Xsh3sgtEi4Fo4Dxav4EfikcgWhEchBVIEAOYUqkE1E8KJ8GDwIQw4HKPoQAZ8ZnFAwAWX8AC84FFuSliK5yAACAAUkr4PDaCH8MFiAG5VQBJMIQKKqrU8VUAeQAyqqABqq1jkZCsYjILgASlVAEFzlEIAB1aAAaUQSvWrkocg14YAEtZJQAZRSqqJwBmqgDiXxy-j9AGFYpcNCkrKQVTW1fbZH84NGuLGFABfIA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726149241178
+                    }
+                ]
+            }
+        }
+    }
+}

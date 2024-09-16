@@ -1,0 +1,36 @@
+{
+    "berlin.de": {
+        "/": {
+            "wt_rla": {
+                "name": "wt_rla",
+                "domain": ".berlin.de",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726165736023,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "102571513503709%2C1%2C1726165736017",
+                        "same_site": "lax",
+                        "timestamp": 1726165736018
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "102571513503709%2C2%2C1726165736017",
+                        "same_site": "lax",
+                        "timestamp": 1726165736208
+                    }
+                ]
+            }
+        }
+    }
+}

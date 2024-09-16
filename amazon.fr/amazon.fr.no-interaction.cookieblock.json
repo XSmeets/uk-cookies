@@ -1,0 +1,131 @@
+{
+    "amazon.fr": {
+        "/": {
+            "i18n-prefs": {
+                "name": "i18n-prefs",
+                "domain": ".amazon.fr",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726078539645,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757614539.631686,
+                        "expiry": 31536000.631685972,
+                        "value": "EUR",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078539637
+                    }
+                ]
+            },
+            "session-id-time": {
+                "name": "session-id-time",
+                "domain": ".amazon.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078539637,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757614539.631562,
+                        "expiry": 31536000.631561995,
+                        "value": "2082787201l",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078539637
+                    }
+                ]
+            },
+            "session-id": {
+                "name": "session-id",
+                "domain": ".amazon.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078539636,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757614539.630306,
+                        "expiry": 31536000.630306005,
+                        "value": "257-2444565-3247401",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078539635
+                    }
+                ]
+            },
+            "ubid-acbfr": {
+                "name": "ubid-acbfr",
+                "domain": ".amazon.fr",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726078540360,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757614540.354969,
+                        "expiry": 31536000.354969025,
+                        "value": "257-0751076-5115258",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078540355
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.37937188,
+                        "value": "257-0751076-5115258",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078540380
+                    }
+                ]
+            },
+            "csm-hit": {
+                "name": "csm-hit",
+                "domain": "www.amazon.fr",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726078539983,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1756318539,
+                        "expiry": 30240000,
+                        "value": "tb:s-C597RB8XQ1JX4BXV3ADT|1726078539982&t:1726078539982",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078539983
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 30240000,
+                        "value": "tb:s-C597RB8XQ1JX4BXV3ADT|1726078539982&t:1726078540209&adb:adblk_no",
+                        "same_site": "unspecified",
+                        "timestamp": 1726078540210
+                    }
+                ]
+            }
+        }
+    }
+}

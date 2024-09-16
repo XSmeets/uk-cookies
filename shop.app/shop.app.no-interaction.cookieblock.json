@@ -1,0 +1,68 @@
+{
+    "shop.app": {
+        "/": {
+            "_shopify_s": {
+                "name": "_shopify_s",
+                "domain": ".shop.app",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726340338035,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726342137.020719,
+                        "expiry": 1799.020719051361,
+                        "value": "ce99c595-04a9-4249-af3c-3ab8a1be3c54",
+                        "same_site": "lax",
+                        "timestamp": 1726340338028
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.4264919757843,
+                        "value": "ce99c595-04a9-4249-af3c-3ab8a1be3c54",
+                        "same_site": "lax",
+                        "timestamp": 1726340338427
+                    }
+                ]
+            },
+            "_shopify_y": {
+                "name": "_shopify_y",
+                "domain": ".shop.app",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726340338040,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757876337.022018,
+                        "expiry": 31535999.022017956,
+                        "value": "30f3df9a-f05c-4628-9aae-ed15891e2a39",
+                        "same_site": "lax",
+                        "timestamp": 1726340338035
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.426532984,
+                        "value": "30f3df9a-f05c-4628-9aae-ed15891e2a39",
+                        "same_site": "lax",
+                        "timestamp": 1726340338427
+                    }
+                ]
+            }
+        }
+    }
+}

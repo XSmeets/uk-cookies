@@ -1,0 +1,591 @@
+{
+    "graphql.rtl.nl": {
+        "/": {
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".graphql.rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170496668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726177696.660137,
+                        "expiry": 7200.660136938095,
+                        "value": "DA1489BBFB39F02690F63F9259AA236D~000000000000000000000000000000~YAAQdK0QAi4i0deRAQAAr37H5xlR/W9gJH0xXcGmEP7/3Olvr6wnUDIqIiOVO4dT0pWsrIpKX9g6olL7eWVnwXa6oVfvPA3HBbvNT59K1jrheI1EW5c7tr3Fsk3iUpgMUHhGRIswqysFsJMqe4fx2hlwUq2JJbS2ouRX/SqkOMYSbShQuGWni1mzGIvrZjmjraWu1pp1i5mZTh/IUwkYmfTP12EcKAzQGY6he4M9lFrv2zt1a6Cbf4/JVZlPPJck3P0MXL+h17PJ4q094KvQEb16ZoTsVNVlBf7x7rnYH8gC4mpD6IUBT/ot0hXTbQS4UeErWROtEI562aNoJO2T8tWA8EJgtcmW3sAQxcKDmrdVdgOVOQ9H0/nDEENmznwvl3FfSSAhD+4st5jZZyk=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170496660
+                    }
+                ]
+            }
+        }
+    },
+    "rtl.nl": {
+        "/": {
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170504661,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757706504,
+                        "expiry": 31536000,
+                        "value": "2024-09-12T19:48:24.659Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504660
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170497503,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170497543
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170497545
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=0&isAnonUser=1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170497546
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.rtl.nl%2F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170497548
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A17+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.rtl.nl%2F&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0%2CV2STACK1%3A0%2CV2STACK14%3A0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170497612
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0%2CV2STACK1%3A0%2CV2STACK14%3A0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504664
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0002%3A1%2CC0001%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0%2CV2STACK1%3A0%2CV2STACK14%3A0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504668
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0002%3A1%2CC0001%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0%2CV2STACK1%3A0%2CV2STACK14%3A0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504694
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0002%3A1%2CC0001%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0%2CV2STACK1%3A0%2CV2STACK14%3A0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Thu+Sep+12+2024+21%3A48%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=202407.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=6a1e6a3c-0246-4698-ac78-b4f69516a91b&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0002%3A1%2CC0001%3A1%2CC0003%3A1%2CC0004%3A0%2CC0005%3A0%2CV2STACK1%3A0%2CV2STACK14%3A0&intType=5",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504701
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726170504696,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728589704,
+                        "expiry": 2419200,
+                        "value": "GA1.1.1513549755.1726170497",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170504694
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.5338819,
+                        "value": "GA1.2.1513549755.1726170497",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505534
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.53799391,
+                        "value": "GA1.2.1513549755.1726170497",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505538
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.79046512,
+                        "value": "GA1.2.1513549755.1726170497",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505791
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.79496002,
+                        "value": "GA1.2.1513549755.1726170497",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505795
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.79970002,
+                        "value": "GA1.2.1513549755.1726170497",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505799
+                    }
+                ]
+            },
+            "_ga_R60G792H9S": {
+                "name": "_ga_R60G792H9S",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726170504697,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728589704,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170496.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170504697
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170504.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170504699
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170505.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505446
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170505.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505451
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170505.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505793
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505796
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170505.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505797
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "GS1.1.1726170496.1.0.1726170505.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505801
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 2419200,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170512609
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726170505535,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726256905,
+                        "expiry": 86400,
+                        "value": "GA1.2.45856231.1726170506",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505534
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.45856231.1726170506",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505538
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.45856231.1726170506",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505791
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.45856231.1726170506",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505795
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.45856231.1726170506",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170505800
+                    }
+                ]
+            },
+            "_sp_id.1c66": {
+                "name": "_sp_id.1c66",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726170496705,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760730496.702731,
+                        "expiry": 34560000.702730894,
+                        "value": "ea366408-746b-47ed-8800-0d3d4a047c22.1726170497.1.1726170497..7bb578d2-a1c8-4603-98d8-5447b517d1a6....0",
+                        "same_site": "lax",
+                        "timestamp": 1726170496704
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.76311207,
+                        "value": "ea366408-746b-47ed-8800-0d3d4a047c22.1726170497.1.1726170497..7bb578d2-a1c8-4603-98d8-5447b517d1a6..6253b65f-6ef7-4888-a80d-6cbdbfb082fd.1726170496762.1",
+                        "same_site": "lax",
+                        "timestamp": 1726170496763
+                    }
+                ]
+            },
+            "_sp_root_domain_test_1726170496701": {
+                "name": "_sp_root_domain_test_1726170496701",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170496702,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_test_value_1726170496701",
+                        "same_site": "lax",
+                        "timestamp": 1726170496701
+                    }
+                ]
+            },
+            "_sp_ses.1c66": {
+                "name": "_sp_ses.1c66",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726170496704,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726172296,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726170496703
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726170496763
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170504693,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757706504,
+                        "expiry": 31536000,
+                        "value": "CQE1LzAQE1LzAAcABBNLBGFwAAAAAEAAABpYAAAMEgCABzAM-AlUBggBoSAoAAsACoAHgAQQAyADQAIgATAA3gB-AEJAIgAiQBgADKgHcAd4A_QCRAI9AXmAyQBk4UACAHMIACAI4ASkdAbAAWABUAEEAMgA0ACIAEwAMQAbwA_QCIAIkAYAAygBowDuAO8AfoBFgCRAHUAReAj0BMgC2QF5gMkAZOAywB_Y4AQAOgAhABEQCOAEpATEAwQBkxCAUAAsAMQAbwBgQDuAO8AlIB1AEegMnAf2QABAEcAYISgHAALACIAEwAMUAiACJAGAAO8A6gCLwEegLzAZIAycBlhIAGAO4AjgCYikBkABYAFQAQQAyADQAIgATAAxAB-gEQARIAwABlADRAHeAP0AiwBIgDqAInAReAj0BeYDJAGTgMsAf2UADgDuAI4ASkAuoCYgGCAMmLQAgBgADuLAAwCOAI9ATEAA.YAAACAAAAAAA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726170504691
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".www.rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170496053,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726177696.043041,
+                        "expiry": 7200.0430409908295,
+                        "value": "CF2B32E17FA4BA9A615ED7C400929A52~000000000000000000000000000000~YAAQd60QAnWNtbmRAQAASHzH5xniwVHATNy+ZbP0ph9lQZMAR5DCNUFN/JqmAFYoZW9+GIuQgzlwgLvM4dsAd+txXCeo75vQT4UDrBreMBn2+9VRIPKWDgqXjBB5VMuATvUc/Ky4bEw692VQXyaQO5vUbt0a/fONgqa0/gDR5QIdRgqITTrjgEmZa2KUgZ6dGXSM/cJ8EEBe/2cDxQaf32OlFL7YFyu6C5APWi4TquHTYWEqoYzy1RiIdMvXEG7HwT49tKCLJ1mIB6Tu8w4l1Lmjfa4ZPQFw0O75Q99SPlWGIoS/i6/hi8BSQwlR/EtjVtudIyuO9ibOgB0qEvTCIJQXN2q2HYZyZemjPGBxVaHYGmF2C+p0QDUwE19nZbD0lnjpJQSAqx7cNQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170496044
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200.460866928101,
+                        "value": "E188D2DCA60D10972C8D170F619928B2~000000000000000000000000000000~YAAQd60QAnmNtbmRAQAA6n3H5xmWDtqqVnbvXLQB/yXnONmvhQr7FUWOUQlSppl0s49+Ni4Kfq98cjTJs3t88VHntDG31GDpn7s0Jf+3+yB+74AieDPH7HHI3QVbvZsUDB4b5I5O6XYBIP0ydUv+he9UHEgG0FgEumbwqee7EUQC507KxH37f3rL75Ytl/3DJuaHYqYd9mfmiQdHRutIc7lxpTfqjwxK9U66iT0x/WDZvXRdllK5laoovYteeuTH+cOzV0PoT7t2OqnPRyNIGA8tcJSLY8wrsE9a3Y0jtwMCchYhdPvUCWL5zGOcFR3dX5kC/hGKSXFoG86s/DMeA0HYLHEqVt+qTJoWsJP+U/pB0Hw6xi/WoGPdwSwmlr4R77IrFyJCCZnojtcXrIjiHlfkMU+X1RkW4C8dO0HEhrLY2SJZKA==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170496461
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200.54493188858,
+                        "value": "E188D2DCA60D10972C8D170F619928B2~000000000000000000000000000000~YAAQd60QAnqNtbmRAQAAPn7H5xnDdsmwfPSSIJQ4vu8M3NnkeAfNQkUgE0ZfLt/0VVG+i9ezncBYRNfHnrCrkJphy62PC2apzjSSiqSg1fa4IQiH/uYWAZ+USDrxovvT9vlSIGMsd/Y1hnqkITnuGtTNkObOYK+4vDp4esbtDPxVEqRLbbGppN+GvkJqR5MMgb6l8aLLMM5uPc5Qf70CONzKKmMXucFj8T/U3CKXkbF0GayvFevQgAIbq1WY8J4P9iES0+v//5rW7457z9683/PjV1UrpmTXH5VHHLZRxO2IQznpeF5zjz3jeZvUokktq+Fm6kCJzhFpM6Dw+SeINKk8XVTy16L47t4tRyEvjctiYqE7oIzunprvwPKRiKNQ10V+ZfHb8xHFJyMjyZjhOj0/mNMQmolM0YEG3nVncBY5HKJP1HOkslIjtZ4LASmi",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170496545
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.09207201004,
+                        "value": "E188D2DCA60D10972C8D170F619928B2~000000000000000000000000000000~YAAQd60QAoeNtbmRAQAAYYDH5xnm4HkDmlAWyXn33XVONY+71PQV9k9SSSAWRure+0rrutl1O91Af/xrXLasyPwmSmXXTknihgHdpvkg6fe/zdRlvx4h/r7tfku6H18/LwxEYs4MKiAPkLhGbFo8Y0frzuyL7xMvbzAZdLyQzibffojD6VgKuvX5oqqRHkRYVI9IVGioybMYmHp5V8hzP/MBD1DsP6UxfaRAA6IzGtaksyFkTzl/FE840/oCmRgThknAh+77+6AHKFWHa+CAKgST3Jhi/S1E52zgAV8vZb9eMTOz1VghMTA4lk9XhPei1IuCtsgPvzuGi4sfzlMT68EkH0/4c+4JXpz4U+5xaQTsIzfdCpLE7kDrJ+zh/cNb4zi/VsV22wbZBgKTRv5jD2KO4NIc5J3ibi2krub5GtXCZ+N2OPs6vP2xAWk7Sjk4ceEaJzAgKSVLkx3u",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170497093
+                    }
+                ]
+            },
+            "_sotmpid": {
+                "name": "_sotmpid",
+                "domain": "www.rtl.nl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170496683,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760730496.681208,
+                        "expiry": 34560000.681207895,
+                        "value": "0:m0zpcfja:3w8iGUYNL1FX8BiaTVkNeM4NTpvg7hQk",
+                        "same_site": "strict",
+                        "timestamp": 1726170496682
+                    }
+                ]
+            },
+            "_sotmsid": {
+                "name": "_sotmsid",
+                "domain": "www.rtl.nl",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726170496682,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726172296.681143,
+                        "expiry": 1800.6811430454254,
+                        "value": "0:m0zpcfja:c4zG_tqyiAk9_52fr4PSB9TFZARjkMpE",
+                        "same_site": "strict",
+                        "timestamp": 1726170496681
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "comunidad.madrid": {
+        "/": {
+            "_pk_id.265.4ca4": {
+                "name": "_pk_id.265.4ca4",
+                "domain": "www.comunidad.madrid",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726147284710,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760102485,
+                        "expiry": 33955201,
+                        "value": "7e80a1f89bc0ff11.1726147285.",
+                        "same_site": "lax",
+                        "timestamp": 1726147284706
+                    }
+                ]
+            },
+            "_pk_ref.265.4ca4": {
+                "name": "_pk_ref.265.4ca4",
+                "domain": "www.comunidad.madrid",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726147284706,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741915284,
+                        "expiry": 15768000,
+                        "value": "%5B%22%22%2C%22%22%2C1726147285%2C%22https%3A%2F%2Fwww.madrid.org%2F%22%5D",
+                        "same_site": "lax",
+                        "timestamp": 1726147284701
+                    }
+                ]
+            },
+            "_pk_ses.265.4ca4": {
+                "name": "_pk_ses.265.4ca4",
+                "domain": "www.comunidad.madrid",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726147284711,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726149084,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726147284711
+                    }
+                ]
+            }
+        }
+    }
+}

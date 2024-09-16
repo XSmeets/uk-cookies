@@ -1,0 +1,104 @@
+{
+    "just.ro": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".just.ro",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726077298712,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637298.702179,
+                        "expiry": 34560000.702178955,
+                        "value": "GA1.1.541348144.1726077299",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077298712
+                    }
+                ]
+            },
+            "_ga_PCQGGE8BZE": {
+                "name": "_ga_PCQGGE8BZE",
+                "domain": ".just.ro",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726077298711,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760637298.702,
+                        "expiry": 34560000.7019999,
+                        "value": "GS1.1.1726077298.1.0.1726077298.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077298707
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.69169402,
+                        "value": "GS1.1.1726077298.1.0.1726077307.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077307693
+                    }
+                ]
+            },
+            "ct-ultimate-gdpr-cookie": {
+                "name": "ct-ultimate-gdpr-cookie",
+                "domain": "www.just.ro",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726077304623,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757613160,
+                        "expiry": 31535856,
+                        "value": "eyJjb25zZW50X2xldmVsIjoiMiIsImNvbnNlbnRfZXhwaXJlX3RpbWUiOiIxNzU3NjEzMTYwIiwiY29uc2VudF90aW1lIjoiMTcyNjA3NzE2MCIsImNvbnNlbnRfZGVjbGluZWQiOmZhbHNlfQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726077304621
+                    }
+                ]
+            }
+        }
+    },
+    "google.com": {
+        "/recaptcha": {
+            "_GRECAPTCHA": {
+                "name": "_GRECAPTCHA",
+                "domain": "www.google.com",
+                "path": "/recaptcha",
+                "current_label": 0,
+                "label_ts": 1726077301439,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741629301.43853,
+                        "expiry": 15552000.438529968,
+                        "value": "09AI66gCAdapfCHzpIw2pD_u3l1gs2UxSn9rTynOQkF_LbsKL224y8dNeGPnwx9X6tSHawe8FCGMcCVYGS3JRM99M",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726077301439
+                    }
+                ]
+            }
+        }
+    }
+}

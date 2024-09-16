@@ -1,0 +1,2456 @@
+{
+    "amazon-adsystem.com": {
+        "/": {
+            "ad-id": {
+                "name": "ad-id",
+                "domain": ".amazon-adsystem.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334368005,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1743527968.003933,
+                        "expiry": 17193600.003932953,
+                        "value": "A5OsdOZEZkWqvXSvayFSpqE|t",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368004
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 17193600.115396976,
+                        "value": "A5OsdOZEZkWqvXSvayFSpqE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368117
+                    }
+                ]
+            },
+            "ad-privacy": {
+                "name": "ad-privacy",
+                "domain": ".amazon-adsystem.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334368118,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760894368.115512,
+                        "expiry": 34560000.115511894,
+                        "value": "0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368118
+                    }
+                ]
+            }
+        }
+    },
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367522,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760030367.517416,
+                        "expiry": 33696000.517416,
+                        "value": "049A423DEEE562DF2F5E56C7EF2E6324",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367522
+                    }
+                ]
+            }
+        }
+    },
+    "demdex.net": {
+        "/": {
+            "demdex": {
+                "name": "demdex",
+                "domain": ".demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367124,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741886367.123301,
+                        "expiry": 15552000.12330103,
+                        "value": "39122969625164050823589197695582858941",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367123
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.167066097,
+                        "value": "39122969625164050823589197695582858941",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367167
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.508517027,
+                        "value": "39122969625164050823589197695582858941",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334371510
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367420,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760030367.417681,
+                        "expiry": 33696000.41768098,
+                        "value": "AHWqTUn1miWbFDvNRBYL8SdcxTW4Al9Q-fKw6VxOAT_px819iAVXkibVrjHMQJmQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367419
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.512429,
+                        "value": "AHWqTUnJH1COQxoG9l0vGJq8syfgOIOovdAgLbnLG684ggpC_52hKQL6RqMTE75NNp8",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367516
+                    }
+                ]
+            },
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334368626,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728926368.624975,
+                        "expiry": 2592000.624974966,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368625
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000.6261610985,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368628
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2592000.632525921,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368633
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367751,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741886367.750543,
+                        "expiry": 15552000.750543118,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367750
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.754726887,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367755
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.768462896,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334368770
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367339,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726335267.337967,
+                        "expiry": 900.3379669189453,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367338
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.3490738868713,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367350
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.4041209220886,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367404
+                    }
+                ]
+            }
+        }
+    },
+    "dpm.demdex.net": {
+        "/": {
+            "dpm": {
+                "name": "dpm",
+                "domain": ".dpm.demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334371509,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741886371.508445,
+                        "expiry": 15552000.508445024,
+                        "value": "39122969625164050823589197695582858941",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334371509
+                    }
+                ]
+            }
+        }
+    },
+    "everesttech.net": {
+        "/": {
+            "everest_g_v2": {
+                "name": "everest_g_v2",
+                "domain": ".everesttech.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334371481,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870371.477546,
+                        "expiry": 31536000.477545977,
+                        "value": "g_surferid~ZuXFowAAAHChtgN6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334371480
+                    }
+                ]
+            }
+        }
+    },
+    "gapcanada.ca": {
+        "/": {
+            "ABSeg": {
+                "name": "ABSeg",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365502,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726383599.479652,
+                        "expiry": 49234.47965192795,
+                        "value": "bagngen-nextbuy/brand-gap/ds-b/gap01-a/gap02-a/gap07-a/gap110-a/gap113-x/gap114-a/gap117-b/gap129-a/gap13-a/gap133-a/gap143-b/gap147-b/gap158-a/gap162-c/gap164-a/gap168-a/gap170-d/gap172-a/gap173-a/gap174-a/gap177-d/gap178-a/gap180-a/gap189-b/gap200-c/gap222-a/gap30-a/gap35-a/gap36-b/gap43-a/gap44-a/gap46-a/gap47-a/gap48-a/gap52-a/gap53-a/gap56-a/gap57-a/gap59-a/gap61-a/gap63-a/gap65-a/gap73-a/gap84-a/gap91-a/gapbx-lf/gapdivngen-nextsw/gaperrngen-a/gaphpngen-nextsw/gapngen-next/gapschngen-a/gapseg-true/mfeRamp-pm/oss-B/pgATCA-p/pgBRCA-p/pgGPCA-p/pgONCA-p/prfwallet-b/signngen-nextbuy/v-2/xb107-x/xb116-a/xb122-x/xb135-x/xb136-x/xb138-x/xb141-x/xb169-x/xb182-a/xb183-a/xb187-a/xb190-a/xb192-a/xb196-a/xb94-a/xl74-a/xss83-b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365492
+                    }
+                ]
+            },
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365661,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726337965.658226,
+                        "expiry": 3600.6582260131836,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365659
+                    }
+                ]
+            },
+            "AMCVS_93BE1C8B532956910A490D4D%40AdobeOrg": {
+                "name": "AMCVS_93BE1C8B532956910A490D4D%40AdobeOrg",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367180,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367179
+                    }
+                ]
+            },
+            "AMCV_93BE1C8B532956910A490D4D%40AdobeOrg": {
+                "name": "AMCV_93BE1C8B532956910A490D4D%40AdobeOrg",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367026,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760894367.025241,
+                        "expiry": 34560000.0252409,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367025
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17341089,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367173
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17385602,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CMCAAMLH-1726939167%7C6%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367174
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17481589,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CMCAAMLH-1726939167%7C6%7CMCAAMB-1726939167%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367175
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.178092,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CMCAAMLH-1726939167%7C6%7CMCAAMB-1726939167%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1726341567s%7CNONE%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367181
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.305393934,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CMCAAMLH-1726939167%7C6%7CMCAAMB-1726939167%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1726341567s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367305
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.311706066,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CMCAAMLH-1726939167%7C6%7CMCAAMB-1726939167%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1726341567s%7CNONE%7CMCAID%7CNONE%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367313
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.51068401,
+                        "value": "1176715910%7CMCIDTS%7C19981%7CMCMID%7C43027963945753371274337735636850193216%7CMCAAMLH-1726939167%7C6%7CMCAAMB-1726939167%7CRKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y%7CMCOPTOUT-1726341567s%7CNONE%7CMCAID%7CNONE%7CMCSYNCSOP%7C411-19988%7CvVersion%7C5.4.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334371513
+                    }
+                ]
+            },
+            "CONSENTMGR": {
+                "name": "CONSENTMGR",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366949,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "consent:false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366948
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "consent:true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366949
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "consent:true%7Cc1:1%7Cc5:1%7Cc6:1%7Cc9:1%7Cc14:1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367017
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "consent:true%7Cc1:1%7Cc5:1%7Cc6:1%7Cc9:1%7Cc14:1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367033
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "consent:true%7Cc1:1%7Cc5:1%7Cc6:1%7Cc9:1%7Cc14:1%7Cc2:0%7Cc3:0%7Cc4:0%7Cc7:0%7Cc8:0%7Cc10:0%7Cc11:0%7Cc12:0%7Cc13:0%7Cc15:0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334371182
+                    }
+                ]
+            },
+            "ConstructorioID_client_id": {
+                "name": "ConstructorioID_client_id",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367460,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757870367,
+                        "expiry": 31536000,
+                        "value": "383d3585-fbb8-4ea7-9ff8-8e2a42a2fd9b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367459
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "383d3585-fbb8-4ea7-9ff8-8e2a42a2fd9b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367471
+                    }
+                ]
+            },
+            "ConstructorioID_session": {
+                "name": "ConstructorioID_session",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367471,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757870367,
+                        "expiry": 31536000,
+                        "value": "{\"sessionId\":1,\"lastTime\":1726334367459,\"newToBeacon\":true}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367470
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"sessionId\":1,\"lastTime\":1726334367470}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367473
+                    }
+                ]
+            },
+            "ConstructorioID_session_id": {
+                "name": "ConstructorioID_session_id",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367470,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757870367,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367469
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367472
+                    }
+                ]
+            },
+            "JSESSIONID": {
+                "name": "JSESSIONID",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366176,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4a581c17-078a-4140-9790-4af76eeaab14",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334366175
+                    }
+                ]
+            },
+            "NGRedirect": {
+                "name": "NGRedirect",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365504,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726383599.479744,
+                        "expiry": 49234.47974395752,
+                        "value": "{\"redirect_signIn\":\"true\",\"redirect_resetPassword\":\"true\",\"redirect_accountSettings\":\"true\",\"redirect_wallet\":\"true\",\"redirect_orderHistory\":\"true\",\"redirect_shippingAddress\":\"true\",\"redirect_unsubscribe\":\"true\",\"redirect_profile\":\"true\",\"redirect_orderLookup\":\"true\",\"redirect_signOut\":\"true\",\"redirect_shoppingBag\":\"true\"}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365502
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334371177,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760894371.176472,
+                        "expiry": 34560000.17647195,
+                        "value": "2024-09-14T17:19:31.176Z",
+                        "same_site": "lax",
+                        "timestamp": 1726334371177
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367526,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.52680802,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A27.526Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629",
+                        "same_site": "lax",
+                        "timestamp": 1726334367528
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.527324915,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A27.527Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726334367531
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.530294895,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A27.530Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0&landingPath=https%3A%2F%2Fwww.gapcanada.ca%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726334367532
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.60551,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A27.605Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0&landingPath=https%3A%2F%2Fwww.gapcanada.ca%2F&groups=SPD_BG%3A1%2CC0004%3A1%2CC0015%3A1%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726334367606
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.60583997,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A27.605Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0&landingPath=https%3A%2F%2Fwww.gapcanada.ca%2F&groups=SPD_BG%3A1%2CC0004%3A1%2CC0015%3A1%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726334367606
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17811298,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A31.178Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0&landingPath=NotLandingPage&groups=SPD_BG%3A1%2CC0004%3A1%2CC0015%3A1%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726334371178
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17859912,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A31.178Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0&landingPath=NotLandingPage&groups=SPD_BG%3A0%2CC0004%3A0%2CC0015%3A0%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726334371179
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.179606915,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A31.179Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=0&landingPath=NotLandingPage&groups=SPD_BG%3A0%2CC0004%3A0%2CC0015%3A0%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726334371180
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.183446884,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A31.183Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=1&landingPath=NotLandingPage&groups=SPD_BG%3A0%2CC0004%3A0%2CC0015%3A0%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726334371184
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.18439102,
+                        "value": "isGpcEnabled=0&datestamp=2024-09-14T17%3A19%3A31.183Z&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2c6674c3-dd6d-4822-bf1a-370c98c10629&interactionCount=1&landingPath=NotLandingPage&groups=SPD_BG%3A0%2CC0004%3A0%2CC0015%3A0%2CBG160%3A1%2CC0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0014%3A1&iType=6",
+                        "same_site": "lax",
+                        "timestamp": 1726334371185
+                    }
+                ]
+            },
+            "RES_TRACKINGID": {
+                "name": "RES_TRACKINGID",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366761,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760498366,
+                        "expiry": 34164000,
+                        "value": "72627506766343362",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366760
+                    }
+                ]
+            },
+            "TEST_AMCV_COOKIE_WRITE": {
+                "name": "TEST_AMCV_COOKIE_WRITE",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726334367024,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367023
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367024
+                    }
+                ]
+            },
+            "_abck": {
+                "name": "_abck",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365509,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870365.479884,
+                        "expiry": 31536000.47988391,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlX5FMuumRAQAAae+L8QzSyPxblt4RPjoQNbMD3A4qBUw1r+UG9JoNLV9jsr6oWoP1prSI19aWHr2HXRK8W+dPMXHjaZwF2OOGBokUVhAlIa4JoSdHnsZpATLdhQKYdQ5bFDrOPYPNNjZG1/O0fYc1JSkiWe/WcLbF1PO4w3bBWUBhlGbfD7qlRIjDyLAagLLXBkJTMt/hDNdNOO3pTsyqCVIJGPWNKeNiLZ0WB8ZL6f5MZRB3Lixh6BnePnU+lttFmeQ5lpQP7AzTHAZtBmX04GdPpAVhS0tkkAV8yEPXXppF29ygpuzYZXt8HbrmXxFwAKx4fdSOGXcPeUUuggyHahuVv/BCrCcwr7yPmJPqUdxTVfgGwVTToLAddbA5hrt/06luxo7rtrfO8WHwz0D9XdzQRDFeh1W0XA==~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365507
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.847639084,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlX9BMuumRAQAA1fCL8QzIC87Mgm/agW9J9Yr1fgpzYK661YNfnu00I4kAS/oqEAMFlRO1BWyxtotlkJqOzvbCoTrBmGiuJ4u2wgchJzm+VAc5nhjmFI9yPlTUN/qeewjm0Mu8dt0H73vlhBe1lmXQt0iGGr4JwO2i2uDVBQzYVndvI1ExRKgVmTlofoyAI56yDa+QDVjwFu6l5bIdza3H21B8q+yV2BcI5reGp8CBo5mdqNzE+Uyz5kEhO+sbXhCF9BXjBnk8c89Ni2peIHaZMM+zGDYwAa/loGPRVL0klrd5kYWm7TH/s68rhw4W/VTs2JiRXavouQ12ZsIvD3CGF7MK58Tfj+Md2f+RV496EZdCLwUuq3RN/qq07pUZwZl8HYYfDaKkBLqkq4TQWC+x+E+U4Fz17J+qHcCeWXawIH/gS+ioy1ei~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365848
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.213515997,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlXxZNuumRAQAASfKL8Qx5Ekf9VK654sorlcRYoMA3Gm+VL5O+cG1l/WTLBC9GPkA1sGOQn5H6YP91VtSYPcJvV0iIcS9VcyTZ//9eIDzI5Jo/5bQxmFWmryUxTdMAl5LcmP2O83KyP3s7U7ZbHQ/THB92Ptu2F7vdEXyQoKOKrwCjLui+Cc3iUI/EcKqAhHXDyiZvi7+SstrOpRrUkk1LZUL/C409WGFC/W5jMyEQ9GRSyX5pdle90bR93TARahtDTCm9l13o+kqo9Qv+h9wDNzST/u/XTCUrqPqoc2gIJB+fsY9RcGjCoM6k83vfxJZYwPw0jAhuQtGPfxVMGwldm4hJ4NPrJ5ZmmWQeufF53Ih9692ECndsIoct+Ajj3KQwXbwgy1sGhW+ca4Fbst1gaDCn28LgLlD3RtCS7N+SWUx2FTs519WB~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366214
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.72230506,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlX1ZNuumRAQAARPSL8QyzmuQn7p9pVU/diODKuRFS8WaeqSKGUISjkcaBEA1u5aMBj2nHIeA4DnM7LFuiLKsTFpWyLMgwmEYNmYcRxSX1uypxiYujhYN6ie1zCgrC0Z4w8h8G22e6CyPhXlahIpq5rOtMVwcNlh4e85haTgWo4ereYpfIvBZDIUjjC+5hNh/s9LFvnDED2/WJ2/9VbxVQ0K6FHl/wMWbvVTo7HTkPsasbUoMSR4TkVpps2a/7x4su3NLYoECs7ag7Qx8zeDi0OlRlyTfmTGW17/EnFIJBW+1hNL5uiXfNCrU6iGOpJRVBpRVYpFrTd1altNMcguButVQV7xTTUaTyx+YqPCObEz+lMXEqmKf/HdP7yFcAhEvSWk/kjRX87fo4YvHBapWg4RYN8YQZjM8rD9G22ablXzVviF5TM4fy~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366723
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.30312395,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlX1pPuumRAQAAWv6L8QzboozexBH6Q1BVgKisNVNuHQyuEtzneREWGkUHxnNhwBvvEjyqqANS7BWkuurS+6liI4i1p/qWXI2ujS3q3f+GRXBE3w2M5mNN7feA2ObCSM4K9aqRKCGw9eqysZgduOMh2AhX1TgUzhz1vegX6Lq7oOe3rgyQLtf2iOpJVn6PnjmEyihR5qutiil4tTMcRssz6DK7bzeFk3yGk0mp6kVu4idlk70KdiOkBQIZfV1VENlj2VrECuYmTiB92rDxbJCxGF8CN8xt2gKO5+hNbasaVwF2hlnUvsLEFzOnGCIC42LuBudXb9ryJ/cXe+APTy/Uj1FTif0RRe2/HCdZK3Z77rI3ycKxHHPWMoqIlxaEnABLySZaQWSTbA9hghy9LRsL1F9MRKP1vCAKuYPhh6McSr2HLKO0Bv12~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334369303
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.381434917,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlXwhQuumRAQAAkQKM8Qzq60A+3gmPeG2wNL7QpGq2VjCCeRWSWZgx4kiQ2T8MZDoiWCjXc4ms/xKcXg6KhuNzl11JJVUzJ1zr9+wgY8PWpmumNBnrWpRivdhgHy5fz/6hvVg6Ni9NWYwa3c0YY8Q4WSQ203YCMo1kVv7eIHwc4gtLMSA4/57a+/pXYlk2TT1oqGntzXAGsq+WcZUHk8222hbumoHoo57zvGbo6xGTJT97COXiHlBehgyEN2AKkAaKNLV5M+NANrRqZ8kZOGSWNGNDqCZDOTbbMN5Ktd1yexcUGzqMYGLyeWWcMY50haeT7tvbBmCU9kfiqjR6uaAcE1YkKwXC+reCd8CPW5jw3OzrPNyO4e+/CmqauuCYfZn+ZOqeUtH65EKO+oV2lwvy8qmkNuekrbTFc1mFH7h/RrpK4dcRNirN~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370382
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.46165991,
+                        "value": "12254599D94E492F280DCBD78A295E60~-1~YAAQvexlXxNQuumRAQAA1gKM8Qxs/2I19peTkY1+2DV9mXjh77to3G+QAC4MrkcfIn4wyf0k86DbEAOqiiM+AdlHAZfAPnffQp/f8kzGv7qT9Tsdw00FEylD5pb0hieG+/hBudVii2shnq+arZT8rrYsk0uwQMKpvJhnJRR/5UhyKcbBgMyesZqdl6w8NT1FhxlTK99UHw9HqSIVtJyfQAPopvNCSX8QtDzWBBze0HNfkBG1WEPUyF0QgrRV/pzm/Dz4dSMA1f/DBlwzAQ2uOIHHdR4MV5mrXmSIEYzWDqew/3G2H3DU2epqxz0qaWuiUmhj9xN3m30R8o6xSey03hGVWs0HTRJ5R0r68+Ub/vJOlDq4QJ6ubgfStYec8OeA1QflVlkiSupkL1idKnTQh+/buPq5WAKmmd1a/jpXkfqwDMgAsE7DmWbB/Zgp~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370463
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.369859934,
+                        "value": "12254599D94E492F280DCBD78A295E60~0~YAAQvexlX9NQuumRAQAAbQaM8QyMcDb7Fag/CMuTZVDz2utCw9B0m8OAZOYcYCSqdCAQvLRvqeG7xnGCLt51SpbzjGRVKn48tA7s+OvGgrQe/QYrrzqE56sYtrx40nKcoN/wAE4CmXkaJZr0gtOAvqWkfELRzTL3rlAAQ0s5i47G/2tpbIAeuu+Ywewm553cukMtNfLSokwDVSIeGJ/m/c9GuqZFqOzk2wdKQfTSASXX0FMvkLAyIcGUJ4P0LRnendFzopXTIpY3j1ZyDxQU/DjnOk4P0ObcgABBLSinPKgzoDPqSJwwwKyUa3IteQpMFoTZc6X1oAry1ALMsYehtSFCeDrUSxzWIhOvKdCALKFcZm58HUDlVTW27z2WgESmDfXJeZdLeRkGJhA+aUeR+Uo1XsaxDyMhkMMZClnnIBf418de4O0Dtk/pMYm3+VDH0/etnPq93YAY3ys=~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334371371
+                    }
+                ]
+            },
+            "_br_uid_2": {
+                "name": "_br_uid_2",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367488,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760894367.487923,
+                        "expiry": 34560000.48792291,
+                        "value": "uid%3D6669815136522%3Av%3D12.0%3Ats%3D1726334367487%3Ahc%3D1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367488
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367197,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734110367,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726334367195.475713277462660101",
+                        "same_site": "lax",
+                        "timestamp": 1726334367197
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726334367195.475713277462660101",
+                        "same_site": "lax",
+                        "timestamp": 1726334369156
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726334367195.475713277462660101",
+                        "same_site": "lax",
+                        "timestamp": 1726334371173
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367151,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734110367,
+                        "expiry": 7776000,
+                        "value": "1.1.447170047.1726334367",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367150
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.447170047.1726334367",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367383
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.447170047.1726334367",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367407
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367483,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726420767,
+                        "expiry": 86400,
+                        "value": "7ee0c6d072bd11ef8218cd2a96dde7b4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367482
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "7ee0c6d072bd11ef8218cd2a96dde7b4",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367485
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367484,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760030367,
+                        "expiry": 33696000,
+                        "value": "7ee0e3f072bd11ef9660c951863982cf",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367483
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "7ee0e3f072bd11ef9660c951863982cf",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367486
+                    }
+                ]
+            },
+            "_vapi1726334367021": {
+                "name": "_vapi1726334367021",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367022,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_vapi1726334367021",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367022
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365513,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726341565.479949,
+                        "expiry": 7200.479948997498,
+                        "value": "910B53CC7A1FD8820B28168C0310FA15~000000000000000000000000000000~YAAQvexlX5JMuumRAQAAae+L8RlFotkVua8MyU1T/HFWXzR8nET3g40ZU3eKoujOPKBSsG33GCo4z18lHc2d2OyfJ3RHMUdd69DSVRv0jE0IbOE3/5IdJRSjn1W9tZiGDlGEFT3XpePcFUlSv0FLs+pV8OnnT5HTZJ+Z3wF8ykENc+yQQ9XiQqB9pmWvF9k3xanBF0sZmSTySmUO3ro0BbNDozXEEDqxIwLEVeOA2lfwA/xIvPFsevojOLHF1X0DUfMzykCP4vqqv+NZBGJfxXCibSJXVUE5H5T+xmILaukQVLEubnL1pXbYDujExP10SF/fCS8YD6TS1MREYrRVSLuJUKdXi/x6u/oWp6TODjRyenUNULGONyXlL0RtGda6wm6BD+R/7BYyrD6a",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365509
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7200.830319881439,
+                        "value": "4B198D73FF277A88C8A6D71FDB11DD56~000000000000000000000000000000~YAAQvexlX81MuumRAQAAw/CL8Rn6cgDJvYkoRk27RhBBZH22wgHZnjoFId7k6uHwa7L02xuYknEMNHHGnkDrKPbcq9Ckn3j6sykHMBS9pZ4dtbPzd9sLIejYIJbGmhtwr3Dm8tmcI4uWqQuk8uIKKtMB1fw94BViVlOKa177YUjwvgAa2EhiYYTQrjuL3GKV9zAP+iPrRovSgjEuhkuHbasA8ugF24hUU5J/CrhS761CgFY9n3nrStxUu4aaKTW1AbvOaboHyF0yDv0R7lCQk/Zoc/PW/L1Z9HW9epgQoEI92B1I8pVlb73FJvDO0MAQLG7ubIyxP0j6WSPAXJIHw2+kHG5fqI+tOJUa/HLTOytfUJj+ZmxSFgx+PA4WCs7b8FzNoIr3pRnCuCNrB9gBD57DqtyVrQ6fioWw3qRyfNGCGm99D/NsZRfsiWmAffZjMDTnEjHVPwAQ9gNLF8W+JhW68N66awA=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365831
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.999136924744,
+                        "value": "4B198D73FF277A88C8A6D71FDB11DD56~000000000000000000000000000000~YAAQvexlX/dMuumRAQAAcvGL8RmRwsrNVuvfgvVsONdlssJp5shINF393JSHxWtOyNRQ7Lv/3uuKAem/o4pAMksAXTcfaRv2JfFqUomxbVPDc8sDE0yaDTwIeYzUm3or9PnKhvcehoXjCjnpXhevutMQSAzhV6wqlTPY7gQAhPDwRAvtKpEBetY1MyxUKZd8ZRsFtoaY7iY9vBqjCuj1DqBs5v401dGivA5t2NlCbwPF2zWbe52fOFCGcHlKg7J63Q7pw7OsvaqGx2Cxc9arDd0Zcd7thvuxchR6I42IdD/uU6IZzQw0bibZEBlQe0fHwLuOcucM0hdQoTS4nc6+oBfiofuYUi6JpOMij0CVaz71CxrUlTQuCpHXZYXOtBdyKfMnIy+9aMWQLwS0qTN9ceq2ApqAnIIdFrdFAtH4Yg4eW7dLB+pRe483+yaBUN/+3jATT0vvAjs5eDgFBKgziQ06SUiwrU0SWILpzIbrZE3Xww==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365999
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.093910932541,
+                        "value": "4B198D73FF277A88C8A6D71FDB11DD56~000000000000000000000000000000~YAAQvexlX/5MuumRAQAA0fGL8RnKg03Ki0maU5Dur50UAtTRetCKn7X5SWZgnQUNocws3aJXP0RWTB7+ep6yMkqhFdUoSrNJM8mokTakRhf6RA4i0bbzoNk3vXqt7riWShJR3TDn/NiLiHlM6UXviqS0yIhcoNipklJ02ciX9g9pgM+sVt+Qd+3QH+GahbFwrSAALwiiQouqR9nmDgrJqAndNoNOcjqXRi6bUhbwXGeKQTJBRaa/XntE9nCI0b9Ft10efwVgnRpezCvyW/s1Cn89NiTy0VYU9PO8fEpkX0yha5n0wZir/i3QU4e55K6dVNVOuiSVO17kbl1GBPb3BamXINuIRPJTK4B8GE3za3luYxh+wCHRgA2iz0IZfqXKIL6491MNPWuTmxTv5Dp064Jz3qaf1LPjAzd4MqK8/QAEakedhJTnUfAagip+Tm8tiSaI8jOBFIj8p4st/01eNIPhwMjY0TKEEgbZY3ylwcTb7w==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366094
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.175017118454,
+                        "value": "4B198D73FF277A88C8A6D71FDB11DD56~000000000000000000000000000000~YAAQvexlXwlNuumRAQAAIvKL8Rn3k/6u1S+Li+uj49qvnTaJDbseGV/o54NbWtxuIgwUeAUXU7J2JFJiHOzr/5CG9x7ZjvQG7rl7hngxmOhjgtBkrxO7R8Qn0c4UsgsHjkyuV+RlslAc/bjvRYP51ULnDY1CRUIf3FgqTwz6Xz2tVcjbGukUaEelu/Bilu2OgLtMpNec+0N/OXqO48iOKMXzHQhpymj4eBL3PB9DXz6hDljMmvayqSOpmlSXyPSVUtq2W2NVwf4LUO+kamMDy06t0tzF7aRNZdVepJGICDvUm63USXCqdkmoivJC+wptqdLInV3ED5r6w3UfOq74nJIP+U9qEY9oZBW4c6+c2COQMjrt8jXs3RHiSsi66YsNkJG2XmIsYgKNzPQoLatO4ySwi3zP6amY2qIuhzjqI5/0BL3mnA8OiV56vXJh+ocKuA+lVMEQPoaBP6dfFDa8zKeEmfjhft36cpbD+dFW+dOhAQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366176
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7199.548635005951,
+                        "value": "4B198D73FF277A88C8A6D71FDB11DD56~000000000000000000000000000000~YAAQvexlXzdNuumRAQAAl/OL8RnONn5edsUcUSFTvJHqqp26/wy5OhFfAKlBxsukGfnuIQv3w8jGEq6IIBEcdl9CnovAJ5JvmN+JTEFQDFXbrwaj/5mml4qZc/YE+0e8OVs4N/0PtqkDWD4QFcAbxJsau9cyGVXpjXa7GPBs2RJJrQJtt00Dpn/T1QfHa1NdDBjHfxkux/9gDb7QzCeoigzQetwz/8jvpRXM0bL0MY520CnQooA0raKusrgZ3Xdr9qBARIbYIJ0aKloScVTTf+VKSpu9ScRVpdAIrlFX1ajMtDo5DzhAjFpdUgRneN43/DL2aICQqwdymCiZKy8l8UtIDVxNUIHGPdK8Zs2nIA8vnPq/JLzGopeTSjcxHSaTP/mGXfvkuug7/bzbfBf5Umd8zgSKdpRvQrKfRiqygBkEXnPRDl0eZNuh42tZWHwf4RBF5fujfcVMiJTXgtO9cY/ROZNozGIB/9xh+lXbSyoi",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366549
+                    }
+                ]
+            },
+            "bm_mi": {
+                "name": "bm_mi",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365664,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726341565.658321,
+                        "expiry": 7200.658320903778,
+                        "value": "AA73735CE069992C08FB312F0377338E~YAAQvexlX69MuumRAQAADPCL8RmJSGcQqQoGei0+HrZp1gYT8WbErEp/M9tWnEavWYsGEHMx3R6XEn9wdf1d10uqZz2GIf+hCfNyHCOCrRhBmf+nf4rVs371QeFjiIaC1pHYv8oimdBG7PlF2EvQacDlIVx1ACpz1AzrUZREbTh+WIFeZmaEp1+0akCrBHDZkjHFJfuBw23yS3QXjSBTUlhotJdB54R8FKNIohtRZ4r3w3vp+ZdH03PukoRUfau+aRBXWIwaXLY41LoojXeBDyh21kUtyu03qxzOmzX7CnMbEdGzxxQdPrkklvAEk4oN~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365661
+                    }
+                ]
+            },
+            "bm_sz": {
+                "name": "bm_sz",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365514,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726348765.47998,
+                        "expiry": 14400.479979991913,
+                        "value": "7E2B665152A2A6CB092B3736D6F570D0~YAAQvexlX5NMuumRAQAAae+L8RnxiLLwaX3QpIxiOoLY2aOlBT2usvvWz//v1HIvg7/fdDNewm2FFtd9IU30frPBJOIh/XrSOt65hmz6P4Ye4MPHtUsdoSWNOjvsRg0YuxDV6cqghdzSafyOFOL1+zx6VRZVaKAHTSG2GVw6YBVBFuTSgYfkIcCS2DYlNZ48k7SJWNgTiY9GgOZQc3dqjC9S4FymJHYhxzaidqfHIlVhRl/Xz+hAG5QIPvdsV5lG5rsuHdatl5RVta5w+b7LPjXZt3MHbNMu/IIeeIQ2AJFJSw5ZoApDPbAXl53aSPNWsredCFxDcDgpnbSJKB0SzZZukMod6VSWIYDQqevL0TpjHadROAlmJAwotvGC9CR54VyjaUnM1yynjmzorWtO~4338737~4403761",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365513
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 14400.60607290268,
+                        "value": "7E2B665152A2A6CB092B3736D6F570D0~YAAQvexlX6ZMuumRAQAA6e+L8RlRFFCDViZRYpcAydwRlZJICs62P5k4TT0w//ivC2WI7ld6vO30vhGRw8ayWkv29TxeB5YRxa4NFmkWixMYS5rN1VtPIa6zxndDBWYyLYAyobwjR4tGhMdSMjhamAj9W/34Wk43IwEYF1ak5Q+6ZMoafltokx3txdYPbUUgQYW2W6oGG93iPMtZjLgnywkQC+5bn9N8wvxxr2gFbaRsJBEtnIgW9GftyMwYDaAZFs/RDmkRsCbBdFBU2+C8AE8SMCJW5dxYYAdLWC/y84tnIXN0mZHlMpXSGN5Jr/sAzoWKK0E/IKRTQH1lI+QZ9E/nr7XrO4tFxt/Z0qho9MboTlBmX9cAp7QhUrvKl1dh90JZ/yBzJLtyILfupMWP3unN5Tw=~4338737~4403761",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365607
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 14400.65838098526,
+                        "value": "7E2B665152A2A6CB092B3736D6F570D0~YAAQvexlX7BMuumRAQAADPCL8Rk4TLEjzol0yzjTiU1AK2+yIqkPnSM9hSgpAAcla+oxgRn7DVeIjMCn77k1pz+T28GtJMvu9ru/Bp1c9DgviwkzUZ9VGzi4i/mQ9225YbApXlAKsSEkf7ZhSIRrNFwQY8gLAOYsFPxaDOn/WOdJdQJ45o8TUb2CuApJAi39n3OsMLCzAZRUq05ZvLtya79v5mzLHAYR7tPfB01AJU8Z2Hy6x1PRFvIpK0omLfi1IyZET2/5uaV8XMQvTnYseUWVrU2sesLIz0cgtrgveUJyvuw0BLVNdrYZdn7GbH9ILhiYuGwAnzgdABhR4L88F50QCngVHNrXyqRzsOOaT2Bu/9AHo5xSIpzPXiGrE9FHWrUfktKjfk+0Dp66m4wPpOHJNQWiBbWr0g==~4338737~4403761",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365665
+                    }
+                ]
+            },
+            "entry_brand": {
+                "name": "entry_brand",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367019,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GAP_CA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367018
+                    }
+                ]
+            },
+            "fs_uid": {
+                "name": "fs_uid",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334370007,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870368,
+                        "expiry": 31535998,
+                        "value": "#12A5TM#6453252530712576:63988097612585740:::#/1757870368",
+                        "same_site": "strict",
+                        "timestamp": 1726334370006
+                    }
+                ]
+            },
+            "locale": {
+                "name": "locale",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365505,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "en_CA|||",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365504
+                    }
+                ]
+            },
+            "mp_gpca_mixpanel": {
+                "name": "mp_gpca_mixpanel",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726334367224,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757870367,
+                        "expiry": 31536000,
+                        "value": "%7B%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367224
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "%7B%22distinct_id%22%3A%20%22191f18bf5f81957-01d4e8dcca1ffc-17525637-1fa400-191f18bf5f92d1a%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367226
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "%7B%22distinct_id%22%3A%20%22191f18bf5f81957-01d4e8dcca1ffc-17525637-1fa400-191f18bf5f92d1a%22%2C%22bc_persist_updated%22%3A%201726334367226%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367228
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "%7B%22distinct_id%22%3A%20%22191f18bf5f81957-01d4e8dcca1ffc-17525637-1fa400-191f18bf5f92d1a%22%2C%22bc_persist_updated%22%3A%201726334367226%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367236
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "%7B%22distinct_id%22%3A%20%22191f18bf5f81957-01d4e8dcca1ffc-17525637-1fa400-191f18bf5f92d1a%22%2C%22bc_persist_updated%22%3A%201726334367237%2C%22visited_site_gpca%22%3A%20%229%2F14%2F2024%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367238
+                    }
+                ]
+            },
+            "optimizelyDomainTestCookie": {
+                "name": "optimizelyDomainTestCookie",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334366591,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741886366,
+                        "expiry": 15552000,
+                        "value": "0.9652314835122187",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366590
+                    }
+                ]
+            },
+            "optimizelyEndUserId": {
+                "name": "optimizelyEndUserId",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334366592,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741886366,
+                        "expiry": 15552000,
+                        "value": "oeu1726334366588r0.6211161533393252",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366592
+                    }
+                ]
+            },
+            "ot_region": {
+                "name": "ot_region",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366950,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734113966,
+                        "expiry": 7779600,
+                        "value": "en",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366950
+                    }
+                ]
+            },
+            "pd_region": {
+                "name": "pd_region",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366951,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734113966,
+                        "expiry": 7779600,
+                        "value": "en",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366950
+                    }
+                ]
+            },
+            "previous_page_type": {
+                "name": "previous_page_type",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367032,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367031
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367039
+                    }
+                ]
+            },
+            "prlb": {
+                "name": "prlb",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365507,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365506
+                    }
+                ]
+            },
+            "s-prlb": {
+                "name": "s-prlb",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365506,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365505
+                    }
+                ]
+            },
+            "s_cc": {
+                "name": "s_cc",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367312,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367311
+                    }
+                ]
+            },
+            "s_depth": {
+                "name": "s_depth",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367307,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726336167,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367306
+                    }
+                ]
+            },
+            "s_ghn": {
+                "name": "s_ghn",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726334367446,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726336167,
+                        "expiry": 1800,
+                        "value": "2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367445
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367447
+                    }
+                ]
+            },
+            "s_gpn": {
+                "name": "s_gpn",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726334367447,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726336167,
+                        "expiry": 1800,
+                        "value": "2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367446
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367448
+                    }
+                ]
+            },
+            "s_ips": {
+                "name": "s_ips",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367309,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "892",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367309
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "897",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367505
+                    }
+                ]
+            },
+            "s_lpt": {
+                "name": "s_lpt",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726334367444,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726336167,
+                        "expiry": 1800,
+                        "value": "1726334367443",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367443
+                    }
+                ]
+            },
+            "s_ppv": {
+                "name": "s_ppv",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367310,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C94%2C19%2C4431%2C4%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367798
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C96%2C19%2C4518%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367811
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C98%2C19%2C4600%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367824
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C99%2C19%2C4676%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367837
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C100%2C19%2C4701%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367851
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C100%2C19%2C4701%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334369173
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C100%2C19%2C4701%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370066
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C100%2C19%2C4701%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370306
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C100%2C19%2C4701%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370310
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gp%253Abrowse%253AHome%2C100%2C19%2C4701%2C5%2C5",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334371186
+                    }
+                ]
+            },
+            "s_sq": {
+                "name": "s_sq",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334369159,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gapcangapprod%252Cgapcangidprod%3D%2526c.%2526a.%2526activitymap.%2526page%253Dgp%25253Abrowse%25253AHome%2526link%253DYour%252520Privacy%252520Choices%2526region%253Dfooter%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253Dgp%25253Abrowse%25253AHome%2526pidt%253D1%2526oid%253DfunctionsK%252528%252529%25257B%25257D%2526oidt%253D2%2526ot%253DSUBMIT",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334369158
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gapcangapprod%252Cgapcangidprod%3D%2526c.%2526a.%2526activitymap.%2526page%253Dgp%25253Abrowse%25253AHome%2526link%253DSubmit%2526region%253Donetrust-pc-sdk%2526pageIDType%253D1%2526.activitymap%2526.a%2526.c%2526pid%253Dgp%25253Abrowse%25253AHome%2526pidt%253D1%2526oid%253DSubmit%2526oidt%253D3%2526ot%253DSUBMIT",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334371176
+                    }
+                ]
+            },
+            "s_tp": {
+                "name": "s_tp",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334367310,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4587",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367309
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4587",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367505
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "4701",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367620
+                    }
+                ]
+            },
+            "tfpsi": {
+                "name": "tfpsi",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334369349,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726336169.348532,
+                        "expiry": 1800.348531961441,
+                        "value": "94152c61-b155-494d-9fe1-44d884d4b40e",
+                        "same_site": "strict",
+                        "timestamp": 1726334369349
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800.4386780261993,
+                        "value": "94152c61-b155-494d-9fe1-44d884d4b40e",
+                        "same_site": "strict",
+                        "timestamp": 1726334370439
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800.423455953598,
+                        "value": "94152c61-b155-494d-9fe1-44d884d4b40e",
+                        "same_site": "strict",
+                        "timestamp": 1726334374423
+                    }
+                ]
+            },
+            "unknownShopperId": {
+                "name": "unknownShopperId",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334365491,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760894365.478984,
+                        "expiry": 34560000.47898412,
+                        "value": "7DACD98072BD11EFAA06B73419435F2F",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334365481
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.17493892,
+                        "value": "7DACD98072BD11EFAA06B73419435F2F|||",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366175
+                    }
+                ]
+            },
+            "utag_main": {
+                "name": "utag_main",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366945,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757870366,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366944
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0$_sn:1$_ss:1$_st:1726336166944$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334366946
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:1$_st:1726336166944$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367021
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:1$_st:1726336166944$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:gapcanada.ca",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367023
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:1$_st:1726336166944$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:gapcanada.ca$time_in_ms:1726334367027%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367027
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:1$_st:1726336166944$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:gapcanada.ca$time_in_ms:1726334367027%3Bexp-session$reset_tapid:true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367030
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:0$_st:1726336167030$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:gapcanada.ca$time_in_ms:1726334367027%3Bexp-session$reset_tapid:true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367033
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:0$_st:1726336167030$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:gapcanada.ca$time_in_ms:1726334367027%3Bexp-session$reset_tapid:true$dc_visit:1$dc_event:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367037
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191f18bf4df001c298e478d012a05075001906d00bd0cagap$_sn:1$_ss:0$_st:1726336167030$ses_id:1726334366944%3Bexp-session$_pn:1%3Bexp-session$vapi_domain:gapcanada.ca$time_in_ms:1726334367027%3Bexp-session$reset_tapid:true$dc_visit:1$dc_event:1%3Bexp-session$dc_region:us-east-1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367440
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".www.gapcanada.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726334366089,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726939166,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.gapcanada.ca&si=3a45e189-d09c-4eb5-ad99-40503efe0c17&ss=m12ewp77&sl=0&tt=0\"",
+                        "same_site": "lax",
+                        "timestamp": 1726334366089
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.gapcanada.ca&si=3a45e189-d09c-4eb5-ad99-40503efe0c17&ss=m12ewp77&sl=0&tt=0&rl=1\"",
+                        "same_site": "lax",
+                        "timestamp": 1726334366104
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.gapcanada.ca&si=3a45e189-d09c-4eb5-ad99-40503efe0c17&ss=m12ewp77&sl=1&tt=oj&rl=1&ld=sl\"",
+                        "same_site": "lax",
+                        "timestamp": 1726334366104
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.gapcanada.ca&si=3a45e189-d09c-4eb5-ad99-40503efe0c17&ss=m12ewp77&sl=1&tt=oj&rl=1&ld=sl&ul=779\"",
+                        "same_site": "lax",
+                        "timestamp": 1726334374409
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.gapcanada.ca&si=3a45e189-d09c-4eb5-ad99-40503efe0c17&ss=m12ewp77&sl=1&tt=oj&rl=1&ld=sl&ul=779&hd=77b\"",
+                        "same_site": "lax",
+                        "timestamp": 1726334374415
+                    }
+                ]
+            },
+            "__attentive_cco": {
+                "name": "__attentive_cco",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367522,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760894367.516161,
+                        "expiry": 34560000.516160965,
+                        "value": "1726334367515",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367521
+                    }
+                ]
+            },
+            "__attentive_dv": {
+                "name": "__attentive_dv",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726334370324,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726420770,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370324
+                    }
+                ]
+            },
+            "__attentive_id": {
+                "name": "__attentive_id",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367519,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760894367.51528,
+                        "expiry": 34560000.51528001,
+                        "value": "0d7d1038cf8d4e129192781e497431a8",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367519
+                    }
+                ]
+            },
+            "__attentive_pv": {
+                "name": "__attentive_pv",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367919,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726336167,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367918
+                    }
+                ]
+            },
+            "__attentive_ss_referrer": {
+                "name": "__attentive_ss_referrer",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367920,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726336167,
+                        "expiry": 1800,
+                        "value": "ORGANIC",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367920
+                    }
+                ]
+            },
+            "_attn_": {
+                "name": "_attn_",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367516,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760894367.5128,
+                        "expiry": 34560000.51279998,
+                        "value": "e30=",
+                        "same_site": "strict",
+                        "timestamp": 1726334367516
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.51423502,
+                        "value": "eyJ1Ijoie1wiY29cIjoxNzI2MzM0MzY3NTE0LFwidW9cIjoxNzI2MzM0MzY3NTE0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcIjBkN2QxMDM4Y2Y4ZDRlMTI5MTkyNzgxZTQ5NzQzMWE4XCJ9In0=",
+                        "same_site": "strict",
+                        "timestamp": 1726334367519
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.517170906,
+                        "value": "eyJ1Ijoie1wiY29cIjoxNzI2MzM0MzY3NTE0LFwidW9cIjoxNzI2MzM0MzY3NTE0LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcIjBkN2QxMDM4Y2Y4ZDRlMTI5MTkyNzgxZTQ5NzQzMWE4XCJ9In0=",
+                        "same_site": "strict",
+                        "timestamp": 1726334367522
+                    }
+                ]
+            },
+            "bc_invalidateUrlCache_targeting": {
+                "name": "bc_invalidateUrlCache_targeting",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367323,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726334967,
+                        "expiry": 600,
+                        "value": "1726334367321",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334367322
+                    }
+                ]
+            },
+            "bluecoreNV": {
+                "name": "bluecoreNV",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334370469,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1756334370,
+                        "expiry": 30000000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334370469
+                    }
+                ]
+            },
+            "fuiMatchMedia": {
+                "name": "fuiMatchMedia",
+                "domain": "www.gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334366230,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "(min-width%3A%201024px)%20and%20(max-aspect-ratio%3A%201%2F1)",
+                        "same_site": "lax",
+                        "timestamp": 1726334366228
+                    }
+                ]
+            }
+        }
+    },
+    "tealiumiq.com": {
+        "/": {
+            "TAPID": {
+                "name": "TAPID",
+                "domain": ".tealiumiq.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726334367390,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870367.389085,
+                        "expiry": 31536000.389085054,
+                        "value": "gapinc/cagap>0191f18bf4df001c298e478d012a05075001906d00bd0cagap|",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367389
+                    }
+                ]
+            }
+        }
+    },
+    "cm.teads.tv": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": "cm.teads.tv",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334369410,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334369410
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334370466
+                    }
+                ]
+            }
+        }
+    },
+    "gapinc.my.salesforce-sites.com": {
+        "/": {
+            "BrowserId": {
+                "name": "BrowserId",
+                "domain": "gapinc.my.salesforce-sites.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367382,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870367.380396,
+                        "expiry": 31536000.38039589,
+                        "value": "ftQcXXK9Ee-ftg3Ez6F9OQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367382
+                    }
+                ]
+            },
+            "CookieConsentPolicy": {
+                "name": "CookieConsentPolicy",
+                "domain": "gapinc.my.salesforce-sites.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367381,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870367.3803,
+                        "expiry": 31536000.380300045,
+                        "value": "0:1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367380
+                    }
+                ]
+            },
+            "LSKey-c$CookieConsentPolicy": {
+                "name": "LSKey-c$CookieConsentPolicy",
+                "domain": "gapinc.my.salesforce-sites.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334367382,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757870367.380332,
+                        "expiry": 31536000.380331993,
+                        "value": "0:1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726334367381
+                    }
+                ]
+            }
+        }
+    }
+}

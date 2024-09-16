@@ -1,0 +1,48 @@
+{
+    "usatoday.com": {
+        "/": {
+            "gnt_eid": {
+                "name": "gnt_eid",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395539837,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1731579539.830491,
+                        "expiry": 5184000.830491066,
+                        "value": "(null)",
+                        "same_site": "lax",
+                        "timestamp": 1726395539831
+                    }
+                ]
+            },
+            "gnt_i": {
+                "name": "gnt_i",
+                "domain": ".usatoday.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395539842,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931539.830561,
+                        "expiry": 31536000.830560923,
+                        "value": "08047145596086299572*60068*GB~LND",
+                        "same_site": "lax",
+                        "timestamp": 1726395539837
+                    }
+                ]
+            }
+        }
+    }
+}

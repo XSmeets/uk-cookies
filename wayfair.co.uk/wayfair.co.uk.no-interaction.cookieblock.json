@@ -1,0 +1,255 @@
+{
+    "wayfair.co.uk": {
+        "/": {
+            "CSNUtId": {
+                "name": "CSNUtId",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226502752,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786502.732284,
+                        "expiry": 34560000.73228407,
+                        "value": "58e5b2c5-edd0-4bfb-a3eb-f0d8d1faf3b2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226502744
+                    }
+                ]
+            },
+            "CSN_CSRF": {
+                "name": "CSN_CSRF",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226503423,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726312903.418041,
+                        "expiry": 86400.41804099083,
+                        "value": "c689fd73aed6b161039fa1ab657fbfb676e85312839de7e054a6dcb8160517c1",
+                        "same_site": "lax",
+                        "timestamp": 1726226503423
+                    }
+                ]
+            },
+            "ExCSNUtId": {
+                "name": "ExCSNUtId",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226503420,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786503.417953,
+                        "expiry": 34560000.417953014,
+                        "value": "58e5b2c5-edd0-4bfb-a3eb-f0d8d1faf3b2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226503419
+                    }
+                ]
+            },
+            "SFSID": {
+                "name": "SFSID",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226503421,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "18807e9d9770fe678e2877c6dc1da622",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226503421
+                    }
+                ]
+            },
+            "WFDC": {
+                "name": "WFDC",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226502744,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726237302.731994,
+                        "expiry": 10800.73199391365,
+                        "value": "GRQ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226502735
+                    }
+                ]
+            },
+            "canary": {
+                "name": "canary",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726226503422,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786503.418021,
+                        "expiry": 34560000.41802096,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226503422
+                    }
+                ]
+            },
+            "cc_post_exp": {
+                "name": "cc_post_exp",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226503356,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726831303,
+                        "expiry": 604800,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226503356
+                    }
+                ]
+            },
+            "i18nPrefs": {
+                "name": "i18nPrefs",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226503419,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757762503.417893,
+                        "expiry": 31536000.417892933,
+                        "value": "lang%3Den-GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226503418
+                    }
+                ]
+            },
+            "serverUAInfo": {
+                "name": "serverUAInfo",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226503423,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%7B%22browser%22%3A%22Google%20Chrome%22%2C%22browserVersion%22%3A128%2C%22OS%22%3A%22Mac%20OS%20X%22%2C%22OSVersion%22%3A%22%22%2C%22isMobile%22%3Afalse%2C%22isTablet%22%3Afalse%2C%22isTouch%22%3Afalse%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226503422
+                    }
+                ]
+            },
+            "vid": {
+                "name": "vid",
+                "domain": ".wayfair.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226503421,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726237303.418003,
+                        "expiry": 10800.418003082275,
+                        "value": "23cca2b0-66e4-2047-4f38-1450fea84302",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226503420
+                    }
+                ]
+            },
+            "_pxvid": {
+                "name": "_pxvid",
+                "domain": "www.wayfair.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226503364,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757762503,
+                        "expiry": 31536000,
+                        "value": "5ac0f735-71c2-11ef-94f7-aa7f98c84a33",
+                        "same_site": "lax",
+                        "timestamp": 1726226503363
+                    }
+                ]
+            },
+            "pxcts": {
+                "name": "pxcts",
+                "domain": "www.wayfair.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226503363,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5ac10c30-71c2-11ef-94f7-f5c7eaba1023",
+                        "same_site": "lax",
+                        "timestamp": 1726226503362
+                    }
+                ]
+            }
+        }
+    }
+}

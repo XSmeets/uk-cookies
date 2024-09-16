@@ -1,0 +1,66 @@
+{
+    "macys.com": {
+        "/": {
+            "currency": {
+                "name": "currency",
+                "domain": ".macys.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726411484899,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GBP",
+                        "same_site": "lax",
+                        "timestamp": 1726411484889
+                    }
+                ]
+            },
+            "shippingCountry": {
+                "name": "shippingCountry",
+                "domain": ".macys.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726411484889,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "lax",
+                        "timestamp": 1726411484878
+                    }
+                ]
+            },
+            "akavpau_www_www1_macys": {
+                "name": "akavpau_www_www1_macys",
+                "domain": "macys.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726411484900,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726411784~id=eaa24aa693bb3dc1da3006ed6118c6fc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726411484899
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "dn.se": {
+        "/": {
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".dn.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149600346,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757772000,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTY4OGEtNDU0Mi02MjcwLTljYzItNTkxYzlmNWJmNTg4IiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTQ6MDA6MDAuMzQwWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDE0OjAwOjAwLjM0MFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726149600341
+                    }
+                ]
+            },
+            "weight": {
+                "name": "weight",
+                "domain": ".dn.se",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726149600059,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733925600.046013,
+                        "expiry": 7776000.046013117,
+                        "value": "72",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149600049
+                    }
+                ]
+            }
+        }
+    }
+}

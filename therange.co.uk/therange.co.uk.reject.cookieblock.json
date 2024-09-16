@@ -1,0 +1,686 @@
+{
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373311,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759922373.309021,
+                        "expiry": 33696000.309020996,
+                        "value": "05A2F021460E655A3E77E4D8479164D3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373309
+                    }
+                ]
+            }
+        }
+    },
+    "ct.pinterest.com": {
+        "/": {
+            "_pinterest_ct_ua": {
+                "name": "_pinterest_ct_ua",
+                "domain": ".ct.pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373839,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757762373.836841,
+                        "expiry": 31536000.836841106,
+                        "value": "\"TWc9PSYwS3hXRW1vRGVLRm5EdjZOUGZnMWVtdlhUZ0FYckR3V1NTeWhhdEtMbVd1V2VKUm1wM21GMU1pMzE3dEZJR04rd0pxS0duV24wWWVYQjRaeVJiZzIvWW92RjRPSnNRU21CaStUMkZ4SzllWT0md0tkelJjOEtHdWlDSm53cDZSM2I0ZFFta09jPQ==\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373838
+                    }
+                ]
+            }
+        }
+    },
+    "pinterest.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373766,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757762373.765666,
+                        "expiry": 31536000.765666008,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373766
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.83673191,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373837
+                    }
+                ]
+            }
+        }
+    },
+    "therange.co.uk": {
+        "/": {
+            "AwinChannelCookie": {
+                "name": "AwinChannelCookie",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373275,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728818373.270599,
+                        "expiry": 2592000.2705988884,
+                        "value": "undefined",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373271
+                    }
+                ]
+            },
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226377144,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757762377,
+                        "expiry": 31536000,
+                        "value": "2024-09-13T11:19:37.142Z",
+                        "same_site": "lax",
+                        "timestamp": 1726226377142
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373956,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A33+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85",
+                        "same_site": "lax",
+                        "timestamp": 1726226373958
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A33+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1",
+                        "same_site": "lax",
+                        "timestamp": 1726226373959
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A33+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.therange.co.uk%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726226373962
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A34+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.therange.co.uk%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226374016
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A34+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.therange.co.uk%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226374017
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226377147
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226377149
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226377149
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226377153
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A19%3A37+GMT%2B0200+(Central+European+Summer+Time)&version=202403.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=af27ed19-2793-4fba-b5d0-62744c22bb85&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0005%3A0%2CC0004%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726226377154
+                    }
+                ]
+            },
+            "__attentive_dv": {
+                "name": "__attentive_dv",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226373637,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726312773,
+                        "expiry": 86400,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373636
+                    }
+                ]
+            },
+            "__attentive_id": {
+                "name": "__attentive_id",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373284,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786373.279057,
+                        "expiry": 34560000.279057026,
+                        "value": "2069f7fda6df4864b92a6bcbd5f3621d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373283
+                    }
+                ]
+            },
+            "__attentive_pv": {
+                "name": "__attentive_pv",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373573,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726228173,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373572
+                    }
+                ]
+            },
+            "__attentive_ss_referrer": {
+                "name": "__attentive_ss_referrer",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373574,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726228173,
+                        "expiry": 1800,
+                        "value": "ORGANIC",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373573
+                    }
+                ]
+            },
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226372683,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726228172.681903,
+                        "expiry": 1800.681902885437,
+                        "value": "nvmXQLcv9OMUye5Ds4NFL.Lv_fjbR45khKXjU7304Uc-1726226372-1.0.1.1-Hx6EVCWCIxNTS3RTtZBHPdwmXxI6kGYq69xs9J8LafigIjWDdbDJ00fZAW5w.V7wXRSyXPSqm72fhbPMZNh5PPPkGk319IOGKKI20Q_6rhA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226372683
+                    }
+                ]
+            },
+            "_attn_": {
+                "name": "_attn_",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373285,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760786373.279674,
+                        "expiry": 34560000.27967405,
+                        "value": "eyJ1Ijoie1wiY29cIjoxNzI2MjI2MzczMjc4LFwidW9cIjoxNzI2MjI2MzczMjc4LFwibWFcIjoyMTkwMCxcImluXCI6ZmFsc2UsXCJ2YWxcIjpcIjIwNjlmN2ZkYTZkZjQ4NjRiOTJhNmJjYmQ1ZjM2MjFkXCJ9In0=",
+                        "same_site": "strict",
+                        "timestamp": 1726226373284
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226374129,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734002374,
+                        "expiry": 7776000,
+                        "value": "fb.2.1726226374126.35355048426486387",
+                        "same_site": "lax",
+                        "timestamp": 1726226374127
+                    }
+                ]
+            },
+            "_hjSessionUser_3800094": {
+                "name": "_hjSessionUser_3800094",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226373331,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757762373,
+                        "expiry": 31536000,
+                        "value": "eyJpZCI6Ijg4ZmNkOGQ4LWQ0YjMtNTRmYS1iMmY0LTNkZjFiZDYzMjMyOSIsImNyZWF0ZWQiOjE3MjYyMjYzNzMzMjksImV4aXN0aW5nIjpmYWxzZX0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373329
+                    }
+                ]
+            },
+            "_hjSession_3800094": {
+                "name": "_hjSession_3800094",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373334,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726228173,
+                        "expiry": 1800,
+                        "value": "eyJpZCI6IjRhOWZhZGFmLWEwNGUtNGUxNS05OGUxLTg0YjU5ZGFjNjhkNCIsImMiOjE3MjYyMjYzNzMzMjksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowfQ==",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373331
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "eyJpZCI6IjRhOWZhZGFmLWEwNGUtNGUxNS05OGUxLTg0YjU5ZGFjNjhkNCIsImMiOjE3MjYyMjYzNzMzMjksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373335
+                    }
+                ]
+            },
+            "_hjTLDTest": {
+                "name": "_hjTLDTest",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373325,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": ".therange.co.uk",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373325
+                    }
+                ]
+            },
+            "_pin_unauth": {
+                "name": "_pin_unauth",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726226373789,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757762373,
+                        "expiry": 31536000,
+                        "value": "dWlkPVpqQmtaams0TnpJdFpUVXpZeTAwWVRneUxXSXdOVEV0TVdNeE5HRm1OV1ZpTVdVeA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373788
+                    }
+                ]
+            },
+            "_tt_enable_cookie": {
+                "name": "_tt_enable_cookie",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726226373676,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759922373,
+                        "expiry": 33696000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373676
+                    }
+                ]
+            },
+            "_ttp": {
+                "name": "_ttp",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373677,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759922373,
+                        "expiry": 33696000,
+                        "value": "fnfrkqj2PFIloepeNH4Xx1g_EWU",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373676
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373277,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726312773,
+                        "expiry": 86400,
+                        "value": "0d509a0071c211ef9c6ff9bf716b3d58",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373276
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373277,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759922373,
+                        "expiry": 33696000,
+                        "value": "0d50988071c211efb3421f09f5eece97",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373277
+                    }
+                ]
+            },
+            "cf_clearance": {
+                "name": "cf_clearance",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373560,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757762373.56001,
+                        "expiry": 31536000.560009956,
+                        "value": "hBxPKdhdnFCjelFn0NNsi2jQBGk3NWE.Jfi6_af5aFY-1726226373-1.2.1.1-KGN5mH1MoTrRyFvLKpZ9xhzqybu8jFQDDcXiY72HXm1x.liGEMCt_LBtaVPqXR9YQ_oUDr6fEv.s90OI7C1whsdJd5yY39E_9PfOlHETb9676UegwnHz3CySK2KL9IidftPnrALyQQEDc5e6ccIv8pRhKAZ1cOJ_IjFw09S9lL3KHfxHeP5SzyGipMsU1PKnF6wCgKH553A76.6UfJJOOTW9J9AwwHDZLbEsVbdThxZHmuV1SegGHqXLzhh2ZaB_KQCIhcU_bpYb0yO_betea1n3zHmj7uArvlerQ1GJ5gReprH4y_QUWggzbd1CBs_13rTgqdlc3BJvhbIZoHoWAIGXn5FiUwaMieLaL.AA_rdW5EVI.yx_zpBhPqVjPG7bDZUvq9klULT9VNlIGWqGLQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373560
+                    }
+                ]
+            },
+            "lantern": {
+                "name": "lantern",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373634,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728818373,
+                        "expiry": 2592000,
+                        "value": "c012bef5-ca6b-4bda-8f9b-cbaabb3e571c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373633
+                    }
+                ]
+            },
+            "si": {
+                "name": "si",
+                "domain": ".therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226372906,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728645572.894874,
+                        "expiry": 2419200.894874096,
+                        "value": "13-66e41fc4c17857.00433998",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226372896
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2419200.370682001,
+                        "value": "13-66e41fc4c17857.00433998",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373371
+                    }
+                ]
+            },
+            "__attentive_cco": {
+                "name": "__attentive_cco",
+                "domain": "www.therange.co.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726226373284,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760786373.279128,
+                        "expiry": 34560000.279128075,
+                        "value": "1726226373279",
+                        "same_site": "unspecified",
+                        "timestamp": 1726226373284
+                    }
+                ]
+            }
+        }
+    },
+    "tiktok.com": {
+        "/": {
+            "_ttp": {
+                "name": "_ttp",
+                "domain": ".tiktok.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726226373507,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759922373.455665,
+                        "expiry": 33696000.45566511,
+                        "value": "2m0vap4QaRYt4ipRJqZTnWFkffe",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726226373507
+                    }
+                ]
+            }
+        }
+    }
+}

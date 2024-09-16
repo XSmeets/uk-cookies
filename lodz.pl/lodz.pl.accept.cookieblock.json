@@ -1,0 +1,1001 @@
+{
+    "c.clarity.ms": {
+        "/": {
+            "SM": {
+                "name": "SM",
+                "domain": ".c.clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058802508,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "T",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058802507
+                    }
+                ]
+            }
+        }
+    },
+    "clarity.ms": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".clarity.ms",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058802509,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759754802.506635,
+                        "expiry": 33696000.50663495,
+                        "value": "320B8451E881682C1F2B90A6EC816655",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058802508
+                    }
+                ]
+            },
+            "CLID": {
+                "name": "CLID",
+                "domain": "www.clarity.ms",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726058796796,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757594796.794602,
+                        "expiry": 31536000.794601917,
+                        "value": "75f6e4017a5e48a499e096fd1b789e75.20240911.20250911",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796795
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.865622997,
+                        "value": "1f03728877c347b1a0f47d1dafd316bc.20240911.20250911",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796866
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "DSID": {
+                "name": "DSID",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058807009,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726062407.007646,
+                        "expiry": 3600.007646083832,
+                        "value": "NO_DATA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058807009
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600.096568107605,
+                        "value": "NO_DATA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058807098
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600.183974981308,
+                        "value": "NO_DATA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058807185
+                    }
+                ]
+            },
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058796951,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759754796.949894,
+                        "expiry": 33696000.94989395,
+                        "value": "AHWqTUlLyq_u-k1f5gyBKicN5Y12bssXPQdmgD3EEWGduhlu7nC_OplzWJMAhRU9",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796950
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.95053506,
+                        "value": "AHWqTUkCp9_ivPXtFUaIKh4VpTzQOZR_z6K5dc48a84t__II-ePbInImtibW5EmB",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796952
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058796860,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726059696.856354,
+                        "expiry": 900.8563539981842,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796859
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.8635890483856,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796865
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9621028900146,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796962
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.9648969173431,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058796968
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.0105040073395,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797014
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.0115609169006,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797015
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.011843919754,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797016
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.0176498889923,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797022
+                    }
+                ]
+            }
+        }
+    },
+    "googleadservices.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".googleadservices.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058805973,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1733834805.971997,
+                        "expiry": 7776000.971997023,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058805972
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.181993961,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058807182
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.273972988,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058807274
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.335077047,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058807335
+                    }
+                ]
+            }
+        }
+    },
+    "lodz.pl": {
+        "/": {
+            "FCCDCF": {
+                "name": "FCCDCF",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058805152,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759754805,
+                        "expiry": 33696000,
+                        "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CQEyKcAQEyKcAEsACBPLBGFoAP_gAEPgAB5YINJB7C7FbSFCwH5zaLsAMAhHRsAAQoQAAASBAmABQAKQIAQCgkAQFASgBAACAAAAICZBIQIECAAACUAAQAAAAAAEAAAAAAAIIAAAgAEAAAAIAAACAIAAEAAIAAAAEAAAmAgAAIIACAAAhAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAAAAAAQOhSD2F2K2kKFkPCmwXYAYBCujYAAhQgAAAkCBMACgAUgQAgFJIAgCIFAAAAAAAAAQEiCQAAQABAAEIACgAAAAAAIAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAIAABEhCAAQQAEAAAAAAAQAAAAAAAAAAABAAA%22%2C%222~70.89.93.108.122.149.196.236.259.311.313.323.358.415.449.486.494.495.540.574.609.827.864.981.1029.1048.1051.1095.1097.1126.1205.1276.1301.1365.1415.1449.1514.1570.1577.1598.1651.1716.1735.1753.1765.1870.1878.1889.1958.2072.2253.2299.2357.2373.2415.2506.2526.2568.2571.2575.2624.2677~dv.%22%2C%22554667E9-C873-4740-ACA5-6BCC3034879D%22%5D%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058805148
+                    }
+                ]
+            },
+            "FCNEC": {
+                "name": "FCNEC",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058805960,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757594805,
+                        "expiry": 31536000,
+                        "value": "%5B%5B%22AKsRol9B6_NhGZAQWOzcgQhcmpq2Vo8TBqVEEhrQ5alpQBS5vI9E6614E-hU1K6JvAg-nY8lr3sN4gzV6dAywfEcHcBog6SG1nTmmjwK67QmM8BqJ0k5FfYwEdAKNGWl7TEQZnGYdiX24cemYLrrFu7iOTtkuG6vWA%3D%3D%22%5D%5D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058805959
+                    }
+                ]
+            },
+            "__eoi": {
+                "name": "__eoi",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058805907,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741610805,
+                        "expiry": 15552000,
+                        "value": "ID=28c2c1750c031116:T=1726058805:RT=1726058805:S=AA-Afja5ojgAhelT_OTSCeFVOSsx",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058805906
+                    }
+                ]
+            },
+            "__gads": {
+                "name": "__gads",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058805905,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759754805,
+                        "expiry": 33696000,
+                        "value": "ID=cc0055d0487a723c:T=1726058805:RT=1726058805:S=ALNI_MaC0g4mo_dYDzR5mktiihyIHDB1dg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058805904
+                    }
+                ]
+            },
+            "__gpi": {
+                "name": "__gpi",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058805906,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1759754805,
+                        "expiry": 33696000,
+                        "value": "UID=00000ef696d0a6bc:T=1726058805:RT=1726058805:S=ALNI_Mag82Hlqm0oRlDNexsJJ3uG4Pxfsg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058805906
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058796739,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733834796,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726058796734.877838975238367167",
+                        "same_site": "lax",
+                        "timestamp": 1726058796735
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726058796734.877838975238367167",
+                        "same_site": "lax",
+                        "timestamp": 1726058805142
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726058796771,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618796.768812,
+                        "expiry": 34560000.76881194,
+                        "value": "GA1.1.1774140507.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796771
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.8082881,
+                        "value": "GA1.1.1774140507.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796809
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.85282302,
+                        "value": "GA1.2.1774140507.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796853
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.064033985,
+                        "value": "GA1.1.1774140507.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802065
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.076725006,
+                        "value": "GA1.2.1774140507.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802077
+                    }
+                ]
+            },
+            "_ga_30F084ZHSL": {
+                "name": "_ga_30F084ZHSL",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058796808,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618796.806622,
+                        "expiry": 34560000.80662203,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796807
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.80771494,
+                        "value": "GS1.1.1726058796.1.0.1726058796.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796809
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.06378698,
+                        "value": "GS1.1.1726058796.1.1.1726058802.54.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802064
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.18750191,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058809188
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.187815905,
+                        "value": "GS1.1.1726058796.1.1.1726058809.47.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058809188
+                    }
+                ]
+            },
+            "_ga_K51BYYXXYF": {
+                "name": "_ga_K51BYYXXYF",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726058796770,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760618796.768591,
+                        "expiry": 34560000.76859093,
+                        "value": "GS1.1.1726058796.1.0.1726058796.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796769
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.183320045,
+                        "value": "GS1.1.1726058796.1.0.1726058809.47.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058809185
+                    }
+                ]
+            },
+            "_gat_gtag_UA_25825547_40": {
+                "name": "_gat_gtag_UA_25825547_40",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726058796856,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726058856,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796855
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058796764,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733834796,
+                        "expiry": 7776000,
+                        "value": "1.1.1095371169.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796760
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7775995,
+                        "value": "1.1.1095371169.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802051
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7775995,
+                        "value": "1.1.1095371169.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802057
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".lodz.pl",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726058796854,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726145196,
+                        "expiry": 86400,
+                        "value": "GA1.2.160730365.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796853
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.160730365.1726058797",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802077
+                    }
+                ]
+            }
+        }
+    },
+    "newsletter.uml.lodz.pl": {
+        "/": {
+            "timeout": {
+                "name": "timeout",
+                "domain": ".newsletter.uml.lodz.pl",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726058797400,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726101997.398528,
+                        "expiry": 43200.39852809906,
+                        "value": "logout_43200",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058797398
+                    }
+                ]
+            },
+            "webformv2_opened_16": {
+                "name": "webformv2_opened_16",
+                "domain": "newsletter.uml.lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058797401,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1736513197.398565,
+                        "expiry": 10454400.398565054,
+                        "value": "0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058797400
+                    }
+                ]
+            }
+        }
+    },
+    "uml.lodz.pl": {
+        "/": {
+            "TS01619efc": {
+                "name": "TS01619efc",
+                "domain": ".uml.lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058796813,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "012a98722bcff7ea6b69c7aef5ab7fa421706da44e9b498f21bf7d6aa9ecf72c890a838251f0b35ca83064a79aa4b07408b0203700",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058796812
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "012a98722b6279ae8db518accb14649bbde5bf9d199b498f21bf7d6aa9ecf72c890a8382513a6d1ae3f03b3f7e567c38b8869ab245209690236bf25a3b2e02f70d21913b3b",
+                        "same_site": "unspecified",
+                        "timestamp": 1726058802292
+                    }
+                ]
+            },
+            "PHPSESSID": {
+                "name": "PHPSESSID",
+                "domain": "uml.lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058802292,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "2983f0e33789fd123fc64ba85224fb63",
+                        "same_site": "lax",
+                        "timestamp": 1726058802291
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726058797507,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741610797.506853,
+                        "expiry": 15552000.506853104,
+                        "value": "Y_ZeN4l6cfI",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797507
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.61549306,
+                        "value": "yLor2lhvU4g",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058798618
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726058797508,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741610797.506896,
+                        "expiry": 15552000.506896019,
+                        "value": "CgJHQhIEGgAgbA%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797507
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.61561799,
+                        "value": "CgJHQhIEGgAgGQ%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058798618
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726058797507,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "gSQT-K7FOTk",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797507
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "SMPNT6EjjPA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058798617
+                    }
+                ]
+            }
+        }
+    },
+    "ads.biblioteka.lodz.pl": {
+        "/": {
+            "OAID": {
+                "name": "OAID",
+                "domain": "ads.biblioteka.lodz.pl",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726058797591,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757594797.589456,
+                        "expiry": 31536000.58945608,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797589
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.676845074,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797677
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.68759799,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797688
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.688061,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797688
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.688643932,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797689
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.688977003,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797689
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.68967104,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797694
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.6916399,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797694
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.711103916,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797711
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.71194601,
+                        "value": "01000111010001000101000001010010",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726058797712
+                    }
+                ]
+            }
+        }
+    }
+}

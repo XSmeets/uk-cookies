@@ -1,0 +1,836 @@
+{
+    "marksandspencer.com": {
+        "/": {
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225574696,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761574,
+                        "expiry": 31536000,
+                        "value": "2024-09-13T11:06:14.695Z",
+                        "same_site": "lax",
+                        "timestamp": 1726225574696
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225573068,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761573,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0",
+                        "same_site": "lax",
+                        "timestamp": 1726225573068
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726225573068
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726225573069
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7d44aa49-157e-4df8-b096-2b74b152623e&interactionCount=0",
+                        "same_site": "lax",
+                        "timestamp": 1726225573070
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7d44aa49-157e-4df8-b096-2b74b152623e&interactionCount=0&landingPath=https%3A%2F%2Fwww.marksandspencer.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726225573071
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A13+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7d44aa49-157e-4df8-b096-2b74b152623e&interactionCount=0&landingPath=https%3A%2F%2Fwww.marksandspencer.com%2F&groups=C0003%3A0%2CC0004%3A0%2CC0001%3A1%2CC0002%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726225573120
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7d44aa49-157e-4df8-b096-2b74b152623e&interactionCount=0&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0001%3A1%2CC0002%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726225574697
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Fri+Sep+13+2024+13%3A06%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202308.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=7d44aa49-157e-4df8-b096-2b74b152623e&interactionCount=1&landingPath=NotLandingPage&groups=C0003%3A0%2CC0004%3A0%2CC0001%3A1%2CC0002%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726225574698
+                    }
+                ]
+            },
+            "PIM-SESSION-ID": {
+                "name": "PIM-SESSION-ID",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572369,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "WYWwX0VSXm5xic28",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572368
+                    }
+                ]
+            },
+            "_abck": {
+                "name": "_abck",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225571894,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757761571.882195,
+                        "expiry": 31536000.882194996,
+                        "value": "433498975B0CA3A0F7C0C975E3D4DE28~-1~YAAQy/0zuNwEIMGRAQAAWeAP6wzdsz8kRqudGpYkAGcdJbuaYe8U2svjrSlkhmTRwGkeB+iYrvL+IqR6PLrwAHoc28HltS33BJ8bOVd80/6vbqatNcZi9h1c+J2UxYX9Ep9so/x+fypd5FIHG75ZCLTbJnVS2Idvqi6+oLfx5TXor9IfFjX+P56nnLzeaSOmjy4EvgmCA4GkjKoMJ6M0dMvHf/V6uKJBqbhH6UMs0aReh1Q7EGra8OaCErG/yhS0rvm3bxhtVNbHUEVUSk6vZ81jP8KckDfOQq+ZwMlV/VrLtGfiuyGgh7Trde62SezAAyASvUzFjmvgMDRR//3CkEYOgMmPfsltIBWybQH2vjH17rtCA/JzRP95efUnxC2y+pl0wMbNXgGGeOWNppXbQsyBxb145kVIAj19UsS+GNolvESZeBE=~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225571884
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.45519805,
+                        "value": "433498975B0CA3A0F7C0C975E3D4DE28~-1~YAAQBRoSAlewhteRAQAAjuIP6wy+XU60YpmNo1A7n4KcQxfgIp1IViN73OawZRSibdYRJK2wi5YlOLO0th+PluGQ+JYv56JXpX+BkzwdGAK4Y0BTVrryovxo2XqebMQFd3d+b6qpnF30HUPb7cmiPFUblCHuBS/Wq3A+u3yLIk07pzezAJ4SDFhc3O2l5xan81fTMthlJY+yAeEgTUuqW0g/wnkQjogRR3dfRk+KBm+NVtNimjc37yLiw68aG8EbhEK4Ui3oYNPAlcUJzV/1M8tXwAXxfnZgE6CoA/8+bLa+rdspMlzXE2+peBFko346ns9aDlXcLDsY2kyAVQnEdVVjsjGzvm9LTa/NDhx+e/QhRdkF7Co+J/4Jy8by2u6zgRhz+bfXmcg+OcnWD55VQN8wZgnnsvR94z7SvGYROI6SnOnuWIkUlTHnKLzdkwrme+wCVA==~-1~-1~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572455
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.621799946,
+                        "value": "433498975B0CA3A0F7C0C975E3D4DE28~0~YAAQBRoSAluwhteRAQAASuMP6wzGzx+w7olF8G7yLpm8bbUTJF72V3dhbp80pRqj8/kauJv848zagDa4Eb7soHwx0+jFVjJOF0/krnNfGbe0ZRFcSeYX03ms/ZqyIlOKYxD/xRqpYXAj/r0tD60vQZbBFkdCGTqKLArZeu8vlHjFK0Rm5fJ5aqL9iNmZGXs3FW26zbvxGzkT/r46B1JtMo3W3l/A/ILsjD57DlXBkqpuxW5NkDRegOaxOkAg4si6lU11GSIq0rU3A5mYCP6N0/H7JmNZSDanbTfip5pfVAUqwr9EevH4dzo2iFhvCw9fn0njoqvrATKmlatRZaGznKB5frlFGpJ6GuAKeylVEFjYhdB9wsKmszKkSK/by8UQ3mYbFZFqx0FXmgY0boAG9nOQFZO8IrL4r9uoUuLkcPLKPFUZ9QQbk5dVe/659iYayYesEVVZ4sT5VmYAXbZo0nVl~-1~||0||~-1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572741
+                    }
+                ]
+            },
+            "_cq_duid": {
+                "name": "_cq_duid",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225572893,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734109572,
+                        "expiry": 7884000,
+                        "value": "1.1726225572.NuE2v20qTa7EjvkR",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572892
+                    }
+                ]
+            },
+            "_cq_suid": {
+                "name": "_cq_suid",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572894,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1.1726225572.wdTKZnloF35RxWid",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572893
+                    }
+                ]
+            },
+            "ak_bmsc": {
+                "name": "ak_bmsc",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572203,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726232772.193763,
+                        "expiry": 7200.193763017654,
+                        "value": "1D0C72E24B767709DC180183E83B066A~000000000000000000000000000000~YAAQBRoSAk+whteRAQAAneEP6xmWP7+bpCklGsYnr5CT5pt2knxv/xCKTgoOqFPtfTAOnyN/m+PRueLTzfOaY7Ve4bKR9/7Y7yMHPJ8yfG3/VWZHCkkq1HHprKcFHKJZdVrb5p93jAJ8vUyQafi31ZeEf86dZMIQXx0wKewRaq07QHBdItoj5v23gEmua6fW8uM97T8GJo9moTkoqmu8fROMYb7RuKuARosh9sGlICIzH2znBZy3FbnMgjIYgRgNp9uK10QiEbHon/SPbpn6pVJjXWNqR8q5lG0gQ5Z2mkYGWqkOhS0yALCI9ZFOHQJa4gREYhcPAOMQVFqxZtAsNr85SnebTKEzMA3vbuSORA74nrt2JPRQ6CG2pyV8ub/QyFuQWoFBqAy1Sjp6GjBGR+ynVQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572201
+                    }
+                ]
+            },
+            "bm_sv": {
+                "name": "bm_sv",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572802,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726232772.788318,
+                        "expiry": 7200.7883179187775,
+                        "value": "215CCE16250C0382CC6815027DE28B00~YAAQBRoSAmGwhteRAQAA8OMP6xlqlCmm8o5n/WO1eaqtEv1bpKtprgaLU0bhGv3BSZtqxzBQPPNzpnRHMMOZ3b+SG4CTIsv2UY5nXQE7lUUuXmjMaMwTHcPMiuYUsdsm6NzCY0BVq3iv6ZtFl/EWCO9AhK6qcOYoD+6Zufat/peD7SMqFETTIGMACM4K2y+RTIy171+Iqeh6VLinCRC9beJJrMqjAp1gcE+tK/zG709PdjysOC8QRC1sJUWJokd3liihdq6XDPy0~1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572800
+                    }
+                ]
+            },
+            "bm_sz": {
+                "name": "bm_sz",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225571905,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726239971.882329,
+                        "expiry": 14400.882328987122,
+                        "value": "3DA1A5DCBF8691604C65F5284EE5E0DD~YAAQy/0zuN0EIMGRAQAAWeAP6xkPJ/ULv4tpry44dOgtQ2KpIx8OZZME+/dWNEoTuTxZ39oZjgtXesP9d5pLZJ0pvgSMAoib2m4GZ9m9kaV1bsGLA6f9eKdDoLbYDPdvIG2p70aEvkyjnXD7xiwLiS0H8JiQBAG2EC54diQNMMbvLfCy1qHNSGby3xsIHGRkOz+/kieL+CyOwRM7EePIIWfNIKSQPC5u/iE6TTqTNzi+RByBqNhXMPQt3YYkxupxzUHWLn/jAuQCc0rgnNNX/LWg3SQizeqqrtq3XlnPXKr2pzQjtjMPwueVSzRoBn620PQLVmDEX3Sc3R1GCobpihci4zaaNtsVRsMo4pqmsXeaJUGdeYYoi11y4N0w4FKTlVl21KlptJx38fjpTA==~3616833~3551285",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225571895
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 14399.193804979324,
+                        "value": "3DA1A5DCBF8691604C65F5284EE5E0DD~YAAQBRoSAlCwhteRAQAAneEP6xmfCYpaBIWSKC1bpc3IsaGuhga2vNLjMzP2yDFWEdaWGPoDZ2eV2y2fg8NSDxlYqWrd6CpzQ0lGbrxoGYTLfuCFMxUzdYEhphRC1tIsfn9B/6YjvkrXDM2tEkVaH31ZzKY3YiGUVVaZIDZJhgyEIyR4k38unAuDArs2kbeuU2fIsE7zQ+86/AOmH8jxmOTjg0wmLC67ty+M0Z7JUcBQ5siaz4LUaqTpzsNNlfkWROIoHW1nP7wcOJPE1tQxoTd+oM+EcBxFYo2OC/ZNf3UAhTaQYLWUKbvpu7ryEGk1EQCC0Ah9aov/LnbmW3i1SXgTyYTvl8PPSydAcFMA+TWwtSRcJNEgGHXXZbbvTc9IZ9VUXMN4LfcpivYJYNcwsO6N~3616833~3551285",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572203
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 14399.621856927872,
+                        "value": "3DA1A5DCBF8691604C65F5284EE5E0DD~YAAQBRoSAlywhteRAQAASuMP6xl3PhaBHTf76liYI4ZJG27FBrVjbffztxMhkHbliexgY3oRVpSMDLTYFv1tx45XoSsqT502nOwvN52vX/YJu8WzTSB9qlmxrv/EQb0TMfGua2mxy5x5ZOmtCioUZrUJy4NbLpenwocPSV4aEJa0Q3NmNVgNl7BU+B58ttX8qhX+QkX4h3XOLG0GhbpmDmEfadbvtIEF+H1SEGNRSuM6Uv9LO3TpD+IS0xE0FHiuE6KyBfrbDNst3iT0vUEOyka0JmMpuwD1+0ujoakfi2Iobecp6JKmT4oUWxpEYi1SozegMF8fLw5TK6kZt2AG45vu5hCenmyrybCmmjI/amMdZ7Nr7ncg59lpTbngMznQ9ll3FLjKBrTQksD6LRxn4W/xFQsaMEjxBy2v~3616833~3551285",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572742
+                    }
+                ]
+            },
+            "mprtcl-v4_FCDBA4DA": {
+                "name": "mprtcl-v4_FCDBA4DA",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225572947,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761572,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'}|'l':0}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572946
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'}|'l':false|'-1551941545575569646':{'fst':1726225573369}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573371
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'}|'l':false|'-1551941545575569646':{'fst':1726225573369}}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573372
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'|'csm':'WyItMTU1MTk0MTU0NTU3NTU2OTY0NiJd'|'sid':'892FC8BD-9501-4D64-E1EC-A0E81819095F'|'les':1726225572970|'ssd':1726225572947}|'l':0|'-1551941545575569646':{'fst':1726225573369}|'cu':'-1551941545575569646'}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573374
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'|'csm':'WyItMTU1MTk0MTU0NTU3NTU2OTY0NiJd'|'sid':'892FC8BD-9501-4D64-E1EC-A0E81819095F'|'les':1726225572970|'ssd':1726225572947}|'l':0|'-1551941545575569646':{'fst':1726225573369}|'cu':'-1551941545575569646'}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573376
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'|'csm':'WyItMTU1MTk0MTU0NTU3NTU2OTY0NiJd'|'sid':'892FC8BD-9501-4D64-E1EC-A0E81819095F'|'les':1726225572970|'ssd':1726225572947}|'l':0|'-1551941545575569646':{'fst':1726225573369}|'cu':'-1551941545575569646'}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573379
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'|'csm':'WyItMTU1MTk0MTU0NTU3NTU2OTY0NiJd'|'sid':'892FC8BD-9501-4D64-E1EC-A0E81819095F'|'les':1726225572970|'ssd':1726225572947}|'l':0|'-1551941545575569646':{'fst':1726225573369}|'cu':'-1551941545575569646'}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573381
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{'gs':{'ie':1|'dt':'us1-40566a54a8e0c94093803ba945990495'|'cgid':'8608606e-8b5e-4116-ed3d-e9d7aa866c28'|'das':'2bf09c4f-1140-4bff-28a4-918ee4cf65da'|'csm':'WyItMTU1MTk0MTU0NTU3NTU2OTY0NiJd'|'sid':'892FC8BD-9501-4D64-E1EC-A0E81819095F'|'les':1726225574701|'ssd':1726225572947}|'l':0|'-1551941545575569646':{'fst':1726225573369}|'cu':'-1551941545575569646'}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225574704
+                    }
+                ]
+            },
+            "mptest": {
+                "name": "mptest",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572945,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572944
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573370
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573371
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573373
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573375
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573379
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573381
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cookie",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225574703
+                    }
+                ]
+            },
+            "utag_main": {
+                "name": "utag_main",
+                "domain": ".marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572431,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761572,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb0fe24c006bb6f362e3461805075002006d00bd0$_sn:1$_se:1$_ss:1$_st:1726227372428$ses_id:1726225572428%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572431
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb0fe24c006bb6f362e3461805075002006d00bd0$_sn:1$_se:2$_ss:0$_st:1726227372967$ses_id:1726225572428%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572968
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "v_id:0191eb0fe24c006bb6f362e3461805075002006d00bd0$_sn:1$_se:3$_ss:0$_st:1726227374700$ses_id:1726225572428%3Bexp-session$_pn:1%3Bexp-session",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225574702
+                    }
+                ]
+            },
+            "95-5-cheq-split": {
+                "name": "95-5-cheq-split",
+                "domain": ".www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572429,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760785572.427173,
+                        "expiry": 34560000.4271729,
+                        "value": "cheq_95_test",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572427
+                    }
+                ]
+            },
+            "CONSENTMGR": {
+                "name": "CONSENTMGR",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225574702,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726311974,
+                        "expiry": 86400,
+                        "value": "consent:false|OneTrust",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225574701
+                    }
+                ]
+            },
+            "MS-SESSION-ID": {
+                "name": "MS-SESSION-ID",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726225572743,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "78728bb5-6c43-42b9-a2bc-f9ea58bfe610",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572742
+                    }
+                ]
+            },
+            "MS_ORIGIN_COUNTRY": {
+                "name": "MS_ORIGIN_COUNTRY",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572197,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727521572.193153,
+                        "expiry": 1296000.1931529045,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572194
+                    }
+                ]
+            },
+            "__Host-next-auth.csrf-token": {
+                "name": "__Host-next-auth.csrf-token",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572797,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "c07524015d85b3f05a3dd6472dceb8144a03476a3a39ca0225bdea9c834e0082%7C1049b142d07a9601d1bd7c809c7802163c320dc48c9f8debf4fd56f2f30a745d",
+                        "same_site": "lax",
+                        "timestamp": 1726225572795
+                    }
+                ]
+            },
+            "__Secure-next-auth.callback-url": {
+                "name": "__Secure-next-auth.callback-url",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572799,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "https%3A%2F%2Fwww.marksandspencer.com",
+                        "same_site": "lax",
+                        "timestamp": 1726225572797
+                    }
+                ]
+            },
+            "akacd_PRODHOME": {
+                "name": "akacd_PRODHOME",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572201,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760785572.193726,
+                        "expiry": 34560000.19372606,
+                        "value": "2147483647~rv=38~id=6aba1650be7623df39c145131bbe16f4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572200
+                    }
+                ]
+            },
+            "akacd_prdauth": {
+                "name": "akacd_prdauth",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572800,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760785572.788271,
+                        "expiry": 34560000.78827095,
+                        "value": "2147483647~rv=91~id=43aae291d704e65a80ca81bb79b484fc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572799
+                    }
+                ]
+            },
+            "akavpau_www": {
+                "name": "akavpau_www",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572199,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726226172~id=7278f7276d1a096c9ee8b3fe7cd500ef",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572197
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726226172~id=7278f7276d1a096c9ee8b3fe7cd500ef",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572314
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726226172~id=7278f7276d1a096c9ee8b3fe7cd500ef",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572455
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726226172~id=7278f7276d1a096c9ee8b3fe7cd500ef",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572741
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726226172~id=7278f7276d1a096c9ee8b3fe7cd500ef",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225572799
+                    }
+                ]
+            },
+            "experimentsUserId": {
+                "name": "experimentsUserId",
+                "domain": "www.marksandspencer.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726225572734,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757761572,
+                        "expiry": 31536000,
+                        "value": "1726225572597915364",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572733
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1726225572597915364",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225572743
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1726225572597915364",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573126
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1726225572597915364",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573668
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "1726225572597915364",
+                        "same_site": "unspecified",
+                        "timestamp": 1726225573681
+                    }
+                ]
+            }
+        }
+    },
+    "obseu.iseaskies.com": {
+        "/": {
+            "cg_uuid": {
+                "name": "cg_uuid",
+                "domain": "obseu.iseaskies.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726225573004,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1755255973.003218,
+                        "expiry": 29030400.003217936,
+                        "value": "d3c77030706a20c36781b4023febf3ef",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726225573003
+                    }
+                ]
+            }
+        }
+    }
+}

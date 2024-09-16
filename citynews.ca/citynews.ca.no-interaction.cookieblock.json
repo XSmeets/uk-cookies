@@ -1,0 +1,57 @@
+{
+    "citynews.ca": {
+        "/": {
+            "check": {
+                "name": "check",
+                "domain": ".citynews.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726329099623,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726329099619
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726329099624
+                    }
+                ]
+            },
+            "mbox": {
+                "name": "mbox",
+                "domain": ".citynews.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726329099628,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726330960,
+                        "expiry": 1861,
+                        "value": "session#a039f59b178c496286db3adc19d5841c#1726330960",
+                        "same_site": "unspecified",
+                        "timestamp": 1726329099624
+                    }
+                ]
+            }
+        }
+    }
+}

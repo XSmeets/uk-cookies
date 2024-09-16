@@ -1,0 +1,68 @@
+{
+    "nps.gov": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".nps.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417281825,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760977281.818668,
+                        "expiry": 34560000.81866789,
+                        "value": "GA1.1.1584680956.1726417282",
+                        "same_site": "strict",
+                        "timestamp": 1726417281824
+                    }
+                ]
+            },
+            "_ga_CSLL4ZEK4L": {
+                "name": "_ga_CSLL4ZEK4L",
+                "domain": ".nps.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417281824,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760977281.818199,
+                        "expiry": 34560000.81819892,
+                        "value": "GS1.1.1726417281.1.0.1726417281.0.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726417281823
+                    }
+                ]
+            },
+            "cookietest": {
+                "name": "cookietest",
+                "domain": "www.nps.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417281612,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417281608
+                    }
+                ]
+            }
+        }
+    }
+}

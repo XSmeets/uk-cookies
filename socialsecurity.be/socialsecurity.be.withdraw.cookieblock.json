@@ -1,0 +1,127 @@
+{
+    "socialsecurity.be": {
+        "/": {
+            "135b17607d7e78a1a8e9608381a1f46f": {
+                "name": "135b17607d7e78a1a8e9608381a1f46f",
+                "domain": "www.socialsecurity.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170267582,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0ff044120467d62f605d36b8b3df8319",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170267572
+                    }
+                ]
+            },
+            "BIGipServer~SOC~SOC~app028.prd.extranetdc.be_10110": {
+                "name": "BIGipServer~SOC~SOC~app028.prd.extranetdc.be_10110",
+                "domain": "www.socialsecurity.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170267806,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "rd636o00000000000000000000ffff0a00a2f3o10110",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170267806
+                    }
+                ]
+            },
+            "BIGipServer~SOC~SOC~router.prd.paas.socialsecurity.be_80": {
+                "name": "BIGipServer~SOC~SOC~router.prd.paas.socialsecurity.be_80",
+                "domain": "www.socialsecurity.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170267584,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "rd636o00000000000000000000ffff0a008d05o80",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170267582
+                    }
+                ]
+            },
+            "BIGipServer~SOC~SOC~static-egov.prd.extranetdc.be_8100": {
+                "name": "BIGipServer~SOC~SOC~static-egov.prd.extranetdc.be_8100",
+                "domain": "www.socialsecurity.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170261829,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "rd636o00000000000000000000ffff0a00b221o8100",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170261821
+                    }
+                ]
+            },
+            "JSESSIONIDAPP028SIGNIN": {
+                "name": "JSESSIONIDAPP028SIGNIN",
+                "domain": "www.socialsecurity.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170267806,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "YMTnxACukGZ9s6sdhz9fBxfUBlUzd8dzO52-r09py7xSsofERBho!-1906217930!7926191",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170267804
+                    }
+                ]
+            },
+            "cookieBanner": {
+                "name": "cookieBanner",
+                "domain": "www.socialsecurity.be",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726170270187,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728762270,
+                        "expiry": 2592000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726170270185
+                    }
+                ]
+            }
+        }
+    }
+}

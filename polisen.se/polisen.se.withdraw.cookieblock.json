@@ -1,0 +1,37 @@
+{
+    "polisen.se": {
+        "/": {
+            "PolisenConsent": {
+                "name": "PolisenConsent",
+                "domain": "polisen.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726150357026,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757686357.01301,
+                        "expiry": 31536000.013010025,
+                        "value": "%7B%22accepted%22%3Atrue%2C%22timestamp%22%3A%222024-09-12T16%3A12%3A36.0857796%2B02%3A00%22%2C%22versionId%22%3A%22ec4ee2a1573346188901dba95081f5d2%22%2C%22purpose%22%3A%7B%22necessary%22%3Atrue%2C%22statistics%22%3Atrue%2C%22thirdParty%22%3Atrue%7D%7D",
+                        "same_site": "strict",
+                        "timestamp": 1726150357015
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536001.00981903,
+                        "value": "%7B%22accepted%22%3Atrue%2C%22timestamp%22%3A%222024-09-12T16%3A12%3A42.0768581%2B02%3A00%22%2C%22versionId%22%3A%22ec4ee2a1573346188901dba95081f5d2%22%2C%22purpose%22%3A%7B%22necessary%22%3Atrue%7D%7D",
+                        "same_site": "strict",
+                        "timestamp": 1726150363011
+                    }
+                ]
+            }
+        }
+    }
+}

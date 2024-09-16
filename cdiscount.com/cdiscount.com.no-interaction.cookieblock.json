@@ -1,0 +1,151 @@
+{
+    "cdiscount.com": {
+        "/": {
+            "CookieId": {
+                "name": "CookieId",
+                "domain": ".cdiscount.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726079156653,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760207156.642735,
+                        "expiry": 34128000.642735004,
+                        "value": "CookieId=240911202556HTXJIRLX&IsA=0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156651
+                    }
+                ]
+            },
+            "VisitContextCookie": {
+                "name": "VisitContextCookie",
+                "domain": ".cdiscount.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726079156655,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757615156.648397,
+                        "expiry": 31536000.64839697,
+                        "value": "fZBSZyNGUBWTH-KGO9hzc2PUq04THrsOYf8ugoirD1vF--yQgp8v0g",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156655
+                    }
+                ]
+            },
+            "_$dtype": {
+                "name": "_$dtype",
+                "domain": ".cdiscount.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726079156649,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "t:d",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156647
+                    }
+                ]
+            },
+            "mssctse": {
+                "name": "mssctse",
+                "domain": ".cdiscount.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726079156654,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757615156.64823,
+                        "expiry": 31536000.648230076,
+                        "value": "W2dNXeEyrPIpzcNiYmn4ZK6vAQmL3rolAp08GNbSgUWK6at8mrmOkZEc0kAMwHJurTkt0u8W7FQX7v5tdVThOg",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156653
+                    }
+                ]
+            },
+            "tst_bln_cookie_enabled": {
+                "name": "tst_bln_cookie_enabled",
+                "domain": ".cdiscount.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726079156297,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156292
+                    }
+                ]
+            },
+            "visit_baleen_ACM-655d43": {
+                "name": "visit_baleen_ACM-655d43",
+                "domain": ".cdiscount.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726079156303,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726080056.291746,
+                        "expiry": 900.2917459011078,
+                        "value": "yckzSCjrgcPXLztjj944ZXSm7au35RHEXtxNxVpiP-ZOdl__KCGXSjcVEWsYbt6sUx05LgABWgyB2K-2UV-nG8Dfe1XY9YF43GdqMf1HPs4zCtXxbT8e-95N6FZ2yEY_GvX9SdLEzquLcpQsxbzoS35KrJNpTdXroFkrzDc92juRh8BcD9QQfYsJnA7w6vVK_hihSnzv35mg5kE7KOA75LQQ8sn8bDhMnG1Xz7McRiMLl3lSAeZ65Yv6g42vulRQ8UVmFEeWWvRhBWUHkuCpgQ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156298
+                    }
+                ]
+            },
+            "cache_cdn": {
+                "name": "cache_cdn",
+                "domain": "www.cdiscount.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726079156656,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726082740.648589,
+                        "expiry": 3584.6485888957977,
+                        "value": "",
+                        "same_site": "unspecified",
+                        "timestamp": 1726079156656
+                    }
+                ]
+            }
+        }
+    }
+}

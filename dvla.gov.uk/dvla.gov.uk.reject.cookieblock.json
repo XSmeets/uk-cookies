@@ -1,0 +1,92 @@
+{
+    "dvla.gov.uk": {
+        "/": {
+            "TSdcd23dac027": {
+                "name": "TSdcd23dac027",
+                "domain": "dvla.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231349393,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "0897a94fe3ab200087ec9767e624dc310249e8bbe123d6bb06c90877ef21027b61bb4cb25032e8ac085a62204e113000b864930061560c9760d28bb4b840d5b5da731bc5be65307b2ecd697c87aa02ce5d1234186f485232435fdab4c087bdc3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231349381
+                    }
+                ]
+            }
+        }
+    },
+    "gov.uk": {
+        "/": {
+            "cookies_policy": {
+                "name": "cookies_policy",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231349538,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767349,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231349533
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{\"essential\":true,\"settings\":false,\"usage\":false,\"campaigns\":false}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231352403
+                    }
+                ]
+            },
+            "cookies_preferences_set": {
+                "name": "cookies_preferences_set",
+                "domain": "www.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726231352404,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757767352,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231352403
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726231353471
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+{
+    "mfcr.cz": {
+        "/": {
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "mfcr.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060147381,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760620147.380591,
+                        "expiry": 34560000.380590916,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060147381
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{stamp:%27UYv7AJfshbfp17Nn2CWmvt8Bww42ksvte0BA2loRSKfiwcHJ8KPUxQ==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1726060149634%2Cregion:%27gb%27}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060149623
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "{stamp:%27p5DxiCtIhFYy3RNAzsm+Zu+Dh1pBOyn8GjBBid8a5RODeULwKwbgtw==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1726060155204%2Cregion:%27gb%27}",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060155201
+                    }
+                ]
+            },
+            "_pk_id.1.3e70": {
+                "name": "_pk_id.1.3e70",
+                "domain": "mfcr.cz",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726060149846,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760015350,
+                        "expiry": 33955201,
+                        "value": "2afc4df79db66652.1726060150.",
+                        "same_site": "lax",
+                        "timestamp": 1726060149839
+                    }
+                ]
+            },
+            "_pk_ses.1.3e70": {
+                "name": "_pk_ses.1.3e70",
+                "domain": "mfcr.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060149854,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726061949,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726060149849
+                    }
+                ]
+            },
+            "ai_session": {
+                "name": "ai_session",
+                "domain": "mfcr.cz",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060149913,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061949.911968,
+                        "expiry": 1800.9119679927826,
+                        "value": "bELbdHS9LnSrI7Y0GQpw8G|1726060149911|1726060149911",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060149912
+                    }
+                ]
+            },
+            "ai_user": {
+                "name": "ai_user",
+                "domain": "mfcr.cz",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726060149856,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757596149.850675,
+                        "expiry": 31536000.850675106,
+                        "value": "l9kDuiHeRIvX7wiGehWkw1|2024-09-11T13:09:09.850Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060149855
+                    }
+                ]
+            }
+        }
+    }
+}

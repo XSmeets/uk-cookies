@@ -1,0 +1,165 @@
+{
+    "oregon.gov": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".oregon.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417726040,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977726.033426,
+                        "expiry": 34560000.03342605,
+                        "value": "GA1.2.1548451020.1726417726",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726034
+                    }
+                ]
+            },
+            "_ga_2V1N6HCTSH": {
+                "name": "_ga_2V1N6HCTSH",
+                "domain": ".oregon.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417726301,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977726.30113,
+                        "expiry": 34560000.30113006,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726301
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.30125189,
+                        "value": "GS1.2.1726417726.1.0.1726417726.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726302
+                    }
+                ]
+            },
+            "_ga_8VWBKP4KJ1": {
+                "name": "_ga_8VWBKP4KJ1",
+                "domain": ".oregon.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417726299,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760977726.297724,
+                        "expiry": 34560000.29772401,
+                        "value": "GS1.2.1726417726.1.0.1726417726.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726299
+                    }
+                ]
+            },
+            "_gat_default": {
+                "name": "_gat_default",
+                "domain": ".oregon.gov",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726417726042,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726417786,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726041
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".oregon.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726417726041,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726504126,
+                        "expiry": 86400,
+                        "value": "GA1.2.45322271.1726417726",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726040
+                    }
+                ]
+            },
+            "BIGipServer~Oregon~OR-prd-SP-txdc.pool": {
+                "name": "BIGipServer~Oregon~OR-prd-SP-txdc.pool",
+                "domain": "www.oregon.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417723589,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "rd1530o00000000000000000000ffffac1f2149o80",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417723578
+                    }
+                ]
+            }
+        }
+    },
+    "cdn.oregon.gov": {
+        "/": {
+            "orweb": {
+                "name": "orweb",
+                "domain": "cdn.oregon.gov",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726417726686,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "!C17NObp+QNjAd52NGDxpbeLhVDr2jYYMz7LvfzCs/3o5DOH/4kHvqFcX32y4PHbTDkOJHNT0oq8VA9s6iof2Bx+1dZRlRUK+CvDhirZ00Mw=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726417726685
+                    }
+                ]
+            }
+        }
+    }
+}

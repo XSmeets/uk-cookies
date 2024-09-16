@@ -1,0 +1,724 @@
+{
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061215901,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726062115.900312,
+                        "expiry": 900.9003119468689,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061215900
+                    }
+                ]
+            }
+        }
+    },
+    "hit.gemius.pl": {
+        "/": {
+            "Gdyn": {
+                "name": "Gdyn",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061216807,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760189216.804513,
+                        "expiry": 34128000.80451298,
+                        "value": "KlQDBMaGQMGG-RNie81DeUlUssGMXP8cf8ySssX6nsGfGnfQHb2xQjGowOx1G0F6Sssa",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216806
+                    }
+                ]
+            },
+            "Gdynp": {
+                "name": "Gdynp",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061216762,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760189216.758554,
+                        "expiry": 34128000.75855398,
+                        "value": "a7y1droBLQadBVVDh_VST_CEifUaqrRy5YcUqLaJqFv.67",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216761
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.80455589,
+                        "value": "xtdgK_XToZopPxh71gnna0NhGONQzrL9bhj6bpBxtYn.G7",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216807
+                    }
+                ]
+            },
+            "Gtest": {
+                "name": "Gtest",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061216761,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726666016.758463,
+                        "expiry": 604800.7584629059,
+                        "value": "KlStiMXGQMGG-RNie81DeUlUssGMXP8cfRbG",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216760
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".hit.gemius.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061216760,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760189216.758378,
+                        "expiry": 34128000.75837803,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216759
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34128000.804414034,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216805
+                    }
+                ]
+            }
+        }
+    },
+    "indapass.hu": {
+        "/": {
+            "psid": {
+                "name": "psid",
+                "domain": ".indapass.hu",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061216311,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "70c8bb5203f24ce71096a09b7419c7ad",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216310
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "183843ae77cfffeb2ec2290b54b98266",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216311
+                    }
+                ]
+            },
+            "PHPSESSID": {
+                "name": "PHPSESSID",
+                "domain": "indapass.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061216087,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "bf144litm1l9hele2kv1jh32a0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216086
+                    }
+                ]
+            },
+            "challenge": {
+                "name": "challenge",
+                "domain": "indapass.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061216118,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728653216.116732,
+                        "expiry": 2592000.116731882,
+                        "value": "39060",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216117
+                    }
+                ]
+            }
+        }
+    },
+    "index.hu": {
+        "/": {
+            "INX_CHECKER2": {
+                "name": "INX_CHECKER2",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061214611,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760621214.593752,
+                        "expiry": 34560000.59375191,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061214611
+                    }
+                ]
+            },
+            "PHPSESSID": {
+                "name": "PHPSESSID",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061214611,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "pbuhdv2ksptv6kccjpe3aefq6p",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061214610
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726061215733,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760621215.716605,
+                        "expiry": 34560000.71660495,
+                        "value": "GA1.1.1268069525.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215732
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.73936105,
+                        "value": "GA1.2.1268069525.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215739
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.7403121,
+                        "value": "GA1.2.1268069525.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215741
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.91456795,
+                        "value": "GA1.2.1268069525.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215915
+                    }
+                ]
+            },
+            "_ga_7GR3T85C96": {
+                "name": "_ga_7GR3T85C96",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061215729,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760621215.715647,
+                        "expiry": 34560000.71564698,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215728
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.71634793,
+                        "value": "GS1.1.1726061215.1.0.1726061215.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215732
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.82114196,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215821
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.8220911,
+                        "value": "GS1.1.1726061215.1.1.1726061215.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215822
+                    }
+                ]
+            },
+            "_gat": {
+                "name": "_gat",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726061215744,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726061275,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215743
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726061215741,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726147615,
+                        "expiry": 86400,
+                        "value": "GA1.2.1059856373.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215740
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.1059856373.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215741
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.1059856373.1726061216",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215915
+                    }
+                ]
+            },
+            "ao-fpgad": {
+                "name": "ao-fpgad",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061215957,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1759757215,
+                        "expiry": 33696000,
+                        "value": "%7B%22fpcRequired%22%3Afalse%2C%22checkTS%22%3A1726061215956%2C%22domain%22%3A%22index.hu%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726061215956
+                    }
+                ]
+            },
+            "mobile_detect": {
+                "name": "mobile_detect",
+                "domain": ".index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061214603,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726666014.593614,
+                        "expiry": 604800.5936141014,
+                        "value": "desktop",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061214595
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800.6152689457,
+                        "value": "desktop",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215616
+                    }
+                ]
+            },
+            "ident": {
+                "name": "ident",
+                "domain": "index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061216033,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727270816,
+                        "expiry": 1209600,
+                        "value": "66e19aa08a8617285a8b4592",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061216033
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1209600.0342669487,
+                        "value": "66e19aa08a8617295c8b458c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061216035
+                    }
+                ]
+            },
+            "inx_checker2": {
+                "name": "inx_checker2",
+                "domain": "index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061214609,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757597214.593717,
+                        "expiry": 31536000.5937171,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061214603
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000.615336895,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726061215616
+                    }
+                ]
+            },
+            "testcookie": {
+                "name": "testcookie",
+                "domain": "index.hu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061215955,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726061215955
+                    }
+                ]
+            }
+        }
+    },
+    "onesignal.com": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".onesignal.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061215570,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726063015.569745,
+                        "expiry": 1800.5697450637817,
+                        "value": "UzSgIf_1Xm64VXfWI_EGaylG_OhVSzO.Aqz3he4lZYI-1726061215-1.0.1.1-jtqvtQk0ht_Ob4zcCnJfIzHS8Wtf8s3wGszTpf0nd0N6_R.L26vOZU6Ni_ylcAm1wAkh4jlysz5HsndD.Fwn0Q",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061215570
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726061216002,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741613216.002064,
+                        "expiry": 15552000.00206399,
+                        "value": "nkHZOXtW38M",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216002
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726061216004,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741613216.002095,
+                        "expiry": 15552000.002094984,
+                        "value": "CgJHQhIEGgAgJg%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216003
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726061216002,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "rswByPb7ySI",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216002
+                    }
+                ]
+            }
+        }
+    },
+    "indexhu.adocean.pl": {
+        "/": {
+            "ao_cookie_support_check": {
+                "name": "ao_cookie_support_check",
+                "domain": "indexhu.adocean.pl",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061215928,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061217,
+                        "expiry": 2,
+                        "value": "0.8566554753452964",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061215928
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 2,
+                        "value": "0.2747739859342986",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216102
+                    }
+                ]
+            }
+        }
+    },
+    "management.ident.indapass.hu": {
+        "/": {
+            "cemp_ident": {
+                "name": "cemp_ident",
+                "domain": "management.ident.indapass.hu",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726061215983,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760621215.981684,
+                        "expiry": 34560000.98168397,
+                        "value": "66e19aa08a8617295c8b458c",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061215982
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.03211403,
+                        "value": "66e19aa08a8617285a8b4592",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216032
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.29865098,
+                        "value": "66e19aa08a8617df318b45c2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726061216299
+                    }
+                ]
+            }
+        }
+    }
+}

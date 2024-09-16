@@ -1,0 +1,241 @@
+{
+    "theguardian.com": {
+        "/": {
+            "GU_mvt_id": {
+                "name": "GU_mvt_id",
+                "domain": ".theguardian.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726220515241,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1733996515.23421,
+                        "expiry": 7776000.234210014,
+                        "value": "197204",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515235
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.251082897,
+                        "value": "197204",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515251
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.308456898,
+                        "value": "197204",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515309
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.309948921,
+                        "value": "197204",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515310
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 7776000.310971022,
+                        "value": "197204",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515311
+                    }
+                ]
+            },
+            "bwid": {
+                "name": "bwid",
+                "domain": ".theguardian.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726220515511,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757756515.510099,
+                        "expiry": 31536000.510098934,
+                        "value": "idFromPV_toZbrpKD25Nwyr141RbHIA",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726220515510
+                    }
+                ]
+            },
+            "bwid_withoutSameSiteForIncompatibleClients": {
+                "name": "bwid_withoutSameSiteForIncompatibleClients",
+                "domain": ".theguardian.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726220515512,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757756515.510136,
+                        "expiry": 31536000.51013589,
+                        "value": "idFromPV_toZbrpKD25Nwyr141RbHIA",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515511
+                    }
+                ]
+            },
+            "consentDate": {
+                "name": "consentDate",
+                "domain": ".theguardian.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726220531275,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757756531.273881,
+                        "expiry": 31536000.27388096,
+                        "value": "2024-09-13T09:42:11.173Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726220531274
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.237731934,
+                        "value": "2024-09-13T09:42:20.132Z",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726220540244
+                    }
+                ]
+            },
+            "consentUUID": {
+                "name": "consentUUID",
+                "domain": ".theguardian.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726220515720,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757756515.719638,
+                        "expiry": 31536000.71963811,
+                        "value": "af3c2771-9c3f-4c5c-8634-f384fbaf9567",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726220515720
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.273763895,
+                        "value": "af3c2771-9c3f-4c5c-8634-f384fbaf9567_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726220531274
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.237509012,
+                        "value": "af3c2771-9c3f-4c5c-8634-f384fbaf9567_35",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726220540244
+                    }
+                ]
+            },
+            "GU_geo_country": {
+                "name": "GU_geo_country",
+                "domain": "www.theguardian.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726220515246,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515241
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515252
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515309
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515310
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726220515311
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,984 @@
+{
+    "et.nytimes.com": {
+        "/": {
+            "et-ppvid": {
+                "name": "et-ppvid",
+                "domain": ".et.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210781,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726481610.77522,
+                        "expiry": 86400.7752199173,
+                        "value": "https://www.nytimes.com/=dHLA4o1IdeIvKeaN64cr21oE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210780
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 86400.38992404938,
+                        "value": "https://www.nytimes.com/=dHLA4o1IdeIvKeaN64cr21oE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211390
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 86400.57323694229,
+                        "value": "https://www.nytimes.com/=dHLA4o1IdeIvKeaN64cr21oE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211573
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 86400.02906990051,
+                        "value": "https://www.nytimes.com/=dHLA4o1IdeIvKeaN64cr21oE",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395216031
+                    }
+                ]
+            },
+            "sessionActive": {
+                "name": "sessionActive",
+                "domain": ".et.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210778,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726397010.775186,
+                        "expiry": 1800.7751860618591,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210777
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.3898270130157,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211390
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.573184967041,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211573
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.9445049762726,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211945
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.407210111618,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395215408
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800.028678894043,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395216030
+                    }
+                ]
+            },
+            "sessionIndex": {
+                "name": "sessionIndex",
+                "domain": ".et.nytimes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726395210780,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931210.775208,
+                        "expiry": 31536000.775207996,
+                        "value": "1|1726395212863|Kt5buS_jveuZzRFvsr6Q0F|1726395212863",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210779
+                    }
+                ]
+            }
+        }
+    },
+    "nytimes.com": {
+        "/": {
+            "_cb": {
+                "name": "_cb",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211406,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760523211,
+                        "expiry": 34128000,
+                        "value": "DUNoFiCMXgTYBjh122",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211405
+                    }
+                ]
+            },
+            "_cb_svref": {
+                "name": "_cb_svref",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211407,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726397011,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211407
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211408
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211412
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395216424
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395211403,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211402
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211404
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211410
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395216415
+                    }
+                ]
+            },
+            "_chartbeat2": {
+                "name": "_chartbeat2",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726395211407,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760523211,
+                        "expiry": 34128000,
+                        "value": ".1726395211404.1726395211404.1.d8Mo_CG5rgQDXGeRABUUMwTEajMw.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211406
+                    }
+                ]
+            },
+            "_chartbeat4": {
+                "name": "_chartbeat4",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726395218548,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726395278,
+                        "expiry": 60,
+                        "value": "t=CIxFFfFB5wXCBEczVDIGsI3BnCKvs&E=3&x=0&c=0.12&y=11655&w=892",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218547
+                    }
+                ]
+            },
+            "_v__cb_cp": {
+                "name": "_v__cb_cp",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395218548,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726395278,
+                        "expiry": 60,
+                        "value": "spSUnBjSH_RB9nYScBWUfHcTXq21",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218548
+                    }
+                ]
+            },
+            "_v__chartbeat3": {
+                "name": "_v__chartbeat3",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395216417,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760523216,
+                        "expiry": 34128000,
+                        "value": "C_Wi-MB62gj1Df52tl",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395216416
+                    }
+                ]
+            },
+            "fides_consent": {
+                "name": "fides_consent",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395215271,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931215,
+                        "expiry": 31536000,
+                        "value": "%7B%22consent%22%3A%7B%7D%2C%22identity%22%3A%7B%22fides_user_device_id%22%3A%22403d59de-5fbb-44d5-8ffa-ead0eb822237%22%7D%2C%22fides_meta%22%3A%7B%22version%22%3A%220.9.0%22%2C%22createdAt%22%3A%222024-09-15T10%3A13%3A31.268Z%22%2C%22updatedAt%22%3A%222024-09-15T10%3A13%3A35.265Z%22%2C%22consentMethod%22%3A%22accept%22%7D%2C%22tcf_consent%22%3A%7B%22system_consent_preferences%22%3A%7B%7D%2C%22system_legitimate_interests_preferences%22%3A%7B%7D%7D%2C%22fides_string%22%3A%22CQE_WMAQE_WMAGXABBENBHFsAPLAAELAAAAAKIoV_A7FIEFC0Hp2YLsEcAwHQFBAYsABAgbAEMAFiBKQIAQGgkAwBASoNCACCAAACBRBIAEkEAAAAFCgYIABCACIIAAMAABAAAAEAAAQAQAIAAAIAIAgEACQBgIUEEAgmBghAJAAUVAAhAEAAAARACAgAIABAgABABEARAIAAQAAAAAAAAgAAAAAAAMAABAIEAABQAAAIIIAABAAAAAAAAAAAAIKAQTQAEAALgAcAB4AFwAOAAgABkADQAHgAPwAiABHACYAFMAKoAXQAxABoAD8AIQARwAnABRgDAAGGAOcAdwA9gB-gEIAIiARYAjgBJQCUgE0AJ-AVAAxQBrwDiAHUAO2AfYA_4CJwEyAKPAU2AqUBXcC2ALZAXIAu0BeYC-gF_gMEAYsAyEBkgDJgGVAMsAZcA00BuoDiwHHgOfAfaA_YB_YEbwJFATBAoAAAAAA%2C1~61.70.83.89.122.143.144.196.202.230.286.311.320.322.327.413.415.445.491.494.523.540.576.591.802.839.981.1031.1046.1097.1166.1188.1276.1307.1364.1415.1558.1577.1584.1721.1725.1827.1843.1845.1917.1942.1944.1962.2008.2027.2039.2056.2068.2072.2107.2109.2130.2135.2166.2177.2219.2279.2309.2322.2325.2328.2331.2343.2359.2376.2387.2416.2488.2567.2568.2571.2572.2577.2596.2604.2605.2608.2657.2661.2677.2695.2813.2821.2862.2869.2882.2900.2908.2914.2918.2929.2941.2963.2987.3002.3005.3008.3024.3048.3077.3089.3106.3119.3126.3173.3188.3210.3219.3227.3237.3250.3253.3257.3281.3299.3300.4131.7235.14237%22%2C%22tcf_version_hash%22%3A%22ee120afd4ed8%22%7D",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395215266
+                    }
+                ]
+            },
+            "iter_id": {
+                "name": "iter_id",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211607,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760955211.605224,
+                        "expiry": 34560000.605223894,
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhaWQiOiI2NmU2YjM0ZGRhM2ZmODQ0OTAzZGExMzkiLCJjb21wYW55X2lkIjoiNWMwOThiM2QxNjU0YzEwMDAxMmM2OGY5IiwiaWF0IjoxNzI2Mzk1MjEzfQ.dJ30hjUpv-YMpZOubg_znfGoWcWgAb-ST_FhTBOlPMY",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211605
+                    }
+                ]
+            },
+            "nyt-a": {
+                "name": "nyt-a",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210348,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931210.341436,
+                        "expiry": 31536000.34143591,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210342
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.775126934,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210777
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.38965702,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211390
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.573097944,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211573
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.94436407,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395211945
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.407100916,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395215408
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.027906895,
+                        "value": "Kt5buS_jveuZzRFvsr6Q0F",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395216029
+                    }
+                ]
+            },
+            "nyt-b3-traceid": {
+                "name": "nyt-b3-traceid",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210351,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "d71d09d374754c61b5687bba5a6cc2d5",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210351
+                    }
+                ]
+            },
+            "nyt-gdpr": {
+                "name": "nyt-gdpr",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210280,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.49456691742,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218494
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.505415916443,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218505
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.506067991257,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218506
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.510047912598,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218510
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.521244049072,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218521
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.522207021713,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218522
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.5252699852,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218525
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.537261009216,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218537
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.53791999817,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218538
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 21600.54025197029,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395218540
+                    }
+                ]
+            },
+            "nyt-geo": {
+                "name": "nyt-geo",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210350,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726416810.341563,
+                        "expiry": 21600.341562986374,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395210350
+                    }
+                ]
+            },
+            "nyt-jkidd": {
+                "name": "nyt-jkidd",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211249,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931211.243131,
+                        "expiry": 31536000.243130922,
+                        "value": "uid=0&lastRequest=1726395213318&activeDays=%5B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C1%5D&adv=1&a7dv=1&a14dv=1&a21dv=1&lastKnownType=anon&newsStartDate=&entitlements=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211247
+                    }
+                ]
+            },
+            "nyt-purr": {
+                "name": "nyt-purr",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210349,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931210.341544,
+                        "expiry": 31536000.341543913,
+                        "value": "cfhhpnahhudlhulssdds2",
+                        "same_site": "lax",
+                        "timestamp": 1726395210348
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34170000.84756899,
+                        "value": "cfhhcnohhuknhunssgas2",
+                        "same_site": "lax",
+                        "timestamp": 1726395215849
+                    }
+                ]
+            },
+            "purr-cache": {
+                "name": "purr-cache",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211354,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760565211.352771,
+                        "expiry": 34170000.352771044,
+                        "value": "<G_<C_<T0<Tp1_<Tp2_<Tp3_<Tp4_<Tp7_<a0_<K0<S0<r<ua",
+                        "same_site": "lax",
+                        "timestamp": 1726395211353
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34170000.47751093,
+                        "value": "<G_<C_<T0<Tp1_<Tp2_<Tp3_<Tp4_<Tp7_<a0_<K0<S0<r<ua",
+                        "same_site": "lax",
+                        "timestamp": 1726395215478
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34170000.84750891,
+                        "value": "<G_<C_<T0<Tp1_<Tp2_<Tp3_<Tp4_<Tp7_<a0_<K0<S0<r<ua",
+                        "same_site": "lax",
+                        "timestamp": 1726395215849
+                    }
+                ]
+            },
+            "purr-pref-agent": {
+                "name": "purr-pref-agent",
+                "domain": ".nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211355,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760565211.352882,
+                        "expiry": 34170000.35288191,
+                        "value": "<G_<C_<T0<Tp1_<Tp2_<Tp3_<Tp4_<Tp7_<a0_",
+                        "same_site": "lax",
+                        "timestamp": 1726395211355
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34170000.47743893,
+                        "value": "<G_<C_<T1<Tp1a<Tp2a<Tp3a<Tp4a<Tp7a<a0_<Tp_",
+                        "same_site": "lax",
+                        "timestamp": 1726395215478
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34170000.84736395,
+                        "value": "<Gi<C_<T1<Tp1a<Tp2a<Tp3a<Tp4a<Tp7a<a0_<Tp_",
+                        "same_site": "lax",
+                        "timestamp": 1726395215848
+                    }
+                ]
+            },
+            "datadome": {
+                "name": "datadome",
+                "domain": ".www.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211233,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757931211.232149,
+                        "expiry": 31536000.232148886,
+                        "value": "IFyo9DNtOwdJDT5teB9XfvCPnasJ5QbayxBP_JC4oHAR57OfanSMf_rEPXHLfGTgwtWSPlGLazY_b4Aia0OINStPoQQlBimnTe0z~UCyGAy6kVKmuh5tVWDkrZVPQLPs",
+                        "same_site": "lax",
+                        "timestamp": 1726395211232
+                    }
+                ]
+            },
+            "_dd_s": {
+                "name": "_dd_s",
+                "domain": "www.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395210743,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396110743",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395212825
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396110743",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395213745
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396110743",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395214745
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396110743&lock=ed3bfd6c-0c55-451f-8d51-d54e4cf62767",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395215240
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396115240",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395215242
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396115240&lock=3b5631ad-0e93-4ba0-a4b6-9bef6410f227",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395215743
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396115240",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395215745
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396115240&lock=1fd054f5-0b26-48a9-a9b5-cb457a5a5599",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395216746
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396115240",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395216747
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "rum=0&expire=1726396115240",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395217743
+                    }
+                ]
+            },
+            "dd_cookie_test_619b7fb0-036c-4477-a0c9-c541c67f10bc": {
+                "name": "dd_cookie_test_619b7fb0-036c-4477-a0c9-c541c67f10bc",
+                "domain": "www.nytimes.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726395210737,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726395270,
+                        "expiry": 60,
+                        "value": "test",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726395210736
+                    }
+                ]
+            },
+            "dd_testcookie": {
+                "name": "dd_testcookie",
+                "domain": "www.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211143,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726395211142
+                    }
+                ]
+            }
+        }
+    },
+    "a.nytimes.com": {
+        "/": {
+            "jkidd-p": {
+                "name": "jkidd-p",
+                "domain": "a.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211246,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757931211.243036,
+                        "expiry": 31536000.24303603,
+                        "value": "prevPage=&currPage=",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211245
+                    }
+                ]
+            },
+            "jkidd-s": {
+                "name": "jkidd-s",
+                "domain": "a.nytimes.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726395211244,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "referrer=&landing=&start=1726395213318&isNew=1&pageIndex=1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726395211243
+                    }
+                ]
+            }
+        }
+    }
+}

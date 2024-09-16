@@ -1,0 +1,652 @@
+{
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590455,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726331490.454864,
+                        "expiry": 900.454864025116,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726330590455
+                    }
+                ]
+            }
+        }
+    },
+    "id5-sync.com": {
+        "/": {
+            "id5": {
+                "name": "id5",
+                "domain": ".id5-sync.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726330590283,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734106590.282656,
+                        "expiry": 7776000.282655954,
+                        "value": "a87b907c-8956-74b6-b17e-0c70ed73e3b9#1726330590301#1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726330590283
+                    }
+                ]
+            }
+        }
+    },
+    "lesoleil.com": {
+        "/": {
+            "AKA_A2": {
+                "name": "AKA_A2",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330589420,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726334189.406559,
+                        "expiry": 3600.4065589904785,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330589410
+                    }
+                ]
+            },
+            "_cb": {
+                "name": "_cb",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590237,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760458590,
+                        "expiry": 34128000,
+                        "value": "BcbN7WDkF1vgHJoCH",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590236
+                    }
+                ]
+            },
+            "_cb_svref": {
+                "name": "_cb_svref",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590239,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726332390,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590239
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "external",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590244
+                    }
+                ]
+            },
+            "_cbt": {
+                "name": "_cbt",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726330590233,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590233
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590234
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590240
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590247
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "_cbt",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590247
+                    }
+                ]
+            },
+            "_chartbeat2": {
+                "name": "_chartbeat2",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726330590238,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760458590,
+                        "expiry": 34128000,
+                        "value": ".1726330590235.1726330590235.1.D7xYZrDzdejFDN2lcNb3I892ao0.1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590237
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726330590428,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734106590,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726330590427.940033497544313593",
+                        "same_site": "lax",
+                        "timestamp": 1726330590427
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726330590427.940033497544313593",
+                        "same_site": "lax",
+                        "timestamp": 1726330590523
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726330590427.940033497544313593",
+                        "same_site": "lax",
+                        "timestamp": 1726330590601
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726330590427.940033497544313593",
+                        "same_site": "lax",
+                        "timestamp": 1726330590700
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726330590427.940033497544313593",
+                        "same_site": "lax",
+                        "timestamp": 1726330590807
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726330590427.940033497544313593",
+                        "same_site": "lax",
+                        "timestamp": 1726330590880
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726330590266,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760890590.264196,
+                        "expiry": 34560000.26419592,
+                        "value": "GA1.1.1615816923.1726330590",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590265
+                    }
+                ]
+            },
+            "_ga_FDLYVLLX4S": {
+                "name": "_ga_FDLYVLLX4S",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726330590265,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760890590.263967,
+                        "expiry": 34560000.26396704,
+                        "value": "GS1.1.1726330590.1.0.1726330590.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590264
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726330590182,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734106590,
+                        "expiry": 7776000,
+                        "value": "1.1.1019157053.1726330590",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590182
+                    }
+                ]
+            },
+            "_gd1726330590165_sharedId": {
+                "name": "_gd1726330590165_sharedId",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590171,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590171
+                    }
+                ]
+            },
+            "_gd1726330590170_sharedId": {
+                "name": "_gd1726330590170_sharedId",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590176,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590176
+                    }
+                ]
+            },
+            "_pubcid": {
+                "name": "_pubcid",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590172,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741882590,
+                        "expiry": 15552000,
+                        "value": "bd265765-f4b4-4786-958a-3e3a6158cd09",
+                        "same_site": "lax",
+                        "timestamp": 1726330590171
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "bd265765-f4b4-4786-958a-3e3a6158cd09",
+                        "same_site": "lax",
+                        "timestamp": 1726330590178
+                    }
+                ]
+            },
+            "_pubcid_cst": {
+                "name": "_pubcid_cst",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590173,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741882590,
+                        "expiry": 15552000,
+                        "value": "zix7LPQsHA%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726330590172
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "zix7LPQsHA%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726330590178
+                    }
+                ]
+            },
+            "_rdc1726330590164": {
+                "name": "_rdc1726330590164",
+                "domain": ".lesoleil.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726330590169,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726330600,
+                        "expiry": 10,
+                        "value": "writeable",
+                        "same_site": "lax",
+                        "timestamp": 1726330590165
+                    }
+                ]
+            },
+            "RT": {
+                "name": "RT",
+                "domain": ".www.lesoleil.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726330590594,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726935390,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.lesoleil.com&si=4c31eb0f-1faa-445e-851f-0fe811423b8b&ss=m12cnrhc&sl=0&tt=0\"",
+                        "same_site": "lax",
+                        "timestamp": 1726330590593
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.lesoleil.com&si=4c31eb0f-1faa-445e-851f-0fe811423b8b&ss=m12cnrhc&sl=0&tt=0&rl=1\"",
+                        "same_site": "lax",
+                        "timestamp": 1726330590930
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.lesoleil.com&si=4c31eb0f-1faa-445e-851f-0fe811423b8b&ss=m12cnrhc&sl=1&tt=1ki&rl=1&ld=1kj\"",
+                        "same_site": "lax",
+                        "timestamp": 1726330590931
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 604800,
+                        "value": "\"z=1&dm=www.lesoleil.com&si=4c31eb0f-1faa-445e-851f-0fe811423b8b&ss=m12cnrhc&sl=1&tt=1ki&rl=1&ld=1kj&ul=1mq\"",
+                        "same_site": "lax",
+                        "timestamp": 1726330591010
+                    }
+                ]
+            },
+            "_lr_env_src_ats": {
+                "name": "_lr_env_src_ats",
+                "domain": "www.lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590174,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1728922590,
+                        "expiry": 2592000,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590174
+                    }
+                ]
+            },
+            "_lr_retry_request": {
+                "name": "_lr_retry_request",
+                "domain": "www.lesoleil.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726330590174,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726334190,
+                        "expiry": 3600,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726330590173
+                    }
+                ]
+            },
+            "pbjs-unifiedid": {
+                "name": "pbjs-unifiedid",
+                "domain": "www.lesoleil.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726330590346,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1731514590,
+                        "expiry": 5184000,
+                        "value": "%7B%22TDID_LOOKUP%22%3A%22FALSE%22%2C%22TDID_CREATED_AT%22%3A%222024-09-14T16%3A16%3A30%22%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726330590345
+                    }
+                ]
+            },
+            "pbjs-unifiedid_cst": {
+                "name": "pbjs-unifiedid_cst",
+                "domain": "www.lesoleil.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590347,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1731514590,
+                        "expiry": 5184000,
+                        "value": "zix7LPQsHA%3D%3D",
+                        "same_site": "lax",
+                        "timestamp": 1726330590346
+                    }
+                ]
+            }
+        }
+    },
+    "onesignal.com": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".onesignal.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590021,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726332389.901629,
+                        "expiry": 1799.9016289710999,
+                        "value": "igU5vwJBIC8OAQw7c2Edlr4uKjiHGxtWJMajTbjcTgY-1726330589-1.0.1.1-ROVHCZw1S0uN5oyjmiOAvTP5qzAyyDqLzt3PXh0WpJ8wOk8_J_yJlipZOgflqSaLdg__i2.HKOR5A2xD_3Pmxg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726330590021
+                    }
+                ]
+            }
+        }
+    },
+    "region1.google-analytics.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".region1.google-analytics.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726330590473,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734106590.472509,
+                        "expiry": 7776000.472508907,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726330590472
+                    }
+                ]
+            }
+        }
+    }
+}

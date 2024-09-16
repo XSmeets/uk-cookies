@@ -1,0 +1,67 @@
+{
+    "manchester.gov.uk": {
+        "/": {
+            "TestCookie": {
+                "name": "TestCookie",
+                "domain": ".manchester.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233044392,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "Test",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233044385
+                    }
+                ]
+            },
+            "CookieConsent": {
+                "name": "CookieConsent",
+                "domain": "www.manchester.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233044586,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760793044.58533,
+                        "expiry": 34560000.58533001,
+                        "value": "-3",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233044586
+                    }
+                ]
+            },
+            "PHPSESSID": {
+                "name": "PHPSESSID",
+                "domain": "www.manchester.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233044384,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "NBHThN6KuEdaNFUA-k898olntHTOX9coGULsf6frCHAEsQn%2CPXom1AuPkaxXOGeV",
+                        "same_site": "unspecified",
+                        "timestamp": 1726233044374
+                    }
+                ]
+            }
+        }
+    }
+}

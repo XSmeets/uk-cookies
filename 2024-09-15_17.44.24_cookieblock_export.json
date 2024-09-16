@@ -1,0 +1,26 @@
+{
+    "qvc.com": {
+        "/": {
+            "akaalb_ALB_PROD_QVC_US": {
+                "name": "akaalb_ALB_PROD_QVC_US",
+                "domain": "www.qvc.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726415046210,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "~op=LB_PROD_QVC_US:origin_prod_dc20_qvc_com|~rv=81~m=origin_prod_dc20_qvc_com:0|~os=7d9af901dc41048f97fe77a58f69575b~id=edda9046839373e2ec3b11b76361ad8b",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726415046201
+                    }
+                ]
+            }
+        }
+    }
+}

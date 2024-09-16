@@ -1,0 +1,145 @@
+{
+    "whitehouse.gov": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".whitehouse.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419376881,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760979376.87231,
+                        "expiry": 34560000.87230992,
+                        "value": "GA1.1.1095472576.1726419377",
+                        "same_site": "strict",
+                        "timestamp": 1726419376881
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.91223788,
+                        "value": "GA1.1.1095472576.1726419377",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419376914
+                    }
+                ]
+            },
+            "_ga_CSLL4ZEK4L": {
+                "name": "_ga_CSLL4ZEK4L",
+                "domain": ".whitehouse.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419376881,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760979376.872102,
+                        "expiry": 34560000.87210202,
+                        "value": "GS1.1.1726419376.1.0.1726419376.0.0.0",
+                        "same_site": "strict",
+                        "timestamp": 1726419376877
+                    }
+                ]
+            },
+            "_ga_QYSKF9DGS0": {
+                "name": "_ga_QYSKF9DGS0",
+                "domain": ".whitehouse.gov",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726419376913,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760979376.912015,
+                        "expiry": 34560000.91201496,
+                        "value": "GS1.1.1726419376.1.0.1726419376.0.0.0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419376913
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419377232,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741971377.231495,
+                        "expiry": 15552000.231494904,
+                        "value": "mT6viXauHBs",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419377232
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726419377233,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741971377.231536,
+                        "expiry": 15552000.231535912,
+                        "value": "CgJHQhIEGgAgbg%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419377232
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726419377232,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cZnXiQS6vQM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726419377232
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,1736 @@
+<html lang="en"><!--<![endif]--><head>
+	<meta charset="utf-8">
+	<title>Global Affairs Canada – Splash page / Affaires mondiales Canada – Page de garde</title>
+
+    <script type="application/ld+json">
+    {
+      "@context" : "https://schema.org",
+      "@type" : "WebSite",
+      "name" : "International.gc.ca",
+      "url" : "https://www.international.gc.ca/",
+      "alternateName": ["Global Affairs Canada", "Affaires mondiales Canada", "GAC", "AMC"],
+      }
+    }
+  </script>
+
+
+	   <meta content="width=device-width,initial-scale=1" name="viewport">
+	   <meta name="description" content="Welcome / Bienvenue">
+	   <meta name="description" lang="fr" content="Affaires mondiales Canada">
+	   <meta name="dcterms.creator" content="Global Affairs Canada / Affaires mondiales Canada">
+	   <meta name="dcterms.title" content="Global Affairs Canada – Splash page / Affaires mondiales Canada – Page de garde">
+	   <meta name="dcterms.issued" title="W3CDTF" content="2013-06-26">
+	   <meta name="dcterms.modified" title="W3CDTF" content="2023-09-19">
+	   <meta name="dcterms.subject" title="scheme" content="Global Affairs Canada">
+	   <meta name="dcterms.subject" lang="fr" title="scheme" content="Affaires mondiales Canada">
+	   <meta name="dcterms.language" title="ISO639-2" content="eng">
+	   <meta name="dcterms:service" content="GAC-AMC_International">
+	   <meta name="dcterms.accessRights" content="2">  
+        
+		
+		<!--[if gte IE 9 | !IE ]><!-->
+		<link href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/assets/favicon.ico" rel="icon" type="image/x-icon">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link rel="stylesheet" href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/css/theme.min.css">
+		<!--<![endif]-->
+		<link rel="stylesheet" href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/css/messages.min.css">
+		<!--[if lt IE 9]>
+				<link href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/assets/favicon.ico" rel="shortcut icon" />
+				<link rel="stylesheet" href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/css/messages-ie.min.css" />
+				<link rel="stylesheet" href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/css/ie8-theme.min.css" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+				<script src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1//js/ie8-wet-boew.min.js"></script>
+				<![endif]-->
+		<!--[if lte IE 9]>
+				
+				
+				<![endif]-->
+		<noscript><link rel="stylesheet" href="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/css/noscript.min.css" /></noscript>
+
+		<!-- Adobe Analytics RUN PROD 1of2 start -->
+			<script src="//assets.adobedtm.com/be5dfd287373/0127575cd23a/launch-f7c3e6060667.min.js"></script><script src="https://assets.adobedtm.com/extensions/EPef068a8d6dd34a43866d9a80cc98baab/AppMeasurement.min.js" async=""></script><script src="https://assets.adobedtm.com/extensions/EPef068a8d6dd34a43866d9a80cc98baab/AppMeasurement_Module_ActivityMap.min.js" async=""></script><script>
+/*
+* Find most common Personal Identifiable Information (PII) in a string and return either the cleaned string either true/false
+* @param {string} str
+* @param {boolean} toClean
+* @return {string | true | false}
+* @example
+* findPotentialPII( "email:test@test.com, phone:123 123 1234", true, true )
+* returns "email:[REDACTED/CAVIARDÉ], phone:[REDACTED/CAVIARDÉ]",
+* findPotentialPII( "email:test@test.com, phone:123 123 1234", false, false )
+* returns true
+* findPotentialPII( "email:test@test.com, phone:123 123 1234", true, false )
+* returns 'email:, phone:'
+*/
+findPotentialPII = function( str, toClean, bMarker ) {
+
+	if ( typeof str  !== "string" ) {
+		return false;
+	}
+	var regEx = [
+			[ /\d(?:[\s\-\\.\\/]?\d){8,}(?!\d)/ig, "[REDACTED/CAVIARDÉ]" ], //9digits or more pattern
+			[ /\b[A-Za-z]{2}[\s\\.-]*?\d{6}\b/ig, "[REDACTED/CAVIARDÉ]" ], //canadian nr passport pattern
+			[ /\b(?:[a-zA-Z0-9_\-\\.]+)(?:@|%40|%2540)(?:[a-zA-Z0-9_\-\\.]+)\.(?:[a-zA-Z]{2,5})\b/ig, "[REDACTED/CAVIARDÉ]" ], // updated email pattern
+			[ /\b[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d\b/ig, "[REDACTED/CAVIARDÉ]" ], //postal code pattern
+			[ /(?:(username|user)[%20]?([:=]|(%EF%BC%9A))[^\s&]*)/ig, "[REDACTED/CAVIARDÉ]" ], // username patterns
+			[ /(?:(password|pass)[%20]?([:=]|(%EF%BC%9A))[^\s&]*)/ig, "[REDACTED/CAVIARDÉ]" ], // password patterns
+            [ /(?:(pw|login|id|name)[%20]?([:=]|(%EF%BC%9A))[^\s&]*)/ig, "[REDACTED/CAVIARDÉ]" ] // other username /password variations
+		],
+		isFound = false;
+
+	for ( var arr in regEx ) {
+		if ( str.match( regEx[ arr ][ 0 ] ) ) {
+			isFound = true;
+			if ( toClean ) {
+				str = str.replaceAll( regEx[ arr ] [ 0 ], ( bMarker === true ? regEx[ arr ][ 1 ] : "" ) );
+			}
+		}
+	}
+
+	return toClean && isFound ? str : isFound;
+};
+
+// scrub only email/user/pass 
+// slash repaced with hyphen due to folder count in url
+urlPotentialPII = function( str, toClean, bMarker ) {
+
+	if ( typeof str  !== "string" ) {
+		return false;
+	}
+	var regEx = [
+			[ /\b(?:[a-zA-Z0-9_\-\\.]+)(?:@|%40|%2540)(?:[a-zA-Z0-9_\-\\.]+)\.(?:[a-zA-Z]{2,5})\b/ig, "[REDACTED-CAVIARDÉ]" ], // updated email patterns
+           	[ /(?:(username|user)[%20]?([:=]|(%EF%BC%9A))[^\s&]*)/ig, "[REDACTED/CAVIARDÉ]" ], // username patterns
+			[ /(?:(password|pass)[%20]?([:=]|(%EF%BC%9A))[^\s&]*)/ig, "[REDACTED/CAVIARDÉ]" ], // password patterns
+            [ /(?:(pw|login|id|name)[%20]?([:=]|(%EF%BC%9A))[^\s&]*)/ig, "[REDACTED/CAVIARDÉ]" ], // other username /password variations
+            [ /\b(?:[A-Za-z0-9%._+-]+(@|%40|%2540)|\w*gmail\W*com)\b/ig, "[REDACTED/CAVIARDÉ]" ] // gmailcom or gmail.com instances
+		],
+		isFound = false;
+
+	for ( var arr in regEx ) {
+		if ( str.match( regEx[ arr ][ 0 ] ) ) {
+			isFound = true;
+			if ( toClean ) {
+				str = str.replaceAll( regEx[ arr ] [ 0 ], ( bMarker === true ? regEx[ arr ][ 1 ] : "" ) );
+			}
+		}
+	}
+
+	return toClean && isFound ? str : isFound;
+};
+</script><script>
+// allowlist/blocklist 
+
+/*
+ * Domain allowlist and domain specific settings
+*/
+
+//make sure to update thisDomain with nulls!!!
+_satellite.gcCustom = {
+      domain_blocklist: [
+      '/analytique-analytics/',
+      'checkingvisa.com',
+      '/naics/2017/v3/',
+      '/gol-ged/awsc/amss/browser/check',
+      '/gol-ged/awsc/amss/enrol/loginCheck',
+      '/gol-ged/awsc/amss/enrol/logincheck',
+      'beta.buyandsell.gc.ca/standing-offers-and-supply-arrangements-application/my-workspace/user-management/',
+      'beta.achatsetventes.gc.ca/application-d-offres-a-commandes-et-d-arrangements-en-matiere-d-approvisionnement/mon-espace-travail/gestion-des-utilisateurs/',
+      'gol-ecas-dev.ca.gc.ca/ecas/viewcasehistory.do',
+      'services3.cic.gc.ca/ecas/viewcasehistory.do',
+      'buyandsell.gc.ca/standing-offers-and-supply-arrangements-application/my-workspace/user-management/',
+      'achatsetventes.gc.ca/application-d-offres-a-commandes-et-d-arrangements-en-matiere-d-approvisionnement/mon-espace-travail/gestion-des-utilisateurs/',
+      'www.rncanengagenrcan.ca/en/user/',
+      'www.rncanengagenrcan.ca/fr/user/',
+      'intranet.nrcan.gc.ca/user/login',
+      'intranet.nrcan.gc.ca/user',
+      'intranet.nrcan.gc.ca/node/add/job',
+      'intranet.rncan.gc.ca/user/login',
+      'intranet.rncan.gc.ca/user',
+      'intranet.rncan.gc.ca/node/add/job',
+    ],
+    protocol_blocklist: ['javascript:', 'mailto:', 'tel:', 'blob:', 'data:'],
+
+    /*Follow this syntax for adding items to the allowlist
+    Double check and confirm you are adding to the STAGE or LIVE allowlist
+    Double check spelling and syntax for errors
+    */
+    thisDomain: { AppName: null, LoginStatus: null },
+    domain_allowlist: {
+        stage: {
+          //'...' : {AppName : null, LoginStatus : null}
+          //--- all items MUST inlcude a comma in order to append the next line item, except the last item does not require a comma
+            'www.canada.ca': { AppName: 'canada', LoginStatus: '2' },
+            'canada-aem-s3-stage.adobecqms.net': { AppName: 'canada', LoginStatus: '2' }, // testing
+            'www.tbs-sct.canada.ca': { AppName: null, LoginStatus: null }, // testing   
+            'performance-dev.tbs.alpha.canada.ca': { AppName: null, LoginStatus: null }, // testing   
+            'www.international.gc.ca': { AppName: null, LoginStatus: null }, // testing   
+            'natural-resources.canada.ca': { AppName: null, LoginStatus: null }, // testing   
+            'inspection.canada.ca': { AppName: null, LoginStatus: null }, // testing   
+          //Office of the Correctional Investigator
+            'www.oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+            'oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+           //MSCA-MEIIO
+            'srv241-s2.lab.hrdc-drhc.gc.ca': { AppName: null, LoginStatus: null },
+            //Booking Tool
+            'apps.canada.ca': { AppName: null, LoginStatus: null },
+            'gcbooking.adobecqms.net': { AppName: null, LoginStatus: null },
+           //Employment Social Development Canada
+            'cv19benefits-appservice-staging.azurewebsites.net' : { AppName: null, LoginStatus: null },
+            'cv19benefits-appservice-dev.azurewebsites.net' : { AppName: null, LoginStatus: null },
+            'woodpecker.eastus.cloudapp.azure.com' : { AppName: null, LoginStatus: null },
+            'lonewolf.eastus.cloudapp.azure.com' : { AppName: null, LoginStatus: null }, 
+            'alphasite.dts-stn.com' : { AppName: null, LoginStatus: null },
+            'vc-frontend-static-juane.netlify.app' : { AppName: null, LoginStatus: null }, 
+            'virtualassistant-main.bdm-dev.dts-stn.com' : { AppName: null, LoginStatus: null },
+            'dts-stn.github.io' : { AppName: null, LoginStatus: null },
+            'virtualassistant.bdm-dev.dts-stn.com' : { AppName: null, LoginStatus: null },
+            'sc-digital-centre-dev.bdm-dev.dts-stn.com' : { AppName: null, LoginStatus: null },
+            'profile-management-sandy.vercel.app' : { AppName: null, LoginStatus: null },
+            'canadian-old-age-benefits-estimator.vercel.app' : { AppName: null, LoginStatus: null },
+            'www.20.63.98.167' : { AppName: null, LoginStatus: null },
+            '20.63.98.167' : { AppName: null, LoginStatus: null },
+            'www.analytics-analytique.tbs.alpha.canada.ca' : { AppName: null, LoginStatus: null },
+            'analytics-analytique.tbs.alpha.canada.ca' : { AppName: null, LoginStatus: null },
+            'canadadental-sandbox.powerappsportals.com' : { AppName: null, LoginStatus: null },
+            'app-servicecanadalabs-dev.azurewebsites.net' : { AppName: null, LoginStatus: null },
+            'benefits-navigator-newsfeed.azurewebsites.net' : { AppName: null, LoginStatus: null },
+          //Statistics Canada
+            'www.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www144.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www12.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www23.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www35.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'geosuite.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www65.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www66.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www150.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www120.statcan.gc.ca': { AppName: null, LoginStatus: null },//Old Site Search
+            'www5.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'web2-test1.wcms.statcan.ca': { AppName: null, LoginStatus: null },
+            'qa-p-es-ui01.stcpaz.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'wwwqa.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'stc-ndm-qa-pc2.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'information-energie.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'information-energie.canada.ca': { AppName: null, LoginStatus: null },
+            'energy-information.canada.ca': { AppName: null, LoginStatus: null },
+            'census.gc.ca': { AppName: null, LoginStatus: null },
+            'recensement.gc.ca': { AppName: null, LoginStatus: null },
+            'geoprod.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'portal.covid.cloud.statcan.ca': { AppName: null, LoginStatus: null },
+            'cancer-data.canada.ca': { AppName: null, LoginStatus: null },
+            'donnees-cancer.canada.ca': { AppName: null, LoginStatus: null },
+            'www159.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www160.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'test.cloud.statcan.ca': { AppName: null, LoginStatus: null },
+            'stc-ndm-new-qa-pc2.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'cancer-dev.stc.ca ': { AppName: null, LoginStatus: null },
+            'transport-dev.statcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www159-dev.stc.ca': { AppName: null, LoginStatus: null },
+           //Public Services Procurement Canada 
+            'buyandsell.gc.ca': { AppName: null, LoginStatus: null },
+            'beta.buyandsell.gc.ca': { AppName: null, LoginStatus: null },
+            'beta.achatsetventes.gc.ca': { AppName: null, LoginStatus: null },
+            'content.buyandsell.gc.ca': { AppName: null, LoginStatus: null },
+            'contenu.achatsetventes.gc.ca': { AppName: null, LoginStatus: null },
+            'webdev02.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'staging.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            'm8-test.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            'm8-uat.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            'm8-dev-collab.achatscanadabuys.ca': { AppName: null, LoginStatus: null },
+            'geobatiments-dev.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobatiments-geobuildings-dev.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobuildings-dev.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobatiments-uat.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobuildings-uat.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobatiments-geobuildings-uat.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'tplus-pp.btb.gc.ca': { AppName: null, LoginStatus: null },
+            'www.tplus-pp.btb.gc.ca': { AppName: null, LoginStatus: null },
+            'ont-intradev.pwgsc-tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.ont-intradev.pwgsc-tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'ont-extradev.pwgsc-tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.ont-extradev.pwgsc-tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'ont-internetdev.pwgsc-tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.ont-internetdev.pwgsc-tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'ont-internetdev.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.ont-internetdev.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'dev-gaz.ncr.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.dev-gaz.ncr.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet-uat.que.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet-uat.que.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet-uat.que.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet-uat.que.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet-dev.que.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet-dev.que.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet-dev.que.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet-dev.que.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'test.publications.gc.ca': { AppName: null, LoginStatus: null },
+            'www.test.publications.gc.ca': { AppName: null, LoginStatus: null },
+            'webdev01.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.webdev01.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'dev-webpubrcmp.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'gclp9-pp.btb.gc.ca': { AppName: null, LoginStatus: null },
+           //Global Affairs Canada
+            'www.international.gc.ca': { AppName: null, LoginStatus: null },
+            'international.gc.ca': { AppName: null, LoginStatus: null },
+            'w05.international.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intra': { AppName: null, LoginStatus: null },
+            'intra': { AppName: null, LoginStatus: null },
+            'intra.signet.international.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intra.signet.international.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet': { AppName: null, LoginStatus: null },
+            'intranet': { AppName: null, LoginStatus: null },
+            'www.travel.gc.ca': { AppName: null, LoginStatus: null },
+            'www.voyage.gc.ca': { AppName: null, LoginStatus: null },
+            'voyage.gc.ca': { AppName: null, LoginStatus: null },
+            'www.tradecommissioner.gc.ca': { AppName: null, LoginStatus: null },
+            'tradecommissioner.gc.ca': { AppName: null, LoginStatus: null },
+            'www.deleguescommerciaux.gc.ca': { AppName: null, LoginStatus: null },
+            'deleguescommerciaux.gc.ca': { AppName: null, LoginStatus: null },
+            'www.educanada.ca': { AppName: null, LoginStatus: null },
+            'educanada.ca': { AppName: null, LoginStatus: null },
+            'www.core-ombuds.canada.ca': { AppName: null, LoginStatus: null },
+            'core-ombuds.canada.ca': { AppName: null, LoginStatus: null },
+            'dv05.international.gc.ca': { AppName: null, LoginStatus: null },
+            'www.dv05.international.gc.ca': { AppName: null, LoginStatus: null },
+            'dubai.d.r.dfait-maeci.gc.ca': { AppName: null, LoginStatus: null },
+            'www.dubai.d.r.dfait-maeci.gc.ca': { AppName: null, LoginStatus: null },
+            'expo2025.canada.ca': { AppName: null, LoginStatus: null },
+            'www.expo2025.canada.ca': { AppName: null, LoginStatus: null },
+            'international.canada.ca': { AppName: null, LoginStatus: null },
+            'core.canada.ca': { AppName: null, LoginStatus: null },
+            'ocre.canada.ca': { AppName: null, LoginStatus: null },
+           //Natural Resources Canada
+            'www.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.esrfuns.org': { AppName: null, LoginStatus: null }, 
+            'esrfuns.org': { AppName: null, LoginStatus: null }, 
+            'www.fondsee.org': { AppName: null, LoginStatus: null }, 
+            'fondsee.org': { AppName: null, LoginStatus: null }, 
+            'www.apap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'apap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.paap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'paap.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.npa.gc.ca': { AppName: null, LoginStatus: null }, 
+            'npa.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.mpmo.gc.ca': { AppName: null, LoginStatus: null }, 
+            'mpmo.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.dev.nrcan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.nrcan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.dev.rncan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.rncan.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.npa.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.esrfunds.org': { AppName: null, LoginStatus: null }, 
+            'dev.mpmo.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.fondsee.org': { AppName: null, LoginStatus: null }, 
+            'dev.bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'dev.rncanengagenrcan.ca': { AppName: null, LoginStatus: null }, 
+            'dev.minescanada.ca': { AppName: null, LoginStatus: null }, 
+            'dev.equalby30.org': { AppName: null, LoginStatus: null },
+            'stage.geo.ca': { AppName: null, LoginStatus: null }, 
+            's-edm-athos.nrn.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            's-bsc-geoscandev.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            's-bsc-vdi609150.nrn.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'dev.geoscan.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'uat-osdp-psdo.canada.ca': { AppName: null, LoginStatus: null },          
+            'www.geo.ca': { AppName: null, LoginStatus: null }, //testing
+            'geo.ca': { AppName: null, LoginStatus: null }, //testing
+            'test.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.test.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.test.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet.test.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.test.rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet.test.rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'app-website-cwfis-dev.azurewebsites.net': { AppName: null, LoginStatus: null },
+            'osdp-psdo.canada.ca': { AppName: null, LoginStatus: null },   
+            'cms-test.osdp-psdo.canada.ca': { AppName: null, LoginStatus: null },
+            'ostr-frontend-sandbox.azure.cloud.nrcan-rncan.gc.ca': { AppName: null, LoginStatus: null },
+           //Agriculture and Agri Food Canada
+            'www.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agr.gc.ca': { AppName: null, LoginStatus: null },
+            'siswebdev.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'cms-dev.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'cms-test.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agr-wcag.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'www-tst.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'www.agriculture-canada-uat.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agriculture-canada-uat.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'cansvmn001.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agr-qa.agr.gc.ca': { AppName: null, LoginStatus: null },
+           //Canadian Food Inspection Agency
+            'apps.merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'active.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.apps.merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.active.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'wwwqa.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'inspection.canada.ca': { AppName: null, LoginStatus: null },
+            'www.notification-dev.inspection.canada.ca': { AppName: null, LoginStatus: null },
+            'notification-dev.inspection.canada.ca': { AppName: null, LoginStatus: null },
+           //Public Safety
+            'beta.infomedia.gc.ca': { AppName: null, LoginStatus: null },
+            'psdev': { AppName: null, LoginStatus: null },
+            'gpdev': { AppName: null, LoginStatus: null },
+            'ecdev': { AppName: null, LoginStatus: null },
+            'icdev': { AppName: null, LoginStatus: null },
+            'infomediadev': { AppName: null, LoginStatus: null },          
+            'ercdev': { AppName: null, LoginStatus: null }, 
+          //Correctional Investigator Canada
+             //Removed
+          //Public Service Commission
+            'intracom': { AppName: null, LoginStatus: null },
+            'intradev': { AppName: null, LoginStatus: null },
+            'extranet.psc-cfp.gc.ca': { AppName: null, LoginStatus: null },
+            'devextranet.psc-cfp.gc.ca': { AppName: null, LoginStatus: null },
+            //Library Archives Canada
+            'dev-www.bac-lac.gc.ca': { AppName: null, LoginStatus: null },
+            'dev2-www.bac-lac.gc.ca': { AppName: null, LoginStatus: null },
+            'dev-collection-search.bac-lac.gc.ca': { AppName: null, LoginStatus: null },
+            'www.dev-collection-search.bac-lac.gc.ca': { AppName: null, LoginStatus: null },
+           //Immigration, Refugees and Citizenship Canada
+            'www.cic.gc.ca': { AppName: null, LoginStatus: null },
+            'cic.gc.ca': { AppName: null, LoginStatus: null },
+            'ircc.canada.ca': { AppName: null, LoginStatus: null },
+            'apps.ci.gc.ca': { AppName: null, LoginStatus: null },
+          //Treasury Board of Canada Secretariat
+            'staging.open.canada.ca': { AppName: null, LoginStatus: null },
+            'search-staging.open.canada.ca': { AppName: null, LoginStatus: null },
+            'staging.atip-aiprp.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'uat.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'dev.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'uat.tbs-sct.canada.ca': { AppName: null, LoginStatus: null },
+            'www.uat.tbs-sct.canada.ca': { AppName: null, LoginStatus: null },
+            'www.deploy-preview-102--blog-tbs.netlify.app': { AppName: null, LoginStatus: null },
+            'deploy-preview-102--blog-tbs.netlify.app': { AppName: null, LoginStatus: null },
+            'www.deploy-preview-102--blogue-sct.netlify.app': { AppName: null, LoginStatus: null },
+            'deploy-preview-102--blogue-sct.netlify.app': { AppName: null, LoginStatus: null },
+            'deploy-preview-172--systeme-conception-canada-ca.netlify.ca/test': { AppName: null, LoginStatus: null },
+            'www.deploy-preview-172--systeme-conception-canada-ca.netlify.ca/test': { AppName: null, LoginStatus: null },
+            'deploy-preview-284--design-system-canada-ca.netlify.ca/test': { AppName: null, LoginStatus: null },
+            'www.deploy-preview-284--design-system-canada-ca.netlify.ca/test': { AppName: null, LoginStatus: null },
+            'uat.infosite.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'uat.solo.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'www.uat.solo.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'uat.hrdatahub-centrededonneesrh.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'www.uat.hrdatahub-centrededonneesrh.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'uat.hranalytics-analytiquerh.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'www.uat.hranalytics-analytiquerh.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+          //Impact Assessment Agency
+            'elearning-iaac-aeic.dev.ec.gc.ca': { AppName: null, LoginStatus: null },
+            'ceaa.dev.ec.gc.ca': { AppName: null, LoginStatus: null },
+            'ceaa.qa.ec.gc.ca': { AppName: null, LoginStatus: null },
+          //Canada Revenue Agency
+            'performance.alpha.canada.ca': { AppName: null, LoginStatus: null },
+          //Procurement Ombudsman
+            'dev.boa-opo.gc.ca': { AppName: null, LoginStatus: null },
+            'www.dev.boa-opo.gc.ca': { AppName: null, LoginStatus: null },
+            'xterra3w2k16.dev.ad.itsso-ospti.gc.ca': { AppName: null, LoginStatus: null },
+            'www.xterra3w2k16.dev.ad.itsso-ospti.gc.ca': { AppName: null, LoginStatus: null },
+          //Communications Security Establishment
+            'cccs-uat.web.app.cse-cst.gc.ca': { AppName: null, LoginStatus: null },
+            'cse-cst-uat.web.app.cse-cst.gc.ca': { AppName: null, LoginStatus: null },
+            'getcybersafe-uat.web.app.cse-cst.gc.ca': { AppName: null, LoginStatus: null },
+            'pensezcybersecurite-uat.web.app.cse-cst.gc.ca': { AppName: null, LoginStatus: null },
+          // Health Canada
+            'www.rsams.dev.cloud.openplus.ca': { AppName: null, LoginStatus: null },
+            'rsams.dev.cloud.openplus.ca': { AppName: null, LoginStatus: null },
+            'food-guide-stage.hpfb-dgpsa.ca': { AppName: null, LoginStatus: null },
+            'cfg-qa.hres.ca': { AppName: null, LoginStatus: null },
+          //Shared Service Canada
+            'www.test-service.ssc-spc.gc.ca': { AppName: null, LoginStatus: null },
+            'test-service.ssc-spc.gc.ca': { AppName: null, LoginStatus: null },
+          //Office of the Superintendent of Financial Institutions
+            'www.web-dev.osfi-bsif.gc.ca': { AppName: null, LoginStatus: null },
+            'web-dev.osfi-bsif.gc.ca': { AppName: null, LoginStatus: null },
+          //Canada Economic Development for Quebec Regions
+            'decstaging.etcodev.tgiprojects.com': { AppName: null, LoginStatus: null },
+            'www.decstaging.etcodev.tgiprojects.com': { AppName: null, LoginStatus: null },
+          //Elections Canada
+            'EC9STVWBPFPI01': { AppName: null, LoginStatus: null },
+            'ec9stvwbpfpi01.elections.ca': { AppName: null, LoginStatus: null },
+            'enr.test.elections.ca': { AppName: null, LoginStatus: null },
+            'ispdevwww.elections.ca': { AppName: null, LoginStatus: null },
+            'www.test.elections.ca': { AppName: null, LoginStatus: null },
+          //Social Security Tribunal of Canada
+            'sst-stage.stage.atssc-scdata.gc.ca': { AppName: null, LoginStatus: null },
+      
+        },
+        live: {
+        //'...' : {AppName : null, LoginStatus : null}
+            //Page Analytics Tool
+            'performance.alpha.canada.ca': {AppName : null, LoginStatus : null},
+            //Employment Social Development Canada
+            'covid-benefits.alpha.canada.ca': {AppName : null, LoginStatus : null},
+            'covid-prestations.alpha.canada.ca': {AppName : null, LoginStatus : null},
+            'alpha.service.canada.ca': {AppName : null, LoginStatus : null},
+            'dpl-bmd.alpha.service.canada.ca': {AppName : null, LoginStatus : null},
+            'benefits-navigator-newsfeed.azurewebsites.net': {AppName : null, LoginStatus : null},
+            'digital.canada.ca': {AppName : null, LoginStatus : null},
+            'numerique.canada.ca': {AppName : null, LoginStatus : null},
+            //Office of the Correctional Investigator
+            'www.oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+            'oci-bec.gc.ca': { AppName: null, LoginStatus: null },
+            // Natural Resources Canada
+            'osdp-cumulative-effects.canada.ca': { AppName: null, LoginStatus: null },
+            'psdo-effets-cumulatifs.canada.ca': { AppName: null, LoginStatus: null },
+          //Immigration Refugee Canada
+            'www.cic.gc.ca': { AppName: null, LoginStatus: null },
+            'cic.gc.ca': { AppName: null, LoginStatus: null },
+            'ircc.canada.ca': { AppName: null, LoginStatus: null },
+           //Natural Resources Canada
+            'www.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'www.rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'rncan.gc.ca': { AppName: null, LoginStatus: null },
+            'npa.gc.ca': { AppName: null, LoginStatus: null },
+            'apn.gc.ca': { AppName: null, LoginStatus: null }, 
+            'mpmo.gc.ca': { AppName: null, LoginStatus: null },  
+            'bggp.gc.ca': { AppName: null, LoginStatus: null }, 
+            'www.esrfunds.org': { AppName: null, LoginStatus: null }, 
+            'www.fondsee.org': { AppName: null, LoginStatus: null },
+			'www.rncanengagenrcan.ca': { AppName: null, LoginStatus: null },
+			'www.minescanada.ca': { AppName: null, LoginStatus: null },
+			'www.equalby30.org': { AppName: null, LoginStatus: null },  
+            'nrcan.canada.ca': { AppName: null, LoginStatus: null },
+            'www.nrcan.canada.ca': { AppName: null, LoginStatus: null },
+            'rncan.canada.ca': { AppName: null, LoginStatus: null },
+            'www.rncan.canada.ca': { AppName: null, LoginStatus: null },
+            'natural-resources.canada.ca': { AppName: null, LoginStatus: null },
+            'www.natural-resources.canada.ca': { AppName: null, LoginStatus: null },
+            'ressources-naturelles.canada.ca': { AppName: null, LoginStatus: null },
+            'www.ressources-naturelles.canada.ca': { AppName: null, LoginStatus: null },
+            'major-projects.canada.ca': { AppName: null, LoginStatus: null },
+            'www.major-projects.canada.ca': { AppName: null, LoginStatus: null },
+            'grands-projets.canada.ca': { AppName: null, LoginStatus: null },
+            'www.grands-projets.canada.ca': { AppName: null, LoginStatus: null },
+            'northern-pipeline.canada.ca': { AppName: null, LoginStatus: null },
+            'www.northern-pipeline.canada.ca': { AppName: null, LoginStatus: null },
+            'pipe-line-nord.canada.ca': { AppName: null, LoginStatus: null },
+            'www.pipe-line-nord.canada.ca': { AppName: null, LoginStatus: null },
+            'osdp-psdo.canada.ca': { AppName: null, LoginStatus: null },
+            'www.geo.ca': { AppName: null, LoginStatus: null },
+            'geo.ca': { AppName: null, LoginStatus: null },
+            'intranet.nrcan.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.rncan.gc.ca': { AppName: null, LoginStatus: null },
+          //Treasury Board of Canada Secretariat
+            'open.canada.ca': { AppName: null, LoginStatus: null },
+            'search.open.canada.ca': { AppName: null, LoginStatus: null },
+            'ouvert.canada.ca': { AppName: null, LoginStatus: null },
+            'rechercher.ouvert.canada.ca': { AppName: null, LoginStatus: null },
+            'www.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+            'www.tbs-sct.canada.ca': { AppName: null, LoginStatus: null },
+            'infosite.tbs-sct.gc.ca': { AppName: null, LoginStatus: null },
+         //Public Safety
+            'www.publicsafety.gc.ca': { AppName: null, LoginStatus: null },
+            'www.securitepublique.gc.ca': { AppName: null, LoginStatus: null },
+            'www.getprepared.gc.ca': { AppName: null, LoginStatus: null },
+            'www.preparez-vous.gc.ca': { AppName: null, LoginStatus: null },
+            'www.erc-cee.gc.ca': { AppName: null, LoginStatus: null },
+            'infocentral': { AppName: null, LoginStatus: null },
+            'infocentrale': { AppName: null, LoginStatus: null },
+          //Impact Assessment Agency
+            'www.iaac-aeic.gc.ca': { AppName: null, LoginStatus: null },
+            'iaac-aeic.gc.ca': { AppName: null, LoginStatus: null },
+            'www.aeic-iaac.gc.ca': { AppName: null, LoginStatus: null },
+            'aeic-iaac.gc.ca': { AppName: null, LoginStatus: null },
+            'elearning.iaac-aeic.gc.ca': { AppName: null, LoginStatus: null },
+            'www.elearning.iaac-aeic.gc.ca': { AppName: null, LoginStatus: null },
+            'www.apprentissage-en-ligne.aeic-iaac.gc.ca': { AppName: null, LoginStatus: null },
+            'apprentissage-en-ligne.aeic-iaac.gc.ca': { AppName: null, LoginStatus: null },
+          //Agriculture and Agri Food Canada
+            'www.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agr.gc.ca': { AppName: null, LoginStatus: null },
+            'sis.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agrisource.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'agriculture.canada.ca': { AppName: null, LoginStatus: null },
+            'www.agriculture.canada.ca': { AppName: null, LoginStatus: null },
+            'www.aimis-simia.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'aimis-simia.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'www.aimis-simia-cdic-ccil.agr.gc.ca': { AppName: null, LoginStatus: null },
+            'aimis-simia-cdic-ccil.agr.gc.ca': { AppName: null, LoginStatus: null },
+          //Global Affairs Canada
+            'www.intra': { AppName: null, LoginStatus: null },
+            'intra': { AppName: null, LoginStatus: null },
+            'www.intranet': { AppName: null, LoginStatus: null },
+            'intranet': { AppName: null, LoginStatus: null },
+            'www.international.gc.ca': { AppName: null, LoginStatus: null },
+            'international.gc.ca': { AppName: null, LoginStatus: null },
+            'www.travel.gc.ca': { AppName: null, LoginStatus: null },
+            'travel.gc.ca': { AppName: null, LoginStatus: null },
+            'www.voyage.gc.ca': { AppName: null, LoginStatus: null },
+            'voyage.gc.ca': { AppName: null, LoginStatus: null },
+            'www.tradecommissioner.gc.ca': { AppName: null, LoginStatus: null },
+            'tradecommissioner.gc.ca': { AppName: null, LoginStatus: null },
+            'www.deleguescommerciaux.gc.ca': { AppName: null, LoginStatus: null },
+            'deleguescommerciaux.gc.ca': { AppName: null, LoginStatus: null },
+            'www.educanada.ca': { AppName: null, LoginStatus: null },
+            'educanada.ca': { AppName: null, LoginStatus: null },
+            'www.core-ombuds.canada.ca': { AppName: null, LoginStatus: null },
+            'core-ombuds.canada.ca': { AppName: null, LoginStatus: null },
+            'www.ocre-ombuds.canada.ca': { AppName: null, LoginStatus: null },
+            'ocre-ombuds.canada.ca': { AppName: null, LoginStatus: null },
+            'www.intranet.signet.international.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.signet.international.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intra.signet.international.gc.ca': { AppName: null, LoginStatus: null },
+            'intra.signet.international.gc.ca': { AppName: null, LoginStatus: null },
+            'international.canada.ca': { AppName: null, LoginStatus: null },
+            'w05.international.gc.ca': { AppName: null, LoginStatus: null },
+          //Public Services Procurement Canada
+            'www.noslangues-ourlanguages.gc.ca': { AppName: null, LoginStatus: null },
+            'noslangues-ourlanguages.gc.ca': { AppName: null, LoginStatus: null },
+            'www.btb.termiumplus.gc.ca': { AppName: null, LoginStatus: null },
+            'btb.termiumplus.gc.ca': { AppName: null, LoginStatus: null },
+            'canadagazette.gc.ca': { AppName: null, LoginStatus: null },
+            'www.canadagazette.gc.ca': { AppName: null, LoginStatus: null },
+            'gazette.gc.ca': { AppName: null, LoginStatus: null },
+            'www.gazette.gc.ca': { AppName: null, LoginStatus: null },
+            'www.geobatiments-geobuildings.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobatiments-geobuildings.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobatiments.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.geobatiments.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'geobuildings.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.geobuildings.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.que.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet.que.tpsgc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.que.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet.que.pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'intranet.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.intranet.tpsgc-pwgsc.gc.ca': { AppName: null, LoginStatus: null },
+            'www.publications.gc.ca': { AppName: null, LoginStatus: null },
+            'publications.gc.ca': { AppName: null, LoginStatus: null },
+            'rcmp-grc.pension.gc.ca': { AppName: null, LoginStatus: null },
+          //Library and Archives Canada
+            'library-archives.canada.ca': { AppName: null, LoginStatus: null },
+            'www.library-archives.canada.ca': { AppName: null, LoginStatus: null },
+            'bibliotheque-archives.canada.ca': { AppName: null, LoginStatus: null },
+            'www.bibliotheque-archives.canada.ca': { AppName: null, LoginStatus: null },
+            'recherche-collection-search.bac-lac.gc.ca': { AppName: null, LoginStatus: null },
+          //OPO
+            'www.opo-boa.gc.ca': { AppName: null, LoginStatus: null },
+            'opo-boa.gc.ca': { AppName: null, LoginStatus: null },
+            'secure.opo-boa.gc.ca': { AppName: null, LoginStatus: null },
+            'www.secure.opo-boa.gc.ca': { AppName: null, LoginStatus: null },
+          //Communications Security Establishment
+            'www.cse-cst.gc.ca': { AppName: null, LoginStatus: null },
+            'cse-cst.gc.ca': { AppName: null, LoginStatus: null },
+            'www.cyber.gc.ca': { AppName: null, LoginStatus: null },
+            'cyber.gc.ca': { AppName: null, LoginStatus: null },
+            'www.getcybersafe.gc.ca': { AppName: null, LoginStatus: null },
+            'getcybersafe.gc.ca': { AppName: null, LoginStatus: null },
+            'www.pensezcybersecurite.gc.ca': { AppName: null, LoginStatus: null },
+            'pensezcybersecurite.gc.ca': { AppName: null, LoginStatus: null },
+          //Public Service Commission
+            'extranet.psc-cfp.gc.ca': { AppName: null, LoginStatus: null },
+            'www.extranet.psc-cfp.gc.ca': { AppName: null, LoginStatus: null },
+            'intracom': { AppName: null, LoginStatus: null },
+            'www.intracom': { AppName: null, LoginStatus: null },
+          //Canadian Food Inspection Agency
+            'active.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'apps.merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'inspection.canada.ca': { AppName: null, LoginStatus: null },
+            'inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'notification.inspection.canada.ca': { AppName: null, LoginStatus: null },
+            'www.active.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.apps.merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.inspection.canada.ca': { AppName: null, LoginStatus: null },
+            'www.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.merlin.cfia-acia.inspection.gc.ca': { AppName: null, LoginStatus: null },
+            'www.notification.inspection.canada.ca': { AppName: null, LoginStatus: null },
+          // Health Canada
+            'recalls-rappels.canada.ca': { AppName: null, LoginStatus: null },
+            'www.recalls-rappels.canada.ca': { AppName: null, LoginStatus: null },
+          //Office of the Superintendent of Financial Institutions
+            'osfi-bsif.gc.ca': { AppName: null, LoginStatus: null },
+            'www.osfi-bsif.gc.ca': { AppName: null, LoginStatus: null },
+          //Canada Economic Development for Quebec Regions
+            'www.dec.canada.ca': { AppName: null, LoginStatus: null },
+            'dec.canada.ca': { AppName: null, LoginStatus: null },
+            'ced.canada.ca': { AppName: null, LoginStatus: null },
+            'www.ced.canada.ca': { AppName: null, LoginStatus: null },
+          //Social Security Tribunal of Canada
+            'sst-tss.gc.ca': { AppName: null, LoginStatus: null },
+            'www.sst-tss.gc.ca': { AppName: null, LoginStatus: null },
+
+        },
+  },
+ internal_filters : [
+ //this is used for outbound link tracking
+  // CANADA.CA (AEM)	
+      'authorca1.dev.canada.adobecqms.net',
+      'staging-recherche.gc.ca', // Search
+      'canada.ca',
+      'canada-aem-s3-stage.adobecqms.net', // AEM 6.5
+      'canada-service-corps.canada.ca', // PM Service Corps
+      'canada-stage-aem-s3-preview.adobecqms.net',
+      'dev1.canada.ca',
+      'dev3.canada.ca',
+      'gcbooking.adobecqms.net', //Booking Tool
+      'iv.apps.canada.ca', // Booking Tool Prod
+      'localhost',
+      'recherche.gc.ca',
+      'recherche-search.gc.ca',
+      'search.gc.ca',
+      'search-recherche.gc.ca',
+      'service-jeunesse.canada.ca',
+      'staging65s3.canada.ca', // AEM 6.5
+      'staging-recherche.gc.ca', // Search
+      'universallabs.org',
+      'v.apps.canada.ca', // Booking Tool Prod
+      'www.canada.ca',
+      'www.recherche.gc.ca',
+      'www.recherche-search.gc.ca',
+      'www.search.gc.ca',
+      'www.search-recherche.gc.ca',
+      'www1.canada.ca',
+  // Page Analytics Tool	
+      'performance.alpha.canada.ca',
+  // Task Success Survey	
+      '20.63.98.167',
+      'www.20.63.98.167',
+  // Agriculture and Agri-Food Canada	
+      'agr.gc.ca',
+      'agr-qa.agr.gc.ca',
+      'agriculture.agr.gc.ca',
+      'agriculture.canada.ca',
+      'agriculture-canada-uat.agr.gc.ca',
+      'agr-wcag.agr.gc.ca',
+      'aimis-simia.agr.gc.ca',
+      'aimis-simia-cdic-ccil.agr.gc.ca',
+      'brandcanada.agr.gc.ca',
+      'canadabrand.agr.gc.ca',
+      'canadabrandgocaccess.agr.gc.ca',
+      'cms-dev.agr.gc.ca',
+      'cms-test.agr.gc.ca',
+      'intranet.agr.gc.ca',
+      'marquecanadabrand.agr.gc.ca',
+      'sis.agr.gc.ca',
+      'sistest.agr.gc.ca',
+      'www.agr.gc.ca',
+      'www.agriculture.canada.ca',
+      'www.agriculture-canada-uat.agr.gc.ca',
+      'www.aimis-simia.agr.gc.ca',
+      'www.aimis-simia-cdic-ccil.agr.gc.ca',
+      'www.dev.agr.gc.ca',
+      'www.brandcanada.agr.gc.ca',
+      'www.canadabrand.agr.gc.ca',
+      'www.marquecanadabrand.agr.gc.ca',
+      'www-tst.agr.gc.ca',
+      'siswebdev.agr.gc.ca',
+      'cansvmn001.agr.gc.ca',
+  // Canadian Food Inspection Agency
+      'active.inspection.gc.ca',
+      'apps.merlin.cfia-acia.inspection.gc.ca',
+      'inspection.canada.ca',
+      'inspection.gc.ca',
+      'merlin.cfia-acia.inspection.gc.ca',
+      'www.merlin.cfia-acia.inspection.gc.ca',
+      'www.active.inspection.gc.ca',
+      'www.apps.merlin.cfia-acia.inspection.gc.ca',
+      'www.inspection.canada.ca',
+      'www.inspection.gc.ca',
+      'wwwqa.inspection.gc.ca',
+      'inspection.canada.ca',
+      'www.notification-dev.inspection.canada.ca',
+      'www.notification.inspection.canada.ca',
+      'notification-dev.inspection.canada.ca',
+      'notification.inspection.canada.ca',
+  //Canada Economic Development for Quebec Regions
+      'decstaging.etcodev.tgiprojects.com',
+      'www.decstaging.etcodev.tgiprojects.com',
+      'dec.canada.ca',
+      'www.dec.canada.ca',
+      'ced.canada.ca',
+      'www.ced.canada.ca',
+  // Canadian Space Agency
+      'appsqa.asc-csa.gc.ca',
+      'asc-csa.gc.ca',
+      'csa-asc.gc.ca',
+      'datatest.asc-csa.gc.ca',
+      'devcorpo',
+      'donnees-data.asc-csa.gc.ca',
+      'www.asc-csa.gc.ca',
+      'www.csa-asc.gc.ca',
+      'www4.asc-csa.gc.ca',
+  // Communications Security Establishment
+      'cccs-uat.web.app.cse-cst.gc.ca',
+      'cse-cst.gc.ca',
+      'cse-cst-uat.web.app.cse-cst.gc.ca',
+      'cyber.gc.ca',
+      'getcybersafe.gc.ca',
+      'getcybersafe-uat.web.app.cse-cst.gc.ca',
+      'pensezcybersecurite.gc.ca',
+      'pensezcybersecurite-uat.web.app.cse-cst.gc.ca',
+      'www.cse-cst.gc.ca',
+      'www.cyber.gc.ca',
+      'www.getcybersafe.gc.ca',
+      'www.pensezcybersecurite.gc.ca',
+  // Correctional Investigator Canada
+      'oci-bec.gc.ca',
+      'www.oci-bec.gc.ca',
+  // CRA
+      'apps.cra-arc.gc.ca',
+      'arc.gc.ca',
+      'arc-cra.gc.ca',
+      'cra.gc.ca',
+      'cra-arc.gc.ca',
+      'www.arc.gc.ca',
+      'www.arc-cra.gc.ca',
+      'www.cra.gc.ca',
+      'www.cra-arc.gc.ca',
+  //CRA Non Secure Portal OT
+      'apps-ot.cra-arc.gc.ca',
+      'apps-ot2.cra-arc.gc.ca',
+  // CRA Non Secure Portal SI
+      'apps-si.isvcs.net',
+      'apps-si2.isvcs.net',
+  // CRA Non Secure Portal UA
+      'apps-ua.cra-arc.gc.ca',
+      'apps-ua.isvcs.net',
+      'apps-ua2.cra-arc.gc.ca',
+      'apps-ua2.isvcs.net',
+  // CRA Non Secure Portal UT
+      'apps-ut.cra-arc.gc.ca',
+      'apps-ut2.cra-arc.gc.ca',
+      'apps-ut2.isvcs.net',
+  // CRA OT
+      'ams-sga.cra-arc.gc.ca',
+      'apps1.ams-sga.cra-arc.gc.ca',
+      'apps1.ams-sga-ot.cra-arc.gc.ca',
+      'apps1.ams-sga-ot2.cra-arc.gc.ca',
+      'apps2.ams-sga.cra-arc.gc.ca',
+      'apps2.ams-sga-ot.cra-arc.gc.ca',
+      'apps2.ams-sga-ot2.cra-arc.gc.ca',
+      'apps3.ams-sga.cra-arc.gc.ca',
+      'apps3.ams-sga-ot.cra-arc.gc.ca',
+      'apps3.ams-sga-ot2.cra-arc.gc.ca',
+      'apps4.ams-sga.cra-arc.gc.ca',
+      'apps4.ams-sga-ot.cra-arc.gc.ca',
+      'apps4.ams-sga-ot2.cra-arc.gc.ca',
+      'apps5.ams-sga.cra-arc.gc.ca',
+      'apps5.ams-sga-ot.cra-arc.gc.ca',
+      'apps5.ams-sga-ot2.cra-arc.gc.ca',
+      'apps6.ams-sga.cra-arc.gc.ca',
+      'apps6.ams-sga-ot.cra-arc.gc.ca',
+      'apps6.ams-sga-ot2.cra-arc.gc.ca',
+      'apps7.ams-sga.cra-arc.gc.ca',
+      'apps7.ams-sga-ot.cra-arc.gc.ca',
+      'apps7.ams-sga-ot2.cra-arc.gc.ca',
+      'apps8.ams-sga.cra-arc.gc.ca',
+      'apps8.ams-sga-ot.cra-arc.gc.ca',
+      'apps8.ams-sga-ot2.cra-arc.gc.ca',
+      'apps-ut.isvcs.net',
+      'cms-sgj.cra-arc.gc.ca',
+      'cms-sgj-ot.cra-arc.gc.ca',
+      'cms-sgj-ot2.cra-arc.gc.ca',
+      'pps5.ams-sga-ot2.cra-arc.gc.ca',
+      'www.ams-sga.cra-arc.gc.ca',
+      'www.apps1.ams-sga.cra-arc.gc.ca',
+      'www.apps2.ams-sga.cra-arc.gc.ca',
+      'www.apps3.ams-sga.cra-arc.gc.ca',
+      'www.apps4.ams-sga.cra-arc.gc.ca',
+      'www.apps5.ams-sga.cra-arc.gc.ca',
+      'www.apps6.ams-sga.cra-arc.gc.ca',
+      'www.apps7.ams-sga.cra-arc.gc.ca',
+      'www.apps8.ams-sga.cra-arc.gc.ca',
+      'www.cms-sgj.cra-arc.gc.ca',
+  // CRA SI
+      'ams-sga-si.cra-arc.gc.ca',
+      'ams-sga-si2.cra-arc.gc.ca',
+      'cms-sgj-si.cra-arc.gc.ca',
+      'cms-sgj-si2.cra-arc.gc.ca',
+  // CRA UA
+      'ams-sga-ua.cra-arc.gc.ca',
+      'ams-sga-ua2.cra-arc.gc.ca',
+      'cms-sgj-ua.cra-arc.gc.ca',
+      'cms-sgj-ua2.cra-arc.gc.ca',
+      'cp-ut.isvcs.net',
+      'cp-ut2.isvcs.net',
+      'rp-ut.isvcs.net',
+      'rp-ut2.isvcs.net',
+  // Elections
+      'cef-cce.ca',
+      'csep-pesc.elections.ca',
+      'ec9wbeddpfpisp.elections.ca',
+      'EC9STVWBPFPI01',
+      'ec9stvwbpfpi01.elections.ca',
+      'ec9wbedtpfpked',
+      'ec9wbstepfpkedu',
+      'ecdev_maint-pesc.ecade.elections.ca',
+      'ecdevmaint-pesc.ecade.elections.ca',
+      'elections.ca',
+      'enr.elections.ca',
+      'enr.test.elections.ca',
+      'enr-dev.elections.ca',
+      'ereg.elections.ca',
+      'ereg.test.elections.ca',
+      'ispdevwww.elections.ca',
+      'rspispweb01-ste-demo1.elections.ca',
+      'secure.elections.ca',
+      'secure.test.elections.ca',
+      'visdev.elections.ca',
+      'www.cef-cce.ca',
+      'www.ecdev_maint-pesc.ecade.elections.ca',
+      'www.elections.ca',
+      'www.ereg.elections.ca',
+      'www.test.elections.ca',
+  // Employment Social Development Canada
+      'alpha.service.canada.ca',
+      'alphasite.dts-stn.com',
+      'analytics-analytique.tbs.alpha.canada.ca',
+      'app-servicecanadalabs-dev.azurewebsites.net',
+      'benefits-navigator-newsfeed.azurewebsites.net',
+      'canadian-old-age-benefits-estimator.vercel.app',
+      'covid-benefits.alpha.canada.ca',
+      'covid-prestations.alpha.canada.ca',
+      'cv19benefits-appservice-dev.azurewebsites.net',
+      'cv19benefits-appservice-staging.azurewebsites.net',
+      'digital.canada.ca',
+      'disclosure.esdc.gc.ca',
+      'disclosure.servicecanada.gc.ca',
+      'dpl-bmd.alpha.service.canada.ca',
+      'dts-stn.github.io',
+      'eservice-uat.powerappsportals.com',
+      'esin-sandbox.powerappsportals.com',
+      'iidus-stdei-dev.powerappsportals.com',
+      'int16-ssl.services.gc.qat',
+      'mlapesd3963v-s2tst-negotech.intra.dev',
+      'multi-benefices.servicecanada.gc.ca', //CERB DFO
+      'multi-benefits.servicecanada.gc.ca', //CERB DFO
+      'negotech.labour.gc.ca',
+      'negotheque.travail.gc.ca',
+      'numerique.canada.ca',
+      'pesdc.prv',
+      'prestationsducanada.gc.ca',
+      'profile-management-sandy.vercel.app',
+      'sc-digital-centre-dev.bdm-dev.dts-stn.com',
+      'sin-nas.canada.ca',
+      'srv113-i.lab.hrdc-drhc.gc.ca', //MSCA
+      'srv113-u.lab.hrdc-drhc.gc.ca', //MSCA
+      'srv136.services.gc.ca',
+      'srv136.services.gc.ca', //MSCA
+      'srv2140-i2.services.gc.qat',
+      'srv2140-s.services.gc.qat',
+      'srv2140-u.services.gc.qat', //MSCA
+      'srv241-s2.lab.hrdc-drhc.gc.ca',
+      'srv241-s2.lab.hrdc-drhc.gc.ca', //MSCA
+      'test.cms-sgc.esdc-edsc.canada.ca',
+      'uat12-ssl.services.gc.qat',
+      'vc-frontend-static-juane.netlify.app',
+      'virtualassistant.bdm-dev.dts-stn.com',
+      'virtualassistant-main.bdm-dev.dts-stn.com',
+      'woodpecker.eastus.cloudapp.azure.com',
+      'wpaz-ofm12c-ssl-i.services.gc.qat',
+      'wpaz-ofm-i.sade-edap.prv',
+      'wpaz-ofm-i-e-esdc.services.gc.qat',
+      'www.analytics-analytique.tbs.alpha.canada.ca',
+      'www.canadabenefits.gc.ca',
+      'www.prestationsducanada.gc.ca',
+      'www.uat.youth-digital-gateway.dev',
+      'www.youth.service.canada.ca',
+      'www.youth-digital-gateway.dev',
+      'canadadental-sandbox.powerappsportals.com',
+  // Global Affairs Canada
+      'core-ombuds.canada.ca',
+      'deleguescommerciaux.gc.ca',
+      'dv05.international.gc.ca',
+      'educanada.ca',
+      'international.gc.ca',
+      'international.canada.ca',
+      'intra',
+      'intra.signet.international.ca',
+      'intra.signet.international.gc.ca',
+      'intranet',
+      'intranet.signet.international.gc.ca',
+      'ocre-ombuds.canada.ca',
+      'tradecommissioner.gc.ca',
+      'travel.gc.ca',
+      'travel-ace-m2',
+      'voyage.gc.ca',
+      'voyage-ace-m2',
+      'www.core-ombuds.canada.ca',
+      'www.deleguescommerciaux.gc.ca',
+      'www.dv05.international.gc.ca',
+      'www.educanada.ca',
+      'www.international.gc.ca',
+      'www.intra',
+      'www.intra.signet.international.ca',
+      'www.intra.signet.international.gc.ca',
+      'www.intranet',
+      'www.intranet.signet.international.gc.ca',
+      'www.ocre-ombuds.canada.ca',
+      'www.tradecommissioner.gc.ca',
+      'www.travel.gc.ca',
+      'www.voyage.gc.ca',
+      'dubai.d.r.dfait-maeci.gc.ca',
+      'www.dubai.d.r.dfait-maeci.gc.ca',
+      'www.expo2025.canada.ca',
+      'expo2025.canada.ca',
+      'core.canada.ca',
+      'ocre.canada.ca',
+      'w05.international.gc.ca',
+  // Health Canada
+      'a8047055',
+      'cfg-qa.hres.ca',
+      'cfg-stage.hres.ca',
+      'cfgtest.canadacentral.cloudapp.azure.com', //food guide
+      'clinical-information.canada.ca',
+      'food-guide.canada.ca',
+      'food-guide-stage.hpfb-dgpsa.ca',
+      'guide-alimentaire.canada.ca',
+      'guide-alimentaire-stage.hpfb-dgpsa.ca',
+      'prci-dev.jack.hc-sc.gc.ca',
+      'prcitestfr.canadacentral.cloudapp.azure.com',
+      'renseignements-cliniques.canada.ca',
+      'recalls-rappels.canada.ca',
+      'rsams.dev.cloud.openplus.ca',
+      'vmportaltest.canadacentral.cloudapp.azure.com',
+      'www.food-guide.canada.ca',
+      'www.recalls-rappels.canada.ca',
+      'www.rsams.dev.cloud.openplus.ca',
+  // Immigration Refugees and Citizenship Canada
+      'apps.ci.gc.ca',
+      'atip-aiprp.apps.gc.ca',
+      'cic.gc.ca',
+      'eservices.cic.gc.ca',
+      'eservices1.ci.gc.ca',
+      'eservices5.ci.gc.ca',
+      'gol-ecas-dev.ci.gc.ca',
+      'ircc.canada.ca',
+      'njes1s6362.apps.ci.gc.ca',
+      'services3.cic.gc.ca',
+      'web.passeport-enligne-developmente.apps.cic.gc.ca',
+      'web.passeport-enligne-staging.apps.cic.gc.ca',
+      'web.passport-online-development.apps.cic.gc.ca',
+      'web.passport-online-staging.apps.cic.gc.ca',
+      'www.cic.gc.ca',
+      'www-dev.ic.gc.ca',
+  // Impact Assessment Agency of Canada
+      'acee.gc.ca', // Old domain (CEAA)
+      'acee-ceaa.gc.ca',
+      'acei.gc.ca',
+      'acei-iaac.gc.ca',
+      'aeic.gc.ca',
+      'aeic-iaac.gc.ca',
+      'apprentissage-en-ligne.aeic-iaac.gc.ca',
+      'ceaa.dev.ec.gc.ca',
+      'ceaa.gc.ca',
+      'ceaa.qa.ec.gc.ca',
+      'ceaa-acee.gc.ca',
+      'elearning.iaac-aeic.gc.ca',
+      'elearning-iaac-aeic.dev.ec.gc.ca',
+      'iaac.gc.ca',
+      'iaac-aeic.gc.ca',
+      'www.acee.gc.ca',
+      'www.acee-ceaa.gc.ca',
+      'www.acei.gc.ca',
+      'www.acei-iaac.gc.ca',
+      'www.aeic.gc.ca',
+      'www.aeic-iaac.gc.ca',
+      'www.ceaa.gc.ca',
+      'www.ceaa-acee.gc.ca',
+      'www.iaac.gc.ca',
+      'www.iaac-aeic.gc.ca',
+  // Infrastructure Canada
+      'infranet.ad.infrastructure.gc.ca',
+      'infranet-dev.ad.infrastructure.gc.ca',
+      'internet-dev.ad.infrastructure.gc.ca',
+      'www.infrastructure.gc.ca',
+  // Justice
+      'dmteam.justice.gc.ca',
+      'dmteam-uat.justice.gc.ca',
+      'equipesm.justice.gc.ca',
+      'equipesm-uat.justice.gc.ca',
+      'jusnet.justice.gc.ca',
+      'jusnet-uat.justice.gc.ca',
+      'justice.gc.ca',
+      'laws-lois.justice.gc.ca',
+      'limsdev.justice.gc.ca',
+      'lois-laws.justice.gc.ca',
+      'ppsc.gc.ca',
+      'semainedesvictimes.gc.ca',
+      'victimesdabord.gc.ca',
+      'victimsfirst.gc.ca',
+      'victimsweek.gc.ca',
+      'www.justice.gc.ca',
+      'www.laws-lois.justice.gc.ca',
+      'www.lois-laws.justice.gc.ca',
+      'www.ppsc.gc.ca',
+      'www.semainedesvictimes.gc.ca',
+      'www.victimesdabord.gc.ca',
+      'www.victimsfirst.gc.ca',
+      'www.victimsweek.gc.ca',
+      'www-uat.justice.gc.ca',
+      'www-uat.semainedesvictimes.gc.ca',
+      'www-uat.victimesdabord.gc.ca',
+      'www-uat.victimsfirst.gc.ca',
+      'www-uat.victimsweek.gc.ca',
+  // Library and Archives
+      'bac-lac.gc.ca',
+      'bibliotheque-archives.canada.ca',
+      'canadiana.bac-lac.gc.ca',
+      'canadiana-d.dev.bac-lac.gc.ca',
+      'canadiana-qa.dev.bac-lac.gc.ca',
+      'central.bac-lac.gc.ca',
+      'central-d.dev.bac-lac.gc.ca',
+      'cipbookentry.bac-lac.gc.ca',
+      'cipbookentry-d.dev.bac-lac.gc.ca',
+      'cipbookentry-qa.dev.bac-lac.gc.ca',
+      'co-lab.bac-lac.gc.ca',
+      'data2.collectionscanada.gc.ca', //testing
+      'dev2-www.bac-lac.gc.ca',
+      'dev-www.bac-lac.gc.ca',
+      'dev-collection-search.bac-lac.gc.ca',
+      'event.bac-lac.gc.ca',
+      'event-d.dev.bac-lac.gc.ca',
+      'event-qa',
+      'financement-funding.bac-lac.gc.ca',
+      'lac-bac.gc.ca',
+      'library-archives.canada.ca',
+      'nouvelle-france.org',
+      'recherche-collection-search.bac-lac.gc.ca',
+      'sigles-symbols.bac-lac.gc.ca',
+      'sigles-symbols-d.bac-lac.gc.ca',
+      'sigles-symbols-qa.bac-lac.gc.ca',
+      'tdg-grt.bac-lac.gc.ca',
+      'tdg-grt-d.dev.bac-lac.gc.ca',
+      'ucc-qa',
+      'v41extcapps01-d.dev.bac-lac.gc.ca',
+      'v41extweb01-d.services.bac-lac.gc.ca',
+      'webdev-srv.dev.bac-lac.gc.ca',
+      'webqa-srv01.qa.bac-lac.gc.ca',
+      'www.dev-collection-search.bac-lac.gc.ca',
+      'www.bac-lac.gc.ca',
+      'www.bibliotheque-archives.canada.ca',
+      'www.canadiana.bac-lac.gc.ca',
+      'www.cipbookentry.bac-lac.gc.ca',
+      'www.co-lab.bac-lac.gc.ca',
+      'www.collectionscanada.gc.ca',
+      'www.event.bac-lac.gc.ca',
+      'www.lac-bac.gc.ca',
+      'www.library-archives.canada.ca',
+      'www.marc21.ca',
+      'www.sigles-symbols.bac-lac.gc.ca', //testing
+  // Natural Resources Canada
+      'apap.gc.ca',
+      'apn.gc.ca',
+      'bggp.gc.ca',
+      'cem-mi-vancouver2019.ca',
+      'cmep-mi-vancouver2019.ca',
+      'dev.apn.gc.ca',
+      'dev.bggp.gc.ca',
+      'dev.esrfunds.org',
+      'dev.fondsee.org',
+      'dev.geoscan.nrcan.gc.ca',
+      'dev.mpmo.gc.ca',
+      'dev.npa.gc.ca',
+      'dev.nrcan.gc.ca',
+      'dev.rncan.gc.ca',
+      'equalby30.org',
+      'esrfunds.org',
+      'fondsee.org',
+      'geo.ca',
+      'globe-cem-mi.yourballistic.com',
+      'grands-projets.canada.ca',
+      'intranet.test.nrcan.gc.ca',
+      'intranet.test.rncan.gc.ca',
+      'intranet.nrcan.gc.ca',
+      'intranet.rncan.gc.ca',
+      'major-projects.canada.ca',
+      'minescanada.ca',
+      'mpmo.gc.ca',
+      'natural-resources.canada.ca', //new canada.ca subdomainsdomain
+      'northern-pipeline.canada.ca',
+      'npa.gc.ca',
+      'nrcan.canada.ca', //new canada.ca subdomain
+      'nrcan.gc.ca',
+      'nrcan-rncan.canada.ca', //new canada.ca subdomain
+      'osdp-cumulative-effects.canada.ca',
+      'osdp-cumulative-effects-stage.canada.ca',
+      'osdp-psdo.canada.ca',
+      'ostr-frontend-sandbox.azure.cloud.nrcan-rncan.gc.ca',
+      'paap.gc.ca',
+      'pipe-line-nord.canada.ca',
+      'psdo-effets-cumulatifs.canada.ca',
+      'psdo-effets-cumulatifs-stage.canada.ca',
+      'qa.dev.osdp.aws.nrcan-rncan.cloud',
+      'qa.pst.osdp.aws.nrcan-rncan.cloud',
+      'ressources-naturelles.canada.ca', //new canada.ca subdomain
+      'rncan.canada.ca', //new canada.ca subdomain
+      'rncan.gc.ca',
+      'rncanengagenrcan.ca',
+      'rncan-nrcan.canada.ca', //new canada.ca subdomain
+      's-bsc-geoscandev.nrcan.gc.ca',
+      's-bsc-vdi609150.nrn.nrcan.gc.ca',
+      's-edm-athos.nrn.nrcan.gc.ca',
+      'stage.geo.ca',
+      'stg-osdp-psdo.canada.ca',
+      'test.nrcan.gc.ca',
+      'test.rncan.gc.ca',
+      'uat-osdp-psdo.canada.ca',
+      'www.apap.gc.ca',
+      'www.apn.gc.ca',
+      'www.bggp.gc.ca',
+      'www.cem-mi-vancouver2019.ca',
+      'www.dev.nrcan.gc.ca',
+      'www.dev.rncan.gc.ca',
+      'www.equalby30.org',
+      'www.esrfunds.org',
+      'www.fondsee.org',
+      'www.geo.ca',
+      'www.grands-projets.canada.ca',
+      'www.intranet.test.nrcan.gc.ca',
+      'www.intranet.test.rncan.gc.ca',
+      'www.major-projects.canada.ca',
+      'www.minescanada.ca',
+      'www.mpmo.gc.ca',
+      'www.natural-resources.canada.ca',
+      'www.northern-pipeline.canada.ca',
+      'www.npa.gc.ca',
+      'www.nrcan.canada.ca',
+      'www.nrcan.gc.ca',
+      'www.paap.gc.ca',
+      'www.pipe-line-nord.canada.ca',
+      'www.ressources-naturelles.canada.ca',
+      'www.rncan.canada.ca',
+      'www.rncan.gc.ca',
+      'www.rncanengagenrcan.ca',
+      'www.test.nrcan.gc.ca',
+      'www.test.rncan.gc.ca',
+      'app-website-cwfis-dev.azurewebsites.net',
+      'cms-test.osdp-psdo.canada.ca',
+  // Office of the procurement ombudsman
+      'dev.boa-opo.gc.ca',
+      'opo-boa.gc.ca',
+      'secure.opo-boa.gc.ca',
+      'www.opo-boa.gc.ca',
+      'www.secure.opo-boa.gc.ca',
+      'www.xterra3w2k16.dev.ad.itsso-ospti.gc.ca',
+      'xterra3w2k16.dev.ad.itsso-ospti.gc.ca',
+      'xterra3w2k16.ncr.pwgsc.gc.ca',
+  // Public Safety Canada
+      'api.infomedia.gc.ca',
+      'beta.infomedia.gc.ca',
+      'ecdev',
+      'erc-cee.gc.ca',
+      'getprepared.gc.ca',
+      'gpdev',
+      'icdev',
+      'infocentral',
+      'infocentrale',
+      'infomedia.gc.ca',
+      'infomediadev',
+      'preparez-vous.gc.ca',
+      'psdev',
+      'publicsafety.gc.ca',
+      'securitepublique.gc.ca',
+      'www.erc-cee.gc.ca',
+      'www.getprepared.gc.ca',
+      'www.infomedia.gc.ca',
+      'www.preparez-vous.gc.ca',
+      'www.publicsafety.gc.ca',
+      'www.securitepublique.gc.ca',
+  // Public Service Commission
+      'devextranet.psc-cfp.gc.ca',
+      'emploisfp-psjobs.cfp-psc.gc.ca',
+      'extranet.psc-cfp.gc.ca',
+      'www.extranet.psc-cfp.gc.ca',
+      'intracom',
+      'www.intracom',
+      'intracom.psc-cfp.gc.ca',
+      'intradev',
+      'test-psjobs-emploisfp.psc-cfp.gc.ca',
+  // Public Services and Procurement Canada
+      'achatsetventes.gc.ca',
+      'beta.achatsetventes.gc.ca',
+      'beta.buyandsell.gc.ca',
+      'btb.termiumplus.gc.ca',
+      'buyandsell.gc.ca',
+      'canadagazette.gc.ca',
+      'content.buyandsell.gc.ca',
+      'dev-gaz.ncr.pwgsc.gc.ca',
+      'dev-webpubrcmp.tpsgc-pwgsc.gc.ca',
+      'gazette.gc.ca',
+      'gcintranet.tpsgc-pwgsc.gc.ca',
+      'geobatiments-dev.tpsgc.gc.ca',
+      'geobatiments-geobuildings.tpsgc-pwgsc.gc.ca',
+      'geobatiments-geobuildings-dev.tpsgc-pwgsc.gc.ca',
+      'geobatiments-geobuildings-uat.tpsgc-pwgsc.gc.ca',
+      'geobatiments-uat.tpsgc.gc.ca',
+      'geobuildings-dev.pwgsc.gc.ca',
+      'geobuildings-uat.pwgsc.gc.ca',
+      'geobatiments.tpsgc.gc.ca',
+      'geobuildings.pwgsc.gc.ca',
+      'intranet.tpsgc-pwgsc.gc.ca',
+      'intranet.que.tpsgc.gc.ca',
+      'intranet.que.pwgsc.gc.ca',
+      'intranet-uat.que.tpsgc.gc.ca',
+      'intranet-uat.que.pwgsc.gc.ca',
+      'intranet-dev.que.pwgsc.gc.ca',
+      'intranet-dev.que.tpsgc.gc.ca',
+      'm8-dev-collab.achatscanadabuys.ca',
+      'm8-test.achatscanadabuys.ca',
+      'm8-uat.achatscanadabuys.ca',
+      'masource-mysource.shp.dev.global.gc.ca',
+      'masource-mysource.spac-pspc.gc.ca',
+      'noslangues-ourlanguages.gc.ca',
+      'ont-extradev.pwgsc-tpsgc.gc.ca',
+      'ont-internetdev.pwgsc-tpsgc.gc.ca',
+      'ont-internetdev.tpsgc-pwgsc.gc.ca',
+      'ont-intradev.pwgsc-tpsgc.gc.ca',
+      'publications.gc.ca',
+      'rcmp-grc.pension.gc.ca',
+      'staging.achatscanadabuys.ca',
+      'test.achatsetventes.gc.ca',
+      'test.buyandsell.gc.ca',
+      'test.publications.gc.ca',
+      'tplus-pp.btb.gc.ca',
+      'webdev01.tpsgc-pwgsc.gc.ca',
+      'webdev02.tpsgc-pwgsc.gc.ca',
+      'webdev08.tpsgc-pwgsc.gc.ca',
+      'www.canadagazette.gc.ca',
+      'www.dev-gaz.ncr.pwgsc.gc.ca',
+      'www.intranet.tpsgc-pwgsc.gc.ca',
+      'www.intranet.que.tpsgc.gc.ca',
+      'www.intranet.que.pwgsc.gc.ca',
+      'www.intranet-uat.que.tpsgc.gc.ca',
+      'www.intranet-uat.que.pwgsc.gc.ca',
+      'www.intranet-dev.que.pwgsc.gc.ca',
+      'www.intranet-dev.que.tpsgc.gc.ca',
+      'www.gazette.gc.ca',
+      'www.geobatiments-geobuildings.tpsgc-pwgsc.gc.ca',
+      'www.geobatiments.tpsgc.gc.ca',
+      'www.geobuildings.pwgsc.gc.ca',
+      'www.noslangues-ourlanguages.gc.ca',
+      'www.ont-extradev.pwgsc-tpsgc.gc.ca',
+      'www.ont-internetdev.pwgsc-tpsgc.gc.ca',
+      'www.ont-internetdev.tpsgc-pwgsc.gc.ca',
+      'www.ont-intradev.pwgsc-tpsgc.gc.ca',
+      'www.publications.gc.ca',
+      'www.test.publications.gc.ca',
+      'www.tplus-pp.btb.gc.ca',
+      'www.tpsgc-pwgsc.gc.ca',
+      'www.btb.termiumplus.gc.ca',
+      'www.geobatiments-geobuildings.tpsgc-pwgsc.gc.ca',
+      'gclp9-pp.btb.gc.ca',
+  //RCMP External Review Committee
+      'ercdev',
+   //Shared Service Canada
+      'test-service.ssc-spc.gc.ca',
+      'www.test-service.ssc-spc.gc.ca',
+   //Social Security Tribunal of Canada
+      'sst-stage.stage.atssc-scdata.gc.ca',
+      'www.sst-tss.gc.ca',
+      'sst-tss.gc.ca',
+  //Statistics Canada
+      'analytics-platform.statcan.gc.ca',
+      'census.gc.ca',
+      'census-qa.statcan.gc.ca',
+      'codweb1.stcpaz.statcan.gc.ca',
+      'codweb2.stcpaz.statcan.gc.ca',
+      'daaas-dev.covid.cloud.statcan.ca',
+      'dv-vd-sprint1.test.cloud.statcan.ca',
+      'energy-information.canada.ca',
+      'geodepot.statcan.ca',
+      'geodepot.statcan.gc.ca',
+      'geoprod.statcan.gc.ca',
+      'geosuite.statcan.gc.ca',
+      'information-energie.canada.ca',
+      'information-energie.statcan.gc.ca',
+      'oc-dev.covid.cloud.statcan.ca',
+      'portal.covid.cloud.statcan.ca',
+      'prod-p-es-fusion01.stcpaz.statcan.gc.ca',
+      'qa-p-es-ui01.stcpaz.statcan.gc.ca',
+      'recensement.gc.ca',
+      'recensement-qa.statcan.gc.ca',
+      'src-dev13.wcms.statcan.ca',
+      'stc-ndm-qa-pc2.statcan.gc.ca',
+      'web2-test1.wcms.statcan.ca',
+      'ww23.statcan.gc.ca',
+      'ww35.statcan.gc.ca',
+      'www.dv-vd-sprint1.test.cloud.statcan.ca',
+      'www.statcan.gc.ca',
+      'www12.statcan.gc.ca',
+      'www120.statcan.gc.ca',
+      'www144.statcan.gc.ca',
+      'www150.statcan.gc.ca',
+      'www23.statcan.gc.ca',
+      'www35.statcan.gc.ca',
+      'www5.statcan.gc.ca',
+      'www5testb.statcan.gc.ca',
+      'www65.statcan.gc.ca',
+      'www66.statcan.gc.ca',
+      'www76.statcan.gc.ca',
+      'www76qa.statcan.gc.ca',
+      'wwwqa.statcan.gc.ca',
+      'cancer-data.canada.ca',
+      'donnees-cancer.canada.ca',
+      'www159.statcan.gc.ca',
+      'www160.statcan.gc.ca',
+      'test.cloud.statcan.ca',
+      'stc-ndm-new-qa-pc2.statcan.gc.ca',
+      'cancer-dev.stc.ca ',
+      'transport-dev.statcan.gc.ca',
+      'www159-dev.stc.ca',
+  //Superintendent of Financial Institutions Canada (Office of the)
+      'devirppub.devosfi.ca',
+      'uatirppub.devosfi.ca',
+      'uatirppub.osfi-bsif.gc.ca',
+      'osfi-bsif.gc.ca',
+      'www.osfi-bsif.gc.ca',
+      'web-dev.osfi-bsif.gc.ca',
+  //Transport Canada
+      'transport-dev',
+  //Treasury Board Secretariat
+      'atip-aiprp.tbs-sct.gc.ca',
+      'authoring.publiservice.tbs-sct.gc.ca',
+      'authoring.www.tbs-sct.gc.ca',
+      'deploy-preview-102--blog-tbs.netlify.app',
+      'deploy-preview-102--blogue-sct.netlify.app',
+      'deploy-preview-172--systeme-conception-canada-ca.netlify.ca/test',
+      'deploy-preview-284--design-system-canada-ca.netlify.ca/test',
+      'dev.tbs-sct.gc.ca',
+      'infosite.tbs-sct.gc.ca',
+      'open.canada.ca',
+      'ouvert.canada.ca',
+      'pre-prod.atip-aiprp.tbs-sct.gc.ca',
+      'rechercher.ouvert.canada.ca',
+      'search.open.canada.ca',
+      'search-staging.open.canada.ca',
+      'stadification.ouvert.canada.ca',
+      'staging.atip-aiprp.tbs-sct.gc.ca',
+      'staging.open.canada.ca',
+      'uat.atip-aiprp.tbs-sct.gc.ca',
+      'uat.tbs-sct.canada.ca',
+      'uat.tbs-sct.gc.ca',
+      'uat1.atip-aiprp.tbs-sct.gc.ca',
+      'uat.hrdatahub-centrededonneesrh.tbs-sct.gc.ca',
+      'uat.hranalytics-analytiquerh.tbs-sct.gc.ca',
+      'uat.solo.tbs-sct.gc.ca',
+      'www.uat.hrdatahub-centrededonneesrh.tbs-sct.gc.ca',
+      'www.uat.hranalytics-analytiquerh.tbs-sct.gc.ca',
+      'www.deploy-preview-102--blog-tbs.netlify.app',
+      'www.deploy-preview-102--blogue-sct.netlify.app',
+      'www.deploy-preview-172--systeme-conception-canada-ca.netlify.ca/test',
+      'www.deploy-preview-284--design-system-canada-ca.netlify.ca/test',
+      'www.tbs-sct.canada.ca',
+      'www.tbs-sct.gc.ca',
+      'www.uat.tbs-sct.canada.ca',
+      'www.uat.solo.tbs-sct.gc.ca',
+  //Women and Gender Equality Canada
+      'canada/testing/page1-en.html',
+      'canada/testing/page1-fr.html',
+      'femmes-egalite-genres.canada.ca',
+      'intranet.fegc-wage.gc.ca',
+      'intranettest',
+      'women-gender-equality.canada.ca'
+ ]
+};
+
+
+
+
+/* ===== Set data elements that rely on allowlist ===== */
+
+/*jsAbort START*/
+var list;
+var h = document.location.hostname.toLowerCase(); //host
+var j = document.location.pathname.toLowerCase(); //path
+
+if (_satellite.environment.stage == "production") {
+    list = _satellite.gcCustom.domain_allowlist.live;
+}
+else {
+    list = _satellite.gcCustom.domain_allowlist.stage;
+    //list = _satellite.gcCustom.domain_allowlist.live; //FOR TESTING ON LIVE ONLY! REMOVE
+
+}
+
+//directories/domains to exclude
+//Input list. Each item must be inputed with its own quotation marks and be separted using a comma
+// excl list cannot be empty
+// list can be domains or directories
+excl = _satellite.gcCustom.domain_blocklist
+
+var j = document.location.host + document.location.pathname.toLowerCase(); //path
+var toExcl = false; //set to false by default
+for (var i in excl) {
+    if (j.indexOf(excl[i]) > -1) {
+        toExcl = true;
+    }
+}
+//end directory exclusions
+
+//sets the data element
+if (typeof list[h] === 'undefined' || toExcl === true) {
+    _satellite.setVar('jsAbort', 'true'); //set to true prevents rules from firing
+    window.blockList = 'yes';
+    _satellite.cookie.set('prev_page_blockList', 'yes')
+}
+else if (toExcl === false) {
+    _satellite.setVar('jsAbort', 'false'); //set to false allows rules to fire
+    window.blockList = 'no';
+}
+/*jsAbort END*/
+</script><script>
+localStorage.removeItem('LCP');
+localStorage.removeItem('FCP');
+</script>
+		<!-- Adobe Analytics RUN PROD 1of2 end -->
+
+	</head>
+
+	<body class="splash" vocab="http://schema.org/" typeof="WebPage">
+		<div id="bg">
+			<img src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/assets/sp-bg-2.jpg" alt="">
+		</div>				
+		<main role="main">
+			<div class="sp-hb">
+			
+				<div class="sp-bx col-xs-12">
+					<!-- GoC FIP -->
+					<div class="row">
+						<div class="col-xs-11 col-md-8">
+							<img src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/assets/sig-spl.svg" width="283" alt="Government of Canada / Gouvernement du Canada">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="h3 text-center">Global Affairs Canada</h1>
+							<hr>
+							<h1 class="h3 text-center">Affaires mondiales Canada</h1>
+						</div>
+					</div>
+					
+					<div class="row">
+						<section class="col-xs-6 text-right">
+							<h2 class="wb-inv">Government of Canada</h2>
+							<p><a href="index.aspx?lang=eng" class="btn btn-primary">English</a></p>
+						</section>
+						<section class="col-xs-6" lang="fr">
+							<h2 class="wb-inv">Gouvernement du Canada</h2>
+							<p><a href="index.aspx?lang=fra" class="btn btn-primary">Français</a></p>
+						</section>
+					</div>
+					
+				</div>
+				
+				<div class="sp-bx-bt col-xs-12">
+					<div class="row">
+						<div class="col-xs-7 col-md-8">
+							<a href="https://www.canada.ca/en/transparency/terms.html" class="sp-lk">Terms and conditions</a> <span class="glyphicon glyphicon-asterisk"></span> <a href="https://www.canada.ca/fr/transparence/avis.html" class="sp-lk" lang="fr">Avis</a>
+						</div>
+						<div class="col-xs-5 col-md-4 text-right mrgn-bttm-md">
+							<img src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/assets/wmms-spl.svg" width="127" alt="Symbol of the Government of Canada / Symbole du gouvernement du Canada">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</main>
+
+		<!--[if gte IE 9 | !IE ]><!-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+		<script src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/js/wet-boew.min.js"></script>
+		<!--<![endif]-->
+		<!--[if lt IE 9]>
+				<script src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/js/ie8-wet-boew2.min.js"></script>
+				
+				<![endif]-->
+		<script src="/wcmglobal/frameworks/v4.0.31/theme-gcweb-v5.1/js/theme.min.js"></script>
+
+		<!-- Adobe Analytics RUN PROD 2of2 start -->
+			<script type="text/javascript">_satellite.pageBottom();</script><script>
+const performanceObserver = new PerformanceObserver((list) => {
+    const entries = list.getEntries();
+
+    entries.forEach((entry) => {
+        switch (entry.entryType) {
+            case 'navigation':
+                if (entry.domComplete !== 0) {
+                    var host = _satellite.getVar('CookieHost')
+                    _satellite.cookie.set("DomComplete", Math.round(entry.domComplete), { domain: host });
+                }
+                break;
+            case 'largest-contentful-paint':
+                const lcp = entries[entries.length - 1];
+                // identify largest element, uncomment for debugging individual pages
+                //_satellite.logger.info('The LCP is:', lcp.element)
+                localStorage.setItem('LCP', Math.round(entry.startTime));
+                break;
+            case 'paint':
+                if (entry.name === 'first-contentful-paint') {
+                    localStorage.setItem('FCP', Math.round(entry.startTime));
+                }
+                break;
+            default:
+                break;
+        }
+    });
+});
+
+performanceObserver.observe({ type: 'navigation', buffered: true });
+performanceObserver.observe({ type: 'largest-contentful-paint', buffered: true });
+performanceObserver.observe({ type: 'paint', buffered: true });
+</script><script>_satellite["_runScript1"](function(event, target, Promise) {
+function MediaSetup() {
+  var mltmd = jQuery(".wb-mltmd");
+  var mltmdSet = new Array(mltmd.length);
+    
+  for(var i=0; i < mltmd.length; i++)  {
+    var e = mltmd.get(i);
+    var md = jQuery(e);
+    var va = md.find("video,audio");
+    if(va.length > 0) {
+		
+		//Video Title
+		var ttl = va.attr("title");
+		if(ttl == null || ttl.length < 1){
+			ttl = "";
+        }
+		
+		//Video or Audio and Format (video/youtube)
+		var type = va.find("source").attr("type");
+		var frmt2 = "";
+		if(type == null || type.length < 1){
+			type = "";
+			frmt = "";
+        }
+		else {
+			var frmt = type.split("/", 2);
+			if(frmt.length > 1)
+				frmt2 = frmt[0];
+		}
+        
+        //Source URL
+        var src = va.find("source").attr("src");
+        if(src == null || src.length < 1){
+			src = "";
+        }
+        
+        
+        mltmdSet[i] = {
+        el:e,
+        ct:0, 
+        tt:0,
+        vid_per:0,
+        vid_sent_per: new Array(),
+        title:ttl,
+		vidOrAud:frmt2,
+        source:src,
+        format:type,
+        playSent:false,      
+        endedSent:false 
+        };
+        
+        md.on("playing timeupdate ended", jQuery.proxy(function(x){
+        var m = jQuery(this.el);
+        
+        switch(x.type){
+            case "playing":
+            if(this.playSent == false){
+              var duration = m.find(".wb-mm-tmln-ttl span:not(.wb-inv)").text().trim();
+              if(!/[0-9]{2}:[0-9]{2}:[0-9]{2}/.test(duration))
+                duration = "00:00:00";
+              if(this.tt == 0)
+                this.tt = Math.floor(Date.parse("Thu, 01 Jan 1970, "+duration+" GMT-0400") - Date.parse("Thu, 01 Jan 1970, 00:00:00 GMT-0400"));
+              if(this.tt !== 0){
+                _satellite.setVar("jsMediaTitle", this.title);
+                _satellite.setVar("jsMediaType", this.vidOrAud);
+                _satellite.setVar("jsMediaFormat", this.format);
+                _satellite.setVar("jsMediaSource", this.source);
+                _satellite.track("media play");
+                this.playSent=true;  
+              }
+            }
+            break;
+            case "timeupdate":
+            var currentTime = m.find(".wb-mm-tmln-crrnt span:not(.wb-inv)").text().trim();
+            if(!/[0-9]{2}:[0-9]{2}:[0-9]{2}/.test(currentTime))
+                  currentTime = "00:00:00";
+            var ctime = Math.floor(Date.parse("Thu, 01 Jan 1970, "+currentTime+" GMT-0400") - Date.parse("Thu, 01 Jan 1970, 00:00:00 GMT-0400"));
+            
+            var timeParts = 10;
+            var timeMark = Math.floor(this.tt / timeParts);
+
+            if (ctime !== 0) {
+                if(this.ct !== ctime){
+                        this.ct = ctime;
+                for (var i = 1; i <= timeParts; i++) {
+                    if (this.ct == Math.round(timeMark * i / 1000)*1000) {
+                    this.vid_per = (100/timeParts) * i;
+                    i=timeParts;
+                    }
+                } 
+                
+                switch(this.vid_per){
+                    case 20:
+                    var sent = jQuery.inArray(this.vid_per, this.vid_sent_per);
+                    if (sent < 0) {
+                        _satellite.setVar("jsMediaTitle", this.title);
+						_satellite.setVar("jsMediaType", this.vidOrAud);
+                        _satellite.setVar("jsMediaFormat", this.format);
+                        _satellite.setVar("jsMediaSource", this.source);
+                        _satellite.track("media mark 20");
+                        this.vid_sent_per.push(this.vid_per);
+                    }
+                    break;
+                    case 50:
+                    var sent = jQuery.inArray(this.vid_per, this.vid_sent_per);
+                    if (sent < 0) {
+                        _satellite.setVar("jsMediaTitle", this.title);
+						_satellite.setVar("jsMediaType", this.vidOrAud);
+                        _satellite.setVar("jsMediaFormat", this.format);
+                        _satellite.setVar("jsMediaSource", this.source);
+                        _satellite.track("media mark 50");
+                        this.vid_sent_per.push(this.vid_per);
+                    }
+                    break;
+                    case 80:
+                    var sent = jQuery.inArray(this.vid_per, this.vid_sent_per);
+                    if (sent < 0) {
+                        _satellite.setVar("jsMediaTitle", this.title);
+						_satellite.setVar("jsMediaType", this.vidOrAud);
+                        _satellite.setVar("jsMediaFormat", this.format);
+                        _satellite.setVar("jsMediaSource", this.source);
+                        _satellite.track("media mark 80");
+                        this.vid_sent_per.push(this.vid_per);
+                    }
+                    break;  
+                }
+                }
+                }
+            break;    
+        }
+        },mltmdSet[i]));    
+    }
+  }	
+}
+if(typeof jQuery === "function"){ 
+  MediaSetup();
+} else {
+  setTimeout(function(){
+    if(typeof jQuery === "function"){ 
+      MediaSetup();
+    } 	  
+  }, 500);
+}
+});</script><script>
+_satellite.track('pageReset');
+</script>
+		<!-- Adobe Analytics RUN PROD 2of2 end -->
+
+
+	
+</body></html>

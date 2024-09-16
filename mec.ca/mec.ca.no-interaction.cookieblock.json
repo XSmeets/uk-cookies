@@ -1,0 +1,983 @@
+{
+    "bing.com": {
+        "/": {
+            "MUID": {
+                "name": "MUID",
+                "domain": ".bing.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614683,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760037615.682802,
+                        "expiry": 33696001.68280196,
+                        "value": "10A6E5154C5B6F6F1D34F1EF4DC46EEC",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614683
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 33696000.81841111,
+                        "value": "063DA1608BD762AF2DB1B59A8A4863B2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614818
+                    }
+                ]
+            }
+        }
+    },
+    "ct.pinterest.com": {
+        "/": {
+            "_pinterest_ct_ua": {
+                "name": "_pinterest_ct_ua",
+                "domain": ".ct.pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614760,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757877614.759237,
+                        "expiry": 31536000.75923705,
+                        "value": "\"TWc9PSZ2djJuZ0ZsdDFRV01OMTU2c1BJd0N4TWxsTE5mSHhkL0VjZEplUnZYekIyZ205SW52RURuU0VXNGUrOEpWSXB0bk5FekE0ZVcwdGplaUd3eVpaR2tlRk5IV2JwMlYvQ0liZGx2aDRZaWVjZz0mSzZxemt5OTZxLzVtbjZhQW50SHpCd0l3WUEwPQ==\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614759
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "IDE": {
+                "name": "IDE",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614668,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760037614.665811,
+                        "expiry": 33696000.66581106,
+                        "value": "AHWqTUmN4Wgofm9CKDZ6tkKlk9AwaRSYUVc-lhvjXAnXtp8GmIK9S4bEj2bxTABK7as",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614666
+                    }
+                ]
+            },
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614605,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728933614.604383,
+                        "expiry": 2592000.604382992,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614604
+                    }
+                ]
+            },
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614670,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741893614.665956,
+                        "expiry": 15552000.66595602,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614669
+                    }
+                ]
+            },
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614603,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726342514.60214,
+                        "expiry": 900.6021399497986,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614602
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.6027429103851,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614603
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.6044080257416,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614605
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.6643419265747,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614665
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.6686220169067,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614670
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.6796839237213,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614681
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 900.7536311149597,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614754
+                    }
+                ]
+            }
+        }
+    },
+    "mec.ca": {
+        "/": {
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614716,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen",
+                        "same_site": "lax",
+                        "timestamp": 1726341614724
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen",
+                        "same_site": "lax",
+                        "timestamp": 1726341614768
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen",
+                        "same_site": "lax",
+                        "timestamp": 1726341614768
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen",
+                        "same_site": "lax",
+                        "timestamp": 1726341614769
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen",
+                        "same_site": "lax",
+                        "timestamp": 1726341614769
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen",
+                        "same_site": "lax",
+                        "timestamp": 1726341614770
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen&groups=C0005%3A1%2CC0004%3A1%2CC0003%3A1%2CC0002%3A1%2CC0001%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726341614777
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen&groups=C0005%3A1%2CC0004%3A1%2CC0003%3A1%2CC0002%3A1%2CC0001%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726341614777
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A15+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen&groups=C0005%3A1%2CC0004%3A1%2CC0003%3A1%2CC0002%3A1%2CC0001%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726341615070
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sat+Sep+14+2024+21%3A20%3A15+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=8f268db3-8c89-4cef-bf80-19ca9c0e5846&interactionCount=1&isAnonUser=1&landingPath=https%3A%2F%2Fwww.mec.ca%2Fen&groups=C0005%3A1%2CC0004%3A1%2CC0003%3A1%2CC0002%3A1%2CC0001%3A1",
+                        "same_site": "lax",
+                        "timestamp": 1726341615071
+                    }
+                ]
+            },
+            "_fbp": {
+                "name": "_fbp",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614626,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734117614,
+                        "expiry": 7776000,
+                        "value": "fb.1.1726341614625.479608606538375279",
+                        "same_site": "lax",
+                        "timestamp": 1726341614625
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614560,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901614.554037,
+                        "expiry": 34560000.554037094,
+                        "value": "GA1.1.1771784056.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614559
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.580035925,
+                        "value": "GA1.2.1771784056.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614580
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.58324289,
+                        "value": "GA1.2.1771784056.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614583
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.609571934,
+                        "value": "GA1.2.1771784056.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614609
+                    }
+                ]
+            },
+            "_ga_3FZD7W3LBB": {
+                "name": "_ga_3FZD7W3LBB",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614679,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901614.677402,
+                        "expiry": 34560000.67740202,
+                        "value": "GS1.2.1726341614.1.0.1726341614.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614678
+                    }
+                ]
+            },
+            "_ga_QHCVSW7G21": {
+                "name": "_ga_QHCVSW7G21",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614559,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901614.553838,
+                        "expiry": 34560000.553838015,
+                        "value": "GS1.1.1726341614.1.0.1726341614.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614558
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.5706799,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614571
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.57118511,
+                        "value": "GS1.1.1726341614.1.0.1726341614.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614571
+                    }
+                ]
+            },
+            "_gat_UA-229657241-1": {
+                "name": "_gat_UA-229657241-1",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614583,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726341674,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614581
+                    }
+                ]
+            },
+            "_gat_UA-44373602-1": {
+                "name": "_gat_UA-44373602-1",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614608,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726341674,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614608
+                    }
+                ]
+            },
+            "_gcl_au": {
+                "name": "_gcl_au",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614423,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1734117614,
+                        "expiry": 7776000,
+                        "value": "1.1.1979876535.1726341614",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614419
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.1979876535.1726341614",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614470
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.1979876535.1726341614",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614492
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 7776000,
+                        "value": "1.1.1979876535.1726341614",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614514
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614581,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726428014,
+                        "expiry": 86400,
+                        "value": "GA1.2.84384752.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614580
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.84384752.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614584
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "GA1.2.84384752.1726341615",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614610
+                    }
+                ]
+            },
+            "_hjSessionUser_1442807": {
+                "name": "_hjSessionUser_1442807",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726341614798,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757877614,
+                        "expiry": 31536000,
+                        "value": "eyJpZCI6ImIyMGRjNmU3LTdhMjItNWFmMS04MWRmLTc4ZGNkOWQzNDgyYiIsImNyZWF0ZWQiOjE3MjYzNDE2MTQ3OTcsImV4aXN0aW5nIjpmYWxzZX0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614797
+                    }
+                ]
+            },
+            "_hjSession_1442807": {
+                "name": "_hjSession_1442807",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614801,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726343414,
+                        "expiry": 1800,
+                        "value": "eyJpZCI6Ijk4MjZmZGI3LTY3OTctNGNkMS1hMGM5LTRiZDVjOWFkZTg0MiIsImMiOjE3MjYzNDE2MTQ3OTcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614800
+                    }
+                ]
+            },
+            "_hjTLDTest": {
+                "name": "_hjTLDTest",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614794,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": ".mec.ca",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614793
+                    }
+                ]
+            },
+            "_pin_unauth": {
+                "name": "_pin_unauth",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614726,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757877614,
+                        "expiry": 31536000,
+                        "value": "dWlkPU5EYzBOakZpTlRFdE56VmlPUzAwWTJFMUxUZzFOREl0TnpNeFlXRmlNemt4TlRWaQ",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614725
+                    }
+                ]
+            },
+            "_tt_enable_cookie": {
+                "name": "_tt_enable_cookie",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341614708,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760037614,
+                        "expiry": 33696000,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614707
+                    }
+                ]
+            },
+            "_ttp": {
+                "name": "_ttp",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614708,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760037614,
+                        "expiry": 33696000,
+                        "value": "R_2oOUSfz3rG-oBycX4FFWhKiij",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614708
+                    }
+                ]
+            },
+            "_uetsid": {
+                "name": "_uetsid",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614653,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726428014,
+                        "expiry": 86400,
+                        "value": "5e872d3072ce11efb80283750d9b1b06",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614652
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400,
+                        "value": "5e872d3072ce11efb80283750d9b1b06",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614655
+                    }
+                ]
+            },
+            "_uetvid": {
+                "name": "_uetvid",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614655,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760037614,
+                        "expiry": 33696000,
+                        "value": "5e872ab072ce11ef902649bde8f16378",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614654
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33696000,
+                        "value": "5e872ab072ce11ef902649bde8f16378",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614655
+                    }
+                ]
+            },
+            "avmws": {
+                "name": "avmws",
+                "domain": ".mec.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726341615054,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901615.053343,
+                        "expiry": 34560000.05334306,
+                        "value": "1.166387411366e5e1ef0a800419824505.42188049.1726341615.1726341615.1.3011770350",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341615053
+                    }
+                ]
+            },
+            "_ALGOLIA": {
+                "name": "_ALGOLIA",
+                "domain": "www.mec.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614729,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1741893614,
+                        "expiry": 15552000,
+                        "value": "anonymous-f10c1b1d-adf2-4c6e-b350-e52dc3ead89f",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341614728
+                    }
+                ]
+            },
+            "__kla_id": {
+                "name": "__kla_id",
+                "domain": "www.mec.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341615018,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760901615.017352,
+                        "expiry": 34560000.017352104,
+                        "value": "eyIkcmVmZXJyZXIiOnsidHMiOjE3MjYzNDE2MTUsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3Lm1lYy5jYS9lbiJ9fQ==",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341615017
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.01834893,
+                        "value": "eyJjaWQiOiJObVE0WldRNU1tWXRaR1UzTmkwME5UZzBMV0l6WWpZdE1HRTVaR1k0TVRjd016Wm0iLCIkcmVmZXJyZXIiOnsidHMiOjE3MjYzNDE2MTUsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3Lm1lYy5jYS9lbiJ9LCIkbGFzdF9yZWZlcnJlciI6eyJ0cyI6MTcyNjM0MTYxNSwidmFsdWUiOiIiLCJmaXJzdF9wYWdlIjoiaHR0cHM6Ly93d3cubWVjLmNhL2VuIn19",
+                        "same_site": "unspecified",
+                        "timestamp": 1726341615019
+                    }
+                ]
+            }
+        }
+    },
+    "pinterest.com": {
+        "/": {
+            "ar_debug": {
+                "name": "ar_debug",
+                "domain": ".pinterest.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614712,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757877614.711237,
+                        "expiry": 31536000.711236954,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614711
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000.759200096,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614759
+                    }
+                ]
+            }
+        }
+    },
+    "t.co": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".t.co",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614899,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726343414.897942,
+                        "expiry": 1800.8979420661926,
+                        "value": ".TXIKTPuYJc_AOE067KB4IOtLNAU9U5AkKrsJJUPiWE-1726341614-1.0.1.1-k16WcLbAYSH.sEV4EdSnbTKARTxIrVHOv.Hn6zs0GvZHLHkElvXJdQnPm8TtVLCZrkUw1uRtVywAFNbk798GMg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614899
+                    }
+                ]
+            },
+            "muc_ads": {
+                "name": "muc_ads",
+                "domain": ".t.co",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614899,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760901614.897921,
+                        "expiry": 34560000.897921085,
+                        "value": "8c4edb28-96b3-4ff5-928d-23090d459f09",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614898
+                    }
+                ]
+            }
+        }
+    },
+    "tiktok.com": {
+        "/": {
+            "_ttp": {
+                "name": "_ttp",
+                "domain": ".tiktok.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726341614618,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760037614.617655,
+                        "expiry": 33696000.61765504,
+                        "value": "2m4hAky3YpJwpa2odjzl8snYTP6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614617
+                    }
+                ]
+            }
+        }
+    },
+    "twitter.com": {
+        "/": {
+            "personalization_id": {
+                "name": "personalization_id",
+                "domain": ".twitter.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726341614870,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760901614.870583,
+                        "expiry": 34560000.87058306,
+                        "value": "\"v1_bXNR1Vi4K1PYv3veBJQwAg==\"",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726341614870
+                    }
+                ]
+            }
+        }
+    }
+}

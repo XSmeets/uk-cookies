@@ -1,0 +1,761 @@
+{
+    "a2a5c7f9-3fa0-4182-889a-15aa61acf59b.prmutv.co": {
+        "/": {
+            "pxid": {
+                "name": "pxid",
+                "domain": ".a2a5c7f9-3fa0-4182-889a-15aa61acf59b.prmutv.co",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398134242,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1734260534.241559,
+                        "expiry": 7862400.241559029,
+                        "value": "37c842b2-36db-42f0-ab6f-f3395af4ac00",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134242
+                    }
+                ]
+            }
+        }
+    },
+    "adnxs.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398134260,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760958134.257854,
+                        "expiry": 34560000.257853985,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134258
+                    }
+                ]
+            }
+        }
+    },
+    "connatix.com": {
+        "/": {
+            "cnx_userId": {
+                "name": "cnx_userId",
+                "domain": ".connatix.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398134553,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1728990134.552409,
+                        "expiry": 2592000.5524089336,
+                        "value": "d89151fd231a40cca1f82c70c9ac3fbc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134552
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1209600.6730430126,
+                        "value": "d89151fd231a40cca1f82c70c9ac3fbc",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134673
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398134313,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726399034.312341,
+                        "expiry": 900.3123409748077,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134312
+                    }
+                ]
+            }
+        }
+    },
+    "huffpost.com": {
+        "/": {
+            "OptanonAlertBoxClosed": {
+                "name": "OptanonAlertBoxClosed",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398166060,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934166,
+                        "expiry": 31536000,
+                        "value": "2024-09-15T11:02:46.059Z",
+                        "same_site": "lax",
+                        "timestamp": 1726398166060
+                    }
+                ]
+            },
+            "OptanonConsent": {
+                "name": "OptanonConsent",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398134544,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934134,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0",
+                        "same_site": "lax",
+                        "timestamp": 1726398134544
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false",
+                        "same_site": "lax",
+                        "timestamp": 1726398134545
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=",
+                        "same_site": "lax",
+                        "timestamp": 1726398134577
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8",
+                        "same_site": "lax",
+                        "timestamp": 1726398134603
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8&interactionCount=0&isAnonUser=1",
+                        "same_site": "lax",
+                        "timestamp": 1726398134604
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.huffpost.com%2F",
+                        "same_site": "lax",
+                        "timestamp": 1726398134606
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.huffpost.com%2F&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726398134657
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A14+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.huffpost.com%2F&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726398134658
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A46+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0",
+                        "same_site": "lax",
+                        "timestamp": 1726398166061
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "isGpcEnabled=0&datestamp=Sun+Sep+15+2024+13%3A02%3A46+GMT%2B0200+(Central+European+Summer+Time)&version=202407.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=ffc2ba4a-1809-4d32-9541-f3809eb95cf8&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=V2STACK42%3A0%2CC0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0&intType=6",
+                        "same_site": "lax",
+                        "timestamp": 1726398166085
+                    }
+                ]
+            },
+            "_awl": {
+                "name": "_awl",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398134459,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760526134.457,
+                        "expiry": 34128000.45700002,
+                        "value": "2.1726398134.5-634b0c17eb1737387a11a3d5ff3425cb-6763652d6575726f70652d7765737431-0",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134458
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398134151,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958134.148183,
+                        "expiry": 34560000.14818311,
+                        "value": "GA1.1.993378886.1726398134",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134150
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.1905241,
+                        "value": "GA1.2.993378886.1726398134",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134190
+                    }
+                ]
+            },
+            "_ga_H41V1CTY8P": {
+                "name": "_ga_H41V1CTY8P",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398134150,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958134.147896,
+                        "expiry": 34560000.14789605,
+                        "value": "GS1.1.1726398134.1.0.1726398134.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134149
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.426007986,
+                        "value": "GS1.1.1726398134.1.1.1726398169.25.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398169427
+                    }
+                ]
+            },
+            "_gat_gtag_UA_1740781_82": {
+                "name": "_gat_gtag_UA_1740781_82",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398134194,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726398194,
+                        "expiry": 60,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134193
+                    }
+                ]
+            },
+            "_gid": {
+                "name": "_gid",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726398134192,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726484534,
+                        "expiry": 86400,
+                        "value": "GA1.2.839132473.1726398134",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134191
+                    }
+                ]
+            },
+            "bf-xdomain-session-uuid": {
+                "name": "bf-xdomain-session-uuid",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398134020,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726399934,
+                        "expiry": 1800,
+                        "value": "61304eb4-71a9-4f44-aa37-e22ef928f98c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134019
+                    }
+                ]
+            },
+            "bf_visit": {
+                "name": "bf_visit",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726398134018,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760958134.016688,
+                        "expiry": 34560000.01668811,
+                        "value": "u%3D.ghnMA6Jld%26uuid%3D7218ca7c-2ce3-4b24-8e8a-2be61ac3dc52%26v%3D2",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134017
+                    }
+                ]
+            },
+            "eupubconsent-v2": {
+                "name": "eupubconsent-v2",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398166083,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934166,
+                        "expiry": 31536000,
+                        "value": "CQE_EnAQE_EnAAcABBENBHFgAAAAAAAAACiQKbtV_G__bWlr8X73aftkeY1P9_h77sQxBhfJE-4FzLvW_JwXx2ExNA36tqIKmRIAu3bBIQNlGJDUTVCgaogVryDMaE2coTNKJ6BkiFMRM2dYCF5vm4tj-QKY5vr991dx2B-t7dr83dzyz4VHn3a5_2a0WJCdA5-tDfv9bROb-9IOd_x8v4v8_F_rE2_eT1l_tWvp7D9-cts7_XW89_fff_9Ln_-uB_-_2CmoBJhoVEAZZEhIQaBhBAgBUFYQEUCAAAAEgaICAEwYFOwMAl1hIgBACgAGCAEAAKMgAQAACQAIRABAAUCAACAQKAAMACAYCABgYAAwAWAgEAAIDoGKYEECgWACRmREKYEIQCQQEtlQgkAQIK4QhFngUQCImCgAABIAKwABAWCwOJJASsSCBLiDaAAAgAQCCAAoRSdmAIIAzZai8WTaMrTAtHzBc9pgGSAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726398166080
+                    }
+                ]
+            },
+            "permutive-id": {
+                "name": "permutive-id",
+                "domain": ".huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398134118,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1742040134,
+                        "expiry": 15642000,
+                        "value": "42016c75-c98e-498d-9ad4-e087f414444f",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726398134117
+                    }
+                ]
+            },
+            "bf-geo-country": {
+                "name": "bf-geo-country",
+                "domain": ".www.huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398133813,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.86596488953,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398133866
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.03598308563,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134036
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.091299057,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134091
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09321594238,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134093
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09420990944,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134095
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09643888474,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134099
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09939289093,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134105
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.18034505844,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134181
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.18253493309,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134183
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.48042798042,
+                        "value": "GB",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398135481
+                    }
+                ]
+            },
+            "bf-geo-region": {
+                "name": "bf-geo-region",
+                "domain": ".www.huffpost.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726398133820,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.86607003212,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398133866
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.03603291512,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134036
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09135103226,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134092
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09326004982,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134094
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09426689148,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134096
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09648990631,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134099
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.09943008423,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134105
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.18046808243,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134181
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.1826300621,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134183
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 86400.48048901558,
+                        "value": "LND",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398135481
+                    }
+                ]
+            },
+            "gdpr": {
+                "name": "gdpr",
+                "domain": ".www.huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398133821,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1727607733.806615,
+                        "expiry": 1209600.8066151142,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398133821
+                    }
+                ]
+            },
+            "OneTrustWPCCPAGoogleOptOut": {
+                "name": "OneTrustWPCCPAGoogleOptOut",
+                "domain": "www.huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398166107,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934166,
+                        "expiry": 31536000,
+                        "value": "true",
+                        "same_site": "lax",
+                        "timestamp": 1726398166106
+                    }
+                ]
+            },
+            "_scor_uid": {
+                "name": "_scor_uid",
+                "domain": "www.huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398134196,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760094134,
+                        "expiry": 33696000,
+                        "value": "3f2607e69ad74354919b08c7eee2175c",
+                        "same_site": "unspecified",
+                        "timestamp": 1726398134195
+                    }
+                ]
+            },
+            "usprivacy": {
+                "name": "usprivacy",
+                "domain": "www.huffpost.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726398134262,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757934134,
+                        "expiry": 31536000,
+                        "value": "1---",
+                        "same_site": "lax",
+                        "timestamp": 1726398134262
+                    }
+                ]
+            }
+        }
+    }
+}

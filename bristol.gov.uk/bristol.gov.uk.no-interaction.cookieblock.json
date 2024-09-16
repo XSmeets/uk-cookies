@@ -1,0 +1,86 @@
+{
+    "bristol.gov.uk": {
+        "/": {
+            "ApplicationGatewayAffinity": {
+                "name": "ApplicationGatewayAffinity",
+                "domain": "bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232280873,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "f4bccd389685678005c43b15c8cc2cf6",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232280868
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "a8ee92971a76b798306860d1c38d3054",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232281446
+                    }
+                ]
+            },
+            "ApplicationGatewayAffinityCORS": {
+                "name": "ApplicationGatewayAffinityCORS",
+                "domain": "bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232280868,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "f4bccd389685678005c43b15c8cc2cf6",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232280863
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "a8ee92971a76b798306860d1c38d3054",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726232281445
+                    }
+                ]
+            },
+            "7f139727a1a02cb92270148e5343e871": {
+                "name": "7f139727a1a02cb92270148e5343e871",
+                "domain": "www.bristol.gov.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726232281448,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "9e457e718e2e78cd6d1638df75f91902",
+                        "same_site": "unspecified",
+                        "timestamp": 1726232281446
+                    }
+                ]
+            }
+        }
+    }
+}

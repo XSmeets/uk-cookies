@@ -1,0 +1,100 @@
+{
+    "dn.se": {
+        "/": {
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".dn.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149629229,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757772029,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTY4OTEtNTI3NC02OGNiLTk3OGItMjdlMDRjNzExNGUzIiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTQ6MDA6MjkuMjIzWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDE0OjAwOjI5LjIyNFoiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726149629224
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTY4OTEtNTI3NC02OGNiLTk3OGItMjdlMDRjNzExNGUzIiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTQ6MDA6MjkuMjIzWiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDE0OjAwOjM3LjM3M1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiYzpibi1pZnJhZ2FzYXR0IiwiYzprbGFybmFiYW4tYXdFdGZQZFciLCJjOmJuLWtlZXNpbmciLCJjOmJuLVRUIl0sImRpc2FibGVkIjpbImdvb2dsZSIsImM6aG90amFyYW5hbHlzIiwiYzprcnV4LWRpZ2l0YWwiLCJjOnF1YW50Y2FzdC1tZWFzdXJlbWVudCIsImM6bWljcm9zb2Z0LWFuYWx5dGljcyIsImM6Ym9ubmllcm5ld3MtcmV5bm9sZHMiLCJjOmJuLWZhY2Vib29rIiwiYzpibi1nb29nbGVtYXBzIiwiYzpibi1pbnN0YWdyYW0iLCJjOmJuLXNwb3RpZnkiLCJjOmJuLXlvdXR1YmUiLCJjOmdvb2dsZWFuYWx5dGljcyIsImM6Ym4tc2NyZWVuOSIsImM6Ym4tdHdpdHRlciIsImM6a29ydGlvLXlaa213MmZGIiwiYzp6bWFydGEtZ1hMWUVKZVkiLCJjOmJpbHdlYi1YbWFxbmc4RyIsImM6Z29vZ2xlYWRzIiwiYzpvcnZlc3RvIiwiYzpibi1wcmVubHkiLCJjOmJvbm5pZXJuZXdzIiwiYzppcHJvc3BlY3QtNjJFQmpkdEciLCJjOm1pY3Jvc29mdCIsImM6ZGlkb21pIl19LCJwdXJwb3NlcyI6eyJkaXNhYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiYW5hbHlzdXR2LUJjQ3E0VkVxIiwibWFya25hZHNmby1HNmhOcWdxbSIsImVtYmVkcyIsImdlb2xvY2F0aW9uX2RhdGEiLCJjb29raWVzZm8tRUREVWl4VmQiLCJmdW5rdGlvbmVsLXQybWVZQ2VxIl19LCJ2ZW5kb3JzX2xpIjp7ImRpc2FibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6MiwiYWMiOiJBQUFBLkFBQUEifQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726149637385
+                    }
+                ]
+            },
+            "euconsent-v2": {
+                "name": "euconsent-v2",
+                "domain": ".dn.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149637386,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757772037,
+                        "expiry": 31622400,
+                        "value": "CQE1dYAQE1dYAAHABBENBGFgAAAAAAAAACQgAAAAAAAA.YAAAAAAAAAAA",
+                        "same_site": "lax",
+                        "timestamp": 1726149637385
+                    }
+                ]
+            },
+            "weight": {
+                "name": "weight",
+                "domain": ".dn.se",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726149628956,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1733925628.945494,
+                        "expiry": 7776000.945493937,
+                        "value": "17",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149628948
+                    }
+                ]
+            },
+            "bau_rmp_freq": {
+                "name": "bau_rmp_freq",
+                "domain": "www.dn.se",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726149632135,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726153232.131853,
+                        "expiry": 3600.1318531036377,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726149632133
+                    }
+                ]
+            }
+        }
+    }
+}

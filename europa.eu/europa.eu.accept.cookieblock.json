@@ -1,0 +1,109 @@
+{
+    "european-union.europa.eu": {
+        "/": {
+            "cck1": {
+                "name": "cck1",
+                "domain": ".european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167422456,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741719422,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Afalse%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167422451
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Afalse%2C%22all1st%22%3Afalse%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167422462
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000,
+                        "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Atrue%2C%22closed%22%3Afalse%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726167435078
+                    }
+                ]
+            },
+            "_pk_id.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33": {
+                "name": "_pk_id.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33",
+                "domain": "european-union.europa.eu",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726167422635,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760122622,
+                        "expiry": 33955200,
+                        "value": "17967cd9616ed666.1726167423.0.1726167423..",
+                        "same_site": "lax",
+                        "timestamp": 1726167422634
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "17967cd9616ed666.1726167423.0.1726167423..",
+                        "same_site": "lax",
+                        "timestamp": 1726167422636
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 33955200,
+                        "value": "17967cd9616ed666.1726167423.1.1726167423.1726167423.",
+                        "same_site": "lax",
+                        "timestamp": 1726167422637
+                    }
+                ]
+            },
+            "_pk_ses.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33": {
+                "name": "_pk_ses.c9513597-70e6-4b84-80c5-36f9dddf8c7c.9f33",
+                "domain": "european-union.europa.eu",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726167422638,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726169222,
+                        "expiry": 1800,
+                        "value": "*",
+                        "same_site": "lax",
+                        "timestamp": 1726167422637
+                    }
+                ]
+            }
+        }
+    }
+}

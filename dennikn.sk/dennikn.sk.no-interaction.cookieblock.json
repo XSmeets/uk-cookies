@@ -1,0 +1,587 @@
+{
+    "adnxs.com": {
+        "/": {
+            "receive-cookie-deprecation": {
+                "name": "receive-cookie-deprecation",
+                "domain": ".adnxs.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060699428,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760620699.42716,
+                        "expiry": 34560000.427160025,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699427
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 34560000.45312095,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699453
+                    }
+                ]
+            }
+        }
+    },
+    "dennikn.sk": {
+        "/": {
+            "AdTrack-cookies": {
+                "name": "AdTrack-cookies",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060699267,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726060700,
+                        "expiry": 1,
+                        "value": "1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060699267
+                    }
+                ]
+            },
+            "_ga": {
+                "name": "_ga",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726060698763,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760620698.756903,
+                        "expiry": 34560000.75690293,
+                        "value": "GA1.1.750659610.1726060699",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698762
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.99452591,
+                        "value": "GA1.1.750659610.1726060699",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698996
+                    }
+                ]
+            },
+            "_ga_4VG8KH4F8N": {
+                "name": "_ga_4VG8KH4F8N",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698995,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760620698.993687,
+                        "expiry": 34560000.993686914,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698994
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.994031906,
+                        "value": "GS1.1.1726060698.1.0.1726060698.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698996
+                    }
+                ]
+            },
+            "_ga_XTZVRP4SF9": {
+                "name": "_ga_XTZVRP4SF9",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698761,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760620698.756357,
+                        "expiry": 34560000.756356955,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698756
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.756556034,
+                        "value": "GS1.1.1726060698.1.0.1726060698.60.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698762
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.237957954,
+                        "value": "deleted",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060700238
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.238487005,
+                        "value": "GS1.1.1726060698.1.0.1726060700.58.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060700239
+                    }
+                ]
+            },
+            "browser_id": {
+                "name": "browser_id",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060698930,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760620698.929371,
+                        "expiry": 34560000.92937112,
+                        "value": "4387d2d7-ef2a-44db-8e83-4176cf1d1d28",
+                        "same_site": "lax",
+                        "timestamp": 1726060698929
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.02291107,
+                        "value": "4387d2d7-ef2a-44db-8e83-4176cf1d1d28",
+                        "same_site": "lax",
+                        "timestamp": 1726060699036
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.067312,
+                        "value": "4387d2d7-ef2a-44db-8e83-4176cf1d1d28",
+                        "same_site": "lax",
+                        "timestamp": 1726060699068
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.31385493,
+                        "value": "4387d2d7-ef2a-44db-8e83-4176cf1d1d28",
+                        "same_site": "lax",
+                        "timestamp": 1726060700314
+                    }
+                ]
+            },
+            "campaigns": {
+                "name": "campaigns",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060698912,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760620698.911511,
+                        "expiry": 34560000.911510944,
+                        "value": "{}",
+                        "same_site": "lax",
+                        "timestamp": 1726060698911
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.02336311,
+                        "value": "{}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699036
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.233912945,
+                        "value": "{}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699234
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.234087944,
+                        "value": "{\"czAlEQ\":{\"sn\":0,\"ct\":1,\"ut\":1726060699},\"JGAddO\":{\"sn\":0,\"ct\":1,\"ut\":1726060699}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699234
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.41138792,
+                        "value": "{\"czAlEQ\":{\"sn\":1,\"ct\":1,\"vi\":\"6M0koH\",\"bi\":\"Yqd4IQ\",\"ut\":1726060699},\"JGAddO\":{\"sn\":0,\"ct\":1,\"ut\":1726060699}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699412
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 34560000.416480064,
+                        "value": "{\"czAlEQ\":{\"sn\":1,\"ct\":1,\"vi\":\"6M0koH\",\"bi\":\"Yqd4IQ\",\"ut\":1726060699},\"JGAddO\":{\"sn\":1,\"ct\":1,\"vi\":\"d2OIUZ\",\"bi\":\"7pXr82\",\"ut\":1726060699}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699416
+                    }
+                ]
+            },
+            "campaigns_session": {
+                "name": "campaigns_session",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060699413,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726061599,
+                        "expiry": 900,
+                        "value": "{\"czAlEQ\":{\"sn\":1,\"ut\":1726060699}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699412
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "{\"czAlEQ\":{\"sn\":1,\"ut\":1726060699},\"JGAddO\":{\"sn\":1,\"ut\":1726060699}}",
+                        "same_site": "lax",
+                        "timestamp": 1726060699418
+                    }
+                ]
+            },
+            "remp_session_id": {
+                "name": "remp_session_id",
+                "domain": ".dennikn.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698931,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726061598,
+                        "expiry": 900,
+                        "value": "406ae385-0549-41e8-a65b-088d7f651642",
+                        "same_site": "lax",
+                        "timestamp": 1726060698931
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "406ae385-0549-41e8-a65b-088d7f651642",
+                        "same_site": "lax",
+                        "timestamp": 1726060699068
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 900,
+                        "value": "406ae385-0549-41e8-a65b-088d7f651642",
+                        "same_site": "lax",
+                        "timestamp": 1726060700316
+                    }
+                ]
+            },
+            "cabrio": {
+                "name": "cabrio",
+                "domain": "dennikn.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698581,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757596698,
+                        "expiry": 31536000,
+                        "value": "A",
+                        "same_site": "unspecified",
+                        "timestamp": 1726060698576
+                    }
+                ]
+            },
+            "cookietest": {
+                "name": "cookietest",
+                "domain": "dennikn.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698927,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726060698926
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726060698928
+                    }
+                ]
+            },
+            "dn_os_minute_prompt": {
+                "name": "dn_os_minute_prompt",
+                "domain": "dennikn.sk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698849,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760620698.84796,
+                        "expiry": 34560000.847959995,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726060698848
+                    }
+                ]
+            }
+        }
+    },
+    "doubleclick.net": {
+        "/": {
+            "test_cookie": {
+                "name": "test_cookie",
+                "domain": ".doubleclick.net",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698941,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726061598.939728,
+                        "expiry": 900.9397280216217,
+                        "value": "CheckForPermission",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060698940
+                    }
+                ]
+            }
+        }
+    },
+    "onesignal.com": {
+        "/": {
+            "__cf_bm": {
+                "name": "__cf_bm",
+                "domain": ".onesignal.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726060698657,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726062498.656707,
+                        "expiry": 1800.6567070484161,
+                        "value": "fzzyPqJATifyhn9RJC_fG0aSvQ8nbeOPfl3hcKIJQ7M-1726060698-1.0.1.1-Ph8mRhmpaco9o.imArGCCjwHUfTp9puSG3AlSZVPlKY7fljc4oG4dk0JdtqGkJIP8dZxaKzdICZqhc1PDa3glw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060698657
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060699534,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741612699.533084,
+                        "expiry": 15552000.533083916,
+                        "value": "d4ibcVj2qyY",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699534
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.5771389,
+                        "value": "cD3WyRLlmkw",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699578
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726060699536,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741612699.533111,
+                        "expiry": 15552000.533111095,
+                        "value": "CgJHQhIEGgAgVQ%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699534
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 15552000.577173948,
+                        "value": "CgJHQhIEGgAgJQ%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699578
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726060699533,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "ZpCFsJBEg40",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699533
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "cu5uEo4J-Qs",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726060699578
+                    }
+                ]
+            }
+        }
+    }
+}

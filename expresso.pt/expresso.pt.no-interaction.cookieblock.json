@@ -1,0 +1,263 @@
+{
+    "cdns.eu1.gigya.com": {
+        "/": {
+            "apiDomain_3_Keh-vvOJF0c3PnVWIjJq4mUYEcPbPd_wyFIv7mWCIUxdSQ3KMj_TlU3TEqOi7LoK": {
+                "name": "apiDomain_3_Keh-vvOJF0c3PnVWIjJq4mUYEcPbPd_wyFIv7mWCIUxdSQ3KMj_TlU3TEqOi7LoK",
+                "domain": ".cdns.eu1.gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111368,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681111,
+                        "expiry": 31536000,
+                        "value": "eu1.gigya.com",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111367
+                    }
+                ]
+            },
+            "gig_canary_3_Keh-vvOJF0c3PnVWIjJq4mUYEcPbPd_wyFIv7mWCIUxdSQ3KMj_TlU3TEqOi7LoK": {
+                "name": "gig_canary_3_Keh-vvOJF0c3PnVWIjJq4mUYEcPbPd_wyFIv7mWCIUxdSQ3KMj_TlU3TEqOi7LoK",
+                "domain": ".cdns.eu1.gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111606,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681111,
+                        "expiry": 31536000,
+                        "value": "false",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111604
+                    }
+                ]
+            },
+            "gig_canary_ver_3_Keh-vvOJF0c3PnVWIjJq4mUYEcPbPd_wyFIv7mWCIUxdSQ3KMj_TlU3TEqOi7LoK": {
+                "name": "gig_canary_ver_3_Keh-vvOJF0c3PnVWIjJq4mUYEcPbPd_wyFIv7mWCIUxdSQ3KMj_TlU3TEqOi7LoK",
+                "domain": ".cdns.eu1.gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111607,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681111,
+                        "expiry": 31536000,
+                        "value": "16174-3-28769070",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111607
+                    }
+                ]
+            }
+        }
+    },
+    "expresso.pt": {
+        "/": {
+            "didomi_token": {
+                "name": "didomi_token",
+                "domain": ".expresso.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111023,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757767511,
+                        "expiry": 31622400,
+                        "value": "eyJ1c2VyX2lkIjoiMTkxZTY0NDItM2U4Zi02Mjg5LTlmOTAtNzkzMDUwNWVlODU0IiwiY3JlYXRlZCI6IjIwMjQtMDktMTJUMTI6NDU6MTEuMDE2WiIsInVwZGF0ZWQiOiIyMDI0LTA5LTEyVDEyOjQ1OjExLjAxN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+                        "same_site": "lax",
+                        "timestamp": 1726145111018
+                    }
+                ]
+            },
+            "gig_bootstrap_3_SlQdOiQ8k-7grQ_Mx0LfKus2fvYJ7ge7QRBxXcLAk0x_hhvxLLYiLrGZwQrLpUlW": {
+                "name": "gig_bootstrap_3_SlQdOiQ8k-7grQ_Mx0LfKus2fvYJ7ge7QRBxXcLAk0x_hhvxLLYiLrGZwQrLpUlW",
+                "domain": ".expresso.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111544,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681111,
+                        "expiry": 31536000,
+                        "value": "_gigya_ver4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111544
+                    }
+                ]
+            },
+            "gig_canary": {
+                "name": "gig_canary",
+                "domain": ".expresso.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111151,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "false",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145111150
+                    }
+                ]
+            },
+            "gig_canary_ver": {
+                "name": "gig_canary_ver",
+                "domain": ".expresso.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111153,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "16174-3-28769070",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145111151
+                    }
+                ]
+            },
+            "imp-store-cookie": {
+                "name": "imp-store-cookie",
+                "domain": "expresso.pt",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111100,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726145111095",
+                        "same_site": "unspecified",
+                        "timestamp": 1726145111096
+                    }
+                ]
+            }
+        }
+    },
+    "gigya.com": {
+        "/": {
+            "gig3pctest": {
+                "name": "gig3pctest",
+                "domain": ".gigya.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726145111370,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726145112,
+                        "expiry": 1,
+                        "value": "true",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111370
+                    }
+                ]
+            },
+            "gmid": {
+                "name": "gmid",
+                "domain": ".gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111541,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681111.539936,
+                        "expiry": 31536000.539936066,
+                        "value": "gmid.ver4.AcbHLz97EA.2T6DB4AJ4yAxZHCncd47oww4Ns3kCk8HnaZQEsnjXm2KxUnhHiMBeOJfDyauA6oG.a3bETuIC9pBMng4XBN6NyBx062ShJfyk7Qf5xa4A7MHzppapzJsTQtX9P9nLas0MvqTvcO0_LrhfCKbBawioPA.sc3",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111540
+                    }
+                ]
+            },
+            "hasGmid": {
+                "name": "hasGmid",
+                "domain": ".gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111543,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741787111.540012,
+                        "expiry": 15642000.540011883,
+                        "value": "ver4",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111543
+                    }
+                ]
+            },
+            "ucid": {
+                "name": "ucid",
+                "domain": ".gigya.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726145111542,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757681111.53999,
+                        "expiry": 31536000.53998995,
+                        "value": "Vd6OD8sPX6KnRHbpGA0Dqg",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726145111541
+                    }
+                ]
+            }
+        }
+    }
+}

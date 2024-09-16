@@ -1,0 +1,46 @@
+{
+    "gapcanada.ca": {
+        "/": {
+            "prlb": {
+                "name": "prlb",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334276030,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334276026
+                    }
+                ]
+            },
+            "s-prlb": {
+                "name": "s-prlb",
+                "domain": ".gapcanada.ca",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726334276025,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "e",
+                        "same_site": "unspecified",
+                        "timestamp": 1726334276015
+                    }
+                ]
+            }
+        }
+    }
+}

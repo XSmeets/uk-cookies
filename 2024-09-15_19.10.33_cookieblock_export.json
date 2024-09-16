@@ -1,0 +1,37 @@
+{
+    "casetext.com": {
+        "/": {
+            "cf_chl_rc_ni": {
+                "name": "cf_chl_rc_ni",
+                "domain": "casetext.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726420209807,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726423809,
+                        "expiry": 3600,
+                        "value": "1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726420209801
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 3600,
+                        "value": "2",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726420213916
+                    }
+                ]
+            }
+        }
+    }
+}

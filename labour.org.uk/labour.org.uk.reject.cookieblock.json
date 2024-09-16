@@ -1,0 +1,133 @@
+{
+    "labour.org.uk": {
+        "/": {
+            "cookieyes-consent": {
+                "name": "cookieyes-consent",
+                "domain": ".labour.org.uk",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726233251508,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757769251,
+                        "expiry": 31536000,
+                        "value": "consentid:RjBrWlpsYVJsZnpjTG53VkFPSFgxeGZLSVpRaDMxQUY,consent:,action:,necessary:,functional:,analytics:,performance:,advertisement:,other:",
+                        "same_site": "strict",
+                        "timestamp": 1726233251503
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:RjBrWlpsYVJsZnpjTG53VkFPSFgxeGZLSVpRaDMxQUY,consent:no,action:,necessary:yes,functional:no,analytics:,performance:,advertisement:,other:",
+                        "same_site": "strict",
+                        "timestamp": 1726233252832
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:RjBrWlpsYVJsZnpjTG53VkFPSFgxeGZLSVpRaDMxQUY,consent:no,action:,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no,other:no",
+                        "same_site": "strict",
+                        "timestamp": 1726233252834
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:RjBrWlpsYVJsZnpjTG53VkFPSFgxeGZLSVpRaDMxQUY,consent:no,action:yes,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no,other:no",
+                        "same_site": "strict",
+                        "timestamp": 1726233254220
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 31536000,
+                        "value": "consentid:RjBrWlpsYVJsZnpjTG53VkFPSFgxeGZLSVpRaDMxQUY,consent:no,action:yes,necessary:yes,functional:no,analytics:no,performance:no,advertisement:no,other:no",
+                        "same_site": "strict",
+                        "timestamp": 1726233254226
+                    }
+                ]
+            }
+        }
+    },
+    "youtube.com": {
+        "/": {
+            "VISITOR_INFO1_LIVE": {
+                "name": "VISITOR_INFO1_LIVE",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233251709,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741785251.708205,
+                        "expiry": 15552000.708204985,
+                        "value": "BT5i-a6z2Oo",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233251709
+                    }
+                ]
+            },
+            "VISITOR_PRIVACY_METADATA": {
+                "name": "VISITOR_PRIVACY_METADATA",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726233251715,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741785251.708236,
+                        "expiry": 15552000.70823598,
+                        "value": "CgJHQhIEGgAgPg%3D%3D",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233251710
+                    }
+                ]
+            },
+            "YSC": {
+                "name": "YSC",
+                "domain": ".youtube.com",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726233251708,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "5rMrF2ICxcM",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726233251708
+                    }
+                ]
+            }
+        }
+    }
+}

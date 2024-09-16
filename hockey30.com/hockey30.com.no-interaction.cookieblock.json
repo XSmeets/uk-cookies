@@ -1,0 +1,68 @@
+{
+    "hockey30.com": {
+        "/": {
+            "cf_clearance": {
+                "name": "cf_clearance",
+                "domain": ".hockey30.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726329855657,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757865855.657524,
+                        "expiry": 31536000.65752411,
+                        "value": "xjMLdq78DWAbdHFuMvdv2sPEHtQdxry_Pk9R_wi9NiE-1726329855-1.2.1.1-vTl1oKKW6uyON7Ko15ChVNH.UUiXq7JGgCEWRbw_UYZRS8R3.qsYW2XSMRL16eGa5nWz6jKcSDuV49gtDZaSBA3pNGFLA1mVxzcnNHZtqWfT4u20n01qsf6SGYBQtscvQcCXM5f2z4pYGMV9rI1xGD_R.uHiNlOXm3_WDmeWLpyMrzE41iosJEBptOdK5SWZJjgEfEWxN9JoCvf59yUksDF3lIW9rrZoxIdDAXscmaSI.Tgaq5aJPVmYP53OEgR6wuL5R9dfdVZvEhrZ_86rdVIXVFv234RBwkexCv0313BXGxk2G.DE9faAZCdLGeEaeLkhEger1WaP4u48VE2hSUC.VHlUtFeup.Dg37jdUsgr1D1zTAAhHRsxC36jX6dSvyZLTKt.4UCzD2dD6_QYkQ",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726329855657
+                    }
+                ]
+            },
+            "cfz_google-analytics_v4": {
+                "name": "cfz_google-analytics_v4",
+                "domain": ".hockey30.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726329855464,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1757865855.453545,
+                        "expiry": 31536000.453545094,
+                        "value": "%7B%22KNFZ_engagementDuration%22%3A%7B%22v%22%3A%220%22%2C%22e%22%3A1757865855474%7D%2C%22KNFZ_engagementStart%22%3A%7B%22v%22%3A%221726329855474%22%2C%22e%22%3A1757865855474%7D%2C%22KNFZ_counter%22%3A%7B%22v%22%3A%221%22%2C%22e%22%3A1757865855474%7D%2C%22KNFZ_ga4sid%22%3A%7B%22v%22%3A%221015439731%22%2C%22e%22%3A1726331655474%7D%2C%22KNFZ_session_counter%22%3A%7B%22v%22%3A%221%22%2C%22e%22%3A1757865855474%7D%2C%22KNFZ_ga4%22%3A%7B%22v%22%3A%223414dac2-818e-47a6-a9dd-895d51b313b8%22%2C%22e%22%3A1757865855474%7D%2C%22KNFZ__z_ga_audiences%22%3A%7B%22v%22%3A%223414dac2-818e-47a6-a9dd-895d51b313b8%22%2C%22e%22%3A1757865855474%7D%2C%22KNFZ_let%22%3A%7B%22v%22%3A%221726329855474%22%2C%22e%22%3A1757865855474%7D%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726329855458
+                    }
+                ]
+            },
+            "cfzs_google-analytics_v4": {
+                "name": "cfzs_google-analytics_v4",
+                "domain": ".hockey30.com",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726329855458,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "%7B%22KNFZ_pageviewCounter%22%3A%7B%22v%22%3A%221%22%7D%7D",
+                        "same_site": "lax",
+                        "timestamp": 1726329855454
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "meteo.gc.ca": {
+        "/": {
+            "_ga": {
+                "name": "_ga",
+                "domain": ".meteo.gc.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345742071,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760905742.061667,
+                        "expiry": 34560000.061666965,
+                        "value": "GA1.1.192613509.1726345742",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345742070
+                    }
+                ]
+            },
+            "_ga_KNMK57PBSK": {
+                "name": "_ga_KNMK57PBSK",
+                "domain": ".meteo.gc.ca",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726345742070,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760905742.061205,
+                        "expiry": 34560000.06120491,
+                        "value": "GS1.1.1726345742.1.0.1726345742.0.0.0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726345742066
+                    }
+                ]
+            }
+        }
+    }
+}

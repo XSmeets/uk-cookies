@@ -1,0 +1,604 @@
+{
+    "demdex.net": {
+        "/": {
+            "demdex": {
+                "name": "demdex",
+                "domain": ".demdex.net",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726148196640,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741700196.638929,
+                        "expiry": 15552000.63892889,
+                        "value": "37839409541580681811994517769308363429",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148196639
+                    }
+                ]
+            }
+        }
+    },
+    "inps.it": {
+        "/": {
+            "BIGip_stat": {
+                "name": "BIGip_stat",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196410,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1617579314",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196409
+                    }
+                ]
+            },
+            "cc_cookie": {
+                "name": "cc_cookie",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148199797,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1741872999,
+                        "expiry": 15724800,
+                        "value": "{\"level\":[\"tecnici\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false}",
+                        "same_site": "lax",
+                        "timestamp": 1726148199796
+                    }
+                ]
+            },
+            "com.adobe.alloy.getTld": {
+                "name": "com.adobe.alloy.getTld",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148196365,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "com.adobe.alloy.getTld",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196364
+                    }
+                ]
+            },
+            "dTValidationCookie": {
+                "name": "dTValidationCookie",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196251,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "dTValidationCookieValue",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196250
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "dTValidationCookieValue",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148198092
+                    }
+                ]
+            },
+            "dtCookie": {
+                "name": "dtCookie",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726148196253,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_-2D56_sn_L28L0NHNNHFND8NRT7P5T2S4PTBTU81C",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196252
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_1_sn_L28L0NHNNHFND8NRT7P5T2S4PTBTU81C_app-3A44c845e6f35894e6_0_ol_0_perc_100000_mul_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148198090
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_1_sn_L28L0NHNNHFND8NRT7P5T2S4PTBTU81C_app-3A44c845e6f35894e6_0_ol_0_perc_100000_mul_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148200037
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_1_sn_L28L0NHNNHFND8NRT7P5T2S4PTBTU81C_app-3A44c845e6f35894e6_0_ol_0_perc_100000_mul_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148200052
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "v_4_srv_1_sn_L28L0NHNNHFND8NRT7P5T2S4PTBTU81C_app-3A44c845e6f35894e6_0_ol_0_perc_100000_mul_1",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148200069
+                    }
+                ]
+            },
+            "dtPC": {
+                "name": "dtPC",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148196256,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-56$548196249_772h1vKPGBKJINIPJPBUPDMLRWTWHRCCKTAACH-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196256
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-56$548196249_772h1vKPGBKJINIPJPBUPDMLRWTWHRCCKTAACH-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196653
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-56$548196249_772h2vKPGBKJINIPJPBUPDMLRWTWHRCCKTAACH-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196702
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-56$548196249_772h1vKPGBKJINIPJPBUPDMLRWTWHRCCKTAACH-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196712
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-56$548196249_772h-vKPGBKJINIPJPBUPDMLRWTWHRCCKTAACH-0e0",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196712
+                    }
+                ]
+            },
+            "dtSa": {
+                "name": "dtSa",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148196652,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196651
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "-",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148202755
+                    }
+                ]
+            },
+            "kndctr_06F9BFD15A2171460A495CF8_AdobeOrg_cluster": {
+                "name": "kndctr_06F9BFD15A2171460A495CF8_AdobeOrg_cluster",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196655,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1726149996,
+                        "expiry": 1800,
+                        "value": "irl1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148196655
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "irl1",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148196794
+                    }
+                ]
+            },
+            "kndctr_06F9BFD15A2171460A495CF8_AdobeOrg_identity": {
+                "name": "kndctr_06F9BFD15A2171460A495CF8_AdobeOrg_identity",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 3,
+                "label_ts": 1726148196656,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": true,
+                        "session": false,
+                        "expirationDate": 1760276196,
+                        "expiry": 34128000,
+                        "value": "CiYzNzcwNzg5ODM2ODI4OTg0MzU5MTk3OTk1NjU4OTY0Nzk0OTY1NVITCJHyzLOeMhABGAEqBElSTDEwAPABkfLMs54y",
+                        "same_site": "no_restriction",
+                        "timestamp": 1726148196655
+                    }
+                ]
+            },
+            "rxVisitor": {
+                "name": "rxVisitor",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726148196254,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726148196252CLVB265OQNBFG83C4FQCVMJF1T8AR01J",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196253
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726148196252CLVB265OQNBFG83C4FQCVMJF1T8AR01J",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148198036
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726148196252CLVB265OQNBFG83C4FQCVMJF1T8AR01J",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148200041
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726148196252CLVB265OQNBFG83C4FQCVMJF1T8AR01J",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148200070
+                    }
+                ]
+            },
+            "rxvt": {
+                "name": "rxvt",
+                "domain": ".inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196256,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726149996252|1726148196252",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196255
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726149996651|1726148196252",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196653
+                    },
+                    {
+                        "host_only": false,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "1726149996702|1726148196252",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196702
+                    }
+                ]
+            },
+            "cookiesession1": {
+                "name": "cookiesession1",
+                "domain": "inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196078,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757684196,
+                        "expiry": 31536000,
+                        "value": "678B287FE2B34235E60C34CD7E039CCC",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196070
+                    }
+                ]
+            },
+            "_pk_id.2.ff96": {
+                "name": "_pk_id.2.ff96",
+                "domain": "www.inps.it",
+                "path": "/",
+                "current_label": 2,
+                "label_ts": 1726148196662,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1760103397,
+                        "expiry": 33955201,
+                        "value": "26e9678750dcd0f8.1726148197.",
+                        "same_site": "lax",
+                        "timestamp": 1726148196662
+                    }
+                ]
+            },
+            "_pk_ses.2.ff96": {
+                "name": "_pk_ses.2.ff96",
+                "domain": "www.inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196663,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726149996,
+                        "expiry": 1800,
+                        "value": "1",
+                        "same_site": "lax",
+                        "timestamp": 1726148196663
+                    }
+                ]
+            },
+            "aem_dict_flag": {
+                "name": "aem_dict_flag",
+                "domain": "www.inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196379,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726234596,
+                        "expiry": 86400,
+                        "value": "true",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196378
+                    }
+                ]
+            },
+            "affinity": {
+                "name": "affinity",
+                "domain": "www.inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196181,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": true,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "\"73e1079a9c904ad0\"",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196176
+                    }
+                ]
+            },
+            "lang": {
+                "name": "lang",
+                "domain": "www.inps.it",
+                "path": "/",
+                "current_label": 1,
+                "label_ts": 1726148196340,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": true,
+                        "expiry": 0,
+                        "value": "it",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196339
+                    }
+                ]
+            },
+            "s_gpv": {
+                "name": "s_gpv",
+                "domain": "www.inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196369,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1726149996,
+                        "expiry": 1800,
+                        "value": "portale%20inps%20-%20home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196368
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196658
+                    },
+                    {
+                        "host_only": true,
+                        "http_only": false,
+                        "secure": false,
+                        "session": false,
+                        "expiry": 1800,
+                        "value": "home",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196659
+                    }
+                ]
+            }
+        }
+    },
+    "servizi2.inps.it": {
+        "/": {
+            "cookiesession1": {
+                "name": "cookiesession1",
+                "domain": "servizi2.inps.it",
+                "path": "/",
+                "current_label": 0,
+                "label_ts": 1726148196412,
+                "storeId": "1",
+                "variable_data": [
+                    {
+                        "host_only": true,
+                        "http_only": true,
+                        "secure": false,
+                        "session": false,
+                        "expirationDate": 1757684197.408492,
+                        "expiry": 31536001.40849209,
+                        "value": "678B2869540AE3DDCAF0697D2F338D46",
+                        "same_site": "unspecified",
+                        "timestamp": 1726148196411
+                    }
+                ]
+            }
+        }
+    }
+}
